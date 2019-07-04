@@ -20,13 +20,13 @@ BAN_REQUEST_ACCEPT_BROADCAST: '§f[§cModeration§f] %s§a accept §fa request o
 BAN_REQUEST_REJECT_BROADCAST: '§f[§cModeration§f] %s§c decline §fa request on blocked to §e%s'
 BAN_ACCEPT_FORMAT: '/banrequests accept <the nickname of the offender>'
 BAN_REJECT_FORMAT: '/banrequests reject <the nickname of the offender>'
-BANIP_REQUEST_SENT: '§eВаша просьба заблокировать данный ip адрес отправлена всем онлайн-модераторам'
-BANIP_REQUEST_ALREADY_SENT: '§cПросьба заблокировать данный ip адрес уже отправлялась, ожидайте решения'
+BANIP_REQUEST_SENT: '§eYour a request block ip address sended all online-moderators'
+BANIP_REQUEST_ALREADY_SENT: '§cA request block ip address already sended, wait problem'
 BANIP_REQUEST_BROADCAST: '§f[§cModeration§f] %s§f просит заблокировать ip адрес §a%s§f на %s §fпо причине §e%s'
-BANIP_REQUEST_ACCEPT_BROADCAST: '§f[§cModeration§f] %s§a одобрил §fпросьбу на блокировку адреса §a%s'
-BANIP_REQUEST_REJECT_BROADCAST: '§f[§cModeration§f] %s§c отклонил §fпросьбу на блокировку адреса §a%s'
-BANIP_REQUEST_ACCEPT: '%s §aОдобрил ваш запрос на блокировку адреса %s'
-BANIP_REQUEST_REJECT: '%s §cОтклонил ваш запрос на блокировку адреса %s'
+BANIP_REQUEST_ACCEPT_BROADCAST: '§f[§cModeration§f] %s§a accepted §fпросьбу for blocking address §a%s'
+BANIP_REQUEST_REJECT_BROADCAST: '§f[§cModeration§f] %s§c no accepted §fa request for blocking address §a%s'
+BANIP_REQUEST_ACCEPT: '%s §aaccepted your request for blocking address %s'
+BANIP_REQUEST_REJECT: '%s §cno accepted your request for blocking address %s'
 
 BAN_REQUEST_HOVER: '§fClick to accept the request'
 
@@ -37,7 +37,7 @@ BAN_REQUEST_REJECT: '%s §cDenied your request for a lock %s'
 
 BAN_REQUEST_FOR_PERSONAL:
  - "§cYou can't send a lock request to the server staff"
- - '§cДля этого exists discussion on group https://vk.com/topic-157663196_39337015'
+ - '§cFor it exists discussion on group https://vk.com/topic-157663196_39337015'
 
 CONVERT_FORMAT: '/convert <валюта> <sum>'
 CONVERT_ERROR: '§cError, you must specify only a positive number!'
@@ -51,7 +51,7 @@ CORE_SERVER_CONNECTION_CLOSED: '§f[§cCore§f] §fServer §a%s§f §cdisconnect
 PROXY_COMMAND: '§f[§cCore§f] §fReceived command §a%s'
 CORE_HANDSHAKE_WRONG_OF_HOST: 'wrong host'
 CORE_HANDSHAKE_WRONG_OF_PASSWORD: 'wrong password'
-CORE_HANDSHAKE_WRONG_OF_COREID: 'core id §e%s§3, не соответствует подключаемому §c%s'
+CORE_HANDSHAKE_WRONG_OF_COREID: 'wrong coreid §e%s§3, does not match the plug §c%s'
 CORE_HANDSHAKE_CONNECTION_CLOSED: '§f[§cCore§f] §fConnection §a%s§f closed for reason: §3%s'
 CORE_HANDSHAKE_CONNECTION_CONFIRM: '§f[§cCore§f] §fConnection §a%s§f successful accepted (§e#%s§f)'
  
@@ -85,23 +85,23 @@ NO_CONNECT_REASON: "§cError#13, Synchronization is not executed. Report, if err
 CORE_NO_FOUND_PLAYER_SERVER_MSG: '§f[§cServer§f] §fError, you server not found in main core, you redirected to §a%s'
 CORE_NO_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If error repeated, report » §a§nvk.com/flycore\n\n§fError code (§c%s§f)"
 PROXY_CORE_LOST_CONNECTION:
-- '§f[§cCore§f] §fПрокси-сервер отключен от ядра. До следующего подключения будет недоступен переход по серверам, и некоторые команды.'
-- ' Ожидайте переподключения...'
-#- '§f[§cCore§f] §cПрокси-сервер, на котором вы сейчас находились, был отключен от главного ядра.'
-#- '§f[§cCore§f] §fСейчас вам временно будут недоступны некоторые команды и переход между серверами.'
-#- '§f[§cCore§f] §fПросим набратся немного терпения и подождать, мы оповестим вас когда все стабилизируется :)'
+- '§f[§cCore§f] §fProxy-server offline by core. For 2 connent will be no access connection to servers, and commands.'
+- ' Wait connent...'
+#- '§f[§cCore§f] §cProxy-server, for which you now connented, was offline by core.'
+#- '§f[§cCore§f] §fNow you temp will noaccess commands and connenting to servers.'
+#- '§f[§cCore§f] §fPlease be patient and wait a bit, we will let you know when everything is stabilized :)'
 PROXY_CORE_LOST_CONNECTION_TITLE: ''
 #§c✗ Соединение потеряно §c✗
 PROXY_CORE_LOST_CONNECTION_SUBTITLE: ''
 #§fПрокси-сервер был отключен от главного ядра
 PROXY_RECONNECTED_PLAYER:
-- '§f[§cCore§f] §fПереподключение к серверу... [§a%s§f/§a%s§f]'
+- '§f[§cCore§f] §fConnenting to server... [§a%s§f/§a%s§f]'
 PROXY_RECONNECTED_PLAYER_TITLE: ''
 #§6⚠ Выполняется переподключение. . 
 PROXY_RECONNECTED_PLAYER_SUBTITLE: ''
 #§fПожалуйста подождите
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL:
-- '§f[§cCore§f] §fСоединение с прокси-сервером восстановлено. Вы снова можете использовать переход по серверам и команды.'
+- '§f[§cCore§f] §fConnention proxy-server restored. You again can use connention servers and commands.'
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
 #§a✔ Соединение восстановлено §a✔
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
