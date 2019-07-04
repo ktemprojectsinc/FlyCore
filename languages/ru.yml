@@ -3991,6 +3991,8 @@ GUI_SITESHOP_OBS_LORE:
 - ' §8• §7Обсидиан §8x8'
 GUI_SITESHOP_VILLAGER_LORE:
 - ' §8• §7Житель §8x1'
+GUI_SITESHOP_GOLDEN_APPLE_LORE:
+- ' §8• §7Золотые яблоки §8x5'
 
 SITESHOP_BOOK: 'Книги'
 SITESHOP_ELYTRA: 'Элитра'
@@ -4001,6 +4003,7 @@ SITESHOP_END: 'Портал в Энд'
 SITESHOP_BLAZE: 'Огенный стержень'
 SITESHOP_OBS: 'Обсидиан'
 SITESHOP_VILLAGER: 'Житель'
+SITESHOP_GOLDEN_APPLE: 'Золотые яблоки'
 
 GUI_GAMESERVERS_NAME: 'Выберите тип игры'
 GUI_GAMESERVERS_NAME_MAP: 'Выбор карты'
