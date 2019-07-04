@@ -2,7 +2,6 @@
 
 SERVER: '§f[§cServer§f] §f'
 SERVER_RESTART: 'Restarting...'
-SERVER_STOPPING: 'Stopping...'
 COMMAND_DOUBLE: '§f[§cServer§f] §fPlease use the commands §cwithout the §fcolon'
 
 ENABLED: '§aEnabled'
@@ -58,6 +57,8 @@ CORE_HANDSHAKE_CONNECTION_CONFIRM: '§f[§cCore§f] §fConnection §a%s§f succe
  
 TYPE_YES: 'Yes'
 TYPE_NO: 'No'
+TYPE_NONE: 'None'
+TYPE_UNKNOWN: 'Unknown'
 
 DEFAULT: '§7User'
 GOLD: '§eGold'
