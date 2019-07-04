@@ -57,8 +57,6 @@ CORE_HANDSHAKE_CONNECTION_CONFIRM: '§f[§cCore§f] §fConnection §a%s§f succe
  
 TYPE_YES: 'Yes'
 TYPE_NO: 'No'
-TYPE_NONE: 'None'
-TYPE_UNKNOWN: 'Unknown'
 
 DEFAULT: '§7User'
 GOLD: '§eGold'
@@ -312,7 +310,7 @@ PLAYER_BOOST_PLEASE_MADE_SCREENSHOT:
 - '§cДанная проверка сделана исключительно для вашей безопасности'
 
 AVAILABLE_SERVER_NOT_FOUND:
-- '§f[§cServer§f] §fНе удалось найти подходящий server'
+- '§f[§cServer§f] §fNo found server'
 
 SERVER_NOT_AVAILABLE_GROUP: '§cError, вход доступен только для %s§c и выше'
 PLAYER_SERVER_ALREADY: '§f[§cServer§f] §cYou already on current server!'
@@ -321,8 +319,8 @@ SLOT_BUSY: '§cПростите, но вы были перемещены в ло
 ERROR_TELEPORT: '§cОшибка телепортации в лобби'
 ONLY_DONATOR: '§cОшибка, на арене только донатеры'
 ARENA_BUSY: '§cАрена заполнена, не хватает слотов? Купите §eGold§c или выше'
-ARENA_START: '§cИгра начинается...'
-ARENA_RESTART: '§cСервер перезагружается...'
+ARENA_START: '§cGame starting...'
+ARENA_RESTART: '§cArena restarting...'
 
 PLAYER_JOIN_ARENA: '%s§f зашел в игру (§a%s§f/§a%s§f)'
 PLAYER_QUIT_ARENA: '%s§f покинул игру (§c%s§f/§a%s§f)'
@@ -343,9 +341,9 @@ GAME_PLAYER_KILLED_INFO: '%s §fубил игрока %s'
 GAME_PLAYER_KILLED_FELL_OUT_WORLD: '%s §fвыпал из мира'
 GAME_TEAM_WIN: '§eПобедила команда §8- %s'
 GAME_SOLO_WIN: '§eПобедил игрок §8- %s'
-GAME_CHAT_SPECTATORS: '§8[§7Наблюдателям§8]'
-GAME_CHAT_GLOBAL: '§8[Всем§8] [%s§8]'
-GAME_CHAT_TEAM: '§8[Команде§8]'
+GAME_CHAT_SPECTATORS: '§8[§7Spectators§8]'
+GAME_CHAT_GLOBAL: '§8[All§8] [%s§8]'
+GAME_CHAT_TEAM: '§8[Command§8]'
 GAME_TEAM_GAME_OVER: 'Команда %s§f проиграла'
 
 LUCKYWARS_INFO:
@@ -394,13 +392,13 @@ REWARDS_8: '§7+§e%s§f Golds'
 
 PRIZE_GET: |-
  §f[§cRewards§f] §fВы получили награду за §b%s§f уровень:
- §8 • §7+§6%s§f Монет
+ §8 • §7+§6%s§f Money
  §8 • §7+§d%s§f Косметических ключей
  §8 • §7+§d%s§f Денежных ключей
  §8 • §7+§d%s§f Косметическо-игровых ключей
- §8 • §7+§d%s§f Ультра ключей
+ §8 • §7+§d%s§f Ultra cases
 PRIZE_ALREADY: '§cВы уже забирали награду за данный уровень...'
-PRIZE_STATS: ' §8 • §7+%s§f Статус'
+PRIZE_STATS: ' §8 • §7+%s§f Status'
 PRIZE_NO_LEVEL: '§cУ вас должен быть минимум 1 уровень, чтобы получить награду'
 
 ANS_REASON: '1.16. (Offtopic)'
@@ -534,8 +532,8 @@ ITEM_GADGETS_HAT: '§aHat'
 ITEM_GADGETS_BANNER: '§aBanner'
 ITEM_GAME_EXIT_NAME: '§eExit'
 ITEM_GAME_EXIT_LORE:
-- '§7Используйте этот предмет,'
-- '§7чтобы покинуть арену'
+- '§7Use this item,'
+- '§7what to leave arena'
 ITEM_TEAMS_NAME: '§eSelect team'
 ITEM_TEAMS_LORE:
 - '§7Используйте этот предмет,'
@@ -561,7 +559,7 @@ TRAINING_PREFIX: '§f[§cTraining§f] §f'
 TRAINING_PREFIX_HOVER: '   §8 -| §6§lTraining §8|-'
 TRAINING_PREFIX_HOVER_LANG: '   §8 -| §6§lLanguage §8|-'
 
-TRAINING_FIRST_TITLE: '§fWelcome %s'
+TRAINING_FIRST_TITLE: '§fWelcome §e%s'
 TRAINING_FIRST_SUBTITLE: '§7You are on the serverе: §e§l§nFlyCore'
 
 #Stage 0
@@ -643,7 +641,7 @@ CREATIVE_COMMANDS: '§f[§cServer§f] §fPlease create your plot §c/p auto§f, 
 BOARD_NEWS: 'News: §7'
 BOARD_PLAYERS: 'Players'
 BOARD_TEAMS: 'Teams'
-BOARD_FOR_START: 'Для старта нужно'
+BOARD_FOR_START: 'For start need'
 BOARD_TIME: 'Time'
 BOARD_MAPS: 'Map'
 BOARD_MODULES: 'Modules'
