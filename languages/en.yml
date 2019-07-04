@@ -2,7 +2,6 @@
 
 SERVER: '§f[§cServer§f] §f'
 SERVER_RESTART: 'Restarting...'
-SERVER_CLOSED_PLAYER_CONNECTION: '§f[§cServer§f] §fServer §a%s §fshut down your connection, Your server is installed on §a%s'
 COMMAND_DOUBLE: '§f[§cServer§f] §fPlease use the commands §cwithout the §fcolon'
 
 ENABLED: '§aEnabled'
@@ -14,6 +13,7 @@ BANINFO_BY_ANOTHER: '§7[By request %s§7]'
 
 BAN_REQUEST_SENT: '§eYour request to block this player has been sent to all online moderators'
 BAN_REQUEST_ALREADY_SENT: '§cPlease block this player has already been sent, wait for decision'
+SERVER_CLOSED_PLAYER_CONNECTION: '§f[§cServer§f] §fServer §a%s §fshut down your connection, Your server is installed on §a%s'
 
 BAN_REQUEST_BROADCAST: '§f[§cModeration§f] %s §flock requests %s§f on %s §fbecause of §e%s'
 BAN_REQUEST_ACCEPT_BROADCAST: '§f[§cModeration§f] %s§a accept §fa request on blocked to §e%s'
@@ -58,25 +58,26 @@ CORE_HANDSHAKE_CONNECTION_CONFIRM: '§f[§cCore§f] §fConnection §a%s§f succe
 TYPE_YES: 'Yes'
 TYPE_NO: 'No'
 
-DEFAULT: '§7Default'
-GOLD: '§eGold'
-EMERALD: '§aEmerald'
-GOLEM: '§fGolem'
-DIAMOND: '§bDiamond'
-ENDERMAN: '§5Enderman'
-TESTER: '§6Tester'
-BUILDER: '§3Builder'
-YOUTUBE: '§6YouTube'
-JUNIOR: '§2Junior'
-HELPER: '§2Helper'
-MODER: '§9Moderator'
-ADMIN: '§4Admin'
-SPONSOR: '§eSponsor'
-JDEVELOPER: '§5J. Dev.'
-DEVELOPER: '§5Developer'
-ELITE: '§aElite'
-GAMERPRO: '§5Gamer§6Pro'
-GAMER: '§5Gamer'
+DEFAULT: 'Default'
+GOLD: 'Gold'
+EMERALD: 'Emerald'
+GOLEM: 'Golem'
+DIAMOND: 'Diamond'
+ENDERMAN: 'Enderman'
+TESTER: 'Tester'
+BUILDER: 'Builder'
+YOUTUBE: 'YouTube'
+JUNIOR: 'Junior'
+HELPER: 'Helper'
+MODER: 'Moderator'
+ADMIN: 'Admin'
+OWNER: 'Owner'
+SPONSOR: 'Sponsor'
+JDEVELOPER: 'J. Dev.'
+DEVELOPER: 'Developer'
+ELITE: 'Elite'
+GAMERPRO: 'Gamer§6Pro'
+GAMER: 'Gamer'
 
 SERVER_RESTARTING_BROADCAST: '§cBefore a restart remained, §e%s§c %s'
 SERVER_RESTARTING_MESSAGE: '§f[§cServer§f] §fServer from you current, restarted..'
@@ -84,20 +85,27 @@ NO_CONNECT_REASON: "§cError#13, Synchronization is not executed. Report, if err
 CORE_NO_FOUND_PLAYER_SERVER_MSG: '§f[§cServer§f] §fError, you server not found in main core, you redirected to §a%s'
 CORE_NO_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If error repeated, report » §a§nvk.com/flycore\n\n§fError code (§c%s§f)"
 PROXY_CORE_LOST_CONNECTION:
-- '§f[§cCore§f] §cПрокси-сервер, на котором вы сейчас находились, был отключен от главного ядра.'
-- '§f[§cCore§f] §fСейчас вам временно будут недоступны некоторые команды и переход между серверами.'
-- '§f[§cCore§f] §fПросим набратся немного терпения и подождать, мы оповестим вас когда все стабилизируется :)'
+- '§f[§cCore§f] §fПрокси-сервер отключен от ядра. До следующего подключения будет недоступен переход по серверам, и некоторые команды.'
+- ' Ожидайте переподключения...'
+#- '§f[§cCore§f] §cПрокси-сервер, на котором вы сейчас находились, был отключен от главного ядра.'
+#- '§f[§cCore§f] §fСейчас вам временно будут недоступны некоторые команды и переход между серверами.'
+#- '§f[§cCore§f] §fПросим набратся немного терпения и подождать, мы оповестим вас когда все стабилизируется :)'
 PROXY_CORE_LOST_CONNECTION_TITLE: ''
+#§c✗ Соединение потеряно §c✗
 PROXY_CORE_LOST_CONNECTION_SUBTITLE: ''
+#§fПрокси-сервер был отключен от главного ядра
 PROXY_RECONNECTED_PLAYER:
-- '§f[§cCore§f] §fReconnected to server... [§a%s§f/§a%s§f]'
+- '§f[§cCore§f] §fПереподключение к серверу... [§a%s§f/§a%s§f]'
 PROXY_RECONNECTED_PLAYER_TITLE: ''
+#§6⚠ Выполняется переподключение. . 
 PROXY_RECONNECTED_PLAYER_SUBTITLE: ''
+#§fПожалуйста подождите
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL:
-- '§f[§cCore§f] §fСоединение с прокси-сервером восстановлено.'
-- '§f[§cCore§f] §fВы снова можете использовать команды и переход между серверами.'
+- '§f[§cCore§f] §fСоединение с прокси-сервером восстановлено. Вы снова можете использовать переход по серверам и команды.'
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
+#§a✔ Соединение восстановлено §a✔
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
+#§fКоманды и переход по серверам снова доступен
 
 SECOND_0: 'second'
 SECOND_1: ''
@@ -129,10 +137,10 @@ BONUSE_1: ''
 BONUSE_2: ''
 BONUSE_3: 's'
 
-MONEY_0: 'money'
+MONEY_0: 'coin'
 MONEY_1: ''
 MONEY_2: ''
-MONEY_3: ''
+MONEY_3: 's'
 
 GOLD_0: 'gold'
 GOLD_1: ''
@@ -214,13 +222,13 @@ EFFECTSHOP_EFFECT_NOT_LEVEL: '§cFor buying this effect, your need level §d%s§
 EFFECTSHOP_SOUND_NOT_LEVEL: '§cFor buying this sound, your need level §d%s§c or higher'
 
 PLAYER_NO_MONEY:
-- '§f[§cСервер§f] §fНа вашем счёте недостаточно money. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§f[§cServer§f] §fНа вашем счёте недостаточно money. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 PLAYER_NO_GOLD:
-- '§f[§cСервер§f] §fНа вашем счёте недостаточно golds. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§f[§cServer§f] §fНа вашем счёте недостаточно golds. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 PLAYER_NO_LEVEL:
-- '§f[§cСервер§f] §fНа вашем счёте недостаточно level. Приобрести опыт можно на сайте §cflycore.ru'
+- '§f[§cServer§f] §fНа вашем счёте недостаточно level. Приобрести опыт можно на сайте §cflycore.ru'
 PLAYER_NO_KEYS:
-- '§f[§cСервер§f] §fНа вашем счёте недостаточно keys. Приобрести ключи можно на сайте §cflycore.ru'
+- '§f[§cServer§f] §fНа вашем счёте недостаточно keys. Приобрести ключи можно на сайте §cflycore.ru'
 
 PLAYER_GADGETS_BANNER_NO_GROUP: '§cFor buying this banner, your need privilege %s§c or higher'
 PLAYER_GADGETS_HAT_NO_GROUP: '§cFor buying this hat, your need privilege %s§c or higher'
@@ -310,7 +318,7 @@ PLAYER_SERVER_ALREADY: '§f[§cServer§f] §cYou already on current server!'
 SLOT_BUSY: '§cПростите, но вы были перемещены в лобби, ваше место занял §r%s'
 ERROR_TELEPORT: '§cОшибка телепортации в лобби'
 ONLY_DONATOR: '§cОшибка, на арене только донатеры'
-ARENA_BUSY: '§cАрена заполнена, не хватает слотов? Купите §e§lGOLD§c или выше'
+ARENA_BUSY: '§cАрена заполнена, не хватает слотов? Купите §eGold§c или выше'
 ARENA_START: '§cИгра начинается...'
 ARENA_RESTART: '§cСервер перезагружается...'
 
@@ -412,8 +420,8 @@ LEVEL_NOT: '§cError, rewards can receive only 5 level or higher'
 REDIRECT_TO_SERVER: '§aTeleported to server %s'
 SERVER_QUEUE: '§aTeleported to server %s'
 
-TAB_HEADER: "§a§l§nFlyCore\n"
-TAB_FOOTER: "\n§fVK: §cvk.com/flycore\n§fServer: §c%s"
+TAB_HEADER: "§bYou are playing on §a§l§nFLYCORE.RU"
+TAB_FOOTER: "§a§lRanks, Keys, & MORE §c§lSTORE.FLYCORE.RU"
 
 REDIRECT_ERROR: '§cUnable to find suitable server('
 HUBS_ERROR: '§cError, lobby unavailable, try again later'
@@ -547,7 +555,7 @@ ITEM_DONATE_LORE:
 - '§7Detalied information about the features'
 - '§7privileges and their purchase'
 
-TRAINING_PREFIX: '§6Training §8| §f'
+TRAINING_PREFIX: '§f[§cTraining§f] §f'
 TRAINING_PREFIX_HOVER: '   §8 -| §6§lTraining §8|-'
 TRAINING_PREFIX_HOVER_LANG: '   §8 -| §6§lLanguage §8|-'
 
@@ -621,7 +629,7 @@ TRAINING_STAGE_3_MSG_20_SUBTITLE: '§cкогда откроется меню, н
 #Stage 5
 TRAINING_STAGE_5_TITLE: '§aОтлично!'
 TRAINING_STAGE_5_SUBTITLE: '§fА теперь давайте выйдем в лобби командой §e/lobby'
-TRAINING_STAGE_5_HUBMESSAGE: '§6Training §8| §fWrite a command §e/lobby'
+TRAINING_STAGE_5_HUBMESSAGE: '§f[§cTraining§f] §fWrite a command §e/lobby'
 TRAINING_STAGE_5_HOVER: '§fClick to write a command /lobby'
 
 #Stage 6
@@ -694,11 +702,12 @@ VERIFY_UPDATED_BROADCAST: '§f[§cVerify§f] %s§f updated dats his session'
 VERIFY_ERROR_BROADCAST: '§f[§cVerify§f] %s§c written wrong code'
 VERIFY_BLOCKED_BROADCAST: '§f[§cVerify§f] %s§4 was blocked'
 VERIFY_REMOVED_BROADCAST: '§f[§cVerify§f] %s§f removed data his session'
+VERIFY_NOT_ENABLED: '§f[§cVerify§f] §cДля вас недоступна данная аунтефикация'
 
 NO_PERMISSION: '§cYou do not have permissions'
 NO_PERMISSION_GROUP: '§cYou do not have permissions, buy %s§c or higher'
-NO_PERMISSION_ENDERMAN_ONLY: '§cYou do not have permissions, this function is only for §5§lENDERMAN'
-NO_PERMISSION_ONLY: '§cYou do not have permissions, this function is only for %s'
+NO_PERMISSION_ENDERMAN_ONLY: '§cThis function is only for §5Enderman'
+NO_PERMISSION_ONLY: '§cThis function is only for %s'
 
 REPORT_FORMAT: '/report <nickname> <reason>'
 WHOIS_FORMAT: '/whois <nickname>'
@@ -749,7 +758,7 @@ API_CHANGE_SUCCESS: '§f[§cAPI§f] §fКлюч доступа успешно и
 API_RESET_SUCCESS: '§f[§cAPI§f] §fКлюч доступа успешно удален'
 API_NOT_FOUND: '§f[§cAPI§f] §cНа вашем аккаунте еще не создан ключ доступа, создайте его командой /api create'
 
-SPAWN_TELEPORT: '%sTeleporting on spawn...'
+SPAWN_TELEPORT: 'Teleporting on spawn...'
 
 SPAWN_DELAY: '§cWait %s before next teleportation'
 SPAWN_START: '%sProcess of teleportation is running, you will be teleported in §a3§f seconds'
@@ -1226,11 +1235,11 @@ GET_REWARD: '§7Go to the profile to get your reward'
 LEVEL_COMMAND_1: '§f[§cLevel§f] §fYou have §d%s§f level'
 LEVEL_COMMAND_2: '§f[§cLevel§f] §fTo the next level you need §a%s§f exp more'
 
-BOX_NO_KEY: '§bLuckyChest §8| §cYou have not keys'
-BOX_WORK: '§bLuckyChest §8| §cWait... Chest scrolls!'
-BOX_OPEN_YOU: '§bLuckyChest §8| §fYou started open a chest...'
-BOX_WINNER: '§bLuckyChest §8| §fYou won %s§f item %s'
-BOX_WINNER_OTHER: '§bLuckyChest §8| %s §fWon %s§f item %s'
+BOX_NO_KEY: '§f[§cLuckyChest§f] §cYou have not keys'
+BOX_WORK: '§f[§cLuckyChest§f] §cWait... Chest scrolls!'
+BOX_OPEN_YOU: '§f[§cLuckyChest§f] §fYou started open a chest...'
+BOX_WINNER: '§f[§cLuckyChest§f] §fYou won %s§f item %s'
+BOX_WINNER_OTHER: '§f[§cLuckyChest§f] %s §fWon %s§f item %s'
 BOX_KEYS: '§dCosmetic keys §f(§6+%s§f)'
 BOX_EXP: '§eExperience §f(§a+%s§f)'
 BOX_MONEY: '§aCoins §f(§6+%s§f)'
@@ -1249,11 +1258,11 @@ BOX_HAT: '§e%s §f(Hat)'
 BOX_BANNER: '§b%s §f(Banner)'
 BOX_STATS: '%s §f(Stats)'
 BOX_BOOSTER: '%s §f(Booster)'
-BOX_EFFECT_ALREADY: '§bLuckyChest §8| §fYou has already this effect, You get §6+%s §f%s'
-BOX_HAT_ALREADY: '§bLuckyChest §8| §fYou has already this hat, You get §6+%s §f%s'
-BOX_BANNER_ALREADY: '§bLuckyChest §8| §fYou has already this banner, You get §6+%s §f%s'
-BOX_STATS_ALREADY: '§bLuckyChest §8| §fYou has already this stats, You got §e+%s §f%s'
-BOX_BOOSTER_ALREADY: '§bLuckyChest §8| §fYou has already activated this booster, You got §6+%s §f%s'
+BOX_EFFECT_ALREADY: '§f[§cLuckyChest§f] §fYou has already this effect, You get §6+%s §f%s'
+BOX_HAT_ALREADY: '§f[§cLuckyChest§f] §fYou has already this hat, You get §6+%s §f%s'
+BOX_BANNER_ALREADY: '§f[§cLuckyChest§f] §fYou has already this banner, You get §6+%s §f%s'
+BOX_STATS_ALREADY: '§f[§cLuckyChest§f] §fYou has already this stats, You got §e+%s §f%s'
+BOX_BOOSTER_ALREADY: '§f[§cLuckyChest§f] §fYou has already activated this booster, You got §6+%s §f%s'
 
 STAFFCHAT_MSG: '§eStaffchat §8| §f%s §8» §f%s'
 TESTERCHAT_MSG: '§6Testers chat §8| §f%s §8» §f%s'
@@ -1798,11 +1807,11 @@ TRAINING_STAGE_0_YES: '§f[§cServer§f] §fYou confirmed language §a%s'
 TRAINING_STAGE_0_NTITLE: '§aFine! §6You selected language'
 TRAINING_STAGE_0_NSUBTITLE: ''
 
-TRAINING_STAGE_1_NO: '§6Training §8| §fYou отказались от training, later можно будет passing to §c/training'
+TRAINING_STAGE_1_NO: '§f[§cTraining§f] §fYou отказались от training, later можно будет passing to §c/training'
 
-TRAINING_ALREADY: '§6Training §8| §cYou already passing training'
-TRAINING_NOT_FOUND: '§6Training §8| §cTraining for You is not found, it removed'
-TRAINING_REMOVE: '§6Training §8| §fYou removed training, Вы больше не сможете его проходить...'
+TRAINING_ALREADY: '§f[§cTraining§f] §cYou already passing training'
+TRAINING_NOT_FOUND: '§f[§cTraining§f] §cTraining for You is not found, it removed'
+TRAINING_REMOVE: '§f[§cTraining§f] §fYou removed training, Вы больше не сможете его проходить...'
 
 BAN_NOT_FOUND: '§cHistory blocked account player is empty'
 MUTE_NOT_FOUND: '§cHistory blocked chat player is empty'
@@ -1972,11 +1981,11 @@ INVSEE_FORMAT: '/invsee <name>'
 
 KIT_FORMAT: '/kit <enderman/diamond/golem/emerald/gold>'
 KIT_DELAY: '§cNext kit will be available in %s'
-KIT_ENDERMAN: 'You got kit §5§lENDERMAN'
-KIT_DIAMOND: 'You got kit §b§lDIAMOND'
-KIT_GOLEM: 'You got kit §f§lGOLEM'
-KIT_EMERALD: 'You got kit §a§lEMERALD'
-KIT_GOLD: 'You got kit §e§lGOLD'
+KIT_ENDERMAN: 'You got kit §5Enderman'
+KIT_DIAMOND: 'You got kit §bDiamond'
+KIT_GOLEM: 'You got kit §fGolem'
+KIT_EMERALD: 'You got kit §aEmerald'
+KIT_GOLD: 'You got kit §eGold'
 
 PWEATHER_STORM: 'rainy'
 PWEATHER_CLEAR: 'sunny'
@@ -2072,7 +2081,7 @@ PARKOUR_MODULE_TITLE: '§fModule §e%s§7/§a%s§f passed'
 PARKOUR_MODULE_ALREADY: '§f[§cParkour§f] §cYou already passed this module'
 PARKOUR_MODULE_NO: "§f[§cParkour§f] §cYou didn't pass the modeule"
 
-NO_PERMISSION_STATS: '§cError, view statistic other players can only §b§lDIAMOND§c or higher'
+NO_PERMISSION_STATS: '§cError, view statistic other players can only §bDiamond§c or higher'
 
 STAFFCHAT_ENABLED: '§f[§cModeration§f] %s§f now sees staff chat'
 STAFFCHAT_DISABLED: '§f[§cModeration§f] %s§f is no longer see staff chat'
@@ -2228,50 +2237,57 @@ FORUM_ACCOUNT_REGISTRED: |-
  §fLogin may on: §cforum.flycore.ru
 FORUM_ACCOUNT_ALREADY: '§cError, forum account already snap, authorization to forum.flycore.ru'
 
-MESSAGES_21_BROADCAST: "\n §8| §fВсе арены §cпереполнены§f, не хватает слотов?\n §8| §fПриобретите §e§lGOLD§f на сайте §dmg.flycore.ru\n §8| §fи данная проблема будет решена\n"
-MESSAGES_21_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_20_BROADCAST: "\n §8| §fПокупай §e§lGOLD§f по очень §dпривлекательной§f цене\n §8| §fУже с ней вы получите достойное количество §eвозможностей\n §8| §fкоторые сделают вашу игру §aинтереснее\n"
-MESSAGES_20_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_19_BROADCAST: "\n §8| §fПривилегия §a§lEMERALD§f дает большое\n §8| §fколичество §bбонусов§f и §eвозможностей§f за умеренную цену.\n §8| §fЗаинтересовало? Покупай на сайте §dmg.flycore.ru\n"
-MESSAGES_19_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_18_BROADCAST: "\n §8| §fДля того, чтобы играть с друзьями\n §8| §fдостаточно просто написать команду §c/party <ник>\n §8| §fИ всех игроков будет перемещать за лидером\n"
-MESSAGES_18_HOVER_BROADCAST: "§fНажмите сюда"
-MESSAGES_17_BROADCAST: "\n §8| §fНа сервере есть много разных §eвозможностей\n §8| §fи §dбонусов§f доступ к которым имеют только донатеры,\n §8| §fинформация о донате §c/donate\n"
-MESSAGES_17_HOVER_BROADCAST: "§fНажмите сюда для\n§fчтобы открыть меню"
-MESSAGES_16_BROADCAST: "\n §8| §5§lENDERMAN§f - лучшая привилегия сервера,\n §8| §fсочетает в себе максимальное количество\n §8| §eвозможностей§f и §dбонусов§f для комфортной игры\n"
-MESSAGES_16_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_15_BROADCAST: "\n §8| §f§a§lEMERALD§f - самая популярная привилегия\n §8| §fкоторая сочетает в себе §aоптимальную цену§f и\n §8| §eвозможности§f, покупка на сайте §dmg.flycore.ru\n"
-MESSAGES_15_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_14_BROADCAST: "\n §8| §fВы уже купили §eдонат§f, а теперь хотите статус §bповыше§f?\n §8| §CТолько у нас§f вы можете приобрести новую\n §8| §fпривилегию с доплатой на сайте §dmg.flycore.ru\n"
-MESSAGES_14_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_13_BROADCAST: "\n §8| §fЕсли вы увидели §cнарушителя§f или §cчитера§f, то\n §8| §fВоспользуйтесь командой §c/report <ник>\n §8| §fи вашу §eжалобу§f рассмотрят в режиме реального времени\n"
-MESSAGES_13_HOVER_BROADCAST: "§fНажмите сюда"
-MESSAGES_12_BROADCAST: "\n §8| §C⚠ Внимание §fХотите узнать чужую статистику?\n §8| §fДля §b§lDIAMOND§f и выше доступна\n §8| §fкоманда §c/stats <ник игрока>\n"
-MESSAGES_12_HOVER_BROADCAST: "§fНажмите сюда"
-MESSAGES_11_BROADCAST: "\n §8| §fСнимаешь §cлетсплеи§f, §cобзоры§f, любишь §cпостримить\n §8| §fс друзьями? Привилегия §6YouTube§f специально для тебя!\n §8| §fЗаинтересовало? Покупай на сайте §dmg.flycore.ru\n"
-MESSAGES_11_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_10_BROADCAST: "\n §8| §fХотите обеспечить §aбезопасность§f своему аккаунту?\n §8| §fТогда привяжите его к вашей почте\n §8| §fкомандой §c/email add <почта> <повтор почты>\n"
-MESSAGES_10_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_9_BROADCAST: "\n §8| §fПоявились §eвопросы§f, на которые Вы §cне знаете ответ?\n §8| §fНапишите команду §c/ask <ваш вопрос>\n §8| §aОнлайн администрация§f поможет Вам §bв реальном времени\n"
-MESSAGES_9_HOVER_BROADCAST: "§fНажмите сюда"
-MESSAGES_8_BROADCAST: "\n §8| §fХотите §dуникальные§f, скрытые §eфункции§f и §aвозможности§f?\n §8| §fПокупайте донат у нас и получайте доступ к\n §8| §fдонат-меню командой §c/donatemenu\n"
-MESSAGES_8_HOVER_BROADCAST: "§fНажмите сюда для\n§fчтобы открыть меню"
-MESSAGES_7_BROADCAST: "\n §8| §fУ вас §cпроблемы§f или вы нашли какой-то §cбаг§f?\n §8| §fНапишите нам в группу §bvk.com/flycore\n §8| §fи вам §aобязательно§f ответят в ближайшее время\n"
-MESSAGES_7_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_6_BROADCAST: "\n §8| §fПосетите нашу группу §9VK§f и ты будишь всегда\n §8| §fв курсе последних новостей §eсервера\n §8| §fПереходи по ссылке §bvk.com/flycore\n"
-MESSAGES_6_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_5_BROADCAST: "\n §8| §fХотите обсудить свою §aпобеду§f или оспорить §cпроигрыш§f,\n §8| §fа может ты Хотите найти новых §eдрузей§f?\n §8| §fЗаходи на наш форум §dmg.flycore.ru\n"
-MESSAGES_5_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-#MESSAGES_4_BROADCAST: "\n §8| §e✰ Конкурс ✰ §fГолосуй за сервер\n §8| §fпо ссылкам: §dmonitoringminecraft.ru/top/FilkWorldNew §fи §dmc-servera.ru/79129\n §8| §fПодробности в нашей группе §avk.com/flycore\n"
-#MESSAGES_4_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_4_BROADCAST: "\n §8| §fПоявились §eвопросы§f, на которые Вы §cне знаете ответ?\n §8| §fНапишите команду §c/ask <ваш вопрос>\n §8| §aОнлайн администрация§f поможет Вам §bв реальном времени\n"
-MESSAGES_4_HOVER_BROADCAST: "§fНажмите сюда"
-MESSAGES_3_BROADCAST: "\n §8| §fЕсли вы увидели §cнарушителя§f или §cчитера§f, то\n §8| §fВоспользуйтесь командой §c/report <ник>\n §8| §fи вашу §eжалобу§f рассмотрят в режиме реального времени\n"
-MESSAGES_3_HOVER_BROADCAST: "§fНажмите сюда"
-MESSAGES_2_BROADCAST: "\n §8| §fСнимаешь §cлетсплеи§f, §cобзоры§f, любишь §cпостримить\n §8| §fс друзьями? Привилегия §6YouTube§f специально для тебя!\n §8| §fЗаинтересовало? Покупай на сайте §dmg.flycore.ru\n"
-MESSAGES_2_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
-MESSAGES_1_BROADCAST: "\n §8| §fПосетите нашу группу §9VK§f и ты будишь всегда\n §8| §fв курсе последних новостей §eсервера\n §8| §fПереходи по ссылке §bvk.com/flycore\n"
-MESSAGES_1_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
+BOSSBAR_1_MESSAGE: "§fCRUSHING §cPRICE §fCOLLAPSE! ALL PRICES WERE §aREDUCED §fBY §615%"
+BOSSBAR_2_MESSAGE: "§fPURCHASE§e OF DONAT §fON THE SITE §7► §c§lFLYCORE.RU"
+BOSSBAR_3_MESSAGE: "§c§lNEW! §fNEW MODE OPEN §6§lCREATIVE§f!"
+BOSSBAR_4_MESSAGE: "§fREPORT ABOUT§c BAGUE§f OR§c ERRORS §7► §c§lFLYCORE.RU/BUGS"
+BOSSBAR_5_MESSAGE: "§c§lNEW! §fOPENING NEW MODE §6§lPARKOUR§f!"
+BOSSBAR_6_MESSAGE: "§fASK YOUR QUESTION §cADMINISTRATIONS§f COMMAND §7► §d/ASK"
+
+MESSAGES_21_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fAll arenas §ccrowded§f, not enough slots?\n§fPurchase §eGold§f on site §dflycore.ru\n§fand this problem will be solved\n"
+MESSAGES_21_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+MESSAGES_20_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fPurchase §eGold§f by very §dattractive§f price\n§fAlready with her you will get a decent amount §eof opportunities\n§fthat will make your game §amore interesting\n"
+MESSAGES_20_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+MESSAGES_19_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fPrivilege §aEmerald§f gives more\n§fquantity §bbonuses§f and §eof opportunities§f for a reasonable price.\n§fInterested? Buying on site §dflycore.ru\n"
+MESSAGES_19_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+MESSAGES_18_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fTo play with friends\n§fjust write a command §c/party <nick>\n§fAnd all players will be moved behind the leader\n"
+MESSAGES_18_HOVER_BROADCAST: "§fClick here"
+MESSAGES_17_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fThere are many different §epossibilities§f on the server\n§fand §dbonuses§f access to which only donators have,\n§finformation about donate §c/donate\n"
+MESSAGES_17_HOVER_BROADCAST: "§fClick here to\n§fto menu open"
+MESSAGES_16_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§5Gamer§6Pro§f - best server privilege,\n§fcombines the maximum amount\n§efeatures§f and §dbonuses§f for a comfortable game\n"
+MESSAGES_16_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+MESSAGES_15_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§f§aEmerald§f - most popular privilege\n§fwhich combines §abest price§f and\n§efeatures§f, buying on site §dflycore.ru\n"
+MESSAGES_15_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+MESSAGES_14_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fYou already bought §edonat§f, now you want a §bhigher§f status?\n§COnly here§f you can purchase a new one\n§fprivilege with surcharge on the site §dflycore.ru\n"
+MESSAGES_14_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+MESSAGES_13_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fIf you saw §cthe intruder§f or §ccheater§f, that\n§fUse the command §c/report <nick>\n§fand your §ecomplaint§f complaint will be reviewed in real time\n"
+MESSAGES_13_HOVER_BROADCAST: "§fClick here"
+MESSAGES_12_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§C⚠ Warning §fWant to change the skin?\n§fFor all players available\n§fcommand §c/skin <nickname of player with skin>\n"
+MESSAGES_12_HOVER_BROADCAST: "§fClick here"
+MESSAGES_11_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fYou rec §cletsplay§f, §coverview§f, love §cstream\n§fwith friends? Privilege §6YouTube§f specially for you!\n§fInterested? Buying on site §dflycore.ru\n"
+MESSAGES_11_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+MESSAGES_10_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fWant to §asecure§f your account?\n§fThen tie it to your mail\n§fcommand §c/email add <mail> <repeat mail>\n"
+MESSAGES_10_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+MESSAGES_9_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fAppeared §eare questions§f, to which you §cdo not know the answer?\n§fWrite a team §c/ask <your question>\n§aOnline administration§f will help you §bin real time\n"
+MESSAGES_9_HOVER_BROADCAST: "§fClick here"
+MESSAGES_8_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fWant §dunique§f, hidden §afeatures§f and §acapabilities§f?\n§fBuy Donat from us and get access to\n§fdonat-menu command §c/donatemenu\n"
+MESSAGES_8_HOVER_BROADCAST: "§fClick here to\n§fto menu open"
+MESSAGES_7_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fYou have §cproblems§f or you have found some §cbug§f?\n§fWrite to us in the group §bvk.com/flycore\n§fand you §awill be§f answered soon\n"
+MESSAGES_7_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+MESSAGES_6_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fVisit our group §9VK§f and you will always\n§fin the latest news §eserver\n§fFollow the link §bvk.com/flycore\n"
+MESSAGES_6_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+MESSAGES_5_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fWant to discuss your §awin§f or challenge the §closs§f,\n§for maybe you want to find new §efriends§f?\n§fCome to our forum §dforum.flycore.ru\n"
+MESSAGES_5_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+#MESSAGES_4_BROADCAST: "\n§e✰ Конкурс ✰ §fГолосуй за сервер\n§fпо ссылкам: §dmonitoringminecraft.ru/top/FilkWorld §fи §dmc-servera.ru/79129\n§fПодробности в нашей группе §avk.com/flycore\n"
+#MESSAGES_4_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+MESSAGES_4_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fAppeared §eare questions§f, to which you §cdo not know the answer?\n§fWrite a team §c/ask <your question>\n§aOnline administration§f will help you §bin real time\n"
+MESSAGES_4_HOVER_BROADCAST: "§fClick here"
+MESSAGES_3_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fYou rec §cletsplay§f, §coverview§f, love §cstream\n§fwith friends? Privilege §6YouTube§f specially for you!\n§fInterested? Buying on site §dflycore.ru\n"
+MESSAGES_3_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
+MESSAGES_2_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fIf you saw §cthe intruder§f or §ccheater§f, that\n§fUse the command §c/report <nick>\n§fand your §ecomplaint§f complaint will be reviewed in real time\n"
+MESSAGES_2_HOVER_BROADCAST: "§fClick here"
+MESSAGES_1_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fVisit our group §9VK§f and you will always\n§fin the latest news §eserver\n§fFollow the link §bvk.com/flycore\n"
+MESSAGES_1_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
 
 ECONOMY_MONEY_CHANGE_BROADCAST: '§f[§cEconomy§f] %s§7 начислил на аккаунт %s§7 - §6Монеты §f(§a+%s§f)'
 ECONOMY_GOLDS_CHANGE_BROADCAST: '§f[§cEconomy§f] %s§7 начислил на аккаунт %s§7 - §eКристаллы §f(§a+%s§f)'
@@ -2288,7 +2304,7 @@ AFK_DISABLED: 'Снова с нами!'
 AFK_WHISPER: 'Я сейчас отошел и могу не отвечать'
 
 ITEMS_INFO: '§c⚠ Warning §fУ вас есть §a%s§f %s§7 (click here)'
-ITEMS_HOVER_MSG: '§fНажмите сюда,\n§fЧтобы открыть меню'
+ITEMS_HOVER_MSG: '§fClick here,\n§fto menu open'
 
 LUCKYWARS_COMMAND_HELP_SETUP:
 - '§f[§cLuckyWars§f] §8| §fCommands list:'
@@ -2322,7 +2338,7 @@ TRADE_READY_NAME: '§aГотов'
 TRADE_NO_READY_NAME: '§cНе готов'
 
 QUESTION_MSG_INFO: "\n§6Примеры §8| §fХотите получить §6монеты§f?\n§6Примеры §8| §fТогда решите небольшой пример.\n§6Примеры §8| §fСколько будет §6%s§f+§6%s§f = §a/goto <ваш ответ>\n"
-QUESTION_HOVER_MSG_INFO: '§fНажмите сюда,\n§fили напишите /goto <ответ>\n§fЧтоб ответить на вопрос'
+QUESTION_HOVER_MSG_INFO: '§fClick here,\n§fили напишите /goto <ответ>\n§fЧтоб ответить на вопрос'
 GOTO_FORMAT: '/goto <ваш ответ>'
 QUESTION_NOT_FOUND: '§cНа вопрос уже ответил кто-то другой, подождите пока появится новый'
 QUESTION_WRONG: '§cИзвини, это не правильный ответ :/ Попробуйте еще раз, уверены у вас получится!'
@@ -2334,6 +2350,14 @@ QUESTION_SUCCESS_MSG_INFO: "\n§6Примеры §8| §fВнимание! Игр
 GOTO_TOP: '§6Примеры §8| §fТоп §a7§f игроков:'
 GOTO_TOP_FORMAT: ' §6#%s §f- %s §fрешенных примеров - §a%s'
 GOTO_TOP_YOUR: '§6Примеры §8| §fУ вас решенных примеров: §a%s'
+
+NICK_FORMAT: '/nick <ник>'
+NICK_ALREADY: '§f[§cNick§f] §cДанный ник уже используется'
+NICK_CHANGED: '§f[§cNick§f] §fВаш ник изменен на: §a%s'
+NICK_RESET: '§f[§cNick§f] §fНик восстановлен'
+
+VANISH_ENABLE: '§f[§cHider§f] §fСкрытие включено'
+VANISH_DISABLE: '§f[§cHider§f] §fСкрытие отключено'
 
 COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
@@ -2491,7 +2515,7 @@ GUI_DONATE_MONEY: '§bOur goals'
 
 GUI_GOLD_ALL_LORE:
 - ''
-- ' §8▪ §7Prefix §e§lGOLD'
+- ' §8▪ §7Prefix §eGold'
 - ' §8▪ §7The greeting at the entrance'
 - ' §8▪ §7Reserve slot in all arenas'
 - ' §8▪ §7Available х3 jump in all lobbies'
@@ -2538,7 +2562,7 @@ GUI_GOLD_SURVIVAL_LORE:
 - ''
 GUI_EMERALD_ALL_LORE:
 - ''
-- ' §8▪ §7Prefix §a§lEMERALD'
+- ' §8▪ §7Prefix §aEmerald'
 - ' §8▪ §7The greeting at the entrance'
 - ' §8▪ §7Reserve slot in all arenas'
 - ' §8▪ §7Available х3 jump in all lobbies(if disable flying)'
@@ -2597,7 +2621,7 @@ GUI_EMERALD_SURVIVAL_LORE:
 - ''
 GUI_GOLEM_ALL_LORE:
 - ''
-- ' §8▪ §7Prefix §f§lGOLEM'
+- ' §8▪ §7Prefix §fGolem'
 - ' §8▪ §7The greeting at the entrance'
 - ' §8▪ §7Reserve slot in all arenas'
 - ' §8▪ §7Available х3 jump in all lobbies(if disable flying)'
@@ -2659,7 +2683,7 @@ GUI_GOLEM_SURVIVAL_LORE:
 - ''
 GUI_DIAMOND_ALL_LORE:
 - ''
-- ' §8▪ §7Prefix §b§lDIAMOND'
+- ' §8▪ §7Prefix §bDiamond'
 - ' §8▪ §7The greeting at the entrance'
 - ' §8▪ §7Reserve slot in all arenas'
 - ' §8▪ §7Available х3 jump in all lobbies(if disable flying)'
@@ -2725,7 +2749,7 @@ GUI_DIAMOND_SURVIVAL_LORE:
 - ''
 GUI_ENDERMAN_ALL_LORE:
 - ''
-- ' §8▪ §7Prefix §5§lENDERMAN'
+- ' §8▪ §7Prefix §5Enderman'
 - ' §8▪ §7The greeting at the entrance'
 - ' §8▪ §7Ability to change color Prefix'
 - ' §8▪ §7Ability to change messages when loggin in'
@@ -2813,7 +2837,7 @@ GUI_DONATE_INFO_LORE:
 - ' §f<The price of your existing status> '
 - '' 
 - '§7For example, if you want to buy a status'
-- '§b§lDIAMOND§7, and you already have §a§lEMERALD§7,'
+- '§bDiamond§7, and you already have §aEmerald§7,'
 - '§7then you have to pay §c182 rubbles§7.'
 GUI_DONATE_MONEY_LORE:
 - '§7Все денежные средства вырученные с'
@@ -2849,11 +2873,11 @@ GUI_INFO_HELP_LORE:
 - '§7вводить команду и она также будет добавлена.'
 GUI_INFO_DONATE_LORE:
 - '§7List of paid statuses:'
-- ' §8▪ §e§lGOLD §7- §f15 Rubbles'
-- ' §8▪ §a§lEMERALD §7- §f76 Rubbles'
-- ' §8▪ §f§lGOLEM §7- §f129 Rubbles'
-- ' §8▪ §b§lDIAMOND §7- §f258 Rubbles'
-- ' §8▪ §5§lENDERMAN §7- §f480 Rubbles'
+- ' §8▪ §eGold §7- §f15 Rubbles'
+- ' §8▪ §aEmerald §7- §f76 Rubbles'
+- ' §8▪ §fGolem §7- §f129 Rubbles'
+- ' §8▪ §bDiamond §7- §f258 Rubbles'
+- ' §8▪ §5Enderman §7- §f480 Rubbles'
 - ''
 - '§7A detailed description of the donate you can'
 - '§7find in section named §fProfile ▸ Donate'
@@ -2963,7 +2987,7 @@ GUI_INFO_GUILD_LORE:
 - '§7Write §e/guild §7and create your guild!'
 - '§7'
 - '§cATTENTION! Guild creation cost'
-- '§c20.000 coins and available only for §b§lDIAMOND'
+- '§c20.000 coins and available only for §bDiamond'
 - '§cFor entry donate dont need.'
 GUI_INFO_LUCKYCHEST_LORE:
 - '§7Используйте ключи чтобы,'
@@ -2980,7 +3004,7 @@ GUI_INFO_LUCKYCHEST_LORE:
 - ' §8• §bDefault key§7;'
 - ''
 - '§7Из донатного ключа,'
-- '§7Вам может выпасть статус от §e§lGOLD§7 до §5§lENDERMAN'
+- '§7Вам может выпасть статус от §eGold§7 до §5Enderman'
 - '§7При выпадении уже существующего статуса,'
 - '§7Вы получите от 5 до 40 golds'
 - ''
@@ -3430,9 +3454,9 @@ GUI_REWARDS_INFO_LORE:
 - '§7much more coins with a multiplier'
 - ''
 - '§fAvailable multipliers:'
-- ' §8▪ §e§lGOLD§7 and §a§lEMERALD §7- §e1.5x'
-- ' §8▪ §f§lGOLEM§7 - §e1.75x'
-- ' §8▪ §b§lDIAMOND§7 and §5§lENDERMAN §7- §e2.0x'
+- ' §8▪ §eGold§7 and §aEmerald §7- §e1.5x'
+- ' §8▪ §fGolem§7 - §e1.75x'
+- ' §8▪ §bDiamond§7 and §5Enderman §7- §e2.0x'
 - ''
 - '§7You can buy status'
 - '§7Online §dmg.flycore.ru'
@@ -3446,7 +3470,7 @@ GUI_DONATEMENU_FASTMESSAGES_LORE:
 - '§7Show everyone what you are today,'
 - '§7using these fast messages.'
 - ''
-- '§7Only available for §a§lEMERALD§7 or higher'
+- '§7Only available for §aEmerald§7 or higher'
 - ''
 - '§7To quickly open the menu, use'
 - '§7command §c/fm §7or §c/fastmessage'
@@ -3455,7 +3479,7 @@ GUI_DONATEMENU_FASTMESSAGES_LORE:
 GUI_DONATEMENU_PREFIX_LORE:
 - '§7Changing color of the prefix'
 - ''
-- '§7Only available for §5§lENDERMAN'
+- '§7Only available for §5Enderman'
 - ''
 - '§7Current prefix: %s'
 - ''
@@ -3464,7 +3488,7 @@ GUI_DONATEMENU_SMILES_LORE:
 - '§7Surprise your friends,'
 - '§7using these smiles.'
 - ''
-- '§7Only available for §f§lGOLEM§7 or higher'
+- '§7Only available for §fGolem§7 or higher'
 - ''
 - '§7To quickly open the menu, use'
 - '§7command §c/sm§7 or §c/smiles'
@@ -4986,7 +5010,7 @@ GUI_MARKETING_LORE:
 - ''
 - '§7P.s. У каждого типа свои награды'
 - ''
-- '§a▶ Нажмите, чтобы открыть меню выбора типа'
+- '§a▶ Нажмите, to menu open выбора типа'
 GUI_MARKETING_MAIN_NAME: 'Выберите тип'
 GUI_MARKETING_ONE: '§aПримеры'
 GUI_MARKETING_ONE_LORE:
@@ -5043,6 +5067,20 @@ GUI_CASES_INFO_LORE:
 - ' §8• §6Legendary§f(§6☆☆☆☆§f) §8- §72.5%'
 - ' '
 - '§cС КАЖДЫМ ОТКРЫТИЕМ ШАНСЫ УВЕЛИЧИВАЮТСЯ!'
+GUI_CASES_INFO2_NAME: '§bКак получить ключи?'
+GUI_CASES_INFO2_LORE:
+- '§7Ключи выдаются за победу на мини-играх,'
+- '§7Если Вы побеждаете в мини-игре,'
+- '§7Вы получаете §bКосметический ключ'
+- ''
+- '§7Если же Вам не хватает ключей,'
+- '§7то Вы всегда их можете купить за монеты'
+- '§7нажав §cПКМ §7по нужному ключу или'
+- '§7на нашей сайте §fflycore.ru'
+- '§7Подробнее прочитать о наградах,'
+- '§7Вы можете нажав на этот предмет.'
+- ''
+- '§a▸ Нажмите, чтобы открыть детальную информацию'
 GUI_CASES_BUY_TO_MONEY_NAME: '§6Покупка ключей за монеты'
 GUI_CASES_BUY_TO_GOLD_NAME: '§eПокупка ключей за золото'
 GUI_CASES_BUY_NO_LORE:
@@ -5062,10 +5100,12 @@ GUI_CASES_DONATE_NAME: '§eDonate key'
 GUI_CASES_DONATE_LORE:
 - ''
 - '§7Используется для получения'
-- '§7бесплатного статуса от §e§lGOLD §7до §5§lENDERMAN'
+- '§7бесплатного статуса от §eGold §7до §5Enderman'
 - ''
 - '§cВнимание! При выбивании уже существующего'
 - '§cстатуса вы получите от 5 до 40 золота!'
+- '§cВнимание! Чем выше ваш игровой уровень'
+- '§cтем больше шанс получить высокую привилегию'
 GUI_CASES_MONEY_NAME: '§dMoney key'
 GUI_CASES_MONEY_LORE:
 - ''
