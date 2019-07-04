@@ -88,7 +88,7 @@ CORE_NO_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If er
 PROXY_CORE_LOST_CONNECTION:
 - '§f[§cCore§f] §fProxy-server offline by core. For lost conneсt will be no access connection to servers, and commands.'
 - ' Wait connent...'
-#- '§f[§cCore§f] §cProxy-server, for which you now connented, was offline by core.'
+#- '§f[§cCore§f] §cProxy-server, for which you now connected, was offline by core.'
 #- '§f[§cCore§f] §fNow you temp will noaccess commands and connenting to servers.'
 #- '§f[§cCore§f] §fPlease be patient and wait a bit, we will let you know when everything is stabilized :)'
 PROXY_CORE_LOST_CONNECTION_TITLE: ''
@@ -102,10 +102,10 @@ PROXY_RECONNECTED_PLAYER_TITLE: ''
 PROXY_RECONNECTED_PLAYER_SUBTITLE: ''
 #§fПожалуйста подождите
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL:
-- '§f[§cCore§f] §fConnention proxy-server restored. You again can use connention servers and commands.'
-PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
+- '§f[§cCore§f] §fConnention proxy-server restored. You again can use connection servers and commands.'
+PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: 'Successfuly restored connection'
 #§a✔ Соединение восстановлено §a✔
-PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
+PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: 'You can connecting to servers'
 #§fКоманды и переход по серверам снова доступен
 
 SECOND_0: 'second'
@@ -223,13 +223,13 @@ EFFECTSHOP_EFFECT_NOT_LEVEL: '§cFor buying this effect, your need level §d%s§
 EFFECTSHOP_SOUND_NOT_LEVEL: '§cFor buying this sound, your need level §d%s§c or higher'
 
 PLAYER_NO_MONEY:
-- '§f[§cServer§f] §fНа вашем счёте недостаточно money. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§f[§cServer§f] §fFor your score недостаточно money. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 PLAYER_NO_GOLD:
-- '§f[§cServer§f] §fНа вашем счёте недостаточно golds. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§f[§cServer§f] §fFor your score недостаточно golds. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 PLAYER_NO_LEVEL:
-- '§f[§cServer§f] §fНа вашем счёте недостаточно level. Приобрести опыт можно на сайте §cflycore.ru'
+- '§f[§cServer§f] §fFor your score недостаточно level. Приобрести опыт можно на сайте §cflycore.ru'
 PLAYER_NO_KEYS:
-- '§f[§cServer§f] §fНа вашем счёте недостаточно keys. Приобрести ключи можно на сайте §cflycore.ru'
+- '§f[§cServer§f] §fFor your score недостаточно keys. Приобрести ключи можно на сайте §cflycore.ru'
 
 PLAYER_GADGETS_BANNER_NO_GROUP: '§cFor buying this banner, your need privilege %s§c or higher'
 PLAYER_GADGETS_HAT_NO_GROUP: '§cFor buying this hat, your need privilege %s§c or higher'
