@@ -222,13 +222,13 @@ EFFECTSHOP_EFFECT_NOT_LEVEL: '§cFor buying this effect, your need level §d%s§
 EFFECTSHOP_SOUND_NOT_LEVEL: '§cFor buying this sound, your need level §d%s§c or higher'
 
 PLAYER_NO_MONEY:
-- '§f[§cServer§f] §fНа вашем счёте недостаточно money. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§f[§cServer§f] §fOn your account недостаточно money. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 PLAYER_NO_GOLD:
-- '§f[§cServer§f] §fНа вашем счёте недостаточно golds. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§f[§cServer§f] §fOn your account недостаточно golds. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 PLAYER_NO_LEVEL:
-- '§f[§cServer§f] §fНа вашем счёте недостаточно level. Приобрести опыт можно на сайте §cflycore.ru'
+- '§f[§cServer§f] §fOn your account недостаточно level. Приобрести опыт можно на сайте §cflycore.ru'
 PLAYER_NO_KEYS:
-- '§f[§cServer§f] §fНа вашем счёте недостаточно keys. Приобрести ключи можно на сайте §cflycore.ru'
+- '§f[§cServer§f] §fOn your account недостаточно keys. Приобрести ключи можно на сайте §cflycore.ru'
 
 PLAYER_GADGETS_BANNER_NO_GROUP: '§cFor buying this banner, your need privilege %s§c or higher'
 PLAYER_GADGETS_HAT_NO_GROUP: '§cFor buying this hat, your need privilege %s§c or higher'
@@ -310,7 +310,7 @@ PLAYER_BOOST_PLEASE_MADE_SCREENSHOT:
 - '§cДанная проверка сделана исключительно для вашей безопасности'
 
 AVAILABLE_SERVER_NOT_FOUND:
-- '§f[§cServer§f] §fНе удалось найти подходящий server'
+- '§f[§cServer§f] §fCould not find suitable server'
 
 SERVER_NOT_AVAILABLE_GROUP: '§cError, вход доступен только для %s§c и выше'
 PLAYER_SERVER_ALREADY: '§f[§cServer§f] §cYou already on current server!'
@@ -319,8 +319,8 @@ SLOT_BUSY: '§cПростите, но вы были перемещены в ло
 ERROR_TELEPORT: '§cОшибка телепортации в лобби'
 ONLY_DONATOR: '§cОшибка, на арене только донатеры'
 ARENA_BUSY: '§cАрена заполнена, не хватает слотов? Купите §eGold§c или выше'
-ARENA_START: '§cИгра начинается...'
-ARENA_RESTART: '§cСервер перезагружается...'
+ARENA_START: '§cGame starting...'
+ARENA_RESTART: '§cArena restarting...'
 
 PLAYER_JOIN_ARENA: '%s§f зашел в игру (§a%s§f/§a%s§f)'
 PLAYER_QUIT_ARENA: '%s§f покинул игру (§c%s§f/§a%s§f)'
@@ -341,9 +341,9 @@ GAME_PLAYER_KILLED_INFO: '%s §fубил игрока %s'
 GAME_PLAYER_KILLED_FELL_OUT_WORLD: '%s §fвыпал из мира'
 GAME_TEAM_WIN: '§eПобедила команда §8- %s'
 GAME_SOLO_WIN: '§eПобедил игрок §8- %s'
-GAME_CHAT_SPECTATORS: '§8[§7Наблюдателям§8]'
-GAME_CHAT_GLOBAL: '§8[Всем§8] [%s§8]'
-GAME_CHAT_TEAM: '§8[Команде§8]'
+GAME_CHAT_SPECTATORS: '§8[§7Spectators§8]'
+GAME_CHAT_GLOBAL: '§8[All§8] [%s§8]'
+GAME_CHAT_TEAM: '§8[Team§8]'
 GAME_TEAM_GAME_OVER: 'Команда %s§f проиграла'
 
 LUCKYWARS_INFO:
@@ -392,13 +392,13 @@ REWARDS_8: '§7+§e%s§f Golds'
 
 PRIZE_GET: |-
  §f[§cRewards§f] §fВы получили награду за §b%s§f уровень:
- §8 • §7+§6%s§f Монет
+ §8 • §7+§6%s§f Money
  §8 • §7+§d%s§f Косметических ключей
  §8 • §7+§d%s§f Денежных ключей
  §8 • §7+§d%s§f Косметическо-игровых ключей
- §8 • §7+§d%s§f Ультра ключей
+ §8 • §7+§d%s§f Ultra keys
 PRIZE_ALREADY: '§cВы уже забирали награду за данный уровень...'
-PRIZE_STATS: ' §8 • §7+%s§f Статус'
+PRIZE_STATS: ' §8 • §7+%s§f Rank'
 PRIZE_NO_LEVEL: '§cУ вас должен быть минимум 1 уровень, чтобы получить награду'
 
 ANS_REASON: '1.16. (Offtopic)'
@@ -532,8 +532,8 @@ ITEM_GADGETS_HAT: '§aHat'
 ITEM_GADGETS_BANNER: '§aBanner'
 ITEM_GAME_EXIT_NAME: '§eExit'
 ITEM_GAME_EXIT_LORE:
-- '§7Используйте этот предмет,'
-- '§7чтобы покинуть арену'
+- '§7Use this item,'
+- '§7what to leave arena'
 ITEM_TEAMS_NAME: '§eSelect team'
 ITEM_TEAMS_LORE:
 - '§7Используйте этот предмет,'
@@ -641,7 +641,7 @@ CREATIVE_COMMANDS: '§f[§cServer§f] §fPlease create your plot §c/p auto§f, 
 BOARD_NEWS: 'News: §7'
 BOARD_PLAYERS: 'Players'
 BOARD_TEAMS: 'Teams'
-BOARD_FOR_START: 'Для старта нужно'
+BOARD_FOR_START: 'For start need'
 BOARD_TIME: 'Time'
 BOARD_MAPS: 'Map'
 BOARD_MODULES: 'Modules'
@@ -2359,6 +2359,10 @@ NICK_RESET: '§f[§cNick§f] §fНик восстановлен'
 VANISH_ENABLE: '§f[§cHider§f] §fСкрытие включено'
 VANISH_DISABLE: '§f[§cHider§f] §fСкрытие отключено'
 
+SUFFIX_FORMAT: '/suffix <суффикс>'
+SUFFIX_LIMIT: '§f[§cSuffix§f] §fСуффикс не должен превышать §c10§f символов'
+SUFFIX_CHANGED: '§f[§cSuffix§f] §fВаш суффикс изменен на: %s'
+
 COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
 
@@ -3114,8 +3118,24 @@ GUI_GAMES_DEVELOPMENT_4: '§c▶ In development..'
 GUI_GAMES_OFFLINE_1: ' §cServer reloading.'
 GUI_GAMES_OFFLINE_2: ' §cServer reloading..'
 GUI_GAMES_OFFLINE_3: ' §cServer reloading...'
-GUI_GAMES_CONNECT_1: '§a▶ Click to connect'
-GUI_GAMES_CONNECT_2: '§a  Click to connect'
+GUI_GAMES_CONNECT_1: '§1▶ §aClick to connect'
+GUI_GAMES_CONNECT_2: '§a  §aClick to connect'
+GUI_GAMES_CONNECT_3: '§2▶ §aClick to connect'
+GUI_GAMES_CONNECT_4: '§2  §aClick to connect'
+GUI_GAMES_CONNECT_5: '§3▶ §aClick to connect'
+GUI_GAMES_CONNECT_6: '§3  §aClick to connect'
+GUI_GAMES_CONNECT_7: '§4▶ §aClick to connect'
+GUI_GAMES_CONNECT_8: '§4  §aClick to connect'
+GUI_GAMES_CONNECT_9: '§5▶ §aClick to connect'
+GUI_GAMES_CONNECT_10: '§5  §aClick to connect'
+GUI_GAMES_CONNECT_11: '§6▶ §aClick to connect'
+GUI_GAMES_CONNECT_12: '§6  §aClick to connect'
+GUI_GAMES_CONNECT_13: '§7▶ §aClick to connect'
+GUI_GAMES_CONNECT_14: '§7  §aClick to connect'
+GUI_GAMES_CONNECT_15: '§8▶ §aClick to connect'
+GUI_GAMES_CONNECT_16: '§8  §aClick to connect'
+GUI_GAMES_CONNECT_17: '§9▶ §aClick to connect'
+GUI_GAMES_CONNECT_18: '§9  §aClick to connect'
 GUI_GAMES_SKYWARS_LORE:
 - '§8Battles on the islands'
 - ''
@@ -3969,6 +3989,8 @@ GUI_SITESHOP_OBS_LORE:
 - ' §8• §7Обсидиан §8x8'
 GUI_SITESHOP_VILLAGER_LORE:
 - ' §8• §7Житель §8x1'
+GUI_SITESHOP_GOLDEN_APPLE_LORE:
+- ' §8• §7Золотые яблоки §8x5'
 
 SITESHOP_BOOK: 'Книги'
 SITESHOP_ELYTRA: 'Элитра'
@@ -3979,6 +4001,7 @@ SITESHOP_END: 'Портал в Энд'
 SITESHOP_BLAZE: 'Огенный стержень'
 SITESHOP_OBS: 'Обсидиан'
 SITESHOP_VILLAGER: 'Житель'
+SITESHOP_GOLDEN_APPLE: 'Золотые яблоки'
 
 GUI_GAMESERVERS_NAME: 'Select type'
 GUI_GAMESERVERS_NAME_MAP: 'Select map'
