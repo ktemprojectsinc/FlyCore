@@ -3655,7 +3655,7 @@ EFFECT_NEWYEAR: 'Newyear fun'
 EFFECT_REDSTONE: 'Christmas tree garland'
 KILL_NA: '§cNo select'
 KILL_FIREWORK: 'Farewell firework'
-KILL_LIGHTNING: 'Lightning's lord'
+KILL_LIGHTNING: "Lightning's lord"
 KILL_ROMEO: 'Romeo'
 KILL_SYMPHONY: 'Symphony killed'
 WIN_NA: '§cNo select'
