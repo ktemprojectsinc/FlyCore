@@ -878,6 +878,11 @@ PLAYERINFO: |-
  §eInformation for player %s§e:
  §f- Player ID: §a%s
  §f- Rank: §a%s
+ §f- Prefix: §a%s
+ §f- Suffix: §a%s
+ §f- Suffix on friend chat: §a%s
+ §f- Suffix on guild chat: §a%s
+ §f- Suffix on party chat: §a%s
  §f- Money: §a%s
  §f- Golds: §a%s
  §f- Player level: §a%s
@@ -2359,9 +2364,10 @@ NICK_RESET: '§f[§cNick§f] §fНик восстановлен'
 VANISH_ENABLE: '§f[§cHider§f] §fСкрытие включено'
 VANISH_DISABLE: '§f[§cHider§f] §fСкрытие отключено'
 
-SUFFIX_FORMAT: '/suffix <суффикс>'
+SUFFIX_FORMAT: '/suffix <суффикс/reset>'
 SUFFIX_LIMIT: '§f[§cSuffix§f] §fСуффикс не должен превышать §c10§f символов'
 SUFFIX_CHANGED: '§f[§cSuffix§f] §fВаш суффикс изменен на: %s'
+SUFFIX_RESET: '§f[§cSuffix§f] §fВаш суффикс очищен'
 
 COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
