@@ -3649,7 +3649,7 @@ EFFECT_NA: '§cNo select'
 EFFECT_MUSIC: 'Sound way'
 EFFECT_SMOKE: 'Smoke bomb'
 EFFECT_FIRE: 'Fire trail'
-EFFECT_HEART: 'Lucky's favourite'
+EFFECT_HEART: "Lucky's favourite"
 EFFECT_HAPPY: 'Happy rain'
 EFFECT_NEWYEAR: 'Newyear fun'
 EFFECT_REDSTONE: 'Christmas tree garland'
