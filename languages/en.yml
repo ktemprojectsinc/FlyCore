@@ -12,21 +12,21 @@ DISABLE: '§cDisable'
 BANINFO_BY_ANOTHER: '§7[By request %s§7]'
 
 BAN_REQUEST_SENT: '§eYour request to block this player has been sent to all online moderators'
-BAN_REQUEST_ALREADY_SENT: '§cPlease block this player has already been sent, wait for decision'
+BAN_REQUEST_ALREADY_SENT: '§cPlease to block this player has already been sent, wait for decision'
 SERVER_CLOSED_PLAYER_CONNECTION: '§f[§cServer§f] §fServer §a%s §fshut down your connection, Your server is installed on §a%s'
 
 BAN_REQUEST_BROADCAST: '§f[§cModeration§f] %s §flock requests %s§f on %s §fbecause of §e%s'
-BAN_REQUEST_ACCEPT_BROADCAST: '§f[§cModeration§f] %s§a accept §fa request on blocked to §e%s'
-BAN_REQUEST_REJECT_BROADCAST: '§f[§cModeration§f] %s§c decline §fa request on blocked to §e%s'
+BAN_REQUEST_ACCEPT_BROADCAST: '§f[§cModeration§f] %s§a accepted §fa request to block §e%s'
+BAN_REQUEST_REJECT_BROADCAST: '§f[§cModeration§f] %s§c declined §fa request to block §e%s'
 BAN_ACCEPT_FORMAT: '/banrequests accept <the nickname of the offender>'
 BAN_REJECT_FORMAT: '/banrequests reject <the nickname of the offender>'
-BANIP_REQUEST_SENT: '§eYour a request block ip address sended all online-moderators'
-BANIP_REQUEST_ALREADY_SENT: '§cA request blocking ip address already sended, wait decision'
-BANIP_REQUEST_BROADCAST: '§f[§cModeration§f] %s§f просит заблокировать ip адрес §a%s§f на %s §fпо причине §e%s'
-BANIP_REQUEST_ACCEPT_BROADCAST: '§f[§cModeration§f] %s§a accepted §fпросьбу for blocking address §a%s'
-BANIP_REQUEST_REJECT_BROADCAST: '§f[§cModeration§f] %s§c no accepted §fa request for blocking address §a%s'
+BANIP_REQUEST_SENT: '§eYour request to block ip address was sent to all online-moderators'
+BANIP_REQUEST_ALREADY_SENT: '§cA request for blocking ip address was already sent, wait decision'
+BANIP_REQUEST_BROADCAST: '§f[§cModeration§f] %s§f asks to block ip adress §a%s§f for %s §fwith reason §e%s'
+BANIP_REQUEST_ACCEPT_BROADCAST: '§f[§cModeration§f] %s§a accepted §frequest for blocking address §a%s'
+BANIP_REQUEST_REJECT_BROADCAST: '§f[§cModeration§f] %s§c declined §frequest for blocking address §a%s'
 BANIP_REQUEST_ACCEPT: '%s §aaccepted your request for blocking address %s'
-BANIP_REQUEST_REJECT: '%s §cno accepted your request for blocking address %s'
+BANIP_REQUEST_REJECT: '%s §cdeclined your request for blocking address %s'
 
 BAN_REQUEST_HOVER: '§fClick to accept the request'
 
@@ -39,7 +39,7 @@ BAN_REQUEST_FOR_PERSONAL:
  - "§cYou can't send a lock request to the server staff"
  - '§cFor it exists discussion on group https://vk.com/topic-157663196_39337015'
 
-CONVERT_FORMAT: '/convert <валюта> <sum>'
+CONVERT_FORMAT: '/convert <currency> <sum>'
 CONVERT_ERROR: '§cError, you must specify only a positive number!'
 CONVERT: '§f[§cShop§f] §fYou have successfully exchanged §e%s §f%s on §a%s §f%s'
 CONVERT_AVAILABLE: '§cError, available currencies: golds'
@@ -240,19 +240,19 @@ PLAYER_GUILD_BUY: '§f[§cGuilds§f] §fYou buying %s'
 PLAYER_GUILD_BUY_MOTD:
 - ''
 - '                §8-| §c§lGUILDS §8|-'
-- ' §fПоздравляем! Вы приобрели улучшение §eприветствие гильдии'
-- ' §fДля задания сообщения при входе используйте следующие команды:'
-- ' §7/guild motd set <текст> §f- изменить приветствие гильдии'
-- ' §7/guild motd info §f- просмотреть текущее приветствие гильдии'
-- ' §fДля переноса строчки, используйте символ §c\n§f в приветствии'
+- " §fCongratulations! You bought upgrade for §eguild's welcome"
+- ' §fFor setting text on join use next commands:'
+- " §7/guild motd set <text> §f- change guild's welcome"
+- " §7/guild motd info §f- see current guild's welcome"
+- ' §fFor line break, use symbol §c\n§f in the welcome'
 - ''
 PLAYER_GUILD_BUY_TAG:
 - ''
 - '                §8-| §c§lGUILDS §8|-'
-- ' §fПоздравляем! Вы приобрели улучшение §eтэг гильдии'
-- ' §fТеперь Вы можете задать §7суффикс§f, который будет отображен'
-- ' §fпосле ника каждого участника Вашей гильдии'
-- ' §fДля этого используйте команду §7/guild tag'
+- " §fCongratulations! You bought upgrade for §eguild's tag"
+- ' §fNow You can set §7suffix§f, that will be displayed'
+- ' §fafter nickname of each member of Your guild'
+- ' §fFor this use command §7/guild tag'
 - ''
 
 PLAYER_GUILD_YOU_KICKED: |-
@@ -266,96 +266,96 @@ PLAYER_GUILD_YOU_KICKED: |-
 PLAYER_BOOSTER_BUY_MULTIPLY:
 - ''
 - '                §8-| §b§lBOOSTERS §8|-'
-- ' §fПоздравляем! Вы приобрели бустер §eмножитель x2.0'
-- ' §fТеперь при выпадении уже существующего гаджета, или статуса'
-- ' §fиз сундука удачи, Они будут умножены на §ax2.0'
+- ' §fCongratulations! You bought booster §emultiplier x2.0'
+- ' §fNow at getting already existing gadget, or status'
+- ' §ffrom lucky chest, they will be multiplied on §ax2.0'
 - ''
-PLAYER_BOOSTER_MULTIPLY: '§a▻ §bМножитель x2.0'
+PLAYER_BOOSTER_MULTIPLY: '§a▻ §bMultiplier x2.0'
 
-PLAYER_MARKETING_ACTIONBAR_TIME: '§cДо окончания игры осталось: %s'
+PLAYER_MARKETING_ACTIONBAR_TIME: '§cGame ends in: %s'
 PLAYER_MARKETING_START_ONE: |-
- §6Marketing §8| §fВы выбрали тип игры: §aПримеры§f.
- §6Marketing §8| §fКаждые несколько секунд, у вас в чате будут появляться примеры, отвечайте на них правильно, чтобы проходить на следующие модули, и в конце окончить игру.
+ §6Marketing §8| §fYou chose game type: §aSums§f.
+ §6Marketing §8| §fEach some seconds, in Your chat will appear sums, solve them right, for entry on next modules, and end the game.
 PLAYER_MARKETING_START_TWO: |-
- §6Marketing §8| §fВы выбрали тип игры: §bПаркур§f.
- §6Marketing §8| §fПройдите все модули до самого конца, чтобы окончить игру.
-PLAYER_MARKETING_QUESTION_WIN: '§6Marketing §8| §fВы ответили правильно, и получили §e+1 модуль'
+ §6Marketing §8| §fYou chose game type: §bParkour§f.
+ §6Marketing §8| §fPass all modules to full end, to end the game.
+PLAYER_MARKETING_QUESTION_WIN: '§6Marketing §8| §fYou answered right, and got §e+1 module'
 PLAYER_MARKETING_FINISH: |-
- §6Marketing §8| §fПоздравляем, вы прошли все модули, и получили награды
-PLAYER_MARKETING_QUESTION_TITLE: '              §8 -| §6§lПример §8|-'
+ §6Marketing §8| §fCongratulations, you passed all modules, and got rewards
+PLAYER_MARKETING_QUESTION_TITLE: '              §8 -| §6§lSum §8|-'
 PLAYER_MARKETING_QUESTION: |-
- §fСколько будет, §a%s §fумножить на§a %s§f = §e?
- §7ответ напишите в чате
-PLAYER_MARKETING_QUESTION_WRONG: '§cОшибка, ответ на пример неверный'
-PLAYER_MARKETING_END_TIME: '§6Marketing §8| §cСожалеем, время вышло, вы не успели пройти игру'
-PLAYER_MARKETING_MODULE_CONFIRM: '§6Marketing §8| §f+1 §aмодуль пройден'
-PLAYER_MARKETING_QUIT_GAME: '§6Marketing §8| §fВы закрыли меню, арена покинута'
+ §fHow much, §a%s §fmultiply on§a %s§f = §e?
+ §7answer write in chat
+PLAYER_MARKETING_QUESTION_WRONG: '§cError, answer on sum is incorrect'
+PLAYER_MARKETING_END_TIME: '§6Marketing §8| §cSorry, time is over, You are not in time to win game'
+PLAYER_MARKETING_MODULE_CONFIRM: '§6Marketing §8| §f+1 §amodule passed'
+PLAYER_MARKETING_QUIT_GAME: '§6Marketing §8| §fYou closed menu, arena left'
 
-PLAYER_RESTARTING_ARENA: '§cРестарт арены, вы будите телепортированны в лобби через 5 секунд'
-PLAYER_ARENA_RESTARTED: '§cАрена перезапускается'
+PLAYER_RESTARTING_ARENA: "§cArena's restart, You will be teleported to lobby in 5 seconds"
+PLAYER_ARENA_RESTARTED: '§cArena is restarting'
 
-PLAYER_FLY_ACTIONBAR_TIME: '§cДо конца полета осталось: %s'
-PLAYER_CREATIVE_ACTIONBAR_TIME: '§cДо конца творческого режима осталось: %s'
+PLAYER_FLY_ACTIONBAR_TIME: '§cFly ends in: %s'
+PLAYER_CREATIVE_ACTIONBAR_TIME: '§cCreative gamemode ends in: %s'
 
-PLAYER_BOOST_NEED_XP: '§cВам нехватает %s, для повышения до %s'
-PLAYER_BOOST_BROADCAST: '§f[§cBoost§f] %s §fповысился до звания %s §aПоздравьте его!'
-PLAYER_BOOST_MAX_BROADCAST: '§f[§cBoost§f] %s §fповысился до §a§nмаксимального§f звания %s §aПоздравьте его!'
-PLAYER_BOOST_YOUR_UP_1: '%s§l§kX§f §5Вы повысились до %s %s§l§kX§f'
-PLAYER_BOOST_YOUR_UP_2: '§fи получили:'
+PLAYER_BOOST_NEED_XP: '§cYou lacks %s, for upgrade to %s'
+PLAYER_BOOST_BROADCAST: '§f[§cBoost§f] %s §frose to rank %s §aCongratulate him!'
+PLAYER_BOOST_MAX_BROADCAST: '§f[§cBoost§f] %s §frose to §a§maximal§f ranks %s §aCongratulate him!'
+PLAYER_BOOST_YOUR_UP_1: '%s§l§kX§f §5You rose to %s %s§l§kX§f'
+PLAYER_BOOST_YOUR_UP_2: '§fand got:'
 PLAYER_BOOST_YOUR_UP_COINS: '§7+§6%s §f%s'
 PLAYER_BOOST_YOUR_UP_EXP: '§7+§3%s §fEXP'
 PLAYER_BOOST_YOUR_UP_KEY: '§7+§d%s §f%s'
 PLAYER_BOOST_PLEASE_MADE_SCREENSHOT:
-- '§f[§cBoost§f] §cПожалуйста отправьте скриншот этого сообщения в группу §a§nvk.me/flycore§c для получения повышения.'
-- '§cДанная проверка сделана исключительно для вашей безопасности'
+- '§f[§cBoost§f] §cPlease send screenshot of this message to our group §a§nvk.me/flycore§c for getting rise.'
+- '§cThis verify was made only for Your safety'
 
 AVAILABLE_SERVER_NOT_FOUND:
 - '§f[§cServer§f] §fCould not find suitable server'
 
-SERVER_NOT_AVAILABLE_GROUP: '§cError, вход доступен только для %s§c и выше'
+SERVER_NOT_AVAILABLE_GROUP: '§cError, entry is available only for %s§c or higher'
 PLAYER_SERVER_ALREADY: '§f[§cServer§f] §cYou already on current server!'
 
-SLOT_BUSY: '§cПростите, но вы были перемещены в лобби, ваше место занял §r%s'
-ERROR_TELEPORT: '§cОшибка телепортации в лобби'
-ONLY_DONATOR: '§cОшибка, на арене только донатеры'
-ARENA_BUSY: '§cАрена заполнена, не хватает слотов? Купите §eGold§c или выше'
+SLOT_BUSY: '§cSorry, but You was transfered to lobby, Your slot took §r%s'
+ERROR_TELEPORT: '§cError in teleporting to lobby'
+ONLY_DONATOR: '§cError, there are only donaters on arena'
+ARENA_BUSY: '§cArena is full, do not enough slots? Buy §eGold§c or higher'
 ARENA_START: '§cGame starting...'
 ARENA_RESTART: '§cArena restarting...'
 
-PLAYER_JOIN_ARENA: '%s§f зашел в игру (§a%s§f/§a%s§f)'
-PLAYER_QUIT_ARENA: '%s§f покинул игру (§c%s§f/§a%s§f)'
-ARENA_DO_NOT_PLAYERS: '§cОшибка, не хватает игроков для старта'
-ARENA_STARTED: '§fИгра начнется через §a%s §f%s'
+PLAYER_JOIN_ARENA: '%s§f joined the game (§a%s§f/§a%s§f)'
+PLAYER_QUIT_ARENA: '%s§f left the game (§c%s§f/§a%s§f)'
+ARENA_DO_NOT_PLAYERS: '§cError, do not enough players for start'
+ARENA_STARTED: '§fGame starts in §a%s §f%s'
 
-LUCKYWARS_STARTED_TITLE: '§c§lСтарт!'
-LUCKYWARS_STARTED_SUBTITLE: '§fВыживите и не попадитесь в ловушку'
+LUCKYWARS_STARTED_TITLE: '§c§lStart!'
+LUCKYWARS_STARTED_SUBTITLE: '§fSurvive and do not get in trap'
 
-LUCKYWARS_FLY: '§f[§cLuckyWars§f] §8| §fПолет отключается через §a5 секунд.'
-LUCKYWARS_FLY_INFO: '§f[§cLuckyWars§f] §8| §fИгроку %s§f выпал полёт из лаки блока'
+LUCKYWARS_FLY: '§f[§cLuckyWars§f] §8| §fFly ends in §a5 seconds.'
+LUCKYWARS_FLY_INFO: '§f[§cLuckyWars§f] §8| §fPlayer %s§f got fly from lucky block'
 
-GAME_PLAYER_KILLED_YOURSELF: 'Вы умерли!'
-GAME_PLAYER_RESPAWN_TITLE: '§aВы возродились'
-GAME_PLAYER_RESPAWN_SUBTITLE: '§6%s ресурсов §7восстановлено'
-GAME_PLAYER_RESPAWN_SUBTITLE_BY: '§fВас убил игрок %s'
-GAME_PLAYER_KILLED_INFO: '%s §fубил игрока %s'
-GAME_PLAYER_KILLED_FELL_OUT_WORLD: '%s §fвыпал из мира'
-GAME_TEAM_WIN: '§eПобедила команда §8- %s'
-GAME_SOLO_WIN: '§eПобедил игрок §8- %s'
+GAME_PLAYER_KILLED_YOURSELF: 'You died!'
+GAME_PLAYER_RESPAWN_TITLE: '§aYou relived'
+GAME_PLAYER_RESPAWN_SUBTITLE: '§6%s resources §7restored'
+GAME_PLAYER_RESPAWN_SUBTITLE_BY: '§fYou got killed by %s'
+GAME_PLAYER_KILLED_INFO: '%s §fkilled player %s'
+GAME_PLAYER_KILLED_FELL_OUT_WORLD: '%s §ffell out from the world'
+GAME_TEAM_WIN: '§eTeam won §8- %s'
+GAME_SOLO_WIN: '§eaPlayer won §8- %s'
 GAME_CHAT_SPECTATORS: '§8[§7Spectators§8]'
 GAME_CHAT_GLOBAL: '§8[All§8] [%s§8]'
 GAME_CHAT_TEAM: '§8[Team§8]'
-GAME_TEAM_GAME_OVER: 'Команда %s§f проиграла'
+GAME_TEAM_GAME_OVER: 'Team %s§f lost'
 
 LUCKYWARS_INFO:
-- '§eВаша задача ломать лакиблоки и убивать игроков'
-- '§eВас будет преследовать множество ловушек,'
-- '§eтак что будьте очень осторожны!'
+- '§eYour task is to break lucky block and kill players'
+- '§eYou will be followed by a lot of traps,'
+- '§eso be very carefull!'
 
-PLAYER_TEAM_NO_PLACES: '§cВ данной команде нет мест.'
-PLAYER_TEAM_SELECTED: 'Вы выбрали команду %s'
+PLAYER_TEAM_NO_PLACES: '§cThere is no slots in this team.'
+PLAYER_TEAM_SELECTED: 'You chose team %s'
 
-ARENA_TYPE_TEAM_NO_TEAM: '§c§lВнимание! §cОбразование союзов из нескольких команд запрещено. Докладывайте о таких игроках на форум.'
-ARENA_TYPE_SOLO_NO_TEAM: '§c§lВнимание! §cКомандная игра запрещена на Solo режиме. Докладывайте о таких игроках на форум.'
+ARENA_TYPE_TEAM_NO_TEAM: '§c§lWarning! §cCreating unions from several teams is forbidden. Report about these players on forum.'
+ARENA_TYPE_SOLO_NO_TEAM: '§c§lWarning! §cTeam game is forbidden on Solo mode. Report about these players on forum.'
 
 SITESHOP_BUY: '§f[§cShop§f] §fYou buying §a%s'
 SITESHOP_INFO: '§f[§cServer§f] §fPlayer %s§f buying §a%s§f, can buy in §c/siteshop'
@@ -615,25 +615,25 @@ TRAINING_STAGE_3_MSG_14_TITLE: '§fNow lets talk about §6Menu§f'
 TRAINING_STAGE_3_MSG_14_SUBTITLE: '§7. . .'
 TRAINING_STAGE_3_MSG_15_TITLE: '§fIf You want to change the §dsettings§f of your account,'
 TRAINING_STAGE_3_MSG_15_SUBTITLE: '§fopen §2Profile ▸ Settings'
-TRAINING_STAGE_3_MSG_16_TITLE: '§fЕсли Вы хотите изменить цвет своего префикса,'
-TRAINING_STAGE_3_MSG_16_SUBTITLE: '§fтогда зайдите в §2Меню Донатера ▸ Префикс'
-TRAINING_STAGE_3_MSG_17_TITLE: '§fВам нравится сервер, или Вы хотите его поддержать?'
-TRAINING_STAGE_3_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dmg.flycore.ru'
+TRAINING_STAGE_3_MSG_16_TITLE: "§fIf You want to change the prefix's color,"
+TRAINING_STAGE_3_MSG_16_SUBTITLE: "§fthen open §2Donater's Menu ▸ Prefix"
+TRAINING_STAGE_3_MSG_17_TITLE: '§fYou like the server, or You want to support it?'
+TRAINING_STAGE_3_MSG_17_SUBTITLE: '§fthen You can purchase privilege on our site §dmg.flycore.ru'
 TRAINING_STAGE_3_MSG_18_TITLE: ''
-TRAINING_STAGE_3_MSG_18_SUBTITLE: '§7И конечно самое главное...'
-TRAINING_STAGE_3_MSG_19_TITLE: '§fИнтересны §5разработки§f, или есть вопросы по плагинам§f/§6форуму§f?'
-TRAINING_STAGE_3_MSG_19_SUBTITLE: '§fТогда просто оставьте сообщеие §5разработчику §f- §5/dev <сообщение>'
-TRAINING_STAGE_3_MSG_20_TITLE: '§fА теперь давайте выберем §aрежим§f для игры'
-TRAINING_STAGE_3_MSG_20_SUBTITLE: '§cкогда откроется меню, нажмите на любой из доступных режимов'
+TRAINING_STAGE_3_MSG_18_SUBTITLE: '§7And, of course, the main...'
+TRAINING_STAGE_3_MSG_19_TITLE: '§fInterested in §5develops§f, or have questions about plugins§f/§6forum§f?'
+TRAINING_STAGE_3_MSG_19_SUBTITLE: '§fJust leave message to §5developer §f- §5/dev <message>'
+TRAINING_STAGE_3_MSG_20_TITLE: '§fNow lets choose the §amode§f for game'
+TRAINING_STAGE_3_MSG_20_SUBTITLE: '§cwhen menu will open, click on either of available modes'
 
 #Stage 5
-TRAINING_STAGE_5_TITLE: '§aОтлично!'
-TRAINING_STAGE_5_SUBTITLE: '§fА теперь давайте выйдем в лобби командой §e/lobby'
+TRAINING_STAGE_5_TITLE: '§aPerfect!'
+TRAINING_STAGE_5_SUBTITLE: '§fNow lets leave to lobby with command §e/lobby'
 TRAINING_STAGE_5_HUBMESSAGE: '§f[§cTraining§f] §fWrite a command §e/lobby'
 TRAINING_STAGE_5_HOVER: '§fClick to write a command /lobby'
 
 #Stage 6
-TRAINING_STAGE_6_TITLE: '§fА на этом наше §6обучение§f подходит to end :-('
+TRAINING_STAGE_6_TITLE: '§fOn this our §6training§f comes to the end :-('
 TRAINING_STAGE_6_SUBTITLE: '§fIf you want to know all available commands, use §5/+TAB'
 
 CREATIVE_COMMANDS: '§f[§cServer§f] §fPlease create your plot §c/p auto§f, or teleported to home §c/p home'
@@ -646,9 +646,9 @@ BOARD_TIME: 'Time'
 BOARD_MAPS: 'Map'
 BOARD_MODULES: 'Modules'
 BOARD_WAIT: 'Players wait'
-BOARD_TIME_TO_DM: 'Время до дезматча'
+BOARD_TIME_TO_DM: 'Time to deathmatch'
 BOARD_SERVER: 'Server'
-BOARD_TO_START: 'Старт через'
+BOARD_TO_START: 'Start in'
 BOARD_SPECTATOR: 'Spectators'
 BOARD_KILLS: 'Kills'
 BOARD_LUCKYBLOCKS: 'LuckyBlocks'
@@ -657,9 +657,9 @@ BOARD_LIFE_COUNT: 'Health'
 BOARD_CHEST: 'Chests'
 BOARD_DEATH: 'Deaths'
 BOARD_FRIENDS: 'Friends'
-BOARD_PERK: 'Умение'
+BOARD_PERK: 'Ability'
 BOARD_ONLINE: 'Online'
-BOARD_NA: 'No select'
+BOARD_NA: 'Not select'
 BOARD_DISCORD: 'Discord'
 BOARD_POINTS: 'Points'
 BOARD_MONEY: 'Coins'
