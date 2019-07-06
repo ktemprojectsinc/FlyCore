@@ -285,138 +285,138 @@ PLAYER_ARENA_RESTARTED: '§cАрена перезавантажуеться'
 PLAYER_FLY_ACTIONBAR_TIME: '§cДо кінця польоту залишилось: %s'
 PLAYER_CREATIVE_ACTIONBAR_TIME: '§cДо кінця творчого режиму залишилось: %s'
 
-PLAYER_BOOST_NEED_XP: '§cВам нехватает %s, для повышения до %s'
-PLAYER_BOOST_BROADCAST: '§f[§cBoost§f] %s §fповысился до звания %s §aПоздравьте его!'
-PLAYER_BOOST_MAX_BROADCAST: '§f[§cBoost§f] %s §fповысился до §a§nмаксимального§f звания %s §aПоздравьте его!'
-PLAYER_BOOST_YOUR_UP_1: '%s§l§kX§f §5Вы повысились до %s%s %s§l§kX§f'
-PLAYER_BOOST_YOUR_UP_2: '§fи получили:'
+PLAYER_BOOST_NEED_XP: '§cВам не вичтачає %s, для підвищення до %s'
+PLAYER_BOOST_BROADCAST: '§f[§cBoost§f] %s §fпідвищився до звання %s §aПривітайте його!'
+PLAYER_BOOST_MAX_BROADCAST: '§f[§cBoost§f] %s §fпідвищився до §a§nмаксимального§f звання %s §aПривітайте його!'
+PLAYER_BOOST_YOUR_UP_1: '%s§l§kX§f §5Вы підвищилися до %s%s %s§l§kX§f'
+PLAYER_BOOST_YOUR_UP_2: '§fі отримали:'
 PLAYER_BOOST_YOUR_UP_COINS: '§7+§6%s §f%s'
 PLAYER_BOOST_YOUR_UP_EXP: '§7+§3%s §fEXP'
 PLAYER_BOOST_YOUR_UP_KEY: '§7+§d%s §f%s'
 PLAYER_BOOST_PLEASE_MADE_SCREENSHOT:
-- '§f[§cBoost§f] §cПожалуйста отправьте скриншот этого сообщения в группу §a§nvk.me/flycore§c для получения повышения.'
-- '§cДанная проверка сделана исключительно для вашей безопасности'
+- '§f[§cBoost§f] §cБудь ласка надішліть скріншот цього повідомлення в групу§a§nvk.me/flycore§c для отримання підвищення.'
+- '§cЦя перевірка зроблена виключно для вашої безпеки'
 
 AVAILABLE_SERVER_NOT_FOUND:
-- '§f[§cСервер§f] §fНе удалось найти подходящий сервер'
+- '§f[§cСервер§f] §fНе вдалося знайти відповідний сервер'
 
-SERVER_NOT_AVAILABLE_GROUP: '§cОшибка, вход на данный сервер доступен только для %s§c и выше'
-PLAYER_SERVER_ALREADY: '§f[§cСервер§f] §cВы уже находитесь на этом сервере!'
+SERVER_NOT_AVAILABLE_GROUP: '§cПомилка, вхід на даний сервер доступний тільки для%s§c і вищє'
+PLAYER_SERVER_ALREADY: '§f[§cСервер§f] §cВи вже знаходитесь на цьому сервері!'
 
-SLOT_BUSY: '§cПростите, но вы были перемещены в лобби, ваше место занял §r%s'
-ERROR_TELEPORT: '§cОшибка телепортации в лобби'
-ONLY_DONATOR: '§cОшибка, на арене только донатеры'
-ARENA_BUSY: '§cАрена заполнена, не хватает слотов? Купите §eGold§c или выше'
-ARENA_START: '§cИгра начинается...'
-ARENA_RESTART: '§cСервер перезагружается...'
+SLOT_BUSY: '§cВибачте, але ви були переміщені в лобі, ваше місце зайняв §r%s'
+ERROR_TELEPORT: '§cПомилка телепортации до лобби'
+ONLY_DONATOR: '§cПомилка, на арені тільки донатери.'
+ARENA_BUSY: '§cАрена заповнена, не вистачає слотів? Купить §eGold§c або вищє'
+ARENA_START: '§cГра починається...'
+ARENA_RESTART: '§cСервер перезавантажується...'
 
-PLAYER_JOIN_ARENA: '%s§f зашел в игру (§a%s§f/§a%s§f)'
-PLAYER_QUIT_ARENA: '%s§f покинул игру (§c%s§f/§a%s§f)'
-ARENA_DO_NOT_PLAYERS: '§cОшибка, не хватает игроков для старта'
-ARENA_STARTED: '§fИгра начнется через §a%s §f%s'
+PLAYER_JOIN_ARENA: '%s§f зайшов в гру (§a%s§f/§a%s§f)'
+PLAYER_QUIT_ARENA: '%s§f покинув гру (§c%s§f/§a%s§f)'
+ARENA_DO_NOT_PLAYERS: '§cПомилка, не вистачає гравців для старту'
+ARENA_STARTED: '§fГра почнеться через §a%s §f%s'
 
 LUCKYWARS_STARTED_TITLE: '§c§lСтарт!'
-LUCKYWARS_STARTED_SUBTITLE: '§fВыживите и не попадитесь в ловушку'
+LUCKYWARS_STARTED_SUBTITLE: '§fВиживіть і не попадіться в пастку'
 
-LUCKYWARS_FLY: '§f[§cLuckyWars§f] §fПолет отключается через §a5 секунд.'
-LUCKYWARS_FLY_INFO: '§f[§cLuckyWars§f] §fИгроку %s§f выпал полёт из лаки блока'
+LUCKYWARS_FLY: '§f[§cLuckyWars§f] §fПоліт відключається через §a5 секунд.'
+LUCKYWARS_FLY_INFO: '§f[§cLuckyWars§f] §fГравцю %s§f выпав політ із лакіблока'
 
-GAME_PLAYER_KILLED_YOURSELF: 'Вы умерли!'
-GAME_PLAYER_RESPAWN_TITLE: '§aВы возродились'
-GAME_PLAYER_RESPAWN_SUBTITLE: '§c%s ресурсов §7восстановлено'
-GAME_PLAYER_RESPAWN_SUBTITLE_BY: '§fВас убил игрок %s'
-GAME_PLAYER_KILLED_INFO: '%s §fубил игрока %s'
-GAME_PLAYER_KILLED_FELL_OUT_WORLD: '%s §fвыпал из мира'
-GAME_TEAM_WIN: '§eПобедила команда §8- %s'
-GAME_SOLO_WIN: '§eПобедил игрок §8- %s'
-GAME_CHAT_SPECTATORS: '§8[§7Наблюдателям§8]'
-GAME_CHAT_GLOBAL: '§8[Всем§8] [%s§8]'
-GAME_CHAT_TEAM: '§8[Команде§8]'
-GAME_TEAM_GAME_OVER: 'Команда %s§f проиграла'
+GAME_PLAYER_KILLED_YOURSELF: 'Ви померли!'
+GAME_PLAYER_RESPAWN_TITLE: '§aВи відродилися!'
+GAME_PLAYER_RESPAWN_SUBTITLE: '§c%s ресурсів §7відновлено'
+GAME_PLAYER_RESPAWN_SUBTITLE_BY: '§fВас вбив гравець %s'
+GAME_PLAYER_KILLED_INFO: '%s §fвбив гравця %s'
+GAME_PLAYER_KILLED_FELL_OUT_WORLD: '%s §fипав зі світу'
+GAME_TEAM_WIN: '§eПеремогла команда §8- %s'
+GAME_SOLO_WIN: '§eПереміг гравець §8- %s'
+GAME_CHAT_SPECTATORS: '§8[§7Спостерігачам§8]'
+GAME_CHAT_GLOBAL: '§8[Всім§8] [%s§8]'
+GAME_CHAT_TEAM: '§8[Команді§8]'
+GAME_TEAM_GAME_OVER: 'Команда %s§f програла'
 
 LUCKYWARS_INFO:
-- '§eВаша задача ломать лакиблоки и убивать игроков'
-- '§eВас будет преследовать множество ловушек,'
-- '§eтак что будьте очень осторожны!'
+- '§eВаше завдання ламати лакіблоки і вбивати гравців'
+- '§eВас буде переслідувати безліч пасток,'
+- '§eтак що будтье обережні!'
 
-PLAYER_TEAM_NO_PLACES: '§cВ данной команде нет мест.'
-PLAYER_TEAM_SELECTED: 'Вы выбрали команду %s'
+PLAYER_TEAM_NO_PLACES: '§cВ цій команді нема вільних міст.'
+PLAYER_TEAM_SELECTED: 'Вы вибрали команду %s'
 
-ARENA_TYPE_TEAM_NO_TEAM: '§c§lВнимание! §cОбразование союзов из нескольких команд запрещено. Докладывайте о таких игроках на форум.'
-ARENA_TYPE_SOLO_NO_TEAM: '§c§lВнимание! §cКомандная игра запрещена на Solo режиме. Докладывайте о таких игроках на форум.'
+ARENA_TYPE_TEAM_NO_TEAM: '§c§lУвага! §cУтворення спілок з декількох команд заборонено. Доповідайте про таких гравців на форум.'
+ARENA_TYPE_SOLO_NO_TEAM: '§c§lУвага! §cКомандна гра заборонена на Solo режимі. Доповідайте про таких гравців на форум.'
 
-SITESHOP_BUY: '§f[§cShop§f] §fВы купили §a%s'
-SITESHOP_INFO: '§f[§cСервер§f] §fИгрок %s§f купил §a%s§f, купить можно в §c/siteshop'
-SITESHOP_TITLE: '§fИгрок %s§f купил §a%s'
-SITESHOP_SUBTITLE: '§fКупить можно в §c/siteshop'
+SITESHOP_BUY: '§f[§cShop§f] §fВи купили §a%s'
+SITESHOP_INFO: '§f[§cСервер§f] §fГравець %s§f купив §a%s§f, купити можна в §c/siteshop'
+SITESHOP_TITLE: '§fГравець %s§f купив §a%s'
+SITESHOP_SUBTITLE: '§fКупити можна в §c/siteshop'
 
-SITESHOP_FLY: 'Полет'
-SITESHOP_CREATIVE_MODE: 'Творческий режим'
-SITESHOP_KIT_START: 'Стартовый набор'
+SITESHOP_FLY: 'Політ'
+SITESHOP_CREATIVE_MODE: 'Творчий режим'
+SITESHOP_KIT_START: 'Стартовий набор'
 SITESHOP_KIT_MEGA: 'Mega набор'
-SITESHOP_LUCKYCHEST: 'Обычные ключи'
-SITESHOP_DONATKEY: 'Донатный ключ'
+SITESHOP_LUCKYCHEST: 'Звичайні ключі'
+SITESHOP_DONATKEY: 'Донатний ключ'
 
-PERSONALUP_CONFIRM: '§cПодтвердите свой ключ /personalup <ключ>'
+PERSONALUP_CONFIRM: '§cПідтвердіть свій ключ /personalup <ключ>'
 
 SERVER_LINKS:
-- '§7Адрес сервера: §eflycore.ru'
+- '§7Адреса серверу: §eflycore.ru'
 - ''
-- '§7Группа Вконтакте: §fvk.com/flycore'
+- '§7Група Вконтакті: §fvk.com/flycore'
 - ''
 - '§7Сайт: §fflycore.ru'
 - '§7Форум: §fforum.flycore.ru'
 - ''
-- '§7Почта: §dktemprojects@mail.ru'
+- '§7Пошта: §dktemprojects@mail.ru'
 
-REWARDS_1: '§fВы получили §b%s§f %s:'
+REWARDS_1: '§fВи отримали §b%s§f %s:'
 REWARDS_2: '§7+§6%s§f %s'
-REWARDS_3: '§7+§a%s§f опыта'
-REWARDS_4: '§7+§d%s§f Косметических ключей'
-REWARDS_5: '§7+§d%s§f Косметическо-игровых ключей'
-REWARDS_6: '§7+§d%s§f Денежных ключей'
-REWARDS_7: '§7+§d%s§f Ультра ключей'
+REWARDS_3: '§7+§a%s§f опиту'
+REWARDS_4: '§7+§d%s§f косметичних ключів'
+REWARDS_5: '§7+§d%s§f Косметично-ігрових ключів'
+REWARDS_6: '§7+§d%s§f Грошових ключів'
+REWARDS_7: '§7+§d%s§f Ультра ключів'
 REWARDS_8: '§7+§e%s§f Золота'
 
 PRIZE_GET: |-
- §f[§cRewards§f] §fВы получили награду за §b%s§f уровень:
+ §f[§cRewards§f] §fВы отримали нагороду за §b%s§f рівень:
  §8 • §7+§6%s§f Монет
- §8 • §7+§d%s§f Косметических ключей
- §8 • §7+§d%s§f Денежных ключей
- §8 • §7+§d%s§f Косметическо-игровых ключей
- §8 • §7+§d%s§f Ультра ключей
-PRIZE_ALREADY: '§cВы уже забирали награду за данный уровень...'
+ §8 • §7+§d%s§f Косметичних ключів
+ §8 • §7+§d%s§f Грошових ключів
+ §8 • §7+§d%s§f Косметично-ігрових ключів
+ §8 • §7+§d%s§f Ультра ключів
+PRIZE_ALREADY: '§cВи вже забирали нагороду за цей рівень...'
 PRIZE_STATS: ' §8 • §7+%s§f Статус'
-PRIZE_NO_LEVEL: '§cУ вас должен быть минимум 1 уровень, чтобы получить награду'
+PRIZE_NO_LEVEL: '§cУ вас повинен бути мінімум 1 рівень, щоб отримати нагороду'
 
-ANS_REASON: '1.16. (Оффтоп)'
-ANS_REASON_MSG: 'Данный чат предназначен исключительно для помощи игрокам с адекватными вопросами, помните это'
-ANS_USE_MSG: '§f[§cQuestions§f] §fДля ответа пишите §a/ans %s <ваше сообщение> §7(наведите)'
-ANS_USE_HOVER: '§fНажмите, чтобы ответить игроку %s'
+ANS_REASON: '1.16. (Офтоп)'
+ANS_REASON_MSG: 'Цей чат призначений виключно для допомоги гравцям з адекватними питаннями, пам'ятайте це'
+ANS_USE_MSG: '§f[§cQuestions§f] §fДля відповіді пишіть §a/ans %s <Ваше повідомлення> §7(наведіть)'
+ANS_USE_HOVER: '§fНатисніть, щоб відповісти гравцю %s'
 
-REPORT_REASON_1: '1.4 (Реклама посторонних ресурсов)'
+REPORT_REASON_1: '1.4 (Реклама сторонніх ресурсів)'
 REPORT_REASON_2: '1.3 (Флуд)'
-REPORT_REASON_3: '1.5 (Попрашайнечество)'
-REPORT_REASON_4: '(Скорее всего аккаунт взломан, сообщите vk.com/flycore)'
-REPORT_REASON_5: '1.6 (Читы)'
+REPORT_REASON_3: '1.5 (Жебрацтво)'
+REPORT_REASON_4: '(Швидше за все аккаунт зламаний, повідомте vk.com/flycore)'
+REPORT_REASON_5: '1.6 (Чіти)'
 
-SERVER_STOP: '§f[§cСервер§f] §fОтключение сервера §a%s§f...'
-SERVER_START: '§f[§cСервер§f] §fВключение сервера §a%s§f..'
-SERVER_KILL: '§f[§cСервер§f] §fУбийство сервера §a%s§f. . '
+SERVER_STOP: '§f[§cСервер§f] §fВідключення сервера §a%s§f...'
+SERVER_START: '§f[§cСервер§f] §fУвімкнення сервера §a%s§f..'
+SERVER_KILL: '§f[§cСервер§f] §fВбивство сервера §a%s§f. . '
 
 LEVEL_NOT: |-
  
- §f[§cСервер§f] §fОшибка! У вас нет §b5-ого уровня§f для открытия наград!
+ §f[§cСервер§f] §fПомилка! У вас немає §b5-ого рівня§f для відкритя нагород!
   
 
-REDIRECT_TO_SERVER: '§aТелепортирую на сервер %s'
-SERVER_QUEUE: '§aТелепортирую на сервер %s'
+REDIRECT_TO_SERVER: '§aТелепортую на сервер %s'
+SERVER_QUEUE: '§aТелепортую на сервер %s'
 
-TAB_HEADER: "§bВы играете на §a§l§nFLYCORE.RU"
-TAB_FOOTER: "§a§lРанги, Ключи, & ДРУГОЕ §c§lSTORE.FLYCORE.RU"
+TAB_HEADER: "§bВы граєте на §a§l§nFLYCORE.RU"
+TAB_FOOTER: "§a§lРанги, Ключі, & ІНШЕ §c§lSTORE.FLYCORE.RU"
 
-REDIRECT_ERROR: '§cНевозможно найти подходящий сервер('
-HUBS_ERROR: '§cОшибка, нет доступного лобби, попробуйте повторить попытку позже'
+REDIRECT_ERROR: '§cНеможливо знайти відповідний сервер('
+HUBS_ERROR: '§cПомилка, немає доступного лобі, спробуйте повторити спробу пізніше'
 
 JOIN_WARNING_IP_CHANGE: '§c⚠ Внимание! §fВаш §cip адрес§f прошлой сессии не совпадает, наведите сюда и проверьте'
 JOIN_WARNING_HOVER: "§fВаш прошлый адрес: §a%s\n§fВаш текущий адрес: §c%s\n§fВаша почта: %s\n\n§fРекомендуем сделать: %s"
