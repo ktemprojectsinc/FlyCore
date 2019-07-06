@@ -3,16 +3,16 @@
 SERVER: '§f[§cСервер§f] §f'
 SERVER_RESTART: 'Перезавантаження'
 COMMAND_DOUBLE: '§f[§cСервер§f] §fПожалуйста используйте команды §cбез §fдвоеточия'
-ENABLED: '§aВключено'
-DISABLED: '§cВідключено'
+ENABLED: '§aВвімкнено'
+DISABLED: '§cВимкнено'
 ENABLE: '§aУвімкнути'
-DISABLE: '§cВідключили'
+DISABLE: '§cВимкнути'
 BANINFO_BY_ANOTHER: '§7[за проханням %s§7]'
-BAN_REQUEST_SENT: '§eВаше прохання заблокувати цього гравця відправлено всім онлайн-модераторам'
-BAN_REQUEST_ALREADY_SENT: '§cПрохання заблокувати даного гравця вже відправлялася, очікуйте рішення'
+BAN_REQUEST_SENT: '§eВаше прохання заблокувати цього гравця надіслано всім онлайн-модераторам'
+BAN_REQUEST_ALREADY_SENT: '§cПрохання заблокувати даного гравця вже надіслано, очікуйте рішення'
 BAN_REQUEST_BROADCAST: '§f[§cModeration§f] %s§f просить заблокувати %s§f на §f%s§f по причині §e%s'
-BANIP_REQUEST_SENT: '§eВаше прохання заблокувати цей IP адрес відправлено всім онлайн-модераторам'
-BANIP_REQUEST_ALREADY_SENT: '§cПрохання заблокувати цей IP адрес вже відправлялася, очікуйте рішення'
+BANIP_REQUEST_SENT: '§eВаше прохання заблокувати цей IP адрес надіслано всім онлайн-модераторам'
+BANIP_REQUEST_ALREADY_SENT: '§cПрохання заблокувати цей IP адрес вже надіслано, очікуйте рішення'
 BANIP_REQUEST_BROADCAST: '§f[§cModeration§f] %s§f просить заблокувати ip адрес §a%s§f на §f%s §fпо причині §e%s'
 SERVER_CLOSED_PLAYER_CONNECTION: "§f[§cСервер§f] §fСервер §a%s §fзакрив Ваше з`єднання, Вы перенаправлені до §a%s"
 BAN_REQUEST_ACCEPT_BROADCAST: '§f[§cModeration§f] %s§a схвалив §fпрохання на блокування §e%s'
@@ -236,7 +236,7 @@ PLAYER_GUILD_BUY_MOTD:
 PLAYER_GUILD_BUY_TAG:
 - ''
 - '                §8-| §c§lGUILDS §8|-'
-- ' §fВітаємо! Ви придбали поліпше §eтег гільдії'
+- ' §fВітаємо! Ви придбали поліпшення §eтег гільдії'
 - ' §fТепер Ви можете задати §7суфікс§f, який буде відображено'
 - ' §fпісля ніка кожного учасника Вашої гільдії'
 - ' §fДля цього використовуйте команду §7/guild tag'
@@ -253,37 +253,37 @@ PLAYER_GUILD_YOU_KICKED: |-
 
 PLAYER_BOOSTER_BUY_MULTIPLY:
 - ''
-- '                §8-| §b§lБУСТЕРЫ §8|-'
-- ' §fПВітаємо! Вы придбали бустер §eмножитель x2.0'
+- '                §8-| §b§lБУСТЕРИ §8|-'
+- ' §fПВітаємо! Вы придбали бустер §eмножник x2.0'
 - ' §fТепер при випадінні вже існуючего гаджета, або статуса'
 - ' §fіз сундука вдачи, Вони будуть помножені на §ax2.0'
 - ''
-PLAYER_BOOSTER_MULTIPLY: '§a▻ §bМножитель x2.0'
+PLAYER_BOOSTER_MULTIPLY: '§a▻ §bМножник x2.0'
 
-PLAYER_MARKETING_ACTIONBAR_TIME: '§cДо закінчення гри игры залишилось: %s'
+PLAYER_MARKETING_ACTIONBAR_TIME: '§cДо закінчення гри залишилось: %s'
 PLAYER_MARKETING_START_ONE: |-
- §6Marketing §8| §fВы выбрали тип игры: §aПримеры§f.
- §6Marketing §8| §fКаждые несколько секунд, у вас в чате будут появляться примеры, отвечайте на них правильно, чтобы проходить на следующие модули, и в конце окончить игру.
+ §6Marketing §8| §fВи обрали тип гри: §aПриклади§f.
+ §6Marketing §8| §fКожні декілька секунд, у вас в чаті будуть з`являтися приклади, відповідайте на них вірно, щоб проходити на наступні модулі, і в кінці закінчити гру.
 PLAYER_MARKETING_START_TWO: |-
- §6Marketing §8| §fВы выбрали тип игры: §bПаркур§f.
- §6Marketing §8| §fПройдите все модули до самого конца, чтобы окончить игру.
-PLAYER_MARKETING_QUESTION_WIN: '§6Marketing §8| §fВы ответили правильно, и получили §e+1 модуль'
+ §6Marketing §8| §fВи обрали тип гри: §bПаркур§f.
+ §6Marketing §8| §fПройдіть усі модулі до самого кінця, щоб закінчити гру.
+PLAYER_MARKETING_QUESTION_WIN: '§6Marketing §8| §fВи відповіли вірно, і отримали §e+1 модуль'
 PLAYER_MARKETING_FINISH: |-
- §6Marketing §8| §fПоздравляем, вы прошли все модули, и получили награды
-PLAYER_MARKETING_QUESTION_TITLE: '              §8 -| §6§lПример §8|-'
+ §6Marketing §8| §fВітаємо, ви пройшли всі модулі, і отримали нагородження
+PLAYER_MARKETING_QUESTION_TITLE: '              §8 -| §6§lПриклад §8|-'
 PLAYER_MARKETING_QUESTION: |-
- §fСколько будет, §a%s §fумножить на§a %s§f = §e?
- §7ответ напишите в чате
-PLAYER_MARKETING_QUESTION_WRONG: '§cОшибка, ответ на пример неверный'
-PLAYER_MARKETING_END_TIME: '§6Marketing §8| §cСожалеем, время вышло, вы не успели пройти игру'
-PLAYER_MARKETING_MODULE_CONFIRM: '§6Marketing §8| §f+1 §aмодуль пройден'
-PLAYER_MARKETING_QUIT_GAME: '§6Marketing §8| §fВы закрыли меню, арена покинута'
+ §fСкільки буде, §a%s §fпомножити на§a %s§f = §e?
+ §7відповідь напишіть у чаті
+PLAYER_MARKETING_QUESTION_WRONG: '§cПомилка, відповідь на приклад невірна'
+PLAYER_MARKETING_END_TIME: '§6Marketing §8| §cНажаль, час вийшов, ви не встигли пройти гру'
+PLAYER_MARKETING_MODULE_CONFIRM: '§6Marketing §8| §f+1 §aмодуль пройдено'
+PLAYER_MARKETING_QUIT_GAME: '§6Marketing §8| §fВи закрили меню, арена покинута'
 
-PLAYER_RESTARTING_ARENA: '§cРестарт арены, вы будите телепортированны в лобби через 5 секунд'
-PLAYER_ARENA_RESTARTED: '§cАрена перезапускается'
+PLAYER_RESTARTING_ARENA: '§cРестарт арени, ви будете телепортовані в лоббі через 5 секунд'
+PLAYER_ARENA_RESTARTED: '§cАрена перезавантажуеться'
 
-PLAYER_FLY_ACTIONBAR_TIME: '§cДо конца полета осталось: %s'
-PLAYER_CREATIVE_ACTIONBAR_TIME: '§cДо конца творческого режима осталось: %s'
+PLAYER_FLY_ACTIONBAR_TIME: '§cДо кінця польоту залишилось: %s'
+PLAYER_CREATIVE_ACTIONBAR_TIME: '§cДо кінця творчого режиму залишилось: %s'
 
 PLAYER_BOOST_NEED_XP: '§cВам нехватает %s, для повышения до %s'
 PLAYER_BOOST_BROADCAST: '§f[§cBoost§f] %s §fповысился до звания %s §aПоздравьте его!'
