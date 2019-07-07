@@ -1,5 +1,3 @@
-#Russian
-
 SERVER: '§f[§cServer§f] §f'
 SERVER_RESTART: 'Перезагрузка'
 COMMAND_DOUBLE: '§f[§cServer§f] §fПожалуйста используйте команды §cбез §fдвоеточия'
