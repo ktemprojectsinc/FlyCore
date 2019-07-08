@@ -3785,7 +3785,6 @@ GUI_CHANGELANGUAGE_LORE:
 - '§7Перевод: %s'
 - '§7Сменить язык на %s'
 - ''
-- 'f'
 GUI_CHANGELANGUAGE_ALREADY_LORE:
 - '§aВыбрано'
 GUI_CHANGELANGUAGE_SELECT_LORE:
