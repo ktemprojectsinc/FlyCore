@@ -94,70 +94,83 @@ PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
 #§fКоманды и переход по серверам снова доступен
 
-SECOND_0: 'секунд'
-SECOND_1: 'а'
-SECOND_2: 'и'
-SECOND_3: ''
+SECONDS:
+- 'секунд'
+- 'а'
+- 'и'
+- ''
 
-KEY_0: 'ключ'
-KEY_1: ''
-KEY_2: 'а'
-KEY_3: 'ів'
+KEYS:
+- 'ключ'
+- ''
+- 'а'
+- 'ів'
 
-DONATKEY_0: 'донат-ключ'
-DONATKEY_1: ''
-DONATKEY_2: 'а'
-DONATKEY_3: 'ів'
+DONATKEYS:
+- 'донат-ключ'
+- ''
+- 'а'
+- 'ів'
 
-SERVER_0: 'Сервер'
-SERVER_1: ''
-SERVER_2: 'а'
-SERVER_3: 'ів'
+SERVERS:
+- 'Сервер'
+- ''
+- 'а'
+- 'ів'
 
-MAP_0: 'Карт'
-MAP_1: 'а'
-MAP_2: 'и'
-MAP_3: ''
+MAPS:
+- 'Карт'
+- 'а'
+- 'и'
+- ''
 
-BONUSE_0: 'нагород'
-BONUSE_1: 'у'
-BONUSE_2: 'и'
-BONUSE_3: ''
+BONUSES:
+- 'нагород'
+- 'у'
+- 'и'
+- ''
 
-MONEY_0: 'монет'
-MONEY_1: 'а'
-MONEY_2: 'и'
-MONEY_3: ''
+MONEYS:
+- 'монет'
+- 'а'
+- 'и'
+- ''
 
-GOLD_0: 'золот'
-GOLD_1: 'о'
-GOLD_2: 'а'
-GOLD_3: 'а'
+GOLDS:
+- 'золот'
+- 'о'
+- 'а'
+- 'а'
 
-REPORT_0: 'жалоб'
-REPORT_1: 'а'
-REPORT_2: 'и'
-REPORT_3: ''
+REPORTS:
+- 'жалоб'
+- 'а'
+- 'и'
+- ''
 
-PLAYER_0: 'гравц'
-PLAYER_1: ''
-PLAYER_2: ''
-PLAYER_3: 'ів'
+PLAYERS:
+- 'гравц'
+- ''
+- ''
+- 'ів'
 
-FRIEND_0: 'дру'
-FRIEND_1: 'г'
-FRIEND_2: 'а'
-FRIEND_3: 'зів'
+FRIENDS:
+- 'дру'
+- 'г'
+- 'а'
+- 'зів'
 
-UPDATE_0: 'оновлен'
-UPDATE_1: 'я'
-UPDATE_2: 'я'
-UPDATE_3: 'ь'
+UPDATES:
+- 'оновлен'
+- 'я'
+- 'я'
+- 'ь'
 
-ITEM_0: 'предмет'
-ITEM_1: ''
-ITEM_2: 'а'
-ITEM_3: 'ів'
+ITEMS:
+- 'предмет'
+- ''
+- 'а'
+- 'ів'
 
 UNKNOWN: 'невідомо'
 
@@ -2192,12 +2205,13 @@ FORUM_ACCOUNT_ALREADY: |-
 SETWARP_FORMAT: '/setwarp <название>'
 SETWARP_DEVELOPED: '§cКоманда находится в разработке'
 
-BOSSBAR_1_MESSAGE: "§fСОКРУШИТЕЛЬНЫЙ §cОБВАЛ §fЦЕН! ВСЕ ЦЕНЫ БЫЛИ §aСНИЖЕНЫ §fНА §615%"
-BOSSBAR_2_MESSAGE: "§fПОКУПКА§e ДОНАТА §fНА САЙТЕ §7► §c§lFLYCORE.RU"
-BOSSBAR_3_MESSAGE: "§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lCREATIVE§f!"
-BOSSBAR_4_MESSAGE: "§fСООБЩИ О§c БАГЕ§f ИЛИ§c ОШИБКЕ §7► §c§lFLYCORE.RU/BUGS"
-BOSSBAR_5_MESSAGE: "§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lPARKOUR§f!"
-BOSSBAR_6_MESSAGE: "§fЗАДАЙ СВОЙ ВОПРОС §cАДМИНИСТРАЦИИ§f КОМАНДОЙ §7► §d/ASK"
+BOSS_BAR_LOBBY:
+- '§fСОКРУШИТЕЛЬНЫЙ §cОБВАЛ §fЦЕН! ВСЕ ЦЕНЫ БЫЛИ §aСНИЖЕНЫ §fНА §615%'
+- '§fПОКУПКА§e ДОНАТА §fНА САЙТЕ §7► §c§lFLYCORE.RU'
+- '§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lCREATIVE§f!'
+- '§fСООБЩИ О§c БАГЕ§f ИЛИ§c ОШИБКЕ §7► §c§lFLYCORE.RU/BUGS'
+- '§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lPARKOUR§f!'
+- '§fЗАДАЙ СВОЙ ВОПРОС §cАДМИНИСТРАЦИИ§f КОМАНДОЙ §7► §d/ASK'
 
 MESSAGES_21_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fВсе арены §cпереполнены§f, не хватает слотов?\n§fПриобретите §eGold§f на сайте §dflycore.ru\n§fи данная проблема будет решена\n"
 MESSAGES_21_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
