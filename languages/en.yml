@@ -107,70 +107,82 @@ PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
 #§fКоманды и переход по серверам снова доступен
 
-SECOND_0: 'second'
-SECOND_1: ''
-SECOND_2: ''
-SECOND_3: 's'
+SECONDS: 
+- 'second'
+- ''
+- ''
+- 's'
 
-KEY_0: 'key'
-KEY_1: ''
-KEY_2: ''
-KEY_3: 's'
+KEYS:
+- 'key'
+- ''
+- ''
+- 's'
 
-DONATKEY_0: 'donat-key'
-DONATKEY_1: ''
-DONATKEY_2: ''
-DONATKEY_3: 's'
+DONATKEYS:
+- 'donat-key'
+- ''
+- ''
+- 's'
 
-SERVER_0: 'Server'
-SERVER_1: ''
-SERVER_2: ''
-SERVER_3: 's'
+SERVERS: 
+- 'Server'
+- ''
+- ''
+- 's'
 
-MAP_0: 'Map'
-MAP_1: ''
-MAP_2: ''
-MAP_3: 's'
+MAPS:
+- 'Map'
+- ''
+- 's'
 
-BONUSE_0: 'reward'
-BONUSE_1: ''
-BONUSE_2: ''
-BONUSE_3: 's'
+BONUSES:
+- 'reward'
+- ''
+- ''
+- 's'
 
-MONEY_0: 'coin'
-MONEY_1: ''
-MONEY_2: ''
-MONEY_3: 's'
+MONEYS:
+- 'coin'
+- ''
+- ''
+- 's'
 
-GOLD_0: 'gold'
-GOLD_1: ''
-GOLD_2: ''
-GOLD_3: 's'
+GOLDS:
+- 'gold'
+- ''
+- ''
+- 's'
 
-REPORT_0: 'report'
-REPORT_1: ''
-REPORT_2: ''
-REPORT_3: 's'
+REPORTS:
+- 'report'
+- ''
+- ''
+- 's'
 
-PLAYER_0: 'player'
-PLAYER_1: ''
-PLAYER_2: ''
-PLAYER_3: 's'
+PLAYERS:
+- 'player'
+- ''
+- ''
+- 's'
 
-FRIEND_0: 'friend'
-FRIEND_1: ''
-FRIEND_2: ''
-FRIEND_3: 's'
+FRIENDS:
+- 'friend'
+- ''
+- ''
+- 's'
 
-UPDATE_0: 'update'
-UPDATE_1: ''
-UPDATE_2: ''
-UPDATE_3: 's'
+UPDATES:
+- 'update'
+- ''
+- ''
+- 's'
 
-ITEM_0: 'item'
-ITEM_1: ''
-ITEM_2: 's'
-ITEM_3: 's'
+ITEMS:
+- 'item'
+- ''
+- ''
+- 's'
 
 UNKNOWN: 'unknown'
 
@@ -2242,12 +2254,13 @@ FORUM_ACCOUNT_REGISTRED: |-
  §fLogin may on: §cforum.flycore.ru
 FORUM_ACCOUNT_ALREADY: '§cError, forum account already snap, authorization to forum.flycore.ru'
 
-BOSSBAR_1_MESSAGE: "§fCRUSHING §cPRICE §fCOLLAPSE! ALL PRICES WERE §aREDUCED §fBY §615%"
-BOSSBAR_2_MESSAGE: "§fPURCHASE§e OF DONAT §fON THE SITE §7► §c§lFLYCORE.RU"
-BOSSBAR_3_MESSAGE: "§c§lNEW! §fNEW MODE OPEN §6§lCREATIVE§f!"
-BOSSBAR_4_MESSAGE: "§fREPORT ABOUT§c BAGUE§f OR§c ERRORS §7► §c§lFLYCORE.RU/BUGS"
-BOSSBAR_5_MESSAGE: "§c§lNEW! §fOPENING NEW MODE §6§lPARKOUR§f!"
-BOSSBAR_6_MESSAGE: "§fASK YOUR QUESTION §cADMINISTRATIONS§f COMMAND §7► §d/ASK"
+BOSS_BAR_LOBBY:
+- '§fCRUSHING §cPRICE §fCOLLAPSE! ALL PRICES WERE §aREDUCED §fBY §615%'
+- '§fPURCHASE§e OF DONAT §fON THE SITE §7► §c§lFLYCORE.RU'
+- '§c§lNEW! §fNEW MODE OPEN §6§lCREATIVE§f!'
+- '§fREPORT ABOUT§c BAGUE§f OR§c ERRORS §7► §c§lFLYCORE.RU/BUGS'
+- '§c§lNEW! §fOPENING NEW MODE §6§lPARKOUR§f!'
+- '§fASK YOUR QUESTION §cADMINISTRATIONS§f COMMAND §7► §d/ASK'
 
 MESSAGES_21_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fAll arenas §ccrowded§f, not enough slots?\n§fPurchase §eGold§f on site §dflycore.ru\n§fand this problem will be solved\n"
 MESSAGES_21_HOVER_BROADCAST: "§fClick here to\n§ffollowing the link"
