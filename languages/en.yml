@@ -2495,12 +2495,12 @@ GUI_PROFILE_INFO_LORE:
 - '§7games on the server'
 - ''
 - '§a▸ Open the information menu'
-GUI_PROFILE_LANGUAGE_LORE:
+PROFILE_LANG_ITEM_LORE1:
 - '§7Change default server language'
 - '§7Translation and languages will be added!'
 - ''
 - '§7Currently available:'
-GUI_PROFILE_LANGUAGE_LORE2:
+PROFILE_LANG_ITEM_LORE2:
 #- ''
 #- '§cWARNING! If you want to help'
 #- '§cwith transation, you can write'
