@@ -3782,13 +3782,13 @@ GUI_EFFECTS_WINS_LORE:
 
 GUI_CHANGELANGUAGE_NAME: 'Профиль ▸ Смена языка'
 GUI_CHANGELANGUAGE_LORE:
-- '§7Выбрать язык %s'
+- '§7Перевод: %s'
+- '§7Сменить язык на %s'
 - ''
-- '%s'
 GUI_CHANGELANGUAGE_ALREADY_LORE:
 - '§aВыбрано'
 GUI_CHANGELANGUAGE_SELECT_LORE:
-- '§a▸ Нажмите, чтобы выбрать'
+- '§a▸ Нажмите, чтобы сменить язык'
 
 GUI_FRIEND_REQUESTS_NAME: 'Список запросов'
 GUI_FRIEND_REQUESTS_ITEM: '§eСписок запросов'
