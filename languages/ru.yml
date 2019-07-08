@@ -94,13 +94,13 @@ PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
 #§fКоманды и переход по серверам снова доступен
 
-SECONDS_1:
+SECONDS:
 - 'секунд'
 - 'а'
 - 'ы'
 - ''
 
-KEYS_1:
+KEYS:
 - 'ключ'
 - ''
 - 'а'
@@ -112,61 +112,61 @@ DONATKEYS_1:
 - 'а'
 - 'ей'
 
-SERVERS_1:
+SERVERS:
 - 'Сервер'
 - ''
 - 'а'
 - 'ов'
 
-MAPS_1:
+MAPS:
 - 'Карт'
 - 'а'
 - 'ы'
 - ''
 
-BONUSES_1:
+BONUSES:
 - 'наград'
 - 'у'
 - 'ы'
 - ''
 
-MONEYS_1:
+MONEYS:
 - 'монет'
 - 'а'
 - 'ы'
 - ''
 
-GOLDS_1:
+GOLDS:
 - 'золот'
 - 'о'
 - 'а'
 - 'а'
 
-REPORTS_1:
+REPORTS:
 - 'жалоб'
 - 'а'
 - 'ы'
 - ''
 
-PLAYERS_1:
+PLAYERS:
 - 'игрок'
 - ''
 - 'а'
 - 'ов'
 
-FRIENDS_1:
+FRIENDS:
 - 'дру'
 - 'г'
 - 'а'
 - 'зей'
 
-UPDATES_1:
+UPDATES:
 - 'обновлен'
 - 'ие'
 - 'я'
 - 'ий'
 
-ITEMS_1:
+ITEMS:
 - 'предмет'
 - ''
 - 'а'
