@@ -2247,12 +2247,13 @@ FORUM_ACCOUNT_ALREADY: |-
 SETWARP_FORMAT: '/setwarp <название>'
 SETWARP_DEVELOPED: '§cКоманда находится в разработке'
 
-BOSSBAR_1_MESSAGE: "§fСОКРУШИТЕЛЬНЫЙ §cОБВАЛ §fЦЕН! ВСЕ ЦЕНЫ БЫЛИ §aСНИЖЕНЫ §fНА §615%"
-BOSSBAR_2_MESSAGE: "§fПОКУПКА§e ДОНАТА §fНА САЙТЕ §7► §c§lFLYCORE.RU"
-BOSSBAR_3_MESSAGE: "§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lCREATIVE§f!"
-BOSSBAR_4_MESSAGE: "§fСООБЩИ О§c БАГЕ§f ИЛИ§c ОШИБКЕ §7► §c§lFLYCORE.RU/BUGS"
-BOSSBAR_5_MESSAGE: "§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lPARKOUR§f!"
-BOSSBAR_6_MESSAGE: "§fЗАДАЙ СВОЙ ВОПРОС §cАДМИНИСТРАЦИИ§f КОМАНДОЙ §7► §d/ASK"
+BOSS_BAR_LOBBY:
+- '§fСОКРУШИТЕЛЬНЫЙ §cОБВАЛ §fЦЕН! ВСЕ ЦЕНЫ БЫЛИ §aСНИЖЕНЫ §fНА §615%'
+- '§fПОКУПКА§e ДОНАТА §fНА САЙТЕ §7► §c§lFLYCORE.RU'
+- '§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lCREATIVE§f!'
+- '§fСООБЩИ О§c БАГЕ§f ИЛИ§c ОШИБКЕ §7► §c§lFLYCORE.RU/BUGS'
+- '§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lPARKOUR§f!'
+- '§fЗАДАЙ СВОЙ ВОПРОС §cАДМИНИСТРАЦИИ§f КОМАНДОЙ §7► §d/ASK'
 
 MESSAGES_21_BROADCAST: "\n§e§l§nFlyCore§7 - §d§lInfo\n§fВсе арены §cпереполнены§f, не хватает слотов?\n§fПриобретите §eGold§f на сайте §dflycore.ru\n§fи данная проблема будет решена\n"
 MESSAGES_21_HOVER_BROADCAST: "§fНажмите сюда для\n§fперехода по ссылке"
