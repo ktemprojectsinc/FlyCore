@@ -3740,9 +3740,9 @@ GUI_EFFECTS_WINS_LORE:
 
 GUI_CHANGELANGUAGE_NAME: 'Профиль ▸ Смена языка'
 GUI_CHANGELANGUAGE_LORE:
-- '§7Выбрать язык %s'
-- ''
-- '%s'
+- '§7Перевод: %s'
+- '§7Сменить язык на %s'
+- ' '
 GUI_CHANGELANGUAGE_ALREADY_LORE:
 - '§aВыбрано'
 GUI_CHANGELANGUAGE_SELECT_LORE:
