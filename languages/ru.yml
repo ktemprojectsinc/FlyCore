@@ -100,65 +100,77 @@ SECONDS_1:
 - 'ы'
 - ''
 
-KEY_0: 'ключ'
-KEY_1: ''
-KEY_2: 'а'
-KEY_3: 'ей'
+KEYS_1:
+- 'ключ'
+- ''
+- 'а'
+- 'ей'
 
-DONATKEY_0: 'донат-ключ'
-DONATKEY_1: ''
-DONATKEY_2: 'а'
-DONATKEY_3: 'ей'
+DONATKEYS_1:
+- 'донат-ключ'
+- ''
+- 'а'
+- 'ей'
 
-SERVER_0: 'Сервер'
-SERVER_1: ''
-SERVER_2: 'а'
-SERVER_3: 'ов'
+SERVERS_1:
+- 'Сервер'
+- ''
+- 'а'
+- 'ов'
 
-MAP_0: 'Карт'
-MAP_1: 'а'
-MAP_2: 'ы'
-MAP_3: ''
+MAPS_1:
+- 'Карт'
+- 'а'
+- 'ы'
+- ''
 
-BONUSE_0: 'наград'
-BONUSE_1: 'у'
-BONUSE_2: 'ы'
-BONUSE_3: ''
+BONUSES_1:
+- 'наград'
+- 'у'
+- 'ы'
+- ''
 
-MONEY_0: 'монет'
-MONEY_1: 'а'
-MONEY_2: 'ы'
-MONEY_3: ''
+MONEYS_1:
+- 'монет'
+- 'а'
+- 'ы'
+- ''
 
-GOLD_0: 'золот'
-GOLD_1: 'о'
-GOLD_2: 'а'
-GOLD_3: 'а'
+GOLDS_1:
+- 'золот'
+- 'о'
+- 'а'
+- 'а'
 
-REPORT_0: 'жалоб'
-REPORT_1: 'а'
-REPORT_2: 'ы'
-REPORT_3: ''
+REPORTS_1:
+- 'жалоб'
+- 'а'
+- 'ы'
+- ''
 
-PLAYER_0: 'игрок'
-PLAYER_1: ''
-PLAYER_2: 'а'
-PLAYER_3: 'ов'
+PLAYERS_1:
+- 'игрок'
+- ''
+- 'а'
+- 'ов'
 
-FRIEND_0: 'дру'
-FRIEND_1: 'г'
-FRIEND_2: 'а'
-FRIEND_3: 'зей'
+FRIENDS_1:
+- 'дру'
+- 'г'
+- 'а'
+- 'зей'
 
-UPDATE_0: 'обновлен'
-UPDATE_1: 'ие'
-UPDATE_2: 'я'
-UPDATE_3: 'ий'
+UPDATES_1:
+- 'обновлен'
+- 'ие'
+- 'я'
+- 'ий'
 
-ITEM_0: 'предмет'
-ITEM_1: ''
-ITEM_2: 'а'
-ITEM_3: 'ов'
+ITEMS_1:
+- 'предмет'
+- ''
+- 'а'
+- 'ов'
 
 UNKNOWN: 'неизвестно'
 
