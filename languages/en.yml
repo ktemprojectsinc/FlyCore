@@ -3724,7 +3724,7 @@ GUI_CHANGELANGUAGE_NAME: 'Profile ▸ Switch language'
 GUI_CHANGELANGUAGE_LORE:
 - '§7Translation: %s'
 - '§7Change language to %s'
-- ''
+- '§r'
 GUI_CHANGELANGUAGE_ALREADY_LORE:
 - '§aSelected'
 GUI_CHANGELANGUAGE_SELECT_LORE:
