@@ -235,7 +235,7 @@ EFFECTSHOP_SOUND_NOT_LEVEL: '§cFor buying this sound, your need level §d%s§c 
 
 PLAYER_NO_MONEY:
 - '§f[§cServer§f] §fOn your account недостаточно money. Пополнить Ваш счёт можно на сайте §cflycore.ru'
-PLAYER_NO_GOLD:
+PLAYER_NO_GOLDS:
 - '§f[§cServer§f] §fOn your account недостаточно golds. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 PLAYER_NO_LEVEL:
 - '§f[§cServer§f] §fOn your account недостаточно level. Приобрести опыт можно на сайте §cflycore.ru'
