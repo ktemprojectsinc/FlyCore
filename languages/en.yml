@@ -2207,7 +2207,7 @@ MAIL_ADD_INCORRECT: "§cThis email isn't valid"
 MAIL_ADD_WRONG: "§cError, specified adresses aren't same!"
 MAIL_ADD_CONFIRM: '§f[§cAuth§f] §fEmail ownership confirmed!'
 AUTH_TIMEOUT: '§cAuthorization timeout'
-AUTH_REGISTER_INFO: '§7Register - §e/reg §f[§epassword§f] §f[§erepeat password §f]'
+AUTH_REGISTER_INFO: '§7Register - §e/reg §f[§epassword§f] §f[§erepeat password§f]'
 AUTH_LOGIN_INFO: '§7Log in - §e/login §f[§epassword§f]'
 AUTH_LOGOUT: '§cYou signed out of your account'
 AUTH_LOGIN_CONFIRM: '§fAuthorization is successful!'
