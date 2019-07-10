@@ -2079,7 +2079,7 @@ PARKOUR_NO_FOUND: '§cError, map not found'
 PARKOUR_EXIT: '§f[§cParkour§f] §fYou leave for map'
 PARKOUR_START: "§f[§cParkour§f] §fYou started to pass parkour on the map '§a%s§f' §7(§a%s§7)"
 PARKOUR_FLY:
-- '§cDon't use fly, otherwise your account will be banned'
+- "§cDon't use fly, otherwise your account will be banned"
 - '§cWrite about the cheaters on forum.'
 PARKOUR_DISABLE: '§f[§cParkour§f] §cThis parkour is disabled'
 PARKOUR_NO_MODULE: '§f[§cParkour§f] §fYou have to pass the module 1'
