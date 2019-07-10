@@ -2091,7 +2091,7 @@ PARKOUR_NEW:
 - '§f[§cParkour§f] §2You beat your record'
 - '§f[§cParkour§f] §fYou passed this parkour for §e%s'
 PARKOUR_OLD:
-- '§f[§cParkour§f] §4You didn't beat your old record'
+- "§f[§cParkour§f] §4You didn't beat your old record"
 - '§f[§cParkour§f] §fYou passed this parkour for §c%s'
 PARKOUR_MODULE: '§f[§cParkour§f] §fModule §e%s§7/§a%s§f achieved'
 PARKOUR_MODULE_TITLE: '§fModule §e%s§7/§a%s§f passed'
