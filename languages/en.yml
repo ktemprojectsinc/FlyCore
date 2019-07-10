@@ -979,9 +979,9 @@ CORE_NPC_COMMAND_HELP:
 
 CORE_MEMORY:
 - '§f[§cCore§f] §fInformation of memory:'
-- '§8 ▪ §fMax memory §a%s§f Mb'
-- '§8 ▪ §fAllowed memory §a%s§f Mb'
-- '§8 ▪ §fFree memory §a%s§f Mb'
+- '§8 ▪ §fMax memory §a%s§f MB'
+- '§8 ▪ §fAllowed memory §a%s§f MB'
+- '§8 ▪ §fFree memory §a%s§f MB'
 
 CORE_SETSERVER_FORMAT: '/core setserver <server> <group>'
 CORE_SETSERVER_NOT_FOUND: '§cError, server %s not found to core'
