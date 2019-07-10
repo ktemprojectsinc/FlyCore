@@ -267,13 +267,13 @@ PLAYER_GUILD_BUY_TAG:
 - ' §fFor this use command §7/guild tag'
 - ''
 
-PLAYER_GUILD_YOU_KICKED: |-
- §f[§cGuilds§f] §fYou got kicked from guild §e%s
- §c • §f%s: §a%s
- §c • §fReason: §a%s
-  
- §c • §fDate: §a%s
- §c • §e%s ago
+PLAYER_GUILD_YOU_KICKED:
+- '§f[§cGuilds§f] §fYou got kicked from guild §e%s'
+- '§c • §f%s: §a%s'
+- '§c • §fReason: §a%s'
+- ''
+- '§c • §fDate: §a%s'
+- '§c • §e%s ago'
   
 PLAYER_BOOSTER_BUY_MULTIPLY:
 - ''
@@ -402,13 +402,13 @@ REWARDS_6: '§7+§d%s§f Денежных keys'
 REWARDS_7: '§7+§d%s§f Ultra keys'
 REWARDS_8: '§7+§e%s§f Golds'
 
-PRIZE_GET: |-
- §f[§cRewards§f] §fВы получили награду за §b%s§f уровень:
- §8 • §7+§6%s§f Money
- §8 • §7+§d%s§f Косметических ключей
- §8 • §7+§d%s§f Денежных ключей
- §8 • §7+§d%s§f Косметическо-игровых ключей
- §8 • §7+§d%s§f Ultra keys
+PRIZE_GET:
+- '§f[§cRewards§f] §fВы получили награду за §b%s§f уровень:'
+- '§8 • §7+§6%s§f Money'
+- '§8 • §7+§d%s§f Косметических ключей'
+- '§8 • §7+§d%s§f Денежных ключей'
+- '§8 • §7+§d%s§f Косметическо-игровых ключей'
+- '§8 • §7+§d%s§f Ultra keys'
 PRIZE_ALREADY: '§cВы уже забирали награду за данный уровень...'
 PRIZE_STATS: ' §8 • §7+%s§f Rank'
 PRIZE_NO_LEVEL: '§cУ вас должен быть минимум 1 уровень, чтобы получить награду'
@@ -778,14 +778,14 @@ SPAWN_ALREADY: '§cProcess of teleportation is already running'
 SPAWN_CANCEL: '§cYou moved, teleportation canceled'
 
 DEVELOPER_DELAY: '§cSend message to developer, can only once an hour'
-DEVELOPER_CREATE: |-
- §f[§cServer§f] §fYour message was send to server developer,
- §f If developer didn't answered it during one 1-2 days,
- §f You also may write message to developer group,
- §f to link: §5vk.me/flycore§f, or forum a theme name,
- §f "§eMessage for developer§f".
-  
- §f Also if want, sent message for server group §bvk.com/flycore
+DEVELOPER_SENT:
+- '§f[§cServer§f] §fYour message was send to server developer,'
+- '§f If developer didn't answered it during one 1-2 days,'
+- '§f You also may write message to developer group,'
+- '§f to link: §5vk.me/flycore§f, or forum a theme name,'
+- '§f "§eMessage for developer§f".'
+- ''
+- '§f Also if want, sent message for server group §bvk.com/flycore'
 DEVELOPER_ERROR: '§f[§cServer§f] §fYour message have to contain more than §e3§f and less than §c100§f symbols'
 
 HELP_PAPER_FOR: '§a▸ Sub commands for %s:'
@@ -795,7 +795,7 @@ DELAY_OFF: '§cDisabled'
 STAFFCHAT_ON: '§aEnabled'
 STAFFCHAT_OFF: '§cDisabled'
 
-SPYCMD_HELP: |-
+SPYCMD_HELP:
  - '§f[§cSpyCmd§f] §fCommands list:'
  - '§c/spycmd on §f- enable commands spying'
  - '§c/spycmd off §f- disable spying'
@@ -805,7 +805,7 @@ SPYCMD_ALREADY: '§f[§cSpyCmd§f] §cSpying is already enabled'
 SPYCMD_ALREADY_DISABLE: '§f[§cSpyCmd§f] §cSpying is already disabled'
 SPYCMD_FORMAT: '§f[§cCmd§f] %s§8 » §b%s'
 
-SPYCMD_HELP: |-
+SPYCMD_HELP:
  - '§f[§cSpyChat§f] §fCommands list:'
  - '§c/spychat on §f- enable chat spying'
  - '§c/spychat off §f- disable spying'
@@ -872,75 +872,75 @@ PLAYER_NAME_24: 'Исключил'
 PROXY_COMMAND_HELP:
 - '§f[§cProxy§f] §fCommands list:'
 - '§c/proxy info §f- information for your connected to proxies'
-PROXY_INFO: |-
- §f[§cCore§f] §fInformation for your connected:
- §8 • §fProxy: §a%s
- §8 • §fIP address: §a%s
- §8 • §fTotal online: §a%s §f%s
-PROXY_INFO_TO: |-
- §f[§cCore§f] §fInformation for connected player %s§f:
- §8 • §fProxy: §a%s
- §8 • §fIP address: §a%s
- §8 • §fTotal online: §a%s §f%s
+PROXY_INFO:
+- '§f[§cCore§f] §fInformation for your connected:'
+- '§8 • §fProxy: §a%s'
+- '§8 • §fIP address: §a%s'
+- '§8 • §fTotal online: §a%s §f%s'
+PROXY_INFO_TO:
+- '§f[§cCore§f] §fInformation for connected player %s§f:'
+- '§8 • §fProxy: §a%s'
+- '§8 • §fIP address: §a%s'
+- '§8 • §fTotal online: §a%s §f%s'
  
 PLAYERINFO_FORMAT: '/playerinfo <player name>'
 PLAYERINFO_YT: '§f- YouTube channel: §a%s'
 PLAYERINFO_STAFF: '§f- Boost percent: §a%s'
-PLAYERINFO: |-
- §eInformation for player %s§e:
- §f- Player ID: §a%s
- §f- Rank: §a%s
- §f- Prefix: §a%s
- §f- Suffix: §a%s
- §f- Suffix on friend chat: §a%s
- §f- Suffix on guild chat: §a%s
- §f- Suffix on party chat: §a%s
- §f- Money: §a%s
- §f- Golds: §a%s
- §f- Player level: §a%s
- §f- Player experience: §a%s
- §f- Cosmetic keys: §a%s
- §f- Money keys: §a%s
- §f- Cosmetick-game keys: §a%s
- §f- Ultra keys: §a%s
- §f- Donate keys: §a%s
- §f- uuid: §a%s
+PLAYERINFO:
+- '§eInformation for player %s§e:'
+- '§f- Player ID: §a%s'
+- '§f- Rank: §a%s'
+- '§f- Prefix: §a%s'
+- '§f- Suffix: §a%s'
+- '§f- Suffix on friend chat: §a%s'
+- '§f- Suffix on guild chat: §a%s'
+- '§f- Suffix on party chat: §a%s'
+- '§f- Money: §a%s'
+- '§f- Golds: §a%s'
+- '§f- Player level: §a%s'
+- '§f- Player experience: §a%s'
+- '§f- Cosmetic keys: §a%s'
+- '§f- Money keys: §a%s'
+- '§f- Cosmetick-game keys: §a%s'
+- '§f- Ultra keys: §a%s'
+- '§f- Donate keys: §a%s'
+- '§f- uuid: §a%s'
  
-ME_INFO: |-
- 
- §8Здесь вы можете увидить информацию,
- §8которую мы храним на сервере о вас.
- 
- §8#Proxy
- §f[§cCore§f] §fИнформация о подключении игрока %s§f:
- §f- §fПрокси: §a%s
- §f- §fIP адрес: §a%s
- §f- §fОбщий онлайн: §a%s §f%s
- §8#Whois
- §eИнформация об игроке %s
- §f- ID игрока: §a%s
- §f- Привилегия: §a%s
- §f- IP адрес: §a%s
- §f- Прокси: §a%s
- §f- Сервер: §a%s
- §f- Версия: §a%s
- §f- Язык: §a%s
- §f- Подключен с: §a%s
- §f- Серверные данные: §a%s
- §8#Datas
- §eInformation for player %s§e:
- §f- Player ID: §a%s
- §f- Rank: §a%s
- §f- Money: §a%s
- §f- Golds: §a%s
- §f- Player level: §a%s
- §f- Player experience: §a%s
- §f- Cosmetic keys: §a%s
- §f- Money keys: §a%s
- §f- Cosmetick-game keys: §a%s
- §f- Ultra keys: §a%s
- §f- Donate keys: §a%s
- §f- uuid: §a%s
+ME_INFO:
+- ''
+- '§8Здесь вы можете увидить информацию,'
+- '§8которую мы храним на сервере о вас.'
+- ''
+- '§8#Proxy'
+- '§f[§cCore§f] §fИнформация о подключении игрока %s§f:'
+- '§f- §fПрокси: §a%s'
+- '§f- §fIP адрес: §a%s'
+- '§f- §fОбщий онлайн: §a%s §f%s'
+- '§8#Whois'
+- '§eИнформация об игроке %s'
+- '§f- ID игрока: §a%s'
+- '§f- Привилегия: §a%s'
+- '§f- IP адрес: §a%s'
+- '§f- Прокси: §a%s'
+- '§f- Сервер: §a%s'
+- '§f- Версия: §a%s'
+- '§f- Язык: §a%s'
+- '§f- Подключен с: §a%s'
+- '§f- Серверные данные: §a%s'
+- '§8#Datas'
+- '§eInformation for player %s§e:'
+- '§f- Player ID: §a%s'
+- '§f- Rank: §a%s'
+- '§f- Money: §a%s'
+- '§f- Golds: §a%s'
+- '§f- Player level: §a%s'
+- '§f- Player experience: §a%s'
+- '§f- Cosmetic keys: §a%s'
+- '§f- Money keys: §a%s'
+- '§f- Cosmetick-game keys: §a%s'
+- '§f- Ultra keys: §a%s'
+- '§f- Donate keys: §a%s'
+- '§f- uuid: §a%s'
 
 FINDID_FORMAT: '/findid <id>'
 FINDID_NOT_FOUND: '§cPlayer of id %s, never played on our project'
@@ -977,11 +977,11 @@ CORE_NPC_COMMAND_HELP:
  - '§7/core npc tp <id> §f- teleport to npc'
  - '§7/core npc list §f- npc list'
 
-CORE_MEMORY: |-
- §f[§cCore§f] §fInformation of memory:
- §8 ▪ §fMax memory §a%s§f MB
- §8 ▪ §fAllowed memory §a%s§f MB
- §8 ▪ §fFree memory §a%s§f MB
+CORE_MEMORY:
+- '§f[§cCore§f] §fInformation of memory:'
+- '§8 ▪ §fMax memory §a%s§f Mb'
+- '§8 ▪ §fAllowed memory §a%s§f Mb'
+- '§8 ▪ §fFree memory §a%s§f Mb'
 
 CORE_SETSERVER_FORMAT: '/core setserver <server> <group>'
 CORE_SETSERVER_NOT_FOUND: '§cError, server %s not found to core'
@@ -994,10 +994,10 @@ CORE_PROXYS_TOTAL: '§f[§cCore§f] §fTotal connected proxies (§a%s§f):'
 CORE_PROXYS_FORMAT: ' §8• §a%s §e[%s] §7(§a%s §f%s§7)'
 
 CORE_DATAINFO_FORMAT: '/core datainfo <player name>'
-CORE_DATAINFO: |-
- §f[§cCore§f] §fDate of §a%s§f:
- §4 ▪ §c%s
- §4 ▪ §c%s
+CORE_DATAINFO:
+- '§f[§cCore§f] §fDate of §a%s§f:'
+- '§4 ▪ §c%s'
+- '§4 ▪ §c%s'
 
 NPC_CREATE_FORMAT: '/npc create <id> <type> <name>'
 NPC_ALREADY_EXIST: '§cError, npc for id %s already created'
@@ -1052,10 +1052,10 @@ CORE_HIDE_ENABLE: '§f[§cCore§f] §fYour enable hide for your'
 CORE_HIDE_DISABLE: '§f[§cCore§f] §fYour disable hide'
 
 CORE_MONEY_COMMAND_HELP:
- - '§f[§cEconomy§f] §fCommands list:'
- - '§c/core money <key> check <name> §f- chack balance'
- - '§c/core money <key> add <name> <money> §f- give money'
- - '§c/core money <key> rem <name> <money> §f- take money'
+- '§f[§cEconomy§f] §fCommands list:'
+- '§c/core money <key> check <name> §f- chack balance'
+- '§c/core money <key> add <name> <money> §f- give money'
+- '§c/core money <key> rem <name> <money> §f- take money'
 CORE_MONEY_CHECK: '§f[§cEconomy§f] §fFor account %s§f: §a%s §f%s, §e%s§f %s'
 CORE_MONEY_CHECK_FORMAT: '/core money <key> check <name>'
 CORE_MONEY_ERROR: '§cSum incorrect'
@@ -1098,27 +1098,27 @@ PARTY_OFFLINE: "§cAll group's members are offline"
 PARTY_CHAT: '§dParty chat §8| %s §8» §f%s'
 
 PARTY_COMMAND_HELP:
- - '§f[§cParty§f] §fCommands list:'
- - '§c/party invite <player name> §f- create new group'
- - '§c/party requests §f- invite list of group'
- - '§c/party join <player name> §f- join to public player group'
- - '§c/party all §f- all public groups'
+- '§f[§cParty§f] §fCommands list:'
+- '§c/party invite <player name> §f- create new group'
+- '§c/party requests §f- invite list of group'
+- '§c/party join <player name> §f- join to public player group'
+- '§c/party all §f- all public groups'
 PARTY_COMMAND_OWNER_HELP:
- - '§f[§cParty§f] §fCommands list:'
- - '§c/party kick <player name> §f- remove member group'
- - '§c/party setowner <player name> §f- give ownership'
- - '§c/party disband §f- disband group'
- - '§c/party warp §f- teleport everyone group members on this server'
- - '§c/party setting <setting> <true/false> §f- group settings'
- - '§c/pchat <message> §f- group chat'
- - '§c/party list §f- group list of members'
- - '§c/party invite <player name> §f- invite player in the group'
+- '§f[§cParty§f] §fCommands list:'
+- '§c/party kick <player name> §f- remove member group'
+- '§c/party setowner <player name> §f- give ownership'
+- '§c/party disband §f- disband group'
+- '§c/party warp §f- teleport everyone group members on this server'
+- '§c/party setting <setting> <true/false> §f- group settings'
+- '§c/pchat <message> §f- group chat'
+- '§c/party list §f- group list of members'
+- '§c/party invite <player name> §f- invite player in the group'
 PARTY_COMMAND_MEMBER_HELP:
- - '§f[§cParty§f] §fCommands list:'
- - '§c/party leave §f- leave group'
- - '§c/pchat <message> §f- group chat'
- - '§c/party list §f- group list of members'
- - '§c/party invite <player name> §f- invite player in the group'
+- '§f[§cParty§f] §fCommands list:'
+- '§c/party leave §f- leave group'
+- '§c/pchat <message> §f- group chat'
+- '§c/party list §f- group list of members'
+- '§c/party invite <player name> §f- invite player in the group'
 
 PARTY_NOT_LEAVE_OWNER: '§f[§cParty§f] §fTo §leave§f the group, give manage permissions to another player first'
 PARTY_LEAVE: '§f[§cParty§f] §fYou left %s §fthe group'
@@ -1150,11 +1150,11 @@ PARTY_SETTING_ALREADY: '§cError, value of this setting is already said'
 PARTY_SETTING_ALERT: '§f[§cParty§f] %s §fupdated value of the setting §a%s§f in the group'
 PARTY_SETTING: '§f[§cParty§f] §fValue of the setting §a%s §fupdated'
 PARTY_COMMAND_SETTING_HELP:
- - '§f[§cParty§f] §fList of available setting:'
- - ' §c• §einvites: §f[§aallinvite§f] - allows all members to invite players in group'
- - ' §c• §epublicity: §f[§apublic§f] - makes group publuc'
- - ' §c• §eauto-teleportation: §f[§aautowarp§f] - disables teleportation of group members when joining the server'
- - ' §c• §eauto-kick: §f[§aautokick§f] - disables the automatic kick of group members when offline time expires'
+- '§f[§cParty§f] §fList of available setting:'
+- ' §c• §einvites: §f[§aallinvite§f] - allows all members to invite players in group'
+- ' §c• §epublicity: §f[§apublic§f] - makes group publuc'
+- ' §c• §eauto-teleportation: §f[§aautowarp§f] - disables teleportation of group members when joining the server'
+- ' §c• §eauto-kick: §f[§aautokick§f] - disables the automatic kick of group members when offline time expires'
 PARTY_SETTING_OWNER: '§cChange the group settings can only the group owner'
 
 PARTY_DISBAND: '§f[§cParty§f] §fYou disbanded the group'
@@ -1197,15 +1197,15 @@ PARTY_ACCEPT_CREATE: '§f[§cParty§f] §fYou created new group with player %s'
 PARTY_ACCEPT_ME: "§cError, You can't invite yourself to the group"
 
 FRIEND_COMMAND_HELP:
- - '§f[§cFriends§f] §fCommands list:'
- - '§c/f add <player name> §f- add player to friends list'
- - '§c/f remove <player name> §f- remove player from friends list'
- - '§c/f accept <player name> §f- accept friend request from player'
- - '§c/f reject <player name> §f- decline friend request from player'
- - '§c/f requests §f- friend request list'
- - '§c/f list §f- friend list'
- - '§c/fchat <message> §f- send all message for your friends'
- - '§c/f tp <player name> §f- teleport to your friend server'
+- '§f[§cFriends§f] §fCommands list:'
+- '§c/f add <player name> §f- add player to friends list'
+- '§c/f remove <player name> §f- remove player from friends list'
+- '§c/f accept <player name> §f- accept friend request from player'
+- '§c/f reject <player name> §f- decline friend request from player'
+- '§c/f requests §f- friend request list'
+- '§c/f list §f- friend list'
+- '§c/fchat <message> §f- send all message for your friends'
+- '§c/f tp <player name> §f- teleport to your friend server'
 FRIEND_NO_FRIENDS: "§cYou haven't got friends"
 FRIEND_NOTFRI: "§cPlayer %s §cisn't your friend"
 FRIEND_ALREADY: '§cYou are already friends'
@@ -1328,47 +1328,47 @@ GUILD_OFFLINE: '§cAll guild members are offline'
 GUILD_CHAT: '§2Guild chat §8| %s §8» §7%s'
 
 GUILD_COMMAND_HELP:
- - '§f[§cGuilds§f] §fCommands list:'
- - '§c/g create <name> §f- create guild'
- - '§c/g top §f- see guilds top'
- - '§c/g accept <player nickname> §f- accept guild invite'
- - '§c/g reject <player nickname> §f- reject guild invite'
- - '§c/g requests §f- guild invitions list'
- - '§c/g all §f- open all guilds list'
+- '§f[§cGuilds§f] §fCommands list:'
+- '§c/g create <name> §f- create guild'
+- '§c/g top §f- see guilds top'
+- '§c/g accept <player nickname> §f- accept guild invite'
+- '§c/g reject <player nickname> §f- reject guild invite'
+- '§c/g requests §f- guild invitions list'
+- '§c/g all §f- open all guilds list'
 GUILD_COMMAND_MEMBER_HELP:
- - '§f[§cGuilds§f] §fCommands list:'
- - '§7/gchat <message> §f- guild chat'
- - '§c/g list §f- open guild members list'
- - '§c/g top §f- see guilds top'
- - '§c/g leave §f- leave guild'
- - '§c/g stats §f- guild information'
- - '§c/g donaters §f- guild members top'
- - '§c/g donate <amount of coins> §f- invest to the guild balance'
- - '§c/g moders §f- open guild moderators list'
- - '§c/g deputys §f- open guild deputies list'
+- '§f[§cGuilds§f] §fCommands list:'
+- '§7/gchat <message> §f- guild chat'
+- '§c/g list §f- open guild members list'
+- '§c/g top §f- see guilds top'
+- '§c/g leave §f- leave guild'
+- '§c/g stats §f- guild information'
+- '§c/g donaters §f- guild members top'
+- '§c/g donate <amount of coins> §f- invest to the guild balance'
+- '§c/g moders §f- open guild moderators list'
+- '§c/g deputys §f- open guild deputies list'
 GUILD_COMMAND_MODER_HELP:
- - '§c/g invite <nickname> §f- invite player to the guild'
- - '§c/g info <nickname> §f- information about the member'
- - '§c/g mute §f- mute player'
- - '§c/g unmute §f- unmute player'
- - '§c/g donateinfo <nickname> §f- information about payed coins by the player'
+- '§c/g invite <nickname> §f- invite player to the guild'
+- '§c/g info <nickname> §f- information about the member'
+- '§c/g mute §f- mute player'
+- '§c/g unmute §f- unmute player'
+- '§c/g donateinfo <nickname> §f- information about payed coins by the player'
 GUILD_COMMAND_DEPUTY_HELP:
- - '§c/g sethome §f- set guild home'
- - '§c/g delhome §f- remove guild home'
- - '§c/g shop §f- open guild shop'
- - '§c/g tag <тег> §f- set guild tag'
- - '§c/g party §f- put together the guild group'
- - '§c/g motd §f- set control for motd of guild'
- - '§c/g rank <nickname> <rank> §f- set player rank'
- - '§c/g deposit <nickname> <amount of coins> §f- withdraw money from guild balance'
+- '§c/g sethome §f- set guild home'
+- '§c/g delhome §f- remove guild home'
+- '§c/g shop §f- open guild shop'
+- '§c/g tag <тег> §f- set guild tag'
+- '§c/g party §f- put together the guild group'
+- '§c/g motd §f- set control for motd of guild'
+- '§c/g rank <nickname> <rank> §f- set player rank'
+- '§c/g deposit <nickname> <amount of coins> §f- withdraw money from guild balance'
 GUILD_COMMAND_OWNER_HELP:
- - '§c/g kick <nickname> <reason> §f- kick player from group'
- - '§c/g delete §f- remove guild'
- - '§c/g leader <ник игрока> §f- transfer leadering'
+- '§c/g kick <nickname> <reason> §f- kick player from group'
+- '§c/g delete §f- remove guild'
+- '§c/g leader <ник игрока> §f- transfer leadering'
 GUILD_COMMAND_TOP_HELP:
- - '§f[§cGuildTop§f] §fCommands list:'
- - '§c/g top coins §f- top coins guilds'
- - '§c/g top members §f- top members guilds'
+- '§f[§cGuildTop§f] §fCommands list:'
+- '§c/g top coins §f- top coins guilds'
+- '§c/g top members §f- top members guilds'
 GUILD_TOP_COINS_TITLE: '§f[§cGuilds§f] §fTop §a5§f guilds:'
 GUILD_TOP_MEMBERS_TITLE: '§f[§cGuilds§f] §fTop §a5§f guilds:'
 GUILD_TOP_DONATERS_TITLE: '§f[§cGuilds§f] §fTop §a5§f members:'
@@ -1501,19 +1501,19 @@ GUILD_STATS_MOTD_NO_BUY: "§cDidn't buy"
 GUILD_STATS_TAG_BUY: '§aBought'
 GUILD_STATS_TAG_NO_BUY: "§cDidn't buy"
 GUILD_STATS_LIMITED: ' §c• §fZeroing limit after: §e%s'
-GUILD_STATS: |-
- §f[§cGuilds§f] §fGuild stats §a%s §8| §e%s§f:
-  §c• §fGuild balance: §a%s
-  §c• §fEarned in a day: §a%s
-  §c• §f12 Hours limit: §c%s
-  §c• §fGuild welcome: %s
-  §c• §fGuild tag: %s
-  §c• §fFounding date: §a%s
-  §c• §fOwner: §a%s
-  §c• §fFounder: §a%s
-  §c• §fMembers: §a%s§7/§c%s
-  §c• §fModerators: §a%s§7/§c∞
-  §c• §fDeputies: §a%s§7/§c∞
+GUILD_STATS:
+- '§f[§cGuilds§f] §fGuild stats §a%s §8| §e%s§f:'
+ - '§c• §fGuild balance: §a%s'
+ - '§c• §fEarned in a day: §a%s'
+ - '§c• §f12 Hours limit: §c%s'
+ - '§c• §fGuild welcome: %s'
+ - '§c• §fGuild tag: %s'
+ - '§c• §fFounding date: §a%s'
+ - '§c• §fOwner: §a%s'
+ - '§c• §fFounder: §a%s'
+ - '§c• §fMembers: §a%s§7/§c%s'
+ - '§c• §fModerators: §a%s§7/§c∞'
+ - '§c• §fDeputies: §a%s§7/§c∞'
 
 GUILD_HOME_NO: "§cYou haven't got guild home"
 GUILD_HOME: '§f[§cGuilds§f] §fYou were teleported to the guild home'
@@ -1531,15 +1531,15 @@ GUILD_SETHOME_ALERT: '§2Guild §8| %s§f set to new guild home'
 GUILD_SETHOME_INVALID: '§cSet guild home may on thr servers: Anarchy, Creative, SkyBlock'
 
 GUILD_INFO_FORMAT: '/guild info <player name>'
-GUILD_INFO: |-
- §f[§cGuilds§f] §fPlayer stats %s
-  §c• §fRank: §a%s
-  §c• §fIn guild from: §a%s
+GUILD_INFO:
+- '§f[§cGuilds§f] §fPlayer stats %s'
+- '§c• §fRank: §a%s'
+- '§c• §fIn guild from: §a%s'
 GUILD_DONATEINFO_FORMAT: '/guild donateinfo <player name>'
-GUILD_DONATEINFO: |-
- §f[§cGuilds§f] §fInformation about donated coins from player %s
-  §c• §fDonated: §a%s
-  §c• §fGot from guild: §c%s
+GUILD_DONATEINFO:
+- '§f[§cGuilds§f] §fInformation about donated coins from player %s'
+- '§c• §fDonated: §a%s'
+- '§c• §fGot from guild: §c%s'
 
 PERSONALUP_DISABLE: '§cFrom you no available boost.'
 PERSONALUP_KEY_NOT_ACTIVE: '§cError, key no valid.'
@@ -1569,20 +1569,20 @@ BAN_NAME_18: 'Kicked'
 BANINFO_COOLDOWN: '§f- Кончится через: §e%s'
 BANINFO_NEVER: '§f- Never blocked'
 BANINFO_BY: '§f- By request %s'
-BANINFO: |-
- §f[§cBan§f] §fInfo:
- §f- Player: %s
- §f- %s %s
- §f- Type: §7%s
- §f- Reason: §e%s
- §f- Date: §6%s
-BANINFO_IP: |-
- §f[§cBan§f] §fInfo:
- §f- IP addres: %s
- §f- %s %s
- §f- Type: §7%s
- §f- Reason: §e%s
- §f- Date: §6%s
+BANINFO:
+- '§f[§cBan§f] §fInfo:'
+- '§f- Player: %s'
+- '§f- %s %s'
+- '§f- Type: §7%s'
+- '§f- Reason: §e%s'
+- '§f- Date: §6%s'
+BANINFO_IP:
+- '§f[§cBan§f] §fInfo:'
+- '§f- IP addres: %s'
+- '§f- %s %s'
+- '§f- Type: §7%s'
+- '§f- Reason: §e%s'
+- '§f- Date: §6%s'
 UNBAN_NO_ACCESS: '§cThe player is blocked administration, you do not have permission to him unlocked'
 UNMUTE_NO_YOURSELF: '§cYou no available unblocked to yourself chat'
 BAN_NO_ACCESS: '§cВы не можете наказать данного игрока'
@@ -1647,41 +1647,41 @@ REPORT_COMMAND_HELP:
 - '§c/report decline <player name> §f- decline for report'
 - '§c/report idlist §f- list id reason'
 REPORT_INFO_FORMAT: '/report info <player name>'
-REPORT_INFO: |-
- §cReports §8| §fInformation for player §e%s§f:
- §f - §fЖаловались: §a%s
- §f - §fСейчас следят: §a%s
- §f - §fПоследняя жалоба: §a%s назад
+REPORT_INFO:
+- '§cReports §8| §fInformation for player §e%s§f:'
+- '§f - §fЖаловались: §a%s'
+- '§f - §fСейчас следят: §a%s'
+- '§f - §fПоследняя жалоба: §a%s назад'
 REPORT_ACCEPT_FORMAT: '/report accept <ник> <id причины>'
 REPORT_DECLINE_FORMAT: '/report decline <ник>'
 REPORT_INVALID_ID_REASON: '§cInvalid id reason'
-REPORT_IDLIST: |-
- §cReports §8| §fAvailable id reason:
- §c №1.4 §f- §e%s
- §c №1.3 §f- §e%s
- §c №1.5 §f- §e%s
- §c №1.12 §f- §e%s
- §c №1.6 §f- §e%s
+REPORT_IDLIST:
+- '§cReports §8| §fAvailable id reason:'
+- '§c №1.4 §f- §e%s'
+- '§c №1.3 §f- §e%s'
+- '§c №1.5 §f- §e%s'
+- '§c №1.12 §f- §e%s'
+- '§c №1.6 §f- §e%s'
 SETTINGS_DONATECHAT_DISABLE: '§cYou disabled donate chat. Чтобы написать туда, включите его в личных settings'
 ASK_NO_STAFF_ONLINE: '§f[§cQuestions§f] §fNo staff online, On your question no one to answer :('
 ASK_DELAY: '§cError, отправить новый вопрос можно будет через %s'
 ASK_ALREADY_SENT: '§cВы уже задавали вопрос, дождитесь ответа на него'
 ASK_SENT:
- - '§f[§cQuestions§f] §fYou question sent all staff online'
- - ' §fIf you noticed, what with you communicate rough, or responded'
- - ' §fplayer will not want help you, refer to the forum:'
- - ' §eforum.flycore.ru§f, section - §eComplaint to the administration'
+- '§f[§cQuestions§f] §fYou question sent all staff online'
+- ' §fIf you noticed, what with you communicate rough, or responded'
+- ' §fplayer will not want help you, refer to the forum:'
+- ' §eforum.flycore.ru§f, section - §eComplaint to the administration'
 ASK_LIMIT: '§f[§cQuestions§f] §fYou question must have §e6 §fand no more §c100 §fcharacters'
 ASK_DELAY_NEW: '§cError, отправить новый вопрос можно будет через %s'
 YOU_CANT_ASK_QUESTIONS: '§f[§cQuestions§f] §fYou можете only answered to question, для этого written §a/ans'
 ANS_SENT: '§f[§cAnswers§f] §fYou answered %s'
 ANS_HOVER: '§7На вопрос: §a%s\n\n§fClick to written,\nmessage player %s'
-ANS_MSG: |-
- §f[§cQuestions§f] §fНа You вопрос %s %s
-  §a• §fСообщение: §e%s
-ANS_JOIN_MSG: |-
- §f[§cQuestions§f] §fПока вы были оффлайн, на You вопрос %s %s
-  §a• §fСообщение: §e%s
+ANS_MSG:
+- '§f[§cQuestions§f] §fНа You вопрос %s %s'
+- ' §a• §fСообщение: §e%s'
+ANS_JOIN_MSG:
+- '§f[§cQuestions§f] §fПока вы были оффлайн, на You вопрос %s %s'
+- ' §a• §fСообщение: §e%s'
 ANS_LIMIT: '§f[§cQuestions§f] §fYour answer должен содержать не менее §e1§f symbols'
 ANS_NO: '§cError, игрок %s §cне задавал вопрос или ему уже ответили'
 
@@ -1695,28 +1695,28 @@ FIND: '§f[§cServer§f] §fPlayer %s §fnow at server §c%s'
 FIND_IGNORE: '§cДанный player добавил Вас в список игнорируемых'
 FIND_TESTER: '§f[§cServer§f] §fThis player is anticheat-tester. His cant spectate at the moment'
 
-WHOIS: |-
- §eInfo about player %s
-  §f- Player ID: §a%s
-  §f- Rank: §a%s
-WHOIS_ONLINE: |-
- §a§lOnline now
- §f - IP address: §a%s
- §f - Proxy: §a%s
- §f - Server: §a%s
- §f - Version: §a%s
- §f - Language: §a%s
- §f - Connected from: §a%s
- §f - Server data: §a%s
-WHOIS_OFFLINE: |-
- §c§lOffline now
- §f - Lase seen §e%s ago
- §f - IP address: §c%s
- §f - Proxy: §c%s
- §f - Server: §c%s
- §f - Version: §c%s
- §f - Language: §c%s
- §f - Server data: §c%s
+WHOIS:
+- '§eInfo about player %s'
+- '§f- Player ID: §a%s'
+- '§f- Rank: §a%s'
+WHOIS_ONLINE:
+- '§a§lOnline now'
+- '§f - IP address: §a%s'
+- '§f - Proxy: §a%s'
+- '§f - Server: §a%s'
+- '§f - Version: §a%s'
+- '§f - Language: §a%s'
+- '§f - Connected from: §a%s'
+- '§f - Server data: §a%s'
+WHOIS_OFFLINE:
+- '§c§lOffline now'
+- '§f - Lase seen §e%s ago'
+- '§f - IP address: §c%s'
+- '§f - Proxy: §c%s'
+- '§f - Server: §c%s'
+- '§f - Version: §c%s'
+- '§f - Language: §c%s'
+- '§f - Server data: §c%s'
 RULES: '§f[§cServer§f] §fFull list of server rules -'
 RULES_2: '§dhttp://flycore.ru/rules'
 RULES_HOVER: '§fClick here,\n§fto open url'
@@ -1724,8 +1724,8 @@ RULES_HOVER: '§fClick here,\n§fto open url'
 FIREWORK: '§aFirework!'
 
 MAIL_SEND_FORMAT: '/mail send <name> <message>'
-MAIL_COMMAND_HELP: |-
- §f[§cMail§f] §fCommands list:
+MAIL_COMMAND_HELP:
+- '§f[§cMail§f] §fCommands list:'
 MAIL_COMMAND_HELP_SEND: '§c/mail send <player name> <message> §f- sent message to player'
 MAIL_COMMAND_HELP_LIST: '§c/mail list §f- open mail list'
 MAIL_HOVER_SEND: '§fClick to, get commant to chat'
@@ -1736,14 +1736,14 @@ MAIL_INCORRECT: '§cError, your message %s contains prohibited symbols, availabl
 MAIL_SEND: '§f[§cMail§f] §fPlayer %s §fwas sent message ▬ §e%s'
 MAIL_MSG_FRIENDS: '§cError, данный игрок принимает mail сообщения только от своих друзей'
 MAIL_EMPTY: '§cYour not mails'
-MAIL_MSG: |-
- §f[§cMail§f] §fYou arrived new message from %s
-  §a• §fMessage: §e%s
-MEMORY: |-
- §f[§cServer§f] §fInformation of memory:
- §8 | §fMax memory %s MB
- §8 | §fAvailable memory %s MB
- §8 | §fFree memory %s MB
+MAIL_MSG:
+- '§f[§cMail§f] §fYou arrived new message from %s'
+- ' §a• §fMessage: §e%s'
+MEMORY:
+- '§f[§cServer§f] §fInformation of memory:'
+- '§8 | §fMax memory %s MB'
+- '§8 | §fAvailable memory %s MB'
+- '§8 | §fFree memory %s MB'
 
 YT_COMMAND_HELP:
  - '§f[§cYouTube§f] §fCommands list:'
@@ -1862,19 +1862,19 @@ MONEY_AND_GOLDS: '§f[§cEconomy§f] §fYou have §a%s §f%s, §e%s §f%s'
 
 BUY_DONATE_BROADCAST: '\n§e§l§nFlyCore§7 - §d§lDonate\n§fПоздравляем игрока §c%s§f,\n§fон только что приобрел privilege %s \n§fon online-shop §dflycore.ru §7(click to link)\n'
 BUY_BROADCAST: '\n§e§l§nFlyCore§7 - §d§lDonate\n§fПоздравляем игрока §c%s§f,\n§fон только что приобрел %s \n§fon online-shop §dflycore.ru §7(click to link)\n'
-BUY_THANKS: |-
- §f[§cServer§f] §fThank за приобритение привилегии %s
- §fна нашем сервере. Теперь Вам открыты новые возможности;
- §fи плюшки на сервере. Также теперь Вам доступено создание;
- §fвторого §nмульти-аккаунта§7 (второй аккаунт)§f, также Ваша;
- §fпривилегия приобретена навсегда.
-  
- §fТакже хотим вам напомнить о правилах сервера, нарушив которые;
- §fВы можете получить наказание, ознакомтесь с ними;
- §fс помощью команды §d/rules
-  
- §fЕсли у вас остались вопросы, можете обратиться в §n/ask§f;
- §fили в нашу группу сервера §9§nvk.me/FlyCore
+BUY_THANKS:
+- '§f[§cServer§f] §fThank за приобритение привилегии %s'
+- '§fна нашем сервере. Теперь Вам открыты новые возможности;'
+- '§fи плюшки на сервере. Также теперь Вам доступено создание;'
+- '§fвторого §nмульти-аккаунта§7 (второй аккаунт)§f, также Ваша;'
+- '§fпривилегия приобретена навсегда.'
+- ''
+- '§fТакже хотим вам напомнить о правилах сервера, нарушив которые;'
+- '§fВы можете получить наказание, ознакомтесь с ними;'
+- '§fс помощью команды §d/rules'
+- ''
+- '§fЕсли у вас остались вопросы, можете обратиться в §n/ask§f;'
+- '§fили в нашу группу сервера §9§nvk.me/FlyCore'
 BUY_NOT_STORE: "§cНа Ваш аккаунт не было приобретено ни одной привилегии;\nиспользуйте основной аккаунт, или приобретите привилегию на нашем сайте mg.flycore.ru;\nчтобы получить возможность создавать мульти-аккаунт"
 BUY_MAX_NOT_MULTIACCOUNT: "§cУ вас было создано максимальное количество доступных мулти-аккаунтов\nиспользуйте их, или приобретите привилегию на сайте mg.flycore.ru\nдля поднятия лимита на создание мульти-аккаунтов"
 BUY_MAX_MULTIACCOUNT: "§cВы исчерпали лимит создания мульти-аккаунтов!\nВаш доступный мульти-аккаунт для входа: %s"
@@ -1885,10 +1885,10 @@ PLAYER_IS_BANNED: '§cError #5, Please made screenshot, and report for vk.me/fly
 
 ALERT_FORMAT: '/alert <message>'
 
-SPY_COMMAND_HELP: |-
- §f[§cSpy§f] §fCommands list:
- §c/spy on §f- enable слежку
- §c/spy off §f- disable слежку
+SPY_COMMAND_HELP:
+- '§f[§cSpy§f] §fCommands list:'
+- '§c/spy on §f- enable слежку'
+- '§c/spy off §f- disable слежку'
 SPY_ON: '§f[§cSpy§f] §fYou starting spying of all'
 SPY_ALREADY_ON: '§f[§cSpy§f] §cYou already enabled spying'
 SPY_OFF: '§f[§cSpy§f] §fYou disabling spying'
@@ -2059,18 +2059,18 @@ ONLY_ANARCHY_CREATIVE: '§cThis feature is disabled'
 NO_ANARCHY: '§f[§cAnarchy§f] §cThis feature is disabled for anarchy'
 NO_ANARCHY_CREATIVE: '§f[§cAnarchy§f] §cДанная функция отключена на anarchy и creative'
 
-ANARCHY_RULES: |-
- 
- §7Rules for §cAnarchy§7:
-  
- §f1. §7Follow the general rules in the chat
- §f2. §7Do not use cheats or any prohibited software
- §f3. §7Do not use bugs, do not create a lag machine and
- §7do not perform actions that can harm the server!
- §f4. §7No killed on spawn
-  
- §eThat's all, the more you are not limited by anything
- §eDo what you want and how you want!
+ANARCHY_RULES:
+- ''
+- '§7Rules for §cAnarchy§7:'
+- ''
+- '§f1. §7Follow the general rules in the chat'
+- '§f2. §7Do not use cheats or any prohibited software'
+- '§f3. §7Do not use bugs, do not create a lag machine and'
+- '§7do not perform actions that can harm the server!'
+- '§f4. §7No killed on spawn'
+- ''
+- "§eThat's all, the more you are not limited by anything"
+- '§eDo what you want and how you want!'
 
 
 PARKOUR_ERROR_LOCATION: '§cError, location not found'
@@ -2078,21 +2078,21 @@ PARKOUR_NO_FOUND: '§cError, map not found'
 
 PARKOUR_EXIT: '§f[§cParkour§f] §fYou leave for map'
 PARKOUR_START: "§f[§cParkour§f] §fYou started to pass parkour on the map '§a%s§f' §7(§a%s§7)"
-PARKOUR_FLY: |-
- §cDon't use fly, otherwise your account will be banned
- §cWrite about the cheaters on forum.
+PARKOUR_FLY:
+- '§cDon't use fly, otherwise your account will be banned'
+- '§cWrite about the cheaters on forum.'
 PARKOUR_DISABLE: '§f[§cParkour§f] §cThis parkour is disabled'
 PARKOUR_NO_MODULE: '§f[§cParkour§f] §fYou have to pass the module 1'
 PARKOUR_NO_MAP: "§f[§cParkour§f] §fYou aren't on the area"
 PARKOUR_RESET: '§f[§cParkour§f] §fTime restarted! You started to pass parkour again!'
 PARKOUR_FINISH: '§f[§cParkour§f] §fYou passed this parkour first time for §a%s'
 PARKOUR_ALERT: '§f[§cParkour§f] %s §fpassed parkour for §e%s§f on the map §a%s'
-PARKOUR_NEW: |-
- §f[§cParkour§f] §2You beat your record
- §f[§cParkour§f] §fYou passed this parkour for §e%s
-PARKOUR_OLD: |-
- §f[§cParkour§f] §4You didn't beat your old record
- §f[§cParkour§f] §fYou passed this parkour for §c%s
+PARKOUR_NEW:
+- '§f[§cParkour§f] §2You beat your record'
+- '§f[§cParkour§f] §fYou passed this parkour for §e%s'
+PARKOUR_OLD:
+- '§f[§cParkour§f] §4You didn't beat your old record'
+- '§f[§cParkour§f] §fYou passed this parkour for §c%s'
 PARKOUR_MODULE: '§f[§cParkour§f] §fModule §e%s§7/§a%s§f achieved'
 PARKOUR_MODULE_TITLE: '§fModule §e%s§7/§a%s§f passed'
 PARKOUR_MODULE_ALREADY: '§f[§cParkour§f] §cYou already passed this module'
@@ -2107,9 +2107,9 @@ YOU_DISABLED_STAFFCHAT: '§cYou disabling staff chat. Чтобы писать в
 CORE_NOTIFY_ENABLED: '§f[§cModeration§f] %s§f снова видит уведомления ядра'
 CORE_NOTIFY_DISABLED: '§f[§cModeration§f] %s§f теперь не видит уведомления ядра'
 
-CHAT_DISABLE_INFO: |-
- §4§lWarning! §cChat disabled!
- §cYou can enable it in the self profile -> settings
+CHAT_DISABLE_INFO:
+- '§4§lWarning! §cChat disabled!'
+- '§cYou can enable it in the self profile -> settings'
 CHAT_DISABLE_TITLE: '§cYou have got disabled chat!'
 CHAT_DISABLE_SUBTITLE: '§7May enable it in Profile ▸ Settings'
 CHAT_DISABLE: '§cYou have got disabled chat!'
@@ -2147,13 +2147,13 @@ ANTICHEAT: '§cАнтичит'
 ANTIMAT: '§cАнтимат'
 
 AUTH_PLAYER_ALREADY: '§cPlayer already on server'
-AUTH_COMMAND_HELP: |-
- §f[§cAuth§f] §fCommands list:
- §c/auth register <key> <player name> <password> §f- player register
- §c/auth unregister <key> <player name> §f- delete account
- §c/auth changepassword <key> <player name> <password> §f- change password for player
- §c/auth changemail <key> <player name> <email> §f- change mail for player
- §c/auth info <player name> §f- information for player
+AUTH_COMMAND_HELP:
+- '§f[§cAuth§f] §fCommands list:'
+- '§c/auth register <key> <player name> <password> §f- player register'
+- '§c/auth unregister <key> <player name> §f- delete account'
+- '§c/auth changepassword <key> <player name> <password> §f- change password for player'
+- '§c/auth changemail <key> <player name> <email> §f- change mail for player'
+- '§c/auth info <player name> §f- information for player'
 AUTH_RELOAD: '§f[§cAuth§f] §fConfiguration reloaded'
 AUTH_CHANGEMAIL_FORMAT: '/auth changemail <key> <player name> <password>'
 AUTH_CHANGEMAIL: '§f[§cAuth§f] §fPlayer mail %s§f changed to §a%s'
@@ -2166,12 +2166,12 @@ AUTH_ERROR: '§cError - %s'
 AUTH_CHANGEPASSWORD_FORMAT: '/auth changepassword <key> <player name> <password>'
 AUTH_PASSWORD_CHANGED: '§f[§cAuth§f] §fPlayer password %s§f changed to §a%s'
 AUTH_INFO_FORMAT: '/auth info <player name>'
-AUTH_INFO: |-
- §f[§cAuth§f] §fInformation of player §e%s§f:
- §f Email: §a%s
- §f Last ip address: §a%s
- §f Registration ip address: §a%s
- §f Last server: §a%s
+AUTH_INFO:
+- '§f[§cAuth§f] §fInformation of player §e%s§f:'
+- '§f Email: §a%s'
+- '§f Last ip address: §a%s'
+- '§f Registration ip address: §a%s'
+- '§f Last server: §a%s'
 AUTH_WRONGKEY: '§cError, written wrong key'
 AUTH_REASON_WRONGKEY: '§4Eror #14 §cWritten wrong key.'
 LOGIN_ALREADY: '§cYou already authorized!'
@@ -2188,11 +2188,11 @@ AUTH_CHANGEPASSWORD_LIMIT: '§cThis password is short or very long'
 AUTH_CHANGEPASSWORD_LONG: '§cThis password is short or very long'
 AUTH_CHANGEPASSWORD_INCORRECT: '§cError, password contains prohibited symbols'
 AUTH_CHANGEPASSWORD: '§eYou password was successfully changed'
-EMAIL_COMMAND_HELP: |-
- §f[§cEmail§f] §fCommands list:
- §c/email add <your email> <again> §f- snap email to the your account
- §c/email change <old email> <new email> §f- Change email on your account
- §c/email recovery <your email> §f- Send on the email setting password
+EMAIL_COMMAND_HELP:
+- '§f[§cEmail§f] §fCommands list:'
+- '§c/email add <your email> <again> §f- snap email to the your account'
+- '§c/email change <old email> <new email> §f- Change email on your account'
+- '§c/email recovery <your email> §f- Send on the email setting password'
 MAIL_CHANGE_FORMAT: '/email change <old mail> <new mail>'
 MAIL_NO: '§cError, you have not snap email'
 MAIL_CHANGE_WRONG: '§cMail, the one you specified as a previously linked account, not correct'
@@ -2245,11 +2245,11 @@ VK_LOGIN_INFO: '§f[§cVK§f] §fНа ваш вконтакте отправле
 VK_WRONG: '§cОшибка, неверный код'
 VK_CONFIRM: '§fПодтверждение успешно! Приятной игры :)'
 FORUM_NOT_MAIL: '§cError, to your accoint not snap email. To snap mail to your account, Write /email add <email> <repeat email>'
-FORUM_ACCOUNT_REGISTRED: |-
- §f[§cForum§f] §fYou account was registered on forum!
- §7• §fName: §a%s
- §7• §fLogin: §a%s
- §7• §fPassword: §a%s
+FORUM_ACCOUNT_REGISTRED:
+- '§f[§cForum§f] §fYou account was registered on forum!'
+- '§7• §fName: §a%s'
+- '§7• §fLogin: §a%s'
+- '§7• §fPassword: §a%s'
  
  §fLogin may on: §cforum.flycore.ru
 FORUM_ACCOUNT_ALREADY: '§cError, forum account already snap, authorization to forum.flycore.ru'
