@@ -2250,8 +2250,8 @@ FORUM_ACCOUNT_REGISTRED:
 - '§7• §fName: §a%s'
 - '§7• §fLogin: §a%s'
 - '§7• §fPassword: §a%s'
- 
- §fLogin may on: §cforum.flycore.ru
+- ''
+- '§fLogin may on: §cforum.flycore.ru'
 FORUM_ACCOUNT_ALREADY: '§cError, forum account already snap, authorization to forum.flycore.ru'
 
 BOSS_BAR_LOBBY:
