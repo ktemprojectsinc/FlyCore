@@ -780,7 +780,7 @@ SPAWN_CANCEL: '§cYou moved, teleportation canceled'
 DEVELOPER_DELAY: '§cSend message to developer, can only once an hour'
 DEVELOPER_SENT:
 - '§f[§cServer§f] §fYour message was send to server developer,'
-- '§f If developer didn't answered it during one 1-2 days,'
+- "§f If developer didn't answered it during one 1-2 days,"
 - '§f You also may write message to developer group,'
 - '§f to link: §5vk.me/flycore§f, or forum a theme name,'
 - '§f "§eMessage for developer§f".'
