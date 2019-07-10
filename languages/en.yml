@@ -411,6 +411,7 @@ PRIZE_GET:
 - '§8 • §7+§d%s§f Ultra keys'
 PRIZE_ALREADY: '§cВы уже забирали награду за данный уровень...'
 PRIZE_STATS: ' §8 • §7+%s§f Rank'
+PRIZE_STATS_ALREADY: '§f[§cRewards§f] §fУ вас уже есть статус выше, вы получили §e+%s§f %s'
 PRIZE_NO_LEVEL: '§cУ вас должен быть минимум 1 уровень, чтобы получить награду'
 
 ANS_REASON: '1.16. (Offtopic)'
