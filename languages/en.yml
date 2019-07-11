@@ -720,6 +720,7 @@ VERIFY_NOT_ENABLED: '§f[§cVerify§f] §cДля вас недоступна д�
 NO_PERMISSION: '§cYou do not have permissions'
 NO_PERMS: '§cYou do not have permissions'
 NO_PERMISSION_GROUP: '§cYou do not have permissions, buy %s§c or higher'
+NO_PERMS_GROUP: '§cYou do not have permissions, buy %s§c or higher'
 NO_PERMS_STATS: '§cYou do not have permissions, buy %s§c or higher'
 NO_PERMISSION_ENDERMAN_ONLY: '§cThis function is only for §5Enderman'
 NO_PERMISSION_ONLY: '§cThis function is only for %s'
