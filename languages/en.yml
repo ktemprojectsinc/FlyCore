@@ -1598,19 +1598,19 @@ BAN_ME: '§cВы не можете наказать yourself'
 UNBAN_NO: '§cPlayer %s, not blocked'
 UNMUTE_NO: '§cPlayer chat %s, not blocked'
 UNBANIP_NO: '§cIP address %s, not blocked'
-KICK_REASON: "§e§l§nFlyCore§7\n\n§cВас выкинули с сервера\n\n§fДата: §7%s\n\n§fВы: %s\n§fКикнул: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BAN_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BAN_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BAN_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BAN_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BANIP_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BANIP_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BANIP_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес был временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-BANIP_REASON: "§e§l§nFlyCore§7\n\n§cВаш IP адрес временно заблокирован\n\n§fДата блокировки: §7%s\n\n§fВаш адрес: §7%s\n§fЗаблокировал: %s\n§fПричина: §7%s\n§fВремя: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
-MUTE_NEVER_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату был заблокирован навсегда за %s\n \n §7Заблокировал: %s\n\n §7Обжаловать наказание можно на форуме:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
-MUTE_NEVER_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату заблокирован за %s\n \n §7До истечения осталось %s\n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
-MUTE_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату был заблокирован за %s\n \n §7До истечения осталось %s\n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
-MUTE_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cДоступ к чату заблокирован за %s\n \n §7Заблокировал: %s\n \n §7Обжаловать наказание можно на форуме:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+KICK_REASON: "§e§l§nFlyCore§7\n\n§cYou have been kicked from the server\n\n§fDate: §7%s\n\n§fYou: %s\n§fKicked: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
+BAN_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYou have been lifetime banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
+BAN_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cYou are lifetime banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
+BAN_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYou have been temporarily banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n§fTime: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
+BAN_REASON: "§e§l§nFlyCore§7\n\n§cYou are temporarily banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n§fTime: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
+BANIP_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYour IP have been lifetime banned\n\n§fBanning date: §7%s\n\n§fYour address: §7%s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum::\n§b§nforum.flycore.ru"
+BANIP_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cYour IP are lifetime banned\n\n§fBanning date: §7%s\n\n§fYour address: §7%s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum::\n§b§nforum.flycore.ru"
+BANIP_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYour IP have been temporarily banned\n\n§fBanning date: §7%s\n\n§fYour address: §7%s\n§fBanned: %s\n§fReason: §7%s\n§fTime: §7%s\n\n§7Appeal the punishment You may on the forum::\n§b§nforum.flycore.ru"
+BANIP_REASON: "§e§l§nFlyCore§7\n\n§cYour IP are temporarily banned\n\n§fBanning date: §7%s\n\n§fYour address: §7%s\n§fBanned: %s\n§fReason: §7%s\n§fTime: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
+MUTE_NEVER_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cAccess to chat have been lifetime banned for %s\n \n §7Banned: %s\n\n §7Appeal the punishment You may on the forum:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+MUTE_NEVER_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cAccess to chat are banned for %s\n \n §7Expiration after %s\n §7Banned: %s\n \n §7Appeal the punishment You may on the forum:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+MUTE_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cAcess to chat have been blocked for %s\n \n §7Expiration after %s\n §7Banned: %s\n \n §7Appeal the punishment You may on the forum:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+MUTE_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cAccess to chat are banned for %s\n \n §7Banned: %s\n \n §7Appeal the punishment You may on the forum:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
 BAN_INFO: '§f[§cModeration§f] %s§f blocked player §e%s§f from reason: §e%s'
 BAN_TIME_INFO: '§f[§cModeration§f] %s§f blocked player §e%s§f on %s§ffrom reason: §e%s'
 BANIP_INFO: '§f[§cModeration§f] %s §fblocked IP address §a%s§f from reason: §e%s'
