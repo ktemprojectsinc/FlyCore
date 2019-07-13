@@ -3136,7 +3136,7 @@ GUI_GAMES_WIPE: ' §e§lMade vipe'
 GUI_GAMES_BETA: ' §C§lBETA-TESTING'
 GUI_GAMES_NEW: ' §b§lNEW'
 GUI_GAMES_DEVELOPMENT_1:
-- ''§c  In development'
+- '§c  In development'
 - '§c▶ In development'
 - '§c▶ In development.'
 - '§c▶ In development..'
