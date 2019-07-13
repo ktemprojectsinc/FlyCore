@@ -1,72 +1,79 @@
 Для кода (API).
 
 #Core
-Локализация - Core.sql.getLang("Ключ локализации. Поддерживается перенос строк См *3",Core.sql.getLang("Ник игрока в String")
-Локализация (Столбик, От Ktem_CorePlugin) - Ktem_Class.sendLang("Ключ столбика локализации. См *1",Core.sql.getLang("Ник игрока в String"),См *2)
-Ktem.yml (Не final, но лучше не менять) - Core.ktemconfig
-Быстрый доступ к Ktem.yml (От Ktem_CorePlugin) - Ktem_Class.getKtemConf()
-Файлы локализаций (Также не в final) - Core.getConf(См *4)
+Получить игрока из ядра (Только если игрок онлайн!) - Core.getServer().getPlayer("Ник игрока в String") //Вернет null если игрока нету или оффлайн
+Получить данные об игроке - Core.sql.getst("Ник игрока в String") //Вернет "§cНет данных" если данных игрока не существует
+Локализация - Core.sql.getst("Ник игрока в String").getLocale() //Верет Ktem_Locale класс
+Сообщение локализации (В String пример в *3) - Core.sql.getst("Ник игрока в String").sendMessageLocale("Ключ из локализации","и так далее аргументы если надо заменять %s","если не надо то только 1 ключ в начале и все")
+Сообщение локализации (В StringList пример в *3) - Core.sql.getst("Ник игрока в String").sendMessagesLocale("Ключ из локализации","и так далее аргументы если надо заменять %s","если не надо то только 1 ключ в начале и все")
+Ktem.yml (Не final, но лучше не менять) - Core.ktemconfig //Тип FileConfiguration
+Быстрый доступ к Ktem.yml (От Ktem_CorePlugin) - Ktem_Class.getKtemConf() //Вернет в типе FileConfiguration
+Класс с языками - Ktem_Locale //В типе enum доступные языки: ENGLISH,RUSSIAN,UKRAINE подробнее см *4
 Аннотация прослушивания (См *5) - @Ktem_Handler
 Регистрация команды - См *6
+Регистрация команды с минимальной группой - См *1
+[Новая] Система групп - Ktem_Group //В типе enum доступные группы см *10
 Система ID - См *7
 Пакет на все прокси (Пример См *8) - Manager.sendToAllProxy(bytes в ByteArrayDataOutput)
 Подключенные прокси (В Map<String,Proxy>) - Proxy.connections
 Игроки в ядре (В Map<String,Player>) - PlayerData.getPlayers()
 Подключенные DataConnections (В Map<String,Data>) - Data.connections
 Подключенные MessagesConnections (В Map<String,Messages>) - Messages.connections
-Быстрая замена %s в String - String.format("Текст",То на что заменить любой формат,Второй текст если два %s,3-тий,и так далее)
+[Старая] Быстрая замена %s в String - String.format("Текст",То на что заменить любой формат,Второй текст если два %s,3-тий,и так далее) //Лучше не использовать, новая локализация поддерживает авто-замену после ключа через запятую
 //Для получения всех используемых ReadPacket ID, напишите в vk.me/Ktem_Projects
 
-#Bukkit (API Ktem-Plugin)
-Локализация - Ktem_Class.getLang("Ключ локализации. Поддерживается перенос строк См *3",Core.sql.getLang("Ник игрока в String")
-Локализация (Столбик) - Ktem_Class.sendLang("Ключ столбика локализации. См *1",Core.sql.getLang("Ник игрока в String"),См *2)
-Сообщение в ActionBar - Ktem_Class.sendActionBar(Обычный Bukkit Player или ник игрока в String,"Текст")
-Получение онлайна сервера - Ktem_Class.getOnlineServer("Название сервера в String")
-Ktem.yml (Не final, но лучше не менять) - Ktem_Class.ktemconfig
-Быстрый доступ к Ktem.yml - Ktem_Class.getKtemConf()
-Файлы локализаций (Также не в final) - Ktem_Class.getConf(См *4)
-Общий онлайн всего сервера (Переменная int с авто обновлением) - Ktem_Class.GlobalOnline
+#Bukkit (API K.P. LLC)
+Локализация - Ktem_Class.getst("Ник игрока в String").getLocale() //Верет Ktem_Locale класс
+Сообщение локализации (В String пример в *3) - Ktem_Class.getst("Ник игрока в String").sendMessageLocale("Ключ из локализации","и так далее аргументы если надо заменять %s","если не надо то только 1 ключ в начале и все")
+Сообщение локализации (В StringList пример в *3) - Ktem_Class.getst("Ник игрока в String").sendMessagesLocale("Ключ из локализации","и так далее аргументы если надо заменять %s","если не надо то только 1 ключ в начале и все")
+Сообщение в ActionBar - Ktem_Class.sendActionBar(Обычный Bukkit Player или ник игрока в String,"Текст") //Ничего не возвращает
+Получение онлайна сервера - Ktem_Class.getOnlineServer("Название сервера в String") //Возвращает в int
+Ktem.yml (Не final, но лучше не менять) - Ktem_Class.ktemconfig ////Тип FileConfiguration
+Быстрый доступ к Ktem.yml - Ktem_Class.getKtemConf() //Тип FileConfiguration
+Класс с языками - Ktem_Locale //В типе enum доступные языки: ENGLISH,RUSSIAN,UKRAINE подробнее см *4
+Общий онлайн всего сервера (Переменная int [с авто обновлением только в хабе, на остальных нету]) - Ktem_Class.GlobalOnline
 
-#Bukkit (API Ktem_Ktem)
-Отправка пакета на сервер (В boolean & Try{}catch) - me.Ktem.Ktem_Core.Ktem_Class.sendMessageToCore("Название сервера в String","Тег для пакета, для определения пакета в String","Сообщение/данные в String")
+#Bukkit (API K.P. LLC [ASyncPackets])
 Основная отправка пакета изменения - me.Ktem.Ktem_Core.Ktem_Class.sendCore("Тип в String, <ban/unban/unmute/banip/mute/group/statics>","Ник игрока в String или данные","Данные в String #1","Данные в String #2")
-Отправка пакета в ядро - me.Ktem.Ktem_Core.Ktem_Class.sendOnly(bytes в ArrayDataOutput)
+Отправка пакета на ядро - me.Ktem.Ktem_Core.Ktem_Class.sendOnly(bytes в ArrayDataOutput)
 Телепортация игрока на другой сервер (Поддержка рандома См *9) - Ktem_Core.redirect("Ник игрока в String","Сервер куда телепортировать в String")
 
 #Proxy
-//В основном не используется, т.к. для обновления/добавления/исправление бага нужна перезагрузка прокси, поэтому все убрано в ядро.
+//В основном не используется, т.к. для обновления/добавления/исправление нужна перезагрузка прокси, поэтому все по возможности убрано в ядро.
 
 #Auth
-//Без API, т.к. не нуждается в нем на данный момент.
+//Без API, т.к. не нуждается в нем на данный момент, возможно будет в будущем
 
 
 <*> Пометки:
 
-*1 - Столбик локализации, пример:
-TEST_KEY:
-- 'test msg 1'
-- 'test msg 2'
+*1 - Добавление и регистрации команды с минимальной группой:
+Пример:
+//Command - класс команд в abstract
+ Command cmd new Command("test") {
+       public void execute(Player player,String[] args) {
+       player.sendMessage("test message for command test");return; //return; лучше указывать на всякий случий:)
+     }
+ };
+cmd.setMinimalGroup(Ktem_Group.DEFAULT); //Само назначение минимальной группы на команду, про Ktem_Group см *10
+//Имейте ввиду что назначать Command класс нужно к каждой команде к которой нужна минимальная группа, если без неё то будет доступно всем
 
 *2 - Игрок ядра (CorePlayer)
 Получить - Core.getServer().getPlayer("Ник игрока в String")
 
-*3 - Строка -> Столбик, пример:
-Строка:
-TEST_KEY: 'test text'
-Строка-столбик:
-TEST_KEY: |-
- test text 1
- test text 2
+*3 - String/StringList:
+String:
+TEST_STRING_KEY: 'test text'
+ListString:
+TEST_LIST_KEY:
+- 'test text 1'
+- 'test text 2'
  
- *4 - Формат int, см таблица ниже.
- Таблица:
-(Язык | ID)
-Russian <|> 1
-English <|> 2
-Ukraine <|> 3
-Belorussian <|> 4
-Azerbaijani <|> 5
-Yaponskiy <|> 6
+ *4 - Ktem_Locale enum:
+[Язык] [ID(в int) | Имя(в String) | Название(В String) | Имя файла(в String)]
+[ENGLISH] (0,"English","ENGLISH","en")
+[RUSSIAN] (1,"Русский","RUSSIA","ru")
+[UKRAINE] (2,"Українська","UKRAINE","ua")
 
 *5 - Доступные евенты.
 
@@ -113,3 +120,22 @@ Manager.sendToAllProxy(out.toByteArray()); // Сама отправка паке
 
 Ktem_Core.redirect("Ktem","%hub%") //Игрок будет телепортирован в хаб от hub-1 до hub-6, в зависимости от доступности сервера
 Ktem_Core.redirect("Ktem","%bw%") //Игрок будет телепортирован в хаб от bwlobby-1 до bwlobby-2, в зависимости от доступности сервера
+
+ *10 - Ktem_Group enum:
+[Группа] [ID(в int) | Имя для рангов(в String)[Но используются другие] | Название(В String) | Префикс(в String) | Суффикс для чата(в String) | Уровень доступа(в int) | Уровень доступа на форуме(в int)]
+[DEFAULT] (0, "§7Игрок", "§7Default", "default", "§7[DEFAULT] §7", "§8 »§7", 0, 1)
+[GOLD] (100, "§eGOLD", "§eGOLD", "gold", "§e[GOLD] §e", "§8 »§7", 1, 1)
+[EMERALD] (200, "§aEMERALD", "§aEMERALD", "emerald", "§a[EMERALD] §a", "§8 »§7", 2, 1)
+[DIAMOND] (300, "§bDIAMOND", "§bDIAMOND", "diamond", "§b[DIAMOND] §b", "§8 »§7", 3, 1)
+[GOLEM] (400, "§cGOLEM", "§cGOLEM", "golem", "§f§l[GOLEM] §f", "§8 »§7", 4, 1)
+[ENDERMAN] (450, "§5ENDERMAN", "§5ENDERMAN", "enderman", "§5[ENDERMAN] §7", "§8 »§f", 5, 1)
+[YOUTUBE] (500, "§6YOUTUBE", "§6YouTube", "youtube", "§6[YOUTUBE] §6", "§8 »§f", 6, 1)
+[GAMERPRO] (550, "§5§lGAMER§6PRO", "§5GAMER§6PRO", "gamerpro", "§5[GAMER§6PRO§5] §5", "§8 »§f", 9, 1)
+[JDEVELOPER] (600, "§d§lJ.DEVELOPER", "§dJ.DEVELOPER", "jdeveloper", "§d[J.DEVELOPER] §d", "§8 »§f", 5, 1)
+[BUILDER] (650, "§3Строитель", "§3BUILDER", "builder", "§3[BUILDER] §3", "§8 »§f", 5, 1)
+[JUNIOR] (700, "§9Мл.Хелпер", "§9JR HELPER", "junior", "§9[JR HELPER] §9", "§8 »§f", 7, 1)
+[HELPER] (750, "§9Хелпер", "§9HELPER", "helper", "§9[HELPER] §9", "§8 »§f", 8, 2)
+[MODERATOR] (850, "§2Модератор", "§2MODERATOR", "moderator", "§2[MODER] §2", "§8 »§f", 9, 2)
+[ADMIN] (900, "§4Админ", "§4ADMIN", "administrator", "§4[ADMIN] §4", "§8 »§f", 10, 4)
+[DEVELOPER](950, "§4Разработчик", "§4DEVELOPER", "developer", "§4[DEVELOPER] §4", "§8 »§f", 11, 5)
+[OWNER] (990, "§4Владелец", "§4OWNER", "owner", "§4[OWNER] §4", "§8 »§f", 12, 5)
