@@ -1,0 +1,8 @@
+#Имя плагина
+name: TestCorePlugin
+#Путь до главного класса
+main: TestCorePlugin.TestClass
+#Автор плагина
+auhtor: Ktem
+#Версия плагина
+version: 0.1
