@@ -1721,7 +1721,8 @@ WHOIS_OFFLINE:
 - ' §f- Version: §c%s'
 - ' §f- Language: §c%s'
 - ' §f- Server data: §c%s'
-RULES: '§f[§cServer§f] §fFull list of server rules -'
+RULES:
+- '§f[§cServer§f] §fFull list of server rules -'
 RULES_2: '§dhttp://flycore.ru/rules'
 RULES_HOVER: '§fClick here,\n§fto open url'
 
