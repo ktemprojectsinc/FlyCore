@@ -660,13 +660,11 @@ VERIFY_BLOCKED_BROADCAST: '§f[§cVerify§f] %s§4 был заблокирова
 VERIFY_REMOVED_BROADCAST: '§f[§cVerify§f] %s§f удалил данные своей сессии'
 VERIFY_NOT_ENABLED: '§f[§cVerify§f] §cДля вас недоступна данная аунтефикация'
 
-NO_PERMISSION: '§cУ вас нет прав'
-NO_PERMISSION_GROUP: '§cУ вас нет прав, купите %s§c или выше'
 NO_PERMS: '§cУ вас нет прав'
 NO_PERMS_GROUP: '§cУ вас нет прав, купите %s§c или выше'
 NO_PERMS_STATS: '§cУ вас нет прав, купите должность %s§c или выше'
-NO_PERMISSION_ENDERMAN_ONLY: '§cДанная функция только для §5Enderman'
-NO_PERMISSION_ONLY: '§cДанная функция только для %s'
+NO_PERMS_ENDERMAN_ONLY: '§cДанная функция только для §5Enderman'
+NO_PERMS_ONLY: '§cДанная функция только для %s'
 
 CREATIVE_COMMANDS: '§f[§cServer§f] §fСоздайте свой плот §c/p auto§f, или телепортируйтесь домой §c/p home'
 
