@@ -870,8 +870,10 @@ PROXY_INFO_TO:
 - '§8 • §fОбщий онлайн: §a%s §f%s'
  
 PLAYERINFO_FORMAT: '/playerinfo <ник>'
-PLAYERINFO_YT: '§f- YouTube канал: §a%s'
-PLAYERINFO_STAFF: '§f- Проценты повышения: §a%s'
+PLAYERINFO_YT:
+- '§f- YouTube канал: §a%s'
+PLAYERINFO_STAFF:
+- '§f- Проценты повышения: §a%s'
 PLAYERINFO:
 - '§eИнформация об игроке %s§e:'
 - '§f- ID игрока: §a%s'
@@ -1928,8 +1930,8 @@ MSG_ALERT: '§f[§cPM§f] %s§8 -> §6Я §8| §7%s'
 MSG_DONATE: '§f[§cPM§f] §6Я §8-> %s§8 | §f%s'
 MSG_ALERT_DONATE: '§f[§cPM§f] %s§8 -> §6Я §8| §f%s'
 
-GLIST: '§f[§cServer§f] §fОбщий онлайн §a%s §f%s: %s'
-GLIST_SERVER: '§f[§cServer§f] §fОнлайн указанных режимов §a%s §f%s: %s'
+GLIST: '§f[§cServer§f] §fОбщий онлайн §a%s §f%s'
+GLIST_SERVER: '§f[§cServer§f] §fОнлайн указанных режимов §a%s §f%s'
 GLIST_NOT_FOUND: '§cОшибка, указанные сервера не найдены'
 
 REPLY_FORMAT: '/reply <сообщение>'
@@ -3173,8 +3175,8 @@ GUI_GAMES_NEW: ' §b§lНовый'
 GUI_GAMES_DEVELOPMENT_1:
 - ' §c В разработке'
 - ' §c▶ В разработке'
-GUI_GAMES_DEVELOPMENT_3: '§c▶ В разработке.'
-GUI_GAMES_DEVELOPMENT_4: '§c▶ В разработке..'
+- ' §c▶ В разработке.'
+- '§c▶ В разработке..'
 GUI_GAMES_OFFLINE_1:
 - ' §cСервер перезагружается.'
 - ' §cСервер перезагружается..'
@@ -3783,6 +3785,10 @@ GUI_EFFECTS_WINS_LORE:
 - ''
 - '§a▸ Открыть меню'
 
+GUI_CHANGELANGUAGE_ITEM: '§eСмена языка'
+GUI_CHANGELANGUAGE_ITEM_LORE:
+- ''
+- '§7Всего языков: §f%s'
 GUI_CHANGELANGUAGE_NAME: 'Профиль ▸ Смена языка'
 GUI_CHANGELANGUAGE_LORE:
 - '§7Перевод: %s'
