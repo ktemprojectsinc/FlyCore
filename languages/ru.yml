@@ -2537,10 +2537,11 @@ GUI_DONATE_PAYMENT: '§bВарианты оплаты'
 GUI_DONATE_INFO: '§bДополнительная информация'
 GUI_DONATE_MONEY: '§bНаши цели'
 
-GUI_DONATE_FAQ_GOLD:
-- 'описание'
-- ''
-- 'описание2'
+GUI_DONATE_FAQ_GOLD: []
+GUI_DONATE_FAQ_EMERALD: []
+GUI_DONATE_FAQ_GOLEM: []
+GUI_DONATE_FAQ_DIAMOND: []
+GUI_DONATE_FAQ_ENDERMAN: []
 
 GUI_GOLD_ALL_LORE:
 - ''
