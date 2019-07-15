@@ -886,8 +886,10 @@ PROXY_INFO_TO:
 - '§8 • §fTotal online: §a%s §f%s'
  
 PLAYERINFO_FORMAT: '/playerinfo <player name>'
-PLAYERINFO_YT: '§f- YouTube channel: §a%s'
-PLAYERINFO_STAFF: '§f- Boost percent: §a%s'
+PLAYERINFO_YT:
+- '§f- YouTube channel: §a%s'
+PLAYERINFO_STAFF:
+- '§f- Boost percent: §a%s'
 PLAYERINFO:
 - '§eInformation for player %s§e:'
 - '§f- Player ID: §a%s'
@@ -1911,8 +1913,8 @@ MSG_ALERT: '§f[§cPM§f] %s §8-> §6I §8| §7%s'
 MSG_DONATE: '§f[§cPM§f] §6I §8-> %s §8| §f%s'
 MSG_ALERT_DONATE: '§f[§cPM§f] %s §8-> §6I §8| §f%s'
 
-GLIST: '§f[§cServer§f] §fTotal online §a%s §f%s: %s'
-GLIST_SERVER: '§f[§cServer§f] §fTotal online of gamemode §a%s: %s'
+GLIST: '§f[§cServer§f] §fTotal online §a%s §f%s'
+GLIST_SERVER: '§f[§cServer§f] §fTotal online of gamemode §a%s'
 GLIST_NOT_FOUND: '§cError, current servers not found'
 
 REPLY_FORMAT: '/reply <message>'
@@ -3134,10 +3136,10 @@ GUI_GAMES_WIPE: ' §e§lMade vipe'
 GUI_GAMES_BETA: ' §C§lBETA-TESTING'
 GUI_GAMES_NEW: ' §b§lNEW'
 GUI_GAMES_DEVELOPMENT_1:
-- '§c  In development'
-- '§c▶ In development'
-- '§c▶ In development.'
-- '§c▶ In development..'
+- ' §c  In development'
+- ' §c▶ In development'
+- ' §c▶ In development.'
+- ' §c▶ In development..'
 GUI_GAMES_OFFLINE_1:
 - ' §cServer reloading.'
 - ' §cServer reloading..'
@@ -3727,6 +3729,10 @@ GUI_EFFECTS_WINS_LORE:
 - ''
 - '§a▸ Open menu'
 GUI_CHANGELANGUAGE_NAME: 'Profile ▸ Switch language'
+GUI_CHANGELANGUAGE_ITEM: '§eSwitch language'
+GUI_CHANGELANGUAGE_ITEM_LORE:
+- ''
+- '§fTotal languages: §a%s'
 GUI_CHANGELANGUAGE_LORE:
 - '§7Translation: %s'
 - '§7Change language to %s'
