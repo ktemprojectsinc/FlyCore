@@ -871,8 +871,10 @@ PROXY_INFO_TO:
 - '§8 • §fОбщий онлайн: §a%s §f%s'
  
 PLAYERINFO_FORMAT: '/playerinfo <ник>'
-PLAYERINFO_YT: '§f- YouTube канал: §a%s'
-PLAYERINFO_STAFF: '§f- Проценты повышения: §a%s'
+PLAYERINFO_YT:
+- '§f- YouTube канал: §a%s'
+PLAYERINFO_STAFF:
+- '§f- Проценты повышения: §a%s'
 PLAYERINFO:
 - '§eИнформация об игроке %s§e:'
 - '§f- ID игрока: §a%s'
@@ -1889,8 +1891,8 @@ MSG_ALERT: '§f[§cPM§f] %s§8 -> §6Я §8| §7%s'
 MSG_DONATE: '§f[§cPM§f] §6Я §8-> %s§8 | §f%s'
 MSG_ALERT_DONATE: '§f[§cPM§f] %s§8 -> §6Я §8| §f%s'
 
-GLIST: '§f[§cСервер§f] §fОбщий онлайн §a%s §f%s: %s'
-GLIST_SERVER: '§f[§cСервер§f] §fОнлайн указанных режимов §a%s §f%s: %s'
+GLIST: '§f[§cСервер§f] §fОбщий онлайн §a%s §f%s'
+GLIST_SERVER: '§f[§cСервер§f] §fОнлайн указанных режимов §a%s §f%s'
 GLIST_NOT_FOUND: '§cОшибка, указанные сервера не найдены'
 
 REPLY_FORMAT: '/reply <сообщение>'
@@ -3139,10 +3141,10 @@ GUI_GAMES_WIPE: ' §e§lСделали вайп'
 GUI_GAMES_BETA: ' §c§lBETA-ТЕСТИРОВАНИЕ'
 GUI_GAMES_NEW: ' §b§lНовый'
 GUI_GAMES_DEVELOPMENT_1:
-- '§c  В разработке'
-- '§c▶ В разработке'
-- '§c▶ В разработке.'
-- '§c▶ В разработке..'
+- ' §c  В разработке'
+- ' §c▶ В разработке'
+- ' §c▶ В разработке.'
+- ' §c▶ В разработке..'
 GUI_GAMES_OFFLINE_1:
 - ' §cСервер перезагружается.'
 - ' §cСервер перезагружается..'
