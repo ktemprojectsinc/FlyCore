@@ -1226,7 +1226,7 @@ FRIEND_ADD_EXPIRED: '§cЗапрос, отправленный игроку %s§
 FRIEND_ADD_EXPIRED_TO: '§f[§cFriends§f] §fRequest for player %s§f был автоматически отклонен спустя 5 minute'
 
 FRIEND_CHAT_FORMAT: '/fchat <message>'
-FRIEND_CHAT: '§f[§cFriends§f] §f%s §8» §7%s'
+FRIEND_CHAT: '§f[§cFriends§f] %s'
 FRIEND_CHAT_OFFLINE: "§cYou haven't got online friends"
 
 FRIEND_ACCEPT_FORMAT: '/f accept <player name>'
@@ -1253,8 +1253,9 @@ LVL_UP: '§a§l§kX§r §c§lLEVEL UP §a§l§kX'
 NEW_LVL: '§fYou received §d%s§f level!'
 EXP_TO_NEW_LVL: '§fTo the next level you need §a%s§f exp more'
 GET_REWARD: '§7Go to the profile to get your reward'
-LEVEL_COMMAND_1: '§f[§cLevel§f] §fYou have §d%s§f level'
-LEVEL_COMMAND_2: '§f[§cLevel§f] §fTo the next level you need §a%s§f exp more'
+LEVEL_COMMAND:
+- '§f[§cLevel§f] §fYou have §d%s§f level'
+- '§f[§cLevel§f] §fTo the next level you need §a%s§f exp more'
 
 BOX_NO_KEY: '§f[§cLuckyChest§f] §cYou have not keys'
 BOX_WORK: '§f[§cLuckyChest§f] §cWait... Chest scrolls!'
@@ -1285,9 +1286,9 @@ BOX_BANNER_ALREADY: '§f[§cLuckyChest§f] §fYou has already this banner, You g
 BOX_STATS_ALREADY: '§f[§cLuckyChest§f] §fYou has already this stats, You got §e+%s §f%s'
 BOX_BOOSTER_ALREADY: '§f[§cLuckyChest§f] §fYou has already activated this booster, You got §6+%s §f%s'
 
-STAFFCHAT_MSG: '§eStaffchat §8| §f%s §8» §f%s'
-TESTERCHAT_MSG: '§6Testers chat §8| §f%s §8» §f%s'
-DONATECHAT_MSG: '§cDonate chat §8| §f%s §8» §7%s'
+STAFFCHAT_MSG: '§eStaffchat §8| %s'
+TESTERCHAT_MSG: '§6Testers chat §8| %s'
+DONATECHAT_MSG: '§cDonate chat §8| %s'
 STAFFCHAT_MARKIS_MSG: '§eStaffchat §8| §f%s §d✎ §f%s'
 
 SERVER_DISABLE_BROADCAST: '§f[§cServer§f] %s§f отключил сервер ▬ §a%s'
