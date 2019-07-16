@@ -1905,7 +1905,7 @@ REDIRECT: '§aYou were teleported to %s'
 
 MSG_FORMAT: '/msg <player name> <message>'
 MSG_ME: '§cYou can not contact yourself'
-MSG_INFORE: '§cThis player added You to the ignore list'
+MSG_IGNORE: '§cThis player added You to the ignore list'
 MSG_FRIENDS_ONLY: '§cAccording to your privacy settings, you can only chat with friends'
 MSG_FRIENDS: '§cError, this player accepts messages only from their friends'
 MSG: '§f[§cPM§f] §6I §8-> %s §8| §7%s'
