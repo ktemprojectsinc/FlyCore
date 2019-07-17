@@ -1083,7 +1083,7 @@ PARTY_NO_INVITE: '§cИгрок %s не отправлял вам приглаш
 
 PARTY_CHAT_FORMAT: '/pchat <сообщение>'
 PARTY_OFFLINE: '§cВсе участники группы оффлайн'
-PARTY_CHAT: '§dЧат группы §8| %s§8 » §f%s'
+PARTY_CHAT: '§dЧат группы §8| %s'
 
 PARTY_COMMAND_HELP:
 - '§f[§cParty§f] §fСписок команд:'
