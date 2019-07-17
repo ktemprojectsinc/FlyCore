@@ -11,6 +11,15 @@ DISABLE: '§cDisable'
 
 BANINFO_BY_ANOTHER: '§7[By request %s§7]'
 
+NOOBIK_NOOB4IK:
+- ''
+- 'можешь ещё сказать что мы проверяли'
+- 'там'
+- 'написать'
+- 'пажалуста'
+- 'ато некоторые подумают что я умерал так'
+- 'меня все бопиждали'
+
 BAN_REQUEST_SENT: '§eYour request to block this player has been sent to all online moderators'
 BAN_REQUEST_ALREADY_SENT: '§cPlease to block this player has already been sent, wait for decision'
 SERVER_CLOSED_PLAYER_CONNECTION: '§f[§cServer§f] §fServer §a%s §fshut down your connection, Your server is installed on §a%s'
