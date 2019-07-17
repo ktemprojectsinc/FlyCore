@@ -1218,7 +1218,7 @@ FRIEND_ADD_EXPIRED: '§cЗапрос, отправленный игроку %s§
 FRIEND_ADD_EXPIRED_TO: '§f[§cFriends§f] §fИгрок %s§f отправлявший Вам запрос в друзья, был автоматически отклонен спустя 5 минут'
 
 FRIEND_CHAT_FORMAT: '/fchat <сообщение>'
-FRIEND_CHAT: '§f[§cFriends§f] §f%s§8 » §7%s'
+FRIEND_CHAT: '§f[§cFriends§f] %s'
 FRIEND_CHAT_OFFLINE: '§cУ вас нет друзей онлайн'
 
 FRIEND_ACCEPT_FORMAT: '/f accept <ник игрока>'
@@ -1245,8 +1245,9 @@ LVL_UP: '§a§l§kX§r §c§lУРОВЕНЬ ПОВЫШЕН §a§l§kX§r'
 NEW_LVL: '§fВы достигли §d%s§f уровня!'
 EXP_TO_NEW_LVL: '§fДо следующего уровня нужно §a%s§f опыта'
 GET_REWARD: '§7Зайдите в профиль, чтобы получить свою награду'
-LEVEL_COMMAND_1: '§f[§cLevel§f] §fУ вас §d%s§f уровень'
-LEVEL_COMMAND_2: '§f[§cLevel§f] §fДо следующего уровня необходимо набрать §a%s§f опыта'
+LEVEL_COMMAND:
+- '§f[§cLevel§f] §fУ вас §d%s§f уровень'
+- '§f[§cLevel§f] §fДо следующего уровня необходимо набрать §a%s§f опыта'
 
 BOX_NO_KEY: '§f[§cLuckyChest§f] §cУ вас нет ключей'
 BOX_WORK: '§f[§cLuckyChest§f] §cПодождите... Сундук прокручивается!'
@@ -1277,9 +1278,9 @@ BOX_BANNER_ALREADY: '§f[§cLuckyChest§f] §fУ Вас уже есть данн
 BOX_STATS_ALREADY: '§f[§cLuckyChest§f] §fУ Вас уже есть данный статус, Вы получили §e+%s §f%s'
 BOX_BOOSTER_ALREADY: '§f[§cLuckyChest§f] §fУ Вас уже активирован данный бустер, Вы получили §6+%s §f%s'
 
-TESTERCHAT_MSG: '§6Чат тестеров §8| §f%s §8» §f%s'
-STAFFCHAT_MSG: '§eЧат персонала §8| §f%s §8» §f%s'
-DONATECHAT_MSG: '§cЧат донатеров §8| §f%s §8» §7%s'
+TESTERCHAT_MSG: '§6Чат тестеров §8| %s'
+STAFFCHAT_MSG: '§eЧат персонала §8| %s'
+DONATECHAT_MSG: '§cЧат донатеров §8| %s'
 STAFFCHAT_MARKIS_MSG: '§eЧат персонала §8| §f%s §d✎ §f%s'
 
 SERVER_DISABLE_BROADCAST: '§f[§cСервер§f] %s§f отключил сервер ▬ §a%s'
