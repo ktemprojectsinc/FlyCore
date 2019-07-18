@@ -830,6 +830,7 @@ SPYCHAT_ALREADY: '§f[§cSpyChat§f] §cSpying is already enabled'
 SPYCHAT_ALREADY_DISABLE: '§f[§cSpyChat§f] §cSpying is already disabled'
 
 GROUP_SET_FORMAT: '/group set <nickname> <group>'
+GROUP_PREFIX_FORMAT: '/group prefix <prefix>'
 GROUP_CLEAR_FORMAT: '/group clear <nickname>'
 GROUP_VIEW_FORMAT: '/group view <group>'
 GROUP_MIGRATE_FORMAT: '/group migrate <old nickname> <new nickname>'
@@ -837,11 +838,15 @@ GROUP_MIGRATE_FORMAT: '/group migrate <old nickname> <new nickname>'
 GROUP_HELP:
  - '§f[§cGroups§f] §fCommands list:'
  - '§c/group clear <nickname> §f- clearing group'
+ - '§c/group prefix <prefix> §f- change to your prefix'
  - '§c/group migrate <old nickname> <new nickname> §f- transfer group'
  - '§c/group set <nickname> <group> §f- update group'
  - '§c/group view <group> §f- show all players with certain group'
 GROUP_ERROR_ACCESS: "§cYou can't manage groups of this player"
 GROUP_ALREADY_DEFAULT: "§cThis player hasn't got group"
+GROUP_PREFIX_INVALID: '§cПрефикс может состоять только из букв или цифр'
+GROUP_PREFIX_CHANGED: '§f[§cGroups§f] §fВаш префикс изменен на %s'
+GROUP_PREFIX_SET: '§f[§cGroups§f] %s§f изменил себе префикс на %s'
 GROUP_CLEAR: '§eFrom player %s §egroup has been removed'
 GROUP_SET: '§eFor player %s §ehas been set group %s'
 GROUP_INVALID: '§cYou wrote wrong group. Available groups: §fDEFAULT, GOLD, EMERALD, GOLEM, DIAMOND, ENDERMAN, TESTER, ELITE'
