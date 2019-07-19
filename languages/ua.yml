@@ -818,6 +818,7 @@ GROUP_HELP:
 GROUP_ERROR_ACCESS: '§cВы не можете управлять привилегиями данного игрока'
 GROUP_ALREADY_DEFAULT: '§cУ данного игрока нет привилегий'
 GROUP_PREFIX_INVALID: '§cПрефикс может состоять только из букв или цифр'
+GROUP_PREFIX_LIMIT: '§f[§cGroups§f] §fПрефикс не должен превышать §c24§f символа'
 GROUP_PREFIX_CHANGED: '§f[§cGroups§f] §fВаш префикс изменен на %s'
 GROUP_PREFIX_SET: '§f[§cGroups§f] %s§f изменил себе префикс на %s'
 GROUP_CLEAR: '§eС игрока %s §eбыла снята привилегия'
