@@ -1036,7 +1036,8 @@ NPC_SETCOMMAND: '§f[§cNPC§f] §fВы установили команду §a%
 
 CORE_SERVERS_GROUP_NOT_EXISTS: '§f[§cCore§f] §cВ данный момент, нет установленных серверов'
 CORE_SERVERS_GROUP_TOTAL: '§f[§cCore§f] §fВсего установленных серверов (§a%s§f):'
-CORE_SERVERS_GROUP_FORMAT: ' §8• §a%s §fдоступен для %s§f и выше'
+CORE_SERVERS_GROUP_FORMAT: 
+- ' §8• §a%s §fдоступен для %s§f и выше'
 
 CORE_SERVERS_NOT_EXISTS: '§f[§cCore§f] §cВ данный момент, нет подключенных серверов'
 CORE_SERVERS_TOTAL: '§f[§cCore§f] §fВсего подключенных серверов (§a%s§f):'
