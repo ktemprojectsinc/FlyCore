@@ -845,6 +845,7 @@ GROUP_HELP:
 GROUP_ERROR_ACCESS: "§cYou can't manage groups of this player"
 GROUP_ALREADY_DEFAULT: "§cThis player hasn't got group"
 GROUP_PREFIX_INVALID: '§cПрефикс может состоять только из букв или цифр'
+GROUP_PREFIX_LIMIT: '§f[§cGroups§f] §fПрефикс не должен превышать §c24§f символа'
 GROUP_PREFIX_CHANGED: '§f[§cGroups§f] §fВаш префикс изменен на %s'
 GROUP_PREFIX_SET: '§f[§cGroups§f] %s§f изменил себе префикс на %s'
 GROUP_CLEAR: '§eFrom player %s §egroup has been removed'
