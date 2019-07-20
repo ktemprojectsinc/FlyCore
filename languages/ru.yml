@@ -425,8 +425,8 @@ LEVEL_NOT:
 REDIRECT_TO_SERVER: '§aТелепортирую на сервер %s'
 SERVER_QUEUE: '§aТелепортирую на сервер %s'
 
-TAB_HEADER: "§bВы играете на §a§l§nFLYCORE.RU\n\n%s\n"
-TAB_FOOTER: "\n§a§lРанги, Ключи, & ДРУГОЕ §c§lSTORE.FLYCORE.RU"
+TAB_HEADER: "§bВы играете на §a§l§nFLYCORE.RU"
+TAB_FOOTER: "§a§lРанги, Ключи, & ДРУГОЕ §c§lSTORE.FLYCORE.RU"
 
 REDIRECT_ERROR: '§cНевозможно найти подходящий сервер('
 HUBS_ERROR: '§cОшибка, нет доступного лобби, попробуйте повторить попытку позже'
@@ -708,7 +708,7 @@ BOARD_TOTAL_LUCKYBLOCKS: 'Л-Б'
 BOARD_STATS_GAMEMODE: 'Статистика '
 BOARD_STATS_GAMEMODE_2: 'режима'
 BOARD_STATS: 'Детальная статистика'
-BOARD_RANK_YOU: 'Ваш ранг'
+BOARD_RANK_YOU: 'Ранг'
 BOARD_VK: 'Вконтакте'
 BOARD_SHOP: 'Магазин'
 BOARD_GROUP: 'Группа проекта'
@@ -2262,9 +2262,9 @@ SETWARP_DEVELOPED: '§cКоманда находится в разработке
 BOSS_BAR_LOBBY:
 - '§fСОКРУШИТЕЛЬНЫЙ §cОБВАЛ §fЦЕН! ВСЕ ЦЕНЫ БЫЛИ §aСНИЖЕНЫ §fНА §615%'
 - '§fПОКУПКА§e ДОНАТА §fНА САЙТЕ §7► §c§lFLYCORE.RU'
-- '§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lCREATIVE§f!'
+#- '§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lCREATIVE§f!'
 - '§fСООБЩИ О§c БАГЕ§f ИЛИ§c ОШИБКЕ §7► §c§lFLYCORE.RU/BUGS'
-- '§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lPARKOUR§f!'
+#- '§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lPARKOUR§f!'
 - '§fЗАДАЙ СВОЙ ВОПРОС §cАДМИНИСТРАЦИИ§f КОМАНДОЙ §7► §d/ASK'
 
 MESSAGES_BROADCAST:
