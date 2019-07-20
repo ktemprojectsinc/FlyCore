@@ -426,8 +426,8 @@ LEVEL_NOT:
 REDIRECT_TO_SERVER: '§aТелепортую на сервер %s'
 SERVER_QUEUE: '§aТелепортую на сервер %s'
 
-TAB_HEADER: "§bВы граєте на §a§l§nFLYCORE.RU\n\n%s\n"
-TAB_FOOTER: "\n§a§lРанги, Ключі, & ІНШЕ §c§lSTORE.FLYCORE.RU"
+TAB_HEADER: "§bВы граєте на §a§l§nFLYCORE.RU"
+TAB_FOOTER: "§a§lРанги, Ключі, & ІНШЕ §c§lSTORE.FLYCORE.RU"
 
 REDIRECT_ERROR: '§cНеможливо знайти відповідний сервер('
 HUBS_ERROR: '§cПомилка, немає доступного лобі, спробуйте повторити спробу пізніше'
@@ -2223,9 +2223,9 @@ SETWARP_DEVELOPED: '§cКоманда находится в разработке
 BOSS_BAR_LOBBY:
 - '§fСОКРУШИТЕЛЬНЫЙ §cОБВАЛ §fЦЕН! ВСЕ ЦЕНЫ БЫЛИ §aСНИЖЕНЫ §fНА §615%'
 - '§fПОКУПКА§e ДОНАТА §fНА САЙТЕ §7► §c§lFLYCORE.RU'
-- '§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lCREATIVE§f!'
+#- '§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lCREATIVE§f!'
 - '§fСООБЩИ О§c БАГЕ§f ИЛИ§c ОШИБКЕ §7► §c§lFLYCORE.RU/BUGS'
-- '§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lPARKOUR§f!'
+#- '§c§lNEW! §fОТКРЫТИЕ НОВОГО РЕЖИМА §6§lPARKOUR§f!'
 - '§fЗАДАЙ СВОЙ ВОПРОС §cАДМИНИСТРАЦИИ§f КОМАНДОЙ §7► §d/ASK'
 
 MESSAGES_BROADCAST:
