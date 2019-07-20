@@ -446,8 +446,8 @@ LEVEL_NOT: '§cError, rewards can receive only 5 level or higher'
 REDIRECT_TO_SERVER: '§aTeleported to server %s'
 SERVER_QUEUE: '§aTeleported to server %s'
 
-TAB_HEADER: "§bYou are playing on §a§l§nFLYCORE.RU"
-TAB_FOOTER: "§a§lRanks, Keys, & MORE §c§lSTORE.FLYCORE.RU"
+TAB_HEADER: "§bYou are playing on §a§l§nFLYCORE.RU\n\n%s\n"
+TAB_FOOTER: "\n§a§lRanks, Keys, & MORE §c§lSTORE.FLYCORE.RU"
 
 REDIRECT_ERROR: '§cUnable to find suitable server('
 HUBS_ERROR: '§cError, lobby unavailable, try again later'
