@@ -426,7 +426,7 @@ REDIRECT_TO_SERVER: '§aТелепортирую на сервер %s'
 SERVER_QUEUE: '§aТелепортирую на сервер %s'
 
 TAB_HEADER: "§bВы играете на §a§l§nFLYCORE.RU\n\n%s\n"
-TAB_FOOTER: "§a§lРанги, Ключи, & ДРУГОЕ §c§lSTORE.FLYCORE.RU"
+TAB_FOOTER: "\n§a§lРанги, Ключи, & ДРУГОЕ §c§lSTORE.FLYCORE.RU"
 
 REDIRECT_ERROR: '§cНевозможно найти подходящий сервер('
 HUBS_ERROR: '§cОшибка, нет доступного лобби, попробуйте повторить попытку позже'
