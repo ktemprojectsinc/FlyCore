@@ -2803,7 +2803,7 @@ GUI_DIAMOND_SURVIVAL_LORE:
 - ''
 GUI_ENDERMAN_ALL_LORE:
 - ''
-- ' §8▪ §7Prefix §5Enderman'
+- ' §8▪ §7Prefix %s'
 - ' §8▪ §7The greeting at the entrance'
 - ' §8▪ §7Ability to change color Prefix'
 - ' §8▪ §7Ability to change messages when loggin in'
