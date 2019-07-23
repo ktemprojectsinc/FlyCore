@@ -292,7 +292,7 @@ PLAYER_MARKETING_END_TIME: '§6Marketing §8| §cСожалеем, время в
 PLAYER_MARKETING_MODULE_CONFIRM: '§6Marketing §8| §f+1 §aмодуль пройден'
 PLAYER_MARKETING_QUIT_GAME: '§6Marketing §8| §fВы закрыли меню, арена покинута'
 
-PLAYER_RESTARTING_ARENA: '§cРестарт арены, вы будите телепортированны в лобби через 5 секунд'
+PLAYER_RESTARTING_ARENA: '§cРестарт арены, вы будете телепортированны в лобби через 5 секунд'
 PLAYER_ARENA_RESTARTED: '§cАрена перезапускается'
 
 PLAYER_FLY_ACTIONBAR_TIME: '§cДо конца полета осталось: %s'
@@ -4415,7 +4415,7 @@ GUI_GADGETS_EFFECT_10_LORE:
 - '§7Почувствуй себя жителем из деревни, когда тебе не дали изумруды'
 GUI_GADGETS_EFFECT_11: 'Огонь'
 GUI_GADGETS_EFFECT_11_LORE:
-- '§7Вы будите гореть, гореть и гореть..'
+- '§7Вы будете гореть, гореть и гореть..'
 GUI_GADGETS_EFFECT_12: 'Стив'
 GUI_GADGETS_EFFECT_12_LORE:
 - '§7Веселый Стив, или житель?'
@@ -4491,7 +4491,7 @@ GUI_GADGETS_HAT_14_LORE:
 - '§8Made by Pr0st0_Lucky'
 GUI_GADGETS_HAT_15: 'Блок травы'
 GUI_GADGETS_HAT_15_LORE:
-- '§7Вы будите скрыты как никогда!'
+- '§7Вы будете скрыты как никогда!'
 GUI_GADGETS_HAT_16: 'Шляпа яблока'
 GUI_GADGETS_HAT_16_LORE:
 - '§7Вы съедобны'
