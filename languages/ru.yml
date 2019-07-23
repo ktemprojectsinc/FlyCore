@@ -69,7 +69,8 @@ RANK_GAMER: 'Геймер'
 SERVER_RESTARTING_BROADCAST: '§cДо перезагрузки осталось, §e%s§c %s'
 SERVER_RESTARTING_MESSAGE: '§f[§cServer§f] §fСервер на котором Вы находились перезагружается..'
 NO_CONNECT_REASON: "§cОшибка #13, Синхронизация не выполнена. Если ошибка повторилась, сообщите » §a§nvk.com/flycore"
-CORE_NO_FOUND_PLAYER_SERVER_MSG: '§f[§cServer§f] §fОшибка, Ваш сервер был не найден в главном ядре, Вы были телепортированы в §a%s'
+CORE_NO_FOUND_PLAYER_SERVER_MSG:
+- '§f[§cServer§f] §fОшибка, Ваш сервер был не найден в главном ядре, Вы были телепортированы в §a%s'
 CORE_NO_FOUND_PLAYER_SERVER: "§fОшибка, Ваш сервер был не найден в главном ядре. Если ошибка повторилась, сообщите » §a§nvk.com/flycore\n\n§fКод ошибки (§c%s§f)"
 PROXY_CORE_LOST_CONNECTION:
 - '§f[§cCore§f] §fПрокси-сервер отключен от ядра. До следующего подключения будет недоступен переход по серверам, и некоторые команды.'
@@ -825,7 +826,7 @@ GROUP_CLEAR_BROADCAST: '§f[§cGroups§f] %s§f снял привилегию с
 GROUP_SET: '§eИгроку %s §eбыла установлена привилегия %s'
 GROUP_SET_BROADCAST: '§f[§cGroups§f] %s§f установил игроку %s§f группу %s'
 GROUP_SET_STATS_BROADCAST: '§f[§cGroups§f] %s§f установил игроку %s§f статус %s'
-GROUP_INVALID: '§cВы указали неверную группу. Доступные группы: §fDEFAULT, GOLD, EMERALD, GOLEM, DIAMOND, ENDERMAN'
+GROUP_INVALID: '§cВы указали неверную группу. Доступные группы: §f%s'
 GROUP_VIEW_INVALID: '§cВы указали неверную группу. Доступные группы: §fDEFAULT, GOLD, EMERALD, GOLEM, DIAMOND, ENDERMAN, TESTER, ELITE'
 GROUP_MIGRATE: '§eИгроку %s §eперенесена привилегия %s'
 GROUP_MIGRATE_BROADCAST: '§f[§cGroups§f] %s§f перенес привилегию с игрока %s§f на %s'
