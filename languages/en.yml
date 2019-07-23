@@ -95,7 +95,8 @@ RANK_GAMER: 'Gamer'
 SERVER_RESTARTING_BROADCAST: '§cBefore a restart remained, §e%s§c %s'
 SERVER_RESTARTING_MESSAGE: '§f[§cServer§f] §fServer from you current, restarted..'
 NO_CONNECT_REASON: "§cError#13, Synchronization is not executed. Report, if error to repeated » §a§nvk.com/flycore"
-CORE_NO_FOUND_PLAYER_SERVER_MSG: '§f[§cServer§f] §fError, you server not found in main core, you redirected to §a%s'
+CORE_NO_FOUND_PLAYER_SERVER_MSG:
+- '§f[§cServer§f] §fError, you server not found in main core, you redirected to §a%s'
 CORE_NO_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If error repeated, report » §a§nvk.com/flycore\n\n§fError code (§c%s§f)"
 PROXY_CORE_LOST_CONNECTION:
 - '§f[§cCore§f] §fProxy-server disconnected of core. Until the next connection, the transition through the servers will not be available and some commands.'
@@ -850,11 +851,11 @@ GROUP_PREFIX_CHANGED: '§f[§cGroups§f] §fВаш префикс изменен
 GROUP_PREFIX_SET: '§f[§cGroups§f] %s§f изменил себе префикс на %s'
 GROUP_CLEAR: '§eFrom player %s §egroup has been removed'
 GROUP_SET: '§eFor player %s §ehas been set group %s'
-GROUP_INVALID: '§cYou wrote wrong group. Available groups: §fDEFAULT, GOLD, EMERALD, GOLEM, DIAMOND, ENDERMAN, TESTER, ELITE'
+GROUP_INVALID: '§cYou wrote wrong group. Available groups: §f%s'
 GROUP_MIGRATE: '§eFor player %s §ehas been transfered group %s'
 GROUP_CLEAR_BROADCAST: '§f[§cGroups§f] %s§f stripped off privilege from player %s'
 GROUP_MIGRATE_BROADCAST: '§f[§cGroups§f] %s§f migrated privilege of %s§f to %s'
-GROUP_VIEW_INVALID: '§cYou wrote wrong group. Available groups: §fDEFAULT, GOLD, EMERALD, GOLEM, DIAMOND, ENDERMAN, TESTER, ELITE'
+GROUP_VIEW_INVALID: '§cYou wrote wrong group. Available groups: §f%s'
 GROUP_SET_BROADCAST: '§f[§cGroups§f] %s§f set to player %s§f group %s'
 GROUP_SET_STATS_BROADCAST: '§f[§cGroups§f] %s§f set to player %s§f stats %s'
 
