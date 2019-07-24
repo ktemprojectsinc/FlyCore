@@ -839,7 +839,7 @@ GROUP_MIGRATE_FORMAT: '/group migrate <old nickname> <new nickname>'
 GROUP_HELP:
  - '§f[§cGroups§f] §fCommands list:'
  - '§c/group clear <nickname> §f- clearing group'
- - '§c/group prefix <prefix> §f- change to your prefix'
+# - '§c/group prefix <prefix> §f- change to your prefix'
  - '§c/group migrate <old nickname> <new nickname> §f- transfer group'
  - '§c/group set <nickname> <group> §f- update group'
  - '§c/group view <group> §f- show all players with certain group'
