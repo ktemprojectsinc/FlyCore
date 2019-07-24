@@ -2411,6 +2411,8 @@ CHECK_FORMAT: '/checkip <ip>'
 ADDRESS_INVALID: '§cОшибка, адрес %s указан неверно'
 ADDRESS_INFO: '§f[§cServer§f] §fПоиск §a%s'
 ADDRESS_TO: ' §8▪ %s'
+ADDRESS_NOT_FOUND: '§cПо запросу §a%s§f ничего не найдено'
+ADDRESS_FINISH: '§fПоиск завершен за §6%sms'
 
 COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
