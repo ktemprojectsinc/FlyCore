@@ -2412,7 +2412,7 @@ ADDRESS_INVALID: '§cОшибка, адрес %s указан неверно'
 ADDRESS_INFO: '§f[§cServer§f] §fПоиск §a%s'
 ADDRESS_TO: ' §8▪ %s'
 ADDRESS_NOT_FOUND: '§f[§cServer§f] §fПо запросу §a%s§f ничего не найдено'
-ADDRESS_FINISH: '§fПоиск завершен за §6%s§fms'
+ADDRESS_FINISH: '§fПоиск завершен за §6%s§fms найдено: §a%s'
 ADDRESS_NOT_AVAILABLE: '§cПоиск по адресу %s недоступен'
 
 COOLDOWN: '§cWait %s to use that'
