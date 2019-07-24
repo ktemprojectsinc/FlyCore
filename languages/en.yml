@@ -344,7 +344,7 @@ PLAYER_SERVER_ALREADY: '§f[§cServer§f] §cYou already on current server!'
 SLOT_BUSY: '§cSorry, but You was transfered to lobby, Your slot took §r%s'
 ERROR_TELEPORT: '§cError in teleporting to lobby'
 ONLY_DONATOR: '§cError, there are only donaters on arena'
-ARENA_BUSY: '§cArena is full, do not enough slots? Buy §eGold§c or higher'
+ARENA_BUSY: '§cArena is full, do not enough slots? Buy §e§lGOLD§c or higher'
 ARENA_START: '§cGame starting...'
 ARENA_RESTART: '§cArena restarting...'
 
@@ -734,7 +734,7 @@ VERIFY_NOT_ENABLED: '§f[§cVerify§f] §cДля вас недоступна д�
 NO_PERMS: '§cYou do not have permissions'
 NO_PERMS_GROUP: '§cYou do not have permissions, buy %s§c or higher'
 NO_PERMS_STATS: '§cYou do not have permissions, buy %s§c or higher'
-NO_PERMS_ENDERMAN_ONLY: '§cThis function is only for §5Enderman'
+NO_PERMS_ENDERMAN_ONLY: '§cThis function is only for §5§lENDERMAN'
 NO_PERMS_ONLY: '§cThis function is only for %s'
 
 REPORT_FORMAT: '/report <nickname> <reason>'
@@ -2024,11 +2024,7 @@ INVSEE_FORMAT: '/invsee <name>'
 
 KIT_FORMAT: '/kit <enderman/diamond/golem/emerald/gold>'
 KIT_DELAY: '§cNext kit will be available in %s'
-KIT_ENDERMAN: 'You got kit §5Enderman'
-KIT_DIAMOND: 'You got kit §bDiamond'
-KIT_GOLEM: 'You got kit §fGolem'
-KIT_EMERALD: 'You got kit §aEmerald'
-KIT_GOLD: 'You got kit §eGold'
+KIT_GET: 'You got kit %s'
 
 PWEATHER_STORM: 'rainy'
 PWEATHER_CLEAR: 'sunny'
@@ -2124,7 +2120,7 @@ PARKOUR_MODULE_TITLE: '§fModule §e%s§7/§a%s§f passed'
 PARKOUR_MODULE_ALREADY: '§f[§cParkour§f] §cYou already passed this module'
 PARKOUR_MODULE_NO: "§f[§cParkour§f] §cYou didn't pass the modeule"
 
-NO_PERMISSION_STATS: '§cError, view statistic other players can only §bDiamond§c or higher'
+NO_PERMISSION_STATS: '§cError, view statistic other players can only §b§lDIAMOND§c or higher'
 
 STAFFCHAT_ENABLED: '§f[§cModeration§f] %s§f now sees staff chat'
 STAFFCHAT_DISABLED: '§f[§cModeration§f] %s§f is no longer see staff chat'
@@ -2289,17 +2285,17 @@ BOSS_BAR_LOBBY:
 - '§fASK YOUR QUESTION §cADMINISTRATIONS§f COMMAND §7► §d/ASK'
 
 MESSAGES_BROADCAST:
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fAll arenas §ccrowded§f, not enough slots?\n§fPurchase §eGold§f on site §dflycore.ru\n§fand this problem will be solved\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fPurchase §eGold§f by very §dattractive§f price\n§fAlready with her you will get a decent amount §eof opportunities\n§fthat will make your game §amore interesting\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fPrivilege §aEmerald§f gives more\n§fquantity §bbonuses§f and §eof opportunities§f for a reasonable price.\n§fInterested? Buying on site §dflycore.ru\n"
+- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fAll arenas §ccrowded§f, not enough slots?\n§fPurchase §e§lGOLD§f on site §dflycore.ru\n§fand this problem will be solved\n"
+- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fPurchase §e§lGOLD§f by very §dattractive§f price\n§fAlready with her you will get a decent amount §eof opportunities\n§fthat will make your game §amore interesting\n"
+- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fPrivilege §a§lEMERALD§f gives more\n§fquantity §bbonuses§f and §eof opportunities§f for a reasonable price.\n§fInterested? Buying on site §dflycore.ru\n"
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§fTo play with friends\n§fjust write a command §c/party <nick>\n§fAnd all players will be moved behind the leader\n"
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§fThere are many different §epossibilities§f on the server\n§fand §dbonuses§f access to which only donators have,\n§finformation about donate §c/donate\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§5Gamer§6Pro§f - best server privilege,\n§fcombines the maximum amount\n§efeatures§f and §dbonuses§f for a comfortable game\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§f§aEmerald§f - most popular privilege\n§fwhich combines §abest price§f and\n§efeatures§f, buying on site §dflycore.ru\n"
+- "\n§e§l§nFlyCore§7 - §d§lInfo\n§5§lGAMER§6§lPRO§f - best server privilege,\n§fcombines the maximum amount\n§efeatures§f and §dbonuses§f for a comfortable game\n"
+- "\n§e§l§nFlyCore§7 - §d§lInfo\n§f§a§lEMERALD§f - most popular privilege\n§fwhich combines §abest price§f and\n§efeatures§f, buying on site §dflycore.ru\n"
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§fYou already bought §edonat§f, now you want a §bhigher§f status?\n§COnly here§f you can purchase a new one\n§fprivilege with surcharge on the site §dflycore.ru\n"
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§fIf you saw §cthe intruder§f or §ccheater§f, that\n§fUse the command §c/report <nick>\n§fand your §ecomplaint§f complaint will be reviewed in real time\n"
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§C⚠ Warning §fWant to change the skin?\n§fFor all players available\n§fcommand §c/skin <nickname of player with skin>\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fYou rec §cletsplay§f, §coverview§f, love §cstream\n§fwith friends? Privilege §6YouTube§f specially for you!\n§fInterested? Buying on site §dflycore.ru\n"
+- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fYou rec §cletsplay§f, §coverview§f, love §cstream\n§fwith friends? Privilege §6§lYouTube§f specially for you!\n§fInterested? Buying on site §dflycore.ru\n"
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§fWant to §asecure§f your account?\n§fThen tie it to your mail\n§fcommand §c/email add <mail> <repeat mail>\n"
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§fAppeared §eare questions§f, to which you §cdo not know the answer?\n§fWrite a team §c/ask <your question>\n§aOnline administration§f will help you §bin real time\n"
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§fWant §dunique§f, hidden §afeatures§f and §acapabilities§f?\n§fBuy Donat from us and get access to\n§fdonat-menu command §c/donatemenu\n"
@@ -2307,7 +2303,7 @@ MESSAGES_BROADCAST:
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§fVisit our group §9VK§f and you will always\n§fin the latest news §eserver\n§fFollow the link §bvk.com/flycore\n"
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§fWant to discuss your §awin§f or challenge the §closs§f,\n§for maybe you want to find new §efriends§f?\n§fCome to our forum §dforum.flycore.ru\n"
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§fAppeared §eare questions§f, to which you §cdo not know the answer?\n§fWrite a team §c/ask <your question>\n§aOnline administration§f will help you §bin real time\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fYou rec §cletsplay§f, §coverview§f, love §cstream\n§fwith friends? Privilege §6YouTube§f specially for you!\n§fInterested? Buying on site §dflycore.ru\n"
+- "\n§e§l§nFlyCore§7 - §d§lInfo\n§f§a§lEMERALD§f - most popular privilege\n§fwhich combines §abest price§f and\n§efeatures§f, buying on site §dflycore.ru\n"
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§fIf you saw §cthe intruder§f or §ccheater§f, that\n§fUse the command §c/report <nick>\n§fand your §ecomplaint§f complaint will be reviewed in real time\n"
 - "\n§e§l§nFlyCore§7 - §d§lInfo\n§fVisit our group §9VK§f and you will always\n§fin the latest news §eserver\n§fFollow the link §bvk.com/flycore\n"
 MESSAGES_HOVER_BROADCAST:
@@ -2573,7 +2569,7 @@ GUI_DONATE_FAQ_ENDERMAN: []
 
 GUI_GOLD_ALL_LORE:
 - ''
-- ' §8▪ §7Prefix §eGold'
+- ' §8▪ §7Prefix §e§lGOLD'
 - ' §8▪ §7The greeting at the entrance'
 - ' §8▪ §7Reserve slot in all arenas'
 - ' §8▪ §7Available х3 jump in all lobbies'
@@ -2620,7 +2616,7 @@ GUI_GOLD_SURVIVAL_LORE:
 - ''
 GUI_EMERALD_ALL_LORE:
 - ''
-- ' §8▪ §7Prefix §aEmerald'
+- ' §8▪ §7Prefix §a§lEMERALD'
 - ' §8▪ §7The greeting at the entrance'
 - ' §8▪ §7Reserve slot in all arenas'
 - ' §8▪ §7Available х3 jump in all lobbies(if disable flying)'
@@ -2679,7 +2675,7 @@ GUI_EMERALD_SURVIVAL_LORE:
 - ''
 GUI_GOLEM_ALL_LORE:
 - ''
-- ' §8▪ §7Prefix §fGolem'
+- ' §8▪ §7Prefix §f§lGOLEM'
 - ' §8▪ §7The greeting at the entrance'
 - ' §8▪ §7Reserve slot in all arenas'
 - ' §8▪ §7Available х3 jump in all lobbies(if disable flying)'
@@ -2741,7 +2737,7 @@ GUI_GOLEM_SURVIVAL_LORE:
 - ''
 GUI_DIAMOND_ALL_LORE:
 - ''
-- ' §8▪ §7Prefix §bDiamond'
+- ' §8▪ §7Prefix §b§lDIAMOND'
 - ' §8▪ §7The greeting at the entrance'
 - ' §8▪ §7Reserve slot in all arenas'
 - ' §8▪ §7Available х3 jump in all lobbies(if disable flying)'
@@ -2754,6 +2750,7 @@ GUI_DIAMOND_ALL_LORE:
 - ' §8▪ §7No delay on §f/skin'
 - ' §8▪ §7Coin multiplier §fx2.0'
 - ' §8▪ §7Access to features menu - §f/dm'
+- ' §8▪ §7Available set to your suffix - §f/suffix <suffix>'
 - ' §8▪ §7Ability to look at other peoples statistics - §f/stats <name>'
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
 - ' §8▪ §7Available donate chat - §f/dc'
@@ -2824,6 +2821,7 @@ GUI_ENDERMAN_ALL_LORE:
 - ' §8▪ §7No delay on §f/skin'
 - ' §8▪ §7Coin multiplier §fx2.0'
 - ' §8▪ §7Access to features menu - §f/dm'
+- ' §8▪ §7Available set to your suffix - §f/suffix <suffix>'
 - ' §8▪ §7Ability to look at other peoples statistics - §f/stats <name>'
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
 - ' §8▪ §7Available donate chat - §f/dc'
@@ -2895,7 +2893,7 @@ GUI_DONATE_INFO_LORE:
 - ' §f<The price of your existing status> '
 - '' 
 - '§7For example, if you want to buy a status'
-- '§bDiamond§7, and you already have §aEmerald§7,'
+- '§b§lDIAMOND§7, and you already have §a§lEMERALD§7,'
 - '§7then you have to pay §c182 rubbles§7.'
 GUI_DONATE_MONEY_LORE:
 - '§7Все денежные средства вырученные с'
@@ -2931,11 +2929,11 @@ GUI_INFO_HELP_LORE:
 - '§7вводить команду и она также будет добавлена.'
 GUI_INFO_DONATE_LORE:
 - '§7List of paid statuses:'
-- ' §8▪ §eGold §7- §f15 Rubbles'
-- ' §8▪ §aEmerald §7- §f76 Rubbles'
-- ' §8▪ §fGolem §7- §f129 Rubbles'
-- ' §8▪ §bDiamond §7- §f258 Rubbles'
-- ' §8▪ §5Enderman §7- §f482 Rubbles'
+- ' §8▪ §e§lGOLD §7- §f15 Rubbles'
+- ' §8▪ §a§lEMERALD §7- §f76 Rubbles'
+- ' §8▪ §f§lGOLEM §7- §f129 Rubbles'
+- ' §8▪ §b§lDIAMOND §7- §f258 Rubbles'
+- ' §8▪ §5§lENDERMAN §7- §f482 Rubbles'
 - ''
 - '§7A detailed description of the donate you can'
 - '§7find in section named §fProfile ▸ Donate'
@@ -3045,7 +3043,7 @@ GUI_INFO_GUILD_LORE:
 - '§7Write §e/guild §7and create your guild!'
 - '§7'
 - '§cATTENTION! Guild creation cost'
-- '§c20.000 coins and available only for §bDiamond'
+- '§c20.000 coins and available only for §b§lDIAMOND'
 - '§cFor entry donate dont need.'
 GUI_INFO_LUCKYCHEST_LORE:
 - '§7Используйте ключи чтобы,'
@@ -3062,7 +3060,7 @@ GUI_INFO_LUCKYCHEST_LORE:
 - ' §8• §bDefault key§7;'
 - ''
 - '§7Из донатного ключа,'
-- '§7Вам может выпасть статус от §eGold§7 до §5Enderman'
+- '§7Вам может выпасть статус от §e§lGOLD§7 до §5§lENDERMAN'
 - '§7При выпадении уже существующего статуса,'
 - '§7Вы получите от 5 до 40 golds'
 - ''
@@ -3531,9 +3529,9 @@ GUI_REWARDS_INFO_LORE:
 - '§7much more coins with a multiplier'
 - ''
 - '§fAvailable multipliers:'
-- ' §8▪ §eGold§7 and §aEmerald §7- §e1.5x'
-- ' §8▪ §fGolem§7 - §e1.75x'
-- ' §8▪ §bDiamond§7 and §5Enderman §7- §e2.0x'
+- ' §8▪ §e§lGOLD§7 and §a§lEMERALD §7- §e1.5x'
+- ' §8▪ §f§lGOLEM§7 - §e1.75x'
+- ' §8▪ §b§lDIAMOND§7 and §5§lENDERMAN §7- §e2.0x'
 - ''
 - '§7You can buy status'
 - '§7Online §dmg.flycore.ru'
@@ -3547,7 +3545,7 @@ GUI_DONATEMENU_FASTMESSAGES_LORE:
 - '§7Show everyone what you are today,'
 - '§7using these fast messages.'
 - ''
-- '§7Only available for §aEmerald§7 or higher'
+- '§7Only available for §a§lEMERALD§7 or higher'
 - ''
 - '§7To quickly open the menu, use'
 - '§7command §c/fm §7or §c/fastmessage'
@@ -3556,7 +3554,7 @@ GUI_DONATEMENU_FASTMESSAGES_LORE:
 GUI_DONATEMENU_PREFIX_LORE:
 - '§7Changing color of the prefix'
 - ''
-- '§7Only available for §5Enderman'
+- '§7Only available for §5§lENDERMAN'
 - ''
 - '§7Current prefix: %s'
 - ''
@@ -3565,7 +3563,7 @@ GUI_DONATEMENU_SMILES_LORE:
 - '§7Surprise your friends,'
 - '§7using these smiles.'
 - ''
-- '§7Only available for §fGolem§7 or higher'
+- '§7Only available for §f§lGOLEM§7 or higher'
 - ''
 - '§7To quickly open the menu, use'
 - '§7command §c/sm§7 or §c/smiles'
@@ -4015,8 +4013,8 @@ GUI_SITESHOP_CREATIVE_MODE_LORE:
 GUI_SITESHOP_KIT_START_LORE:
 - ' §8• §7Diamond sword §8x1'
 - ' §8• §7Diamond chestplate §8x1'
-- ' §8• §7Diamond chestplate §8x1'
 - ' §8• §7Diamond leggings §8x1'
+- ' §8• §7Diamond boots §8x1'
 GUI_SITESHOP_KIT_MEGA_LORE:
 - ' §8• §7Diamond sword §8x1'
 - ' §8• §7Diamond helmet §8x1'
@@ -5183,7 +5181,7 @@ GUI_CASES_DONATE_NAME: '§eDonate key'
 GUI_CASES_DONATE_LORE:
 - ''
 - '§7Используется для получения'
-- '§7бесплатного статуса от §eGold §7до §5Enderman'
+- '§7бесплатного статуса от §e§lGOLD §7до §5§lENDERMAN'
 - ''
 - '§cВнимание! При выбивании уже существующего'
 - '§cстатуса вы получите от 5 до 30 золота!'
