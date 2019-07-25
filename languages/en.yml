@@ -398,11 +398,11 @@ SITESHOP_DONATKEY: 'Donate key'
 PERSONALUP_CONFIRM: '§cConfirm your key /personalup <key>'
 
 SERVER_LINKS:
-- '§7Server address: §eplay.flycore.ru'
+- '§7Server address: §eflycore.ru'
 - ''
 - '§7VK Group: §fvk.com/flycore'
 - ''
-- '§7Site: §fmg.flycore.ru'
+- '§7Site: §fflycore.ru'
 - '§7Forum: §fforum.flycore.ru'
 - ''
 - '§7Email: §dktemprojects@mail.ru'
@@ -645,7 +645,7 @@ TRAINING_STAGE_3_MSG_15_SUBTITLE: '§fopen §2Profile ▸ Settings'
 TRAINING_STAGE_3_MSG_16_TITLE: "§fIf You want to change the prefix's color,"
 TRAINING_STAGE_3_MSG_16_SUBTITLE: "§fthen open §2Donater's Menu ▸ Prefix"
 TRAINING_STAGE_3_MSG_17_TITLE: '§fYou like the server, or You want to support it?'
-TRAINING_STAGE_3_MSG_17_SUBTITLE: '§fthen You can purchase privilege on our site §dmg.flycore.ru'
+TRAINING_STAGE_3_MSG_17_SUBTITLE: '§fthen You can purchase privilege on our site §dflycore.ru'
 TRAINING_STAGE_3_MSG_18_TITLE: ''
 TRAINING_STAGE_3_MSG_18_SUBTITLE: '§7And, of course, the main...'
 TRAINING_STAGE_3_MSG_19_TITLE: '§fInterested in §5develops§f, or have questions about plugins§f/§6forum§f?'
@@ -1838,7 +1838,7 @@ TRAINING_SKIP_MSG_15_SUBTITLE: '§fтогда войдите в §2Профил�
 TRAINING_SKIP_MSG_16_TITLE: '§fЕсли Вы хотите прочитать информацию о сервере,'
 TRAINING_SKIP_MSG_16_SUBTITLE: '§fтогда зайдите в §2Профиль ▸ Информация'
 TRAINING_SKIP_MSG_17_TITLE: '§fВам понравился сервер, или Вы хотите его поддержать?'
-TRAINING_SKIP_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dmg.flycore.ru'
+TRAINING_SKIP_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dflycore.ru'
 TRAINING_SKIP_MSG_18_TITLE: ''
 TRAINING_SKIP_MSG_18_SUBTITLE: '§7И конечно самое главное...'
 TRAINING_SKIP_MSG_19_TITLE: '§fИнтересны §5разработки§f, или есть вопросы по плагинам§f/§6форуму§f?'
@@ -1901,8 +1901,8 @@ BUY_THANKS:
 - ''
 - '§fIf You have got remained questions, You can use §n/ask§f;'
 - '§for our group §9§nvk.me/FlyCore'
-BUY_NOT_STORE: "§cOn Your account was not purchased none privilege;\nuse main account, or buy a privilege on website mg.flycore.ru;\nto get an opportunity to create multi-account"
-BUY_MAX_NOT_MULTIACCOUNT: "§cYou have created maximum amount of multi-accounts\nuse them, or buy a privilege on website mg.flycore.ru\nto increase maximum amount of multi-accounts"
+BUY_NOT_STORE: "§cOn Your account was not purchased none privilege;\nuse main account, or buy a privilege on website flycore.ru;\nto get an opportunity to create multi-account"
+BUY_MAX_NOT_MULTIACCOUNT: "§cYou have created maximum amount of multi-accounts\nuse them, or buy a privilege on website flycore.ru\nto increase maximum amount of multi-accounts"
 BUY_MAX_MULTIACCOUNT: "§cYou exhausted your limit to create multi-accounts!\nYour available multi-account for join: %s"
 
 BUY_HOVER_BROADCAST: '§fClick here\n§fto transition link'
@@ -2947,7 +2947,7 @@ GUI_INFO_DONATE_LORE:
 - '§7find in section named §fProfile ▸ Privileges'
 - ''
 - '§7You can buy status'
-- '§7Online §dmg.flycore.ru'
+- '§7Online §dflycore.ru'
 GUI_INFO_FRIEND_LORE:
 - '§7For a comfortable game with friends'
 - '§7use the commands below'
@@ -3010,7 +3010,7 @@ GUI_INFO_LINKS_LORE:
 - ''
 - '§7VK community: §fvk.com/flycore'
 - ''
-- '§7Site: §fmg.flycore.ru'
+- '§7Site: §fflycore.ru'
 - '§7Forum: §fforum.flycore.ru'
 - ''
 - '§7E-mail: §dktemprojects@mail.ru'
@@ -3542,7 +3542,7 @@ GUI_REWARDS_INFO_LORE:
 - ' §8▪ §b§lDIAMOND§7 and §5§lENDERMAN §7- §e2.0x'
 - ''
 - '§7You can buy status'
-- '§7Online §dmg.flycore.ru'
+- '§7Online §dflycore.ru'
 GUI_WINREWARDS_NAME: 'Awards (detailed information)'
 GUI_REWARDS_SKYWARS: '§bSkyWars'
 GUI_REWARDS_BEDWARS: '§bBedWars'
