@@ -4584,7 +4584,7 @@ GUI_GADGETS_BANNER_16: 'Ораньжевый баннер'
 GUI_GADGETS_BANNER_16_LORE:
 - '§7У Вас будет ораньжевый баннер'
 
-GUI_PREFIX_NAME: 'Меню донатера ▸ префикс'
+GUI_PREFIX_NAME: 'Меню донатера ▸ Смена префикса'
 GUI_PREFIX_SELECTED_LORE:
 - ''
 - '§aПрефикс выбран'
