@@ -4632,7 +4632,7 @@ GUI_EFFECTS_UNAVAILABLE_LORE:
 - ''
 - '§cДанный предмет Вам недоступен'
 GUI_EFFECTS_BUY_LORE:
-- '§7Цена §6%s§7 %s'
+- '§7Цена %s§7 %s'
 - ''
 - '§aНажмите, чтобы купить %s'
 GUI_EFFECTS_NO_MONEY_LORE:
