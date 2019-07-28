@@ -1959,17 +1959,15 @@ CRASH_FORMAT: '/crash <player name>'
 CRASH_ERROR_YOU: '§cYou can not crash yourself'
 CRASH_PLAYER: '§fYou crached player %s'
 
-WORKBENCH_DELAY: '§cOpen workbench may once per 5 minutes, time left %s'
+NEAR: 'Ближайщие игроки: %s'
+NEAR_NOT_FOUND: 'Ближайших игроков нет'
 
-HEAL_DELAY: '§cHeal yourself may once per 30 minutes, time left %s'
 HEAL: 'You are healed'
 HEAL_TO: 'You healed player %s'
 
-FEED_DELAY: '§cSatisfy hunger may once per 15 minutes, time left %s'
 FEED: 'Hunger is satisfied'
 FEED_TO: 'Hunger of player %s§f is satisfied'
 
-EXT_DELAY: '§cExtinguish yourself may once per 7 minutes, time left %s'
 EXT: 'You extinguished yourself'
 EXT_TO: 'You extinguished player %s'
 
@@ -1977,17 +1975,14 @@ CLEAR: 'All items cleared'
 CLEAR_TO: 'All items of player %s§f cleared'
 
 PTIME_FORMAT: '/ptime <day/night/clear/number>'
-PTIME_DELAY: '§cChange time may once per 10 minutes, time left %s'
 PTIME_ERROR: '§cError, you have to write number'
 PTIME: 'Time set on §a%s'
 PTIME_CLEAR: 'Time reseted'
 
-REPAIR_DELAY: '§cRepair items may once per 25 minutes, time left %s'
 REPAIR_ALREADY: "§cItem isn't damaged"
 REPAIR: 'Item repaired'
 REPAIR_ERROR: "§cThis item doesn't belong to repair"
 
-BACK_DELAY: '§cBack to death point may once per 8 minutes, time left %s'
 BACK: 'You were teleported to death point'
 BACK_ERROR: '§cYour past past location not found'
 BACK_START: 'Teleportortation started, you will be teleported in §a5 §fseconds'
@@ -2015,7 +2010,6 @@ TP_FORMAT: '/tp <name>'
 TELEPORT: 'You were teleported to - %s'
 TELEPORT_TO: 'You teleported %s§f to player - %s'
 
-HOME_DELAY: '§cTeleport to bed may once per 5 minutes, time left %s'
 HOME: 'Teleportation..'
 HOME_START: 'Teleportation started, you will be teleported in §a5 §fseconds'
 HOME_ALREADY: '§cTeleportation is already running'
@@ -2030,10 +2024,8 @@ KIT_GET: 'You got kit %s'
 PWEATHER_STORM: 'rainy'
 PWEATHER_CLEAR: 'sunny'
 PWEATHER_FORMAT: '/pweather <storm/sun/clear>'
-PWEATHER_DELAY: '§cChange weather may once per 5 minutes, time left %s'
 PWEATHER: 'Weather set to §a%s'
 
-SUICIDE_DELAY: '§cSuicide may once per 10 minutes, time left %s'
 SUICIDE: 'You suicided'
 SUICIDE_ALERT: '%s §fsuicided'
 
@@ -2042,7 +2034,6 @@ SETWARP_DEVELOPED: '§cCommand is in development'
 
 ENDERCHEST_DELAY: '§cOpen enderchest, may once per 6 minutes, time left %s'
 
-RTP_DELAY: '§cTeleport randomly may once per 3 minutes, time left %s'
 RTP: 'You teleported to random place: X: %s, Y: %s, Z: %s'
 RTP_START: 'Teleportation started, you will be teleported in §a5 §fseconds'
 RTP_ALREADY: '§cTeleportation is already running'
@@ -2050,11 +2041,9 @@ RTP_CANCEL: '§cYou moved, teleportation cancel'
 
 ANVIL_DELAY: '§cOpen anvil may once per 4 minutes, time left %s'
 
-FLY_DELAY: '§cПодождите еще %s чтобы использовать полет'
 FLY_INFO: '§f[§cServer§f] §fПолет будет отключен через §a%s'
 FLY_END: '§f[§cServer§f] §fВремя полета кончилось'
 
-CREATIVE_DELAY: '§cПодождите еще %s чтобы использовать творческий режим'
 CREATIVE_INFO: '§f[§cServer§f] §fПолет будет отключен через §a%s'
 CREATIVE_END: '§f[§cServer§f] §fВремя творческого режима кончилось'
 
