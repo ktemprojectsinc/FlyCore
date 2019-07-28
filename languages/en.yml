@@ -1870,6 +1870,7 @@ SKIN_CLEAR: '§f[§cSkins§f] §fYou reseting your skin'
 SKIN_SET: '§f[§cSkins§f] §fYou set skin to §a%s'
 SKIN_NOT_PREMIUM: '§f[§cSkins§f] §cError, %s do not have licenses'
 SKIN_ERROR: '§f[§cSkins§f] §cВо время установки скина произошла ошибка, попробуйте позже'
+SKIN_ERROR_MOJANG: '§f[§cSkins§f] §cОшибка скин не установлен, подождите несколько секунд пока mojang разрешит снова получить текстуры'
 
 SERVER_DENIED: '§f[§cServer§f] §fThis server is blocked to teleportation'
 SERVER_NOT_FOUND: '§cError, specified server not found'
