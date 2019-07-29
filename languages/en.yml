@@ -3653,8 +3653,6 @@ GUI_FRIENDS_LORE:
 - ''
 - '§7Friend info:'
 - '§8▪ §7Level: §d%s'
-- '§8▪ §7Coins: §6%s'
-- '§8▪ §7Golds: §e%s'
 - '§8▪ §7Version: §3%s'
 GUI_FRIENDS_ONLINE_LORE:
 - ''
