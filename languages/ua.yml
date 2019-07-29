@@ -3423,6 +3423,9 @@ GUI_SETTING_MUSIC_LORE:
 - '§7Позволяет включить или выключить'
 - '§7музыку в лобби ожидания'
 - '§7до старта игры'
+GUI_SETTINGS_GLOWING_LORE:
+- '§7Позволяет включить или выключить'
+- '§7подсветку своего "скина" в лобби'
 GUI_SETTING_SCOREBOARD_LORE:
 - '§7Позволяет включить или выключить'
 - '§7отображение скорбордов справа'
@@ -3468,6 +3471,7 @@ GUI_SETTING_BLOOD: 'Кровь'
 GUI_SETTING_HIDE: 'Скрытие игроков'
 GUI_SETTING_CHAT: 'Чат'
 GUI_SETTING_MUSIC: 'Музыка'
+GUI_SETTINGS_GLOWING: 'Подсветка'
 GUI_SETTING_SCOREBOARD: 'Скорборд'
 GUI_SETTING_MAIL: 'Mail сообщения'
 GUI_SETTING_MSG: 'Личные сообщения'
