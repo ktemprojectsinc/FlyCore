@@ -375,16 +375,6 @@ SITESHOP_DONATKEY: 'Донатный ключ'
 
 PERSONALUP_CONFIRM: '§cПодтвердите свой ключ /personalup <ключ>'
 
-SERVER_LINKS:
-- '§7Адрес сервера: §eflycore.ru'
-- ''
-- '§7Группа Вконтакте: §fvk.com/flycore'
-- ''
-- '§7Сайт: §fflycore.ru'
-- '§7Форум: §fforum.flycore.ru'
-- ''
-- '§7Почта: §dktemprojects@mail.ru'
-
 REWARDS_1: '§fВы получили §b%s§f %s:'
 REWARDS_2: '§7+§6%s§f %s'
 REWARDS_3: '§7+§a%s§f опыта'
