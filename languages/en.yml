@@ -1264,8 +1264,10 @@ NEW_LVL: '§fYou received §d%s§f level!'
 EXP_TO_NEW_LVL: '§fTo the next level you need §a%s§f exp more'
 GET_REWARD: '§7Go to the profile to get your reward'
 LEVEL_COMMAND:
+- ''
 - '§f[§cLevel§f] §fYou have §d%s§f level'
 - '§f[§cLevel§f] §fTo the next level you need §a%s§f exp more'
+- '§r'
 
 BOX_NO_KEY: '§f[§cLuckyChest§f] §cYou have not keys'
 BOX_WORK: '§f[§cLuckyChest§f] §cWait... Chest scrolls!'
