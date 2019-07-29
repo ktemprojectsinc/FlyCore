@@ -2517,10 +2517,10 @@ PROFILE_LANG_ITEM_LORE1:
 - ''
 - '§7Currently available:'
 PROFILE_LANG_ITEM_LORE2:
-#- ''
-#- '§cWARNING! If you want to help'
-#- '§cwith transation, you can write'
-#- '§cerrors on link goo-gl.ru/4Rqm'
+- ''
+- '§cWARNING! If you want to help'
+- '§cwith transation, you can write'
+- '§cerrors on link flycore.ru/lang'
 - ''
 - '§a▸ Open the language menu'
 GUI_PROFILE_ITEMS_LORE:
