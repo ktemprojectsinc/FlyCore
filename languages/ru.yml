@@ -1283,7 +1283,8 @@ BOX_BOOSTER_ALREADY: '§f[§cLuckyChest§f] §fУ Вас уже активиро
 TESTERCHAT_MSG: '§6Чат тестеров §8| %s'
 STAFFCHAT_MSG: '§eЧат персонала §8| %s'
 DONATECHAT_MSG: '§cЧат донатеров §8| %s'
-STAFFCHAT_MARKIS_MSG: '§eЧат персонала §8| %s §d✎ §f%s'
+STAFFCHAT_MARKIS_MSG: '§eЧат персонала §8| §f%s §d✎ %s'
+DONATECHAT_MARKIS_MSG: '§cЧат донатеров §8| §f%s §d✎ %s'
 
 SERVER_DISABLE_BROADCAST: '§f[§cServer§f] %s§f отключил сервер ▬ §a%s'
 SERVER_RELOAD_BROADCAST: '§f[§cServer§f] %s§f перезагрузил сервер ▬ §a%s'
