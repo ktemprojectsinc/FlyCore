@@ -3412,6 +3412,9 @@ GUI_SETTING_MUSIC_LORE:
 - '§7Allows to enable or disable'
 - '§7music in the waiting lobby'
 - '§7before game start'
+GUI_SETTINGS_GLOWING_LORE:
+- '§7Allows to enable or disable'
+- '§7highlight your "skin" to lobby'
 GUI_SETTING_SCOREBOARD_LORE:
 - '§7Allows to enable or disable'
 - '§7displaying scoreboards right'
@@ -3456,6 +3459,7 @@ GUI_SETTING_BLOOD: 'Blood'
 GUI_SETTING_HIDE: 'Hide player'
 GUI_SETTING_CHAT: 'Chat'
 GUI_SETTING_MUSIC: 'Music'
+GUI_SETTINGS_GLOWING: 'Glowing'
 GUI_SETTING_SCOREBOARD: 'Scoreboard'
 GUI_SETTING_MAIL: 'Mail messages'
 GUI_SETTING_MSG: 'Private messages'
