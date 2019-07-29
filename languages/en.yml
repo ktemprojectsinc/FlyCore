@@ -1296,10 +1296,11 @@ BOX_BANNER_ALREADY: '§f[§cLuckyChest§f] §fYou has already this banner, You g
 BOX_STATS_ALREADY: '§f[§cLuckyChest§f] §fYou has already this stats, You got §e+%s §f%s'
 BOX_BOOSTER_ALREADY: '§f[§cLuckyChest§f] §fYou has already activated this booster, You got §6+%s §f%s'
 
-STAFFCHAT_MSG: '§eStaffchat §8| %s'
+STAFFCHAT_MSG: '§eStaff chat §8| %s'
 TESTERCHAT_MSG: '§6Testers chat §8| %s'
 DONATECHAT_MSG: '§cDonate chat §8| %s'
-STAFFCHAT_MARKIS_MSG: '§eStaffchat §8| §f%s §d✎ §f%s'
+STAFFCHAT_MARKIS_MSG: '§eStaff chat §8| §f%s §d✎ %s'
+DONATECHAT_MARKIS_MSG: '§cDonate chat §8| §f%s §d✎ %s'
 
 SERVER_DISABLE_BROADCAST: '§f[§cServer§f] %s§f отключил сервер ▬ §a%s'
 SERVER_RELOAD_BROADCAST: '§f[§cServer§f] %s§f перезагрузил сервер ▬ §a%s'
