@@ -1249,7 +1249,7 @@ LEVEL_COMMAND:
 - ''
 - '§f[§cLevel§f] §fУ вас §d%s§f уровень'
 - '§f[§cLevel§f] §fДо следующего уровня необходимо набрать §a%s§f опыта'
-- ''
+- '§r'
 
 BOX_NO_KEY: '§f[§cLuckyChest§f] §cУ вас нет ключей'
 BOX_WORK: '§f[§cLuckyChest§f] §cПодождите... Сундук прокручивается!'
