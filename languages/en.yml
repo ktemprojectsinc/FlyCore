@@ -397,16 +397,6 @@ SITESHOP_DONATKEY: 'Donate key'
 
 PERSONALUP_CONFIRM: '§cConfirm your key /personalup <key>'
 
-SERVER_LINKS:
-- '§7Server address: §eflycore.ru'
-- ''
-- '§7VK Group: §fvk.com/flycore'
-- ''
-- '§7Site: §fflycore.ru'
-- '§7Forum: §fforum.flycore.ru'
-- ''
-- '§7Email: §dktemprojects@mail.ru'
-
 REWARDS_1: '§fYou got §b%s§f %s:'
 REWARDS_2: '§7+§6%s§f %s'
 REWARDS_3: '§7+§a%s§f EXP'
