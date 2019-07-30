@@ -719,7 +719,7 @@ VERIFY_UPDATED_BROADCAST: '§f[§cVerify§f] %s§f updated dats his session'
 VERIFY_ERROR_BROADCAST: '§f[§cVerify§f] %s§c written wrong code'
 VERIFY_BLOCKED_BROADCAST: '§f[§cVerify§f] %s§4 was blocked'
 VERIFY_REMOVED_BROADCAST: '§f[§cVerify§f] %s§f removed data his session'
-VERIFY_NOT_ENABLED: '§f[§cVerify§f] §cДля вас недоступна данная аунтефикация'
+VERIFY_NOT_ENABLE: '§f[§cVerify§f] §cДля вас недоступна данная аунтефикация'
 
 NO_PERMS: '§cYou do not have permissions'
 NO_PERMS_GROUP: '§cYou do not have permissions, buy %s§c or higher'
