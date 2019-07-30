@@ -652,7 +652,7 @@ VERIFY_UPDATED_BROADCAST: '§f[§cVerify§f] %s§f обновил данные �
 VERIFY_ERROR_BROADCAST: '§f[§cVerify§f] %s§c ввел неверный код'
 VERIFY_BLOCKED_BROADCAST: '§f[§cVerify§f] %s§4 был заблокирован'
 VERIFY_REMOVED_BROADCAST: '§f[§cVerify§f] %s§f удалил данные своей сессии'
-VERIFY_NOT_ENABLED: '§f[§cVerify§f] §cДля вас недоступна данная аунтефикация'
+VERIFY_NOT_ENABLE: '§f[§cVerify§f] §cДля вас недоступна данная аунтефикация'
 
 NO_PERMS: '§cУ вас нет прав'
 NO_PERMS_GROUP: '§cУ вас нет прав, купите %s§c или выше'
