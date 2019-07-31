@@ -2097,7 +2097,9 @@ PARKOUR_MODULE_NO: '§f[§cParkour§f] §cВы не прошли через мо
 NO_PERMISSION_STATS: '§cОшибка, просматривать статистику других игроков может только %s§c и выше'
 STAFFCHAT_ENABLED: '§f[§cModeration§f] §f%s §fснова видит чат персонала'
 STAFFCHAT_DISABLED: '§f[§cModeration§f] §f%s §fтеперь не видит чат персонала'
-YOU_DISABLED_STAFFCHAT: '§cВы отключили чат персонала. Чтобы писать в него, нажмите на листок в лобби в инвентаре'
+YOU_DISABLED_STAFFCHAT: '§cВы отключили чат персонала. Чтобы писать в него, напишите /sc toggle'
+DONATECHAT_ENABLED: '§aВы снова видите донат-чат'
+DONATECHAT_DISABLED: '§cВы отключили донат-чат. Чтобы писать в него, напишите /dc toggle'
 
 CORE_NOTIFY_ENABLED: '§f[§cModeration§f] %s§f снова видит уведомления ядра'
 CORE_NOTIFY_DISABLED: '§f[§cModeration§f] %s§f теперь не видит уведомления ядра'
