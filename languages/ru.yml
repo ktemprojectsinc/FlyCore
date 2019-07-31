@@ -3588,7 +3588,7 @@ GUI_DONATEMENU_FASTMESSAGES_LORE:
 - '§7Для быстрого открытия меню используйте'
 - '§7команду §c/fm§7 или §c/fastmessage'
 - ''
-- '§7Доступно для §a§lDIAMOND§7 и выше'
+- '§7Доступно для §b§lDIAMOND§7 и выше'
 - ''
 - '§a▸ Нажмите, чтобы открыть меню'
 GUI_DONATEMENU_PREFIX_LORE:
