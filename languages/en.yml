@@ -55,7 +55,7 @@ CONVERT_AVAILABLE: '§cError, available currencies: golds'
 
 CORE_PROXY_CONNECTED: '§cCore §8| §7Proxy §a%s§a success§7 connected from address §e%s'
 CORE_PROXY_CONNECTION_CLOSED: '§cCore §8| §7Proxy §a%s§c disconnected§7, of reason: §a%s'
-CORE_SERVER_CONNECTED: '§cCore §8| §fServer §a%s§7 connected from addres §e%s'
+CORE_SERVER_CONNECTED: '§cCore §8| §7Server §a%s§7 connected from addres §e%s'
 CORE_SERVER_CONNECTION_CLOSED: '§cCore §8| §7Server §a%s§c disconnected§7 of reason §a%s'
 PROXY_COMMAND: '§cProxy §8| §fReceived command §a%s'
 CORE_HANDSHAKE_WRONG_OF_HOST: 'wrong host'
