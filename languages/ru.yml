@@ -457,8 +457,9 @@ MAIL_JOIN_REQUESTS: '§aПочта §8| §fУ вас §e%s §fнепрочита
 MAIL_JOIN_HOVER: "§fНажмите сюда,\n§fчтобы открыть список писем"
 
 #§7Наш Discord: §6discord.gg/
-MSG_TITLE: ''
-MSG_SUBTITLE: '§7Группа: §cvk.com/flycore'
+MSG_TITLE: '§6§lhttp://flycore.ru/'
+MSG_SUBTITLE: '§fпромокод §adesign§f на скидку §c35%'
+#§7Группа: §cvk.com/flycore
 
 #Ru items
 ITEM_EXIT_NAME: '§aНазад в главное лобби'
