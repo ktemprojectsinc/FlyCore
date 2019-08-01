@@ -815,9 +815,9 @@ SPYCMD_ON: '§aSpyCommands §8| §fNow you are spying for commands'
 SPYCMD_OFF: '§aSpyCommands §8| §fYou are no longer spying for commands'
 SPYCMD_ALREADY: '§aSpyCommands §8| §cSpying is already enabled'
 SPYCMD_ALREADY_DISABLE: '§aSpyCommands §8| §cSpying is already disabled'
-SPYCMD_FORMAT: '§f[§cCmd§f] %s§8 » §b%s'
+SPYCMD_FORMAT: '§aCmd %s§8 » §b%s'
 
-SPYCMD_HELP:
+SPYCHAT_HELP:
  - '§7/spychat on §f- enable chat spying'
  - '§7/spychat off §f- disable spying'
 SPYCHAT_ON: '§aSpyChat §8| §fNow you are spying for chat'
@@ -1265,8 +1265,8 @@ EXP_TO_NEW_LVL: '§fTo the next level you need §a%s§f exp more'
 GET_REWARD: '§7Go to the profile to get your reward'
 LEVEL_COMMAND:
 - ''
-- '§f[§cLevel§f] §fYou have §d%s§f level'
-- '§f[§cLevel§f] §fTo the next level you need §a%s§f exp more'
+- '§aLevel §8| §fYou have §d%s§f level'
+- '§aLevel §8| §fTo the next level you need §a%s§f exp more'
 - '§r'
 
 BOX_NO_KEY: '§bLuckyChest §cYou have not keys'
@@ -2237,12 +2237,12 @@ TFA_CONFIRM: '§fAuthentication is successful! Have a good game :)'
 VK_INFO: "§c⚠ Warning! §fУ вас еще активирована §cтрех-факторная авторизация§f, сделайте это прямо сейчас - §fнапишите в сообщения группы §cvk.me/flycore§f слово ''§eПривязать§f''"
 VK_LOGIN_TITLE: '§a§l§nFlyCore.ru'
 VK_LOGIN_SUBTITLE: '§7Для продолжения подтвердите аккаунт'
-VK_LOGIN_INFO: '§f[§cVK§f] §fНа ваш вконтакте отправлено сообщение с кодом. Введите его в чат для продолжения'
+VK_LOGIN_INFO: '§aVK §8| §fНа ваш вконтакте отправлено сообщение с кодом. Введите его в чат для продолжения'
 VK_WRONG: '§cОшибка, неверный код'
 VK_CONFIRM: '§fПодтверждение успешно! Приятной игры :)'
 FORUM_NOT_MAIL: '§cError, to your accoint not snap email. To snap mail to your account, Write /email add <email> <repeat email>'
 FORUM_ACCOUNT_REGISTRED:
-- '§f[§cForum§f] §fYou account was registered on forum!'
+- '§aForum §8| §fYou account was registered on forum!'
 - '§7• §fName: §a%s'
 - '§7• §fLogin: §a%s'
 - '§7• §fPassword: §a%s'
