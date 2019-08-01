@@ -2186,7 +2186,6 @@ AUTH_CHANGEPASSWORD_LONG: '§cThis password is short or very long'
 AUTH_CHANGEPASSWORD_INCORRECT: '§cError, password contains prohibited symbols'
 AUTH_CHANGEPASSWORD: '§eYou password was successfully changed'
 EMAIL_COMMAND_HELP:
-- '§f[§cEmail§f] §fCommands list:'
 - '§c/email add <your email> <again> §f- snap email to the your account'
 - '§c/email change <old email> <new email> §f- Change email on your account'
 - '§c/email recovery <your email> §f- Send on the email setting password'
