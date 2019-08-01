@@ -795,7 +795,7 @@ DEVELOPER_SENT:
 - '§aServer §8| §fYour message was send to server developer,'
 - "§f If developer didn't answered it during one 1-2 days,"
 - '§f You also may write message to developer group,'
-- '§f to link: §5vk.me/flycore§f, or forum a theme name,'
+- '§f to link: §5vk.me/ktem_projects§f, or forum a theme name,'
 - '§f "§eMessage for developer§f".'
 - ''
 - '§f Also if want, sent message for server group §bvk.com/flycore'
@@ -2235,7 +2235,7 @@ TFA_FORMAT: '/tfa <api-key>'
 TFA_WRONG: '§cError, invalid key'
 TFA_CONFIRM: '§fAuthentication is successful! Have a good game :)'
 VK_INFO: "§c⚠ Warning! §fУ вас еще активирована §cтрех-факторная авторизация§f, сделайте это прямо сейчас - §fнапишите в сообщения группы §cvk.me/flycore§f слово ''§eПривязать§f''"
-VK_LOGIN_TITLE: '§e§l§nFlyCore.ru'
+VK_LOGIN_TITLE: '§a§l§nFlyCore.ru'
 VK_LOGIN_SUBTITLE: '§7Для продолжения подтвердите аккаунт'
 VK_LOGIN_INFO: '§f[§cVK§f] §fНа ваш вконтакте отправлено сообщение с кодом. Введите его в чат для продолжения'
 VK_WRONG: '§cОшибка, неверный код'
