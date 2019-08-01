@@ -2096,8 +2096,8 @@ PARKOUR_MODULE_NO: "§aParkour §8| §cYou didn't pass the modeule"
 
 NO_PERMISSION_STATS: '§cError, view statistic other players can only %s§c or higher'
 
-STAFFCHAT_ENABLED: '§cModeration §8| %s§f now sees staff chat'
-STAFFCHAT_DISABLED: '§cModeration §8| %s§f is no longer see staff chat'
+STAFFCHAT_ENABLED: '§cModeration §8| %s§7 now sees staff chat'
+STAFFCHAT_DISABLED: '§cModeration §8| %s§7 is no longer see staff chat'
 YOU_ENABLED_STAFFCHAT: '§aВы снова видите чат персонала'
 YOU_DISABLED_STAFFCHAT: '§cYou disabling staff chat. Чтобы писать в него, напишите /sc toggle'
 DONATECHAT_ENABLED: '§aВы снова видите донат-чат'
