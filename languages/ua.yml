@@ -454,7 +454,7 @@ FRIEND_JOIN_ONLINE: '§aДрузья §8| §fВ онлайне §a%s§f %s'
 FRIEND_JOIN_REQUESTS: '§aДрузья §8| §fУ вас §e%s §fнепринятых заявок в друзья'
 PARTY_JOIN_REQUESTS: '§aParty §8| §fУ вас §e%s §fнепринятых заявок в party'
 GUILD_JOIN_REQUESTS: '§aГильдии §8| §fУ вас §e%s §fнепринятых заявок в гильдии'
-MAIL_JOIN_REQUESTS: '§f[§cMail§f] §fУ вас §e%s §fнепрочитаных писем §7(Нажмите сюда)'
+MAIL_JOIN_REQUESTS: '§aMail §8| §fУ вас §e%s §fнепрочитаных писем §7(Нажмите сюда)'
 MAIL_JOIN_HOVER: "§fНажмите сюда,\n§fчтобы открыть список писем"
 
 #§7Наш Discord: §6discord.gg/
