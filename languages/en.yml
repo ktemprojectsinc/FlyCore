@@ -1566,7 +1566,7 @@ PERSONALUP_KEY_REASON: '§4Error #23 §cWritten no valid key.'
 
 DISABLE_COMMAND_IN_GAME: '%s§cThis feature is disabled'
 
-BAN_INFO_NO: '§cPlayer %s not punishment'
+BANINFO_NO: '§cPlayer %s not punishment'
 BAN_NAME_1: 'Blocked chat'
 BAN_NAME_2: 'Blocked chat'
 BAN_NAME_3: 'Blocked'
