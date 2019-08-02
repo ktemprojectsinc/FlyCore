@@ -1213,14 +1213,14 @@ PARTY_ACCEPT_CREATE: '§aParty §8| §fYou created new group with player %s'
 PARTY_ACCEPT_ME: "§cError, You can't invite yourself to the group"
 
 FRIEND_COMMAND_HELP:
-- '§c/f add <player name> §f- add player to friends list'
-- '§c/f remove <friend name> §f- remove player from friends list'
-- '§c/f accept <player name> §f- accept friend request from player'
-- '§c/f reject <player name> §f- decline friend request from player'
-- '§c/f requests §f- friend request list'
-- '§c/f list §f- friend list'
-- '§c/fchat <message> §f- send message for online all friends'
-- '§c/f tp <friend name> §f- teleport to your friend server'
+- '§7/f add <player name> §f- add player to friends list'
+- '§7/f remove <friend name> §f- remove player from friends list'
+- '§7/f accept <player name> §f- accept friend request from player'
+- '§7/f reject <player name> §f- decline friend request from player'
+- '§7/f requests §f- friend request list'
+- '§7/f list §f- friend list'
+- '§7/fchat <message> §f- send message for online all friends'
+- '§7/f tp <friend name> §f- teleport to your friend server'
 FRIEND_NO_FRIENDS: "§cYou haven't got friends"
 FRIEND_NOTFRI: "§cPlayer %s§c isn't your friend"
 FRIEND_ALREADY: '§cYou are already friends'
