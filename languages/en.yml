@@ -234,6 +234,10 @@ ITEMS_REMOVE_ITEM: '§aItems §8| §fYour removed item %s'
 ITEMS_ADD_STATS: '§aItems §8| §fYou get stats %s'
 ITEMS_ADD_DONATE: '§aItems §8| §fYou get privilege %s'
 
+HOVER_MESSAGE_CHAT:
+- '§fНажмите сюда, чтобы написать'
+- '§fигроку %s§f в лс'
+
 COINS_ADD: '§6+%s'
 KEY_ADD: '§d+%s'
 XP_ADD: '§a+%s XP'
