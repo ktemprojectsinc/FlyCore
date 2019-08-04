@@ -9,6 +9,8 @@ DISABLED: '§cDisabled'
 ENABLE: '§aEnable'
 DISABLE: '§cDisable'
 
+PROMO_ITEM_NAME: '§aDISCOUNT!'
+
 BANINFO_BY_ANOTHER: '§7[By request %s§7]'
 
 NOOBIK_NOOB4IK:
