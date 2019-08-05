@@ -3592,6 +3592,7 @@ GUI_DONATEMENU_FASTMESSAGES_LORE:
 GUI_DONATEMENU_PREFIX_LORE:
 - '§7Смена цвета префикса'
 - ''
+- '§7Текущий цвет: %s'
 - '§7Текущий префикс: %s'
 - ''
 - '§7Доступно только для §5§lENDERMAN'
@@ -4589,6 +4590,7 @@ GUI_PREFIX_SELECT_LORE:
 - '§e▸ Нажмите, чтобы установить префикс'
 GUI_PREFIX_UNAVAILABLE_LORE:
 - '§7Сменить префикс на: %s'
+PREFIX_NOT_SELECT: '§cПрефикс не выбран'
 COLOR_GRAY: '§7Серый'
 COLOR_YELLOW: '§eЖелтый'
 COLOR_AQUA: '§bМорской'
