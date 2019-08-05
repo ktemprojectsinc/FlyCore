@@ -4506,6 +4506,7 @@ GUI_PREFIX_SELECT_LORE:
 - '§e▸ Click, to set prefix'
 GUI_PREFIX_UNAVAILABLE_LORE:
 - '§7Change prefix to: %s'
+PREFIX_NOT_SELECT: '§cPrefix not selected'
 COLOR_GRAY: '§7Gray'
 COLOR_YELLOW: '§eYellow'
 COLOR_AQUA: '§bAqua'
@@ -4522,7 +4523,7 @@ COLOR_WHITE: '§fWhite'
 COLOR_DARK_RED: '§4Dark red'
 COLOR_DARK_GRAY: '§8Dark gray'
 COLOR_BLACK: '§0Black'
-COLOR_NULl: 'Unknown'
+COLOR_ERROR: 'Unknown'
 
 GUI_ARROWEFFECTS_NAME: 'Profile ▸ Cosmetics ▸ Arrows'
 GUI_ARROWEFFECTS_MUSIC: 'Звуковой путь'
