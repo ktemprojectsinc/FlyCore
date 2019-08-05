@@ -3532,6 +3532,7 @@ GUI_DONATEMENU_FASTMESSAGES_LORE:
 GUI_DONATEMENU_PREFIX_LORE:
 - '§7Changing color of the prefix'
 - ''
+- '§7Current color: %s'
 - '§7Current prefix: %s'
 - ''
 - '§7Only available for §5§lENDERMAN'
