@@ -2260,35 +2260,38 @@ FORUM_ACCOUNT_ALREADY: '§cError, forum account already snap, authorization to f
 
 BOSS_BAR_LOBBY:
 - "§bINSTANT §fCHANGE §dSKIN'S§f COMMAND §7► §5/skin"
-- '§fCRUSHING §cPRICE §fCOLLAPSE! ALL PRICES WERE §aREDUCED §fBY §615%'
+#- '§fCRUSHING §cPRICE §fCOLLAPSE! ALL PRICES WERE §aREDUCED §fBY §615%'
 - '§fPURCHASE§e OF DONAT §fON THE SITE §7► §c§lFLYCORE.RU'
 #- '§c§lNEW! §fNEW MODE OPEN §6§lCREATIVE§f!'
+- '§fВ ЧЕСТЬ §3НОВОГО ДИЗАЙНА§f КУПОН §a§lDESIGN§f НА СКИДКУ §c35§f%!'
 - '§fREPORT ABOUT§c BAGUE§f OR§c ERRORS §7► §c§lFLYCORE.RU/BUGS'
 #- '§c§lNEW! §fOPENING NEW MODE §6§lPARKOUR§f!'
 - '§fASK YOUR QUESTION §cADMINISTRATIONS§f COMMAND §7► §d/ASK'
+- '§fHELP THE SERVER §bIMPROVE §fLOCALIZATION §7► §6§lFLYCORE.RU/lang'
 
 MESSAGES_BROADCAST:
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fAll arenas §ccrowded§f, not enough slots?\n§fPurchase §e§lGOLD§f on site §dflycore.ru\n§fand this problem will be solved\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fPurchase §e§lGOLD§f by very §dattractive§f price\n§fAlready with her you will get a decent amount §eof opportunities\n§fthat will make your game §amore interesting\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fPrivilege §b§lDIAMOND§f gives more\n§fquantity §bbonuses§f and §eof opportunities§f for a reasonable price.\n§fInterested? Buying on site §dflycore.ru\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fTo play with friends\n§fjust write a command §c/party <nick>\n§fAnd all players will be moved behind the leader\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fThere are many different §epossibilities§f on the server\n§fand §dbonuses§f access to which only donators have,\n§finformation about donate §c/donate\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§5§lENDERMAN§f - best server privilege,\n§fcombines the maximum amount\n§efeatures§f and §dbonuses§f for a comfortable game\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§f§b§lDIAMOND§f - most popular privilege\n§fwhich combines §abest price§f and\n§efeatures§f, buying on site §dflycore.ru\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fYou already bought §edonat§f, now you want a §bhigher§f status?\n§COnly here§f you can purchase a new one\n§fprivilege with surcharge on the site §dflycore.ru\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fIf you saw §cthe intruder§f or §ccheater§f, that\n§fUse the command §c/report <nick>\n§fand your §ecomplaint§f complaint will be reviewed in real time\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§C⚠ Warning §fWant to change the skin?\n§fFor all players available\n§fcommand §c/skin <nickname of player with skin>\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fYou rec §cletsplay§f, §coverview§f, love §cstream\n§fwith friends? Privilege §6§lYouTube§f specially for you!\n§fInterested? Buying on site §dflycore.ru\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fWant to §asecure§f your account?\n§fThen tie it to your mail\n§fcommand §c/email add <mail> <repeat mail>\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fAppeared §eare questions§f, to which you §cdo not know the answer?\n§fWrite a team §c/ask <your question>\n§aOnline administration§f will help you §bin real time\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fWant §dunique§f, hidden §afeatures§f and §acapabilities§f?\n§fBuy Donat from us and get access to\n§fdonat-menu command §c/donatemenu\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fYou have §cproblems§f or you have found some §cbug§f?\n§fWrite to us in the group §bvk.com/flycore\n§fand you §awill be§f answered soon\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fVisit our group §9VK§f and you will always\n§fin the latest news §eserver\n§fFollow the link §bvk.com/flycore\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fWant to discuss your §awin§f or challenge the §closs§f,\n§for maybe you want to find new §efriends§f?\n§fCome to our forum §dforum.flycore.ru\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fAppeared §eare questions§f, to which you §cdo not know the answer?\n§fWrite a team §c/ask <your question>\n§aOnline administration§f will help you §bin real time\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§f§b§lDIAMOND§f - most popular privilege\n§fwhich combines §abest price§f and\n§efeatures§f, buying on site §dflycore.ru\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fIf you saw §cthe intruder§f or §ccheater§f, that\n§fUse the command §c/report <nick>\n§fand your §ecomplaint§f complaint will be reviewed in real time\n"
-- "\n§e§l§nFlyCore§7 - §d§lInfo\n§fVisit our group §9VK§f and you will always\n§fin the latest news §eserver\n§fFollow the link §bvk.com/flycore\n"
+- "\n\n§8 | §fAll arenas §ccrowded§f, not enough slots?\n§8 | §fPurchase §e§lGOLD§f on site §dflycore.ru\n§8 | §fand this problem will be solved\n"
+- "\n\n§8 | §fPurchase §e§lGOLD§f by very §dattractive§f price\n§8 | §fAlready with her you will get a decent amount §eof opportunities\n§8 | §fthat will make your game §amore interesting\n"
+- "\n\n§8 | §fPrivilege §b§lDIAMOND§f gives more\n§8 | §fquantity §bbonuses§f and §eof opportunities§f for a reasonable price.\n§8 | §fInterested? Buying on site §dflycore.ru\n"
+- "\n\n§8 | §fTo play with friends\n§8 | §fjust write a command §c/party <nick>\n§8 | §fAnd all players will be moved behind the leader\n"
+- "\n\n§8 | §fThere are many different §epossibilities§f on the server\n§8 | §fand §dbonuses§f access to which only donators have,\n§8 | §finformation about donate §c/donate\n"
+- "\n\n§8 | §5§lENDERMAN§f - best server privilege,\n§8 | §fcombines the maximum amount\n§8 | §efeatures§f and §dbonuses§f for a comfortable game\n"
+- "\n\n§8 | §f§b§lDIAMOND§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dflycore.ru\n"
+- "\n\n§8 | §fYou already bought §edonat§f, now you want a §bhigher§f status?\n§8 | §COnly here§f you can purchase a new one\n§8 | §fprivilege with surcharge on the site §dflycore.ru\n"
+- "\n\n§8 | §fIf you saw §cthe intruder§f or §ccheater§f, that\n§8 | §fUse the command §c/report <nick>\n§8 | §fand your §ecomplaint§f complaint will be reviewed in real time\n"
+- "\n\n§8 | §C⚠ Warning §fWant to change the skin?\n§8 | §fFor all players available\n§8 | §fcommand §c/skin <nickname of player with skin>\n"
+- "\n\n§8 | §fYou rec §cletsplay§f, §coverview§f, love §cstream\n§8 | §fwith friends? Privilege §6§lYouTube§f specially for you!\n§8 | §fInterested? Buying on site §dflycore.ru\n"
+- "\n\n§8 | §fWant to §asecure§f your account?\n§8 | §fThen tie it to your mail\n§8 | §fcommand §c/email add <mail> <repeat mail>\n"
+- "\n\n§8 | §fAppeared §eare questions§f, to which you §cdo not know the answer?\n§8 | §fWrite a team §c/ask <your question>\n§8 | §aOnline administration§f will help you §bin real time\n"
+- "\n\n§8 | §fWant §dunique§f, hidden §afeatures§f and §acapabilities§f?\n§8 | §fBuy Donat from us and get access to\n§8 | §fdonat-menu command §c/donatemenu\n"
+- "\n\n§8 | §fYou have §cproblems§f or you have found some §cbug§f?\n§8 | §fWrite to us in the group §bvk.com/flycore\n§8 | §fand you §awill be§f answered soon\n"
+- "\n\n§8 | §fVisit our group §9VK§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore\n"
+- "\n\n§8 | §fWant to discuss your §awin§f or challenge the §closs§f,\n§8 | §for maybe you want to find new §efriends§f?\n§8 | §fCome to our forum §dforum.flycore.ru\n"
+- "\n\n§8 | §fAppeared §eare questions§f, to which you §cdo not know the answer?\n§8 | §fWrite a team §c/ask <your question>\n§8 | §aOnline administration§f will help you §bin real time\n"
+- "\n\n§8 | §f§b§lDIAMOND§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dflycore.ru\n"
+- "\n\n§8 | §fIf you saw §cthe intruder§f or §ccheater§f, that\n§8 | §fUse the command §c/report <nick>\n§8 | §fand your §ecomplaint§f complaint will be reviewed in real time\n"
+- "\n\n§8 | §fVisit our group §9VK§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore\n"
+- "\n\n§8 | §fVisit our group §5Group development§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore_dev\n"
 MESSAGES_HOVER_BROADCAST:
 - "§fClick here to\n§ffollowing the link"
 - "§fClick here to\n§ffollowing the link"
@@ -2310,6 +2313,7 @@ MESSAGES_HOVER_BROADCAST:
 - "§fClick here"
 - "§fClick here to\n§ffollowing the link"
 - "§fClick here"
+- "§fClick here to\n§ffollowing the link"
 - "§fClick here to\n§ffollowing the link"
 
 ECONOMY_MONEY_CHANGE_BROADCAST: '§aEconomy §8| %s§7 начислил на аккаунт %s§7 - §6Монеты §f(§a+%s§f)'
