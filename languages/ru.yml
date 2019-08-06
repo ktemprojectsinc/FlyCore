@@ -2131,7 +2131,7 @@ HIDE_INFO: '§4§lВнимание! §cУ вас включено скрытие
 YOUTUBE_NOT_FOUND: '§aYouTube §8| §fСейчас у вас нет ссылки, добавьте её §c/yt addlink <ссылка на канал>'
 YOUTUBE_INFO: '§6§lYouTube §fканал » §3§l%s'
 
-JOIN_TO_LOBBY: ' §e▸ %s §6%s на сервер'
+JOIN_TO_LOBBY: ' §a▸ %s §6%s на сервер'
 
 VERIFY_CONFIRM: '§aВерификация §8| §fДанные совпадают, сессия восстановлена'
 VERIFY_CONFIRM_BROADCAST: '§cВерификация §8| §7Сессия %s§7 восстановлена'
