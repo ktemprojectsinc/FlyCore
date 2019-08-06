@@ -4536,7 +4536,7 @@ GUI_ARROWEFFECTS_MUSIC_LORE:
 GUI_EFFECTS_TYPE_EFFECT: 'effect'
 GUI_EFFECTS_TYPE_SOUND: 'sound'
 GUI_EFFECTS_ACTIVATE: '§e▸ Click, to activate'
-GUI_EFFECTS_SELECTED: '§e▸ Activate'
+GUI_EFFECTS_SELECTED: '§a▸ Activated'
 GUI_EFFECTS_UNAVAILABLE_LORE:
 - '§cFor buying this item, your need level §d%s§c or higher'
 - ''
