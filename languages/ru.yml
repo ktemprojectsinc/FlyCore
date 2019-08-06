@@ -4619,7 +4619,7 @@ GUI_ARROWEFFECTS_MUSIC_LORE:
 GUI_EFFECTS_TYPE_EFFECT: 'эффект'
 GUI_EFFECTS_TYPE_SOUND: 'звук'
 GUI_EFFECTS_ACTIVATE: '§e▸ Нажмите, чтобы активировать'
-GUI_EFFECTS_SELECTED: '§e▸ Активировано'
+GUI_EFFECTS_SELECTED: '§a▸ Активировано'
 GUI_EFFECTS_UNAVAILABLE_LORE:
 - '§cДля покупки данного предмета Вам нужн §d%s уровень§c или выше!'
 - ''
