@@ -2418,7 +2418,7 @@ GENDER_NO_GOLDS: '§cОшибка, для смены пола нужно име�
 GENDER_MALE: 'мужской'
 GENDER_FEMALE: 'женский'
 GENDER_ALREADY: '§cУ вас уже выбран данный пол'
-GENDER_CHANGED: '§6Server §8| §fВаш пол успешно изменен на §a%s'
+GENDER_CHANGED: '§aServer §8| §fВаш пол успешно изменен на §a%s'
 
 COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
