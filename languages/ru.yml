@@ -464,8 +464,10 @@ MAIL_JOIN_REQUESTS: '§aПочта §8| §fУ вас §e%s §fнепрочита
 MAIL_JOIN_HOVER: "§fНажмите сюда,\n§fчтобы открыть список писем"
 
 #§7Наш Discord: §6discord.gg/
-MSG_TITLE: '§6http://flycore.ru'
-MSG_SUBTITLE: '§fпромокод §adesign§f на скидку §c35%'
+#§6http://flycore.ru
+MSG_TITLE: ''
+MSG_SUBTITLE: ''
+#§fпромокод §adesign§f на скидку §c35%
 #§7Группа: §cvk.com/flycore
 
 #Ru items
@@ -1984,6 +1986,7 @@ PING_CORE: '§aСервер §8| §fПинг до ядра §a%s §fms'
 
 CRASH_FORMAT: '/crash <ник игрока>'
 CRASH_ERROR_YOU: '§cВы не можете сами себя крашнуть'
+CRASH_NO: '§cВы не можете крашнуть данного игрока'
 CRASH_PLAYER: '§fВы крашнули игрока %s'
 
 NEAR: 'Ближайщие игроки: %s'
@@ -2429,10 +2432,10 @@ ADDRESS_NOT_AVAILABLE: '§cПоиск по адресу %s недоступен'
 
 GENDER_FORMAT: '/gender <male/female>'
 GENDER_NO_GOLDS: '§cОшибка, для смены пола нужно иметь минимум 10 золота'
-GENDER_MALE: 'мужской'
-GENDER_FEMALE: 'женский'
+GENDER_MALE: '§9Мужской'
+GENDER_FEMALE: '§dЖенский'
 GENDER_ALREADY: '§cУ вас уже выбран данный пол'
-GENDER_CHANGED: '§aСервер §8| §fВаш пол успешно изменен на §a%s'
+GENDER_CHANGED: '§aСервер §8| §fВаш пол успешно изменен на %s'
 
 COOLDOWN: '§cПодождите %s перед следующим использованием'
 COOLDOWN_2: '§cПодождите %s %s перед следующим использованием'
@@ -2459,6 +2462,7 @@ GUI_PROFILE_SHOP: '§bМагазин'
 GUI_PROFILE_LORE:
 - '§8• §7ID: %s'
 - '§8• §7Статус: %s'
+- '§8• §7Пол: %s'
 - '§8• §7Монет: §6%s'
 - '§8• §7Золота: §e%s'
 - '§8• §7Язык: §b%s'
@@ -4272,6 +4276,7 @@ GUI_STATS_GLOBAL_LORE:
 - ''
 - '§fОбщая статистика:'
 - ' §8▪ §7Статус: §a%s'
+- ' §8• §7Пол: %s'
 - ' §8▪ §7Убийств: §a%s'
 - ' §8▪ §7Смертей: §a%s'
 - ' §8▪ §7Дата первого захода: §a%s'
