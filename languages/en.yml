@@ -484,8 +484,8 @@ MAIL_JOIN_REQUESTS: '§aMail §8| §fYou have §e%s §funread emails §7(Click h
 MAIL_JOIN_HOVER: "§fClick here,\n§fto open mail list"
 
 #§7Our Discord: §6discord.gg/
-MSG_TITLE: '§6http://flycore.ru'
-MSG_SUBTITLE: '§fпромокод §adesign§f на скидку §c35%'
+MSG_TITLE: ''
+MSG_SUBTITLE: ''
 #§7Группа: §cvk.com/flycore
 
 #En items
@@ -1962,6 +1962,7 @@ PING_CORE: '§aServer §8| §fPing for Core §a%s §fms'
 
 CRASH_FORMAT: '/crash <player name>'
 CRASH_ERROR_YOU: '§cYou can not crash yourself'
+CRASH_NO: '§cВы не можете крашнуть данного игрока'
 CRASH_PLAYER: '§fYou crached player %s'
 
 NEAR: 'Ближайщие игроки: %s'
@@ -2417,10 +2418,10 @@ ADDRESS_NOT_AVAILABLE: '§cSearch for address %s unavailable'
 
 GENDER_FORMAT: '/gender <male/female>'
 GENDER_NO_GOLDS: '§cОшибка, для смены пола нужно иметь минимум 10 золота'
-GENDER_MALE: 'мужской'
-GENDER_FEMALE: 'женский'
+GENDER_MALE: '§9Мужской'
+GENDER_FEMALE: '§dЖенский'
 GENDER_ALREADY: '§cУ вас уже выбран данный пол'
-GENDER_CHANGED: '§aServer §8| §fВаш пол успешно изменен на §a%s'
+GENDER_CHANGED: '§aServer §8| §fВаш пол успешно изменен на %s'
 
 COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
@@ -2457,6 +2458,7 @@ GUI_PROFILE_SHOP: '§bShop'
 GUI_PROFILE_LORE:
 - '§8• §7ID: %s'
 - '§8• §7Rank: %s'
+- '§8• §7Gender: %s'
 - '§8• §7Coins: §6%s'
 - '§8• §7Golds: §e%s'
 - '§8• §7Language: §b%s'
@@ -4176,6 +4178,7 @@ GUI_STATS_GLOBAL_LORE:
 - ''
 - '§fCommon stats:'
 - ' §8▪ §7Stats: §a%s'
+- ' §8• §7Gender: %s'
 - ' §8▪ §7Kills: §a%s'
 - ' §8▪ §7Deaths: §a%s'
 - ' §8▪ §7Date first join: §a%s'
