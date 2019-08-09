@@ -2413,6 +2413,13 @@ ADDRESS_NOT_FOUND: '§aServer §8| §fFor request §a%s§f nothing found'
 ADDRESS_FINISH: '§aServer §8| §fSearch complete. Request took §6%sms§f found: §a%s'
 ADDRESS_NOT_AVAILABLE: '§cSearch for address %s unavailable'
 
+GENDER_FORMAT: '/gender <male/female>'
+GENDER_NO_GOLDS: '§cОшибка, для смены пола нужно иметь минимум 10 золота'
+GENDER_MALE: 'мужской'
+GENDER_FEMALE: 'женский'
+GENDER_ALREADY: '§cУ вас уже выбран данный пол'
+GENDER_CHANGED: '§6Server §8| §fВаш пол успешно изменен на §a%s'
+
 COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
 
