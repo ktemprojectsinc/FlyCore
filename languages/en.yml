@@ -1466,7 +1466,7 @@ GUILD_REJECT_ALERT: '§2Guild §8| %s§7 rejected your guild invition'
 GUILD_REJECT: '§aGuilds §8| §fYou rejected invition to the guild §a%s'
 
 GUILD_TAG_FORMAT: '/guild tag <tag>'
-GUILD_TAG_LIMIT: "§aGuilds §8| §fGuild tag doesn't have to be more than §c14§f characters"
+GUILD_TAG_LIMIT: "§aGuilds §8| §fGuild tag doesn't have to be more than §c%s§f characters"
 GUILD_TAG_ALERT: '§2Guild §8| %s§7 set guild tag -> §e%s'
 GUILD_TAG: '§aGuilds §8| §fGuild tag set to §a%s'
 GUILD_TAG_NO_MONEY: '§cGuild lacks %s coins to change tag'
