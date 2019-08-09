@@ -1199,7 +1199,7 @@ GUILD_NO: '§cОшибка, вы не состоите в гильдии'
 GUILD_MUTE: '§cВаш чат гильдии заблокирован игроком %s §cна %s по причине: §e%s'
 GUILD_CHAT_FORMAT: '/gchat <сообщение>'
 GUILD_OFFLINE: '§cВсе участники гильдии оффлайн'
-GUILD_CHAT: '§2Чат гильдии §8| %s §8» §7%s'
+GUILD_CHAT: '§2Чат гильдии §8| %s§8 » §7%s'
 
 FRIEND_COMMAND_HELP:
 - '§7/f add <ник игрока> §f- добавить игрока в друзья'
@@ -1366,9 +1366,9 @@ GUILD_COMMAND_OWNER_HELP:
 GUILD_COMMAND_TOP_HELP:
 - '§7/g top coins §f- топ гильдий по монетам'
 - '§7/g top members §f- топ гильдий по участникам'
-GUILD_TOP_COINS_TITLE: '§2Гильдии §8| §fТоп §a5§f гильдий:'
-GUILD_TOP_MEMBERS_TITLE: '§2Гильдии §8| §fТоп §a5§f гильдий:'
-GUILD_TOP_DONATERS_TITLE: '§2Гильдии §8| §fТоп §a5§f участников:'
+GUILD_TOP_COINS_TITLE: '§aГильдии §8| §fТоп §a5§f гильдий:'
+GUILD_TOP_MEMBERS_TITLE: '§aГильдии §8| §fТоп §a5§f гильдий:'
+GUILD_TOP_DONATERS_TITLE: '§aГильдии §8| §fТоп §a5§f участников:'
 GUILD_TOP_COINS_FORMAT: ' §c#%s §f- §e%s §fигрока %s§f, баланс - §a%s'
 GUILD_TOP_MEMBERS_FORMAT: ' §c#%s §f- §e%s §fигрока %s§f, участников - §a%s'
 GUILD_TOP_DONATERS_FORMAT: ' §c#%s §f- %s§f, %s в гильдию - §a%s§f монет'
