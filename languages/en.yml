@@ -515,6 +515,15 @@ ITEM_DELAY_LORE:
  - '§7Delay: %s'
  - ''
  - ' §e▸ Click, to %s delay'
+ITEM_TRACES_NAME: '§eСледы'
+ITEM_TRACES_LORE:
+ - '§7Позволяет вклюить или выключить'
+ - '§7Следы после вашего хождения'
+ - '§7на всех режимах'
+ - ''
+ - '§7Следы: %s'
+ - ''
+ - ' §e▸ Нажмите, чтобы %s следы'
 ITEM_GAME_NAME: '§eGame menu'
 ITEM_GAME_LORE:
  - '§7Universal device'
@@ -817,6 +826,8 @@ DELAY_ON: '§aEnabled'
 DELAY_OFF: '§cDisabled'
 STAFFCHAT_ON: '§aEnabled'
 STAFFCHAT_OFF: '§cDisabled'
+TRACES_ON: '§aEnabled'
+TRACES_OFF: '§cDisabled'
 
 SPYCMD_HELP:
  - '§7/spycmd on §f- enable commands spying'
