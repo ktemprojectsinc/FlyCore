@@ -2394,6 +2394,8 @@ GOTO_TOP_YOUR: '§aExamples §8| §fУ вас решенных примеров:
 
 NICK_FORMAT: '/nick <ник>'
 NICK_ALREADY: '§aNick change §8| §cCurrent nick already used'
+NICK_INVALID: '§cВыбранный ник содержит недопустимые символы в использовании ник-неймов'
+NICK_LIMIT: '§aNick change §8| §fЛимит ника превышен, максимально можно указать §c%s§f символов'
 NICK_CHANGED: '§aNick change §8| §fYou nick changed to: §a%s'
 NICK_RESET: '§aNick change §8| §fNick restored'
 
