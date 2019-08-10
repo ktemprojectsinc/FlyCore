@@ -3401,7 +3401,7 @@ GUI_STAFFLIST_LORE:
 - '%s'
 - ''
 - ' §e▶ Click here to open'
-- ' §astaff list'
+- ' §estaff list'
 GUI_STAFFLIST_ONLINE_LORE:
 - ''
 - '§7Online %s: §a%s'
