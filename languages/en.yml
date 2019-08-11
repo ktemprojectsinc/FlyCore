@@ -455,7 +455,7 @@ REDIRECT_TO_SERVER: '§aTeleported to server %s'
 SERVER_QUEUE: '§aTeleported to server %s'
 
 TAB_HEADER: "§bYou are playing on §a§l§nFLYCORE.RU"
-TAB_FOOTER: "§a§lRanks, Keys, & MORE §c§lSTORE.FLYCORE.RU"
+TAB_FOOTER: "§a§lRanks, Keys, & MORE §c§lSTORE.FLYCORE.RU\n\n§bYou are on the server:\n§d%s"
 
 REDIRECT_ERROR: '§cUnable to find suitable server('
 HUBS_ERROR: '§cError, lobby unavailable, try again later'
