@@ -2163,7 +2163,7 @@ REJOIN: '§aYou join second to the game %s'
 
 CHAT_DOUBLE: ' §cℹ Please, не повторяйте одинаковые сообщения'
 CHAT_SPAM: ' §cℹ Не флудите.'
-CHAT_YOUTUBE: '\n§cℹ Рекламировать каналы могут только игроки с привилегией §6YouTube\n'
+CHAT_YOUTUBE: '\n§cℹ Рекламировать каналы могут только игроки с привилегией §6§lYouTube\n'
 CHAT_PIAR: "\n§cℹ У нас запрещено рекламировать site and other resources\n"
 CHAT_MAT: "\n§cℹ У нас запрещено обзываться и оскорблять других (Warning %s/%s)\n"
 CHAT_MAT_REASON: '1.2. (Оскорбления)'
