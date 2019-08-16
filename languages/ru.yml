@@ -879,6 +879,8 @@ PLAYER_NAME_21: 'изменила'
 PLAYER_NAME_22: 'изменил'
 PLAYER_NAME_23: 'Исключила'
 PLAYER_NAME_24: 'Исключил'
+PLAYER_NAME_25: 'Покупная'
+PLAYER_NAME_26: 'Покупной'
 
 PROXY_COMMAND_HELP:
 - '§7/proxy info §f- Информация о вашем соединении с прокси'
@@ -3469,7 +3471,7 @@ GUI_STAFF_ITEM_LORE:
 GUI_STAFF_PLAYER_INFO:
 - ''
 - '§7Информация об игроке:'
-- '§8▪ §7Покупной: %s'
+- '§8▪ §7%s: %s'
 GUI_STAFF_PLAYER_ONLINE:
 - '§8▪ §7Сейчас на сервере: §b%s'
 GUI_STAFF_PLAYER_OFFLINE:
