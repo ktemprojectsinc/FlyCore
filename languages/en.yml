@@ -100,9 +100,9 @@ RANK_GAMER: 'Gamer'
 SERVER_RESTARTING_BROADCAST: '§cBefore a restart remained, §e%s§c %s'
 SERVER_RESTARTING_MESSAGE: '§aServer §8| §fServer from you current, restarted..'
 NO_CONNECT_REASON: "§cError#13, Synchronization is not executed. Report, if error to repeated » §a§nvk.com/flycore"
-CORE_NO_FOUND_PLAYER_SERVER_MSG:
+CORE_NOT_FOUND_PLAYER_SERVER_MSG:
 - '§aServer §8| §fError, you server not found in main core, you redirected to §a%s'
-CORE_NO_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If error repeated, report » §a§nvk.com/flycore\n\n§fError code (§c%s§f)"
+CORE_NOT_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If error repeated, report » §a§nvk.com/flycore\n\n§fError code (§c%s§f)"
 PROXY_CORE_LOST_CONNECTION:
 - '§aServer §8| §fProxy-server disconnected of core. Until the next connection, the transition through the servers will not be available and some commands.'
 - ' Wait reconnecting...'
@@ -905,6 +905,8 @@ PLAYER_NAME_21: 'changed'
 PLAYER_NAME_22: 'changed'
 PLAYER_NAME_23: 'Kicked'
 PLAYER_NAME_24: 'Kicked'
+PLAYER_NAME_25: 'Покупная'
+PLAYER_NAME_26: 'Покупной'
 
 PROXY_COMMAND_HELP:
 - '§7/proxy info §f- information for your connected to proxies'
@@ -3398,16 +3400,19 @@ GUI_STAFF_ITEM_LORE:
 - ''
 - '§7Total %s'
 - '§a%s'
-GUI_STAFF_ONLINE:
+GUI_STAFF_PLAYER_INFO:
 - ''
-- '§7Server: §a%s'
-GUI_STAFF_OFFLINE:
+- '§7Player information:'
+- '§8▪ §7%s: %s'
+GUI_STAFF_PLAYER_ONLINE:
+- '§7Now on the server: §b%s'
+GUI_STAFF_PLAYER_OFFLINE:
 - ''
 - '§7Last seen%s'
 - '§e%s ago'
 - ''
 - ' §c✗ Player is offline'
-GUI_STAFF_NO_FOUND:
+GUI_STAFF_PLAYER_NOT_FOUND:
 - ''
 - '§7Last seen%s'
 - '§e%s ago'
@@ -4832,6 +4837,15 @@ GUI_TOPS_SELECTED:
 GUI_TOPS_SELECT:
 - ''
 - '§e▸ Click, to select top'
+GUI_TOPS_PLAYER_ONLINE:
+- ''
+- '§7Server: §a%s'
+GUI_TOPS_PLAYER_OFFLINE:
+- ''
+- '§7Last seen%s'
+- '§e%s ago'
+- ''
+- ' §c✗ Player is offline'
 
 GUI_BANREQUESTS_NAME: 'Ожидающие запросы на блокировку'
 GUI_BANREQUESTS_ITEM: '§eОжидающие запросы на блокировку'
@@ -4900,6 +4914,15 @@ GUI_PARTY_LORE:
 - '§7Свободная: %s'
 - '§7Автоматическое исключение: %s'
 GUI_PARTY: '§eInformation for group'
+GUI_PARTY_PLAYER_ONLINE:
+- ''
+- '§7Server: §a%s'
+GUI_PARTY_PLAYER_OFFLINE:
+- ''
+- '§7Last seen%s'
+- '§e%s ago'
+- ''
+- ' §c✗ Player is offline'
 
 GUI_GUILDALL_NAME: 'Guild ▸ Guild list'
 GUI_GUILDALL_CREATOR: '§7Creator: %s'
@@ -4969,6 +4992,15 @@ GUI_BANLIST_EMPTY_LORE:
 - ''
 - '§7В данный момент,'
 - '§7нет ни одного наказанного игрока'
+GUI_BANLIST_PLAYER_ONLINE:
+- ''
+- '§7Server: §a%s'
+GUI_BANLIST_PLAYER_OFFLINE:
+- ''
+- '§7Last seen%s'
+- '§e%s ago'
+- ''
+- ' §c✗ Player is offline'
 
 GUI_PARTYALL_NAME: 'Группы ▸ Список групп'
 GUI_PARTYALL_EMPTY: '§cВ данный момент нет публичных групп'
@@ -4993,36 +5025,45 @@ GUI_PARTYALL_LORE:
 - ''
 GUI_PARTYALL_ONLINE:
 - '§7%s группы §aонлайн'
-- '§7на сервере §e%s'
+- '§7on server §e%s'
 GUI_PARTYALL_OFFLINE:
-- ' §c✗ %s Группы оффлайн'
+- ' §c✗ %s Группы offline'
 GUI_PARTYALL_LIMIT: ' §c✗ Группа переполнена'
 GUI_PARTYALL_JOIN: '§e▸ Нажмите, чтобы присоединится'
 GUI_PARTYALL_ALREADY: ' §c✗ Вы уже состоите в группе'
 GUI_PARTYALL_ALREADY_OTHER: ' §c✗ Вы уже другой в группе'
-GUI_PARTYALL_CREATOR: 'Создатель'
-GUI_PARTYALL_OWNER: 'Владелец'
-GUI_PARTYALL_FORMAT: '§eГруппа %s'
+GUI_PARTYALL_CREATOR: 'Creator'
+GUI_PARTYALL_OWNER: 'Owner'
+GUI_PARTYALL_FORMAT: '§eParty %s'
 
 GUI_GUILD_NAME: 'Участники гильдии'
 GUI_GUILD_LORE:
 - ''
 - '§7Должность в гильдии: §e%s'
-GUI_GUILD_GUILD_LORE:
+GUI_GUILD_LORE:
 - ''
-- '§7Гильдия: §a%s'
+- '§7Guild: §a%s'
 - ''
-- '§7Создатель: %s'
+- '§7Creator: %s'
 - '§7Дата создания:'
 - '§a%s'
 - ''
 - '§7Участников: §a%s§8/§c%s'
 - '§7Онлайн: §a%s'
 - ''
-- '§7Баланс гильдии: §e%s'
+- '§7Guild balance: §e%s'
 GUI_GUILD_ITEM: '§eИнформация о гильдии'
+GUI_GUILD_PLAYER_ONLINE:
+- ''
+- '§7Server: §a%s'
+GUI_GUILD_PLAYER_OFFLINE:
+- ''
+- '§7Last seen%s'
+- '§e%s ago'
+- ''
+- ' §c✗ Player is offline'
 
-GUI_GUILDSHOP_NAME: 'Баланс гильдии: %s'
+GUI_GUILDSHOP_NAME: 'Guild balance: %s'
 GUI_GUILDSHOP_NO_MONEY_LORE:
 - ''
 - '§7Стоимость улучшения: §c%s §7%s'
@@ -5037,8 +5078,8 @@ GUI_GUILDSHOP_ALREADY_LORE:
 - ''
 - ' §c▸ Данное улучшение уже приобретено'
 GUI_GUILDSHOP_TYPE_MEMBERS: '§eУлучшение вместительности %s'
-GUI_GUILDSHOP_TYPE_MONEY: '§eУлучшение банка'
-GUI_GUILDSHOP_TYPE_TAG: '§eТег гильдии'
+GUI_GUILDSHOP_TYPE_MONEY: '§eУлучшение bank'
+GUI_GUILDSHOP_TYPE_TAG: '§eGuild tag'
 GUI_GUILDSHOP_TYPE_MOTD: '§eПриветствие гильдии'
 GUI_GUILDSHOP_MEMBERS_LORE:
 - ' '
@@ -5056,17 +5097,17 @@ GUI_GUILDSHOP_TAG_LORE:
 - '§7гильдии, который будет отображаться'
 - '§7после ника каждого участника.'
 - ''
-- '§7Limit - 14 букв или знаков'
+- '§7Limit - 10 букв или знаков'
 GUI_GUILDSHOP_MOTD_LORE:
 - ''
 - '§7Позволяет задать своё собственное'
 - '§7приветствие гильдии, которое будет'
 - '§7отображено каждому участнику при входе'
 
-GUI_BOOST_NAME: 'Повышение'
+GUI_BOOST_NAME: 'Boost'
 GUI_BOOST_LORE:
-- '§7Статус: %s'
-- '§7Сейчас: §b%s§7/§b%s'
+- '§7Stats: %s'
+- '§7Current: §b%s§7/§b%s'
 - '§7До повышения: §a%s§a %s §c%s'
 GUI_BOOST_NEED_XP_LORE:
 - ''
