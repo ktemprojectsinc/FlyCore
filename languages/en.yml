@@ -5040,7 +5040,7 @@ GUI_GUILD_NAME: 'Участники гильдии'
 GUI_GUILD_LORE:
 - ''
 - '§7Должность в гильдии: §e%s'
-GUI_GUILD_LORE:
+GUI_GUILD_GUILD_LORE:
 - ''
 - '§7Guild: §a%s'
 - ''
