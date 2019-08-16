@@ -75,9 +75,9 @@ RANK_GAMER: 'Геймер'
 SERVER_RESTARTING_BROADCAST: '§cДо перезавантаження зашилилось, §e%s§c %s'
 SERVER_RESTARTING_MESSAGE: '§aСервер §8| §fСервер на якому Ви знаходились перезавантажується..'
 NO_CONNECT_REASON: "§cПомилка #13, Синхронізацію не виконано. Якщо помилка повторилася, повідомте » §a§nvk.com/flycore"
-CORE_NO_FOUND_PLAYER_SERVER_MSG:
+CORE_NOT_FOUND_PLAYER_SERVER_MSG:
 - '§aСервер §8| §fПомилка, Ваш сервер не було знайдено у головному ядрі. Ви були телепортовані в §a%s'
-CORE_NO_FOUND_PLAYER_SERVER: "§fПомилка, Ваш сервер було не знайдено в головному ядрі. Якщо помилка повторилася, повідомте » §a§nvk.com/flycore\n\n§fКод ошибки (§c%s§f)"
+CORE_NOT_FOUND_PLAYER_SERVER: "§fПомилка, Ваш сервер було не знайдено в головному ядрі. Якщо помилка повторилася, повідомте » §a§nvk.com/flycore\n\n§fКод ошибки (§c%s§f)"
 PROXY_CORE_LOST_CONNECTION:
 - '§aСервер §8| §fПроксі-сервер відключений від головного ядра. До наступного підключення буде недоступний перехід по серверам, і деякі команди.'
 - ' Чекайте перепідключення...'
@@ -877,6 +877,8 @@ PLAYER_NAME_21: 'изменила'
 PLAYER_NAME_22: 'изменил'
 PLAYER_NAME_23: 'Исключила'
 PLAYER_NAME_24: 'Исключил'
+PLAYER_NAME_25: 'Покупная'
+PLAYER_NAME_26: 'Покупной'
 
 PROXY_COMMAND_HELP:
 - '§7/proxy info §f- Информация о вашем соединении с прокси'
@@ -3405,16 +3407,19 @@ GUI_STAFF_ITEM_LORE:
 - ''
 - '§7%s'
 - '§a%s'
-GUI_STAFF_ONLINE:
+GUI_STAFF_PLAYER_INFO:
 - ''
-- '§7Сервер: §a%s'
-GUI_STAFF_OFFLINE:
+- '§7Информация об игроке:'
+- '§8▪ §7%s: %s'
+GUI_STAFF_PLAYER_ONLINE:
+- '§8▪ §7Сейчас на сервере: §b%s'
+GUI_STAFF_PLAYER_OFFLINE:
 - ''
 - '§7Последний раз %s в сети:'
 - '§e%s назад'
 - ''
 - ' §c✗ Сейчас оффлайн '
-GUI_STAFF_NO_FOUND:
+GUI_STAFF_PLAYER_NOT_FOUND:
 - ''
 - '§7Последний раз %s в сети:'
 - '§e%s назад'
@@ -4860,6 +4865,15 @@ GUI_TOPS_SELECTED:
 GUI_TOPS_SELECT:
 - ''
 - '§e▸ Нажмите, чтобы выбрать топ'
+GUI_TOPS_PLAYER_ONLINE:
+- ''
+- '§7Сервер: §a%s'
+GUI_TOPS_PLAYER_OFFLINE:
+- ''
+- '§7Последний раз %s в сети:'
+- '§e%s назад'
+- ''
+- ' §c✗ Сейчас оффлайн '
 
 GUI_BANREQUESTS_NAME: 'Ожидающие запросы на блокировку'
 GUI_BANREQUESTS_ITEM: '§eОжидающие запросы на блокировку'
@@ -4928,6 +4942,15 @@ GUI_PARTY_LORE:
 - '§7Свободная: %s'
 - '§7Автоматическое исключение: %s'
 GUI_PARTY: '§eИнформация о группе'
+GUI_PARTY_PLAYER_ONLINE:
+- ''
+- '§7Сервер: §a%s'
+GUI_PARTY_PLAYER_OFFLINE:
+- ''
+- '§7Последний раз %s в сети:'
+- '§e%s назад'
+- ''
+- ' §c✗ Сейчас оффлайн '
 
 GUI_GUILDALL_NAME: 'Гильдии ▸ Список гильдий'
 GUI_GUILDALL_CREATOR: '§7Создатель: %s'
@@ -4997,6 +5020,15 @@ GUI_BANLIST_EMPTY_LORE:
 - ''
 - '§7В данный момент,'
 - '§7нет ни одного наказанного игрока'
+GUI_BANLIST_PLAYER_ONLINE:
+- ''
+- '§7Сервер: §a%s'
+GUI_BANLIST_PLAYER_OFFLINE:
+- ''
+- '§7Последний раз %s в сети:'
+- '§e%s назад'
+- ''
+- ' §c✗ Сейчас оффлайн '
 
 GUI_PARTYALL_NAME: 'Группы ▸ Список групп'
 GUI_PARTYALL_EMPTY: '§cВ данный момент нет публичных групп'
