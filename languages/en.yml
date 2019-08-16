@@ -3972,17 +3972,17 @@ GUI_LOBBY_ALREADY:
 - '§7You are here'
 GUI_LOBBY_CONNECT_1:
 - ''
-- '§7Online: §a%s'
+- '§7Online: §a%s§7 %s'
 - ''
 - '§e  Click to teleport'
 GUI_LOBBY_CONNECT_2:
 - ''
-- '§7Online: §a%s'
+- '§7Online: §a%s§7 %s'
 - ''
 - '§e▶ Click to teleport'
 GUI_LOBBY_FRIENDS_1:
 - ''
-- '§7Online: §a%s'
+- '§7Online: §a%s§7 %s'
 - ''
 - '§7Friends on lobby:'
 - '%s'
@@ -3990,7 +3990,7 @@ GUI_LOBBY_FRIENDS_1:
 - '§e  Click to teleport'
 GUI_LOBBY_FRIENDS_2:
 - ''
-- '§7Online: §a%s'
+- '§7Online: §a%s§7 %s'
 - ''
 - '§7Friends on lobby:'
 - '%s'
