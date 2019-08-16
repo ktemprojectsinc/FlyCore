@@ -75,9 +75,9 @@ RANK_GAMER: 'Геймер'
 SERVER_RESTARTING_BROADCAST: '§cДо перезагрузки осталось, §e%s§c %s'
 SERVER_RESTARTING_MESSAGE: '§aСервер §8| §fСервер на котором Вы находились перезагружается...'
 NO_CONNECT_REASON: "§cОшибка #13, Синхронизация не выполнена. Если ошибка повторилась, сообщите » §a§nvk.com/flycore"
-CORE_NO_FOUND_PLAYER_SERVER_MSG:
+CORE_NOT_FOUND_PLAYER_SERVER_MSG:
 - '§aСервер §8| §fОшибка, Ваш сервер был не найден в главном ядре, Вы перенаправлены на §a%s'
-CORE_NO_FOUND_PLAYER_SERVER: "§fОшибка, Ваш сервер был не найден в главном ядре. Если ошибка повторилась, сообщите » §a§nvk.com/flycore\n\n§fКод ошибки (§c%s§f)"
+CORE_NOT_FOUND_PLAYER_SERVER: "§fОшибка, Ваш сервер был не найден в главном ядре. Если ошибка повторилась, сообщите » §a§nvk.com/flycore\n\n§fКод ошибки (§c%s§f)"
 PROXY_CORE_LOST_CONNECTION:
 - '§aСервер §8| §fПрокси-сервер отключен от ядра. До следующего подключения будет недоступен переход по серверам и некоторые команды.'
 - ' Ожидайте переподключения...'
@@ -3466,16 +3466,19 @@ GUI_STAFF_ITEM_LORE:
 - ''
 - '§7%s'
 - '§a%s'
-GUI_STAFF_ONLINE:
+GUI_STAFF_PLAYER_INFO:
 - ''
-- '§7Сервер: §a%s'
-GUI_STAFF_OFFLINE:
+- '§7Информация об игроке:'
+- '§8▪ §7Покупной: %s'
+GUI_STAFF_PLAYER_ONLINE:
+- '§8▪ §7Сейчас на сервере: §b%s'
+GUI_STAFF_PLAYER_OFFLINE:
 - ''
 - '§7Последний раз %s в сети:'
 - '§e%s назад'
 - ''
 - ' §c✗ Сейчас оффлайн '
-GUI_STAFF_NO_FOUND:
+GUI_STAFF_PLAYER_NOT_FOUND:
 - ''
 - '§7Последний раз %s в сети:'
 - '§e%s назад'
@@ -4934,6 +4937,15 @@ GUI_TOPS_SELECTED:
 GUI_TOPS_SELECT:
 - ''
 - '§e▸ Нажмите, чтобы выбрать топ'
+GUI_TOPS_PLAYER_ONLINE:
+- ''
+- '§7Сервер: §a%s'
+GUI_TOPS_PLAYER_OFFLINE:
+- ''
+- '§7Последний раз %s в сети:'
+- '§e%s назад'
+- ''
+- ' §c✗ Сейчас оффлайн '
 
 GUI_BANREQUESTS_NAME: 'Ожидающие запросы на блокировку'
 GUI_BANREQUESTS_ITEM: '§eОжидающие запросы на блокировку'
@@ -5002,6 +5014,15 @@ GUI_PARTY_LORE:
 - '§7Свободная: %s'
 - '§7Автоматическое исключение: %s'
 GUI_PARTY: '§eИнформация о группе'
+GUI_PARTY_PLAYER_ONLINE:
+- ''
+- '§7Сервер: §a%s'
+GUI_PARTY_PLAYER_OFFLINE:
+- ''
+- '§7Последний раз %s в сети:'
+- '§e%s назад'
+- ''
+- ' §c✗ Сейчас оффлайн '
 
 GUI_GUILDALL_NAME: 'Гильдии ▸ Список гильдий'
 GUI_GUILDALL_CREATOR: '§7Создатель: %s'
@@ -5071,6 +5092,15 @@ GUI_BANLIST_EMPTY_LORE:
 - ''
 - '§7В данный момент,'
 - '§7нет ни одного наказанного игрока'
+GUI_BANLIST_PLAYER_ONLINE:
+- ''
+- '§7Сервер: §a%s'
+GUI_BANLIST_PLAYER_OFFLINE:
+- ''
+- '§7Последний раз %s в сети:'
+- '§e%s назад'
+- ''
+- ' §c✗ Сейчас оффлайн '
 
 GUI_PARTYALL_NAME: 'Группы ▸ Список групп'
 GUI_PARTYALL_EMPTY: '§cВ данный момент нет публичных групп'
@@ -5123,6 +5153,15 @@ GUI_GUILD_GUILD_LORE:
 - ''
 - '§7Баланс гильдии: §e%s'
 GUI_GUILD_ITEM: '§eИнформация о гильдии'
+GUI_GUILD_PLAYER_ONLINE:
+- ''
+- '§7Сервер: §a%s'
+GUI_GUILD_PLAYER_OFFLINE:
+- ''
+- '§7Последний раз %s в сети:'
+- '§e%s назад'
+- ''
+- ' §c✗ Сейчас оффлайн '
 
 GUI_GUILDSHOP_NAME: 'Баланс гильдии: %s'
 GUI_GUILDSHOP_NO_MONEY_LORE:
