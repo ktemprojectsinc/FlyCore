@@ -2385,6 +2385,12 @@ GENDER_FEMALE: '§dЖенский'
 GENDER_ALREADY: '§cУ вас уже выбран данный пол'
 GENDER_CHANGED: '§aСервер §8| §fВаш пол успешно изменен на %s'
 
+FORMATNAME_FORMAT: '/formatname <ник>'
+FORMATNAME_INFO: '§aСервер §8| §fПоиск §a%s'
+FORMATNAME: ' §8▪ %s'
+FORMATNAME_NOT_FOUND: '§aСервер §8| §fПо запросу §a%s§f ничего не найдено'
+FORMATNAME_FINISH: '§aСервер §8| §fПоиск завершен за §6%sms§f найдено: §a%s'
+
 COOLDOWN: '§cПодождите %s перед следующим использованием'
 COOLDOWN_2: '§cПодождите %s %s перед следующим использованием'
 
