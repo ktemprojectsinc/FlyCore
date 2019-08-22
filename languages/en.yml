@@ -2397,7 +2397,7 @@ GOTO_TOP: '§aExamples §8| §fТоп §a7§f игроков:'
 GOTO_TOP_FORMAT: ' §c#%s §f- %s §fрешенных примеров - §b%s'
 GOTO_TOP_YOUR: '§aExamples §8| §fУ вас решенных примеров: §a%s'
 
-NICK_FORMAT: '/nick <ник>'
+NICK_FORMAT: '/nick <nick/off>'
 NICK_ALREADY: '§aNick change §8| §cCurrent nick already used'
 NICK_INVALID: '§cВыбранный ник содержит недопустимые символы в использовании ник-неймов'
 NICK_LIMIT: '§aNick change §8| §fЛимит ника превышен, максимально можно указать §c%s§f символов'
