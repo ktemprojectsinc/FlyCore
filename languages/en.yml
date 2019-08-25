@@ -53,10 +53,11 @@ BAN_REQUEST_FOR_PERSONAL:
  - "§cYou can't send a lock request to the server staff"
  - '§cFor it exists discussion on group https://vk.com/topic-157663196_39337015'
 
-CONVERT_FORMAT: '/convert <currency> <sum>'
+CONVERT_FORMAT: '/convert <golds/coins> <golds sum>'
 CONVERT_ERROR: '§cError, you must specify only a positive number!'
-CONVERT: '§aServer §8| §fYou have successfully exchanged §e%s §f%s on §a%s §f%s'
-CONVERT_AVAILABLE: '§cError, available currencies: golds'
+CONVERT: '§aServer §8| §fYou have successfully exchanged %s §f%s on %s §f%s'
+CONVERT_AVAILABLE: '§cError, available currencies: golds, coins'
+CONVERT_ERROR_NO: '§cError, конвертация не должна быть менее %s и более %s за раз'
 
 CORE_PROXY_CONNECTED: '§cCore §8| §7Proxy §a%s§a success§7 connected from address §e%s'
 CORE_PROXY_CONNECTION_CLOSED: '§cCore §8| §7Proxy §a%s§c disconnected§7, of reason: §a%s'
@@ -2432,6 +2433,17 @@ FORMATNAME_START: '§aServer §8| §fSearch §a%s'
 FORMATNAME: ' §8▪ %s'
 FORMATNAME_NOT_FOUND: '§aServer §8| §fFor request §a%s§f nothing found'
 FORMATNAME_FINISH: '§aServer §8| §fSearch complete. Request took §6%sms§f found: §a%s'
+
+SENDMONEY_FORMAT: '/sendmoney <player name> <sum>'
+SENDMONEY_YOU: '§cНельзя отправлять деньги самому себе'
+SENDMONEY_SEND: '§aServer §8| §fВы успешно передали §a%s §f%s игроку %s§f. Комиссия при переводе составила §c%s §f%s (§e%s§f)'
+SENDMONEY_ERROR_SEND: '§cError, вы не можете отправить %s %s, так как ваш дневной лимит на отправку денег не должен превышать %s %s'
+SENDMONEY_ERROR_SENDED: '§cError, вы не можете отправить %s %s игроку %s§c, так как его дневной лимит на получение денег не должен превышать %s %s'
+SENDMONEY_TO: '§aServer §8| §fВы успешно получили §a%s §f%s от игрока %s'
+SENDMONEY_NO_LEVEL_YOU: '§cError, вы не можете перевести деньги, ваш уровень ниже 10!'
+SENDMONEY_NO_LEVEL_OTHER: '§cError, вы не можете перевести деньги данному игроку. Его уровень ниже 10!'
+SENDMONEY_NO_MONEY: '§cError, на вашем балансе недостаточно средств! Включая комиссию %s на вашем счету должно быть %s %s'
+SENDMONEY_ERROR_MONEY: '§cError, вы не можете переводить суммы ниже %s и выше %s за раз!'
 
 COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
