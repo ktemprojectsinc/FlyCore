@@ -1786,12 +1786,12 @@ MEMORY:
 - '§8 | §fFree memory %s MB'
 
 YT_COMMAND_HELP:
- - '§c/yt addlink <channel link> §f- add link to your channel'
- - '§c/yt remlink §f- removed link'
- - '§c/yt getlink §f- view current link'
- - '§c/yt alert §f- create announcement for all server'
- - '§c/yt alertactionbar §f- сделать объявление на весь сервер в actionbar'
- - '§c/yt menu §f- open youtube menu'
+ - '§7/yt addlink <channel link> §f- add link to your channel'
+ - '§7/yt remlink §f- removed link'
+ - '§7/yt getlink §f- view current link'
+ - '§7/yt alert §f- create announcement for all server'
+ - '§7/yt alertactionbar §f- сделать объявление на весь сервер в actionbar'
+ - '§7/yt menu §f- open youtube menu'
 YT_LINK_NOT_FOUND: '§aYouTube §8| §cУ вас еще нет ссылки, добавьте её /yt addlink <ссылка>'
 
 YT_ALERT_FORMAT: '/yt alert <your broadcast>'
