@@ -273,7 +273,7 @@ PLAYER_NO_GOLDS:
 - ''
 - '§aServer §8| §fOn your account недостаточно golds. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 - '§r'
-PLAYER_NO_GOLDS:
+PLAYER_NO_CORE:
 - ''
 - '§aServer §8| §fOn your account недостаточно cores. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 - '§r'
