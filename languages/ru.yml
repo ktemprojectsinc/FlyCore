@@ -247,9 +247,9 @@ PLAYER_NO_GOLDS:
 - ''
 - '§aСервер §8| §fНа вашем счёте недостаточно золота. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 - '§r'
-PLAYER_NO_CORES:
+PLAYER_NO_CORE:
 - ''
-- '§aСервер §8| §fНа вашем счёте недостаточно золота. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§aСервер §8| §fНа вашем счёте недостаточно ядер. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_LEVEL:
 - ''
@@ -5364,7 +5364,7 @@ GUI_CASES_INFO2_LORE:
 - '§e▸ Нажмите, чтобы открыть детальную информацию'
 GUI_CASES_BUY_TO_MONEY_NAME: '§6Покупка ключей за монеты'
 GUI_CASES_BUY_TO_GOLD_NAME: '§eПокупка ключей за золото'
-GUI_CASES_BUY_TO_CORE_NAME: '§eПокупка ключей за ядра'
+GUI_CASES_BUY_TO_CORE_NAME: '§bПокупка ключей за ядра'
 GUI_CASES_BUY_NO_LORE:
 - ''
 - '§cПростите, но вы не сможете'
