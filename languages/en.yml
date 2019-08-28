@@ -1751,6 +1751,7 @@ IGNORELIST_EMPTY: '§cВ Вашем списке игнорируемых нет
 FIND: '§aServer §8| §fPlayer %s§f now at server §c%s'
 FIND_IGNORE: '§cThis player added You to ignoring list'
 FIND_TESTER: '§aServer §8| §fThis player is anticheat-tester. His cant spectate at the moment'
+FIND_OFFLINE: '§aServer §8| §fPlayer %s§f offline, last time %s was online §7%s§f ago'
 
 WHOIS:
 - '§eInfo about player %s'
@@ -2977,6 +2978,9 @@ GUI_INFO_HELP_LORE:
 - '§e/staff §7- Server staff online'
 - '§e/ask <your question> §7- Create question'
 - '§e/report <player name> <reason> §7- Report for player'
+- '§e/convert <golds/coins> <golds> §7- Transfer currency'
+- '§e/gender <male/female> §7- Change your gender'
+- '§e/pay <player name> <sum> §7- Transfer money'
 - ''
 - '§7Также для получения списка всех доступных Вам команд,'
 - '§7введите в поле ввода §e/§7 и нажмите на кнопку Tab'
