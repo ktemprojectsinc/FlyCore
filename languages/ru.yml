@@ -2635,7 +2635,7 @@ GUI_PROFILE_THEME_LORE:
 - '§e▸ Нажмите, чтобы открыть меню'
 
 GUI_PROFILE_NAME: 'Профиль'
-GUI_PROFILE_THEME_NAME: 'Выбор темы'
+GUI_PROFILE_THEME: 'Выбор темы'
 GUI_DONATE_NAME: 'Привилегии'
 GUI_DONATE_NAME_TO: '%s ▸ Привилегии'
 GUI_DONATE_TITLE: 'Возможности %s'
