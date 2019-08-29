@@ -3557,6 +3557,7 @@ GUI_STAFF_MODERATORS: 'Модераторы'
 GUI_STAFF_ADMINS: 'Администраторы'
 GUI_STAFF_YOUTUBERS: 'Ютуберы'
 GUI_STAFF_BUILDERS: 'Строители'
+GUI_STAFF_DEVELOPERS: 'Разработчики'
 
 GUI_SETTING_FLY_LORE:
 - '§7Позволяет включить или выключить'
