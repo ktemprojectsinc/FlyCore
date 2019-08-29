@@ -2125,6 +2125,7 @@ VERIFY_CODE_CHANGED_BROADCAST: '§cВерификация §8| %s§7 %s свой
 
 LANGUAGE_SELECT: '§aСервер §8| §fВаш язык изменен на §c%s'
 PREFIX_SELECT: '§aСервер §8| §fВы сменили свой префикс на %s'
+THEME_SELECT: '§aСервер §8| §fВы выбрали тему %s'
 
 REJOIN_NOT_FOUND: '§cОшибка, Вы нигде не играли или сервер был перезагружен'
 REJOIN_INFO: '§fЕсли Вы были §cкикнуты§f, напишите §7/rejoin§f для повторного входа в игру'
@@ -2568,7 +2569,17 @@ GUI_PROFILE_SHOP_LORE:
 - ''
 - '§e▸ Открыть магазин'
 
+GUI_PROFILE_THEME_LORE:
+- '§7Позволяет заменить,'
+- '§7белые сообщения, на цвет'
+- '§7выбранной темы.'
+- ''
+- '§7Текущая тема: %s'
+- ''
+- '§e▸ Нажмите, чтобы открыть меню'
+
 GUI_PROFILE_NAME: 'Профиль'
+GUI_PROFILE_THEME: '§bВыбор темы'
 GUI_DONATE_NAME: 'Привилегии'
 GUI_DONATE_NAME_TO: '%s ▸ Привилегии'
 GUI_DONATE_TITLE: 'Возможности %s'
@@ -4644,6 +4655,24 @@ COLOR_DARK_RED: '§4Темно красный'
 COLOR_DARK_GRAY: '§8Темно серый'
 COLOR_BLACK: '§0Черный'
 COLOR_ERROR: 'Неизвестно'
+
+GUI_THEME_NAME: 'Профиль ▸ Выбор темы'
+GUI_THEME_SELECTED_LORE:
+- ''
+- '§aТема выбрана'
+GUI_THEME_SELECT_LORE:
+- '§7Сменить тему на: %s'
+- ''
+- '§8• §7Цена §6%s§7 %s'
+- '§8• §7Бесплатно для %s§7 и выше'
+- ''
+- '§e▸ Нажмите, чтобы выбрать тему'
+GUI_THEME_UNAVAILABLE_LORE:
+- '§7Сменить тему на: %s'
+- ''
+- '§7Можно получить:'
+- '§8• §7Цена §6%s§7 %s'
+- '§8• §7Бесплатно для %s§7 и выше'
 
 GUI_ARROWEFFECTS_NAME: 'Профиль ▸ Косметика ▸ Стрелы'
 GUI_ARROWEFFECTS_MUSIC: 'Звуковой путь'
