@@ -2183,6 +2183,7 @@ VERIFY_CODE_CHANGED_BROADCAST: '§cВерификация §8| %s§7 %s свой
 
 LANGUAGE_SELECT: '§aСервер §8| §fВаш язык изменен на §c%s'
 PREFIX_SELECT: '§aСервер §8| §fВы сменили свой префикс на %s'
+THEME_SELECT: '§aСервер §8| §fВы выбрали тему %s'
 
 REJOIN_NOT_FOUND: '§cОшибка, Вы нигде не играли или сервер был перезагружен'
 REJOIN_INFO: '§fЕсли Вы были §cкикнуты§f, напишите §7/rejoin§f для повторного входа в игру'
@@ -2628,14 +2629,16 @@ GUI_PROFILE_SHOP_LORE:
 - '§e▸ Открыть магазин'
 
 GUI_PROFILE_THEME_LORE:
-- '§7Выбор темы'
+- '§7Позволяет заменить,'
+- '§7белые сообщения, на цвет'
+- '§7выбранной темы.'
 - ''
 - '§7Текущая тема: %s'
 - ''
 - '§e▸ Нажмите, чтобы открыть меню'
 
 GUI_PROFILE_NAME: 'Профиль'
-GUI_PROFILE_THEME: 'Выбор темы'
+GUI_PROFILE_THEME: '§bВыбор темы'
 GUI_DONATE_NAME: 'Привилегии'
 GUI_DONATE_NAME_TO: '%s ▸ Привилегии'
 GUI_DONATE_TITLE: 'Возможности %s'
