@@ -2175,7 +2175,8 @@ VERIFY_LASTTIMED_BROADCAST: '§cVerify §8| §7Данные сессии %s§7 �
 VERIFY_CODE_CHANGED_BROADCAST: '§aVerify §8| %s§7 %s свой код'
 
 LANGUAGE_SELECT: '§aServer §8| §fYou Language is change to §c%s'
-PREFIX_SELECT: '§aServer §8| §fYour prefix changed to %s'
+PREFIX_SELECT: '§aServer §8| §fYou prefix changed to %s'
+THEME_SELECT: '§aServer §8| §fYou selected theme %s'
 
 REJOIN_NOT_FOUND: "§cError, You didn't played anywhere or server was restarted"
 REJOIN_INFO: '§fIf you were §ckicked§f, write §7/rejoin§f for second join to the games'
@@ -2607,7 +2608,16 @@ GUI_PROFILE_SHOP_LORE:
 - '§7for gold, and coins'
 - ''
 - '§e▸ Open shop'
+GUI_PROFILE_THEME_LORE:
+- '§7Позволяет заменить,'
+- '§7белые сообщения, на цвет'
+- '§7выбранной темы.'
+- ''
+- '§7Current theme: %s'
+- ''
+- '§e▸ Click, to open menu'
 GUI_PROFILE_NAME: 'Profile'
+GUI_PROFILE_THEME: '§bВыбор темы'
 GUI_DONATE_NAME: 'Privileges'
 GUI_DONATE_NAME_TO: '%s ▸ Privileges'
 GUI_DONATE_TITLE: 'Capabilities %s'
@@ -4616,6 +4626,24 @@ COLOR_DARK_RED: '§4Dark red'
 COLOR_DARK_GRAY: '§8Dark gray'
 COLOR_BLACK: '§0Black'
 COLOR_ERROR: 'Unknown'
+
+GUI_THEME_NAME: 'Profile ▸ Выбор темы'
+GUI_THEME_SELECTED_LORE:
+- ''
+- '§aTheme selected'
+GUI_THEME_SELECT_LORE:
+- '§7Change theme to: %s'
+- ''
+- '§8• §7Price §6%s§7 %s'
+- '§8• §7Free for %s§7 or higher'
+- ''
+- '§e▸ Click, to theme select'
+GUI_THEME_UNAVAILABLE_LORE:
+- '§7Change theme to: %s'
+- ''
+- '§7Available:'
+- '§8• §7Price §6%s§7 %s'
+- '§8• §7Free for %s§7 or higher'
 
 GUI_ARROWEFFECTS_NAME: 'Profile ▸ Cosmetics ▸ Arrows'
 GUI_ARROWEFFECTS_MUSIC: 'Звуковой путь'
