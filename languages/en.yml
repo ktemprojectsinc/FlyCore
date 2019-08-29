@@ -4075,12 +4075,12 @@ GUI_SITESHOP_ITEM_LORE:
 - '§7Get next items:'
 GUI_SITESHOP_BUY_LORE:
 - ''
-- '§7Count: %s §7%s'
+- '§7Price: %s §7%s'
 - ''
 - ' §e▸ Click, to buy'
 GUI_SITESHOP_NO_BUY_LORE:
 - ''
-- '§7Count: §c%s§7 %s'
+- '§7Price: §c%s§7 %s'
 - ''
 - ' §c▸ Do not enough %s, to buying'
 GUI_SITESHOP_FLY_LORE:
@@ -4272,8 +4272,8 @@ GUI_GADGETS_AVAILABLE: '§7Available:'
 GUI_GADGETS_GROUP: '§8• §7Only available for %s§7 or higher'
 GUI_GADGETS_BOX: '§8• §7Drop to §bLuckyChest §7(%s§7)'
 GUI_GADGETS_SITE: '§8• §7Buying on site §bflycore.ru'
-GUI_GADGETS_GIVE_MONEY: '§7Count §6%s§7 %s'
-GUI_GADGETS_GIVE_GOLDS: '§7Count §e%s§7 %s'
+GUI_GADGETS_GIVE_MONEY: '§7Price §6%s§7 %s'
+GUI_GADGETS_GIVE_GOLDS: '§7Price §e%s§7 %s'
 GUI_GADGETS_NO_GIVE: '§cDo not enough %s'
 GUI_GADGETS_HAT_NO_AVAILABLE: '§cThis hat your not available'
 GUI_GADGETS_BANNER_NO_AVAILABLE: '§cThis banner your not available'
@@ -4661,11 +4661,11 @@ GUI_EFFECTS_UNAVAILABLE_LORE:
 - ''
 - '§cThis item you not available'
 GUI_EFFECTS_BUY_LORE:
-- '§7Count §6%s§7 %s'
+- '§7Price §6%s§7 %s'
 - ''
 - '§e▸ Click, to buy %s'
 GUI_EFFECTS_NO_MONEY_LORE:
-- '§7Count §6%s§7 %s'
+- '§7Price §6%s§7 %s'
 - ''
 - '§cYou need coins'
 GUI_ARROWEFFECTS_SMOKE_LORE:
