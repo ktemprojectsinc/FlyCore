@@ -3484,6 +3484,7 @@ GUI_STAFF_MODERATORS: 'Moderators'
 GUI_STAFF_ADMINS: 'Admins'
 GUI_STAFF_YOUTUBERS: 'YouTubers'
 GUI_STAFF_BUILDERS: 'Builders'
+GUI_STAFF_DEVELOPERS: 'Developers'
 GUI_SETTING_FLY_LORE:
 - '§7Allows to enable or disable'
 - '§7flying in the main lobby and lobby'
