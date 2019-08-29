@@ -4228,6 +4228,10 @@ GUI_SITESHOP_VILLAGER_LORE:
 - ' §8• §7Житель §8x1'
 GUI_SITESHOP_GOLDEN_APPLE_LORE:
 - ' §8• §7Золотые яблоки §8x5'
+GUI_SITESHOP_POWDER_LORE:
+- ' §8• §7Порох §8x12'
+GUI_SITESHOP_TNT_LORE:
+- ' §8• §7TNT §8x10'
 
 SITESHOP_BOOK: 'Книги'
 SITESHOP_ELYTRA: 'Элитра'
@@ -4239,6 +4243,8 @@ SITESHOP_BLAZE: 'Огенный стержень'
 SITESHOP_OBS: 'Обсидиан'
 SITESHOP_VILLAGER: 'Житель'
 SITESHOP_GOLDEN_APPLE: 'Золотые яблоки'
+SITESHOP_POWDER: 'Порох'
+SITESHOP_TNT: 'TNT'
 
 GUI_GAMESERVERS_NAME: 'Выберите тип игры'
 GUI_GAMESERVERS_NAME_MAP: 'Выбор карты'
