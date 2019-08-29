@@ -1884,7 +1884,7 @@ TRAINING_SKIP_MSG_10_TITLE: '§fЕсли Вы хотите создать сво
 TRAINING_SKIP_MSG_10_SUBTITLE: '§fтогда просто пригласите игрока в свою группу - §6/party <ник>'
 TRAINING_SKIP_MSG_11_TITLE: '§fЕсли Вы хотите узнать свою §3Статистику§f,'
 TRAINING_SKIP_MSG_11_SUBTITLE: '§fтогда для этого Вы можете воспользоваться командой - §4/stats'
-TRAINING_SKIP_MSG_12_TITLE: '§fЕсли Вы хотите зависти себе друзей,'
+TRAINING_SKIP_MSG_12_TITLE: '§fЕсли Вы хотите завести себе друзей,'
 TRAINING_SKIP_MSG_12_SUBTITLE: '§fто просто отправьте приглашение в друзья - §4/f add <ник>'
 TRAINING_SKIP_MSG_13_TITLE: '§fХотите просмотреть все §3Гильдии§f, или §6Party§f?,'
 TRAINING_SKIP_MSG_13_SUBTITLE: '§fТогда воспользуйтесь  - §3/guild all§f, §6/party all'
@@ -2635,7 +2635,7 @@ GUI_PROFILE_THEME_LORE:
 - '§e▸ Нажмите, чтобы открыть меню'
 
 GUI_PROFILE_NAME: 'Профиль'
-GUI_THEME_NAME: 'Выбор темы'
+GUI_PROFILE_THEME_NAME: 'Выбор темы'
 GUI_DONATE_NAME: 'Привилегии'
 GUI_DONATE_NAME_TO: '%s ▸ Привилегии'
 GUI_DONATE_TITLE: 'Возможности %s'
