@@ -4736,8 +4736,11 @@ GUI_THEME_SELECTED_LORE:
 GUI_THEME_SELECT_LORE:
 - '§7Сменить тему на: %s'
 - ''
+- '§8• §7Цена §6%s§f %s'
+- '§8• §7Бесплатно для %s§7 и выше'
+- ''
 - '§e▸ Нажмите, чтобы выбрать тему'
-GUI_PREFIX_UNAVAILABLE_LORE:
+GUI_THEME_UNAVAILABLE_LORE:
 - '§7Сменить тему на: %s'
 - ''
 - '§7Можно получить:'
