@@ -2519,7 +2519,7 @@ GUI_PROFILE_LORE:
 
 GUI_PROFILE_SETTING_LORE:
 - '§7Персональные настройки'
-- ' §8▪ §7Кровь: %s'
+- ' §8▪ §7Вконтакте: %s'
 - ' §8▪ §7Полет: %s'
 - ' §8▪ §7Скрытие игроков: %s'
 - ' §8▪ §7Чат: %s'
@@ -3525,6 +3525,7 @@ GUI_STAFF_ITEM_LORE:
 GUI_STAFF_PLAYER_INFO:
 - ''
 - '§7Информация об игроке:'
+- '§8▪ §7VK: §f%s'
 - '§8▪ §7%s: %s'
 GUI_STAFF_PLAYER_ONLINE:
 - '§8▪ §7Сейчас на сервере: §b%s'
@@ -3615,6 +3616,9 @@ GUI_SETTING_DONATECHAT_LORE:
 - '§7Позволяет включить или выключить'
 - '§7чат донатеров §f/dc'
 - '§7через весь сервер'
+GUI_SETTING_VK_LORE:
+- '§7Позволяет включить или выключить'
+- '§7отображение вашего VK другим игрокам'
 GUI_SETTING_UNAVAILABLE_LORE:
 - ''
 - '§cНедоступно!'
@@ -3622,6 +3626,7 @@ GUI_SETTING_UNAVAILABLE_LORE:
 
 GUI_SETTING_FLY: 'Полет'
 GUI_SETTING_BLOOD: 'Кровь'
+GUI_SETTING_VK: 'Вконтакте'
 GUI_SETTING_HIDE: 'Скрытие игроков'
 GUI_SETTING_CHAT: 'Чат'
 GUI_SETTING_MUSIC: 'Музыка'
@@ -3821,6 +3826,7 @@ GUI_FRIENDS_LORE:
 - ''
 - '§7Информация об друге:'
 - '§8▪ §7Уровень: §d%s'
+- '§8▪ §7VK: §f%s'
 - '§8▪ §7Версия: §3%s'
 GUI_FRIENDS_ONLINE_LORE:
 - ''
