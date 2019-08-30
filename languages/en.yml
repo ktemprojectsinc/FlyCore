@@ -2513,7 +2513,7 @@ GUI_PROFILE_LORE:
 - '§8• §7Vk: §e%s'
 GUI_PROFILE_SETTING_LORE:
 - '§7Personal settings'
-- ' §8▪ §7VK: %s'
+- ' §8▪ §7VKontakte: %s'
 - ' §8▪ §7Fly: %s'
 - ' §8▪ §7Hide player waiting: %s'
 - ' §8▪ §7Chat: %s'
@@ -3551,7 +3551,7 @@ GUI_SETTING_UNAVAILABLE_LORE:
 - '§7Available for %s§7 or higher'
 GUI_SETTING_FLY: 'Fly'
 GUI_SETTING_BLOOD: 'Blood'
-GUI_SETTING_VK: 'VK'
+GUI_SETTING_VK: 'VKontakte'
 GUI_SETTING_HIDE: 'Hide player'
 GUI_SETTING_CHAT: 'Chat'
 GUI_SETTING_MUSIC: 'Music'
