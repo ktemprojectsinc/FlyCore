@@ -2513,7 +2513,7 @@ GUI_PROFILE_LORE:
 - '§8• §7Vk: §e%s'
 GUI_PROFILE_SETTING_LORE:
 - '§7Personal settings'
-- ' §8▪ §7Blood: %s'
+- ' §8▪ §7VK: %s'
 - ' §8▪ §7Fly: %s'
 - ' §8▪ §7Hide player waiting: %s'
 - ' §8▪ §7Chat: %s'
@@ -3455,6 +3455,7 @@ GUI_STAFF_ITEM_LORE:
 GUI_STAFF_PLAYER_INFO:
 - ''
 - '§7Player information:'
+- '§8▪ §7VK: §f%s'
 - '§8▪ §7%s: %s'
 GUI_STAFF_PLAYER_ONLINE:
 - '§8▪ §7Now on the server: §b%s'
@@ -3541,12 +3542,16 @@ GUI_SETTING_DONATECHAT_LORE:
 - '§7Allows to enable or disable'
 - '§7donaters chat §f/dc'
 - '§7through the all server'
+GUI_SETTING_VK_LORE:
+- '§7Позволяет включить или выключить'
+- '§7отображение вашего VK другим игрокам'
 GUI_SETTING_UNAVAILABLE_LORE:
 - ''
 - '§cNo available!'
 - '§7Available for %s§7 or higher'
 GUI_SETTING_FLY: 'Fly'
 GUI_SETTING_BLOOD: 'Blood'
+GUI_SETTING_VK: 'VK'
 GUI_SETTING_HIDE: 'Hide player'
 GUI_SETTING_CHAT: 'Chat'
 GUI_SETTING_MUSIC: 'Music'
@@ -3741,6 +3746,7 @@ GUI_FRIENDS_LORE:
 - ''
 - '§7Friend info:'
 - '§8▪ §7Level: §d%s'
+- '§8▪ §7VK: §f%s'
 - '§8▪ §7Version: §3%s'
 GUI_FRIENDS_ONLINE_LORE:
 - ''
