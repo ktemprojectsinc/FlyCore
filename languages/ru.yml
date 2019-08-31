@@ -3539,7 +3539,7 @@ GUI_STAFFLIST_LORE:
 - '%s'
 - ''
 - ' §e▶ Нажмите, чтобы открыть'
-- ' §eсписок персонала'
+- ' §eсписок %s'
 
 GUI_STAFFLIST_ONLINE_LORE:
 - ''
