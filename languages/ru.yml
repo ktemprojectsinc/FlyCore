@@ -3481,7 +3481,7 @@ GUI_GROUP_NO_FOUND_LORE:
 - '§7состоящего в %s.'
 GUI_DEFAULT: 'Игроков'
 GUI_GOLD: 'Голдов'
-GUI_EMERALD: 'Эмеральдом'
+GUI_EMERALD: 'Эмеральдов'
 GUI_GOLEM: 'Големов'
 GUI_DIAMOND: 'Даймондов'
 GUI_ENDERMAN: 'Эндерменов'
