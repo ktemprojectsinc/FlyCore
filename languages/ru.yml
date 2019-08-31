@@ -3470,11 +3470,8 @@ GUI_GAMES_DONATE_LORE:
 GUI_GAMES_LOBBY_LORE:
 - '§7Вернутся в главное лобби'
 
-
-GUI_YOUTUBERS_NAME: 'Список ютуберов'
-GUI_BUILDERS_NAME: 'Список строителей'
-GUI_DEVELOPERS_NAME: 'Список разработчиков'
-GUI_STAFF_NAME: 'Список персонала (%s)'
+GUI_STAFF_AND_DONATE_ITEM: 'Список %s'
+GUI_STAFF_AND_DONATE_NAME: 'Список персонала и донатеров (%s)'
 GUI_GROUP_NAME: 'Список игроков с группой - %s'
 GUI_GROUP_NO_FOUND: '§cВ данный момент нет людей состоящих в %s'
 GUI_GROUP_NO_FOUND_LORE:
@@ -3482,11 +3479,6 @@ GUI_GROUP_NO_FOUND_LORE:
 - '§7В данный момент,'
 - '§7нет ни одного человека,'
 - '§7состоящего в %s.'
-GUI_YOUTUBERS_ITEM: '§eСписок ютуберов'
-GUI_BUILDERS_ITEM: '§eСписок строителей'
-GUI_DEVELOPERS_ITEM: '§eСписок разработчиков'
-GUI_STAFF_ITEM: '§eСписок персонала'
-GUI_GROUP_ITEM: '§eСписок игроков с группой - %s'
 GUI_DEFAULT: 'Игроков'
 GUI_GOLD: 'Голдов'
 GUI_EMERALD: 'Эмеральдом'
