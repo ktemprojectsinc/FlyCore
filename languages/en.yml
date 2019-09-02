@@ -2417,9 +2417,15 @@ QUESTION_SUCCESS_MSG_INFO:
 - '§aExamples §8| §fAnd also do not forger about top of answers on sums /goto top, in that can get exaclty You!'
 - ''
 
-GOTO_TOP: '§aSums §8| §fTop §a7§f players:'
+GOTO_TOP: '§aSums §8| §fTop §a7§f players for all times:'
+GOTO_TOP_WEEK: '§aSums §8| §fTop §a7§f players for week:'
+GOTO_TOP_MONTH: '§aSums §8| §fTop §a7§f players for month:'
 GOTO_TOP_FORMAT: ' §c#%s §f- %s §fdone sums - §b%s'
-GOTO_TOP_YOUR: '§aSums §8| §fYou have done sums: §a%s'
+GOTO_TOP_YOUR:
+- '§aSums §8| §fYou have done sums:'
+- '§8- §fFor all times: §a%s'
+- '§8- §fFor month: §a%s'
+- '§8- §fFor week: §a%s'
 
 NICK_FORMAT: '/nick <nick/off>'
 NICK_ALREADY: '§aNick change §8| §cCurrent nick already used'
