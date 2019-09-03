@@ -2678,7 +2678,7 @@ GUI_DONATE_FAQ_GOLEM: []
 GUI_DONATE_FAQ_DIAMOND: []
 GUI_DONATE_FAQ_ENDERMAN: []
 
-GUI_GOLD_ALL_LORE:
+GUI_DONATE_GOLD_ALL_LORE:
 - ''
 - ' §8▪ §7Префикс %s'
 - ' §8▪ §7Приветствие при входе'
@@ -2694,11 +2694,11 @@ GUI_GOLD_ALL_LORE:
 - ' §8▪ §7Доступен запуск салюта - §f/fw'
 - ' §8▪ §7Доступен чат донатеров - §f/dc'
 - ''
-GUI_GOLD_BEDWARS_LORE:
+GUI_DONATE_GOLD_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Снижена задержка на прыжок (§c25 сек§7)'
 - ''
-GUI_GOLD_ANARCHY_LORE:
+GUI_DONATE_GOLD_ANARCHY_LORE:
 - ''
 - ' §8▪ §7Открыть GUI верстака - §f/workbench'
 - ' §8▪ §7Сменить погоду для себя - §f/pweather'
@@ -2709,26 +2709,26 @@ GUI_GOLD_ANARCHY_LORE:
 - ' §8▪ §7Установить время для себя - §f/ptime'
 - ' §8▪ §7Особый набор вещей каждый день (§f/kit gold§7)'
 - ''
-GUI_GOLD_CREATIVE_LORE:
+GUI_DONATE_GOLD_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Доступно §c3§7 участка (§f/p auto§7)'
 - ' §8▪ §7Доступно §c2§7 варпа (§f/setwarp <название>§7)'
 - ' §8▪ §7Доступ к AST (создание крутых стоек для брони)'
 - ''
-GUI_GOLD_PARKOUR_LORE:
+GUI_DONATE_GOLD_PARKOUR_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
-GUI_GOLD_LUCKYWARS_LORE:
+GUI_DONATE_GOLD_LUCKYWARS_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
-GUI_GOLD_SURVIVAL_LORE:
+GUI_DONATE_GOLD_SURVIVAL_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
 
-GUI_DIAMOND_ALL_LORE:
+GUI_DONATE_DIAMOND_ALL_LORE:
 - ''
 - ' §8▪ §7Префикс %s'
 - ' §8▪ §7Приветствие при входе'
@@ -2753,13 +2753,13 @@ GUI_DIAMOND_ALL_LORE:
 - ' §8▪ §7Увеличен лимит на получение монет до §f12,000§7 монет'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f15,000§7 монет'
 - ''
-GUI_DIAMOND_BEDWARS_LORE:
+GUI_DONATE_DIAMOND_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Доступны скрытые перки'
 - ' §8▪ §7Снижена задержка на прыжок (§c23 сек§7)'
 - ' §8▪ §7Снижена задержка при респавне (§c2 сек§7)'
 - ''
-GUI_DIAMOND_ANARCHY_LORE:
+GUI_DONATE_DIAMOND_ANARCHY_LORE:
 - ''
 - ' §8▪ §7Открыть GUI верстака - §f/workbench'
 - ' §8▪ §7Доступна починка предметов - §f/repair'
@@ -2773,27 +2773,27 @@ GUI_DIAMOND_ANARCHY_LORE:
 - ' §8▪ §7Установить время для себя - §f/ptime'
 - ' §8▪ §7Особый набор вещей каждый день (§f/kit diamond§7)'
 - ''
-GUI_DIAMOND_CREATIVE_LORE:
+GUI_DONATE_DIAMOND_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Доступно §c4§7 участка (§f/p auto§7)'
 - ' §8▪ §7Доступно §c2§7 варпа (§f/setwarp <название>§7)'
 - ' §8▪ §7Доступны все команды из WorldEdit'
 - ' §8▪ §7Доступ к AST (создание крутых стоек для брони)'
 - ''
-GUI_DIAMOND_PARKOUR_LORE:
+GUI_DONATE_DIAMOND_PARKOUR_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
-GUI_DIAMOND_LUCKYWARS_LORE:
+GUI_DONATE_DIAMOND_LUCKYWARS_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
-GUI_DIAMOND_SURVIVAL_LORE:
+GUI_DONATE_DIAMOND_SURVIVAL_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
 
-GUI_EMERALD_ALL_LORE:
+GUI_DONATE_EMERALD_ALL_LORE:
 - ''
 - ' §8▪ §7Префикс %s'
 - ' §8▪ §7Приветствие при входе'
@@ -2819,7 +2819,7 @@ GUI_EMERALD_ALL_LORE:
 - ' §8▪ §7Увеличен лимит на получение монет до §f15,000§7 монет'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f20,000§7 монет'
 - ''
-GUI_EMERALD_BEDWARS_LORE:
+GUI_DONATE_EMERALD_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Доступны скрытые перки'
 - ' §8▪ §7Снижена задержка на прыжок (§c17 сек§7)'
@@ -2827,7 +2827,7 @@ GUI_EMERALD_BEDWARS_LORE:
 - ' §8▪ §7Снижена задержка §9телепортации на спавн§7 (§c3 сек§7)'
 - ' §8▪ §7Открыть GUI стола зачарований - §f/ie'
 - ''
-GUI_EMERALD_ANARCHY_LORE:
+GUI_DONATE_EMERALD_ANARCHY_LORE:
 - ''
 - ' §8▪ §7Нет задержки при телепортации'
 - ' §8▪ §7Открыть GUI верстака - §f/workbench'
@@ -2843,27 +2843,27 @@ GUI_EMERALD_ANARCHY_LORE:
 - ' §8▪ §7Установить время для себя - §f/ptime'
 - ' §8▪ §7Особый набор вещей каждый день (§f/kit emerald§7)'
 - ''
-GUI_EMERALD_CREATIVE_LORE:
+GUI_DONATE_EMERALD_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Доступно §c5§7 участков (§f/p auto§7)'
 - ' §8▪ §7Доступно §c3§7 варпов (§f/setwarp <название>§7)'
 - ' §8▪ §7Доступны все команды из WorldEdit'
 - ' §8▪ §7Доступ к AST (создание крутых стоек для брони)'
 - ''
-GUI_EMERALD_PARKOUR_LORE:
+GUI_DONATE_EMERALD_PARKOUR_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
-GUI_EMERALD_LUCKYWARS_LORE:
+GUI_DONATE_EMERALD_LUCKYWARS_LORE:
 - ''
 - ' §8▪ §7Открыть GUI стола зачарований - §f/ie'
 - ''
-GUI_EMERALD_SURVIVAL_LORE:
+GUI_DONATE_EMERALD_SURVIVAL_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
 
-GUI_GOLEM_ALL_LORE:
+GUI_DONATE_GOLEM_ALL_LORE:
 - ''
 - ' §8▪ §7Префикс %s'
 - ' §8▪ §7Приветствие при входе'
@@ -2892,7 +2892,7 @@ GUI_GOLEM_ALL_LORE:
 - ' §8▪ §7Увеличен лимит на получение монет до §f20,000§7 монет'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f30,000§7 монет'
 - ''
-GUI_GOLEM_BEDWARS_LORE:
+GUI_DONATE_GOLEM_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Доступны скрытые перки'
 - ' §8▪ §7Снижена задержка на прыжок (§c15 сек§7)'
@@ -2900,13 +2900,13 @@ GUI_GOLEM_BEDWARS_LORE:
 - ' §8▪ §7Снижена задержка §9телепортации на спавн§7 (§c2 сек§7)'
 - ' §8▪ §7Открыть GUI стола зачарований - §f/ie'
 - ''
-GUI_GOLEM_SKYWARS_LORE:
+GUI_DONATE_GOLEM_SKYWARS_LORE:
 - ''
 - ' §8▪ §7Доступны скрытые перки'
 - ' §8▪ §7Открыть GUI верстака - §f/workbench'
 - ' §8▪ §7Открыть GUI стола зачарований - §f/ie'
 - ''
-GUI_GOLEM_ANARCHY_LORE:
+GUI_DONATE_GOLEM_ANARCHY_LORE:
 - ''
 - ' §8▪ §7Нет задержки при телепортации'
 - ' §8▪ §7Открыть GUI верстака - §f/workbench'
@@ -2923,7 +2923,7 @@ GUI_GOLEM_ANARCHY_LORE:
 - ' §8▪ §7Установить время для себя - §f/ptime'
 - ' §8▪ §7Особый набор вещей каждый день (§f/kit golem§7)'
 - ''
-GUI_GOLEM_CREATIVE_LORE:
+GUI_DONATE_GOLEM_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Доступно §c5§7 участков (§f/p auto§7)'
 - ' §8▪ §7Доступно §c4§7 варпа (§f/setwarp <название>§7)'
@@ -2932,20 +2932,20 @@ GUI_GOLEM_CREATIVE_LORE:
 - ' §8▪ §7Большой лимит на сет блоков за одну операцию'
 - ' §8▪ §7Доступ к AST (создание крутых стоек для брони)'
 - ''
-GUI_GOLEM_PARKOUR_LORE:
+GUI_DONATE_GOLEM_PARKOUR_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
-GUI_GOLEM_LUCKYWARS_LORE:
+GUI_DONATE_GOLEM_LUCKYWARS_LORE:
 - ''
 - ' §8▪ §7Открыть GUI стола зачарований - §f/ie'
 - ''
-GUI_GOLEM_SURVIVAL_LORE:
+GUI_DONATE_GOLEM_SURVIVAL_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
 
-GUI_ENDERMAN_ALL_LORE:
+GUI_DONATE_ENDERMAN_ALL_LORE:
 - ''
 - ' §8▪ §7Префикс %s'
 - ' §8▪ §7Приветствие при входе'
@@ -2979,7 +2979,7 @@ GUI_ENDERMAN_ALL_LORE:
 - ' §8▪ §7Увеличен лимит на получение монет до §f20,000§7 монет'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f30,000§7 монет'
 - ''
-GUI_ENDERMAN_BEDWARS_LORE:
+GUI_DONATE_ENDERMAN_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Доступны скрытые перки'
 - ' §8▪ §7Снижена задержка на прыжок (§c10 сек§7)'
@@ -2987,7 +2987,7 @@ GUI_ENDERMAN_BEDWARS_LORE:
 - ' §8▪ §7Снижена задержка §9телепортации на спавн§7 (§c2 сек§7)'
 - ' §8▪ §7Открыть GUI стола зачарований - §f/ie'
 - ''
-GUI_ENDERMAN_ANARCHY_LORE:
+GUI_DONATE_ENDERMAN_ANARCHY_LORE:
 - ''
 - ' §8▪ §7Нет задержки при телепортации'
 - ' §8▪ §7Открыть GUI верстака - §f/workbench'
@@ -3004,7 +3004,7 @@ GUI_ENDERMAN_ANARCHY_LORE:
 - ' §8▪ §7Установить время для себя - §f/ptime'
 - ' §8▪ §7Особый набор вещей каждый день (§f/kit enderman§7)'
 - ''
-GUI_ENDERMAN_CREATIVE_LORE:
+GUI_DONATE_ENDERMAN_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Доступно §c6§7 участков (§f/p auto§7)'
 - ' §8▪ §7Доступно §c4§7 варпа (§f/setwarp <название>§7)'
@@ -3012,15 +3012,15 @@ GUI_ENDERMAN_CREATIVE_LORE:
 - ' §8▪ §7Большой лимит на сет блоков за одну операцию'
 - ' §8▪ §7Доступ к AST (создание крутых стоек для брони)'
 - ''
-GUI_ENDERMAN_PARKOUR_LORE:
+GUI_DONATE_ENDERMAN_PARKOUR_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
-GUI_ENDERMAN_LUCKYWARS_LORE:
+GUI_DONATE_ENDERMAN_LUCKYWARS_LORE:
 - ''
 - ' §8▪ §7Открыть GUI стола зачарований - §f/ie'
 - ''
-GUI_ENDERMAN_SURVIVAL_LORE:
+GUI_DONATE_ENDERMAN_SURVIVAL_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
