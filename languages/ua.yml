@@ -10,7 +10,7 @@ DISABLE: '§cВимкнути'
 PROMO_ITEM_NAME: '§aСКИДКИ!'
 HIDDEN: '§cСкрыт'
 NOT_SETS: '§cНе установлено'
-BANINFO_BY_ANOTHER: '§7[за проханням %s§7]'
+BANINFO_BY_ANOTHER: '§7(за проханням %s§7)'
 SERVER_REDIRECT: '§aСервер §8| §fВы подключены к серверу §a%s'
 BAN_REQUEST_SENT: '§eВаше прохання заблокувати цього гравця надіслано всім онлайн-модераторам'
 BAN_REQUEST_ALREADY_SENT: '§cПрохання заблокувати даного гравця вже надіслано, очікуйте рішення'
@@ -2376,7 +2376,7 @@ QUESTION_SUCCESS_MSG_INFO:
 
 GOTO_TOP: '§aПримеры §8| §fТоп §a7§f игроков:'
 GOTO_TOP_WEEK: '§aПримеры §8| §fТоп §a5§f игроков за неделю:'
-GOTO_TOP_MONTH: '§aПримеры §8| §fТоп §a5§f игроков месяц:'
+GOTO_TOP_MONTH: '§aПримеры §8| §fТоп §a5§f игроков за месяц:'
 GOTO_TOP_FORMAT: ' §c#%s §f- %s §fрешенных примеров - §b%s'
 GOTO_TOP_YOUR:
 - '§aПримеры §8| §fУ вас решенных примеров:'
