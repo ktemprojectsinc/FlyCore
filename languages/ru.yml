@@ -2180,6 +2180,7 @@ HIDE_INFO: '§4§lВнимание! §cУ вас включено скрытие
 
 YOUTUBE_NOT_FOUND: '§aYouTube §8| §fСейчас у вас нет ссылки, добавьте её §c/yt addlink <ссылка на канал>'
 YOUTUBE_INFO: '§6§lYouTube §fканал » §3§l%s'
+YOUTUBE_OTHER: '§aСервер §8| §fУ %s§f YouTube канал: §b%s'
 
 JOIN_TO_LOBBY: ' §a▸ %s §6%s на сервер'
 
