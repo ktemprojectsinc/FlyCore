@@ -2152,6 +2152,10 @@ PARKOUR_MODULE: '§aПаркур §8| §fМодуль §e%s§7/§a%s§f дост
 PARKOUR_MODULE_TITLE: '§fМодуль §e%s§7/§a%s§f пройден'
 PARKOUR_MODULE_ALREADY: '§aПаркур §8| §cВы уже прошли этот модуль'
 PARKOUR_MODULE_NO: '§aПаркур §8| §cВы не прошли через модуль'
+PARKOUR_TIME_HOURS: 'часов'
+PARKOUR_TIME_MINUTES: 'минут'
+PARKOUR_TIME_SECONDS: 'секунд'
+PARKOUR_TIME_MILLISECONDS: 'милли секунд'
 
 NO_PERMISSION_STATS: '§cОшибка, просматривать статистику других игроков может только %s§c и выше'
 STAFFCHAT_ENABLED: '§cМодерация §8| %s§7 снова видит чат персонала'
