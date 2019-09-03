@@ -2437,7 +2437,7 @@ QUESTION_SUCCESS_MSG_INFO:
 
 GOTO_TOP: '§aПримеры §8| §fТоп §a%s§f игроков за все время:'
 GOTO_TOP_WEEK: '§aПримеры §8| §fТоп §a%s§f игроков за неделю:'
-GOTO_TOP_MONTH: '§aПримеры §8| §fТоп §a%s§f игроков месяц:'
+GOTO_TOP_MONTH: '§aПримеры §8| §fТоп §a%s§f игроков за месяц:'
 GOTO_TOP_FORMAT: ' §c#%s §f- %s §fрешенных примеров - §b%s'
 GOTO_TOP_YOUR:
 - '§aПримеры §8| §fУ вас решенных примеров:'
