@@ -2168,7 +2168,8 @@ CHAT_DISABLE: '§cYou have got disabled chat!'
 HIDE_INFO: '§4§lWarning! §cYou are hided!'
 
 YOUTUBE_NOT_FOUND: "§aYouTube §8| §cYou don't have got link, add it /yt addlink <channel link>"
-YOUTUBE_INFO: '§6§lYouTube §fchannel » §3§l%s'
+YOUTUBE_INFO: '§6§lYouTube §fchannel » §3§l%s
+YOUTUBE_OTHER: '§aServer §8| §fOn %s§f YouTube channel: §b%s''
 
 JOIN_TO_LOBBY: ' §a▸ %s §6joined to server'
 
