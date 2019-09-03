@@ -2408,7 +2408,7 @@ TRADE_NO_READY_NAME: '§cНе готов'
 
 QUESTION_MSG_INFO: "\n§aSums §8| §fWant to earn §6coins§f, §aexperience§f?\n§aSums §8| §fThen solve a little sums.\n§aSums §8| §fHow much will be §6%s§f+§6%s§f = §a/goto <your answer>\n"
 QUESTION_HOVER_MSG_INFO: '§fClick here,\n§for write /goto <answer>\n§fTo answer the sum'
-GOTO_FORMAT: '/goto <your answer>'
+GOTO_FORMAT: '/goto <top/your answer>'
 QUESTION_NOT_FOUND: '§cThere is someone who already answered, wait for a new one'
 QUESTION_WRONG: '§cSorry, this is wrong answer'
 QUESTION_SUCCESS: '§aSums §8| §fCongratulations! You answered right on sum, and got §a%s§f %s'
