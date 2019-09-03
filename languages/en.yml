@@ -12,6 +12,7 @@ DISABLE: '§cDisable'
 PROMO_ITEM_NAME: '§aDISCOUNT!'
 HIDDEN: '§cHide'
 NOT_SETS: '§cNot set'
+SLOT_EMPTY: '§cEmpty slot'
 
 BANINFO_BY_ANOTHER: '§7(By request %s§7)'
 
@@ -1393,7 +1394,7 @@ GUILD_OFFLINE: '§cAll guild members are offline'
 GUILD_CHAT: '§2Guild chat §8| %s §8» §7%s'
 
 GUILD_COMMAND_HELP:
-- '§7/g create <name> §f- create guild'
+- '§7/g create <name> §f- create guild (create guild price - §a15,000§f coins)'
 - '§7/g top §f- see guilds top'
 - '§7/g accept <player nickname> §f- accept guild invite'
 - '§7/g reject <player nickname> §f- reject guild invite'
@@ -1495,6 +1496,8 @@ GUILD_TAG_FORMAT: '/guild tag <tag>'
 GUILD_TAG_LIMIT: "§aGuilds §8| §fGuild tag doesn't have to be more than §c%s§f characters"
 GUILD_TAG_ALERT: '§2Guild §8| %s§7 set guild tag -> §e%s'
 GUILD_TAG: '§aGuilds §8| §fGuild tag set to §a%s'
+GUILD_TAG_RESET_ALERT: '§2Гильдии §8| %s§7 установил удалил тег гильдии'
+GUILD_TAG_RESET: '§aГильдия §8| §fТег гильдии удален'
 GUILD_TAG_NO_MONEY: '§cGuild lacks %s coins to change tag'
 GUILD_TAG_NO_BUY: "§cYou haven't got guild tag, buy it in /guild shop"
 
@@ -2463,7 +2466,7 @@ FORMATNAME: ' §8▪ %s'
 FORMATNAME_NOT_FOUND: '§aServer §8| §fFor request §a%s§f nothing found'
 FORMATNAME_FINISH: '§aServer §8| §fSearch complete. Request took §6%sms§f found: §a%s'
 
-SENDMONEY_FORMAT: '/sendmoney <player name> <sum>'
+SENDMONEY_FORMAT: '/pay <player name> <sum>'
 SENDMONEY_YOU: '§cYou can not send money to yourself'
 SENDMONEY_SEND: '§aServer §8| §fYou succesfully send §a%s §f%s to player %s§f. Comission by paying made up §c%s §f%s (§e%s§f)'
 SENDMONEY_ERROR_SEND: '§cError, you can not send %s %s, because your daily limit on sending money must not exceed %s %s'
@@ -2473,6 +2476,15 @@ SENDMONEY_NO_LEVEL_YOU: '§cError, you can not send money, your level is above 1
 SENDMONEY_NO_LEVEL_OTHER: '§cError, you can not send money to this player. His level is above 10!'
 SENDMONEY_NO_MONEY: '§cError, there is not enough money on your balance! Including commission %s you must have %s %s on your balance'
 SENDMONEY_ERROR_MONEY: '§cError, you can not send amounts lower than %s and higher than %s at a one time!'
+
+VK_NOT_LINK: '§6VK-bot §8| §fДанный игрок не привязал свой аккаунт к §9VK §fботу'
+VK_HIDE: '§cДанный игрок запретил узнавать его страницу VK'
+VK_FORMAT: '/vk <player name>'
+VK_OTHER: '§6VK-bot §8| §fУ пользователя %s §fпривязан аккаунт §7%s'
+VK: '§6VK-bot §8| §fК вашему аккаунту привязан профиль §7%s'
+VK_NOT_LINK_YOU: '§6VK-bot §8| §fК вашему аккаунту не привязан профиль §9VK'
+VK_SENT_MESSAGE_FORMAT: ' §6PM §8| §6I §8-> §6%s§7 (VK) §8| §f%s'
+VK_RECIEVED_MESSAGE_FORMAT: ' §6PM §8| §6%s§7 (VK) §8-> §6I §8| §f%s'
 
 COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
@@ -2641,7 +2653,7 @@ GUI_DONATE_FAQ_GOLEM: []
 GUI_DONATE_FAQ_DIAMOND: []
 GUI_DONATE_FAQ_ENDERMAN: []
 
-GUI_GOLD_ALL_LORE:
+GUI_DONATE_GOLD_ALL_LORE:
 - ''
 - ' §8▪ §7Prefix §e§lGOLD'
 - ' §8▪ §7The greeting at the entrance'
@@ -2651,14 +2663,16 @@ GUI_GOLD_ALL_LORE:
 - ' §8▪ §7Ability to write in capital letters'
 - ' §8▪ §7Coin multiplier §fx1.5'
 - ' §8▪ §7You can have up to §c30§7 friends'
+- ' §8▪ §7Увеличен лимит на получение монет до §f8,000§7 coins'
+- ' §8▪ §7Увеличен лимит на отправку монет до §f10,000§7 coins'
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
 - ' §8▪ §7Available donate chat - §f/dc'
 - ''
-GUI_GOLD_BEDWARS_LORE:
+GUI_DONATE_GOLD_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Reduced delay on jump (§c25 sec§7)'
 - ''
-GUI_GOLD_ANARCHY_LORE:
+GUI_DONATE_GOLD_ANARCHY_LORE:
 - ''
 - ' §8▪ §7Open GUI of the workbench - §f/workbench'
 - ' §8▪ §7Set the weather for yourself - §f/pweather'
@@ -2670,25 +2684,25 @@ GUI_GOLD_ANARCHY_LORE:
 - ' §8▪ §7Set the time for yourself - §f/ptime'
 - ' §8▪ §7A special kits things every day (§f/kit gold§7)'
 - ''
-GUI_GOLD_CREATIVE_LORE:
+GUI_DONATE_GOLD_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Available §c3§7 plots (§f/p auto§7)'
 - ' §8▪ §7Available §c2§7 warps (§f/setwarp <name>§7)'
 - ' §8▪ §7Available AST (create amazing armor stands)'
 - ''
-GUI_GOLD_PARKOUR_LORE:
+GUI_DONATE_GOLD_PARKOUR_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_GOLD_LUCKYWARS_LORE:
+GUI_DONATE_GOLD_LUCKYWARS_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_GOLD_SURVIVAL_LORE:
+GUI_DONATE_GOLD_SURVIVAL_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DIAMOND_ALL_LORE:
+GUI_DONATE_DIAMOND_ALL_LORE:
 - ''
 - ' §8▪ §7Prefix %s'
 - ' §8▪ §7The greeting at the entrance'
@@ -2706,14 +2720,18 @@ GUI_DIAMOND_ALL_LORE:
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
 - ' §8▪ §7Available donate chat - §f/dc'
 - ' §8▪ §7You can have up to §c40§7 friends'
+- " §8▪ §7Сниженная комиссия при переводе денег §f10%"
+- " §8▪ §7Сниженная комиссия при конвертировании монет §f6%§7, золота §f3%"
+- ' §8▪ §7Увеличен лимит на получение монет до §f12,000§7 coins'
+- ' §8▪ §7Увеличен лимит на отправку монет до §f15,000§7 coins'
 - ''
-GUI_DIAMOND_BEDWARS_LORE:
+GUI_DONATE_DIAMOND_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Available hidden perks'
 - ' §8▪ §7Reduced delay on jump (§c23 sec§7)'
 - ' §8▪ §7Reduced delay on respawn (§c2 sec§7)'
 - ''
-GUI_DIAMOND_ANARCHY_LORE:
+GUI_DONATE_DIAMOND_ANARCHY_LORE:
 - ''
 - ' §8▪ §7Open GUI of the workbench - §f/workbench'
 - ' §8▪ §7Items can be fixed by free - §f/repair'
@@ -2729,26 +2747,26 @@ GUI_DIAMOND_ANARCHY_LORE:
 - ' §8▪ §7Set the time for yourself - §f/ptime'
 - ' §8▪ §7A special kits things every day (§f/kit diamond§7)'
 - ''
-GUI_DIAMOND_CREATIVE_LORE:
+GUI_DONATE_DIAMOND_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Available §c4§7 plots (§f/p auto§7)'
 - ' §8▪ §7Available §c2§7 warps (§f/setwarp <name>§7)'
 - ' §8▪ §7Available all commands WorldEdit'
 - ' §8▪ §7Available AST (create amazing armor stands)'
 - ''
-GUI_DIAMOND_PARKOUR_LORE:
+GUI_DONATE_DIAMOND_PARKOUR_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DIAMOND_LUCKYWARS_LORE:
+GUI_DONATE_DIAMOND_LUCKYWARS_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DIAMOND_SURVIVAL_LORE:
+GUI_DONATE_DIAMOND_SURVIVAL_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_EMERALD_ALL_LORE:
+GUI_DONATE_EMERALD_ALL_LORE:
 - ''
 - ' §8▪ §7Prefix %s'
 - ' §8▪ §7The greeting at the entrance'
@@ -2765,8 +2783,12 @@ GUI_EMERALD_ALL_LORE:
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
 - ' §8▪ §7Available donate chat - §f/dc'
 - ' §8▪ §7You can have up to §c50§7 friends'
+- ' §8▪ §7Сниженная комиссия при переводе денег §f10%'
+- ' §8▪ §7Сниженная комиссия при конвертировании монет §f6%§7, золота §f3%'
+- ' §8▪ §7Увеличен лимит на получение монет до §f15,000§7 coins'
+- ' §8▪ §7Увеличен лимит на отправку монет до §f20,000§7 coins'
 - ''
-GUI_EMERALD_BEDWARS_LORE:
+GUI_DONATE_EMERALD_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Available hidden perks'
 - ' §8▪ §7Reduced delay on jump (§c17 sec§7)'
@@ -2774,7 +2796,7 @@ GUI_EMERALD_BEDWARS_LORE:
 - ' §8▪ §7Reduced delay of §9teleportation on spawn§7 (§c1 sec§7)'
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_EMERALD_ANARCHY_LORE:
+GUI_DONATE_EMERALD_ANARCHY_LORE:
 - ''
 - ' §8▪ §7No delay in teleportation'
 - ' §8▪ §7Open GUI of the workbench - §f/workbench'
@@ -2791,26 +2813,26 @@ GUI_EMERALD_ANARCHY_LORE:
 - ' §8▪ §7Set the time for yourself - §f/ptime'
 - ' §8▪ §7A special kits things every day (§f/kit emerald§7)'
 - ''
-GUI_EMERALD_CREATIVE_LORE:
+GUI_DONATE_EMERALD_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Available §c5§7 plots (§f/p auto§7)'
 - ' §8▪ §7Available §c3§7 warps (§f/setwarp <name>§7)'
 - ' §8▪ §7Available all commands WorldEdit'
 - ' §8▪ §7Available AST (create amazing armor stands)'
 - ''
-GUI_EMERALD_PARKOUR_LORE:
+GUI_DONATE_EMERALD_PARKOUR_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_EMERALD_LUCKYWARS_LORE:
+GUI_DONATE_EMERALD_LUCKYWARS_LORE:
 - ''
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_EMERALD_SURVIVAL_LORE:
+GUI_DONATE_EMERALD_SURVIVAL_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_GOLEM_ALL_LORE:
+GUI_DONATE_GOLEM_ALL_LORE:
 - ''
 - ' §8▪ §7Prefix %s'
 - ' §8▪ §7The greeting at the entrance'
@@ -2830,8 +2852,12 @@ GUI_GOLEM_ALL_LORE:
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
 - ' §8▪ §7Available donate chat - §f/dc'
 - ' §8▪ §7You can have up to §c65§7 friends'
+- ' §8▪ §7Сниженная комиссия при переводе денег §f8%'
+- ' §8▪ §7Сниженная комиссия при конвертировании монет §f4%§7, золота §f2%'
+- ' §8▪ §7Увеличен лимит на получение монет до §f20,000§7 coins'
+- ' §8▪ §7Увеличен лимит на отправку монет до §f30,000§7 coins'
 - ''
-GUI_GOLEM_BEDWARS_LORE:
+GUI_DONATE_GOLEM_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Available hidden perks'
 - ' §8▪ §7No delay in the revisal'
@@ -2839,7 +2865,7 @@ GUI_GOLEM_BEDWARS_LORE:
 - ' §8▪ §7Reduced delay of §9teleportation on spawn§7 (§c2 sec§7)'
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_GOLEM_ANARCHY_LORE:
+GUI_DONATE_GOLEM_ANARCHY_LORE:
 - ''
 - ' §8▪ §7No delay in teleportation'
 - ' §8▪ §7Open GUI of the workbench - §f/workbench'
@@ -2857,7 +2883,7 @@ GUI_GOLEM_ANARCHY_LORE:
 - ' §8▪ §7Set the time for yourself - §f/ptime'
 - ' §8▪ §7A special kits things every day (§f/kit golem§7)'
 - ''
-GUI_GOLEM_CREATIVE_LORE:
+GUI_DONATE_GOLEM_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Available §c5§7 plots (§f/p auto§7)'
 - ' §8▪ §7Available §c4§7 warps (§f/setwarp <name>§7)'
@@ -2865,19 +2891,19 @@ GUI_GOLEM_CREATIVE_LORE:
 - ' §8▪ §7Big limit on the set blocks in one operation'
 - ' §8▪ §7Available AST (create amazing armor stands)'
 - ''
-GUI_GOLEM_PARKOUR_LORE:
+GUI_DONATE_GOLEM_PARKOUR_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_GOLEM_LUCKYWARS_LORE:
+GUI_DONATE_GOLEM_LUCKYWARS_LORE:
 - ''
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_GOLEM_SURVIVAL_LORE:
+GUI_DONATE_GOLEM_SURVIVAL_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_ENDERMAN_ALL_LORE:
+GUI_DONATE_ENDERMAN_ALL_LORE:
 - ''
 - ' §8▪ §7Prefix %s'
 - ' §8▪ §7The greeting at the entrance'
@@ -2901,8 +2927,12 @@ GUI_ENDERMAN_ALL_LORE:
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
 - ' §8▪ §7Available donate chat - §f/dc'
 - ' §8▪ §7You can have up to §c65§7 friends'
+- ' §8▪ §7Сниженная комиссия при переводе денег §f8%'
+- ' §8▪ §7Сниженная комиссия при конвертировании монет §f4%§7, золота §f2%'
+- ' §8▪ §7Увеличен лимит на получение монет до §f20,000§7 coins'
+- ' §8▪ §7Увеличен лимит на отправку монет до §f30,000§7 coins'
 - ''
-GUI_ENDERMAN_BEDWARS_LORE:
+GUI_DONATE_ENDERMAN_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Available hidden perks'
 - ' §8▪ §7No delay in the revisal'
@@ -2910,7 +2940,7 @@ GUI_ENDERMAN_BEDWARS_LORE:
 - ' §8▪ §7Reduced delay of §9teleportation on spawn§7 (§c2 sec§7)'
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_ENDERMAN_ANARCHY_LORE:
+GUI_DONATE_ENDERMAN_ANARCHY_LORE:
 - ''
 - ' §8▪ §7No delay in teleportation'
 - ' §8▪ §7Open GUI of the workbench - §f/workbench'
@@ -2928,7 +2958,7 @@ GUI_ENDERMAN_ANARCHY_LORE:
 - ' §8▪ §7Set the time for yourself - §f/ptime'
 - ' §8▪ §7A special kits things every day (§f/kit enderman§7)'
 - ''
-GUI_ENDERMAN_CREATIVE_LORE:
+GUI_DONATE_ENDERMAN_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Available §c5§7 plots (§f/p auto§7)'
 - ' §8▪ §7Available §c4§7 warps (§f/setwarp <name>§7)'
@@ -2936,15 +2966,15 @@ GUI_ENDERMAN_CREATIVE_LORE:
 - ' §8▪ §7Big limit on the set blocks in one operation'
 - ' §8▪ §7Available AST (create amazing armor stands)'
 - ''
-GUI_ENDERMAN_PARKOUR_LORE:
+GUI_DONATE_ENDERMAN_PARKOUR_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_ENDERMAN_LUCKYWARS_LORE:
+GUI_DONATE_ENDERMAN_LUCKYWARS_LORE:
 - ''
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_ENDERMAN_SURVIVAL_LORE:
+GUI_DONATE_ENDERMAN_SURVIVAL_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
