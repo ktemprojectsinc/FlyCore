@@ -3056,9 +3056,9 @@ GUI_DONATE_MONEY_LORE:
 GUI_DONATE_ITEM: '§bRank %s'
 GUI_DONATE_ITEM_LORE:
 - ''
-- '§7Cost: §c%s rubbles'
+- '§7Cost: §a%s§7 rubbles'
 - ''
-- '§e▸ Open the options menu'
+- '§e▸ Tap to open the options menu'
 GUI_INFO_HELP_LORE:
 - '§7Useful commands for playing on the server:'
 - ''
