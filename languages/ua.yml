@@ -2117,6 +2117,7 @@ HIDE_INFO: '§4§lВнимание! §cУ вас включено скрытие
 
 YOUTUBE_NOT_FOUND: '§aYouTube §8| §fСейчас у вас нет ссылки, добавьте её §c/yt addlink <ссылка на канал>'
 YOUTUBE_INFO: '§6§lYouTube §fканал » §3§l%s'
+YOUTUBE_OTHER: '§aСервер §8| §fУ %s§f YouTube канал: §b%s'
 
 JOIN_TO_LOBBY: ' §a▸ %s §6%s на сервер'
 
@@ -3541,6 +3542,7 @@ GUI_STAFF_PLAYER_INFO:
 - '§7Информация об игроке:'
 - '§8▪ §7VK: §f%s'
 - '§8▪ §7%s: %s'
+GUI_STAFF_PLAYER_YOUTUBE: '§8▪ §7Канал: §f%s'
 GUI_STAFF_PLAYER_ONLINE:
 - '§8▪ §7Сейчас на сервере: §b%s'
 GUI_STAFF_PLAYER_OFFLINE:
