@@ -2313,8 +2313,9 @@ MESSAGES_HOVER_BROADCAST:
 - "§fНажмите сюда для\n§fперехода по ссылке"
 - "§fНажмите сюда для\n§fперехода по ссылке"
 
-ECONOMY_MONEY_CHANGE_BROADCAST: '§aЭкономика §8| %s§7 начислил на аккаунт %s§7 - §6Монеты §f(§a+%s§f)'
-ECONOMY_GOLDS_CHANGE_BROADCAST: '§aЭкономика §8| %s§7 начислил на аккаунт %s§7 - §eЗолото §f(§a+%s§f)'
+ECONOMY_MONEY_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §6Монеты §f(§a+%s§f)'
+ECONOMY_GOLDS_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §eЗолото §f(§a+%s§f)'
+ECONOMY_CORES_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §bЯдра §f(§d+%s§f)'
 
 LAST_UPDATES_INFO: '§aОбновления §8| §fБыло сделано §a%s§f %s'
 LAST_UPDATES: '§aОбновления §8| §f%s'
@@ -3106,7 +3107,7 @@ GUI_INFO_GUILD_LORE:
 - '§7Напишите §e/guild§7 и создай свою гильдию!'
 - ''
 - '§cВНИМАНИЕ! Создание гильдии стоит'
-- '§c20.000 монеток и доступно только от §b§lDIAMOND'
+- '§c15.000 монеток и доступно только от §f§lGOLEM'
 - '§cДля встуупления в гильдию донат не нужен.'
 
 GUI_INFO_LUCKYCHEST_LORE:
