@@ -13,7 +13,7 @@ PROMO_ITEM_NAME: '§aDISCOUNT!'
 HIDDEN: '§cHide'
 NOT_SETS: '§cNot set'
 
-BANINFO_BY_ANOTHER: '§7[By request %s§7]'
+BANINFO_BY_ANOTHER: '§7(By request %s§7)'
 
 SERVER_REDIRECT: '§aServer §8| §fYou connected to §a%s'
 
