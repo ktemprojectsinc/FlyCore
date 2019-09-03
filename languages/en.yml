@@ -3530,6 +3530,7 @@ GUI_STAFF_PLAYER_INFO:
 - '§7Player information:'
 - '§8▪ §7VK: §f%s'
 - '§8▪ §7%s: %s'
+GUI_STAFF_PLAYER_YOUTUBE: '§8▪ §7Channel: §f%s'
 GUI_STAFF_PLAYER_ONLINE:
 - '§8▪ §7Now on the server: §b%s'
 GUI_STAFF_PLAYER_OFFLINE:
