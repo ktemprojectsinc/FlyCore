@@ -2698,7 +2698,7 @@ GUI_DONATE_GOLD_LUCKYWARS_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_GOLD_SURVIVAL_LORE:
+GUI_DONATE_GOLD_SKYPVP_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
@@ -2762,7 +2762,7 @@ GUI_DONATE_DIAMOND_LUCKYWARS_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_DIAMOND_SURVIVAL_LORE:
+GUI_DONATE_DIAMOND_SKYPVP_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
@@ -2828,7 +2828,7 @@ GUI_DONATE_EMERALD_LUCKYWARS_LORE:
 - ''
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_DONATE_EMERALD_SURVIVAL_LORE:
+GUI_DONATE_EMERALD_SKYPVP_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
@@ -2899,7 +2899,7 @@ GUI_DONATE_GOLEM_LUCKYWARS_LORE:
 - ''
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_DONATE_GOLEM_SURVIVAL_LORE:
+GUI_DONATE_GOLEM_SKYPVP_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
@@ -2974,7 +2974,7 @@ GUI_DONATE_ENDERMAN_LUCKYWARS_LORE:
 - ''
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_DONATE_ENDERMAN_SURVIVAL_LORE:
+GUI_DONATE_ENDERMAN_SKYPVP_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
