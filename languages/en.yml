@@ -4700,9 +4700,16 @@ GUI_PREFIX_SELECTED_LORE:
 GUI_PREFIX_SELECT_LORE:
 - '§7Change prefix to: %s'
 - ''
+- '§8• §7Price §b%s§7 %s'
+- '§8• §7Free for %s§7 or higher'
+- ''
 - '§e▸ Click, to set prefix'
 GUI_PREFIX_UNAVAILABLE_LORE:
 - '§7Change prefix to: %s'
+- ''
+- '§7Available:'
+- '§8• §7Price §b%s§7 %s'
+- '§8• §7Free for %s§7 or higher'
 PREFIX_NOT_SELECT: '§cPrefix not selected'
 COLOR_GRAY: '§7Gray'
 COLOR_YELLOW: '§eYellow'
