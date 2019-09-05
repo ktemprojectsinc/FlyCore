@@ -2477,6 +2477,9 @@ SENDMONEY_NO_LEVEL_YOU: '§cError, you can not send money, your level is above 1
 SENDMONEY_NO_LEVEL_OTHER: '§cError, you can not send money to this player. His level is above 10!'
 SENDMONEY_NO_MONEY: '§cError, there is not enough money on your balance! Including commission %s you must have %s %s on your balance'
 SENDMONEY_ERROR_MONEY: '§cError, you can not send amounts lower than %s and higher than %s at a one time!'
+SENDMONEY_NO_MONEY_OTHER: '§cError, there is not enough money on guild balance! Including commission %s you must have %s %s on guild balance'
+SENDMONEY_ERROR_MONEY_OTHER: '§cError, you can not donate amounts lower than %s and higher than %s at a one time!'
+SENDMONEY_ERROR_MONEY_OTHER_2: '§cError, you can not deposit amounts lower than %s and higher than %s at a one time!'
 
 VK_NOT_LINK: '§6VK-bot §8| §fДанный игрок не привязал свой аккаунт к §9VK §fботу'
 VK_HIDE: '§cДанный игрок запретил узнавать его страницу VK'
