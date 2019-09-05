@@ -783,6 +783,7 @@ GUILDCHAT_FORMAT: '/gchat <сообщение>'
 IGNORE_FORMAT: '/ignore <ник>'
 HISTORY_FORMAT: '/history <ник> <BAN/MUTE/KICK/BANIP/UNBAN/UNMUTE/UNBANIP/GUILDMUTE/GUILDUNMUTE>'
 TEST_FORMAT: '/test <String>'
+PLAY_FORMAT: '/play <игра>'
 
 API_DELAY: '§aApi §8| §fИзменять ключ доступа можно будет через %s'
 API_CREATE:
