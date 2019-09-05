@@ -3723,8 +3723,6 @@ GUI_DONATEMENU_PREFIX_LORE:
 - '§7Current color: %s'
 - '§7Current prefix: %s'
 - ''
-- '§7Only available for §5§lENDERMAN'
-- ''
 - '§e▸ Tap to open the menu'
 GUI_DONATEMENU_SMILES_LORE:
 - '§7Surprise your friends,'
