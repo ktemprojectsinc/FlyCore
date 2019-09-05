@@ -1525,7 +1525,7 @@ GUILD_RANK_NO_ACCESS: "§cYou can't manage ranks this player"
 
 GUILD_DONATE_FORMAT: '/guild donate <amount>'
 GUILD_DONATE_ALERT: '§2Guild §8| %s§7 invested to the guild bank §a%s §7%s'
-GUILD_DONATE: '§aGuilds §8| §fYou invested to the guild bank §a%s §7%s'
+GUILD_DONATE: '§aGuilds §8| §fYou invested to the guild bank §a%s §f%s Comission by paying made up §c%s §f%s (§e%s§f)'
 GUILD_DONATE_DAILYLIMIT: '§cThe amount you want to invest exceeds the guild 12 hours limit, limit - %s'
 GUILD_DONATE_LIMIT: '§c12 Hours guild limit exceeded, limit - %s'
 GUILD_DONATE_REMOVELIMIT: '§cZeroing limit after: %s'
@@ -1539,7 +1539,7 @@ GUILD_LEAVE: '§aGuilds §8| §fYou left the guild %s'
 GUILD_DEPOSIT_FORMAT: '/guild deposit <player name> <amount>'
 GUILD_DEPOSIT_ALERT: '§2Guild §8| %s§7 withdrawed §a%s §7coins from guild bank to %s'
 GUILD_DEPOSIT_MSG: '§aGuilds §8| §fYour balance replenished from guild bank by %s§f on §a%s§f %s'
-GUILD_DEPOSIT: '§aGuilds §8| §7You withdrawed on player balance %s §a%s §f%s'
+GUILD_DEPOSIT: '§aGuilds §8| §7You withdrawed on player balance %s §a%s §f%s Comission by paying made up §c%s §f%s (§e%s§f)'
 GUILD_DEPOSIT_NO_MONEY: '§cThe amount you want to withdraw, exceeds guild balance'
 
 GUILD_KICK_FORMAT: '/guild kick <player name> <reason>'
