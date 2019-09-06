@@ -112,7 +112,7 @@ PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
 
 SECONDS:
 - 'секунд'
-- 'а'
+- 'у'
 - 'ы'
 - ''
 
@@ -149,6 +149,11 @@ BONUSES:
 MONEYS:
 - 'монет'
 - 'а'
+- 'ы'
+- ''
+MONEYS_2:
+- 'монет'
+- 'у'
 - 'ы'
 - ''
 
@@ -370,32 +375,124 @@ ARENA_STARTED: '§fИгра начнется через §a%s §f%s'
 LUCKYWARS_STARTED_TITLE: '§c§lСтарт!'
 LUCKYWARS_STARTED_SUBTITLE: '§fВыживите и не попадитесь в ловушку'
 
+BEDWARS_STARTED_TITLE: '§c§lСтарт!'
+BEDWARS_STARTED_SUBTITLE: '§fЗащитите свою кровать!'
+
 LUCKYWARS_FLY: '§aLuckyWars §fПолет отключается через §a5 секунд.'
 LUCKYWARS_FLY_INFO: '§aLuckyWars §fИгроку %s§f выпал полёт из лаки блока'
 
 GAME_PLAYER_KILLED_YOURSELF: 'Вы умерли!'
 GAME_PLAYER_RESPAWN_TITLE: '§aВы возродились'
-GAME_PLAYER_RESPAWN_SUBTITLE: '§c%s ресурсов §7восстановлено'
+GAME_PLAYER_RESPAWN_SUBTITLE: '§6~%s ресурсов §7восстановлено'
 GAME_PLAYER_RESPAWN_SUBTITLE_BY: '§fВас убил игрок %s'
-GAME_PLAYER_KILLED_INFO: '%s §fубил игрока %s'
-GAME_PLAYER_KILLED_FELL_OUT_WORLD: '%s §fвыпал из мира'
+GAME_PLAYER_KILLED_INFO: '%s§f убил игрока %s'
+GAME_PLAYER_KILLED_FELL_OUT_WORLD: '%s§f выпал из мира'
+GAME_PLAYER_KILLED_WALL: '%s§f задохнулся в стене'
 GAME_TEAM_WIN: '§eПобедила команда §8- %s'
 GAME_SOLO_WIN: '§eПобедил игрок §8- %s'
 GAME_CHAT_SPECTATORS: '§8[§7Наблюдателям§8]'
 GAME_CHAT_GLOBAL: '§8[Всем§8] [%s§8]'
 GAME_CHAT_TEAM: '§8[Команде§8]'
 GAME_TEAM_GAME_OVER: 'Команда %s§f проиграла'
+GAME_PLAYER_GAME_QUIT: '§fИгрок %s§f покинул игру'
+GAME_PLAYER_RESOURCES: '§fВы получили +§6%s ресурсов§f за убийство игрока %s'
+
+BEDWARS_RESOURCES_LIMIT: '§4Ваш лимит на сбор ресурсов превышен! Лимит - %s'
+BEDWARS_RESOURCES: 'Ресурсов'
+BEDWARS_BED_BREAK_PLAYER: '§cВаша кровать разрушена. Вы больше не сможете возрадится!'
+BEDWARS_BED_BREAK: '§fКровать команды %s §fбыла сломана игроком %s'
+BEDWARS_BED_GAME_OVER: '§cВы умерли, ваша кровать разрушена'
+BEDWARS_BED_GAME_OVER_TITLE: '§cВы умерли'
+BEDWARS_BED_GAME_OVER_SUBTITLE: '§cВаша кровать разрушена'
 
 LUCKYWARS_INFO:
 - '§eВаша задача ломать лакиблоки и убивать игроков'
 - '§eВас будет преследовать множество ловушек,'
 - '§eтак что будьте очень осторожны!'
 
+BEDWARS_INFO:
+- 'Вам необходимо уничтожить команды противников раньше,'
+- 'чем они вас! Пока у команды есть кровать — команда возрождается.'
+- 'Сломайте её у противника и защитите свою!'
+
 PLAYER_TEAM_NO_PLACES: '§cВ данной команде нет мест.'
 PLAYER_TEAM_SELECTED: 'Вы выбрали команду %s'
 
+BEDWARS_BOOSTER: 'Множитель §b%sx§f активирован'
+BEDWARS_MODE_RUSH: 'BedWars Rush, ваш стартовый баланс: §a%s'
+
+BEDWARS_NO_BED_BREAK: '§cВы не можете сломать кровать вашей команды!'
+
 ARENA_TYPE_TEAM_NO_TEAM: '§c§lВнимание! §cОбразование союзов из нескольких команд запрещено. Докладывайте о таких игроках на форум.'
 ARENA_TYPE_SOLO_NO_TEAM: '§c§lВнимание! §cКомандная игра запрещена на Solo режиме. Докладывайте о таких игроках на форум.'
+
+GUI_BW_SHOP_NAME: 'Магазин'
+GUI_BW_SHOP_BUY: '§aНажмите, чтобы купить'
+GUI_BW_SHOP_NO_BUY: '§cУ вас не достаточно ресурсов'
+GUI_BW_SHOP_PRICE: 'Цена'
+
+GUI_BEDWARS_CHEST: 'Сундук команды'
+
+ITEM_TP_NAME: '§eТелепортатор'
+ITEM_TP_LORE:
+- '§7Используйте этот предмет,'
+- '§7чтобы наблюдать за игроками'
+ITEM_SETTINGS_NAME: '§eНастройка смотрящих'
+ITEM_SETTINGS_LORE:
+- '§7Используйте этот предмет,'
+- '§7чтобы изменить настройки'
+- '§7наблюдателя'
+
+GUI_TP_NAME: 'Телепортатор'
+GUI_TP_LORE:
+- ''
+- '§7В команде: %s'
+- '§7Жизней: §f%s'
+- '§7Голод: §f%s'
+- ''
+- '§e▸ Нажмите, чтобы телепортироваться'
+
+GUI_SETTINGS_NAME: 'Настройка наблюдателей'
+GUI_SETTINGS_SPEED_0: '§aУбрать скорость'
+GUI_SETTINGS_SPEED_1: '§aСкорость I'
+GUI_SETTINGS_SPEED_2: '§aСкорость II'
+GUI_SETTINGS_SPEED_3: '§aСкорость III'
+GUI_SETTINGS_SPEED_4: '§aСкорость IV'
+GUI_SETTINGS_NIGHT: '§aНочное зрение'
+GUI_SETTINGS_NIGHT_OFF:
+- ''
+- '§e▸ Нажмите, чтобы выключить ночное зрение'
+GUI_SETTINGS_NIGHT_ON:
+- ''
+- '§e▸ Нажмите, чтобы включить ночное зрение'
+GUI_SETTINGS_SPECTATORS: '§aНаблюдатели'
+GUI_SETTINGS_SPECTATORS_HIDE:
+- ''
+- '§e▸ Нажмите, чтобы спрятать наблюдателей'
+GUI_SETTINGS_SPECTATORS_SHOW:
+- ''
+- '§e▸ Нажмите, чтобы показать наблюдателей'
+GUI_SETTINGS_FLY: '§aПолёт'
+GUI_SETTINGS_FLY_ON:
+- ''
+- '§e▸ Нажмите, чтобы включить полёт'
+GUI_SETTINGS_FLY_OFF:
+- ''
+- '§e▸ Нажмите, чтобы выключить полёт'
+
+GAME_KIT_UNSELECT: '§eНажмите ещё раз, чтобы аннулировать покупку набора §a%s'
+GAME_KIT_RETURN: '§eВам вернули деньги за набор §a%s'
+
+GUI_KIT_NAME: 'Покупка наборов'
+
+GAME_SPEED_DEFAULT: 'Вы стали двигаться со стандартной скоростью!'
+GAME_SELECT: 'Вы выбрали %s'
+GAME_NIGHT_ON: 'Вы включили себе §aНочное зрение§e!'
+GAME_NIGHT_OFF: 'Вы выключили себе §aНочное зрение§e!'
+GAME_SPECTATORS_HIDE: 'Вы теперь не видете §aНаблюдателей§e!'
+GAME_SPECTATORS_SHOW: 'Вы видете §aНаблюдателей§e!'
+GAME_FLYING_ON: 'Вы включили §aПолёт§e!'
+GAME_FLYING_OFF: 'Вы выключили §aПолёт§e!'
 
 SITESHOP_BUY: '§aМагазин §8| §fВы успешно купили §a%s'
 SITESHOP_INFO: '§aСервер §8| §fИгрок %s§f купил §a%s§f, купить можно в §c/siteshop'
