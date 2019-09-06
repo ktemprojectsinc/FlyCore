@@ -403,6 +403,8 @@ GAME_TEAM_GAME_OVER: 'Команда %s§f проиграла'
 GAME_PLAYER_GAME_QUIT: '§fИгрок %s§f покинул игру'
 GAME_PLAYER_RESOURCES: '§fВы получили +§6%s ресурсов§f за убийство игрока %s'
 
+BEDWARS_BED_BREAK_TITLE: '§cВаша кровать сломана'
+BEDWARS_BED_BREAK_SUBTITLE: '§7Вы больше не сможете возрождаться'
 BEDWARS_RESOURCES_LIMIT: '§4Ваш лимит на сбор ресурсов превышен! Лимит - %s'
 BEDWARS_RESOURCES: 'Ресурсов'
 BEDWARS_BED_BREAK_PLAYER: '§cВаша кровать разрушена. Вы больше не сможете возрадится!'
