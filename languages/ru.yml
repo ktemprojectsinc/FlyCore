@@ -2523,9 +2523,21 @@ LUCKYWARS_COMMAND_HELP_SETUP:
 LUCKYWARS_COMMAND_HELP:
 - '§7/lw start §f- Принудительно начать игру'
 
+BEDWARS_COMMAND_HELP_SETUP:
+- '§7/bw setspawn Lobby §f- Точка лобби'
+- '§7/bw setspawn <название> §f- Установить точку спавна'
+BEDWARS_COMMAND_HELP:
+- '§7/bw start §f- Принудительно начать игру'
+
 LUCKYWARS_TELEPORTED_TO: '§fТелепортация на §a%s'
 LUCKYWARS_SETLOCATION: '§fТочка §a%s§f установленна'
+
+BEDWARS_TELEPORTED_TO: '§fТелепортация на §a%s'
+BEDWARS_SETLOCATION: '§fТочка §a%s§f установленна'
+
 LUCKYWARS_GAME_ALREADY_STARTED: '§cИгра уже запущена'
+
+GAME_ALREADY_STARTED: '§cИгра уже запущена'
 
 TRADE_FORMAT: '/trade <ник игрока>'
 TRADE_HELP:
