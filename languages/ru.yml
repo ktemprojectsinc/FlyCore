@@ -383,6 +383,10 @@ BEDWARS_STARTED_SUBTITLE: '§fЗащитите свою кровать!'
 LUCKYWARS_FLY: '§aLuckyWars §fПолет отключается через §a5 секунд.'
 LUCKYWARS_FLY_INFO: '§aLuckyWars §fИгроку %s§f выпал полёт из лаки блока'
 
+DEATH_MSG_TITLE: '§cВы погибли'
+RESPAWN_SUBTITLE: '§7Вы возродитесь через §c%s §7%s'
+RESPAWN_TITLE: '§aВы возродились'
+
 GAME_PLAYER_KILLED_YOURSELF: 'Вы умерли!'
 GAME_PLAYER_RESPAWN_TITLE: '§aВы возродились'
 GAME_PLAYER_RESPAWN_SUBTITLE: '§6~%s ресурсов §7восстановлено'
