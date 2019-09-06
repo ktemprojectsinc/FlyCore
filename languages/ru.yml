@@ -2466,6 +2466,7 @@ NICK_USED: '§fВаш ник сейчас скрыт'
 
 VANISH_ENABLE: '§aСкрытие §8| §fСкрытие включено'
 VANISH_DISABLE: '§aСкрытие §8| §fСкрытие отключено'
+VANISH_USED: '§fВы сейчас скрыты'
 
 SUFFIX_FORMAT: '/suffix <суффикс/reset>'
 SUFFIX_LIMIT: '§aСуффиксы §8| §fСуффикс не должен превышать §c16§f символов'
