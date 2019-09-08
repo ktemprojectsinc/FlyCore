@@ -59,9 +59,9 @@ BAN_REQUEST_FOR_PERSONAL:
 
 CONVERT_FORMAT: '/convert <golds/coins> <golds sum>'
 CONVERT_ERROR: '§cError, you must specify only a positive number!'
-CONVERT: '§aServer §8| §fYou have successfully exchanged %s §f%s on %s §f%s'
+CONVERT: '§aServer §8| §fYou have successfully exchanged %s §f%s on %s §f%s. Comission by paying made up §c%s §f%s (§e%s§f)'
 CONVERT_AVAILABLE: '§cError, available currencies: golds, coins'
-CONVERT_ERROR_NO: '§cError, конвертация не должна быть менее %s и более %s за раз'
+CONVERT_ERROR_NO: '§cError, you can not exchanged amounts lower than %s and higher than %s at a one time!'
 
 CORE_PROXY_CONNECTED: '§cCore §8| §7Proxy §a%s§a success§7 connected from address §e%s'
 CORE_PROXY_CONNECTION_CLOSED: '§cCore §8| §7Proxy §a%s§c disconnected§7, of reason: §a%s'
