@@ -253,8 +253,8 @@ NULL_ADD: '§c+%s'
 FOOD_ADD: '§6+%s еды'
 HP_ADD: '§c+%s здоровья'
 
-EFFECTSHOP_EFFECT_NOT_LEVEL: '§cДля покупки данного эффекта, Вам нужен уровень §d%s§c или выше'
-EFFECTSHOP_SOUND_NOT_LEVEL: '§cДля покупки данного звука, Вам нужен уровень §d%s§c или выше'
+EFFECTSHOP_EFFECT_NOT_LEVEL: '§cДля открытия данного эффекта, Вам нужен уровень §d%s§c или выше'
+EFFECTSHOP_SOUND_NOT_LEVEL: '§cДля открытия данного звука, Вам нужен уровень §d%s§c или выше'
 
 PLAYER_NO_MONEY:
 - ''
@@ -5163,7 +5163,7 @@ GUI_EFFECTS_TYPE_SOUND: 'звук'
 GUI_EFFECTS_ACTIVATE: '§e▸ Нажмите, чтобы активировать'
 GUI_EFFECTS_SELECTED: '§a▸ Активировано'
 GUI_EFFECTS_UNAVAILABLE_LORE:
-- '§cДля покупки данного предмета Вам нужн §d%s уровень§c или выше!'
+- '§cДля открытия данного предмета Вам нужн §d%s уровень§c или выше!'
 - ''
 - '§cДанный предмет Вам недоступен'
 GUI_EFFECTS_BUY_LORE:
