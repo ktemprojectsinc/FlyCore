@@ -2564,9 +2564,11 @@ NICK_INVALID: '§cВыбранный ник содержит недопусти�
 NICK_LIMIT: '§aNick change §8| §fЛимит ника превышен, максимально можно указать §c%s§f символов'
 NICK_CHANGED: '§aNick change §8| §fYou nick changed to: §a%s'
 NICK_RESET: '§aNick change §8| §fNick restored'
+NICK_USED: '§fYou nick current hide'
 
 VANISH_ENABLE: '§aHiding §8| §fVanish enabled'
 VANISH_DISABLE: '§aHiding §8| §fVanish disabled'
+VANISH_USED: '§fYou current hide'
 
 SUFFIX_FORMAT: '/suffix <suffix/reset>'
 SUFFIX_LIMIT: '§aSuffixes §8| §fСуффикс не должен превышать §c10§f символов'
