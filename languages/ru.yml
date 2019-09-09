@@ -201,6 +201,7 @@ ITEMS:
 - 'а'
 - 'ов'
 
+ABSENT: 'Отсутствует'
 UNKNOWN: 'неизвестно'
 
 TIME_1: ' веков'
@@ -5772,6 +5773,8 @@ GUI_CASES_NAME: 'Открытие кейса'
 GUI_CASES_BUY_NAME: 'Покупка ключей'
 GUI_CASES_BUY_FORMAT_LORE:
 - '§7Купить %s %s §8§l⇩'
+- ''
+- '§7Скидка при покупке §f%s'
 GUI_CASES_BUY_LORE:
 - ''
 - '§7Купить %s %s за %s %s'
