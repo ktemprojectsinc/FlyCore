@@ -3849,7 +3849,6 @@ GUI_STAFF_PLAYER_NOT_FOUND:
 - ''
 - ' §c✗ Player is not found'
 GUI_STAFFLIST_LORE:
-- '%s'
 - ''
 - ' §e▶ Click here to open'
 - ' §e%s list'
