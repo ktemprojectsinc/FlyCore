@@ -4342,7 +4342,7 @@ GUI_EFFECTS_WINS_LORE:
 - ''
 - '§e▸ Открыть меню'
 
-GUI_CHANGELANGUAGE_ITEM: '§eСмена языка'
+GUI_CHANGELANGUAGE_NAME: 'Смена языка'
 GUI_CHANGELANGUAGE_ITEM_LORE:
 - ''
 - '§fВсего языков: §a%s'
