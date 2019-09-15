@@ -227,6 +227,8 @@ TIME_SECOND_2:
 - 'ы'
 - ''
 
+NO_RARITY: 'Без редкости'
+RARITY: 'Редкость'
 ABSENT: 'Отсутствует'
 ETERNITY: 'вечность'
 UNKNOWN: 'неизвестно'
@@ -305,9 +307,7 @@ PLAYER_NO_KEYS:
 - '§aСервер §8| §fНа вашем счёте недостаточно §aключей§f. Приобрести ключи можно на сайте §cflycore.ru'
 - '§r'
 
-PLAYER_GADGETS_BANNER_NO_GROUP: '§cДля покупки данного баннера Вам нужна привилегия %s§c или выше!'
-PLAYER_GADGETS_HAT_NO_GROUP: '§cДля покупки данной шляпы Вам нужна привилегия %s§c или выше!'
-PLAYER_GADGETS_EFFECT_NO_GROUP: '§cДля покупки данного эффекта Вам нужна привилегия %s§c или выше!'
+PLAYER_GADGETS_GADGET_NO_GROUP: '§cДля покупки данного гаджета Вам нужна привилегия %s§c или выше!'
 
 PLAYER_GUILDSHOP_NO_MONEY: '§aГильдия §8| §fНа счету гильдии недостаточно монет для приобретения данного улучшения'
 PLAYER_GUILDSHOP_ALREADY: '§aГильдия §8| §fДанное улучшение уже приобретено'
@@ -1475,9 +1475,7 @@ BOX_STATS: '§f(Статус)'
 BOX_BOOSTER: '§f(Бустер)'
 BOX_ITEM: '§f(Предмет)'
 BOX_ITEM_ENCHANTED: '§8(Зачарованный)'
-BOX_EFFECT_ALREADY: '§bСундук удачи §8| §fУ Вас уже есть данный эффект, Вы получили §6+%s §f%s'
-BOX_HAT_ALREADY: '§bСундук удачи §8| §fУ Вас уже есть данная шляпа, Вы получили §6+%s §f%s'
-BOX_BANNER_ALREADY: '§bСундук удачи §8| §fУ Вас уже есть данный баннер, Вы получили §6+%s §f%s'
+BOX_GADGET_ALREADY: '§bСундук удачи §8| §fУ Вас уже есть данный гаджет, Вы получили §6+%s §f%s'
 BOX_STATS_ALREADY: '§bСундук удачи §8| §fУ Вас уже есть данный статус, Вы получили §e+%s §f%s'
 BOX_BOOSTER_ALREADY: '§bСундук удачи §8| §fУ Вас уже активирован данный бустер, Вы получили §6+%s §f%s'
 BOX_ITEM_ALREADY: '§bСундук удачи §8| §fУ Вас уже есть данный предмет, Вы получили §6+%s §f%s'
@@ -1985,9 +1983,7 @@ MEMORY:
 - ' §8| §fИгроков с задержкой на предметы %s'
 - ' §8| §fИгроков с задержкой на клик инвенторей %s'
 - ' §8| §fИгроков с задержкой на клик по NPC %s'
-- ' §8| §fИгроков просматривающих кейс %s'
 - " §8| §fИгроков с offset'ом %s"
-- ' §8| §fИгроков просматривающих донат %s'
 
 
 YT_COMMAND_HELP:
@@ -4147,12 +4143,8 @@ GUI_DONATEMENU_SMILES_LORE:
 - '§7Доступно для §a§lEMERALD§7 и выше'
 - ''
 - '§e▸ Нажмите, чтобы открыть меню'
-GUI_DONATEMENU_FASTMESSAGES: '§bБыстрые сообщения'
-GUI_DONATEMENU_PREFIX: '§bСмена префикса'
-GUI_DONATEMENU_SMILES: '§bСмайлы'
-GUI_DONATEMENU_NAME: 'Меню донатера'
 
-GUI_SMILES_NAME: 'Меню донатера ▸ Смайлы'
+GUI_SMILES_NAME: 'Смайлы'
 GUI_SMILES_ITEM_LORE:
 - '§7Смайл §a%s'
 GUI_SMILES_AVAILABLE_LORE:
@@ -4246,7 +4238,6 @@ GUI_FRIENDS_ONLINE_LORE:
 - ''
 - '§7Сейчас на сервере: §e%s'
 - ''
-- '%s'
 GUI_FRIENDS_ALREADY_LORE:
 - '§c▶ Вы уже на одном сервере'
 GUI_FRIENDS_CONNECT_LORE:
@@ -4262,7 +4253,7 @@ GUI_EFFECTS_KILLED: '§aПредсмертные хрипы'
 GUI_EFFECTS_ARROWS: '§aЭффекты стрел'
 GUI_EFFECTS_KILLS: '§aЭффекты убийств'
 GUI_EFFECTS_WINS: '§aЭффекты победы'
-GUI_EFFECTS_NAME: 'Профиль ▸ Косметика'
+GUI_EFFECTS_NAME: 'Косметика'
 
 SOUND_NA: '§cНе выбрано'
 SOUND_CREEPER: 'Смерть крипера'
@@ -4366,7 +4357,7 @@ GUI_FRIEND_REQUESTS_ITEM_LORE:
 - '§7Всего запросов:'
 - '§a%s'
 
-GUI_FASTMESSAGES_NAME: 'Меню донатера ▸ Быстрые сообщения'
+GUI_FASTMESSAGES_NAME: 'Быстрые сообщения'
 GUI_FASTMESSAGES_ITEM_LORE:
 - '§7Сообщение: §a%s'
 GUI_FASTMESSAGES_AVAILABLE_LORE:
@@ -4787,7 +4778,6 @@ GUI_STATS_GLOBAL_LORE:
 - ' §8▪ §7Дата первого захода: §a%s'
 
 GUI_GADGETS_NAME: 'Гаджеты'
-GUI_GADGETS_NAME_OTHER: 'Гаджеты ▸ %s'
 GUI_GADGETS_EMOTE: 'Эмоции'
 GUI_GADGETS_SPIRIT: 'Духи'
 GUI_GADGETS_BANNER: 'Баннеры'
@@ -4798,27 +4788,34 @@ GUI_GADGETS_DIS: 'Перевоплощения'
 GUI_GADGETS_PET: 'Питомцы'
 GUI_GADGETS_MECHANISMS: 'Механизмы'
 GUI_GADGETS_DGG: 'Отключение гаджетов'
+GUI_GADGETS_DGG_DISABLE: 'Отключить все гаджеты'
+GUI_GADGETS_DGG_DISABLE_LORE:
+- ''
+- '§7Нажмите сюда, чтобы отключить'
+- '§7все активированные гаджеты'
+GUI_GADGETS_DGG_EMPTY: 'Нет активных гаджетов'
+GUI_GADGETS_DGG_EMPTY_LORE:
+- ''
+- '§7В данный моменту Вас нету,'
+- '§7активированных гаджетов'
 GUI_GADGETS_SETTING: 'Настройки'
 GUI_GADGETS_AVAILABLE: '§7Можно получить:'
 GUI_GADGETS_GROUP: '§8• §7От привилегии %s§7 и выше'
-GUI_GADGETS_GROUP: '§8• §7Бесплатно для %s§7 и выше'
-GUI_GADGETS_LEVEL: '§7При достижении §d%s §7уровня'
+GUI_GADGETS_FREE_GROUP: '§8• §7Бесплатно для %s§7 и выше'
+GUI_GADGETS_LEVEL: '§8• §7При достижении §d%s §7уровня'
 GUI_GADGETS_BOX: '§8• §7Выпадает из §bСундука удачи §7(%s§7)'
 GUI_GADGETS_SITE: '§8• §7Купить на сайте §b%s'
 GUI_GADGETS_GIVE_MONEY: '§7Цена §6%s§7 %s'
 GUI_GADGETS_GIVE_GOLDS: '§7Цена §e%s§7 %s'
 GUI_GADGETS_GIVE_CORE: '§7Цена §b%s§7 %s'
 GUI_GADGETS_NO_GIVE: '§cУ вас недостаточно %s'
-GUI_GADGETS_GADGET_NO_AVAILABLE: '§cДанная шляпа вам недоступна'
-GUI_GADGETS_HAT_NO_AVAILABLE: '§cДанная шляпа вам недоступна'
-GUI_GADGETS_BANNER_NO_AVAILABLE: '§cДанный баннер вам недоступен'
-GUI_GADGETS_EFFECT_NO_AVAILABLE: '§cДанный эффект вам недоступен'
+GUI_GADGETS_GADGET_NO_AVAILABLE: '§cДанный гаджет вам недоступна'
 GUI_GADGETS_TYPE_HAT: 'шляпу'
 GUI_GADGETS_TYPE_BANNER: 'баннер'
 GUI_GADGETS_TYPE_EFFECT: 'эффект'
-GUI_GADGETS_BUY: '§e▸ Нажмите, чтобы приобрести %s'
-GUI_GADGETS_USE: '§e▸ Нажмите, чтобы активировать %s'
-GUI_GADGETS_SELECTED: '§c▸ Нажмите, чтобы деактивировать %s'
+GUI_GADGETS_BUY: '§e▸ Нажмите, чтобы приобрести гаджет'
+GUI_GADGETS_USE: '§e▸ Нажмите, чтобы активировать гаджет'
+GUI_GADGETS_SELECTED: '§c▸ Нажмите, чтобы деактивировать гаджет'
 GUI_GADGETS_NOT_SELECTED: '§cНе выбрано'
 GUI_GADGETS_SETTING_1: '§eПеревоплощение'
 GUI_GADGETS_SETTING_1_LORE:
@@ -4944,13 +4941,13 @@ GUI_GADGETS_SETTING_LORE:
 - '§e▸ Нажмите, чтобы открыть меню'
 GUI_GADGETS_EFFECT_1: 'Облачко'
 GUI_GADGETS_EFFECT_1_LORE:
-- '§7Тебя будет преследовать облако!'
+- '§7Вас будет преследовать облако!'
 GUI_GADGETS_EFFECT_2: 'Ноу нейм эффект'
 GUI_GADGETS_EFFECT_2_LORE:
 - '§7С тобой будет летать эффект без имени..'
 GUI_GADGETS_EFFECT_3: 'портал'
 GUI_GADGETS_EFFECT_3_LORE:
-- '§7С тобой будет портал времени'
+- '§7Откройте для себя портал времени!'
 GUI_GADGETS_EFFECT_4: 'Зелья'
 GUI_GADGETS_EFFECT_4_LORE:
 - '§7Игроки будут думать, что у Вас эффекты от зельев'
@@ -4971,7 +4968,8 @@ GUI_GADGETS_EFFECT_9_LORE:
 - '§7Отпразднуй новый год быстрее всех!'
 GUI_GADGETS_EFFECT_10: 'Жители'
 GUI_GADGETS_EFFECT_10_LORE:
-- '§7Почувствуй себя жителем из деревни, когда тебе не дали изумруды'
+- '§7Почувствуйте себя деревенским жетелм,'
+- 'когда Вам не дали изумруды'
 GUI_GADGETS_EFFECT_11: 'Огонь'
 GUI_GADGETS_EFFECT_11_LORE:
 - '§7Вы будете гореть, гореть и гореть..'
@@ -5126,14 +5124,14 @@ GUI_GADGETS_BANNER_13_LORE:
 GUI_GADGETS_BANNER_14: 'Голубой баннер'
 GUI_GADGETS_BANNER_14_LORE:
 - '§7У Вас будет голубой баннер'
-GUI_GADGETS_BANNER_15: 'Пурпуровый баннер'
+GUI_GADGETS_BANNER_15: 'Пурпурный баннер'
 GUI_GADGETS_BANNER_15_LORE:
 - '§7У Вас будет пурпуровый баннер'
 GUI_GADGETS_BANNER_16: 'Ораньжевый баннер'
 GUI_GADGETS_BANNER_16_LORE:
 - '§7У Вас будет ораньжевый баннер'
 
-GUI_PREFIX_NAME: 'Меню донатера ▸ Смена префикса'
+GUI_PREFIX_NAME: 'Смена префикса'
 GUI_PREFIX_SELECTED_LORE:
 - ''
 - '§aПрефикс выбран'
@@ -5143,13 +5141,8 @@ GUI_PREFIX_SELECT_LORE:
 - '§8• §7Цена §b%s§7 %s'
 - '§8• §7Бесплатно для %s§7 и выше'
 - ''
-- '§e▸ Нажмите, чтобы установить префикс'
-GUI_PREFIX_UNAVAILABLE_LORE:
-- '§7Сменить префикс на: %s'
-- ''
-- '§7Можно получить:'
-- '§8• §7Цена §b%s§7 %s'
-- '§8• §7Бесплатно для %s§7 и выше'
+GUI_PREFIX_SELECT: '§e▸ Нажмите, чтобы установить префикс'
+GUI_PREFIX_UNAVAILABLE: '§c✗ Данный префикс Вам недоступен'
 COLOR_ERROR: 'Неизвестно'
 PREFIX_NOT_SELECT: '§cПрефикс не выбран'
 COLOR_GRAY: '§7Серый'
@@ -5179,13 +5172,8 @@ GUI_THEME_SELECT_LORE:
 - '§8• §7Цена §6%s§7 %s'
 - '§8• §7Бесплатно для %s§7 и выше'
 - ''
-- '§e▸ Нажмите, чтобы выбрать тему'
-GUI_THEME_UNAVAILABLE_LORE:
-- '§7Сменить тему на: %s'
-- ''
-- '§7Можно получить:'
-- '§8• §7Цена §6%s§7 %s'
-- '§8• §7Бесплатно для %s§7 и выше'
+GUI_THEME_SELECT: '§e▸ Нажмите, чтобы установить тему'
+GUI_THEME_UNAVAILABLE: '§c✗ Данная тема Вам недоступен'
 
 GUI_ARROWEFFECTS_NAME: 'Профиль ▸ Косметика ▸ Стрелы'
 GUI_ARROWEFFECTS_MUSIC: 'Звуковой путь'
