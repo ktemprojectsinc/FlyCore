@@ -4951,7 +4951,8 @@ GUI_GADGETS_EFFECT_3_LORE:
 - '§7Откройте для себя портал времени!'
 GUI_GADGETS_EFFECT_4: 'Зелья'
 GUI_GADGETS_EFFECT_4_LORE:
-- '§7Игроки будут думать, что у Вас эффекты от зельев'
+- '§7Игроки будут думать,'
+- '§7что у Вас эффекты от зельев'
 GUI_GADGETS_EFFECT_5: 'Искры'
 GUI_GADGETS_EFFECT_5_LORE:
 - '§7Это как феийерверк, только белый'
@@ -4970,7 +4971,7 @@ GUI_GADGETS_EFFECT_9_LORE:
 GUI_GADGETS_EFFECT_10: 'Жители'
 GUI_GADGETS_EFFECT_10_LORE:
 - '§7Почувствуйте себя деревенским жетелм,'
-- 'когда Вам не дали изумруды'
+- '§7когда Вам не дали изумруды'
 GUI_GADGETS_EFFECT_11: 'Огонь'
 GUI_GADGETS_EFFECT_11_LORE:
 - '§7Вы будете гореть, гореть и гореть..'
@@ -5083,6 +5084,129 @@ GUI_GADGETS_HAT_26: 'Я'
 GUI_GADGETS_HAT_26_LORE:
 - '§7Вы получите себя!'
 - '§7..на самом деле да.'
+GUI_GADGETS_HAT_27_NAME: 'Буква A'
+GUI_GADGETS_HAT_27_LORE:
+- '§7Просто буква A'
+GUI_GADGETS_HAT_28_NAME: 'Буква B'
+GUI_GADGETS_HAT_28_LORE:
+- '§7Просто буква B'
+GUI_GADGETS_HAT_29_NAME: 'Буква C'
+GUI_GADGETS_HAT_29_LORE:
+- '§7Просто буква C'
+GUI_GADGETS_HAT_30_NAME: 'Буква D'
+GUI_GADGETS_HAT_30_LORE:
+- '§7Просто буква D'
+GUI_GADGETS_HAT_31_NAME: 'Буква E'
+GUI_GADGETS_HAT_31_LORE:
+- '§7Просто буква E'
+GUI_GADGETS_HAT_32_NAME: 'Буква F'
+GUI_GADGETS_HAT_32_LORE:
+- '§7Просто буква F'
+GUI_GADGETS_HAT_33_NAME: 'Буква G'
+GUI_GADGETS_HAT_33_LORE:
+- '§7Просто буква G'
+GUI_GADGETS_HAT_34_NAME: 'Буква H'
+GUI_GADGETS_HAT_34_LORE:
+- '§7Просто буква H'
+GUI_GADGETS_HAT_35_NAME: 'Буква I'
+GUI_GADGETS_HAT_35_LORE:
+- '§7Просто буква I'
+GUI_GADGETS_HAT_36_NAME: 'Буква J'
+GUI_GADGETS_HAT_36_LORE:
+- '§7Просто буква J'
+GUI_GADGETS_HAT_37_NAME: 'Буква K'
+GUI_GADGETS_HAT_37_LORE:
+- '§7Просто буква K'
+GUI_GADGETS_HAT_38_NAME: 'Буква L'
+GUI_GADGETS_HAT_38_LORE:
+- '§7Просто буква L'
+GUI_GADGETS_HAT_39_NAME: 'Буква M'
+GUI_GADGETS_HAT_39_LORE:
+- '§7Просто буква M'
+GUI_GADGETS_HAT_40_NAME: 'Буква N'
+GUI_GADGETS_HAT_40_LORE:
+- '§7Просто буква N'
+GUI_GADGETS_HAT_41_NAME: 'Буква O'
+GUI_GADGETS_HAT_41_LORE:
+- '§7Просто буква O'
+GUI_GADGETS_HAT_42_NAME: 'Буква P'
+GUI_GADGETS_HAT_42_LORE:
+- '§7Просто буква P'
+GUI_GADGETS_HAT_43_NAME: 'Буква Q'
+GUI_GADGETS_HAT_43_LORE:
+- '§7Просто буква Q'
+GUI_GADGETS_HAT_44_NAME: 'Буква R'
+GUI_GADGETS_HAT_44_LORE:
+- '§7Просто буква R'
+GUI_GADGETS_HAT_45_NAME: 'Буква S'
+GUI_GADGETS_HAT_45_LORE:
+- '§7Просто буква S'
+GUI_GADGETS_HAT_46_NAME: 'Буква T'
+GUI_GADGETS_HAT_46_LORE:
+- '§7Просто буква T'
+GUI_GADGETS_HAT_47_NAME: 'Буква U'
+GUI_GADGETS_HAT_47_LORE:
+- '§7Просто буква U'
+GUI_GADGETS_HAT_48_NAME: 'Буква V'
+GUI_GADGETS_HAT_48_LORE:
+- '§7Просто буква V'
+GUI_GADGETS_HAT_49_NAME: 'Буква W'
+GUI_GADGETS_HAT_49_LORE:
+- '§7Просто буква W'
+GUI_GADGETS_HAT_50_NAME: 'Буква X'
+GUI_GADGETS_HAT_50_LORE:
+- '§7Просто буква X'
+GUI_GADGETS_HAT_51_NAME: 'Буква Y'
+GUI_GADGETS_HAT_51_LORE:
+- '§7Просто буква Y'
+GUI_GADGETS_HAT_52_NAME: 'Буква Z'
+GUI_GADGETS_HAT_52_LORE:
+- '§7Просто буква Z'
+GUI_GADGETS_HAT_53_NAME: 'Цифра 0'
+GUI_GADGETS_HAT_53_LORE:
+- '§7Просто цифра 0'
+GUI_GADGETS_HAT_54_NAME: 'Цифра 1'
+GUI_GADGETS_HAT_54_LORE:
+- '§7Просто цифра 1'
+GUI_GADGETS_HAT_55_NAME: 'Цифра 2'
+GUI_GADGETS_HAT_55_LORE:
+- '§7Просто цифра 2'
+GUI_GADGETS_HAT_56_NAME: 'Цифра 3'
+GUI_GADGETS_HAT_56_LORE:
+- '§7Просто цифра 3'
+GUI_GADGETS_HAT_57_NAME: 'Цифра 4'
+GUI_GADGETS_HAT_57_LORE:
+- '§7Просто цифра 4'
+GUI_GADGETS_HAT_58_NAME: 'Цифра 5'
+GUI_GADGETS_HAT_58_LORE:
+- '§7Просто цифра 5'
+GUI_GADGETS_HAT_59_NAME: 'Цифра 6'
+GUI_GADGETS_HAT_59_LORE:
+- '§7Просто цифра 6'
+GUI_GADGETS_HAT_60_NAME: 'Цифра 7'
+GUI_GADGETS_HAT_60_LORE:
+- '§7Просто цифра 7'
+GUI_GADGETS_HAT_61_NAME: 'Цифра 8'
+GUI_GADGETS_HAT_61_LORE:
+- '§7Просто цифра 8'
+GUI_GADGETS_HAT_62_NAME: 'Цифра 9'
+GUI_GADGETS_HAT_62_LORE:
+- '§7Просто цифра 9'
+GUI_GADGETS_HAT_63_NAME: 'Символ +'
+GUI_GADGETS_HAT_63_LORE:
+- '§7Просто символ '
+GUI_GADGETS_HAT_64_NAME: 'Символ #'
+GUI_GADGETS_HAT_64_LORE:
+- '§7Просто символ '
+GUI_GADGETS_HAT_65_NAME: 'Символ ?'
+GUI_GADGETS_HAT_65_LORE:
+- '§7Просто символ '
+GUI_GADGETS_HAT_66_NAME: 'Символ !'
+GUI_GADGETS_HAT_66_LORE:
+- '§7Просто символ '
+GUI_GADGETS_HAT_67_NAME: 'Скелет'
+GUI_GADGETS_HAT_67_LORE:
+- '§7Это как дежа вю, только дважды!'
 GUI_GADGETS_BANNER_1: 'Белый баннер'
 GUI_GADGETS_BANNER_1_LORE:
 - '§7У Вас будет белый баннер'
