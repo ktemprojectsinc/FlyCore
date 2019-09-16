@@ -250,6 +250,7 @@ TIME_SECOND_2:
 
 NO_RARITY: 'No rarity'
 RARITY: 'Rarity'
+ETERNITY: 'forever'
 ABSENT: 'Absent'
 UNKNOWN: 'unknown'
 
