@@ -4926,7 +4926,7 @@ GUI_GADGETS_MECHANISMS_LORE:
 - '%s'
 - ''
 - '§e▸ Нажмите, чтобы открыть меню'
-GUI_GADGETS_DGG_LORE1:
+GUI_GADGETS_DGG_LORE:
 - ''
 - '§7Список активных гаджетов:'
 GUI_GADGETS_DGG_LORE2:
