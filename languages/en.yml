@@ -8,8 +8,8 @@ BED_YES: 'Есть'
 BED_NO: 'Нету'
 ENABLED: '§aEnabled'
 DISABLED: '§cDisabled'
-ENABLE: '§aEnable'
-DISABLE: '§cDisable'
+ENABLE: 'Enable'
+DISABLE: 'Disable'
 
 PROMO_ITEM_NAME: '§aDISCOUNT!'
 HIDDEN: '§cHide'
@@ -222,6 +222,34 @@ ITEMS:
 - ''
 - 's'
 
+TIME_DAY_1:
+ - 'd'
+ - 'ay'
+ - 'ays'
+ - 'ays'
+ TIME_HOURS_1:
+- 'hour'
+- ''
+- 's'
+- 's'
+TIME_MINUTES_1:
+- 'minute'
+- ''
+- 's'
+- 's'
+TIME_MINUTES_2:
+- 'minute'
+- ''
+- 's'
+- ''
+TIME_SECOND_2:
+ - 'second'
+ - ''
+ - 's'
+ - 's'
+
+NO_RARITY: 'No rarity'
+RARITY: 'Rarity'
 ABSENT: 'Absent'
 UNKNOWN: 'unknown'
 
@@ -299,9 +327,7 @@ PLAYER_NO_KEYS:
 - '§aServer §8| §fOn your account недостаточно keys. Приобрести ключи можно на сайте §cflycore.ru'
 - '§r'
 
-PLAYER_GADGETS_BANNER_NO_GROUP: '§cFor buying this banner, your need privilege %s§c or higher'
-PLAYER_GADGETS_HAT_NO_GROUP: '§cFor buying this hat, your need privilege %s§c or higher'
-PLAYER_GADGETS_EFFECT_NO_GROUP: '§cFor buying this effect, your need privilege %s§c or higher'
+PLAYER_GADGETS_GADGET_NO_GROUP: '§cFor buying this gadget, your need privilege %s§c or higher'
 
 PLAYER_GUILDSHOP_NO_MONEY: "§aGuilds §8| §fThere is no enough coins on the guild's bank to buy this upgrade"
 PLAYER_GUILDSHOP_ALREADY: '§aGuilds §8| §fThis updrage is already bought'
@@ -1453,17 +1479,12 @@ BOX_NULL: '§c??? §f(§c%s§c +%s§f)'
 BOX_LEGENDARY: 'Legendary'
 BOX_EPIC: 'Epic'
 BOX_RARE: 'Rare'
-BOX_COMMON: 'Default'
+BOX_COMMON: 'Common'
 BOX_ITEM: '§f(Item)'
-BOX_EFFECT: '§f(Effect)'
-BOX_HAT: '§f(Hat)'
-BOX_BANNER: '§f(Banner)'
 BOX_STATS: '§f(Stats)'
 BOX_BOOSTER: '§f(Booster)'
 BOX_ITEM_ENCHANTED: '§8(Enchanted)'
-BOX_EFFECT_ALREADY: '§bLuckyChest §8| §fYou has already this effect, You get §6+%s §f%s'
-BOX_HAT_ALREADY: '§bLuckyChest §8| §fYou has already this hat, You get §6+%s §f%s'
-BOX_BANNER_ALREADY: '§bLuckyChest §8| §fYou has already this banner, You get §6+%s §f%s'
+BOX_EFFECT_ALREADY: '§bLuckyChest §8| §fYou has already this gadget, You get §6+%s §f%s'
 BOX_STATS_ALREADY: '§bLuckyChest §8| §fYou has already this stats, You got §e+%s §f%s'
 BOX_BOOSTER_ALREADY: '§bLuckyChest §8| §fYou has already activated this booster, You got §6+%s §f%s'
 BOX_ITEM_ALREADY: '§bLuckyChest §8| §fYou has already this item, You get §6+%s §f%s'
@@ -2642,20 +2663,14 @@ GUI_PAGE_NEXT: '§aNext page'
 GUI_PAGE_NEXT_OLD: '§aNext page'
 GUI_PAGE_PREVIOUS: '§aPrevious page'
 GUI_PAGE_PREVIOUS_OLD: '§aPrevious page'
-GUI_PROFILE: '§bGeneral information'
-GUI_PROFILE_SETTING: '§bSettings'
-GUI_PROFILE_LEVEL: '§bLeveling'
-GUI_PROFILE_STATS: '§bStats'
-GUI_PROFILE_DONATEMENU: '§bMenu donate'
-GUI_PROFILE_EFFECTSHOP: '§bCosmetics'
+GUI_PROFILE: 'General information'
+GUI_PROFILE_LEVEL: 'Leveling'
+GUI_PROFILE_STATS: 'Stats'
 GUI_PROFILE_NULL: '§c???'
-GUI_PROFILE_PERSONALUP: '§bBoost'
-GUI_PROFILE_YOUTUBEMENU: '§bMenu YouTube'
-GUI_PROFILE_DONATE: '§bPrivileges'
-GUI_PROFILE_INFO: '§bHelp'
-GUI_PROFILE_LANGUAGE: '§bSwitch language'
-GUI_PROFILE_ITEMS: '§bItems'
-GUI_PROFILE_SHOP: '§bShop'
+GUI_PROFILE_PERSONALUP: 'Boost'
+GUI_PROFILE_INFO: 'Help'
+GUI_PROFILE_ITEMS: 'Items'
+GUI_PROFILE_SHOP: 'Shop'
 GUI_PROFILE_LORE:
 - '§8• §7ID: %s'
 - '§8• §7Rank: %s'
@@ -2778,8 +2793,7 @@ GUI_PROFILE_THEME_LORE:
 GUI_PROFILE_NAME: 'Profile'
 GUI_PROFILE_THEME: '§bВыбор темы'
 GUI_DONATE_NAME: 'Privileges'
-GUI_DONATE_NAME_TO: '%s ▸ Privileges'
-GUI_DONATE_TITLE: 'Capabilities %s'
+GUI_DONATE_TITLE: 'Capabilities'
 GUI_DONATE_ALL: '§bGeneral bonuses'
 GUI_DONATE_PAYMENT: '§bPlayment options'
 GUI_DONATE_INFO: '§bAdditional Information'
@@ -3354,7 +3368,7 @@ GUI_DONATE_MONEY_LORE:
 - '§7к улучшению нашего с вами проекта.'
 - '§7Выражаем вам благодарность за'
 - '§7осуществление наших общих мечт!'
-GUI_DONATE_ITEM: '§bRank %s'
+GUI_DONATE_ITEM: '§bRank'
 GUI_DONATE_ITEM_LORE:
 - ''
 - ' §8▪ §7Cost: §a%s§7 rubbles'
@@ -3925,7 +3939,7 @@ GUI_SETTING_DONATECHAT_LORE:
 - '§7donaters chat §f/dc'
 - '§7through the all server'
 GUI_SETTING_VK_LORE:
-- '§7Позволяет включить или выключить'
+- '§7Allows to enable or disable'
 - '§7отображение вашего VK другим игрокам'
 GUI_SETTING_UNAVAILABLE_LORE:
 - ''
@@ -3945,7 +3959,7 @@ GUI_SETTING_FRIEND: 'Friends invites'
 GUI_SETTING_PARTY: 'Party invites'
 GUI_SETTING_GUILD: 'Guilds invites'
 GUI_SETTING_DONATECHAT: 'Donaters chat'
-GUI_SETTING_NAME: 'Profile ▸ Settings'
+GUI_SETTING_NAME: 'Settings'
 GUI_SETTING_DISABLE_LORE:
 - '§7Click to disable'
 GUI_SETTING_ENABLE_LORE:
@@ -4035,11 +4049,8 @@ GUI_DONATEMENU_SMILES_LORE:
 - '§7Only available for §a§lEMERALD§7 or higher'
 - ''
 - '§e▸ Tap to open the menu'
-GUI_DONATEMENU_FASTMESSAGES: '§bFast message'
-GUI_DONATEMENU_PREFIX: '§bChange the prefix'
-GUI_DONATEMENU_SMILES: '§bSmiles'
 GUI_DONATEMENU_NAME: 'Donate menu'
-GUI_SMILES_NAME: 'Donate menu ▸ Smiles'
+GUI_SMILES_NAME: 'Smiles'
 GUI_SMILES_ITEM_LORE:
 - '§7Smile §a%s'
 GUI_SMILES_AVAILABLE_LORE:
@@ -4132,7 +4143,6 @@ GUI_FRIENDS_ONLINE_LORE:
 - ''
 - '§7Now on the server: §e%s'
 - ''
-- '%s'
 GUI_FRIENDS_ALREADY_LORE:
 - '§c▸ You are already on one server'
 GUI_FRIENDS_CONNECT_LORE:
@@ -4147,7 +4157,7 @@ GUI_EFFECTS_KILLED: '§aDeathbed wheezes'
 GUI_EFFECTS_ARROWS: '§aArrow effects'
 GUI_EFFECTS_KILLS: '§aKill effects'
 GUI_EFFECTS_WINS: '§aWin effects'
-GUI_EFFECTS_NAME: 'Profile ▸ Cosmetics'
+GUI_EFFECTS_NAME: 'Cosmetics'
 SOUND_NA: '§cNo select'
 SOUND_CREEPER: 'Creeper death'
 SOUND_BLAZE: 'Blaze death'
@@ -4221,8 +4231,7 @@ GUI_EFFECTS_WINS_LORE:
 - '§a%s'
 - ''
 - '§e▸ Open menu'
-GUI_CHANGELANGUAGE_NAME: 'Profile ▸ Switch language'
-GUI_CHANGELANGUAGE_ITEM: '§eSwitch language'
+GUI_CHANGELANGUAGE_NAME: 'Switch language'
 GUI_CHANGELANGUAGE_ITEM_LORE:
 - ''
 - '§fTotal languages: §a%s'
@@ -4244,7 +4253,7 @@ GUI_FRIEND_REQUESTS_ITEM_LORE:
 - ''
 - '§7Total requests:'
 - '§a%s'
-GUI_FASTMESSAGES_NAME: 'Donate menu ▸ Fast messages'
+GUI_FASTMESSAGES_NAME: 'Fast messages'
 GUI_FASTMESSAGES_ITEM_LORE:
 - '§7Message: §a%s'
 GUI_FASTMESSAGES_AVAILABLE_LORE:
@@ -4661,23 +4670,31 @@ GUI_GADGETS_DIS: 'Disguises'
 GUI_GADGETS_PET: 'Pets'
 GUI_GADGETS_MECHANISMS: 'Mechanisms'
 GUI_GADGETS_DGG: 'Disabled gadgets'
+GUI_GADGETS_DGG_DISABLE: 'Disable all gadgets'
+GUI_GADGETS_DGG_DISABLE_LORE:
+- ''
+- '§7Click here, to disable'
+- '§7all activated gadgets'
+GUI_GADGETS_DGG_EMPTY: 'No activated gadgets'
+GUI_GADGETS_DGG_EMPTY_LORE:
+- ''
+- '§7At the moment, you no'
+- '§7activated gadgets'
 GUI_GADGETS_SETTING: 'Settings'
 GUI_GADGETS_AVAILABLE: '§7Available:'
 GUI_GADGETS_GROUP: '§8• §7Only available for %s§7 or higher'
+GUI_GADGETS_FREE_GROUP: '§8• §7Free for %s§7 or higher'
+GUI_GADGETS_LEVEL: '§8• §7Upon reaching §d%s §7%s'
 GUI_GADGETS_BOX: '§8• §7Drop to §bLuckyChest §7(%s§7)'
-GUI_GADGETS_SITE: '§8• §7Buying on site §bflycore.ru'
+GUI_GADGETS_SITE: '§8• §7Buying on site §b%s'
 GUI_GADGETS_GIVE_MONEY: '§7Price §6%s§7 %s'
 GUI_GADGETS_GIVE_GOLDS: '§7Price §e%s§7 %s'
+GUI_GADGETS_GIVE_CORE: '§7Price §b%s§7 %s'
 GUI_GADGETS_NO_GIVE: '§cDo not enough %s'
-GUI_GADGETS_HAT_NO_AVAILABLE: '§cThis hat your not available'
-GUI_GADGETS_BANNER_NO_AVAILABLE: '§cThis banner your not available'
-GUI_GADGETS_EFFECT_NO_AVAILABLE: '§cThis effect your not available'
-GUI_GADGETS_TYPE_HAT: 'hat'
-GUI_GADGETS_TYPE_BANNER: 'banner'
-GUI_GADGETS_TYPE_EFFECT: 'effect'
-GUI_GADGETS_BUY: '§eClick, to buying %s'
-GUI_GADGETS_USE: '§e▸ Click, to activate %s'
-GUI_GADGETS_SELECTED: '§c▸ Click, to disactivate %s'
+GUI_GADGETS_NO_AVAILABLE: '§cThis gadget your not available'
+GUI_GADGETS_BUY: '§eClick, to buying gadget'
+GUI_GADGETS_USE: '§e▸ Click, to activate gadget'
+GUI_GADGETS_SELECTED: '§c▸ Click, to disactivate gadget'
 GUI_GADGETS_NOT_SELECTED: '§cNo select'
 GUI_GADGETS_SETTING_1: '§eDisguises'
 GUI_GADGETS_SETTING_1_LORE:
@@ -4830,7 +4847,8 @@ GUI_GADGETS_EFFECT_9_LORE:
 - '§7Отпразднуй новый год быстрее всех!'
 GUI_GADGETS_EFFECT_10: 'Villagers'
 GUI_GADGETS_EFFECT_10_LORE:
-- '§7Почувствуй себя жителем из деревни, когда тебе не дали изумруды'
+- '§7Почувствуйте себя жителем из деревни,'
+- '§7когда Вам не дали изумруды'
 GUI_GADGETS_EFFECT_11: 'Fire'
 GUI_GADGETS_EFFECT_11_LORE:
 - '§7Вы будите гореть, гореть и гореть..'
@@ -4943,6 +4961,129 @@ GUI_GADGETS_HAT_26: 'I'
 GUI_GADGETS_HAT_26_LORE:
 - '§7Вы получите себя!'
 - '§7..на самом деле yes.'
+GUI_GADGETS_HAT_27: 'Letter A'
+GUI_GADGETS_HAT_27_LORE:
+- '§7Simply letter A'
+GUI_GADGETS_HAT_28: 'Letter B'
+GUI_GADGETS_HAT_28_LORE:
+- '§7Simply letter B'
+GUI_GADGETS_HAT_29: 'Letter C'
+GUI_GADGETS_HAT_29_LORE:
+- '§7Simply letter C'
+GUI_GADGETS_HAT_30: 'Letter D'
+GUI_GADGETS_HAT_30_LORE:
+- '§7Simply letter D'
+GUI_GADGETS_HAT_31: 'Letter E'
+GUI_GADGETS_HAT_31_LORE:
+- '§7Simply letter E'
+GUI_GADGETS_HAT_32: 'Letter F'
+GUI_GADGETS_HAT_32_LORE:
+- '§7Simply letter F'
+GUI_GADGETS_HAT_33: 'Letter G'
+GUI_GADGETS_HAT_33_LORE:
+- '§7Simply letter G'
+GUI_GADGETS_HAT_34: 'Letter H'
+GUI_GADGETS_HAT_34_LORE:
+- '§7Simply letter H'
+GUI_GADGETS_HAT_35: 'Letter I'
+GUI_GADGETS_HAT_35_LORE:
+- '§7Simply letter I'
+GUI_GADGETS_HAT_36: 'Letter J'
+GUI_GADGETS_HAT_36_LORE:
+- '§7Simply letter J'
+GUI_GADGETS_HAT_37: 'Letter K'
+GUI_GADGETS_HAT_37_LORE:
+- '§7Simply letter K'
+GUI_GADGETS_HAT_38: 'Letter L'
+GUI_GADGETS_HAT_38_LORE:
+- '§7Simply letter L'
+GUI_GADGETS_HAT_39: 'Letter M'
+GUI_GADGETS_HAT_39_LORE:
+- '§7Simply letter M'
+GUI_GADGETS_HAT_40: 'Letter N'
+GUI_GADGETS_HAT_40_LORE:
+- '§7Simply letter N'
+GUI_GADGETS_HAT_41: 'Letter O'
+GUI_GADGETS_HAT_41_LORE:
+- '§7Simply letter O'
+GUI_GADGETS_HAT_42: 'Letter P'
+GUI_GADGETS_HAT_42_LORE:
+- '§7Simply letter P'
+GUI_GADGETS_HAT_43: 'Letter Q'
+GUI_GADGETS_HAT_43_LORE:
+- '§7Simply letter Q'
+GUI_GADGETS_HAT_44: 'Letter R'
+GUI_GADGETS_HAT_44_LORE:
+- '§7Simply letter R'
+GUI_GADGETS_HAT_45: 'Letter S'
+GUI_GADGETS_HAT_45_LORE:
+- '§7Simply letter S'
+GUI_GADGETS_HAT_46: 'Letter T'
+GUI_GADGETS_HAT_46_LORE:
+- '§7Simply letter T'
+GUI_GADGETS_HAT_47: 'Letter U'
+GUI_GADGETS_HAT_47_LORE:
+- '§7Simply letter U'
+GUI_GADGETS_HAT_48: 'Letter V'
+GUI_GADGETS_HAT_48_LORE:
+- '§7Simply letter V'
+GUI_GADGETS_HAT_49: 'Letter W'
+GUI_GADGETS_HAT_49_LORE:
+- '§7Simply letter W'
+GUI_GADGETS_HAT_50: 'Letter X'
+GUI_GADGETS_HAT_50_LORE:
+- '§7Simply letter X'
+GUI_GADGETS_HAT_51: 'Letter Y'
+GUI_GADGETS_HAT_51_LORE:
+- '§7Simply letter Y'
+GUI_GADGETS_HAT_52: 'Letter Z'
+GUI_GADGETS_HAT_52_LORE:
+- '§7Simply letter Z'
+GUI_GADGETS_HAT_53: 'Numeral 0'
+GUI_GADGETS_HAT_53_LORE:
+- '§7Simply numeral 0'
+GUI_GADGETS_HAT_54: 'Numeral 1'
+GUI_GADGETS_HAT_54_LORE:
+- '§7Simply numeral 1'
+GUI_GADGETS_HAT_55: 'Numeral 2'
+GUI_GADGETS_HAT_55_LORE:
+- '§7Simply numeral 2'
+GUI_GADGETS_HAT_56: 'Numeral 3'
+GUI_GADGETS_HAT_56_LORE:
+- '§7Simply numeral 3'
+GUI_GADGETS_HAT_57: 'Numeral 4'
+GUI_GADGETS_HAT_57_LORE:
+- '§7Simply numeral 4'
+GUI_GADGETS_HAT_58: 'Numeral 5'
+GUI_GADGETS_HAT_58_LORE:
+- '§7Simply numeral 5'
+GUI_GADGETS_HAT_59: 'Numeral 6'
+GUI_GADGETS_HAT_59_LORE:
+- '§7Simply numeral 6'
+GUI_GADGETS_HAT_60: 'Numeral 7'
+GUI_GADGETS_HAT_60_LORE:
+- '§7Simply numeral 7'
+GUI_GADGETS_HAT_61: 'Numeral 8'
+GUI_GADGETS_HAT_61_LORE:
+- '§7Simply numeral 8'
+GUI_GADGETS_HAT_62: 'Numeral 9'
+GUI_GADGETS_HAT_62_LORE:
+- '§7Simply numeral 9'
+GUI_GADGETS_HAT_63: 'Symbol +'
+GUI_GADGETS_HAT_63_LORE:
+- '§7Simply symbol +'
+GUI_GADGETS_HAT_64: 'Symbol #'
+GUI_GADGETS_HAT_64_LORE:
+- '§7Simply symbol #'
+GUI_GADGETS_HAT_65: 'Symbol ?'
+GUI_GADGETS_HAT_65_LORE:
+- '§7Simply symbol ?'
+GUI_GADGETS_HAT_66: 'Symbol !'
+GUI_GADGETS_HAT_66_LORE:
+- '§7Simply symbol !'
+GUI_GADGETS_HAT_67: 'Sekeleton'
+GUI_GADGETS_HAT_67_LORE:
+- '§7Это как дежавю, только twice!'
 GUI_GADGETS_BANNER_1: 'White banner'
 GUI_GADGETS_BANNER_1_LORE:
 - '§7У Вас будет белый banner'
@@ -4985,14 +5126,18 @@ GUI_GADGETS_BANNER_13_LORE:
 GUI_GADGETS_BANNER_14: 'Голубой banner'
 GUI_GADGETS_BANNER_14_LORE:
 - '§7У Вас будет голубой banner'
-GUI_GADGETS_BANNER_15: 'Пурпуровый banner'
+GUI_GADGETS_BANNER_15: 'Пурпурный banner'
 GUI_GADGETS_BANNER_15_LORE:
 - '§7У Вас будет пурпуровый banner'
 GUI_GADGETS_BANNER_16: 'Ораньжевый banner'
 GUI_GADGETS_BANNER_16_LORE:
 - '§7У Вас будет ораньжевый banner'
+GUI_GADGETS_SPIRIT_1: 'Защитник'
+GUI_GADGETS_SPIRIT_1_LORE:
+- '§7Это ваш Ангел-Хранитель, но'
+- '§7лишь до входа в игру'
 
-GUI_PREFIX_NAME: 'Donate menu ▸ prefix'
+GUI_PREFIX_NAME: 'Change the prefix'
 GUI_PREFIX_SELECTED_LORE:
 - ''
 - '§aPrefix selected'
@@ -5002,13 +5147,8 @@ GUI_PREFIX_SELECT_LORE:
 - '§8• §7Price §b%s§7 %s'
 - '§8• §7Free for %s§7 or higher'
 - ''
-- '§e▸ Click, to set prefix'
-GUI_PREFIX_UNAVAILABLE_LORE:
-- '§7Change prefix to: %s'
-- ''
-- '§7Available:'
-- '§8• §7Price §b%s§7 %s'
-- '§8• §7Free for %s§7 or higher'
+GUI_PREFIX_SELECT: '§e▸ Click, to set prefix'
+GUI_PREFIX_UNAVAILABLE: '§c✗ This prefix you no available'
 PREFIX_NOT_SELECT: '§cPrefix not selected'
 COLOR_GRAY: '§7Gray'
 COLOR_YELLOW: '§eYellow'
@@ -5038,13 +5178,8 @@ GUI_THEME_SELECT_LORE:
 - '§8• §7Price §6%s§7 %s'
 - '§8• §7Free for %s§7 or higher'
 - ''
-- '§e▸ Click, to theme select'
-GUI_THEME_UNAVAILABLE_LORE:
-- '§7Change theme to: %s'
-- ''
-- '§7Available:'
-- '§8• §7Price §6%s§7 %s'
-- '§8• §7Free for %s§7 or higher'
+GUI_THEME_SELECT: '§e▸ Click, to theme select'
+GUI_THEME_UNAVAILABLE: '§c✗ This theme you no available'
 
 GUI_ARROWEFFECTS_NAME: 'Profile ▸ Cosmetics ▸ Arrows'
 GUI_ARROWEFFECTS_MUSIC: 'Звуковой путь'
