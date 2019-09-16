@@ -2679,18 +2679,10 @@ GUI_BACK_LORE:
 GUI_BACK_LORE2:
 - '§7Нажмите, чтобы вернуться в главное меню'
 
-GUI_PROFILE: '§bОбщая информация'
-GUI_PROFILE_SETTING: 'Настройки'
+GUI_PROFILE: 'Общая информация'
 GUI_PROFILE_LEVEL: 'Уровень'
-GUI_PROFILE_STATS: 'Статистика'
-GUI_PROFILE_DONATEMENU: 'Донат меню'
-GUI_PROFILE_EFFECTSHOP: 'Косметика'
 GUI_PROFILE_PERSONALUP: 'Повышение'
-GUI_PROFILE_YOUTUBEMENU: 'YouTube меню'
 GUI_PROFILE_NULL: '???'
-GUI_PROFILE_DONATE: 'Привилегии'
-GUI_PROFILE_INFO: 'Информация'
-GUI_PROFILE_LANGUAGE: 'Смена языка'
 GUI_PROFILE_ITEMS: 'Предметы'
 GUI_PROFILE_SHOP: 'Магазин'
 GUI_PROFILE_LORE:
@@ -3636,7 +3628,6 @@ GUI_IGNORE_TOTAL_LORE:
 - ''
 - '§7Всего игроков:'
 - '§a%s'
-GUI_IGNORE_TOTAL: '§eСписок игнорируемых'
 GUI_IGNORE_NAME: 'Список игнорируемых'
 
 GUI_SERVERS_ONLINE_LORE:
@@ -4222,7 +4213,6 @@ GUI_SMILES_69: '=('
 GUI_SMILES_70: 'xD'
 
 GUI_FRIENDS_NAME: 'Список друзей'
-GUI_FRIENDS_ITEM: '§eСписок друзей'
 GUI_FRIENDS_ITEM_LORE:
 - ''
 - '§7Всего друзей §a%s'
@@ -4346,7 +4336,6 @@ GUI_CHANGELANGUAGE_SELECT_LORE:
 - '§e▸ Нажмите, чтобы сменить язык'
 
 GUI_FRIEND_REQUESTS_NAME: 'Список запросов'
-GUI_FRIEND_REQUESTS_ITEM: '§eСписок запросов'
 GUI_FRIEND_REQUESTS_LORE:
 - ''
 - '§e▶ ЛКМ, чтобы принять запрос'
@@ -4795,7 +4784,7 @@ GUI_GADGETS_DGG_DISABLE_LORE:
 GUI_GADGETS_DGG_EMPTY: 'Нет активных гаджетов'
 GUI_GADGETS_DGG_EMPTY_LORE:
 - ''
-- '§7В данный моменту Вас нету,'
+- '§7В данный моменту у Вас нету,'
 - '§7активированных гаджетов'
 GUI_GADGETS_SETTING: 'Настройки'
 GUI_GADGETS_AVAILABLE: '§7Можно получить:'
@@ -4809,9 +4798,6 @@ GUI_GADGETS_GIVE_GOLDS: '§7Цена §e%s§7 %s'
 GUI_GADGETS_GIVE_CORE: '§7Цена §b%s§7 %s'
 GUI_GADGETS_NO_GIVE: '§cУ вас недостаточно %s'
 GUI_GADGETS_NO_AVAILABLE: '§cДанный гаджет вам недоступна'
-GUI_GADGETS_TYPE_HAT: 'шляпу'
-GUI_GADGETS_TYPE_BANNER: 'баннер'
-GUI_GADGETS_TYPE_EFFECT: 'эффект'
 GUI_GADGETS_BUY: '§e▸ Нажмите, чтобы приобрести гаджет'
 GUI_GADGETS_USE: '§e▸ Нажмите, чтобы активировать гаджет'
 GUI_GADGETS_SELECTED: '§c▸ Нажмите, чтобы деактивировать гаджет'
@@ -5255,9 +5241,9 @@ GUI_GADGETS_BANNER_15_LORE:
 GUI_GADGETS_BANNER_16: 'Ораньжевый баннер'
 GUI_GADGETS_BANNER_16_LORE:
 - '§7У Вас будет ораньжевый баннер'
-GUI_GADGETS_SPIRIT_1: 'Защитник'
+GUI_GADGETS_SPIRIT_1: 'Defender'
 GUI_GADGETS_SPIRIT_1_LORE:
-- '§7Это ваш Ангел-Хранитель, но'
+- '§7Это ваш Angel-Хранитель, но'
 - '§7лишь до входа в игру'
 
 GUI_PREFIX_NAME: 'Смена префикса'
