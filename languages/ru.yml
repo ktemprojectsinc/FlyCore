@@ -5277,7 +5277,7 @@ COLOR_DARK_RED: '§4Темно красный'
 COLOR_DARK_GRAY: '§8Темно серый'
 COLOR_BLACK: '§0Черный'
 
-GUI_THEME_NAME: 'Профиль ▸ Выбор темы'
+GUI_THEME_NAME: 'Выбор темы'
 GUI_THEME_SELECTED_LORE:
 - ''
 - '§aТема выбрана'
