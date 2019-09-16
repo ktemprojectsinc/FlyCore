@@ -4808,9 +4808,11 @@ GUI_GADGETS_MECHANISMS_LORE:
 - '§e▸ Click, to open menu'
 GUI_GADGETS_DGG_LORE:
 - ''
-- '§7List of activated gadgets'
-- ''
+- '§7List of activated gadgets:'
+GUI_GADGETS_DGG_LORE2:
 - '§e▸ Click, to open menu'
+GUI_GADGETS_DGG_LORE3:
+- '§e▸ Right click, to disable all gadgets'
 GUI_GADGETS_SETTING_LORE:
 - ''
 - '§7Персональные настройки для'
