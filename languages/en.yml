@@ -4433,16 +4433,12 @@ GUI_LOBBY_FRIENDS_1:
 - '§7Online: §a%s§7 %s'
 - ''
 - '§7Friends on lobby:'
-- '%s'
-- ''
 - '§e  Click to teleport'
 GUI_LOBBY_FRIENDS_2:
 - ''
 - '§7Online: §a%s§7 %s'
 - ''
 - '§7Friends on lobby:'
-- '%s'
-- ''
 - '§e▶ Click to teleport'
 GUI_LOBBY_FRIENDS_FORMAT: ' §8• %s'
 GUI_LOBBY_FRIENDS_MAX:
