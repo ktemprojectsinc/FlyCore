@@ -5241,9 +5241,9 @@ GUI_GADGETS_BANNER_15_LORE:
 GUI_GADGETS_BANNER_16: 'Ораньжевый баннер'
 GUI_GADGETS_BANNER_16_LORE:
 - '§7У Вас будет ораньжевый баннер'
-GUI_GADGETS_SPIRIT_1: 'Defender'
+GUI_GADGETS_SPIRIT_1: 'Защитник'
 GUI_GADGETS_SPIRIT_1_LORE:
-- '§7Это ваш Angel-Хранитель, но'
+- '§7Это ваш Ангел-Хранитель, но'
 - '§7лишь до входа в игру'
 
 GUI_PREFIX_NAME: 'Смена префикса'
