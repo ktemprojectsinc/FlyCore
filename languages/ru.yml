@@ -4695,7 +4695,7 @@ GUI_GAMESERVERS_TEAM_MODE: '§8Командный режим'
 GUI_GAMESERVERS_DUO_MODE: '§8Парный режим'
 GUI_GAMESERVERS_FAST_MODE: '§8Быстрый режим'
 
-GUI_STATS_NAME: 'Профиль ▸ Статистика'
+GUI_STATS_NAME: 'Статистика'
 GUI_STATS_NAME_OTHER: 'Статистика игрока - %s'
 GUI_STATS_BEDWARS_LORE:
 - ''
