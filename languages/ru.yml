@@ -4926,11 +4926,12 @@ GUI_GADGETS_MECHANISMS_LORE:
 - '%s'
 - ''
 - '§e▸ Нажмите, чтобы открыть меню'
-GUI_GADGETS_DGG_LORE:
+GUI_GADGETS_DGG_LORE1:
 - ''
-- '§7Список активных гаджетов'
-- ''
+- '§7Список активных гаджетов:'
+GUI_GADGETS_DGG_LORE2:
 - '§e▸ Нажмите, чтобы открыть меню'
+GUI_GADGETS_DGG_LORE3:
 - '§e▸ ПКМ, чтобы отключить все гаджеты'
 GUI_GADGETS_SETTING_LORE:
 - ''
