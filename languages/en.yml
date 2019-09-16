@@ -683,7 +683,7 @@ ITEM_GAME_LORE:
  - '§7Universal device'
  - '§7for movent through'
  - '§7all server modes'
-ITEM_GADGETS_NAME: '§eCosmetics'
+ITEM_GADGETS_NAME: '§eGadgets'
 ITEM_GADGETS_LORE:
  - '§7Different things for'
  - '§7entertainment in the lobby'
