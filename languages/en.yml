@@ -5170,7 +5170,7 @@ COLOR_DARK_GRAY: '§8Dark gray'
 COLOR_BLACK: '§0Black'
 COLOR_ERROR: 'Unknown'
 
-GUI_THEME_NAME: 'Profile ▸ Выбор темы'
+GUI_THEME_NAME: 'Выбор темы'
 GUI_THEME_SELECTED_LORE:
 - ''
 - '§aTheme selected'
