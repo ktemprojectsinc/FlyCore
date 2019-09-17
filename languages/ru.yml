@@ -6009,14 +6009,20 @@ GUI_CASES_INFO_TO_LORE:
 - '§e▸ Шифт + ЛКМ, чтобы быстро открывать кейс'
 
 GUI_PURCHASE_CONFIRM: 'Подтверждение покупки'
+GUI_PURCHASE_CONFIRM_LORE:
+- ' '
+- '§7Вы уверены, что хотите'
+- '§7приобрести этот предмет?'
+- ' '
+- '§cЭто действие необратимо'
 GUI_PURCHASE_CONFIRM_CONFIRM_LORE:
 - ''
 - '§7Вы уверены, что хотите'
-- '§7купить %s§7 за §a%s§7 %s?'
+- '§7купить "§f%s§7" за §a%s§7 %s?'
 - ''
 - '§cЭто действие необратимо!'
 - ''
-GUI_PUCHASE_CONFIRM_CANCEL_LORE:
+GUI_PURCHASE_CONFIRM_CANCEL_LORE:
 - ''
 - '§7Отменить действие'
 ITEMS_GUI_COST_FORMAT: '§7Стоимость: %s %s'
