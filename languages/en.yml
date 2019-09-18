@@ -4613,9 +4613,9 @@ GUI_GADGETS_GIVE_GOLDS: '§7Price §e%s§7 %s'
 GUI_GADGETS_GIVE_CORE: '§7Price §b%s§7 %s'
 GUI_GADGETS_NO_GIVE: '§cDo not enough %s'
 GUI_GADGETS_NO_AVAILABLE: '§cThis gadget your not available'
-GUI_GADGETS_BUY: '§eClick, to buying gadget'
-GUI_GADGETS_USE: '§e▸ Click, to activate gadget'
-GUI_GADGETS_SELECTED: '§c▸ Click, to disactivate gadget'
+GUI_GADGETS_BUY: '§eClick, to buying'
+GUI_GADGETS_USE: '§e▸ Click, to activate'
+GUI_GADGETS_SELECTED: '§c▸ Click, to disactivate'
 GUI_GADGETS_NOT_SELECTED: '§cNo select'
 GUI_GADGETS_SETTING_1: '§eDisguises'
 GUI_GADGETS_SETTING_1_LORE:
@@ -5149,7 +5149,7 @@ GUI_COSMETIC_KILLSOUND_LORE:
 - ''
 - '§7Open: §a%s/%s §c%s'
 - '§7Sound selected:'
-- '§a%s'
+- '%s'
 - ''
 - '§e▸ Open menu'
 GUI_COSMETIC_ARROWEFFECT_LORE:
@@ -5160,7 +5160,7 @@ GUI_COSMETIC_ARROWEFFECT_LORE:
 - ''
 - '§7Open: §a%s/%s §c%s'
 - '§7Effect selected:'
-- '§a%s'
+- '%s'
 - ''
 - '§e▸ Open menu'
 GUI_COSMETIC_KILLEFFECT_LORE:
@@ -5171,7 +5171,7 @@ GUI_COSMETIC_KILLEFFECT_LORE:
 - ''
 - '§7Open: §a%s/%s §c%s'
 - '§7Effect seleccted:'
-- '§a%s'
+- '%s'
 - ''
 - '§e▸ Open menu'
 GUI_COSMETIC_WINEFFECT_LORE:
@@ -5182,7 +5182,7 @@ GUI_COSMETIC_WINEFFECT_LORE:
 - ''
 - '§7Open: §a%s/%s §c%s'
 - '§7Effect selected:'
-- '§a%s'
+- '%s'
 - ''
 - '§e▸ Open menu'
 
@@ -5860,7 +5860,7 @@ GUI_PURCHASE_CONFIRM: 'Confirm purchase'
 GUI_PURCHASE_CONFIRM_LORE:
 - ' '
 - '§7You, to want'
-- '§7приобрести этот предмет?'
+- '§7buying this item?'
 - ' '
 - '§cThis action is irreversible'
 GUI_PURCHASE_CONFIRM_CONFIRM_LORE:
