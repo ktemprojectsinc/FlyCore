@@ -5973,8 +5973,8 @@ GUI_PURCHASE_CONFIRM_CONFIRM_LORE:
 GUI_PURCHASE_CONFIRM_CANCEL_LORE:
 - ''
 - '§7Отменить действие'
-ITEMS_GUI_COST_FORMAT: '§7Стоимость: %s %s'
-ITEMS_GUI_DISCOUNTED_COST_FORMAT: '§7Стоимость (со скидкой): %s %s'
+COST_FORMAT: '§7Стоимость: %s %s'
+DISCOUNTED_COST_FORMAT: '§7Стоимость (со скидкой): %s %s'
 
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, наиграно - §a%s'
