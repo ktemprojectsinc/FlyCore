@@ -308,23 +308,23 @@ HP_ADD: '§c+%s hp'
 
 PLAYER_NO_MONEY:
 - ''
-- '§aServer §8| §fOn your account недостаточно money. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account недостаточно §amoney§f. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_GOLDS:
 - ''
-- '§aServer §8| §fOn your account недостаточно golds. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account недостаточно §egold§f. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_CORE:
 - ''
-- '§aServer §8| §fOn your account недостаточно cores. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account недостаточно §bcores§f. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_LEVEL:
 - ''
-- '§aServer §8| §fOn your account недостаточно level. Приобрести опыт можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account недостаточно §dlevel§f. Приобрести опыт можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_KEYS:
 - ''
-- '§aServer §8| §fOn your account недостаточно keys. Приобрести ключи можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account недостаточно §akeys§f. Приобрести ключи можно на сайте §cflycore.ru'
 - '§r'
 
 PLAYER_GADGETS_GADGET_NO_GROUP: '§cFor buying this gadget, your need privilege %s§c or higher'
