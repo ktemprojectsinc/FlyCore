@@ -306,9 +306,6 @@ NULL_ADD: '§c+%s'
 FOOD_ADD: '§6+%s foods'
 HP_ADD: '§c+%s hp'
 
-EFFECTSHOP_EFFECT_NOT_LEVEL: '§cFor open this effect, your need level §d%s§c or higher'
-EFFECTSHOP_SOUND_NOT_LEVEL: '§cFor open this sound, your need level §d%s§c or higher'
-
 PLAYER_NO_MONEY:
 - ''
 - '§aServer §8| §fOn your account недостаточно money. Пополнить Ваш счёт можно на сайте §cflycore.ru'
@@ -331,6 +328,7 @@ PLAYER_NO_KEYS:
 - '§r'
 
 PLAYER_GADGETS_GADGET_NO_GROUP: '§cFor buying this gadget, your need privilege %s§c or higher'
+PLAYER_COSMETIC_NO_LEVEL: '§cFor activate, your need level §d%s§c or higher'
 
 PLAYER_GUILDSHOP_NO_MONEY: "§aGuilds §8| §fThere is no enough coins on the guild's bank to buy this upgrade"
 PLAYER_GUILDSHOP_ALREADY: '§aGuilds §8| §fThis updrage is already bought'
@@ -5105,6 +5103,8 @@ GUI_THEME_SELECT_LORE:
 - ''
 GUI_THEME_SELECT: '§e▸ Click, to theme select'
 GUI_THEME_UNAVAILABLE: '§c✗ This theme you no available'
+
+GUI_COSMETIC_NO_AVAILABLE: '§cДанный предмет Вам недоступен'
 
 GUI_COSMETIC_KILLSOUND: '§aDeathbed wheezes'
 GUI_COSMETIC_ARROWEFFECT: '§aArrow effects'
