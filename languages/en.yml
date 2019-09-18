@@ -10,6 +10,8 @@ ENABLED: '§aEnabled'
 DISABLED: '§cDisabled'
 ENABLE: 'Enable'
 DISABLE: 'Disable'
+CONFIRM_NAME: 'Confirm'
+CANCEL_NAME: '§cCancel'
 
 PROMO_ITEM_NAME: '§aDISCOUNT!'
 HIDDEN: '§cHide'
@@ -2650,9 +2652,11 @@ COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
 
 #Guis en
-GUI_BACK_NAME: '§cBack'
-GUI_BACK_LORE:
+BACK_ITEM_NAME: '§cBack'
+BACK_ITEM_LORE:
 - '§7Click to return'
+BACK_ITEM_LORE2:
+- '§7Click to return to main menu'
 
 GUI_PAGE_NEXT_LORE:
 - '§7Click to go'
@@ -2726,7 +2730,7 @@ GUI_PROFILE_DONATEMENU_LORE:
 - '§7and other.'
 - ''
 - '§e▸ Open donate menu'
-GUI_PROFILE_EFFECTSHOP_LORE:
+GUI_PROFILE_COSMETIC_LORE:
 - '§7Allows to buy and activate'
 - '§7different cosmetic improvements'
 - '§fПредсмертный wheezt§7, §fArrow effect flying§7,'
@@ -4154,84 +4158,6 @@ GUI_FRIENDS_OFFLINE_LORE:
 - '§e%s ago'
 - ''
 - ' §c✗ Player is offline '
-GUI_EFFECTS_KILLED: '§aDeathbed wheezes'
-GUI_EFFECTS_ARROWS: '§aArrow effects'
-GUI_EFFECTS_KILLS: '§aKill effects'
-GUI_EFFECTS_WINS: '§aWin effects'
-GUI_EFFECTS_NAME: 'Cosmetics'
-SOUND_NA: '§cNo select'
-SOUND_CREEPER: 'Creeper death'
-SOUND_BLAZE: 'Blaze death'
-SOUND_ENDERMAN: 'Enderman death'
-SOUND_GHAST: 'Ghast death'
-SOUND_GOLEM: 'Goldem death'
-SOUND_SKELETON: 'Skeleton death'
-SOUND_MULE: 'Mule death'
-SOUND_ZOMBIEHORSE: 'Zombie-horse death'
-SOUND_ZOMBIE: 'Zombie death'
-SOUND_WITHER: 'Wither death'
-EFFECT_NA: '§cNo select'
-EFFECT_MUSIC: 'Sound way'
-EFFECT_SMOKE: 'Smoke bomb'
-EFFECT_FIRE: 'Fire trail'
-EFFECT_HEART: "Lucky's favourite"
-EFFECT_HAPPY: 'Happy rain'
-EFFECT_NEWYEAR: 'Newyear fun'
-EFFECT_REDSTONE: 'Christmas tree garland'
-KILL_NA: '§cNo select'
-KILL_FIREWORK: 'Farewell firework'
-KILL_LIGHTNING: "Lightning's lord"
-KILL_ROMEO: 'Romeo'
-KILL_SYMPHONY: 'Symphony killed'
-WIN_NA: '§cNo select'
-WIN_GOLDENKING: 'Golden king'
-WIN_DIAMONDMAGNATE: 'Diamond magnate'
-WIN_LOVER: 'Lover'
-WIN_BASTARD: 'Bastard'
-GUI_EFFECTS_KILLED_LORE:
-- ''
-- '§7Buying and activation sounds'
-- '§7that will be playing'
-- '§7near You after Your death'
-- ''
-- '§7Open: §a%s/%s §c%s'
-- '§7Sound selected:'
-- '§a%s'
-- ''
-- '§e▸ Open menu'
-GUI_EFFECTS_ARROWS_LORE:
-- ''
-- '§7Buying and activation effects'
-- '§7that will appear in arrows,'
-- '§7that You shot'
-- ''
-- '§7Open: §a%s/%s §c%s'
-- '§7Effect selected:'
-- '§a%s'
-- ''
-- '§e▸ Open menu'
-GUI_EFFECTS_KILLS_LORE:
-- ''
-- '§7Buying and activation effects'
-- '§7that will be playing'
-- '§7near killed by You player.'
-- ''
-- '§7Open: §a%s/%s §c%s'
-- '§7Effect seleccted:'
-- '§a%s'
-- ''
-- '§e▸ Open menu'
-GUI_EFFECTS_WINS_LORE:
-- ''
-- '§7Buying and activation effects'
-- '§7that will be playing'
-- '§7near You, after Your victory'
-- ''
-- '§7Open: §a%s/%s §c%s'
-- '§7Effect selected:'
-- '§a%s'
-- ''
-- '§e▸ Open menu'
 GUI_CHANGELANGUAGE_NAME: 'Switch language'
 GUI_CHANGELANGUAGE_ITEM_LORE:
 - ''
@@ -5180,134 +5106,180 @@ GUI_THEME_SELECT_LORE:
 GUI_THEME_SELECT: '§e▸ Click, to theme select'
 GUI_THEME_UNAVAILABLE: '§c✗ This theme you no available'
 
-GUI_ARROWEFFECTS_NAME: 'Profile ▸ Cosmetics ▸ Arrows'
-GUI_ARROWEFFECTS_MUSIC: 'Звуковой путь'
-GUI_ARROWEFFECTS_MUSIC_LORE:
-- '§7За каждой стрелой,'
-- '§7которой вы выстрелите,'
-- '§7будет следовать эффект музыкальных нот'
-- ''
-GUI_EFFECTS_TYPE_EFFECT: 'effect'
-GUI_EFFECTS_TYPE_SOUND: 'sound'
-GUI_EFFECTS_ACTIVATE: '§e▸ Click, to activate'
-GUI_EFFECTS_SELECTED: '§a▸ Activated'
-GUI_EFFECTS_UNAVAILABLE_LORE:
-- '§cFor open this item, your need level §d%s§c or higher'
-- ''
-- '§cThis item you not available'
-GUI_EFFECTS_BUY_LORE:
-- '§7Price §6%s§7 %s'
-- ''
-- '§e▸ Click, to buy %s'
-GUI_EFFECTS_NO_MONEY_LORE:
-- '§7Price §6%s§7 %s'
-- ''
-- '§cYou need coins'
-GUI_ARROWEFFECTS_SMOKE_LORE:
-- '§7За каждой стрелой,'
-- '§7которой вы выстрелите,'
-- '§7будет следовать эффект дыма'
-- ''
-GUI_ARROWEFFECTS_FIRE_LORE:
-- '§7За каждой стрелой,'
-- '§7которой вы выстрелите,'
-- '§7будет следовать эффект пламени'
-- ''
-- '§cPerk:'
-- '§7Всякий раз когда вы играете на арене,'
-- '§7на каждом предмете которым вы выстрелите,'
-- '§7будет эффект пламени, который будет,'
-- '§7сжигать все на своем пути!'
-- ''
-GUI_ARROWEFFECTS_HEART_LORE:
-- '§7За каждой стрелой,'
-- '§7которой вы выстрелите,'
-- '§7будет следовать эффект сердечек'
-- ''
-GUI_ARROWEFFECTS_HAPPY_LORE:
-- '§7За каждой стрелой,'
-- '§7которой вы выстрелите,'
-- '§7будет следовать эффект радости'
-- ''
-GUI_ARROWEFFECTS_NEWYEAR_LORE:
-- '§7За каждой стрелой,'
-- '§7которой вы выстрелите,'
-- '§7будет следовать эффект искр'
-- ''
-GUI_ARROWEFFECTS_REDSTONE_LORE:
-- '§7За каждой стрелой,'
-- '§7которой вы выстрелите,'
-- '§7будет следовать эффект разноцветного редстоуна'
-- ''
-- '§cPerk:'
-- '§7Всякий раз когда вы ломаете блок на анархии,'
-- '§7с каждого блока который вы ломаете,'
-- '§7будет даваться определенное кол-во опыта,'
-- '§7в зависимости от вашей привилегии!'
-- ''
+GUI_COSMETIC_KILLSOUND: '§aDeathbed wheezes'
+GUI_COSMETIC_ARROWEFFECT: '§aArrow effects'
+GUI_COSMETIC_KILLEFFECT: '§aKill effects'
+GUI_COSMETIC_WINEFFECT: '§aWin effects'
+GUI_COSMETIC_NAME: 'Cosmetics'
 
-GUI_SOUNDKILLS_NAME: 'Profile ▸ Cosmetics ▸ Предсмертие'
-GUI_SOUNDKILLS_CREEPER_LORE:
+GUI_COSMETIC_KILLSOUND_1: 'Creeper death'
+GUI_COSMETIC_KILLSOUND_2: 'Blaze death'
+GUI_COSMETIC_KILLSOUND_3: 'Enderman death'
+GUI_COSMETIC_KILLSOUND_4: 'Ghast death'
+GUI_COSMETIC_KILLSOUND_5: 'Goldem death'
+GUI_COSMETIC_KILLSOUND_6: 'Skeleton death'
+GUI_COSMETIC_KILLSOUND_7: 'Mule death'
+GUI_COSMETIC_KILLSOUND_8: 'Zombie-horse death'
+GUI_COSMETIC_KILLSOUND_9: 'Zombie death'
+GUI_COSMETIC_KILLSOUND_10: 'Wither death'
+
+EFFECT_MUSIC: 'Sound way'
+EFFECT_SMOKE: 'Smoke bomb'
+EFFECT_FIRE: 'Fire trail'
+EFFECT_HEART: "Lucky's favourite"
+EFFECT_HAPPY: 'Happy rain'
+EFFECT_NEWYEAR: 'Newyear fun'
+EFFECT_REDSTONE: 'Christmas tree garland'
+
+GUI_COSMETIC_KILLEFFECT_1: 'Farewell firework'
+GUI_COSMETIC_KILLEFFECT_2: "Lightning's lord"
+GUI_COSMETIC_KILLEFFECT_2: 'Romeo'
+GUI_COSMETIC_KILLEFFECT_3: 'Symphony killed'
+
+GUI_COSMETIC_WINEFFECT_1: 'Golden king'
+GUI_COSMETIC_WINEFFECT_2: 'Diamond magnate'
+GUI_COSMETIC_WINEFFECT_3: 'Lover'
+GUI_COSMETIC_WINEFFECT_4: 'Bastard'
+
+GUI_COSMETIC_KILLSOUND_LORE:
+- ''
+- '§7Buying and activation sounds'
+- '§7that will be playing'
+- '§7near You after Your death'
+- ''
+- '§7Open: §a%s/%s §c%s'
+- '§7Sound selected:'
+- '§a%s'
+- ''
+- '§e▸ Open menu'
+GUI_COSMETIC_ARROWEFFECT_LORE:
+- ''
+- '§7Buying and activation effects'
+- '§7that will appear in arrows,'
+- '§7that You shot'
+- ''
+- '§7Open: §a%s/%s §c%s'
+- '§7Effect selected:'
+- '§a%s'
+- ''
+- '§e▸ Open menu'
+GUI_COSMETIC_KILLEFFECT_LORE:
+- ''
+- '§7Buying and activation effects'
+- '§7that will be playing'
+- '§7near killed by You player.'
+- ''
+- '§7Open: §a%s/%s §c%s'
+- '§7Effect seleccted:'
+- '§a%s'
+- ''
+- '§e▸ Open menu'
+GUI_COSMETIC_WINEFFECT_LORE:
+- ''
+- '§7Buying and activation effects'
+- '§7that will be playing'
+- '§7near You, after Your victory'
+- ''
+- '§7Open: §a%s/%s §c%s'
+- '§7Effect selected:'
+- '§a%s'
+- ''
+- '§e▸ Open menu'
+
+GUI_COSMETIC_ARROWEFFECT_1: 'Зелья'
+GUI_COSMETIC_ARROWEFFECT_1_LORE:
+- '§7Волны магических сил всех существ'
+- '§7игры будут следовать за вашей стрелой.'
+- '§7Не злите их'
+GUI_COSMETIC_ARROWEFFECT_2: 'Бессмертие'
+GUI_COSMETIC_ARROWEFFECT_2_LORE:
+- '§7Эффект бессмертия дарует стреле...'
+- '§7бессмертие. Будто она была смертна!'
+GUI_COSMETIC_ARROWEFFECT_3: 'Облако'
+GUI_COSMETIC_ARROWEFFECT_3_LORE:
+- '§7Если вы не знаете как появляются облака,'
+- '§7то купите этот эффект'
+GUI_COSMETIC_ARROWEFFECT_4: 'Злой житель'
+GUI_COSMETIC_ARROWEFFECT_4_LORE:
+- '§7На самом деле, житель не злой, а сердитый'
+GUI_COSMETIC_ARROWEFFECT_5: 'Ведьма'
+GUI_COSMETIC_ARROWEFFECT_5_LORE:
+- '§7Магический поток великой ведьмы'
+- '§7сопровождают каждый ваш выстрел'
+GUI_COSMETIC_ARROWEFFECT_6: 'Гирлянда'
+GUI_COSMETIC_ARROWEFFECT_6_LORE:
+- '§7Создай новогоднее настроение'
+- '§7в любое время года!'
+GUI_COSMETIC_ARROWEFFECT_7: 'Фейерверк'
+GUI_COSMETIC_ARROWEFFECT_7_LORE:
+- '§7Отныне ваши стрелы и есть фейерверк'
+GUI_COSMETIC_ARROWEFFECT_8: 'Изумрудный'
+GUI_COSMETIC_ARROWEFFECT_8_LORE:
+- '§7Потоки радости мудрейшего жителя'
+- '§7подарят ваши стрелы и'
+- '§7приведут их точно в цель!'
+GUI_COSMETIC_ARROWEFFECT_9: 'Сердечки'
+GUI_COSMETIC_ARROWEFFECT_9_LORE:
+- '§7Представьте, что вы Амур. Стреляйте.'
+GUI_COSMETIC_ARROWEFFECT_10: 'Огонь'
+GUI_COSMETIC_ARROWEFFECT_10_LORE:
+- '§7..и этот тоже отличное дополнение'
+GUI_COSMETIC_ARROWEFFECT_11: 'Дым'
+GUI_COSMETIC_ARROWEFFECT_11_LORE:
+- '§7Отлично дополнит эффект горящей стрелы!'
+GUI_COSMETIC_ARROWEFFECT_12: 'Ноты'
+GUI_COSMETIC_ARROWEFFECT_12_LORE:
+- '§7Сыграй мелодию на нотах тетевы'
+
+GUI_COSMETIC_KILLSOUND_1_LORE:
 - '§7Всякий раз, когда Вы умираете'
 - '§7Вы умрете, под звуки крипера!'
-- ''
-GUI_SOUNDKILLS_BLAZE_LORE:
+GUI_COSMETIC_KILLSOUND_2_LORE:
 - '§7Всякий раз, когда Вы умираете'
 - '§7Вы умрете, под звуки ифрита!'
-- ''
-GUI_SOUNDKILLS_ENDERMAN_LORE:
+GUI_COSMETIC_KILLSOUND_3_LORE:
 - '§7Всякий раз, когда Вы умираете'
 - '§7Вы умрете, под звуки эндермена!'
-- ''
-GUI_SOUNDKILLS_GHAST_LORE:
+GUI_COSMETIC_KILLSOUND_4_LORE:
 - '§7Всякий раз, когда Вы умираете'
 - '§7Вы умрете, под звуки гаста!'
-- ''
-GUI_SOUNDKILLS_GOLEM_LORE:
+GUI_COSMETIC_KILLSOUND_5_LORE:
 - '§7Всякий раз, когда Вы умираете'
 - '§7Вы умрете, под звуки голема!'
-- ''
-GUI_SOUNDKILLS_SKELETON_LORE:
+GUI_COSMETIC_KILLSOUND_6_LORE:
 - '§7Всякий раз, когда Вы умираете'
 - '§7Вы умрете, под звуки скелета!'
-- ''
-GUI_SOUNDKILLS_ZOMBIE_LORE:
+GUI_COSMETIC_KILLSOUND_7_LORE:
 - '§7Всякий раз, когда Вы умираете'
 - '§7Вы умрете, под звуки зомби!'
-- ''
-GUI_SOUNDKILLS_MULE_LORE:
+GUI_COSMETIC_KILLSOUND_8_LORE:
 - '§7Всякий раз, когда Вы умираете'
 - '§7Вы умрете, под звуки осла!'
-- ''
-GUI_SOUNDKILLS_ZOMBIEHORSE_LORE:
+GUI_COSMETIC_KILLSOUND_9_LORE:
 - '§7Всякий раз, когда Вы умираете'
 - '§7Вы умрете, под звуки лошади-зомби!'
-- ''
-GUI_SOUNDKILLS_WITHER_LORE:
+GUI_COSMETIC_KILLSOUND_10_LORE:
 - '§7Всякий раз, когда Вы умираете'
 - '§7Вы умрете, под звуки визера!'
-- ''
 
-GUI_KILLEFFECTS_NAME: 'Profile ▸ Cosmetics ▸ Kills'
-GUI_KILLEFFECTS_FIREWORK_LORE:
+GUI_COSMETIC_KILLEFFECT_1_LORE:
 - '§7Всякий раз, когда Вы убиваете игрока,'
 - '§7на его могиле появляется прощальный фейерверк!'
 - ''
-GUI_KILLEFFECTS_LIGHTNING_LORE:
+GUI_COSMETIC_KILLEFFECT_2_LORE:
 - '§7Всякий раз, когда Вы убиваете игрока,'
 - '§7на его труп снисходит гнев с небес!'
 - ''
-GUI_KILLEFFECTS_ROMEO_LORE:
+GUI_COSMETIC_KILLEFFECT_3_LORE:
 - '§7Всякий раз, когда Вы убиваете игрока,'
 - '§7Вы даете ему понять, что любите его!'
 - ''
-GUI_KILLEFFECTS_SYMPHONY_LORE:
+GUI_COSMETIC_KILLEFFECT_4_LORE:
 - '§7Всякий раз, когда Вы убиваете игрока,'
 - '§7Вы делаете это, под эффект музыкальных нот!'
 - ''
 
-GUI_WINEFFECTS_NAME: 'Profile ▸ Cosmetics ▸ Win'
-GUI_WINEFFECTS_GOLDENKING_LORE:
+GUI_COSMETIC_WINEFFECT_1_LORE:
 - '§7Когда Вы выигрываете игру,'
 - '§7из вашей головы вылетает поток золота!'
 - ''
@@ -5315,7 +5287,7 @@ GUI_WINEFFECTS_GOLDENKING_LORE:
 #- '§7Всякий раз когда вы зайдете в лобби,'
 #- '§7все игроки лобби смогут услышать звук §5получения достижения'
 #- ''
-GUI_WINEFFECTS_DIAMONDMAGNATE_LORE:
+GUI_COSMETIC_WINEFFECT_2_LORE:
 - '§7Когда Вы выигрываете игру,'
 - '§7из вашей головы вылетает потом алмазов!'
 - ''
@@ -5323,7 +5295,7 @@ GUI_WINEFFECTS_DIAMONDMAGNATE_LORE:
 #- '§7Всякий раз когда вы зайдете в лобби,'
 #- '§7все игроки лобби смогут услышать пластинку §cC418'
 #- ''
-GUI_WINEFFECTS_LOVER_LORE:
+GUI_COSMETIC_WINEFFECT_3_LORE:
 - '§7Когда Вы выигрываете игру,'
 - '§7из вашей головы вылетает поток роз и одуванчиков!'
 - ''
@@ -5331,7 +5303,7 @@ GUI_WINEFFECTS_LOVER_LORE:
 #- '§7Всякий раз когда вы зайдете в лобби,'
 #- '§7все игроки лобби смогут услышать §6приятную мелодию'
 #- ''
-GUI_WINEFFECTS_BASTARD_LORE:
+GUI_COSMETIC_WINEFFECT_4_LORE:
 - '§7Когда Вы выигрываете игру,'
 - '§7Ваши противники Вас возненавидят...'
 - ''
@@ -5892,6 +5864,26 @@ GUI_CASES_INFO_TO_LORE:
 - '§e▸ Left click, to open case'
 - '§e▸ Right click, to buy keys'
 - '§e▸ Shift + Left click, to open fast case'
+
+GUI_PURCHASE_CONFIRM: 'Confirm purchase'
+GUI_PURCHASE_CONFIRM_LORE:
+- ' '
+- '§7You, to want'
+- '§7приобрести этот предмет?'
+- ' '
+- '§cThis action is irreversible'
+GUI_PURCHASE_CONFIRM_CONFIRM_LORE:
+- ''
+- '§7You, to want'
+- '§7buy "§f%s§7" for §a%s§7 %s?'
+- ''
+- '§cThis action is irreversible'
+- ''
+GUI_PURCHASE_CONFIRM_CANCEL_LORE:
+- ''
+- '§7Cancel action'
+COST_FORMAT: '§7Price: %s %s'
+DISCOUNTED_COST_FORMAT: '§7Price (with discount): %s %s'
 
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, played - §a%s'
