@@ -2745,7 +2745,7 @@ GUI_PROFILE_DONATEMENU_LORE:
 - ''
 - '§e▸ Открыть донат меню'
 
-GUI_PROFILE_EFFECTSHOP_LORE:
+GUI_PROFILE_COSMETIC_LORE:
 - '§7Позволяет купить и активировать'
 - '§7различные косметические улучшения'
 - '§fПредсмертный хрип§7, §fЭффект полета стрел§7,'
@@ -5208,10 +5208,10 @@ GUI_THEME_UNAVAILABLE: '§c✗ Данная тема Вам недоступен
 
 GUI_COSMETIC_NO_AVAILABLE: '§cДанный предмет Вам недоступен'
 
-GUI_COSMETIC_KILLSOUND: '§aПредсмертные хрипы'
-GUI_COSMETIC_ARROWEFFECT: '§aЭффекты стрел'
-GUI_COSMETIC_KILLEFFECT: '§aЭффекты убийств'
-GUI_COSMETIC_WINEFFECT: '§aЭффекты победы'
+GUI_COSMETIC_KILLSOUND: 'Предсмертные хрипы'
+GUI_COSMETIC_ARROWEFFECT: 'Эффекты стрел'
+GUI_COSMETIC_KILLEFFECT: 'Эффекты убийств'
+GUI_COSMETIC_WINEFFECT: 'Эффекты победы'
 GUI_COSMETIC_NAME: 'Косметика'
 
 GUI_COSMETIC_NO_LEVEL:
