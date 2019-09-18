@@ -5106,10 +5106,10 @@ GUI_THEME_UNAVAILABLE: '§c✗ This theme you no available'
 
 GUI_COSMETIC_NO_AVAILABLE: '§cДанный предмет Вам недоступен'
 
-GUI_COSMETIC_KILLSOUND: '§aDeathbed wheezes'
-GUI_COSMETIC_ARROWEFFECT: '§aArrow effects'
-GUI_COSMETIC_KILLEFFECT: '§aKill effects'
-GUI_COSMETIC_WINEFFECT: '§aWin effects'
+GUI_COSMETIC_KILLSOUND: 'Deathbed wheezes'
+GUI_COSMETIC_ARROWEFFECT: 'Arrow effects'
+GUI_COSMETIC_KILLEFFECT: 'Kill effects'
+GUI_COSMETIC_WINEFFECT: 'Win effects'
 GUI_COSMETIC_NAME: 'Cosmetics'
 
 GUI_COSMETIC_KILLSOUND_1: 'Creeper death'
