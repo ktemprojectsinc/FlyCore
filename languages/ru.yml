@@ -5269,45 +5269,45 @@ GUI_COSMETIC_ARROWEFFECT_1_LORE:
 - '§7Волны магических сил всех существ'
 - '§7игры будут следовать за вашей стрелой.'
 - '§7Не злите их'
-GUI_COSMETIC_ARROWEFFECT_2: 'Гирлянда'
+GUI_COSMETIC_ARROWEFFECT_2: 'Бессмертие'
 GUI_COSMETIC_ARROWEFFECT_2_LORE:
+- '§7Эффект бессмертия дарует стреле...'
+- '§7бессмертие. Будто она была смертна!'
+GUI_COSMETIC_ARROWEFFECT_3: 'Облако'
+GUI_COSMETIC_ARROWEFFECT_3_LORE:
+- '§7Если вы не знаете как появляются облака,'
+- '§7то купите этот эффект'
+GUI_COSMETIC_ARROWEFFECT_4: 'Злой житель'
+GUI_COSMETIC_ARROWEFFECT_4_LORE:
+- '§7На самом деле, житель не злой, а сердитый'
+GUI_COSMETIC_ARROWEFFECT_5: 'Ведьма'
+GUI_COSMETIC_ARROWEFFECT_5_LORE:
+- '§7Магический поток великой ведьмы'
+- '§7сопровождают каждый ваш выстрел'
+GUI_COSMETIC_ARROWEFFECT_6: 'Гирлянда'
+GUI_COSMETIC_ARROWEFFECT_6_LORE:
 - '§7Создай новогоднее настроение'
 - '§7в любое время года!'
-GUI_COSMETIC_ARROWEFFECT_3: 'Изумрудный'
-GUI_COSMETIC_ARROWEFFECT_3_LORE:
+GUI_COSMETIC_ARROWEFFECT_7: 'Фейерверк'
+GUI_COSMETIC_ARROWEFFECT_7_LORE:
+- '§7Отныне ваши стрелы и есть фейерверк'
+GUI_COSMETIC_ARROWEFFECT_8: 'Изумрудный'
+GUI_COSMETIC_ARROWEFFECT_8_LORE:
 - '§7Потоки радости мудрейшего жителя'
 - '§7подарят ваши стрелы и'
 - '§7приведут их точно в цель!'
-GUI_COSMETIC_ARROWEFFECT_4: 'Огонь'
-GUI_COSMETIC_ARROWEFFECT_4_LORE:
-- '§7..и этот тоже отличное дополнение'
-GUI_COSMETIC_ARROWEFFECT_5: 'Бессмертие'
-GUI_COSMETIC_ARROWEFFECT_5_LORE:
-- '§7Эффект бессмертия дарует стреле...'
-- '§7бессмертие. Будто она была смертна!'
-GUI_COSMETIC_ARROWEFFECT_6: 'Злой житель'
-GUI_COSMETIC_ARROWEFFECT_6_LORE:
-- '§7На самом деле, житель не злой, а сердитый'
-GUI_COSMETIC_ARROWEFFECT_7: 'Ноты'
-GUI_COSMETIC_ARROWEFFECT_7_LORE:
-- '§7Сыграй мелодию на нотах тетевы'
-GUI_COSMETIC_ARROWEFFECT_8: 'Облако'
-GUI_COSMETIC_ARROWEFFECT_8_LORE:
-- '§7Если вы не знаете как появляются облака,'
-- '§7то купите этот эффект'
-GUI_COSMETIC_ARROWEFFECT_9: 'Ведьма'
+GUI_COSMETIC_ARROWEFFECT_9: 'Сердечки'
 GUI_COSMETIC_ARROWEFFECT_9_LORE:
-- '§7Магический поток великой ведьмы'
-- '§7сопровождают каждый ваш выстрел'
-GUI_COSMETIC_ARROWEFFECT_10: 'Фейерверк'
-GUI_COSMETIC_ARROWEFFECT_10_LORE:
-- '§7Отныне ваши стрелы и есть фейерверк'
-GUI_COSMETIC_ARROWEFFECT_11: 'Сердечки'
-GUI_COSMETIC_ARROWEFFECT_11_LORE:
 - '§7Представьте, что вы Амур. Стреляйте.'
-GUI_COSMETIC_ARROWEFFECT_12: 'Дым'
-GUI_COSMETIC_ARROWEFFECT_12_LORE:
+GUI_COSMETIC_ARROWEFFECT_10: 'Огонь'
+GUI_COSMETIC_ARROWEFFECT_10_LORE:
+- '§7..и этот тоже отличное дополнение'
+GUI_COSMETIC_ARROWEFFECT_11: 'Дым'
+GUI_COSMETIC_ARROWEFFECT_11_LORE:
 - '§7Отлично дополнит эффект горящей стрелы!'
+GUI_COSMETIC_ARROWEFFECT_12: 'Ноты'
+GUI_COSMETIC_ARROWEFFECT_12_LORE:
+- '§7Сыграй мелодию на нотах тетевы'
 
 
 GUI_COSMETIC_KILLEFFECT_1: 'Прощальный фейверк'
