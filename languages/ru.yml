@@ -2673,10 +2673,10 @@ COOLDOWN: '§cПодождите %s перед следующим использ
 COOLDOWN_2: '§cПодождите %s %s перед следующим использованием'
 
 #Guis ru
-GUI_BACK_NAME: '§cНазад'
-GUI_BACK_LORE:
+BACK_ITEM_NAME: '§cНазад'
+BACK_ITEM_LORE:
 - '§7Нажмите, чтобы вернуться на шаг назад'
-GUI_BACK_LORE2:
+BACK_ITEM_LORE2:
 - '§7Нажмите, чтобы вернуться в главное меню'
 
 GUI_PROFILE: 'Общая информация'
