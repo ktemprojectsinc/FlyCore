@@ -5978,3 +5978,7 @@ DISCOUNTED_COST_FORMAT: '§7Стоимость (со скидкой): %s %s'
 
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, наиграно - §a%s'
+
+HOLO_REWARDS:
+- '§bНаграды'
+- '§7Нажмите, чтобы открыть'
