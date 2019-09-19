@@ -5886,3 +5886,7 @@ DISCOUNTED_COST_FORMAT: '§7Price (with discount): %s %s'
 
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, played - §a%s'
+
+HOLO_REWARDS:
+- '§bRewards'
+- '§7Click, to open'
