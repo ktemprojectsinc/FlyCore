@@ -5350,21 +5350,21 @@ GUI_COSMETIC_ARROWEFFECT_12: 'Ноты'
 GUI_COSMETIC_ARROWEFFECT_12_LORE:
 - '§7Сыграй мелодию на нотах тетевы'
 
-GUI_COSMETIC_STARTSOUND_1_NAME: 'Фейерверк'
+GUI_COSMETIC_STARTSOUND_1: 'Фейерверк'
 GUI_COSMETIC_STARTSOUND_1_LORE:
 - '§7Начало игры сопровождается праздничным'
 - '§7взрывом фейерверков!'
-GUI_COSMETIC_STARTSOUND_2_NAME: 'Кузнечный мастер'
+GUI_COSMETIC_STARTSOUND_2: 'Кузнечный мастер'
 GUI_COSMETIC_STARTSOUND_2_LORE:
 - '§7Специально для заядлых кузнецов'
 - '§7подготовлен комплект любимого звучания'
 - '§7молотка об наковальню'
-GUI_COSMETIC_STARTSOUND_3_NAME: 'Эндермир'
+GUI_COSMETIC_STARTSOUND_3: 'Эндермир'
 GUI_COSMETIC_STARTSOUND_3_LORE:
 - '§7Мир Края завораживает своими'
 - '§7звуками прямо перед матчем.'
 - '§7Стоит попробовать!'
-GUI_COSMETIC_STARTSOUND_4_NAME: 'Яйцемёт'
+GUI_COSMETIC_STARTSOUND_4: 'Яйцемёт'
 GUI_COSMETIC_STARTSOUND_4_LORE:
 - '§7Раскидайте своих врагов их же оружием'
 
