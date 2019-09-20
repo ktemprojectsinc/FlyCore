@@ -5970,7 +5970,7 @@ GAME_UPDATE_NEW_NAME: '§lNEW!'
 GAME_UPDATE_WIPE_NAME: '§lWipe made!'
 
 HOLO_VK:
-  - '§fCome in our group §7§lVK'
+- '§fCome in our group §7§lVK'
 - '§d§lvk.com/flycore'
 HOLO_SITE:
 - '§fServer site §7§lOnline'
