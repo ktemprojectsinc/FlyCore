@@ -2356,9 +2356,9 @@ VERIFY_LASTTIMED: '§aВерификация §8| §cСессия истекла
 VERIFY_LASTTIMED_BROADCAST: '§cВерификация §8| §7Данные сессии %s§7 истекли'
 VERIFY_CODE_CHANGED_BROADCAST: '§cВерификация §8| %s§7 %s свой код'
 
-LANGUAGE_SELECT: '§aСервер §8| §fВаш язык изменен на §c%s'
-PREFIX_SELECT: '§aСервер §8| §fВы сменили свой префикс на %s'
-THEME_SELECT: '§aСервер §8| §fВы выбрали тему %s'
+LANGUAGE_CHANGE: '§aСервер §8| §fВаш язык изменен на §c%s'
+PREFIX_CHANGE: '§aСервер §8| §fВы сменили свой префикс на %s'
+THEME_CHANGE: '§aСервер §8| §fВы выбрали тему %s'
 
 REJOIN_NOT_FOUND: '§cОшибка, Вы нигде не играли или сервер был перезагружен'
 REJOIN_INFO: '§fЕсли Вы были §cкикнуты§f, напишите §7/rejoin§f для повторного входа в игру'
