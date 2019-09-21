@@ -4197,7 +4197,6 @@ GUI_FRIENDS_ALREADY_LORE:
 GUI_FRIENDS_CONNECT_LORE:
 - '§e▶ Кликните чтобы телепортироватся к другу на сервер'
 GUI_FRIENDS_OFFLINE_LORE:
-- ''
 - '§7Последний раз %s в сети:'
 - '§e%s назад'
 - ''
