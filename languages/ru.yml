@@ -16,6 +16,19 @@ PROMO_ITEM_NAME: '§aСКИДКИ!'
 HIDDEN: '§cСкрыт'
 SLOT_EMPTY: '§cПустой слот'
 BANINFO_BY_ANOTHER: '§7(по просьбе %s§7)'
+TOP_POSITION: '§e%s место'
+JANUARY: 'Январь'
+FEBRUARY: 'Февраль'
+MARCH: 'Март'
+APRIL: 'Апрель'
+MAY: 'Май'
+JUNE: 'Июнь'
+JULY: 'Июль'
+AUGUST: 'Август'
+SEPTEMBER: 'Сентябрь'
+OCTOBER: 'Октрябрь'
+NOVEMBER: 'Ноябрь'
+DECEMBER: 'Декабрь'
 SERVER_REDIRECT: '§aСервер §8| §fВы подключены к серверу §a%s'
 BAN_REQUEST_SENT: '§eВаша просьба заблокировать данного игрока отправлена всем онлайн-модераторам'
 BAN_REQUEST_ALREADY_SENT: '§cПросьба заблокировать данного игрока уже отправлялась, ожидайте решения'
@@ -6042,3 +6055,15 @@ HOLO_RTP:
 HOLO_TRAINING:
 - '§dОбучение'
 - '§7Нажмите, чтобы пройти'
+
+HOLO_TOP_ALL:
+- '§fТоп игроков по победам'
+- '§fза §eВСЕ ВРЕМЯ'
+HOLO_TOP_MONTHLY:
+- '§fТоп игроков по победам'
+- '§fза §e%s'
+HOLO_TOP_MAIN: '§7Нажмите, чтобы сменить топ'
+HOLO_TOP_UPDATE: '§cДо обновления: §c%s'
+HOLO_TOP_UPDATE_NOW: 'Обновлено!'
+
+
