@@ -3763,8 +3763,7 @@ GUI_GAMES_CONNECT_1:
 - '§9  §eНажмите, чтобы подключится'
 GUI_GAMES_DONATE: '§bПривилегии'
 GUI_GAMES_LOBBY: '§bГлавное лобби'
-GUI_GAMES_RECOMEND: '§7Рекомендуемая версия для игры:'
-GUI_GAMES_PLAYED: '§8На режиме играет'
+GUI_GAMES_RECOMMEND: '§7Рекомендуемая версия для игры:'
 GUI_GAMES_SKYWARS_LORE:
 - '§8Битвы на островах'
 - ''
