@@ -398,7 +398,7 @@ PLAYER_BOOSTER_BUY_MULTIPLY:
 - ' §fNow at getting already existing gadget, or status'
 - ' §ffrom lucky chest, they will be multiplied on §ax2.0'
 - ''
-PLAYER_BOOSTER_MULTIPLY: '§a▻ §bMultiplier x2.0'
+PLAYER_BOOSTER_MULTIPLY: '§bMultiplier x2.0'
 
 PLAYER_MARKETING_ACTIONBAR_TIME: '§cGame ends in: %s'
 PLAYER_MARKETING_START_ONE: |-
@@ -906,7 +906,7 @@ BOARD_LEVEL: 'Level'
 BOARD_BLOCK_BREAK: 'Blocks removed'
 BOARD_BLOCK_PLACE: 'Blocks created'
 BOARD_BOOSTER: 'Active booster'
-BOARD_NO_BOOSTER: '§c▻ §7No activated booster'
+BOARD_NO_BOOSTER: '§7No select'
 BOARD_GOLD: 'Golds'
 BOARD_CORE: 'Cores'
 BOARD_GLOBAL_ONLINE: 'Total online'
