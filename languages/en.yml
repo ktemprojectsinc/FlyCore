@@ -2837,6 +2837,33 @@ GUI_DONATE_PAYMENT: '§bPlayment options'
 GUI_DONATE_INFO: '§bAdditional Information'
 GUI_DONATE_MONEY: '§bOur goals'
 
+LEVEL_NO_LEVEL: '§cError, Your level слишком мал для получения данной награды!'
+LEVEL_ALREADY_GIVE: '§cError, your already got current reward!'
+LEVEL_NO_OTHER_REWARD: '§cError, перед получением этой награды Вы обязаны получить все предыдущие!'
+LEVEL_REWARD_COSMETIC:  'Game cosmetic'
+LEVEL_REWARD_GADGET: 'Gadget'
+LEVEL_REWARD_SENDMONEY: '§8+ §7Accept and send money across §f/sendmoney'
+LEVEL_REWARD_ANTICHEAT: '§8+ §7Иммунитет к некоторым проверкам античита!'
+LEVEL_REWARD_NAME: 'Reward for %s level'
+LEVEL_REWARD_LORE1:
+- '§7За достижение §f%s§7 уровня вы получите:'
+LEVEL_REWARD_LORE2:
+- ' '
+- '§e▸ Get reward'
+LEVEL_REWARD_LORE3:
+- ' '
+- '§c✗ Reward received'
+LEVEL_REWARD_LORE4:
+- ' '
+- '§c✗ Your level мал для получения награды'
+LEVEL_REWARD_LORE5:
+- ' '
+- '§c✗ Получите предыдущие награды для получения этой'
+LEVELING_LOAD_NAME: '§cInformation loading...'
+LEVELING_LOAD_LORE:
+- '§7Information of your levels loading'
+- '§7or rewards absent at all'
+
 GUI_DONATE_FAQ_GOLD:
 - ''
 - '§7Краткая информация:'
@@ -6006,6 +6033,8 @@ TOP_KEYS_HOLO:
 - '§a§lTop of keys players'
 - '§fTop players by number'
 - '§fcollected key'
-HOLO_TOP_MAIN: '§7Click to view another'
+HOLO_TOP_MAIN:
+- '§7Click to view another'
+- '§7Next [LMС], previous [RMC]'
 HOLO_TOP_UPDATE: '§cBefore update: §c%s'
 HOLO_TOP_UPDATE_NOW: 'Updated!'
