@@ -372,7 +372,7 @@ PLAYER_BOOSTER_BUY_MULTIPLY:
 - ' §fТепер при випадінні вже існуючего гаджета, або статуса'
 - ' §fіз сундука вдачи, Вони будуть помножені на §ax2.0'
 - ''
-PLAYER_BOOSTER_MULTIPLY: '§a▻ §bМножник x2.0'
+PLAYER_BOOSTER_MULTIPLY: '§bМножник x2.0'
 
 PLAYER_MARKETING_ACTIONBAR_TIME: '§cДо закінчення гри залишилось: %s'
 PLAYER_MARKETING_START_ONE: |-
@@ -883,7 +883,7 @@ BOARD_LEVEL: 'Уровень'
 BOARD_BLOCK_BREAK: 'Сломано блоков'
 BOARD_BLOCK_PLACE: 'Создано блоков'
 BOARD_BOOSTER: 'Активный бустер'
-BOARD_NO_BOOSTER: '§c▻ §7Активных бустеров нет'
+BOARD_NO_BOOSTER: '§7Не выбран'
 BOARD_GOLD: 'Золота'
 BOARD_GLOBAL_ONLINE: 'Онлайн проекта'
 BOARD_TOTAL_WINS: 'Всего побед'
