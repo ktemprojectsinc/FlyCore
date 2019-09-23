@@ -2879,6 +2879,12 @@ LEVEL_REWARD_LORE1:
 LEVEL_REWARD_LORE2:
 - ' '
 - '§e▸ Получить награду'
+LEVEL_REWARD_LORE3:
+- ' '
+- '§c✗ Награда забрана'
+LEVEL_REWARD_LORE4:
+- ' '
+- '§c✗ Ваш уровень мал для получения награды'
 LEVELING_LOAD_NAME: '§cИнформация загружается...'
 LEVELING_LOAD_LORE:
 - '§7Информация о Ваших уровнях загружается'
