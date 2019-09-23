@@ -916,7 +916,8 @@ BOARD_LEVEL: 'Уровень'
 BOARD_BLOCK_BREAK: 'Сломано блоков'
 BOARD_BLOCK_PLACE: 'Создано блоков'
 BOARD_BOOSTER: 'Активный бустер'
-BOARD_NO_BOOSTER: '§c▻ §7Активных бустеров нет'
+BOARD_NO_BOOSTER: '§7Активных бустеров нет'
+BOARD_BOOSTER_PREFIX: '§c▻'
 BOARD_GOLD: 'Золота'
 BOARD_CORE: 'Ядер'
 BOARD_GLOBAL_ONLINE: 'Онлайн проекта'
@@ -2764,7 +2765,7 @@ GUI_PROFILE_LEVEL_LORE:
 - ''
 - '%s'
 
-LEVEL_OPEN: '§e▸ Получить награду'
+LEVEL_OPEN: '§e▸ Открыть меню наград'
 LEVEL_NO: '§c▸ Для открытия нужен 5 уровень'
 
 GUI_PROFILE_STATS_LORE:
@@ -2865,6 +2866,24 @@ GUI_DONATE_ALL: '§bОбщие возможности'
 GUI_DONATE_PAYMENT: '§bВарианты оплаты'
 GUI_DONATE_INFO: '§bДополнительная информация'
 GUI_DONATE_MONEY: '§bНаши цели'
+
+LEVEL_NO_LEVEL: '§cОшибка, Ваш уровень слишком мал для получения данной награды!'
+LEVEL_ALREADY_GIVE: '§cОшибка, Вы уже получили данную награду!'
+LEVEL_NO_OTHER_REWARD: '§cОшибка, перед получением этой награды вы обязаны получить все предыдущие!'
+LEVEL_REWARD_COSMETIC:  '§8+ %s §7игровая косметика'
+LEVEL_REWARD_GADGET: '§8+ %s §7гаджет'
+LEVEL_REWARD_SENDMONEY: '§8+ §7Принимать и отправлять деньги через §f/sendmoney'
+LEVEL_REWARD_ANTICHEAT: '§8+ §7Иммунитет к некоторым проверкам античита!'
+LEVEL_REWARD_NAME: 'Награда за %s уровень'
+LEVEL_REWARD_LORE1:
+- '§7За достижение §f%s§7 уровня вы получите:'
+LEVEL_REWARD_LORE2:
+- ' '
+- '§e▸ Получить награду'
+LEVELING_LOAD_NAME: '§cИнформация загружается...'
+LEVELING_LOAD_LORE:
+- '§7Информация о Ваших уровнях загружается'
+- '§7или награды отсутствуют вовсе...'
 
 GUI_DONATE_FAQ_GOLD:
 - ''
