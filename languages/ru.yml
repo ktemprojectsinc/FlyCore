@@ -376,7 +376,7 @@ PLAYER_BOOSTER_BUY_MULTIPLY:
 - ' §fТеперь при выпадении уже существующего гаджета, или статуса'
 - ' §fиз сундука удачи, Они будут умножены на §ax2.0'
 - ''
-PLAYER_BOOSTER_MULTIPLY: '§a▻ §bМножитель x2.0'
+PLAYER_BOOSTER_MULTIPLY: '§bМножитель x2.0'
 
 PLAYER_MARKETING_ACTIONBAR_TIME: '§cДо окончания игры осталось: %s'
 PLAYER_MARKETING_START_ONE: |-
