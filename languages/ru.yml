@@ -2399,7 +2399,7 @@ AUTH_COMMAND_HELP:
 - '§7/auth changepassword <ключ> <ник> <пароль> §f- изменение пароля игроку'
 - '§7/auth changemail <ключ> <ник> <email> §f- изменение почты игроку'
 - '§7/auth info <ник> §f- информация об игроке'
-AUTH_CHANGEMAIL_FORMAT: '/auth changemail <ключ> <ник> <пароль>'
+AUTH_CHANGEMAIL_FORMAT: '/auth changemail <ключ> <ник> <email>'
 AUTH_CHANGEMAIL: '§aАвторизация §8| §fПочта игрока %s§f изменена на §a%s'
 AUTH_REGISTER_FORMAT: '/auth register <ключ> <ник> <пароль>'
 AUTH_REGISTER_ERROR: '§cОшибка, В аккаунте %s присудствуют запрещенные символы, разрешено использовать только цифры и символы латинского алфавита'
