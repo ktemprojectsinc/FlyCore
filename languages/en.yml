@@ -2386,7 +2386,7 @@ AUTH_COMMAND_HELP:
 - '§7/auth changemail <key> <player name> <email> §f- change mail for player'
 - '§7/auth info <player name> §f- information for player'
 AUTH_RELOAD: '§aAuthorization §8| §fConfiguration reloaded'
-AUTH_CHANGEMAIL_FORMAT: '/auth changemail <key> <player name> <password>'
+AUTH_CHANGEMAIL_FORMAT: '/auth changemail <key> <player name> <email>'
 AUTH_CHANGEMAIL: '§aAuthorization §8| §fPlayer mail %s§f changed to §a%s'
 AUTH_REGISTER_FORMAT: '/auth register <key> <player name> <password>'
 AUTH_REGISTER: '§aAuthorization §8| §fAccount %s registred from password - §e%s'
