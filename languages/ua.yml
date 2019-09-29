@@ -4318,7 +4318,6 @@ GUI_GUILD_MODERS_ITEM_LORE:
 - '§7Всего модераторов: §a%s'
 - '§7Онлайн модераторов: §a%s'
 GUI_GUILD_MODERS_NAME: 'Модераторы гильдии'
-GUI_GUILD_MODERS_ITEM: '§eМодераторы гильдии'
 GUI_GUILD_DEPUTYS_OFFLINE_LORE:
 - ''
 - '§7На посту с: §e%s'
@@ -4337,7 +4336,6 @@ GUI_GUILD_DEPUTYS_ITEM_LORE:
 - '§7Всего заместителей: §a%s'
 - '§7Онлайн заместителей: §a%s'
 GUI_GUILD_DEPUTYS_NAME: 'Заместители гильдии'
-GUI_GUILD_DEPUTYS_ITEM: '§eЗаместители гильдии'
 
 GUI_GUILD_REQUESTS_LORE:
 - ''
@@ -4348,7 +4346,6 @@ GUI_GUILD_REQUESTS_LORE:
 GUI_GUILD_REQUESTS_ITEM_LORE:
 - ''
 - '§7Всего приглашений: §e%s'
-GUI_GUILD_REQUESTS_ITEM: '§eСписок приглашений'
 GUI_GUILD_REQUESTS_NAME: 'Список приглашений'
 
 GUI_YOUTUBEMENU_NAME: 'Меню ютубера'
@@ -5633,12 +5630,8 @@ GUI_GUILDALL_OWNER: '§7Владелец: %s'
 GUI_GUILDALL_FOUNDER: '§7Основатель: %s'
 GUI_GUILDALL_LORE:
 - ''
-- '%s'
 - '§7Участники: §a%s§8/§c%s'
 - '§7Дата основания: §e%s'
-- ''
-- '%s'
-- '%s'
 - ''
 GUI_GUILD_TOP_MONEY: '§7На §a%s§7 месте в топе по монетам'
 GUI_GUILD_TOP_MEMBERS: '§7На §a%s§7 месте в топе по участникам'
@@ -5771,7 +5764,7 @@ GUI_GUILDSHOP_BUY_LORE:
 GUI_GUILDSHOP_ALREADY_LORE:
 - ''
 - ' §c▸ Данное улучшение уже приобретено'
-GUI_GUILDSHOP_TYPE_MEMBERS: '§eУлучшение вместительности %s'
+GUI_GUILDSHOP_TYPE_MEMBERS: '§eУлучшение вместительности'
 GUI_GUILDSHOP_TYPE_MONEY: '§eУлучшение банка'
 GUI_GUILDSHOP_TYPE_TAG: '§eТег гильдии'
 GUI_GUILDSHOP_TYPE_MOTD: '§eПриветствие гильдии'
