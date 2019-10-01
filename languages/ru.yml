@@ -6126,3 +6126,12 @@ HOLO_TOP_MAIN:
 #- '§fили вернуться на предыдущую §aкарту §7[ПКМ]'
 HOLO_TOP_UPDATE: '§cДо обновления: §c%s'
 HOLO_TOP_UPDATE_NOW: 'Обновлено!'
+
+GUI_PRISON_SELL_NAME: 'Продажа предметов'
+GUI_PRISON_SELL_ITEM: '§aПродать'
+GUI_PRISON_SELL_ITEM_LORE:
+- ''
+- '§7Перенесите предмет на стекло,'
+- '§7чтобы его продать.'
+PRISON_SELL_NO_BUY: '§cИзвините, но данный предмет не подлежит продажи'
+PRISON_SELL_BUY: '§aСервер §8| §fВы продали %s§8 x%s§f и получили §a%s'
