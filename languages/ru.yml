@@ -5665,7 +5665,6 @@ GUI_GUILDALL_ONLINE:
 - '§7на сервере §e%s'
 GUI_GUILDALL_OFFLINE:
 - ' §c✗ %s гильдии оффлайн'
-GUI_GUILDALL_ITEM: '§eГильдии ▸ Список гильдий'
 GUI_GUILDALL_ITEM_LORE:
 - ''
 - '§7Всего гильдий:'
