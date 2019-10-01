@@ -5643,9 +5643,14 @@ GUI_PARTY_PLAYER_OFFLINE:
 - ' §c✗ Сейчас оффлайн '
 
 GUI_GUILDALL_NAME: 'Гильдии ▸ Список гильдий'
-GUI_GUILDALL_CREATOR: '§7Создатель: %s'
-GUI_GUILDALL_OWNER: '§7Владелец: %s'
-GUI_GUILDALL_FOUNDER: '§7Основатель: %s'
+GUI_GUILDALL_EMPTY: '§cВ данный момент нет гильдий'
+GUI_GUILDALL_EMPTY_LORE:
+- ''
+- '§7В данный момет,'
+- '§7не создано не одной гильдии'
+GUI_GUILDALL_CREATOR: 'Создатель'
+GUI_GUILDALL_OWNER: 'Владелец'
+GUI_GUILDALL_FOUNDER: 'Основатель'
 GUI_GUILDALL_LORE:
 - ''
 - '§7Участники: §a%s§8/§c%s'
@@ -5722,7 +5727,6 @@ GUI_PARTYALL_EMPTY_LORE:
 - ''
 - '§7В данный момет,'
 - '§7нету ни одной публичной группы'
-GUI_PARTYALL_ITEM: '§eГруппы ▸ Список групп'
 GUI_PARTYALL_ITEM_LORE:
 - ''
 - '§7Всего групп:'
@@ -5730,7 +5734,6 @@ GUI_PARTYALL_ITEM_LORE:
 - '§7Публичных групп:'
 - '§a%s'
 GUI_PARTYALL_LORE:
-- ''
 - '§7Создатель: %s'
 - '§7Создана: §a%s'
 - ''
@@ -5746,8 +5749,6 @@ GUI_PARTYALL_LIMIT: ' §c✗ Группа переполнена'
 GUI_PARTYALL_JOIN: '§e▸ Нажмите, чтобы присоединится'
 GUI_PARTYALL_ALREADY: ' §c✗ Вы уже состоите в группе'
 GUI_PARTYALL_ALREADY_OTHER: ' §c✗ Вы уже другой в группе'
-GUI_PARTYALL_CREATOR: 'Создатель'
-GUI_PARTYALL_OWNER: 'Владелец'
 GUI_PARTYALL_FORMAT: '§eГруппа %s'
 
 GUI_GUILD_NAME: 'Участники гильдии'
