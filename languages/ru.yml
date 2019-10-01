@@ -5614,13 +5614,11 @@ GUI_MAILS_TYPE_PROVER: '§6не прочитано'
 GUI_MAILS_TYPE_CHECK: '§aпрочитано'
 
 GUI_PARTY_NAME: 'Участники группы'
-GUI_PARTY_OWNER: '§7Владелец группы'
-GUI_PARTY_IN_OWNER: '§7Владелец: %s'
-GUI_PARTY_LORE:
+GUI_PARTY_OWNER: 'Владелец группы'
+GUI_PARTY_LORE1:
 - ''
 - '§7Группа: §a%s'
-- ''
-- '§7Создатель: %s'
+GUI_PARTY_LORE2:
 - '§7Создана: §a%s'
 - ''
 - '§7Существует: §e%s'
