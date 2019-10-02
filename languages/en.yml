@@ -1363,7 +1363,7 @@ PARTY_LEAVE_ALERT: '§aParty §8| %s§f left the group'
 PARTY_NOT_MEMBERS: '§aParty §8| §fAll group members left it, the group has been deleted'
 
 PARTY_REQUESTS: '§aParty §8| §fList of the group invites (§a%s§f)'
-PARTY_REQUESTS_FORMAT: '  §c• §fRequest from %s§7 §cclick to accept'
+PARTY_REQUESTS_FORMAT: '  §c• §fRequest from %s§7 §nclick to accept'
 PARTY_REQUESTS_HOVER: '§fClick, to join the group'
 PARTY_REQUESTS_NO: "§cYou haven't got party invites"
 
