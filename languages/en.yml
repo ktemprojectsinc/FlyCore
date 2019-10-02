@@ -5956,6 +5956,7 @@ HOLO_REPLACER_CHANNEL_ERROR: '§cServers not found!'
 GAME_UPDATE_NAME: '§lUPDATE!'
 GAME_UPDATE_NEW_NAME: '§lNEW!'
 GAME_UPDATE_WIPE_NAME: '§lWipe made!'
+GAME_UPDATE_BETA_NAME: '§lBeta testing!'
 
 HOLO_VK:
 - '§fCome in our group §7§lVK'
