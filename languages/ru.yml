@@ -6144,7 +6144,7 @@ GUI_PRISON_SELL_ITEM_LORE:
 PRISON_SELL_NO_BUY: '§cИзвините, но данный предмет не подлежит продажи'
 PRISON_SELL_BUY: '§aСервер §8| §fВы продали %s§8 x%s§f и получили §a%s'
 
-PRISON_HOLO_NPC_SELL: '§aПродавец'
+PRISON_NPC_HOLO_SELL: '§aПродавец'
 
 PRISON_HOLO_SELL: 
 - '§7Нажмите, по продавцу,'
