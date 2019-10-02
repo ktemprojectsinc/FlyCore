@@ -1335,7 +1335,7 @@ PARTY_NO_INVITE: "§cPlayer %s didn't send you party invites"
 
 PARTY_CHAT_FORMAT: '/pchat <message>'
 PARTY_OFFLINE: "§cAll group's members are offline"
-PARTY_CHAT: '§dParty chat §8| %s §8» §f%s'
+PARTY_CHAT: '§dParty chat §8| %s'
 
 PARTY_COMMAND_HELP:
 - '§7/party invite <player name> §f- create new group'
