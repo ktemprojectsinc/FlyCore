@@ -6054,6 +6054,7 @@ HOLO_REPLACER_CHANNEL_ERROR: '§cСервера не найдены!'
 GAME_UPDATE_NAME: '§lОбновлено!'
 GAME_UPDATE_NEW_NAME: '§lНовый!'
 GAME_UPDATE_WIPE_NAME: '§lСделали вайп!'
+GAME_UPDATE_BETA_NAME: '§lБета тестирование!'
 
 HOLO_VK:
 - '§fЗаходите в нашу группу §7§lVK'
