@@ -5517,8 +5517,7 @@ GUI_MAILS_TYPE_PROVER: '§6unread'
 GUI_MAILS_TYPE_CHECK: '§aread'
 
 GUI_PARTY_NAME: 'Grouo members'
-GUI_PARTY_OWNER: '§7Group owner'
-GUI_PARTY_IN_OWNER: '§7Owner: %s'
+GUI_PARTY_OWNER: 'Group owner'
 GUI_PARTY_LORE1:
 - ''
 - '§7Group: §a%s'
@@ -5529,10 +5528,6 @@ GUI_PARTY_LORE2:
 - '§7Members: §a%s§8/§c%s'
 - '§7Online members: §a%s'
 - ''
-- '§7Публичность: %s'
-- '§7Автоматическая телепортация: %s'
-- '§7Свободная: %s'
-- '§7Автоматическое исключение: %s'
 GUI_PARTY: '§eInformation for group'
 GUI_PARTY_PLAYER_ONLINE:
 - ''
