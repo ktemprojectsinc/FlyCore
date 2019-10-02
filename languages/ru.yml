@@ -5652,8 +5652,9 @@ GUI_GUILDALL_LORE:
 - ''
 - '§7Участники: §a%s§8/§c%s'
 - '§7Дата основания: §e%s'
-- '§7В гильдии: §e%s'
 - ''
+GUI_GUILDALL_FRIENDS:
+- '§7В гильдии: §e%s'
 GUI_GUILD_TOP_MONEY: '§7На §a%s§7 месте в топе по монетам'
 GUI_GUILD_TOP_MEMBERS: '§7На §a%s§7 месте в топе по участникам'
 GUI_GUILD_NO_TOP_MONEY: '§cНе участвует в топе по монетам'
