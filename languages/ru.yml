@@ -5183,6 +5183,18 @@ GUI_GADGETS_SPIRIT_1: 'Защитник'
 GUI_GADGETS_SPIRIT_1_LORE:
 - '§7Это ваш Ангел-Хранитель, но'
 - '§7лишь до входа в игру'
+GUI_GADGETS_SPIRIT_2: 'Ktem'
+GUI_GADGETS_SPIRIT_2_LORE: []
+GUI_GADGETS_SPIRIT_3: 'Тигр'
+GUI_GADGETS_SPIRIT_3_LORE:
+- '§7Большой полосатый комок шерсти'
+GUI_GADGETS_SPIRIT_4: 'Король свиней'
+GUI_GADGETS_SPIRIT_4_LORE:
+- '§7Хотели увидеть короля свиней?'
+- '§7Тогда этот дух для вас!'
+GUI_GADGETS_SPIRIT_5: 'Мини-дух'
+GUI_GADGETS_SPIRIT_5_LORE:
+- '§7Ваша маленькая копия'
 
 GUI_PREFIX_NAME: 'Смена префикса'
 GUI_PREFIX_SELECTED_LORE:
