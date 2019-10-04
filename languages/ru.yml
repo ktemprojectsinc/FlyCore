@@ -1203,6 +1203,7 @@ CORE_MEMORY:
 CORE_SETSERVER_FORMAT: '/core setserver <сервер> <группа>'
 CORE_SETSERVER_NOT_FOUND: '§cОшибка, сервер %s не найден в ядре'
 CORE_SETSERVER_NOT_ACCESS: '§aCore §8| §cДанный сервер является стандартным, Вы не можете установить для него минимальную группу'
+CORE_SETSERVER_DO_NOT_TEST: '§aCore §8| §6Данный сервер является тестовым, Вы не можете им управлять'
 CORE_SETSERVER_CONFIRM: '§aCore §8| §fНа сервер §a%s§f успешна установлена минимальная группа - %s'
 CORE_SETSERVER_GROUP_INVALID: '§cВы указали неверную группу, доступные группы: %s'
 CORE_SETSERVER_INFO: '§cCore §8| %s§7 установил минимальную группу %s§7 для сервера §a%s'
