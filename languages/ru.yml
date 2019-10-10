@@ -1462,7 +1462,7 @@ FRIEND_REJECT_ALERT: '§aДрузья §8| §fИгрок %s§f отклонил 
 FRIEND_REMOVE_FORMAT: '/f remove <ник друга>'
 FRIEND_REMOVE_ME: '§cВы не можете удалить из друзей самого себя'
 FRIEND_REMOVE: '§aДрузья §8| §fИгрок %s§f был удален из вашего списка друзей'
-FRIEND_REMOVE_ALERT: '§aДрузья §8| §fИгрок %s §fудалил вас из друзей'
+FRIEND_REMOVE_ALERT: '§aДрузья §8| §fИгрок %s§f удалил вас из друзей'
 
 FRIEND_REQUESTS_NOT: '§cУ вас нет непринятых заявок.'
 
