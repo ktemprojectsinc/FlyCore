@@ -5805,9 +5805,15 @@ GUI_CASES_BUY_FORMAT_LORE:
 - '§7Buy %s %s §8§l⇩'
 - ''
 - '§7Discount on buying §f%s'
+GUI_CASES_SELECT_LORE:
+- '§7Buy keys for %s'
+- ''
+- '§e▸ Open purchases menu'
 GUI_CASES_BUY_LORE:
 - ''
 - '§7Buy %s %s за %s %s'
+- ''
+- '§7Discount on buying §f%s'
 - ''
 - '§e▸ Click, to buy'
 GUI_CASES_INFO_NAME: '§bHelp of keys'
