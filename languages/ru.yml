@@ -5932,7 +5932,7 @@ GUI_CASES_BUY_FORMAT_LORE:
 GUI_CASES_SELECT_LORE:
 - '§7Купить ключи за %s'
 - ''
-- '§e▸ Нажмите, чтобы купить ключи'
+- '§e▸ Открыть меню покупки'
 GUI_CASES_BUY_LORE:
 - ''
 - '§7Купить %s %s за %s %s'
