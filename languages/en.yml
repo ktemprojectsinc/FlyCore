@@ -5909,6 +5909,7 @@ GUI_CASES_GAME_LORE:
 - '§7на режимах выживаний.'
 GUI_CASES_INFO_TO_LORE:
 - ''
+- '§7Approximate next rarity: %s'
 - '§7Available keys: §a%s'
 - ''
 - '§e▸ Left click, to open case'
