@@ -77,6 +77,7 @@ CORE_NO_CONNECTED:
 - ' §cнаписанные вами команды, будут сохранены в фоновом режиме.'
 GROUP_TIME_EXPIRE_LEFT: '§aСервер §8| §fВремя вашей группы %s§f истекло, и она была снята'
 PREFIX_TIME_EXPIRE_LEFT: '§aСервер §8| §fВремя вашего префикса %s§f истекло, и он был снят'
+ANARCHY_KILL_MOB: '§6+%s %s за убийство моба'
 TYPE_YES: 'Да'
 TYPE_NO: 'Нет'
 RANK_DEFAULT: 'Игрок'
