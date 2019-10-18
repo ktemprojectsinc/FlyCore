@@ -1073,6 +1073,8 @@ NO_FOUND_PLAYER: '§cPlayer %s§c not found or player is offline'
 NO_FOUND_PLAYER_IN_GAMEMODE: '§cPlayer %s§c not found on this gamemode'
 NO_NEVER_PLAYER: '§cError, player %s never played on our project'
 
+NO_FOUND_COMMAND: '§cUnknown command, use /help to help.'
+
 # Новые сообщения с она/подруга
 NOT_FOUND_PLAYER: '§c%s %s§c not %s or %s offline'
 
