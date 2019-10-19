@@ -2167,8 +2167,10 @@ MSG_DONATE: '§aPM §8| §6I §8-> %s §8| §f%s'
 MSG_ALERT_DONATE: '§aPM §8| %s §8-> §6I §8| §f%s'
 
 GLIST: '§aServer §8| §fTotal online §a%s §f%s'
-GLIST_SERVER: '§aServer §8| §fTotal online of gamemode §a%s'
-GLIST_NOT_FOUND: '§cError, current servers not found'
+GLIST_SERVER: '§aServer §8| §fTotal online of gamemode §a%s §f%s'
+GLIST_CHANNEL: '§aServer §8| §fTotal online of channel §a%s §f%s'
+GLIST_NOT_FOUND_SERVER: '§cError, current gamemode not found'
+GLIST_NOT_FOUND_CHANNEL: '§cError, current channel not found'
 
 REPLY_FORMAT: '/reply <message>'
 REPLY_EMPTY: '§cNo one wrote to you'
