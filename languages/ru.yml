@@ -1095,6 +1095,8 @@ PLAYER_NAME_25: 'Покупная'
 PLAYER_NAME_26: 'Покупной'
 PLAYER_NAME_27: 'выиграла'
 PLAYER_NAME_28: 'выиграл'
+PLAYER_NAME_29: 'временная'
+PLAYER_NAME_30: 'временный'
 
 PROXY_COMMAND_HELP:
 - '§7/proxy info §f- Информация о вашем соединении с прокси'
