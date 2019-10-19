@@ -1060,6 +1060,8 @@ PLAYER_NAME_25: 'Покупная'
 PLAYER_NAME_26: 'Покупной'
 PLAYER_NAME_27: 'выиграла'
 PLAYER_NAME_28: 'выиграл'
+PLAYER_NAME_29: 'Временная'
+PLAYER_NAME_30: 'Временный'
 
 PROXY_COMMAND_HELP:
 - '§7/proxy info §f- Информация о вашем соединении с прокси'
@@ -3852,11 +3854,9 @@ GUI_STAFF_ITEM_LORE:
 GUI_STAFF_PLAYER_INFO:
 - ''
 - '§7Информация об игроке:'
-- '§8▪ §7VK: §f%s'
-- '§8▪ §7%s: %s'
-GUI_STAFF_PLAYER_YOUTUBE: '§8▪ §7Канал: §f%s'
+GUI_STAFF_PLAYER_YOUTUBE: ' §8▪ §7Канал: §f%s'
 GUI_STAFF_PLAYER_ONLINE:
-- '§8▪ §7Сейчас на сервере: §b%s'
+- ' §8▪ §7Сейчас на сервере: §b%s'
 GUI_STAFF_PLAYER_OFFLINE:
 - ''
 - '§7Последний раз %s в сети:'
@@ -6007,6 +6007,35 @@ GUI_PURCHASE_CONFIRM_CANCEL_LORE:
 - '§7Отменить действие'
 COST_FORMAT: '§7Стоимость: %s %s'
 DISCOUNTED_COST_FORMAT: '§7Стоимость (со скидкой): %s %s'
+
+GUI_TIMEDONATE_NAME: 'Привилегии за время'
+GUI_TIMEDONATE_INFO_NAME: '§eИнформация'
+GUI_TIMEDONATE_INFO_LORE:
+- ''
+- '§7За время игры на сервере,'
+- '§7Вы можете получить временную привилегию,'
+- '§7которая будет снята по окончанию её времени.'
+- ''
+- '§7Вы наиграли: §a%s'
+- ''
+- '§7Для просмотра наигранного времени,'
+- '§7Вы можете использовать команду §a/time'
+GUI_TIMEDONATE_LORE:
+- ''
+- ' §8• §7Время привилегии: %s'
+GUI_TIMEDONATE_AVAILABLE_LORE:
+- '§e▶ Нажмите, чтобы получить привилегию'
+GUI_TIMEDONATE_UNAVAILABLE_LORE:
+- '§7Наиграйте еще %s,'
+- '§7для получения данной привилегии'
+- ''
+- ' §c✗ Недостаточно времени для получения'
+GUI_TIMEDONATE_ALREADY_LORE:
+- ' §c✗ У вас уже есть возможности данной привилегии'
+GUI_TIMEDONATE_ALREADYGET_LORE:
+- ' §c✗ Вы уже получали данную привилегию'
+
+TIMEDONATE_GET: '§aСервер §8| §fВы успешно забрали привилегию %s'
 
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, наиграно - §a%s'
