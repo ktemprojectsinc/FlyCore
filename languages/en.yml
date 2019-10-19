@@ -4172,13 +4172,13 @@ GUI_FRIENDS_ITEM_LORE:
 GUI_FRIENDS_LORE:
 - ''
 - '§7Friend info:'
-- '§8▪ §7Level: §d%s'
-- '§8▪ §7VK: §f%s'
-- '§8▪ §7Version: §3%s'
-- '§8▪ §7Guild: §3%s'
-- '§8▪ §7Party: §3%s'
+- ' §8▪ §7Level: §d%s'
+- ' §8▪ §7VK: §f%s'
+- ' §8▪ §7Version: §3%s'
+- ' §8▪ §7Guild: §3%s'
+- ' §8▪ §7Party: §3%s'
 GUI_FRIENDS_ONLINE_LORE:
-- '§8▪ §7Now on the server: §e%s'
+- ' §8▪ §7Now on the server: §e%s'
 GUI_FRIENDS_ALREADY_LORE:
 - '§c▸ You are already on one server'
 GUI_FRIENDS_CONNECT_LORE:
