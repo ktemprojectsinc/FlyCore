@@ -3463,6 +3463,7 @@ GUI_INFO_HELP_LORE:
 - ''
 - '§e/hub §7or §e/lobby §7- Return to main lobby'
 - '§e/online §7- Online from all servers'
+- '§e/online §7or§e §e/online <server/@channel> §7- Online from all servers/Gamemode online'
 - '§e/find <Nickname> §7- Find player'
 - '§e/staff §7- Server staff online'
 - '§e/ask <your question> §7- Create question'
