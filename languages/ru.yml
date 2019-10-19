@@ -155,6 +155,12 @@ SERVERS:
 - 'а'
 - 'ов'
 
+CHANNELS:
+- 'Канал'
+- ''
+- 'а'
+- 'ов'
+
 MAPS:
 - 'Карт'
 - 'а'
@@ -2204,9 +2210,6 @@ MSG_ALERT_DONATE: '§aЛС §8| %s§8 -> §6Я §8| §f%s'
 ONLINE_ALL: '§aСервер §8| §fОбщий онлайн §a%s §f%s'
 ONLINE: '§aСервер §8| §fОнлайн %sа §b%s§f - §a%s §f%s'
 ONLINE_NOT_FOUND: '§cОшибка, указанный %s не найден'
-
-TYPE_CHANNEL: 'канал'
-TYPE_SERVER: 'режим'
 
 REPLY_FORMAT: '/reply <сообщение>'
 REPLY_EMPTY: '§cВам никто не писал'
