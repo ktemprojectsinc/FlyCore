@@ -2179,7 +2179,7 @@ MSG_DONATE: '§aPM §8| §6I §8-> %s §8| §f%s'
 MSG_ALERT_DONATE: '§aPM §8| %s §8-> §6I §8| §f%s'
 
 ONLINE_ALL: '§aServer §8| §fTotal online §a%s §f%s'
-ONLINE: '§aServer §8| §fTotal online of §b%s§f - §a%s §f%s'
+ONLINE: '§aServer §8| §fTotal online of %s §b%s§f - §a%s §f%s'
 ONLINE_NOT_FOUND: '§cError, current %s not found'
 
 REPLY_FORMAT: '/reply <message>'
