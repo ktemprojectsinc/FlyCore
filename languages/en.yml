@@ -35,6 +35,7 @@ NOVEMBER: 'November'
 DECEMBER: 'December'
 
 SERVER_REDIRECT: '§aServer §8| §fYou connected to §a%s'
+SERVER_REDIRECT_NOT_FOUND: '§aServer §8| §fHappened error on connected to §a%s§f current server not found'
 
 NOOBIK_NOOB4IK:
 - ''
@@ -93,6 +94,10 @@ CORE_HANDSHAKE_CONNECTION_CONFIRM: '§cCore §8| §7Connection §a%s§7 successf
 CORE_NO_CONNECTED:
 - '§cAt this moment, there is no connection to core, wait a little for its connection.'
 - ' §cwritten by your commands, will be saved in background mode.'
+
+GROUP_TIME_EXPIRE_LEFT: '§aServer §8| §fВремя вашей группы %s§f истекло, и она была снята'
+PREFIX_TIME_EXPIRE_LEFT: '§aServer §8| §fВремя вашего префикса %s§f истекло, и он был снят'
+ANARCHY_KILL_MOB: '§6+%s %s за убийство моба'
  
 TYPE_YES: 'Yes'
 TYPE_NO: 'No'
@@ -671,8 +676,8 @@ MAIL_JOIN_REQUESTS: '§aMail §8| §fYou have §e%s §funread emails §7(Click h
 MAIL_JOIN_HOVER: "§fClick here,\n§fto open mail list"
 
 #§7Our Discord: §6discord.gg/
-MSG_TITLE: ''
-MSG_SUBTITLE: ''
+MSG_TITLE: '§7Our Discord: §adiscord.gg/8uX2r25'
+MSG_SUBTITLE: '§7VK: §bvk.com/flycore'
 #§7Группа: §cvk.com/flycore
 
 #En items
@@ -1059,10 +1064,10 @@ GROUP_PREFIX_INVALID: '§cПрефикс может состоять тольк�
 GROUP_PREFIX_LIMIT: '§aGroups §8| §fПрефикс не должен превышать §c24§f символа'
 GROUP_PREFIX_CHANGED: '§aGroups §8| §fВы установили свой префикс на %s'
 GROUP_PREFIX_SET: '§cGroups §8| %s§7 сменил свой префикс на %s'
-GROUP_CLEAR: '§aGroups §8| §eFrom player %s §egroup has been removed'
-GROUP_SET: '§aGroups §8| §eFor player %s §ehas been set group %s'
+GROUP_CLEAR: '§aGroups §8| §fFrom player %s§f group has been removed'
+GROUP_SET: '§aGroups §8| §fFor player %s§f has been set group %s'
 GROUP_INVALID: '§cYou wrote wrong group. Available groups: §f%s'
-GROUP_MIGRATE: '§aGroups §8| §eFor player %s §ehas been transfered group %s'
+GROUP_MIGRATE: '§aGroups §8| §fFor player %s§f has been transfered group %s'
 GROUP_CLEAR_BROADCAST: '§cGroups §8| %s§7 stripped off privilege from player %s'
 GROUP_MIGRATE_BROADCAST: '§cGroups §8| %s§7 migrated privilege of %s§7 to %s'
 GROUP_VIEW_INVALID: '§cYou wrote wrong group. Available groups: §f%s'
@@ -1226,8 +1231,9 @@ CORE_MEMORY:
 
 CORE_SETSERVER_FORMAT: '/core setserver <server> <group>'
 CORE_SETSERVER_NOT_FOUND: '§cError, server %s not found to core'
-CORE_SETSERVER_NOT_ACCESS: '§aServer §8| §fДанный server является стандартным, Вы не можете запретить его для входа'
-CORE_SETSERVER_CONFIRM: '§aServer §8| §fДля сервера §a%s§f успешна установлена минимальная группа - %s'
+CORE_SETSERVER_NOT_ACCESS: '§aCore §8| §fДанный server является стандартным, Вы не можете запретить его для входа'
+CORE_SETSERVER_DO_NOT_TEST: '§aCore §8| §6Данный server является тестовым, Вы не можете им управлять'
+CORE_SETSERVER_CONFIRM: '§aCore §8| §fДля сервера §a%s§f успешна установлена минимальная группа - %s'
 CORE_SETSERVER_GROUP_INVALID: '§cError, group available: %s'
 CORE_SETSERVER_INFO: '§cCore §8| %s§7 set minimal group %s§7 for server §a%s'
 
@@ -1481,7 +1487,7 @@ FRIEND_REQUESTS_NOT: "§cYou have't got unaccepted friend requests."
 FRIEND_TP_FORMAT: '/f tp <player name>'
 FRIEND_TP_ALREADY: '§cYou are already on the same server'
 FRIEND_TP: '§aFriends §8| %s§f teleported to you on the server'
-FRIEND_TP_ALERT: '§aFriends §8| §fYou were teleported on the server of player %s §f(§7%s§f)'
+FRIEND_TP_ALERT: '§aFriends §8| §fYou were teleported on the server of player %s§f (§7%s§f)'
 
 LVL_UP: '§a§l§kX§r §c§lLEVEL UP §a§l§kX'
 NEW_LVL: '§fYou received §d%s§f level!'
@@ -1529,7 +1535,7 @@ BOX_ITEM_ALREADY: 'You has already this item, You get §6+%s §f%s'
 
 STAFFCHAT_MSG: '§eStaff chat §8| %s'
 TESTERCHAT_MSG: '§6Testers chat §8| %s'
-DONATECHAT_MSG: '§cDonate chat §8| %s'
+DONATECHAT_MSG: '§aDonate chat §8| %s'
 STAFFCHAT_MARKIS_MSG: '§eStaff chat §8| §f%s §d✎ %s'
 DONATECHAT_MARKIS_MSG: '§cDonate chat §8| §f%s §d✎ %s'
 
