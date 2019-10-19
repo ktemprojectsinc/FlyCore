@@ -6064,6 +6064,36 @@ GUI_PURCHASE_CONFIRM_CANCEL_LORE:
 COST_FORMAT: '§7Стоимость: %s %s'
 DISCOUNTED_COST_FORMAT: '§7Стоимость (со скидкой): %s %s'
 
+GUI_TIMEDONATE_NAME: 'Привилегии за время'
+GUI_TIMEDONATE_INFO_NAME: '§eИнформация'
+GUI_TIMEDONATE_INFO_LORE:
+- ''
+- '§7За время игры на сервере,'
+- '§7Вы можете получить временную привилегию,'
+- '§7которая будет снята по окончанию её времени.'
+- ''
+- '§7Вы наиграли: §a%s'
+- ''
+- '§7Для просмотра наигранного времени,'
+- '§7Вы можете использовать команду §a/time'
+GUI_TIMEDONATE_LORE:
+- ''
+- ' §8• §7Время привилегии: %s'
+- ''
+GUI_TIMEDONATE_AVAILABLE_LORE:
+- '§e▶ Нажмите, чтобы получить привилегию'
+GUI_TIMEDONATE_UNAVAILABLE_LORE:
+- '§7Наиграйте еще %s,'
+- '§7для получения данной привилегии'
+- ''
+- ' §c✗ Недостаточно времени для получения'
+GUI_TIMEDONATE_ALREADY_LORE:
+- ' §c✗ У вас уже есть возможности данной привилегии'
+GUI_TIMEDONATE_ALREADYGET_LORE:
+- ' §c✗ Вы уже получали данную привилегию'
+
+TIMEDONATE_GET: '§aСервер §8| §fВы успешно забрали привилегию %s'
+
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, наиграно - §a%s'
 
