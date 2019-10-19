@@ -178,6 +178,12 @@ MODES:
 - 's'
 - 's'
 
+MODES_2:
+- 'Mode'
+- ''
+- 's'
+- 's'
+
 SERVERS: 
 - 'Server'
 - ''
@@ -185,6 +191,12 @@ SERVERS:
 - 's'
 
 CHANNELS:
+- 'Channel'
+- ''
+- 's'
+- 's'
+
+CHANNELS_2:
 - 'Channel'
 - ''
 - 's'
