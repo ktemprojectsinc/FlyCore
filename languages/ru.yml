@@ -151,8 +151,8 @@ DONATKEYS:
 
 MODES:
 - 'Режим'
-- ''
 - 'а'
+- 'ов'
 - 'ов'
 
 SERVERS:
@@ -163,8 +163,8 @@ SERVERS:
 
 CHANNELS:
 - 'Канал'
-- ''
 - 'а'
+- 'ов'
 - 'ов'
 
 MAPS:
@@ -2214,7 +2214,7 @@ MSG_DONATE: '§aЛС §8| §6Я §8-> %s§8 | §f%s'
 MSG_ALERT_DONATE: '§aЛС §8| %s§8 -> §6Я §8| §f%s'
 
 ONLINE_ALL: '§aСервер §8| §fОбщий онлайн §a%s §f%s'
-ONLINE: '§aСервер §8| §fОнлайн %sа §b%s§f - §a%s §f%s'
+ONLINE: '§aСервер §8| §fОнлайн %s §b%s§f - §a%s §f%s'
 ONLINE_NOT_FOUND: '§cОшибка, указанный %s не найден'
 
 REPLY_FORMAT: '/reply <сообщение>'
