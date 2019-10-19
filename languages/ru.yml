@@ -3967,8 +3967,6 @@ GUI_STAFF_ITEM_LORE:
 GUI_STAFF_PLAYER_INFO:
 - ''
 - '§7Информация об игроке:'
-- '§8▪ §7VK: §f%s'
-- '§8▪ §7%s: %s'
 GUI_STAFF_PLAYER_YOUTUBE: '§8▪ §7Канал: §f%s'
 GUI_STAFF_PLAYER_ONLINE:
 - '§8▪ §7Сейчас на сервере: §b%s'
