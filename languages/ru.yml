@@ -4267,8 +4267,8 @@ GUI_FRIENDS_LORE:
 - '§8▪ §7Уровень: §d%s'
 - '§8▪ §7VK: §f%s'
 - '§8▪ §7Версия: §3%s'
-- '§8▪ §7Гильдия §e%s'
-- '§8▪ §7Пати §e%s'
+- '§8▪ §7Гильдия: §e%s'
+- '§8▪ §7Пати(party): §e%s'
 GUI_FRIENDS_ONLINE_LORE:
 - '§8▪ §7Сейчас на сервере: §e%s'
 GUI_FRIENDS_ALREADY_LORE:
