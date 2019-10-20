@@ -4090,7 +4090,7 @@ GUI_DONATEMENU_FASTMESSAGES_LORE:
 - '§7To quickly open the menu, use'
 - '§7command §c/fm §7or §c/fastmessage'
 - ''
-- '§7Only available for §b§lDIAMOND§7 or higher'
+- '§7Only available for %s§7 or higher'
 - ''
 - '§e▸ Tap to open the menu'
 GUI_DONATEMENU_PREFIX_LORE:
@@ -4107,8 +4107,18 @@ GUI_DONATEMENU_SMILES_LORE:
 - '§7To quickly open the menu, use'
 - '§7command §c/sm§7 or §c/smiles'
 - ''
-- '§7Only available for §a§lEMERALD§7 or higher'
+- '§7Only available for %s§7 or higher'
 - ''
+- '§e▸ Tap to open the menu'
+GUI_DONATEMENU_JOINMESSAGES_LORE1:
+- '§7Установить кастомное сообщения'
+- '§7вашего входа на сервер'
+GUI_DONATEMENU_JOINMESSAGES_UNAVAILABLE_LORE:
+- '§7Only available for %s§7 or higher'
+GUI_DONATEMENU_JOINMESSAGES_AVAILABLE_LORE:
+- '§7Current message: %s'
+- '§7Open: §a%s§7/§a%s §d%s'
+GUI_DONATEMENU_JOINMESSAGES_LORE2:
 - '§e▸ Tap to open the menu'
 GUI_DONATEMENU_NAME: 'Donate menu'
 GUI_SMILES_NAME: 'Smiles'
@@ -4188,6 +4198,21 @@ GUI_SMILES_67: ":'("
 GUI_SMILES_68: 'Y.Y'
 GUI_SMILES_69: '=('
 GUI_SMILES_70: 'xD'
+GUI_JOINMESSAGES_NAME: 'Message on join'
+
+GUI_JOINMESSAGES_ITEM_NAME: 'Message %s'
+GUI_JOINMESSAGES_ITEM_LORE:
+- '§7Установить кастомное оповещение'
+- '§7для всех игроков о Вашем входе на сервер'
+- ''
+- '§7Оповещение для игроков:'
+- '%s'
+GUI_JOINMESSAGES_SELECT: '§aMessage selected'
+GUI_JOINMESSAGES_NOT_SELECT: '§e▸ Click, to select'
+GUI_JOINMESSAGES_NOT_AVAILABLE: '§cCurrent message you not available'
+
+JOINMESSAGES_SELECT: '§6Сообщение при входе §8| §fСообщение под номером §a%s§f активировано'
+JOINMESSAGES_BUY: '§6Сообщение при входе §8| §fВы успешно купили §a%s§f сообщение'
 GUI_FRIENDS_NAME: 'Friend list'
 GUI_FRIENDS_ITEM: '§eFriend list'
 GUI_FRIENDS_ITEM_LORE:
