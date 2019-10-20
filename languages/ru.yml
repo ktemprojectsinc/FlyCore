@@ -4202,11 +4202,16 @@ GUI_DONATEMENU_SMILES_LORE:
 - ''
 - '§e▸ Нажмите, чтобы открыть меню'
 
-GUI_DONATEMENU_JOINMESSAGES_LORE:
+GUI_DONATEMENU_JOINMESSAGES_LORE1:
 - '§7Установить кастомное сообщения'
 - '§7вашего входа на сервер'
 - ''
+GUI_DONATEMENU_JOINMESSAGES_UNAVAILABLE_LORE:
 - '§7Доступно для %s§7 и выше'
+GUI_DONATEMENU_JOINMESSAGES_AVAILABLE_LORE:
+- '§7Текущее сообщение: %s'
+- '§7Открыто: §a%s§7/§a%s §d%s'
+GUI_DONATEMENU_JOINMESSAGES_LORE3:
 - ''
 - '§e▸ Нажмите, чтобы открыть меню'
 
