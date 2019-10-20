@@ -2391,7 +2391,7 @@ YOUTUBE_NOT_FOUND: "§aYouTube §8| §cYou don't have got link, add it /yt addli
 YOUTUBE_INFO: '§6§lYouTube §fchannel » §3§l%s'
 YOUTUBE_OTHER: '§aServer §8| §fOn %s§f YouTube channel: §b%s'
 
-JOIN_TO_LOBBY: ' §a▸ %s §6joined to server'
+JOIN_TO_LOBBY: ' §a‣ %s §6joined to server'
 
 VERIFY_CONFIRM: '§aVerify §8| §fДанные совпадают, сессия восстановлена'
 VERIFY_CONFIRM_BROADCAST: '§cVerify §8| §7Сессия %s§f восстановлена'
