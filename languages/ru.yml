@@ -4439,10 +4439,15 @@ GUI_GUILD_REQUESTS_ITEM_LORE:
 GUI_GUILD_REQUESTS_NAME: 'Список приглашений'
 
 GUI_YOUTUBEMENU_NAME: 'Меню ютубера'
-GUI_YOUTUBEMENU_ITEM_LORE:
+GUI_YOUTUBEMENU_HIDE_LORE:
 - '§7Позволяет включить или отключить'
 - '§7ваше скрытие'
-GUI_YOUTUBEMENU_ITEM: '§bСкрытие'
+GUI_YOUTUBEMENU_HIDE: '§bСкрытие'
+GUI_YOUTUBEMENU_JOIN_LORE:
+- '§7Позволяет включить или отключить'
+- '§7оповещение о вашем канале,'
+- '§7при входе на сервер'
+GUI_YOUTUBEMENU_JOIN: '§bОповещение о канале'
 
 GUI_REWARDS_NAME: 'Награды'
 GUI_REWARDS_1: '§eЕжедневные награды'
