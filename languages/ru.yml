@@ -4304,8 +4304,8 @@ GUI_JOINMESSAGES_SELECT: '§aСообщение выбрано'
 GUI_JOINMESSAGES_NOT_SELECT: '§e▸ Нажмите, чтобы выбрать'
 GUI_JOINMESSAGES_NOT_AVAILABLE: '§cДанное сообщение Вам недоступно'
 
-JOINMESSAGES_SELECT: '§6Сообщение при входе §8| §fСообщение под номером §a%s§f активировано'
-JOINMESSAGES_BUY: '§6Сообщение при входе §8| §fВы успешно купили §a%s§f сообщение'
+JOINMESSAGES_SELECT: '§aСообщение при входе §8| §fСообщение под номером §a%s§f активировано'
+JOINMESSAGES_BUY: '§aСообщение при входе §8| §fВы успешно купили §a%s§f сообщение'
 
 GUI_FRIENDS_NAME: 'Список друзей'
 GUI_FRIENDS_ITEM_LORE:
