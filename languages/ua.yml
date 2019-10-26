@@ -3,7 +3,7 @@
 SERVER: '§aСервер §8| §f'
 SERVER_RESTART: 'Перезавантаження'
 COMMAND_DOUBLE: '§aСервер §8| §fПожалуйста используйте команды §cбез §fдвоеточия'
-ENABLED: '§aВвімкнено'
+ENABLED: '§aВімкнено'
 DISABLED: '§cВимкнено'
 ENABLE: 'Увімкнути'
 DISABLE: 'Вимкнути'
