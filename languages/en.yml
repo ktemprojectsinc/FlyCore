@@ -273,6 +273,12 @@ FRIENDS:
 - ''
 - 's'
 
+MEMBERS:
+- 'member'
+- ''
+- ''
+- 's'
+
 UPDATES:
 - 'update'
 - ''
@@ -2800,10 +2806,19 @@ GUI_PROFILE_STATS_LORE:
 GUI_PROFILE_DONATEMENU_LORE:
 - '§7Player customization on game'
 - '§7areas. You will be able to choose prefix color,'
-- '§7write fast messages, smiles'
-- '§7and other.'
+- '§7write fast messages/smiles'
+- '§7or else set alert,'
+- '§7about join you to server.'
 - ''
 - '§e▸ Open donate menu'
+GUI_PROFILE_LISTS_LORE:
+- '§7Хотите узнать ваших друзей,'
+- '§7список участников гильдии/пати?'
+- '§7Тогда в данном меню вы можете,'
+- '§7увидеть отдельный список,'
+- '§7по каждому разделу.'
+- ''
+- '§e▸ Открыть меню списков'
 GUI_PROFILE_COSMETIC_LORE:
 - '§7Allows to buy and activate'
 - '§7different cosmetic improvements'
@@ -5588,7 +5603,7 @@ GUI_MAILS_ITEM_LORE:
 GUI_MAILS_TYPE_PROVER: '§6unread'
 GUI_MAILS_TYPE_CHECK: '§aread'
 
-GUI_PARTY_NAME: 'Grouo members'
+GUI_PARTY_NAME: 'Group members'
 GUI_PARTY_OWNER: 'Group owner'
 GUI_PARTY_LORE1:
 - ''
@@ -5736,7 +5751,7 @@ GUI_GUILD_GUILD_LORE:
 - '§7Онлайн: §a%s'
 - ''
 - '§7Guild balance: §e%s'
-GUI_GUILD_ITEM: '§eИнформация о гильдии'
+GUI_GUILD_ITEM: '§eInformation about guild'
 GUI_GUILD_PLAYER_ONLINE:
 - ''
 - '§7Server: §a%s'
@@ -6036,6 +6051,54 @@ GUI_TIMEDONATE_ALREADYGET_LORE:
 - ' §c✗ Вы уже получали данную привилегию'
 
 TIMEDONATE_GET: '§aСервер §8| §fВы успешно забрали привилегию %s'
+
+GUI_LISTS_NAME: 'Lists menu'
+GUI_LISTS_FAST_COMMAND_LORE:
+- ''
+- '§7To quickly open the menu,'
+- '§7use command §f%s'
+- ' '
+GUI_LISTS_FRIENDLIST_LORE:
+- '§7View your friends list,'
+- '§7as well information about them.'
+GUI_LISTS_FRIENDLIST_INFO_LORE:
+- ''
+- '§7Information about friends:'
+- '§8 • §7Total: §a%s'
+- '§8 • §7Online: §a%s'
+GUI_LISTS_FRIENDLIST_OPEN:
+- '§e▸ Open friends list'
+GUI_LISTS_FRIENDLIST_NOT_FOUND:
+- '§c ✗ You haven't got friends'
+
+GUI_LISTS_GUILDLIST_LORE:
+- '§7View information about guild,'
+- '§7as well member list.'
+GUI_LISTS_GUILDLIST_INFO_LORE:
+- ''
+- '§7Information about guild:'
+- '§8 • §7Guild: §a%s'
+- '§8 • §7Total members: §a%s§8/§c%s'
+- '§8 • §7Online: §a%s'
+- '§8 • §7Balance: §e%s'
+GUI_LISTS_GUILDLIST_OPEN:
+- '§e▸ Open member guild list'
+GUI_LISTS_GUILDLIST_NOT_FOUND:
+- '§c ✗ You aren't in the guild'
+
+GUI_LISTS_PARTYLIST_LORE:
+- '§7View information about party,'
+- '§7as well member list.'
+GUI_LISTS_PARTYLIST_INFO_LORE:
+- ''
+- '§7Information about party:'
+- '§8 • §7Party: %s'
+- '§8 • §7Total members: §a%s§8/§c%s'
+- '§8 • §7Online: §a%s'
+GUI_LISTS_PARTYLIST_OPEN:
+- '§e▸ Open member party list'
+GUI_LISTS_PARTYLIST_NOT_FOUND:
+- '§c ✗ You aren't in the group'
 
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, played - §a%s'
