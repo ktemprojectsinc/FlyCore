@@ -2772,18 +2772,7 @@ GUI_PROFILE_LORE:
 - '§8• §7Vk: §e%s'
 GUI_PROFILE_SETTING_LORE:
 - '§7Personal settings'
-- ' §8▪ §7VKontakte: %s'
-- ' §8▪ §7Fly: %s'
-- ' §8▪ §7Hide player waiting: %s'
-- ' §8▪ §7Chat: %s'
-- ' §8▪ §7Mail messages: %s'
-- ' §8▪ §7Scoreboard: %s'
-- ' §8▪ §7Private messages: %s'
-- ' §8▪ §7Friends invites: %s'
-- ' §8▪ §7Party invites: %s'
-- ' §8▪ §7Guilds invites: %s'
-- ' §8▪ §7Donaters chat: %s'
-- ' §8▪ §7Glowing to lobby: %s'
+GUI_PROFILE_SETTING2_LORE:
 - ''
 - '§e▸ Open the settings menu'
 GUI_PROFILE_LEVEL_LORE:
