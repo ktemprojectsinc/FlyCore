@@ -898,6 +898,7 @@ BOARD_MAPS: 'Карта'
 BOARD_MODULES: 'Модулей'
 BOARD_WAIT: 'Ожидание игроков'
 BOARD_TIME_TO_DM: 'Время до дезматча'
+BOARD_TIMED: 'Наигранно'
 BOARD_SERVER: 'Сервер'
 BOARD_TO_START: 'Старт через'
 BOARD_SPECTATOR: 'Наблюдателей'
@@ -6255,3 +6256,6 @@ HOLO_TOP_MAIN:
 - '§7Вперед [ЛКМ], назад [ПКМ]'
 HOLO_TOP_UPDATE: '§cДо поновлення: §c%s'
 HOLO_TOP_UPDATE_NOW: 'Оновлене!'
+
+HOLO_INFORMATION:
+- 'Информация о вас'
