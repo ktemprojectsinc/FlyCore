@@ -6112,7 +6112,7 @@ GUI_LISTS_FAST_COMMAND_LORE:
 - '§7Для быстрого открытия меню,'
 - '§7используйте команду §f%s'
 - ' '
-GUI_LISTS_FRIENDSLIST_LORE:
+GUI_LISTS_FRIENDLIST_LORE:
 - '§7Просмотр списка ваших друзей,'
 - '§7а также информации об них.'
 GUI_LISTS_FRIENDLIST_INFO_LORE:
