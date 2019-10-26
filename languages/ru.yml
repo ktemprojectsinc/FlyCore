@@ -930,6 +930,7 @@ BOARD_OUR_TEAM: 'Ваша команда'
 BOARD_MODULES: 'Модулей'
 BOARD_WAIT: 'Ожидание игроков'
 BOARD_TIME_TO_DM: 'Время до дезматча'
+BOARD_TIMED: 'Наиграно'
 BOARD_SERVER: 'Сервер'
 BOARD_TO_START: 'Старт через'
 BOARD_SPECTATOR: 'Наблюдателей'
@@ -6332,3 +6333,6 @@ PRISON_NPC_HOLO_SELL:
 PRISON_HOLO_SELL: 
 - '§7Нажмите, по продавцу,'
 - '§7чтобы совершить продажу.'
+
+HOLO_INFORMATION:
+- 'Информация о вас'
