@@ -6069,7 +6069,7 @@ GUI_LISTS_FRIENDLIST_INFO_LORE:
 GUI_LISTS_FRIENDLIST_OPEN:
 - '§e▸ Open friends list'
 GUI_LISTS_FRIENDLIST_NOT_FOUND:
-- '§c ✗ You haven't got friends'
+- "§c ✗ You haven't got friends"
 
 GUI_LISTS_GUILDLIST_LORE:
 - '§7View information about guild,'
@@ -6084,7 +6084,7 @@ GUI_LISTS_GUILDLIST_INFO_LORE:
 GUI_LISTS_GUILDLIST_OPEN:
 - '§e▸ Open member guild list'
 GUI_LISTS_GUILDLIST_NOT_FOUND:
-- '§c ✗ You aren't in the guild'
+- "§c ✗ You aren't in the guild"
 
 GUI_LISTS_PARTYLIST_LORE:
 - '§7View information about party,'
@@ -6098,7 +6098,7 @@ GUI_LISTS_PARTYLIST_INFO_LORE:
 GUI_LISTS_PARTYLIST_OPEN:
 - '§e▸ Open member party list'
 GUI_LISTS_PARTYLIST_NOT_FOUND:
-- '§c ✗ You aren't in the group'
+- "§c ✗ You aren't in the group"
 
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, played - §a%s'
