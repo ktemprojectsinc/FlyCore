@@ -6166,7 +6166,12 @@ GUI_TIMEDONATE_ALREADYGET_LORE:
 TIMEDONATE_GET: '§aСервер §8| §fВы успешно забрали привилегию %s'
 
 GUI_LISTS_NAME: 'Меню списков'
-GUI_LISTS_FRIENDLIST_LORE:
+GUI_LISTS_FAST_COMMAND_LORE:
+- ''
+- '§7Для быстрого открытия меню,'
+- '§7используйте команду §f%s'
+- ' '
+GUI_LISTS_FRIENDSLIST_LORE:
 - '§7Просмотр списка ваших друзей,'
 - '§7а также информации об них.'
 GUI_LISTS_FRIENDLIST_INFO_LORE:
@@ -6174,11 +6179,6 @@ GUI_LISTS_FRIENDLIST_INFO_LORE:
 - '§7Информация о друзьях:'
 - '§8 • §7Всего: §a%s'
 - '§8 • §7Онлайн: §a%s'
-GUI_LISTS_FRIENDSLIST_LORE:
-- ''
-- '§7Для быстрого открытия меню,'
-- '§7используйте команду §f/f list'
-- ' '
 GUI_LISTS_FRIENDLIST_OPEN:
 - '§e▸ Открыть список друзей'
 GUI_LISTS_FRIENDLIST_NOT_FOUND:
@@ -6194,11 +6194,6 @@ GUI_LISTS_GUILDLIST_INFO_LORE:
 - '§8 • §7Всего участников: §a%s§8/§c%s'
 - '§8 • §7Онлайн: §a%s'
 - '§8 • §7Баланс: §e%s'
-GUI_LISTS_GUILDLIST2_LORE:
-- ''
-- '§7Для быстрого открытия меню,'
-- '§7используйте команду §f/g list'
-- ' '
 GUI_LISTS_GUILDLIST_OPEN:
 - '§e▸ Открыть список участников гильдии'
 GUI_LISTS_GUILDLIST_NOT_FOUND:
@@ -6213,11 +6208,6 @@ GUI_LISTS_PARTYLIST_INFO_LORE:
 - '§8 • §7Пати: %s'
 - '§8 • §7Всего участников: §a%s§8/§c%s'
 - '§8 • §7Онлайн: §a%s'
-GUI_LISTS_PARTYLIST2_LORE:
-- ''
-- '§7Для быстрого открытия меню,'
-- '§7используйте команду §f/party list'
-- ' '
 GUI_LISTS_PARTYLIST_OPEN:
 - '§e▸ Открыть список участников пати'
 GUI_LISTS_PARTYLIST_NOT_FOUND:
