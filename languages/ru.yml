@@ -2939,7 +2939,7 @@ GUI_PROFILE_THEME_LORE:
 
 GUI_PROFILE_NAME: 'Профиль'
 GUI_PROFILE_THEME: '§bВыбор темы'
-GUI_DONATE_NAME: 'Донат-рривилегии'
+GUI_DONATE_NAME: 'Донат-Привилегии'
 GUI_DONATE_NAME_TO: '%s ▸ Привилегии'
 GUI_DONATE_TITLE: 'Возможности'
 GUI_DONATE_ALL: '§bОбщие возможности'
