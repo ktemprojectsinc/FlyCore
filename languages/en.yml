@@ -5735,7 +5735,7 @@ GUI_PARTYALL_ALREADY: ' §c✗ Вы уже состоите в группе'
 GUI_PARTYALL_ALREADY_OTHER: ' §c✗ Вы уже другой в группе'
 GUI_PARTYALL_FORMAT: '§eParty %s'
 
-GUI_GUILD_NAME: 'Участники гильдии'
+GUI_GUILD_NAME: 'Guild members'
 GUI_GUILD_LORE:
 - ''
 - '§7Должность в гильдии: §e%s'
