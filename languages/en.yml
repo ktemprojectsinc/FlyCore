@@ -6200,3 +6200,6 @@ HOLO_TOP_MAIN:
 - '§7Next [LMС], previous [RMC]'
 HOLO_TOP_UPDATE: '§cBefore update: §c%s'
 HOLO_TOP_UPDATE_NOW: 'Updated!'
+
+HOLO_INFORMATION:
+- 'Information about you'
