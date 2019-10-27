@@ -6146,7 +6146,8 @@ HOLO_REWARDS:
 - '§7Click, to open'
 
 HOLO_DONATE:
-- 'Donate'
+- 'Большое обилие возможностей,'
+- 'откроется Вам, с donate-привилегиями:'
 - '§e§lGOLD §f- §a15 §fRubbles'
 - '§b§lDIAMOND §f- §a76 §fRubbles'
 - '§a§lEMERALD §f- §a129 §fRubbles'
@@ -6155,7 +6156,7 @@ HOLO_DONATE:
 - '§6§lYouTube §f- §a510 §fRubbles'
 - '§2§lJUNIOR §f- §a530 §fRubbles'
 - '§fBuy on our site:'
-- '§3www.flycore.ru'
+- '§ewww.flycore.ru'
 
 HOLO_ONLINE_UPDATER: '§fOn mode §a%s§f %s playing'
 HOLO_SELECTOR_GAME_CHANNEL: '§7Click to connect'
