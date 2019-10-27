@@ -655,8 +655,8 @@ LEVEL_NOT:
 REDIRECT_TO_SERVER: '§aТелепортирую на сервер %s'
 SERVER_QUEUE: '§aТелепортирую на сервер %s'
 
-TAB_HEADER: "§fВы играете на §a§lFLYCORE.RU"
-TAB_FOOTER: "§aРанги, Ключи, & Другое §c§lSTORE.FLYCORE.RU"
+TAB_HEADER: "§fВы играете на §a§lFLYCORE.RU\n"
+TAB_FOOTER: "\n§aРанги, Ключи, & Другое §c§lSTORE.FLYCORE.RU"
 
 REDIRECT_ERROR: '§cНевозможно найти подходящий сервер('
 HUBS_ERROR: '§cОшибка, нет доступного лобби, попробуйте повторить попытку позже'
@@ -6260,16 +6260,17 @@ HOLO_REWARDS:
 - '§7Нажмите, чтобы открыть'
 
 HOLO_DONATE:
-- 'Донат'
-- '§e§lGOLD §f- §a15 §fРублей'
-- '§b§lDIAMOND §f- §a76 §fРублей'
-- '§a§lEMERALD §f- §a129 §fРублей'
-- '§f§lGOLEM §f- §a258 §fРублей'
-- '%animation%§lENDERMAN §f- §a482 §fРублей'
-- '§6§lYouTube §f- §a510 §fРублей'
-- '§2§lJUNIOR §f- §a530 §fРублей'
-- '§fПокупка на сайте:'
-- '§3www.flycore.ru'
+- 'Большое обилие возможностей,'
+- 'откроется Вам, с донат-привилегиями:'
+- '§e§lGOLD §f- §a15 §fрублей'
+- '§b§lDIAMOND §f- §a76 §fрублей'
+- '§a§lEMERALD §f- §a129 §fрублей'
+- '§f§lGOLEM §f- §a258 §fрублей'
+- '%animation%§lENDERMAN §f- §a482 §fрублей'
+- '§6§lYouTube §f- §a510 §fрублей'
+- '§2§lJUNIOR §f- §a530 §fрублей'
+- '§fПриобрести можно на сайте:'
+- '§ewww.flycore.ru'
 
 HOLO_ONLINE_UPDATER: '§fНа режиме играет §a%s §f%s'
 HOLO_SELECTOR_GAME_CHANNEL: '§7Нажмите, чтобы подключиться'
