@@ -4213,7 +4213,7 @@ GUI_ASETTING_FIND_LORE:
 - '§cВнимание§7! Персонал со статусом %s'
 - '§7и выше, игнорирует данную настройку!'
 GUI_ASETTING_STATSVIEW: 'Статистика'
-GUI_ASETTING_STATSVIE_LORE:
+GUI_ASETTING_STATSVIEW_LORE:
 - '§7Позволяет включить или выключить'
 - '§7просмотр вашей статистики,'
 - '§7по команде §f/stats <ник>'
@@ -4255,8 +4255,8 @@ GUI_ASETTING_JOINTITLE_LORE:
 - '§7Позволяет включить или выключить'
 - '§7сообщение появляющиеся при входе'
 - '§7на сервер, по центру экрана'
-GUI_ASETTING_JOINDONATERS: 'Оповещение о входе донатера'
-GUI_ASETTING_JOINDONATERS_LORE:
+GUI_ASETTING_JOINDONATER: 'Оповещение о входе донатера'
+GUI_ASETTING_JOINDONATER_LORE:
 - '§7Позволяет включить или выключить'
 - '§7оповещение, которое пишется при входе'
 - '§7какого-либо донатера'
