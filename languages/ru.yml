@@ -655,8 +655,8 @@ LEVEL_NOT:
 REDIRECT_TO_SERVER: '§aТелепортирую на сервер %s'
 SERVER_QUEUE: '§aТелепортирую на сервер %s'
 
-TAB_HEADER: "§bВы играете на §a§lFLYCORE.RU\n"
-TAB_FOOTER: "\n§a§lРанги, Ключи, & ДРУГОЕ §c§lSTORE.FLYCORE.RU\n§bВы находитесь на сервере:§d %s"
+TAB_HEADER: "§fВы играете на §a§lFLYCORE.RU\n"
+TAB_FOOTER: "\n§aРанги, Ключи, & Другое §c§lSTORE.FLYCORE.RU\n§bВы находитесь на сервере:§d %s"
 
 REDIRECT_ERROR: '§cНевозможно найти подходящий сервер('
 HUBS_ERROR: '§cОшибка, нет доступного лобби, попробуйте повторить попытку позже'
