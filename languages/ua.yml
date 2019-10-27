@@ -6201,7 +6201,8 @@ HOLO_REWARDS:
 - '§7Натисніть, щоб відкрити'
 
 HOLO_DONATE:
-- 'Донат'
+- 'Большое обилие возможностей,'
+- 'откроется Вам, с донат-привилегиями:'
 - '§e§lGOLD §f- §a15 §fРублів'
 - '§b§lDIAMOND §f- §a76 §fРублів'
 - '§a§lEMERALD §f- §a129 §fРублів'
@@ -6210,7 +6211,7 @@ HOLO_DONATE:
 - '§6§lYouTube §f- §a510 §fРублів'
 - '§2§lJUNIOR §f- §a530 §fРублів'
 - '§fПокупка на сайті:'
-- '§3www.flycore.ru'
+- '§ewww.flycore.ru'
 
 HOLO_ONLINE_UPDATER: '§fНа режимі грає §a%s §f%s'
 HOLO_SELECTOR_GAME_CHANNEL: '§7Натисніть, щоб приєднатися'
