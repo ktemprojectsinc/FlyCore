@@ -4229,6 +4229,8 @@ GUI_ASETTING_AUTODELETE_LORE:
 - '§8Используйте shift, для добавления по секунде'
 - '§e▸ ЛКМ, чтобы добавить минуту'
 - '§e▸ ПКМ, чтобы удалить минуту'
+GUI_ASETTING_AUTODELETE_RESET_LORE:
+- '§e▸ Нажмите колесом мыши, чтобы восстановить'
 GUI_ASETTING_HIDELISTS: 'Скрытие в списках'
 GUI_ASETTING_HIDELISTS_LORE:
 - '§7Позволяет включить или выключить'
