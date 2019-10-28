@@ -1679,10 +1679,9 @@ GUILD_COLOR_NAME_DEFAULT: '§7Игрок'
 GUILD_COLOR_NAME_MODERATOR: '§9Модератор'
 GUILD_COLOR_NAME_DEPUTY: '§4Заместитель'
 GUILD_COLOR_NAME_OWNER: '§cВладелец'
-GUILD_CHAT_NAME_MEMBER: ''
-GUILD_CHAT_NAME_MODERATOR: '§7(Модератор) '
-GUILD_CHAT_NAME_DEPUTY: '§7(Заместитель) '
-GUILD_CHAT_NAME_OWNER: '§7(Владелец) '
+GUILD_CHAT_NAME_MODERATOR: '§7(Модератор)'
+GUILD_CHAT_NAME_DEPUTY: '§7(Заместитель)'
+GUILD_CHAT_NAME_OWNER: '§7(Владелец)'
 
 GUILD_PARTY: '§aГильдия §8| §fВы пригласили всех онлайн участников в группу гильдии'
 
