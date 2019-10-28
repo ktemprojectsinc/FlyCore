@@ -397,9 +397,9 @@ PLAYER_NO_KEYS:
 PLAYER_GADGETS_GADGET_NO_GROUP: '§cFor buying this gadget, your need privilege %s§c or higher'
 PLAYER_COSMETIC_NO_LEVEL: '§cFor activate, your need level §d%s§c or higher'
 
-PLAYER_GUILDSHOP_NO_MONEY: "§aGuilds §8| §fThere is no enough coins on the guild's bank to buy this upgrade"
-PLAYER_GUILDSHOP_ALREADY: '§aGuilds §8| §fThis updrage is already bought'
-PLAYER_GUILD_BUY: '§aGuilds §8| §fYou bought %s'
+PLAYER_GUILDSHOP_NO_MONEY: "§aGuild §8| §fThere is no enough coins on the guild's bank to buy this upgrade"
+PLAYER_GUILDSHOP_ALREADY: '§aGuild §8| §fThis updrage is already bought'
+PLAYER_GUILD_BUY: '§aGuild §8| §fYou bought %s'
 PLAYER_GUILD_BUY_MOTD:
 - ''
 - '                §8-| §a§lGUILDS §8|-'
@@ -419,7 +419,7 @@ PLAYER_GUILD_BUY_TAG:
 - ''
 
 PLAYER_GUILD_YOU_KICKED:
-- '§aGuilds §8| §fYou got kicked from guild §e%s'
+- '§aGuild §8| §fYou got kicked from guild §e%s'
 - '§c • §f%s: §a%s'
 - '§c • §fReason: §a%s'
 - ''
@@ -689,10 +689,10 @@ JOIN_RECOMMEND_ADDMAIL: "§bBind mail\n\n §e▸ Click here to link your email"
 JOIN_RECOMMEND_CREATEAPI: "§bCreate api-key\n\n §e▸ Click here to create an api key"
 JOIN_RECOMMEND_CHANGEAPI: "§bTo change the api-key\n\n §e▸ Click here to change your api key"
 
-GUILD_JOIN_CHAT: '§2Guild §8| %s §f%s to server'
+GUILD_JOIN_CHAT: '§2Guilds §8| %s §f%s to server'
 GUILD_JOIN_HOVER: "§fClick here,\n§fto write to the player %s"
-GUILD_JOIN_ACTIONBAR: '§2Guild §8| %s §f%s to server'
-GUILD_JOIN_ONLINE: '§aGuilds §8| §fOnline: §a%s§f %s'
+GUILD_JOIN_ACTIONBAR: '§2Guilds §8| %s §f%s to server'
+GUILD_JOIN_ONLINE: '§2Guilds §8| §fOnline: §a%s§f %s'
 
 FRIEND_JOIN_CHAT: '§aFriends §8| §f%s %s §f%s to game §7(click here)'
 FRIEND_JOIN_HOVER: "§fClick here,\n§fto send message %s %s"
@@ -701,7 +701,7 @@ FRIEND_JOIN_ONLINE: '§aFriends §8| §fOnline §a%s§f %s'
 
 FRIEND_JOIN_REQUESTS: '§aFriends §8| §fYou have §e%s §frejected friend requests'
 PARTY_JOIN_REQUESTS: '§aParty §8| §fYou have §e%s §frejected applications to the party'
-GUILD_JOIN_REQUESTS: '§aGuilds §8| §fYou have §e%s §fmissed filings in the Guild'
+GUILD_JOIN_REQUESTS: '§2Guilds §8| §fYou have §e%s §fmissed filings in the Guild'
 MAIL_JOIN_REQUESTS: '§aMail §8| §fYou have §e%s §funread emails §7(Click here)'
 MAIL_JOIN_HOVER: "§fClick here,\n§fto open mail list"
 
@@ -1618,7 +1618,7 @@ GUILD_NO: "§cYou aren't in the guild"
 GUILD_MUTE: '§cYou guild chat banned by %s §cfor %s for reason: §e%s'
 GUILD_CHAT_FORMAT: '/gchat <message>'
 GUILD_OFFLINE: '§cAll guild members are offline'
-GUILD_CHAT: '§2Guild chat §8| %s §8» §7%s'
+GUILD_CHAT: '§2Guilds chat §8| %s §8» §7%s'
 
 GUILD_COMMAND_HELP:
 - '§7/g create <name> §f- create guild (create guild price - §a15,000§f coins)'
@@ -1693,66 +1693,66 @@ GUILD_CHAT_NAME_MODER: '§7(Moderator) '
 GUILD_CHAT_NAME_DEPUTY: '§7(Deputy) '
 GUILD_CHAT_NAME_OWNER: '§7(Owner) '
 
-GUILD_PARTY: '§aGuilds §8| §fYou invited all online members to the guild party'
+GUILD_PARTY: '§aGuild §8| §fYou invited all online members to the guild party'
 
 GUILD_CREATE_FORMAT: '/guild create <name>'
-GUILD_CREATE: '§aGuilds §8| §fYou created guild §a%s'
+GUILD_CREATE: '§aGuild §8| §fYou created guild §a%s'
 GUILD_CREATE_NO_MONEY: '§cYou lack %s coins to create the guild'
 GUILD_CREATE_ALREADY: '§cGuild with name %s is already exists'
 GUILD_CREATE_NO_PERMISSION: '§cCreate guilds may only players with group %s§c and higher'
 
-GUILD_DELETE: '§aGuilds §8| §fYou removed guild §a%s'
-GUILD_DELETE_ALERT: '§2Guild §8| %s §fremoved guild'
+GUILD_DELETE: '§aGuild §8| §fYou removed guild §a%s'
+GUILD_DELETE_ALERT: '§2Guilds §8| %s §fremoved guild'
 
 GUILD_INVITE_FORMAT: '/guild invite <player name>'
-GUILD_INVITE: '§aGuilds §8| §fTo player %s§f was sent invition to the guild'
+GUILD_INVITE: '§aGuild §8| §fTo player %s§f was sent invition to the guild'
 GUILD_INVITE_ME: "§cError, You can't invite yourself"
 GUILD_INVITE_FRIEND: '§cThe player forbad to send him(her) guild invitions'
 GUILD_INVITE_ALREADY: '§cPlayer %s already has invition to the guild'
 GUILD_INVITE_LIMIT: '§cGuild limit exceeded, limit - %s'
 
 GUILD_ACCEPT_FORMAT: '/guild accept <player name>'
-GUILD_ACCEPT_ALERT: '§2Guild §8| %s§f joined the guild'
-GUILD_ACCEPT: '§aGuilds §8| §fYou accepted invition to the guild §a%s'
+GUILD_ACCEPT_ALERT: '§2Guilds §8| %s§f joined the guild'
+GUILD_ACCEPT: '§aGuild §8| §fYou accepted invition to the guild §a%s'
 
 GUILD_REJECT_FORMAT: '/guild reject <player name>'
-GUILD_REJECT_ALERT: '§2Guild §8| %s§7 rejected your guild invition'
-GUILD_REJECT: '§aGuilds §8| §fYou rejected invition to the guild §a%s'
+GUILD_REJECT_ALERT: '§2Guilds §8| %s§7 rejected your guild invition'
+GUILD_REJECT: '§aGuild §8| §fYou rejected invition to the guild §a%s'
 
 GUILD_TAG_FORMAT: '/guild tag <tag>'
-GUILD_TAG_LIMIT: "§aGuilds §8| §fGuild tag doesn't have to be more than §c%s§f characters"
-GUILD_TAG_ALERT: '§2Guild §8| %s§7 set guild tag -> §e%s'
-GUILD_TAG: '§aGuilds §8| §fGuild tag set to §a%s'
-GUILD_TAG_RESET_ALERT: '§2Гильдии §8| %s§7 установил удалил тег гильдии'
-GUILD_TAG_RESET: '§aГильдия §8| §fТег гильдии удален'
+GUILD_TAG_LIMIT: "§aGuild §8| §fGuild tag doesn't have to be more than §c%s§f characters"
+GUILD_TAG_ALERT: '§2Guilds §8| %s§7 set guild tag -> §e%s'
+GUILD_TAG: '§aGuild §8| §fGuild tag set to §a%s'
+GUILD_TAG_RESET_ALERT: '§2Guilds §8| %s§7 удалил тег гильдии'
+GUILD_TAG_RESET: '§aGuild §8| §fТег гильдии удален'
 GUILD_TAG_NO_MONEY: '§cGuild lacks %s coins to change tag'
 GUILD_TAG_NO_BUY: "§cYou haven't got guild tag, buy it in /guild shop"
 
 GUILD_MOTD_COMMAND_HELP:
 - '§7/g motd info §f- view motd of guild'
 - '§7/g motd set <greeting> §f- set motd of guild'
-GUILD_MOTD_INFO: '§aGuilds §8| §fGuild greeting:'
+GUILD_MOTD_INFO: '§aGuild §8| §fGuild greeting:'
 GUILD_MOTD_SET_FORMAT: '/guild motd set <greeting>'
-GUILD_MOTD_SET_ALERT: '§2Guild §8| %s§7 updated the guild greeting to -> §d%s'
-GUILD_MOTD_SET: '§aGuilds §8| §fGuild greeting changed to §a%s'
+GUILD_MOTD_SET_ALERT: '§2Guilds §8| %s§7 updated the guild greeting to -> §d%s'
+GUILD_MOTD_SET: '§aGuild §8| §fGuild greeting changed to §a%s'
 
 GUILD_LEADER_FORMAT: '/guild leader <player name>'
 GUILD_LEADER_ME: "§cYou can't transfer leadering to yourself"
-GUILD_LEADER_ALERT: '§2Guild §8| %s§7 transfered leadering to player %s'
-GUILD_SETLEADER: '§aGuilds §8| §fYou transfered leadering to player %s'
+GUILD_LEADER_ALERT: '§2Guilds §8| %s§7 transfered leadering to player %s'
+GUILD_SETLEADER: '§aGuild §8| §fYou transfered leadering to player %s'
 
 GUILD_RANK_FORMAT: '/guild rank <player name> <rank>'
 GUILD_RANK_ME: "§cYou can't change rank yourself"
-GUILD_RANK_ALERT: '§2Guild §8| %s§7 lowered %s §7to %s'
-GUILD_SETRANK_ALERT: '§2Guild §8| %s§7 set rank %s§7 to player %s'
-GUILD_RANK: '§aGuilds §8| §fYou lowered %s§f to §7%s'
-GUILD_SETRANK: '§aGuilds §8| §fYou assign new %s§f guild %s'
+GUILD_RANK_ALERT: '§2Guilds §8| %s§7 lowered %s §7to %s'
+GUILD_SETRANK_ALERT: '§2Guilds §8| %s§7 set rank %s§7 to player %s'
+GUILD_RANK: '§aGuild §8| §fYou lowered %s§f to §7%s'
+GUILD_SETRANK: '§aGuild §8| §fYou assign new %s§f guild %s'
 GUILD_RANK_INVALID: '§cYou specified wrong rank Available ranks: §fDefault, Moderator, Deputy'
 GUILD_RANK_NO_ACCESS: "§cYou can't manage ranks this player"
 
 GUILD_DONATE_FORMAT: '/guild donate <amount>'
-GUILD_DONATE_ALERT: '§2Guild §8| %s§7 invested to the guild bank §a%s §7%s'
-GUILD_DONATE: '§aGuilds §8| §fYou invested to the guild bank §a%s §f%s Comission by paying made up §c%s §f%s (§e%s§f)'
+GUILD_DONATE_ALERT: '§2Guilds §8| %s§7 invested to the guild bank §a%s §7%s'
+GUILD_DONATE: '§aGuild §8| §fYou invested to the guild bank §a%s §f%s Comission by paying made up §c%s §f%s (§e%s§f)'
 GUILD_DONATE_DAILYLIMIT: '§cThe amount you want to invest exceeds the guild 12 hours limit, limit - %s'
 GUILD_DONATE_LIMIT: '§c12 Hours guild limit exceeded, limit - %s'
 GUILD_DONATE_REMOVELIMIT: '§cZeroing limit after: %s'
@@ -1760,32 +1760,32 @@ GUILD_DONATE_NO_MONEY: '§cThe amount you want to invest exceeds your balance'
 GUILD_DONATE_AVAILABLE: '§cMay invest %s'
 
 GUILD_LEAVE_OWNER: '§cYou are guild leader, to remove guild use /guild delete, or transfer leader /g leader'
-GUILD_LEAVE_ALERT: '§2Guild §8| %s§7 left the guild'
-GUILD_LEAVE: '§aGuilds §8| §fYou left the guild %s'
+GUILD_LEAVE_ALERT: '§2Guilds §8| %s§7 left the guild'
+GUILD_LEAVE: '§aGuild §8| §fYou left the guild §a%s'
 
 GUILD_DEPOSIT_FORMAT: '/guild deposit <player name> <amount>'
-GUILD_DEPOSIT_ALERT: '§2Guild §8| %s§7 withdrawed §a%s §7coins from guild bank to %s'
-GUILD_DEPOSIT_MSG: '§aGuilds §8| §fYour balance replenished from guild bank by %s§f on §a%s§f %s'
-GUILD_DEPOSIT: '§aGuilds §8| §7You withdrawed on player balance %s §a%s §f%s Comission by paying made up §c%s §f%s (§e%s§f)'
+GUILD_DEPOSIT_ALERT: '§2Guilds §8| %s§7 withdrawed §a%s §7coins from guild bank to %s'
+GUILD_DEPOSIT_MSG: '§aGuild §8| §fYour balance replenished from guild bank by %s§f on §a%s§f %s'
+GUILD_DEPOSIT: '§aGuild §8| §7You withdrawed on player balance %s §a%s §f%s Comission by paying made up §c%s §f%s (§e%s§f)'
 GUILD_DEPOSIT_NO_MONEY: '§cThe amount you want to withdraw, exceeds guild balance'
 
 GUILD_KICK_FORMAT: '/guild kick <player name> <reason>'
-GUILD_KICK_ALERT: '§2Guild §8| %s§7 kicked the player %s§7 for reason: §e%s'
-GUILD_KICK: '§aGuilds §8| §fYou kicked the player %s§f for reason: §e%s'
+GUILD_KICK_ALERT: '§2Guilds §8| %s§7 kicked the player %s§7 for reason: §e%s'
+GUILD_KICK: '§aGuild §8| §fYou kicked the player %s§f for reason: §e%s'
 GUILD_KICK_EXEMPT: "§cYou can't kick this player"
 
 GUILD_MUTE_FORMAT: '/guild mute <player name> <time> <reason>'
-GUILD_MUTE_ALERT: '§2Guild §8| %s§7 muted guild chat for the player %s§7 on §a%s§7 for reason: §a%s'
-GUILD_NEWMUTE: '§aGuilds §8| §fYou muted guild chat for the player %s§f on §a%s§f for reason: §a%s'
+GUILD_MUTE_ALERT: '§2Guilds §8| %s§7 muted guild chat for the player %s§7 on §a%s§7 for reason: §a%s'
+GUILD_NEWMUTE: '§aGuild §8| §fYou muted guild chat for the player %s§f on §a%s§f for reason: §a%s'
 GUILD_MUTE_ME: "§cYou can't mute yourself"
 GUILD_MUTE_ALREADY: '§cPlayer %s has got already muted guild chat'
 GUILD_MUTE_MSG: '§c%s §cmuted chat guild for You %s on %s'
 
 GUILD_UNMUTE_FORMAT: '/guild unmute <player name>'
 GUILD_UNMUTE_ALREADY: "§cPlayer %s hasn't got guild chat mute"
-GUILD_UNMUTE_ALERT: '§2Guild §8| %s§f unmuted guild chat for the player %s'
+GUILD_UNMUTE_ALERT: '§2Guilds §8| %s§f unmuted guild chat for the player %s'
 GUILD_UNMUTE_MSG: '§aYour guild chat has been unmuted'
-GUILD_UNMUTE: '§aGuilds §8| §fYou unmuted guild chat for the player %s'
+GUILD_UNMUTE: '§aGuild §8| §fYou unmuted guild chat for the player %s'
 
 GUILD_STATS_MOTD_BUY: '§aBought'
 GUILD_STATS_MOTD_NO_BUY: "§cDidn't buy"
@@ -1793,7 +1793,7 @@ GUILD_STATS_TAG_BUY: '§aBought'
 GUILD_STATS_TAG_NO_BUY: "§cDidn't buy"
 GUILD_STATS_LIMITED: ' §c• §fZeroing limit after: §e%s'
 GUILD_STATS:
-- '§aGuilds §8| §fGuild stats §a%s §8| §e%s§f:'
+- '§aGuild §8| §fGuild stats §a%s §8| §e%s§f:'
 - '§c• §fGuild balance: §a%s'
 - '§c• §fEarned in a day: §a%s'
 - '§c• §f12 Hours limit: §c%s'
@@ -1807,28 +1807,28 @@ GUILD_STATS:
 - '§c• §fDeputies: §a%s'
 
 GUILD_HOME_NO: "§cYou haven't got guild home"
-GUILD_HOME: '§aGuilds §8| §fYou were teleported to the guild home'
+GUILD_HOME: '§aGuild §8| §fYou were teleported to the guild home'
 GUILD_HOME_DELAY: '§cТелепортироватся в дом гильдии можно 1 раз в 5 минут, осталось %s'
 GUILD_HOME_CANCEL: '§cYou moved, teleportation canceled'
 GUILD_HOME_START: 'Teleportation started, you will be teleported in §a5§f seconds'
 GUILD_HOME_ALREADY: '§cTeleportation is already running'
 
-GUILD_DELHOME: '§aGuilds §8| §fGuild home removed'
+GUILD_DELHOME: '§aGuild §8| §fGuild home removed'
 GUILD_DELHOME_ALREADY: "§cGuild hasn't got guild home, сreate it /g sethome"
-GUILD_DELHOME_ALERT: '§2Guild §8| %s§7 deleted guild home'
+GUILD_DELHOME_ALERT: '§2Guilds §8| %s§7 deleted guild home'
 
-GUILD_SETHOME: '§aGuilds §8| §fGuild home set'
-GUILD_SETHOME_ALERT: '§2Guild §8| %s§7 set to new guild home'
+GUILD_SETHOME: '§aGuild §8| §fGuild home set'
+GUILD_SETHOME_ALERT: '§2Guilds §8| %s§7 set to new guild home'
 GUILD_SETHOME_INVALID: '§cSet guild home may on thr servers: Anarchy, Creative, SkyBlock'
 
 GUILD_INFO_FORMAT: '/guild info <player name>'
 GUILD_INFO:
-- '§aGuilds §8| §fPlayer stats %s'
+- '§aGuild §8| §fPlayer stats %s'
 - '§c• §fRank: §a%s'
 - '§c• §fIn guild from: §a%s'
 GUILD_DONATEINFO_FORMAT: '/guild donateinfo <player name>'
 GUILD_DONATEINFO:
-- '§aGuilds §8| §fInformation about donated coins from player %s'
+- '§aGuild §8| §fInformation about donated coins from player %s'
 - '§c• §fDonated: §a%s'
 - '§c• §fGot from guild: §c%s'
 
