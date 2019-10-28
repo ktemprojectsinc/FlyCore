@@ -402,7 +402,7 @@ PLAYER_GUILDSHOP_ALREADY: '§aGuild §8| §fThis updrage is already bought'
 PLAYER_GUILD_BUY: '§aGuild §8| §fYou bought %s'
 PLAYER_GUILD_BUY_MOTD:
 - ''
-- '                §8-| §a§lGUILDS §8|-'
+- '                §8-| §a§lGUILD §8|-'
 - " §fCongratulations! You bought upgrade for §eguild's welcome"
 - ' §fFor setting text on join use next commands:'
 - " §7/guild motd set <text> §f- change guild's welcome"
@@ -411,7 +411,7 @@ PLAYER_GUILD_BUY_MOTD:
 - ''
 PLAYER_GUILD_BUY_TAG:
 - ''
-- '                §8-| §a§lGUILDS §8|-'
+- '                §8-| §a§lGUILD §8|-'
 - " §fCongratulations! You bought upgrade for §eguild's tag"
 - ' §fNow You can set §7suffix§f, that will be displayed'
 - ' §fafter nickname of each member of Your guild'
