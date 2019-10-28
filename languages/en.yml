@@ -1688,10 +1688,9 @@ GUILD_COLOR_NAME_DEFAULT: '§7Member'
 GUILD_COLOR_NAME_MODERATOR: '§9Moderator'
 GUILD_COLOR_NAME_DEPUTY: '§4Deputy'
 GUILD_COLOR_NAME_OWNER: '§cOwner'
-GUILD_CHAT_NAME_MEMBER: ''
-GUILD_CHAT_NAME_MODER: '§7(Moderator) '
-GUILD_CHAT_NAME_DEPUTY: '§7(Deputy) '
-GUILD_CHAT_NAME_OWNER: '§7(Owner) '
+GUILD_CHAT_NAME_MODER: '§7(Moderator)'
+GUILD_CHAT_NAME_DEPUTY: '§7(Deputy)'
+GUILD_CHAT_NAME_OWNER: '§7(Owner)'
 
 GUILD_PARTY: '§aGuild §8| §fYou invited all online members to the guild party'
 
