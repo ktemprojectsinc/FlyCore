@@ -21,6 +21,7 @@ SLOT_EMPTY: '§cEmpty slot'
 BANINFO_BY_ANOTHER: '§7(By request %s§7)'
 
 TOP_POSITION: '§e%s Place'
+ALL: 'ALL TIME'
 JANUARY: 'January'
 FEBRUARY: 'February'
 MARCH: 'March'
@@ -153,6 +154,12 @@ PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
 #§a✔ Соединение восстановлено §a✔
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
 #§fКоманды и переход по серверам снова доступен
+
+KILLS:
+- 'kill'
+- ''
+- ''
+- 's'
 
 SECONDS: 
 - 'second'
@@ -6214,7 +6221,7 @@ HOLO_TOP_MONTHLY:
 TOP_MONEY_HOLO:
 - '§a§lTop of money players'
 - '§fTop players by number'
-- '§fearned currency'
+- '§fearned currency for §e%s'
 TOP_LEVEL_HOLO:
 - '§a§lTop of level players'
 - '§fTop players by'
@@ -6231,6 +6238,14 @@ TOP_KEYS_HOLO:
 - '§a§lTop of keys players'
 - '§fTop players by number'
 - '§fcollected key'
+TOP_KILLS_HOLO:
+- '§a§lTop of kills players'
+- '§fTop players by number'
+- '§fkilled player for §e%s'
+TOP_ONLINE_HOLO:
+- '§a§lTop of time players'
+- '§fTop players by number'
+- '§fplayed time'
 HOLO_TOP_MAIN:
 - '§7Click to view another'
 - '§7Next [LMС], previous [RMC]'
@@ -6239,3 +6254,13 @@ HOLO_TOP_UPDATE_NOW: 'Updated!'
 
 HOLO_INFORMATION:
 - 'Information about you'
+
+HOLO_MONTHLY_TOP_INFO:
+- '§a§lRewards of top'
+- '§fTake §b1§f,§b2§f,§b3§f,§b4§f,§b5§f places'
+- '§fon top for month, to get:'
+- '§6❶ place§f - §e70§f gold'
+- '§6❷ place§f - §e60§f gold'
+- '§6❸ place§f - §e50§f gold'
+- '§6❹ place§f - §e40§f gold'
+- '§6❺ place§f - §e30§f gold'
