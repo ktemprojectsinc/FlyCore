@@ -135,6 +135,12 @@ PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
 #§fКоманды и переход по серверам снова доступен
 
+KILLS:
+- 'убийств'
+- 'о'
+- 'а'
+- ''
+
 SECONDS:
 - 'секунд'
 - 'у'
