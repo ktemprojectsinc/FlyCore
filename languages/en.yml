@@ -2846,6 +2846,9 @@ GUI_PROFILE_COSMETIC_LORE:
 - '§fПредсмертный wheezt§7, §fArrow effect flying§7,'
 - '§fKilling effects§7, §fWin effects§7 etc.'
 - ''
+- '§7This current moment you selected:'
+GUI_PROFILE_COSMETIC2_LORE:
+- ''
 - '§cWARNING! All effects will'
 - '§cwork on all areas and games!'
 - ''
