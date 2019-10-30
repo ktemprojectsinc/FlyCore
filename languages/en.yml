@@ -2843,8 +2843,6 @@ GUI_PROFILE_LISTS_LORE:
 GUI_PROFILE_COSMETIC_LORE:
 - '§7Allows to buy and activate'
 - '§7different cosmetic improvements'
-- '§fПредсмертный wheezt§7, §fArrow effect flying§7,'
-- '§fKilling effects§7, §fWin effects§7 etc.'
 - ''
 - '§7This current moment you selected:'
 GUI_PROFILE_COSMETIC2_LORE:
