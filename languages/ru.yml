@@ -5380,6 +5380,9 @@ GUI_GADGETS_HAT_66_LORE:
 GUI_GADGETS_HAT_67: 'Скелет'
 GUI_GADGETS_HAT_67_LORE:
 - '§7Это как дежавю, только дважды!'
+GUI_GADGETS_HAT_68: 'Тыкво-шляпа'
+GUI_GADGETS_HAT_68_LORE:
+- '§7Для тех кто отмечает §5Halloween§f с нами :)'
 GUI_GADGETS_BANNER_1: 'Белый баннер'
 GUI_GADGETS_BANNER_1_LORE:
 - '§7У Вас будет белый баннер'
@@ -5444,6 +5447,9 @@ GUI_GADGETS_SPIRIT_4_LORE:
 GUI_GADGETS_SPIRIT_5: 'Мини-дух'
 GUI_GADGETS_SPIRIT_5_LORE:
 - '§7Ваша маленькая копия'
+GUI_GADGETS_SPIRIT_6: 'Тыква-дух'
+GUI_GADGETS_SPIRIT_6_LORE:
+- '§7Отличное дополнение к Тыкво-шляпе'
 
 GUI_PREFIX_NAME: 'Смена префикса'
 GUI_PREFIX_SELECTED_LORE:
