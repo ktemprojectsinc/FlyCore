@@ -4360,16 +4360,13 @@ GUI_DONATEMENU_FASTMESSAGES_LORE:
 - '§7команду §c/fm§7 или §c/fastmessage'
 - ''
 - '§7Доступно для %s§7 и выше'
-- ''
-- '§e▸ Нажмите, чтобы открыть меню'
 GUI_DONATEMENU_PREFIX_LORE:
 - '§7Позволяет заменить,'
 - '§7цвет вашего префикса'
 - ''
 - '§7Текущий цвет: %s'
 - '§7Текущий префикс: %s'
-- ''
-- '§e▸ Нажмите, чтобы открыть меню'
+- '§7Открыто: §a%s§7/§a%s §d%s'
 GUI_DONATEMENU_SMILES_LORE:
 - '§7Удиви своих друзей,'
 - '§7используя эти смайлики.'
@@ -4378,18 +4375,14 @@ GUI_DONATEMENU_SMILES_LORE:
 - '§7команду §c/sm§7 или §c/smiles'
 - ''
 - '§7Доступно для %s§7 и выше'
-- ''
-- '§e▸ Нажмите, чтобы открыть меню'
 
-GUI_DONATEMENU_JOINMESSAGES_LORE1:
+GUI_DONATEMENU_JOINMESSAGES_LORE:
 - '§7Установить кастомное сообщения'
 - '§7вашего входа на сервер'
-GUI_DONATEMENU_JOINMESSAGES_UNAVAILABLE_LORE:
-- '§7Доступно для %s§7 и выше'
-GUI_DONATEMENU_JOINMESSAGES_AVAILABLE_LORE:
+- ''
 - '§7Текущее сообщение: %s'
 - '§7Открыто: §a%s§7/§a%s §d%s'
-GUI_DONATEMENU_JOINMESSAGES_LORE2:
+GUI_DONATEMENU_OPEN_LORE:
 - '§e▸ Нажмите, чтобы открыть меню'
 
 GUI_SMILES_NAME: 'Смайлы'
