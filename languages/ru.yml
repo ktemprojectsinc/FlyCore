@@ -5457,12 +5457,8 @@ GUI_PREFIX_SELECTED_LORE:
 - '§aПрефикс выбран'
 GUI_PREFIX_SELECT_LORE:
 - '§7Сменить префикс на: %s'
-GUI_PREFIX_SELECT:
-- ''
-- '§e▸ Нажмите, чтобы установить префикс'
-GUI_PREFIX_UNAVAILABLE:
-- ''
-- '§c✗ Данный префикс Вам недоступен'
+GUI_PREFIX_SELECT: '§e▸ Нажмите, чтобы установить префикс'
+GUI_PREFIX_UNAVAILABLE: '§c✗ Данный префикс Вам недоступен'
 
 COLOR_ERROR: 'Неизвестно'
 PREFIX_NOT_SELECT: '§cПрефикс не выбран'
