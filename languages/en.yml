@@ -746,7 +746,7 @@ ITEM_DELAY_LORE:
  - ' §e▸ Click, to %s delay'
 ITEM_TRACES_NAME: '§eСледы'
 ITEM_TRACES_LORE:
- - '§7Позволяет вклюить или выключить'
+ - '§7Allows you to enable or disable'
  - '§7Следы после вашего хождения'
  - '§7на всех режимах'
  - ''
