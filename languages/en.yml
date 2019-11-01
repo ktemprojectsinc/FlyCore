@@ -4149,15 +4149,12 @@ GUI_DONATEMENU_FASTMESSAGES_LORE:
 - '§7command §c/fm §7or §c/fastmessage'
 - ''
 - '§7Only available for %s§7 or higher'
-- ''
-- '§e▸ Tap to open the menu'
 GUI_DONATEMENU_PREFIX_LORE:
 - '§7Changing color of the prefix'
 - ''
 - '§7Current color: %s'
 - '§7Current prefix: %s'
-- ''
-- '§e▸ Tap to open the menu'
+- '§7Open: §a%s§7/§a%s §d%s'
 GUI_DONATEMENU_SMILES_LORE:
 - '§7Surprise your friends,'
 - '§7using these smiles.'
@@ -4166,17 +4163,15 @@ GUI_DONATEMENU_SMILES_LORE:
 - '§7command §c/sm§7 or §c/smiles'
 - ''
 - '§7Only available for %s§7 or higher'
-- ''
-- '§e▸ Tap to open the menu'
 GUI_DONATEMENU_JOINMESSAGES_LORE1:
 - '§7Установить кастомное сообщения'
 - '§7вашего входа на сервер'
-GUI_DONATEMENU_JOINMESSAGES_UNAVAILABLE_LORE:
+- ''
 - '§7Only available for %s§7 or higher'
-GUI_DONATEMENU_JOINMESSAGES_AVAILABLE_LORE:
+- ''
 - '§7Current message: %s'
 - '§7Open: §a%s§7/§a%s §d%s'
-GUI_DONATEMENU_JOINMESSAGES_LORE2:
+GUI_DONATEMENU_OPEN_LORE:
 - '§e▸ Tap to open the menu'
 GUI_DONATEMENU_NAME: 'Donate menu'
 GUI_SMILES_NAME: 'Smiles'
