@@ -368,7 +368,7 @@ HOVER_MESSAGE_CHAT:
 - '§fНажмите сюда, чтобы написать'
 - '§fигроку %s§f в лс'
 
-PLAYER_NO_USE_LEVEL: '§cError, чтобы использовать это у вас должен быть %s уровень или выше!'
+PLAYER_NO_USE_LEVEL: '§cОшибка, чтобы использовать это у вас должен быть уровень не ниже %s или привилегия %s§c!'
 
 COINS_ADD: '§6+%s'
 KEY_ADD: '§d+%s'
@@ -401,7 +401,7 @@ PLAYER_NO_KEYS:
 - '§aServer §8| §fOn your account недостаточно §akeys§f. Приобрести ключи можно на сайте §cflycore.ru'
 - '§r'
 
-PLAYER_GADGETS_GADGET_NO_GROUP: '§cFor buying this gadget, your need privilege %s§c or higher'
+PLAYER_GADGETS_GADGET_NO_GROUP: '§cFor buying this item, your need privilege %s§c or higher'
 PLAYER_COSMETIC_NO_LEVEL: '§cFor activate, your need level §d%s§c or higher'
 
 PLAYER_GUILDSHOP_NO_MONEY: "§aGuild §8| §fThere is no enough coins on the guild's bank to buy this upgrade"
@@ -5203,10 +5203,6 @@ GUI_PREFIX_SELECTED_LORE:
 - '§aPrefix selected'
 GUI_PREFIX_SELECT_LORE:
 - '§7Change prefix to: %s'
-- ''
-- '§8• §7Price §b%s§7 %s'
-- '§8• §7Free for %s§7 or higher'
-- ''
 GUI_PREFIX_SELECT: '§e▸ Click, to set prefix'
 GUI_PREFIX_UNAVAILABLE: '§c✗ This prefix you no available'
 PREFIX_NOT_SELECT: '§cPrefix not selected'
