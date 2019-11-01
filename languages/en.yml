@@ -4163,7 +4163,7 @@ GUI_DONATEMENU_SMILES_LORE:
 - '§7command §c/sm§7 or §c/smiles'
 - ''
 - '§7Only available for %s§7 or higher'
-GUI_DONATEMENU_JOINMESSAGES_LORE1:
+GUI_DONATEMENU_JOINMESSAGES_LORE:
 - '§7Установить кастомное сообщения'
 - '§7вашего входа на сервер'
 - ''
