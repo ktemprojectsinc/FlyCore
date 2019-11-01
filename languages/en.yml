@@ -4167,8 +4167,6 @@ GUI_DONATEMENU_JOINMESSAGES_LORE:
 - '§7Установить кастомное сообщения'
 - '§7вашего входа на сервер'
 - ''
-- '§7Only available for %s§7 or higher'
-- ''
 - '§7Current message: %s'
 - '§7Open: §a%s§7/§a%s §d%s'
 GUI_DONATEMENU_OPEN_LORE:
