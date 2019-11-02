@@ -623,6 +623,23 @@ SITESHOP_KIT_MEGA: 'Mega набор'
 SITESHOP_LUCKYCHEST: 'Обычные ключи'
 SITESHOP_DONATKEY: 'Донатный ключ'
 
+SITE_SHOP_ITEM_ALERT: '§aМагазин §8| §fВсе предметы успешно выданы!'
+SITE_SHOP_ITEM_EMPTY_LORE:
+- '§7У вас нет доступных предметов'
+- '§7Покупка на сайте §dflycore.ru'
+SITE_SHOP_ITEM_LORE_1:
+- '§7Получить следующие предметы:'
+SITE_SHOP_ITEM_LORE_2:
+- ' '
+- '§cВНИМАНИЕ! У вас должно быть %s'
+- '§cсвободных слотов в вашем инвентаре!'
+- ' '
+SITE_SHOP_ITEM_LORE_3: '§e▸ Нажмите, чтобы получить'
+SITE_SHOP_ITEM_LORE_4:
+- '§7Цена: §e%s §7%s'
+- ''
+- '§e▸ Нажмите, чтобы купить'
+
 PERSONALUP_CONFIRM: '§cПодтвердите свой ключ /personalup <ключ>'
 
 REWARDS_1: '§fВы получили §b%s§f %s:'
