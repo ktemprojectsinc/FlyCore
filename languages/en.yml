@@ -2156,8 +2156,21 @@ TIME_TO: '§aServer §8| §fPlayer %s§f played - §a%s§f time of server'
 
 MONEY_AND_GOLDS: '§aBalance §8| §fYou have §a%s§f %s, §e%s§f %s and §b%s§f %s'
 
-BUY_DONATE_BROADCAST: '\n§e§l§nFlyCore§7 - §d§lDonate\n§fCongratulations to player §c%s§f,\n§fhe just bought privilege %s \n§fon online-shop §dflycore.ru §7(click to link)\n'
-BUY_BROADCAST: '\n§e§l§nFlyCore§7 - §d§lDonate\n§fCongratulations to player §c%s§f,\n§fhe just bought %s \n§fon online-shop §dflycore.ru §7(click to link)\n'
+
+BUY_DONATE_BROADCAST:
+- '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '§c§lВНИМАНИЕ! §fУ нас пополнение на %s§f!'
+- '§fСпасибо %s§f за покупку!'
+- '§fХотите тоже? Заходите на §b§nstore.flycore.ru §7[click]'
+- '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+BUY_BROADCAST:
+- '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+- '§c§lВНИМАНИЕ! §fПоздравляем игрока %s§f!'
+- '§fСпасибо ему за покупку %s'
+- '§fХотите тоже? Заходите на §b§nstore.flycore.ru §7[click]'
+- '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
+#BUY_DONATE_BROADCAST: '\n§e§l§nFlyCore§7 - §d§lDonate\n§fCongratulations to player §c%s§f,\n§fhe just bought privilege %s \n§fon online-shop §dflycore.ru §7(click to link)\n'
+#BUY_BROADCAST: '\n§e§l§nFlyCore§7 - §d§lDonate\n§fCongratulations to player §c%s§f,\n§fhe just bought %s \n§fon online-shop §dflycore.ru §7(click to link)\n'
 BUY_THANKS:
 - '§aServer §8| §fThanks for buying privilege %s'
 - '§fon our server. Now You have new available opportunities;'
