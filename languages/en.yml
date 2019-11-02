@@ -2904,6 +2904,7 @@ GUI_PROFILE_THEME_LORE:
 - '§7выбранной темы.'
 - ''
 - '§7Current theme: %s'
+- '§7Open: §a%s§7/§a%s §d%s'
 - ''
 - '§e▸ Click, to open menu'
 GUI_PROFILE_NAME: 'Profile'
