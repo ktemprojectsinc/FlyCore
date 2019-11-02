@@ -5228,10 +5228,6 @@ GUI_THEME_SELECTED_LORE:
 - '§aTheme selected'
 GUI_THEME_SELECT_LORE:
 - '§7Change theme to: %s'
-- ''
-- '§8• §7Price §6%s§7 %s'
-- '§8• §7Free for %s§7 or higher'
-- ''
 GUI_THEME_SELECT: '§e▸ Click, to theme select'
 GUI_THEME_UNAVAILABLE: '§c✗ This theme you no available'
 
