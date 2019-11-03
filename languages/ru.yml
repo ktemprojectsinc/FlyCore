@@ -548,6 +548,18 @@ GUI_BW_SHOP_BUY: '§aНажмите, чтобы купить'
 GUI_BW_SHOP_NO_BUY: '§cУ вас не достаточно ресурсов'
 GUI_BW_SHOP_PRICE: 'Цена'
 
+GUI_BW_SHOP_BLOCKS: 'Блоки'
+GUI_BW_SHOP_CHESTPLATE: 'Броня'
+GUI_BW_SHOP_PICKAXE: 'Кирки'
+GUI_BW_SHOP_SWORD: 'Мечи'
+GUI_BW_SHOP_BOW: 'Луки'
+GUI_BW_SHOP_FEED: 'Еда'
+GUI_BW_SHOP_CHEST: 'Сундуки'
+GUI_BW_SHOP_POTION: 'Зелья'
+GUI_BW_SHOP_OTHER: 'Разное'
+
+GUI_BW_SHOP_ITEM_LEVEL: '§8(§fУр.%s§8)'
+
 GUI_BEDWARS_CHEST: 'Сундук команды'
 
 ITEM_TP_NAME: '§eТелепортатор'
