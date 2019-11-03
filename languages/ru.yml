@@ -547,6 +547,9 @@ GUI_BW_SHOP_NAME: 'Магазин'
 GUI_BW_SHOP_BUY: '§aНажмите, чтобы купить'
 GUI_BW_SHOP_NO_BUY: '§cУ вас не достаточно ресурсов'
 GUI_BW_SHOP_PRICE: 'Цена'
+GUI_BW_SHOP_INFO:
+  - '§8Нажмите SHIFT чтобы'
+  - '§8купить в 5 раз больше'
 
 GUI_BW_SHOP_BLOCKS: 'Блоки'
 GUI_BW_SHOP_CHESTPLATE: 'Броня'
