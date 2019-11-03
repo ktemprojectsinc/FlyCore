@@ -7,42 +7,42 @@ ENABLED: '§aВімкнено'
 DISABLED: '§cВимкнено'
 ENABLE: 'Увімкнути'
 DISABLE: 'Вимкнути'
-CONFIRM_NAME: 'Подтвердить'
-CANCEL_NAME: '§cОтменить'
-BED_YES: 'Есть'
-BED_NO: 'Нету'
-PROMO_ITEM_NAME: '§aСКИДКИ!'
-HIDDEN: '§cСкрыт'
-NOT_SETS: '§cНе установлено'
-SLOT_EMPTY: '§cПустой слот'
+CONFIRM_NAME: 'Підтвердити'
+CANCEL_NAME: '§cВідмінити'
+BED_YES: 'Є'
+BED_NO: 'Нема'
+PROMO_ITEM_NAME: '§aЗНИЖКИ!'
+HIDDEN: '§cПрихований'
+NOT_SETS: '§cНе встановлено'
+SLOT_EMPTY: '§cПустий слот'
 BANINFO_BY_ANOTHER: '§7(за проханням %s§7)'
 TOP_POSITION: '§e%s Місце'
-ALL: 'ВСЕ ВРЕМЯ'
-JANUARY: 'Январь'
-FEBRUARY: 'Февраль'
-MARCH: 'Март'
-APRIL: 'Апрель'
-MAY: 'Май'
-JUNE: 'Июнь'
-JULY: 'Июль'
-AUGUST: 'Август'
-SEPTEMBER: 'Сентябрь'
-OCTOBER: 'Октрябрь'
-NOVEMBER: 'Ноябрь'
-DECEMBER: 'Декабрь'
-SERVER_REDIRECT: '§aСервер §8| §fВы подключены к серверу §a%s'
-SERVER_REDIRECT_NOT_FOUND: '§aСервер §8| §fПроизошла ошибка при подключении к §a%s§f данного сервера не существует'
+ALL: 'УВЕСЬ ЧАС'
+JANUARY: 'Січень'
+FEBRUARY: 'Лютий'
+MARCH: 'Березень'
+APRIL: 'Квітень'
+MAY: 'Травень'
+JUNE: ' Червень'
+JULY: 'Липень'
+AUGUST: 'Серпень'
+SEPTEMBER: 'Вересень'
+OCTOBER: 'Жовтень'
+NOVEMBER: 'Листопад'
+DECEMBER: 'Грудень'
+SERVER_REDIRECT: '§aСервер §8| §fВи підключені до сервера §a%s'
+SERVER_REDIRECT_NOT_FOUND: '§aСервер §8| §fПСталася помилка при підключенні до §a%s§f. Цього сервера не існує'
 BAN_REQUEST_SENT: '§eВаше прохання заблокувати цього гравця надіслано всім онлайн-модераторам'
 BAN_REQUEST_ALREADY_SENT: '§cПрохання заблокувати даного гравця вже надіслано, очікуйте рішення'
-BAN_REQUEST_BROADCAST: '§cМодерация §8| %s§7 просить заблокувати %s§7 на %s по причині §e%s'
+BAN_REQUEST_BROADCAST: '§cМодерація §8| %s§7 просить заблокувати %s§7 на %s по причині §e%s'
 BANIP_REQUEST_SENT: '§eВаше прохання заблокувати цей IP адрес надіслано всім онлайн-модераторам'
 BANIP_REQUEST_ALREADY_SENT: '§cПрохання заблокувати цей IP адрес вже надіслано, очікуйте рішення'
-BANIP_REQUEST_BROADCAST: '§cМодерация §8| %s§7 просить заблокувати ip адрес §a%s§7 на %s по причині §e%s'
+BANIP_REQUEST_BROADCAST: '§cМодерація §8| %s§7 просить заблокувати ip адрес §a%s§7 на %s по причині §e%s'
 SERVER_CLOSED_PLAYER_CONNECTION: "§aСервер §8| §fСервер §a%s §fзакрив Ваше з`єднання, Вы перенаправлені до §a%s"
-BAN_REQUEST_ACCEPT_BROADCAST: '§cМодерация §8| %s§a схвалив §7прохання на блокування §e%s'
-BAN_REQUEST_REJECT_BROADCAST: '§cМодерация §8| %s§c відхилив §7прохання на блокування §e%s'
-BANIP_REQUEST_ACCEPT_BROADCAST: '§cМодерация §8| %s§a схвалив §7прохання на блокування адреси §a%s'
-BANIP_REQUEST_REJECT_BROADCAST: '§cМодерация §8| %s§c відхилив §7прохання на блокування адреси §a%s'
+BAN_REQUEST_ACCEPT_BROADCAST: '§cМодерація §8| %s§a схвалив §7прохання на блокування §e%s'
+BAN_REQUEST_REJECT_BROADCAST: '§cМодерація §8| %s§c відхилив §7прохання на блокування §e%s'
+BANIP_REQUEST_ACCEPT_BROADCAST: '§cМодерація §8| %s§a схвалив §7прохання на блокування адреси §a%s'
+BANIP_REQUEST_REJECT_BROADCAST: '§cМодерація §8| %s§c відхилив §7прохання на блокування адреси §a%s'
 BAN_ACCEPT_FORMAT: '/banrequests accept <нік порушника>'
 BAN_REJECT_FORMAT: '/banrequests reject <нік порушника>'
 BAN_REQUEST_HOVER: '§fНатисніть, щоб прийняти запит'
@@ -70,11 +70,11 @@ CORE_HANDSHAKE_WRONG_OF_COREID: 'id ядра §e%s§3, не відповідає
 CORE_HANDSHAKE_CONNECTION_CLOSED: '§cCore §8| §7Підключення §a%s§7 було закирто по причині: §3%s'
 CORE_HANDSHAKE_CONNECTION_CONFIRM: '§cCore §8| §7Підключення §a%s§7 було успішно принято (§e#%s§7)'
 CORE_NO_CONNECTED:
-- '§cВ данный момент нет соединения с ядром, подождите немного до его подключения.'
-- ' §cнаписанные вами команды, будут сохранены в фоновом режиме.'
-GROUP_TIME_EXPIRE_LEFT: '§aСервер §8| §fВремя вашей группы %s§f истекло, и она была снята'
-PREFIX_TIME_EXPIRE_LEFT: '§aСервер §8| §fВремя вашего префикса %s§f истекло, и он был снят'
-ANARCHY_KILL_MOB: '§6+%s %s за убийство моба'
+- '§cНа данний момент немає з’єднання с ядром, зачекайте трохи до його підключення.'
+- ' §cнаписані Вами команді будуть збережені у фоновому режимі.'
+GROUP_TIME_EXPIRE_LEFT: '§aСервер §8| §fЧас вашої групи %s§f скінчився, і вона була знята.'
+PREFIX_TIME_EXPIRE_LEFT: '§aСервер §8| §fЧас вашного префікса %s§f скінчився, і він був снятий.'
+ANARCHY_KILL_MOB: '§6+%s %s за вбивство моба.'
 TYPE_YES: 'Так'
 TYPE_NO: 'Ні'
 RANK_DEFAULT: 'Гравець'
@@ -129,7 +129,7 @@ PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
 #§fКоманды и переход по серверам снова доступен
 
 KILLS:
-- 'убийств'
+- 'вбивств'
 - 'о'
 - 'а'
 - ''
@@ -155,14 +155,14 @@ DONATKEYS:
 MODES:
 - 'Режим'
 - 'а'
-- 'ов'
-- 'ов'
+- 'ів'
+- 'ів'
 
 MODES_2:
 - 'Режим'
 - ''
 - 'а'
-- 'ов'
+- 'ів'
 
 SERVERS:
 - 'Сервер'
@@ -180,7 +180,7 @@ CHANNELS_2:
 - 'Канал'
 - ''
 - 'а'
-- 'ов'
+- 'ів'
 
 MAPS:
 - 'Карт'
@@ -198,7 +198,7 @@ REWARDS_1:
  - 'бонус'
  - ''
  - 'а'
- - 'ов'
+ - 'ів'
 
 AVAILABLE_1:
  - 'Доступ'
@@ -297,10 +297,10 @@ TIME_SECOND_2:
 - 'а'
 - 'ы'
 - ''
-NO_RARITY: 'Без редкости'
-RARITY: 'Редкость'
-ABSENT: 'Отсутствует'
-ETERNITY: 'вечность'
+NO_RARITY: 'Без рідкості'
+RARITY: 'Рідкость'
+ABSENT: 'Відсутня'
+ETERNITY: 'вічність'
 UNKNOWN: 'невідомо'
 
 TIME_1: ' століть'
@@ -338,10 +338,10 @@ ITEMS_ADD_STATS: '§aПредметы §8| §fВи забрали статус %
 ITEMS_ADD_DONATE: '§aПредметы §8| §fВи забрали привілегію %s'
 
 HOVER_MESSAGE_CHAT:
-- '§fНажмите сюда, чтобы написать'
-- '§fигроку %s§f в лс'
+- '§fНатисніть сюди, щос написати'
+- '§fігроку %s§f до ПП'
 
-PLAYER_NO_USE_LEVEL: '§cОшибка, чтобы использовать это у вас должен быть уровень не ниже %s или привилегия %s§c!'
+PLAYER_NO_USE_LEVEL: '§cПомилка, щоб використовувати це у вас повинен бути рівень не нижче %s або привілегія %s§c!'
 
 COINS_ADD: '§6+%s'
 KEY_ADD: '§d+%s'
@@ -511,81 +511,81 @@ PLAYER_TEAM_SELECTED: 'Вы вибрали команду %s'
 
 BEDWARS_NO_BED_BREAK: '§cВы не можете сломать кровать вашей команды!'
 
-BEDWARS_BOOSTER: 'Множитель §b%sx§f активирован'
-BEDWARS_MODE_RUSH: 'BedWars Rush, ваш стартовый баланс: §a%s'
+BEDWARS_BOOSTER: 'Множник §b%sx§f активований'
+BEDWARS_MODE_RUSH: 'BedWars Rush, ваш стартовий баланс: §a%s'
 
 ARENA_TYPE_TEAM_NO_TEAM: '§c§lУвага! §cУтворення спілок з декількох команд заборонено. Доповідайте про таких гравців на форум.'
 ARENA_TYPE_SOLO_NO_TEAM: '§c§lУвага! §cКомандна гра заборонена на Solo режимі. Доповідайте про таких гравців на форум.'
 
 GUI_BW_SHOP_NAME: 'Магазин'
-GUI_BW_SHOP_BUY: '§aНажмите, чтобы купить'
-GUI_BW_SHOP_NO_BUY: '§cУ вас не достаточно ресурсов'
-GUI_BW_SHOP_PRICE: 'Цена'
+GUI_BW_SHOP_BUY: '§aНатисніть, щоб купити'
+GUI_BW_SHOP_NO_BUY: '§cУ вас недостатньо ресурсів, щоб купити це'
+GUI_BW_SHOP_PRICE: 'Ціна'
 
-GUI_BEDWARS_CHEST: 'Сундук команды'
+GUI_BEDWARS_CHEST: 'Скриня команди'
 
 ITEM_TP_NAME: '§eТелепортатор'
 ITEM_TP_LORE:
-- '§7Используйте этот предмет,'
-- '§7чтобы наблюдать за игроками'
-ITEM_SETTINGS_NAME: '§eНастройка смотрящих'
+- '§7Використовуйте цей предмет,'
+- '§7щоб спостерігати за гравцями'
+ITEM_SETTINGS_NAME: '§eНалаштування смотрящих'
 ITEM_SETTINGS_LORE:
-- '§7Используйте этот предмет,'
-- '§7чтобы изменить настройки'
-- '§7наблюдателя'
+- '§7Використовуйте цей предмет,'
+- '§7щоб змінити налаштування'
+- '§7спостерігача'
 
 GUI_TP_NAME: 'Телепортатор'
 GUI_TP_LORE:
 - ''
-- '§7В команде: %s'
-- '§7Жизней: §f%s'
+- '§7У команді: %s'
+- '§7Здоров’я: §f%s'
 - '§7Голод: §f%s'
 - ''
-- '§e▸ Нажмите, чтобы телепортироваться'
+- '§e▸ Натисніть, щоб телепортуватися'
 
-GUI_SETTINGS_NAME: 'Настройка наблюдателей'
-GUI_SETTINGS_SPEED_0: '§aУбрать скорость'
-GUI_SETTINGS_SPEED_1: '§aСкорость I'
-GUI_SETTINGS_SPEED_2: '§aСкорость II'
-GUI_SETTINGS_SPEED_3: '§aСкорость III'
-GUI_SETTINGS_SPEED_4: '§aСкорость IV'
-GUI_SETTINGS_NIGHT: '§aНочное зрение'
+GUI_SETTINGS_NAME: 'Налаштування спостерігача'
+GUI_SETTINGS_SPEED_0: '§aПрибрати швидкість'
+GUI_SETTINGS_SPEED_1: '§aШвидкість I'
+GUI_SETTINGS_SPEED_2: '§aШвидкість II'
+GUI_SETTINGS_SPEED_3: '§aШвидкість III'
+GUI_SETTINGS_SPEED_4: '§aШвидкість IV'
+GUI_SETTINGS_NIGHT: '§aНічний зір'
 GUI_SETTINGS_NIGHT_OFF:
 - ''
-- '§e▸ Нажмите, чтобы выключить ночное зрение'
+- '§e▸ Натисніть, щоб вимкнути нічний зір'
 GUI_SETTINGS_NIGHT_ON:
 - ''
-- '§e▸ Нажмите, чтобы включить ночное зрение'
+- '§e▸ Натисніть, щоб включити нічний зір'
 GUI_SETTINGS_SPECTATORS: '§aНаблюдатели'
 GUI_SETTINGS_SPECTATORS_HIDE:
 - ''
-- '§e▸ Нажмите, чтобы спрятать наблюдателей'
+- '§e▸ Натисніть, щоб сховати спостерігачів'
 GUI_SETTINGS_SPECTATORS_SHOW:
 - ''
-- '§e▸ Нажмите, чтобы показать наблюдателей'
+- '§e▸ Натисніть, щоб показати спостерігачів'
 GUI_SETTINGS_FLY: '§aПолёт'
 GUI_SETTINGS_FLY_ON:
 - ''
-- '§e▸ Нажмите, чтобы включить полёт'
+- '§e▸ Натисніть, щоб включити політ'
 GUI_SETTINGS_FLY_OFF:
 - ''
-- '§e▸ Нажмите, чтобы выключить полёт'
+- '§e▸ Натисніть, щоб вимкнути політ'
 
-GAME_KIT_UNSELECT: '§eНажмите ещё раз, чтобы аннулировать покупку набора §a%s'
-GAME_KIT_RETURN: '§eВам вернули деньги за набор §a%s'
+GAME_KIT_UNSELECT: '§eНатисніть ще раз, щоб анулювати покупку набору §a%s'
+GAME_KIT_RETURN: '§eВам повернули гроші за набір §a%s'
 
-GUI_KIT_NAME: 'Покупка наборов'
+GUI_KIT_NAME: 'Купівля наборів'
 
-GAME_SPEED_DEFAULT: 'Вы стали двигаться со стандартной скоростью!'
-GAME_SELECT: 'Вы выбрали %s'
-GAME_NIGHT_ON: 'Вы включили себе §aНочное зрение§e!'
-GAME_NIGHT_OFF: 'Вы выключили себе §aНочное зрение§e!'
-GAME_SPECTATORS_HIDE: 'Вы теперь не видете §aНаблюдателей§e!'
-GAME_SPECTATORS_SHOW: 'Вы видете §aНаблюдателей§e!'
-GAME_FLYING_ON: 'Вы включили §aПолёт§e!'
-GAME_FLYING_OFF: 'Вы выключили §aПолёт§e!'
+GAME_SPEED_DEFAULT: 'Ви стали рухатися зі стандартною швидкістю!'
+GAME_SELECT: 'Ви вибрали %s'
+GAME_NIGHT_ON: 'Ви включили собі §aНічний зір§e!'
+GAME_NIGHT_OFF: 'Вы вимкнули собі §aНічний зір§e!'
+GAME_SPECTATORS_HIDE: 'Ви тепер не бачите §aСпостерігачів§e!'
+GAME_SPECTATORS_SHOW: 'Ви бачите §aСпостерігачів§e!'
+GAME_FLYING_ON: 'Ви включили §aПоліт§e!'
+GAME_FLYING_OFF: 'Вы вимнули §aПоліт§e!'
 
-SITESHOP_BUY: '§aМагазин §8| §fВи успешно купили §a%s'
+SITESHOP_BUY: '§aМагазин §8| §fВи успішно купили §a%s'
 SITESHOP_INFO: '§aСервер §8| §fГравець %s§f купив §a%s§f, купити можна в §c/siteshop'
 SITESHOP_TITLE: '§fГравець %s§f купив §a%s'
 SITESHOP_SUBTITLE: '§fКупити можна в §c/siteshop'
@@ -649,22 +649,22 @@ TAB_FOOTER: "\n§aРанги, Ключі, & Інше §c§lSTORE.FLYCORE.RU\n§f
 REDIRECT_ERROR: '§cНеможливо знайти відповідний сервер('
 HUBS_ERROR: '§cПомилка, немає доступного лобі, спробуйте повторити спробу пізніше'
 
-JOIN_WARNING_IP_CHANGE: '§c⚠ Внимание! §fВаш §cip адрес§f прошлой сессии не совпадает, наведите сюда и проверьте'
-JOIN_WARNING_HOVER: "§fВаш прошлый адрес: §a%s\n§fВаш текущий адрес: §c%s\n§fВаша почта: %s\n\n§fРекомендуем сделать: %s"
-JOIN_NOT_MAIL: '§cНет почты'
-JOIN_RECOMMEND_ADDMAIL: "§bПривязать почту\n\n §e▸ Нажмите сюда, чтобы привязать почту"
-JOIN_RECOMMEND_CREATEAPI: "§bСоздать api-ключ\n\n §e▸ Нажмите сюда, чтобы создать api-ключ"
-JOIN_RECOMMEND_CHANGEAPI: "§bСменить api-ключ\n\n §e▸ Нажмите сюда, чтобы сменить api-ключ"
+JOIN_WARNING_IP_CHANGE: '§c⚠ Увага! §fВаш §cip адрес§f минулій сесії не збігається, наведіть сюди і перевірте'
+JOIN_WARNING_HOVER: "§fВаш попередній адрес: §a%s\n§fВаш поточний адрес: §c%s\n§fВаша пошта: %s\n\n§fРекомендуємо ставити: %s"
+JOIN_NOT_MAIL: '§cНема пошти'
+JOIN_RECOMMEND_ADDMAIL: "§bПрив’язати пошту\n\n §e▸ Натисніть сюди, щоб прив'язати пошту"
+JOIN_RECOMMEND_CREATEAPI: "§bСтворити api-ключ\n\n §e▸ Натисніть сюди, щоб створити api-ключ"
+JOIN_RECOMMEND_CHANGEAPI: "§bЗмінити api-ключ\n\n §e▸ Натисніть сюди, щоб змінити api-ключ"
 
-GUILD_JOIN_CHAT: '§2Гильдии §8| %s§f %s на сервер'
-GUILD_JOIN_HOVER: "§fНажмите сюда,\n§fчтобы написать игроку %s"
-GUILD_JOIN_ACTIONBAR: '§2Гильдии §8| %s§f %s на сервер'
-GUILD_JOIN_ONLINE: '§aГильдии §8| §fВ онлайне: §a%s§f %s'
+GUILD_JOIN_CHAT: '§2Гільдії §8| %s§f %s на сервер'
+GUILD_JOIN_HOVER: "§fНатисніть сюди,\n§fщоб написати гравцю %s"
+GUILD_JOIN_ACTIONBAR: '§2Гільдії §8| %s§f %s на сервер'
+GUILD_JOIN_ONLINE: '§aГільдії §8| §fВ онлайні: §a%s§f %s'
 
-FRIEND_JOIN_CHAT: '§aДрузья §8| §f%s %s§f %s в игру §7(нажмите сюда)'
-FRIEND_JOIN_HOVER: "§fНажмите сюда,\n§fчтобы написать %s %s"
-FRIEND_JOIN_ACTIONBAR: '§aДрузья §8| §f%s %s§f %s в игру'
-FRIEND_JOIN_ONLINE: '§aДрузья §8| §fВ онлайне §a%s§f %s'
+FRIEND_JOIN_CHAT: '§aДрузі §8| §f%s %s§f %s в ігру §7(натисніть сюди)'
+FRIEND_JOIN_HOVER: "§fНатиснить сюди,\n§fщоб написати %s %s"
+FRIEND_JOIN_ACTIONBAR: '§aДрузі §8| §f%s %s§f %s в ігру'
+FRIEND_JOIN_ONLINE: '§aДрузі §8| §fВ онлайні §a%s§f %s'
 
 FRIEND_JOIN_REQUESTS: '§aДрузья §8| §fУ вас §e%s §fнепринятых заявок в друзья'
 PARTY_JOIN_REQUESTS: '§aParty §8| §fУ вас §e%s §fнепринятых заявок в party'
@@ -678,7 +678,7 @@ MSG_SUBTITLE: '§7VK: §bvk.com/flycore'
 #§7Группа: §cvk.com/flycore
 
 #Ru items
-ITEM_EXIT_NAME: '§aНазад в главное лобби'
+ITEM_EXIT_NAME: '§aНазад до головного лоббі'
 ITEM_EXIT_LORE:
  - '§7Используйте этот предмет,'
  - '§7чтобы вернуться в главное лобби'
