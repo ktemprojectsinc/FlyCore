@@ -623,7 +623,8 @@ SITESHOP_KIT_MEGA: 'Mega набор'
 SITESHOP_LUCKYCHEST: 'Обычные ключи'
 SITESHOP_DONATKEY: 'Донатный ключ'
 
-SITE_SHOP_ITEM_ALERT: '§aМагазин §8| §fВсе предметы успешно выданы!'
+SITE_SHOP_ITEM_ALERT: '§aМагазин §8| §fВсе предметы успешно выданы
+SITE_SHOP_NO_SLOTS: '§cУ вас недостаточно места в инвентаре!'
 SITE_SHOP_ITEMS_NAME: 'Предметы'
 SITE_SHOP_ITEM_EMPTY_LORE:
 - '§7У вас нет доступных предметов'
