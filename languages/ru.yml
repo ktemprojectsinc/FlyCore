@@ -581,6 +581,7 @@ GUI_BW_SHOP_INFO:
 - ''
 - '§8Нажмите SHIFT чтобы'
 - '§8купить в 5 раз больше'
+- '§8Цена с учетом x5: %s'
 
 GUI_BW_SHOP_BLOCKS: 'Блоки'
 GUI_BW_SHOP_CHESTPLATE: 'Броня'
@@ -605,6 +606,10 @@ ITEM_SETTINGS_LORE:
 - '§7Используйте этот предмет,'
 - '§7чтобы изменить настройки'
 - '§7наблюдателя'
+ITEM_COSMETIC_LORE:
+- '§7Используйте этот предмет,'
+- '§7чтобы выбрать косметику'
+- '§7для игры'
 
 GUI_TP_NAME: 'Телепортатор'
 GUI_TP_LORE:
@@ -5581,6 +5586,7 @@ GUI_COSMETIC_KILLEFFECT: 'Эффекты убийств'
 GUI_COSMETIC_WINEFFECT: 'Эффекты победы'
 GUI_COSMETIC_STARTSOUND: 'Звуки старта'
 GUI_COSMETIC_COLORABLE: 'Цветные щиты и броня'
+GUI_COSMETIC_BWPERKS: 'Перки'
 GUI_COSMETIC_NAME: 'Косметика'
 
 GUI_COSMETIC_NO_LEVEL:
@@ -5651,6 +5657,17 @@ GUI_COSMETIC_COLORABLE_LORE:
 - ''
 - '§7Открыто: §a%s/%s §6%s'
 - '§7Активированный цвет:'
+- '%s'
+- ''
+- '§e▸ Нажмите, чтобы открыть меню'
+GUI_COSMETIC_BWPERKS_LORE:
+- ''
+- '§7Покупка и активация перков'
+- '§7которые украсят вашу игру'
+- '§7различными дополнениями.'
+- ''
+- '§7Открыто: §a%s/%s §6%s'
+- '§7Активированный перк:'
 - '%s'
 - ''
 - '§e▸ Нажмите, чтобы открыть меню'
@@ -5782,6 +5799,28 @@ GUI_COSMETIC_KILLEFFECT_3_LORE:
 GUI_COSMETIC_KILLEFFECT_4_LORE:
 - '§7Всякий раз, когда Вы убиваете игрока,'
 - '§7Вы делаете это, под эффект музыкальных нот!'
+
+GUI_COSMETIC_BWPERKS_1: 'Вор'
+GUI_COSMETIC_BWPERKS_1_LORE:
+- '§7После убийства игрока Вы надеваете'
+- '§7его броню, если такая имеется'
+GUI_COSMETIC_BWPERKS_2: 'Банкир'
+GUI_COSMETIC_BWPERKS_2_LORE:
+- '§7Цены на предметы во всех магазинах'
+- '§7будут снижены на 30% §8(кроме ресурсов)'
+GUI_COSMETIC_BWPERKS_3: 'Ресоед'
+GUI_COSMETIC_BWPERKS_3_LORE:
+- '§7С шансом 50% после вашей смерти,'
+- '§7у вас восстановится 50% опыта'
+GUI_COSMETIC_BWPERKS_4: 'Шахтер'
+GUI_COSMETIC_BWPERKS_4_LORE:
+- '§7С шансом 50% вы получаете зачарование'
+- '§7§oЭффективность IV§7 на купленный предмет.'
+- '§7А также с шансом 15% вам возвращается'
+- '§7блок который вы поставили'
+GUI_COSMETIC_BWPERKS_5: 'Нео'
+GUI_COSMETIC_BWPERKS_5_LORE:
+- '§7С шансом 15% вам не наносится урона'
 
 GUI_COSMETIC_WINEFFECT_1_LORE:
 - '§7Когда Вы выигрываете игру,'
