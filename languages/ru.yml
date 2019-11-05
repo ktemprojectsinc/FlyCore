@@ -508,6 +508,8 @@ DAMAGE_CAUSE_BURN_TO: '%s§f был сожжён дотла, пока борол
 DAMAGE_CAUSE_BURN: '%s§f сгорел заживо'
 DAMAGE_CAUSE_DROP_TO: '%s§f был скинут игроком %s'
 DAMAGE_CAUSE_DROP: '%s§f разбился насмерть'
+DAMAGE_CAUSE_MAGIC_TO: '%s§f был убит с помощью магии игроком %s'
+DAMAGE_CAUSE_MAGIC: '%s§f был убит с помощью магии'
 
 START_TITLE_MSG: 'Старт!'
 
