@@ -6633,6 +6633,8 @@ PRISON_SELL_BUY: '§aСервер §8| §fВы продали %s§8 x%s§f и п
 
 PRISON_NPC_HOLO_SELL: 
 - '§aПродавец'
+PRISON_NPC_POVAR_ANDREY: 
+- '§aПовар Андрей'
 
 PRISON_HOLO_SELL: 
 - '§7Нажмите, по продавцу,'
