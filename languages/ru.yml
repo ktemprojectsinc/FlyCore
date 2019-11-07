@@ -574,7 +574,7 @@ ARENA_TYPE_TEAM_NO_TEAM: '§c§lВнимание! §cОбразование со
 ARENA_TYPE_SOLO_NO_TEAM: '§c§lВнимание! §cКомандная игра запрещена на Solo режиме. Докладывайте о таких игроках на форум.'
 
 GUI_BW_SHOP_NAME: 'Магазин'
-GUI_BW_SHOP_BUY: '§aНажмите, чтобы купить'
+GUI_BW_SHOP_BUY: '§aНажмите ЛКМ, чтобы купить'
 GUI_BW_SHOP_NO_BUY: '§cУ вас не достаточно ресурсов'
 GUI_BW_SHOP_PRICE: 'Цена'
 GUI_BW_SHOP_INFO:
@@ -592,6 +592,16 @@ GUI_BW_SHOP_FEED: 'Еда'
 GUI_BW_SHOP_CHEST: 'Сундуки'
 GUI_BW_SHOP_POTION: 'Зелья'
 GUI_BW_SHOP_OTHER: 'Разное'
+
+GUI_BW_SHOP_NO_SLOTS: '§cУ вас недостаточно места в инвентаре!'
+GUI_BW_SHOP_GUI_ADD_FAVOURITE: '§aПКМ, чтобы добавить в избранное'
+GUI_BW_SHOP_GUI_REMOVE_FAVOURITE: '§cПКМ, чтобы удалить из избранного'
+GUI_BW_SHOP_GUI_NO_SLOTS_FAVOURITE: '§cУ вас нет свободных слотов для добавления в избранное!'
+GUI_BW_SHOP_GUI_FAVOURITE: 'Пустой слот для избранного'
+GUI_BW_SHOP_GUI_FAVOURITE_LOER:
+- ''
+- '§cДанный слот заблокирован'
+- '§cКупите %s§c или выше, чтобы разблокировать'
 
 GUI_BW_SHOP_ITEM_LEVEL: '§8(§fУр.%s§8)'
 
