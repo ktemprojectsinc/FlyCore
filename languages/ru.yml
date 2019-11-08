@@ -574,7 +574,7 @@ ARENA_TYPE_TEAM_NO_TEAM: '§c§lВнимание! §cОбразование со
 ARENA_TYPE_SOLO_NO_TEAM: '§c§lВнимание! §cКомандная игра запрещена на Solo режиме. Докладывайте о таких игроках на форум.'
 
 GUI_BW_SHOP_NAME: 'Магазин'
-GUI_BW_SHOP_BUY: '§aНажмите ЛКМ, чтобы купить'
+GUI_BW_SHOP_BUY: '§aНажмите, чтобы купить'
 GUI_BW_SHOP_NO_BUY: '§cУ вас не достаточно ресурсов'
 GUI_BW_SHOP_PRICE: 'Цена'
 GUI_BW_SHOP_INFO:
