@@ -1805,7 +1805,7 @@ GUILD_INVITE_FRIEND: '§cThe player forbad to send him(her) guild invitions'
 GUILD_INVITE_ALREADY: '§cPlayer %s already has invition to the guild'
 GUILD_INVITE_LIMIT: '§cGuild limit exceeded, limit - %s'
 GUILD_INVITE_EXPIRED: '§cЗапрос, отправленный игроку %s§c был автоматически отклонен'
-GUILD_INVITE_EXPIRED_TO: '§aGuild §8| §fИгрок %s§f отправлявший Вам приглашение в гильдию, был автоматически отклонен спустя %s
+GUILD_INVITE_EXPIRED_TO: '§aGuild §8| §fИгрок %s§f отправлявший Вам приглашение в гильдию, был автоматически отклонен спустя %s'
 
 GUILD_ACCEPT_FORMAT: '/guild accept <player name>'
 GUILD_ACCEPT_ALERT: '§2Guilds §8| %s§f joined the guild'
