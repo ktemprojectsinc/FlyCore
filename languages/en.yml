@@ -15,6 +15,7 @@ CANCEL_NAME: '§cCancel'
 
 PROMO_ITEM_NAME: '§aDISCOUNT!'
 HIDDEN: '§cHide'
+PLAYER_HIDE: '§cHidden player'
 NOT_SETS: '§cNot set'
 SLOT_EMPTY: '§cEmpty slot'
 
@@ -98,7 +99,8 @@ CORE_NO_CONNECTED:
 
 GROUP_TIME_EXPIRE_LEFT: '§aServer §8| §fВремя вашей группы %s§f истекло, и она была снята'
 PREFIX_TIME_EXPIRE_LEFT: '§aServer §8| §fВремя вашего префикса %s§f истекло, и он был снят'
-ANARCHY_KILL_MOB: '§6+%s %s за убийство моба'
+ANARCHY_KILL_MOB: '§6+%s %s for kill mob'
+PLAYER_IS_PRIVATE: '§aServer §8| §fCurren player enabled private, information for player no available'
  
 TYPE_YES: 'Yes'
 TYPE_NO: 'No'
@@ -177,6 +179,12 @@ DONATKEYS:
 - 'donat-key'
 - ''
 - ''
+- 's'
+
+RESOURCES:
+- 'resource'
+- ''
+- 's'
 - 's'
 
 MODES:
@@ -488,7 +496,7 @@ PLAYER_SERVER_ALREADY: '§aServer §8| §cYou already on current server!'
 SLOT_BUSY: '§cSorry, but You was transfered to lobby, Your slot took %s'
 ERROR_TELEPORT: '§cError in teleporting to lobby'
 ONLY_DONATOR: '§cError, there are only donaters on arena'
-ARENA_BUSY: '§cArena is full, do not enough slots? Buy §e§lGOLD§c or higher'
+ARENA_BUYS: '§cArena is full, do not enough slots? Buy §e§lGOLD§c or higher'
 ARENA_START: '§cGame starting...'
 ARENA_RESTART: '§cArena restarting...'
 
@@ -497,10 +505,32 @@ PLAYER_QUIT_ARENA: '%s§f left the game (§c%s§f/§a%s§f)'
 ARENA_DO_NOT_PLAYERS: '§cError, do not enough players for start'
 ARENA_STARTED: '§fGame starts in §a%s §f%s'
 
+DAMAGE_CAUSE_SUCIDE: '%s§f решил покончить жизнь самоубийством'
+DAMAGE_CAUSE_EXPLOSION_TO: '%s§f был взорван игроком %s'
+DAMAGE_CAUSE_EXPLOSION: '%s§f взорвался'
+DAMAGE_CAUSE_CACTUS_TO: '%s§f наткнулся на кактус, спасаясь от %s'
+DAMAGE_CAUSE_CACTUS: '%s§f исколот до смерти'
+DAMAGE_CAUSE_SWIM_TO: '%s§f утонул, спасаясь от %s'
+DAMAGE_CAUSE_SWIM: '%s§f утонул'
+DAMAGE_CAUSE_KILLED_TO: '%s§f был убит игроком %s'
+DAMAGE_CAUSE_KILLED: '%s§f решил покинуть наш мир'
+DAMAGE_CAUSE_OUT_TO: '%s§f выпал из мира, пока боролся с %s'
+DAMAGE_CAUSE_OUT: '%s§f выпал из мира'
+DAMAGE_CAUSE_BOW_TO: '%s§f застрелен игроком %s'
+DAMAGE_CAUSE_BOW: '%s§f застрелен'
+DAMAGE_CAUSE_SWIM2_TO: '%s§f упал в лаву, убегая от %s'
+DAMAGE_CAUSE_SWIM2: '%s§f решил поплавать в лаве'
+DAMAGE_CAUSE_BURN_TO: '%s§f был сожжён дотла, пока боролся с %s'
+DAMAGE_CAUSE_BURN: '%s§f сгорел заживо'
+DAMAGE_CAUSE_DROP_TO: '%s§f был скинут игроком %s'
+DAMAGE_CAUSE_DROP: '%s§f разбился насмерть'
+DAMAGE_CAUSE_MAGIC_TO: '%s§f был убит с помощью магии игроком %s'
+DAMAGE_CAUSE_MAGIC: '%s§f был убит с помощью магии'
+
 LUCKYWARS_STARTED_TITLE: '§c§lStart!'
 LUCKYWARS_STARTED_SUBTITLE: '§fSurvive and do not get in trap'
 
-BEDWARS_STARTED_TITLE: '§c§lStart!'
+START_TITLE_MSG: 'Start!'
 BEDWARS_STARTED_SUBTITLE: '§fЗащитите свою кровать!'
 
 LUCKYWARS_FLY: '§aLuckyWars §8| §8| §fFly ends in §a5 seconds.'
@@ -517,6 +547,7 @@ GAME_PLAYER_RESPAWN_SUBTITLE_BY: '§fYou got killed by %s'
 GAME_PLAYER_KILLED_INFO: '%s§f killed player %s'
 GAME_PLAYER_KILLED_FELL_OUT_WORLD: '%s§f fell out from the world'
 GAME_PLAYER_KILLED_WALL: '%s§f задохнулся в стене'
+GAME_WIN_INFO: 'Вы заработали'
 GAME_TEAM_WIN: '§eTeam won §8- %s'
 GAME_SOLO_WIN: '§ePlayer won §8- %s'
 GAME_CHAT_SPECTATORS: '§8[§7Spectators§8]'
@@ -525,6 +556,7 @@ GAME_CHAT_TEAM: '§8[Team§8]'
 GAME_TEAM_GAME_OVER: 'Team %s§f lost'
 GAME_PLAYER_GAME_QUIT: '§fИгрок %s§f покинул игру'
 GAME_PLAYER_RESOURCES: '§fВы получили +§6%s ресурсов§f за убийство игрока %s'
+GAME_ENDERCHEST_ALREADY_OPEN: '§cЭндер-сундук команды уже открыт игроком %s'
 
 BEDWARS_BED_BREAK_TITLE: '§cВаша кровать сломана'
 BEDWARS_BED_BREAK_SUBTITLE: '§7Вы больше не сможете возрождаться'
@@ -558,6 +590,33 @@ GUI_BW_SHOP_NAME: 'Shop'
 GUI_BW_SHOP_BUY: '§a▸ Click, to buy'
 GUI_BW_SHOP_NO_BUY: '§cУ вас не достаточно ресурсов'
 GUI_BW_SHOP_PRICE: 'Price'
+GUI_BW_SHOP_INFO:
+- ''
+- '§8Click SHIFT чтобы'
+- '§8купить в 5 раз больше'
+- '§8Цена с учетом x5: %s'
+
+GUI_BW_SHOP_BLOCKS: 'Блоки'
+GUI_BW_SHOP_CHESTPLATE: 'Броня'
+GUI_BW_SHOP_PICKAXE: 'Кирки'
+GUI_BW_SHOP_SWORD: 'Мечи'
+GUI_BW_SHOP_BOW: 'Луки'
+GUI_BW_SHOP_FEED: 'Еда'
+GUI_BW_SHOP_CHEST: 'Сундуки'
+GUI_BW_SHOP_POTION: 'Зелья'
+GUI_BW_SHOP_OTHER: 'Разное'
+
+GUI_BW_SHOP_NO_SLOTS: '§cУ вас недостаточно места в инвентаре!'
+GUI_BW_SHOP_GUI_ADD_FAVOURITE: '§aПКМ, чтобы добавить в избранное'
+GUI_BW_SHOP_GUI_REMOVE_FAVOURITE: '§cПКМ, чтобы удалить из избранного'
+GUI_BW_SHOP_GUI_NO_SLOTS_FAVOURITE: '§cУ вас нет свободных слотов для добавления в избранное!'
+GUI_BW_SHOP_GUI_FAVOURITE: 'Пустой слот для избранного'
+GUI_BW_SHOP_GUI_FAVOURITE_LOER:
+- ''
+- '§cДанный слот заблокирован'
+- '§cКупите %s§c или выше, чтобы разблокировать'
+
+GUI_BW_SHOP_ITEM_LEVEL: '§8(§fLvl.%s§8)'
 
 GUI_BEDWARS_CHEST: 'Сундук команды'
 
@@ -570,6 +629,10 @@ ITEM_SETTINGS_LORE:
 - '§7Используйте этот предмет,'
 - '§7чтобы изменить настройки'
 - '§7наблюдателя'
+ITEM_COSMETIC_LORE:
+- '§7Используйте этот предмет,'
+- '§7чтобы выбрать косметику'
+- '§7для игры'
 
 GUI_TP_NAME: 'Телепортатор'
 GUI_TP_LORE:
@@ -639,6 +702,25 @@ SITESHOP_KIT_START: 'Kit start'
 SITESHOP_KIT_MEGA: 'Kit mega'
 SITESHOP_LUCKYCHEST: 'Default keys'
 SITESHOP_DONATKEY: 'Donate key'
+
+SITE_SHOP_ITEM_ALERT: '§aМагазин §8| §fВсе предметы успешно выданы'
+SITE_SHOP_NO_SLOTS: '§cУ вас недостаточно места в инвентаре!'
+SITE_SHOP_ITEMS_NAME: 'Предметы'
+SITE_SHOP_ITEM_EMPTY_LORE:
+- '§7У вас нет доступных предметов'
+- '§7Покупка на сайте §dflycore.ru'
+SITE_SHOP_ITEM_LORE_1:
+- '§7Получить следующие предметы:'
+SITE_SHOP_ITEM_LORE_2:
+- ' '
+- '§cВНИМАНИЕ! У вас должно быть %s'
+- '§cсвободных слотов в вашем инвентаре!'
+- ' '
+SITE_SHOP_ITEM_LORE_3: '§e▸ Нажмите, чтобы получить'
+SITE_SHOP_ITEM_LORE_4:
+- '§7Цена: §e%s §7%s'
+- ''
+- '§e▸ Нажмите, чтобы купить'
 
 PERSONALUP_CONFIRM: '§cConfirm your key /personalup <key>'
 
@@ -1477,6 +1559,8 @@ PARTY_INVITE_ALREADY: '§cPlayer %s already has invite to the group'
 PARTY_INVITE_LIMIT: '§cLimit of the group exceeded, limit - %s'
 PARTY_INVITE: '§aParty §8| §fInvite to the group sent to %s'
 PARTY_INVITE_OWNER: '§aParty §8| §fSend invites to the group can only the group owner'
+PARTY_INVITE_EXPIRED: '§cЗапрос, отправленный игроку %s§c был автоматически отклонен'
+PARTY_INVITE_EXPIRED_TO: '§aParty §8| §fИгрок %s§f отправлявший Вам приглашение в группу, был автоматически отклонен спустя %s'
 
 PARTY_GUILD: '§aParty §8| §fYou joined to the group of the player %s §fguild'
 PARTY_GUILD_ALERT: '§aParty §8| %s§f joined to the guild group'
@@ -1510,7 +1594,7 @@ FRIEND_ADD_ME: "§cYou can't send friend request yourself"
 FRIEND_ADD_NO: '§cThis player forbad to send him(her) friend requests'
 FRIEND_ADD_ALREADY: '§cYou have already sent friend request to that player...'
 FRIEND_ADD_EXPIRED: '§cRequest, sent to player %s§c was automatically rejected'
-FRIEND_ADD_EXPIRED_TO: '§aFriends §8| §fRequest to player %s§f was automatically rejected after 5 minutes'
+FRIEND_ADD_EXPIRED_TO: '§aFriends §8| §fRequest to player %s§f was automatically rejected after %s'
 
 FRIEND_CHAT_FORMAT: '/fchat <message>'
 FRIEND_CHAT: '§aFriends §8| %s'
@@ -1528,6 +1612,10 @@ FRIEND_REMOVE_FORMAT: '/f remove <player name>'
 FRIEND_REMOVE_ME: "§cYou can't remove yourself from friends"
 FRIEND_REMOVE: '§aFriends §8| §fPlayer %s§f was removed from your friends list'
 FRIEND_REMOVE_ALERT: '§aFriends §8| §fPlayer %s§f removed you from friends'
+FRIEND_REMOVE_CONFIRM:
+- '§aFriends §8| §fВы уверены что хотите удалить друга? Это действие нельзя будет отменить!'
+- '§aFriends §8| §fВведите §e%s§f снова чтобы подтвердить §cудаление§f или §e%s§f чтобы §aотменить'
+FRIEND_REMOVE_CANCELLED: '§aFriends §8| §fУдаление друга отменено'
 
 FRIEND_REQUESTS_NOT: "§cYou have't got unaccepted friend requests."
 
@@ -1716,6 +1804,8 @@ GUILD_INVITE_ME: "§cError, You can't invite yourself"
 GUILD_INVITE_FRIEND: '§cThe player forbad to send him(her) guild invitions'
 GUILD_INVITE_ALREADY: '§cPlayer %s already has invition to the guild'
 GUILD_INVITE_LIMIT: '§cGuild limit exceeded, limit - %s'
+GUILD_INVITE_EXPIRED: '§cЗапрос, отправленный игроку %s§c был автоматически отклонен'
+GUILD_INVITE_EXPIRED_TO: '§aGuild §8| §fИгрок %s§f отправлявший Вам приглашение в гильдию, был автоматически отклонен спустя %s
 
 GUILD_ACCEPT_FORMAT: '/guild accept <player name>'
 GUILD_ACCEPT_ALERT: '§2Guilds §8| %s§f joined the guild'
@@ -1729,7 +1819,7 @@ GUILD_TAG_FORMAT: '/guild tag <tag>'
 GUILD_TAG_LIMIT: "§aGuild §8| §fGuild tag doesn't have to be more than §c%s§f characters"
 GUILD_TAG_ALERT: '§2Guilds §8| %s§7 set guild tag -> §e%s'
 GUILD_TAG: '§aGuild §8| §fGuild tag set to §a%s'
-GUILD_TAG_RESET_ALERT: '§2Guilds §8| %s§7 удалил тег гильдии'
+GUILD_TAG_RESET_ALERT: '§2Guilds §8| %s§7 deleted guild tag'
 GUILD_TAG_RESET: '§aGuild §8| §fТег гильдии удален'
 GUILD_TAG_NO_MONEY: '§cGuild lacks %s coins to change tag'
 GUILD_TAG_NO_BUY: "§cYou haven't got guild tag, buy it in /guild shop"
@@ -2156,7 +2246,6 @@ TIME_TO: '§aServer §8| §fPlayer %s§f played - §a%s§f time of server'
 
 MONEY_AND_GOLDS: '§aBalance §8| §fYou have §a%s§f %s, §e%s§f %s and §b%s§f %s'
 
-
 BUY_DONATE_BROADCAST:
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 - '§c§lВНИМАНИЕ! §fУ нас пополнение на %s§f!'
@@ -2393,7 +2482,7 @@ PARKOUR_MODULE_ALREADY: '§aParkour §8| §cYou already passed this module'
 PARKOUR_MODULE_NO: "§aParkour §8| §cYou didn't pass the modeule"
 
 NO_PERMISSION_STATS: '§cError, view statistic other players can only %s§c or higher'
-
+PLAYER_PRIVATE_STATS: '§cОшибка, данный игрок запретил просмотр его статистики'
 STAFFCHAT_ENABLED: '§cModeration §8| %s§7 now sees staff chat'
 STAFFCHAT_DISABLED: '§cModeration §8| %s§7 is no longer see staff chat'
 YOU_ENABLED_STAFFCHAT: '§aВы снова видите чат персонала'
@@ -2819,6 +2908,7 @@ GUI_PROFILE_SETTING_LORE:
 GUI_PROFILE_SETTING2_LORE:
 - ''
 - '§e▸ Open the settings menu'
+- '§e▸ ПКМ, чтобы открыть дополнительные настройки'
 GUI_PROFILE_LEVEL_LORE:
 - '§7Playing on the server, you get'
 - '§7gaming experience that is necassary'
@@ -3977,6 +4067,11 @@ GUI_STAFF_ITEM_LORE:
 - ''
 - '§7Total %s'
 - '§a%s'
+GUI_STAFF_PLAYER_HIDE:
+- ''
+- '§cДанный игрок скрыл информацию,'
+- '§cо себе. Подробная информация не досутпна.'
+GUI_STAFF_PLAYER_PRIVATE: ' §8▪ §cПриватный игрок, информация скрыта'
 GUI_STAFF_PLAYER_INFO:
 - ''
 - '§7Player information:'
@@ -4099,6 +4194,99 @@ GUI_SETTING_ENABLE_LORE:
 - '§7Click to enable'
 GUI_SETTING_DISABLE: '§cDisable'
 GUI_SETTING_ENABLE: '§aEnable'
+GUI_ASETTING_NAME: 'Дополнительные настройки'
+GUI_ASETTING_LEFTCLICK: 'Открытие меню при нажатии ЛКМ'
+GUI_ASETTING_LEFTCLICK_LORE:
+- '§7Позволяет включить или выключить'
+- '§7открытия меню от предметов инвентаре,'
+- '§7при нажатии левой кнопки мыши'
+GUI_ASETTING_AUTOMESSAGE: 'Авто-Сообщения'
+GUI_ASETTING_AUTOMESSAGE_LORE:
+- '§7Позволяет включить или выключить'
+- '§7авто-сообщения сервера,'
+- '§7которые пишутся в чате'
+GUI_ASETTING_SOUNDAM: 'Звуки авто-сообщений'
+GUI_ASETTING_SOUNDAM_LORE:
+- '§7Позволяет включить или выключить'
+- '§7звуки, издаваемые при появлении'
+- '§7авто-сообщения в чате'
+GUI_ASETTING_SOUNDGOTO: 'Звуки примеров'
+GUI_ASETTING_SOUNDGOTO_LORE:
+- '§7Позволяет включить или выключить'
+- '§7звуки, издаваемые при появлении,'
+- '§7нового вопроса в чате'
+GUI_ASETTING_FIND: 'Поиск игрока'
+GUI_ASETTING_FIND_LORE:
+- '§7Позволяет включить или выключить'
+- '§7отображение сервера где вы находитесь,'
+- '§7для других игроков'
+- ''
+- '§cВнимание§7! Персонал со статусом %s'
+- '§7и выше, игнорирует данную настройку!'
+GUI_ASETTING_STATSVIEW: 'Статистика'
+GUI_ASETTING_STATSVIEW_LORE:
+- '§7Позволяет включить или выключить'
+- '§7просмотр вашей статистики,'
+- '§7по команде §f/stats <ник>'
+- ''
+- '§cВнимание§7! Персонал со статусом %s'
+- '§7и выше, игнорирует данную настройку!'
+GUI_ASETTING_AUTODELETE: 'Авто-удаление запросов'
+GUI_ASETTING_AUTODELETE_LORE:
+- '§7Позволяет включить или выключить'
+- '§7автоматические удаление запросов'
+- '§7по истечению %s'
+- ''
+- '§8Используйте shift, для изменения по секундам'
+- '§e▸ ЛКМ, чтобы добавить минуту'
+- '§e▸ ПКМ, чтобы удалить минуту'
+GUI_ASETTING_AUTODELETE_RESET_LORE:
+- '§e▸ Нажмите колесом мыши, чтобы восстановить'
+GUI_ASETTING_HIDELISTS: 'Скрытие в списках'
+GUI_ASETTING_HIDELISTS_LORE:
+- '§7Позволяет включить или выключить'
+- '§7скрытия информации и вашего ника,'
+- '§7в публичных списках доступных любому игроку'
+- ''
+- '§cВнимание§7! Персонал со статусом %s'
+- '§7и выше, игнорирует данную настройку!'
+GUI_ASETTING_CONFIRMDELETE: 'Подтверждение действия'
+GUI_ASETTING_CONFIRMDELETE_LORE:
+- '§7Позволяет включить или выключить'
+- '§7подтверждения действие на использование,'
+- '§7какой-то функции или команды'
+- ''
+- '§cВнимание§7! Не относится к подтверждению'
+- '§7при покупке чего-либо!'
+GUI_ASETTING_CONFIRMBUYING: 'Подтверждение покупки'
+GUI_ASETTING_CONFIRMBUYING_LORE:
+- '§7Позволяет включить или выключить'
+- '§7подтверждения действия о покупке,'
+- '§7чего-либо'
+GUI_ASETTING_JOINTITLE: 'Экранное сообщение при входе'
+GUI_ASETTING_JOINTITLE_LORE:
+- '§7Позволяет включить или выключить'
+- '§7сообщение появляющиеся при входе'
+- '§7на сервер, по центру экрана'
+GUI_ASETTING_JOINDONATER: 'Оповещение о входе донатера'
+GUI_ASETTING_JOINDONATER_LORE:
+- '§7Позволяет включить или выключить'
+- '§7оповещение, которое пишется при входе'
+- '§7какого-либо донатера'
+GUI_ASETTING_PRIVATE: 'Приватность'
+GUI_ASETTING_PRIVATE_LORE:
+- '§7Позволяет включить или выключить'
+- '§7вашу приватность на сервере,'
+- '§7которая скроет вас во всех меню и командах'
+- ''
+- '§cВнимание§7! Персонал со статусом %s'
+- '§7и выше, игнорирует данную настройку!'
+GUI_ASETTING_THEMEACTIVATE: 'Активация темы'
+GUI_ASETTING_THEMEACTIVATE_LORE:
+- '§7Позволяет включить или выключить'
+- '§7активность вашей выбранной темы,'
+- '§7при отключении будет выбрана'
+- '§7стандартная тема: %s'
 GUI_REWARDS_SKYWARS_LORE:
 - '§fSolo mode:'
 - ' §8▪ §7Kill - §61 coins§7, §a+10 XP'
@@ -4108,21 +4296,25 @@ GUI_REWARDS_SKYWARS_LORE:
 - ' §8▪ §7Victory - §630 coins§7, §a+50 XP'
 GUI_REWARDS_BEDWARS_LORE:
 - '§fSolo mode:'
-- ' §8▪ §7Final kill - §62 coin§7, §a+10 XP'
-- ' §8▪ §7Destory the bed - §64 coin§7, §a+25 XP'
-- ' §8▪ §7Victory - §610 coins§7, §a+80 XP§7, §d+1 cosmetic key'
+- ' §8▪ §7Kill - §6%s coins§7, §a+%s XP'
+- ' §8▪ §7Final kill - §6%s coins§7, §a+%s XP'
+- ' §8▪ §7Destory the bed - §6%s coins§7, §a+%s XP'
+- ' §8▪ §7Victory - §6%s coins§7, §a+%s XP§7, §d+%s cosmetic key'
 - '§fDuo mode:'
-- ' §8▪ §7Final kill - §62 coin§7, §a+10 XP'
-- ' §8▪ §7Destory the bed - §64 coin§7, §a+35 XP'
-- ' §8▪ §7Winning your team - §615 coins§7, §a+60 XP, §d+1 cosmetic key'
+- ' §8▪ §7Kill - §6%s coin§7, §a+%s XP'
+- ' §8▪ §7Final kill - §6%s coin§7, §a+%s XP'
+- ' §8▪ §7Destory the bed - §6%s coin§7, §a+%s XP'
+- ' §8▪ §7Winning your team - §6%s coins§7, §a+%s XP, §d+%s cosmetic key'
 - '§fTeam mode:'
-- ' §8▪ §7Final kill - §62 coin§7, §a+10 XP'
-- ' §8▪ §7Destory the bed - §64 coin§7, §a+35 XP'
-- ' §8▪ §7Winning your team - §625 coins§7, §a+50 XP, §d+1 cosmetic key'
+- ' §8▪ §7Kill - §6%s coin§7, §a+%s XP'
+- ' §8▪ §7Final kill - §6%s coin§7, §a+%s XP'
+- ' §8▪ §7Destory the bed - §6%s coin§7, §a+%s XP'
+- ' §8▪ §7Winning your team - §6%s coins§7, §a+%s XP, §d+%s cosmetic key'
 - '§fRush mode:'
-- ' §8▪ §7Final kill - §61 coin§7, §a+10 XP'
-- ' §8▪ §7Destory the bed - §69 coin§7, §a+20 XP, §d+1 cosmetic key'
-- ' §8▪ §7Winning your team - §611 coins§7, §a+30 XP, §d+2 cosmetic key'
+- ' §8▪ §7Kill - §6%s coin§7, §a+%s XP'
+- ' §8▪ §7Final kill - §6%s coin§7, §a+%s XP'
+- ' §8▪ §7Destory the bed - §6%s coin§7, §a+%s XP'
+- ' §8▪ §7Winning your team - §6%s coins§7, §a+%s XP, §d+%s cosmetic key'
 GUI_REWARDS_LUCKYWARS_LORE:
 - '§fSolo mode:'
 - ' §8▪ §7Kill - §61 coin§7, §a+10 XP'
@@ -5156,6 +5348,9 @@ GUI_GADGETS_HAT_66_LORE:
 GUI_GADGETS_HAT_67: 'Sekeleton'
 GUI_GADGETS_HAT_67_LORE:
 - '§7Это как дежавю, только twice!'
+GUI_GADGETS_HAT_68: 'Тыкво-шляпа'
+GUI_GADGETS_HAT_68_LORE:
+- '§7Для тех кто отмечает §5Halloween§7 с нами :)'
 GUI_GADGETS_BANNER_1: 'White banner'
 GUI_GADGETS_BANNER_1_LORE:
 - '§7У Вас будет белый banner'
@@ -5208,6 +5403,21 @@ GUI_GADGETS_SPIRIT_1: 'Defender'
 GUI_GADGETS_SPIRIT_1_LORE:
 - '§7Это ваш Angel-Хранитель, но'
 - '§7лишь до входа в игру'
+GUI_GADGETS_SPIRIT_2: 'Ktem'
+GUI_GADGETS_SPIRIT_2_LORE: []
+GUI_GADGETS_SPIRIT_3: 'Тигр'
+GUI_GADGETS_SPIRIT_3_LORE:
+- '§7Большой полосатый комок шерсти'
+GUI_GADGETS_SPIRIT_4: 'Король свиней'
+GUI_GADGETS_SPIRIT_4_LORE:
+- '§7Хотели увидеть короля свиней?'
+- '§7Тогда этот дух для вас!'
+GUI_GADGETS_SPIRIT_5: 'Мини-дух'
+GUI_GADGETS_SPIRIT_5_LORE:
+- '§7Ваша маленькая копия'
+GUI_GADGETS_SPIRIT_6: 'Тыква-дух'
+GUI_GADGETS_SPIRIT_6_LORE:
+- '§7Отличное дополнение к Тыкво-шляпе'
 
 GUI_PREFIX_NAME: 'Change the prefix'
 GUI_PREFIX_SELECTED_LORE:
@@ -5291,7 +5501,7 @@ GUI_COSMETIC_KILLSOUND_LORE:
 - '§7near You after Your death'
 - ''
 - '§7Open: §a%s/%s §c%s'
-- '§7Sound selected:'
+- '§7Activated sound:'
 - '%s'
 - ''
 - '§e▸ Click, to open menu'
@@ -5302,7 +5512,7 @@ GUI_COSMETIC_ARROWEFFECT_LORE:
 - '§7that You shot'
 - ''
 - '§7Open: §a%s/%s §c%s'
-- '§7Effect selected:'
+- '§7Activated effect:'
 - '%s'
 - ''
 - '§e▸ Click, to open menu'
@@ -5313,7 +5523,7 @@ GUI_COSMETIC_KILLEFFECT_LORE:
 - '§7near killed by You player.'
 - ''
 - '§7Open: §a%s/%s §c%s'
-- '§7Effect seleccted:'
+- '§7Activated effect:'
 - '%s'
 - ''
 - '§e▸ Click, to open menu'
@@ -5324,7 +5534,7 @@ GUI_COSMETIC_WINEFFECT_LORE:
 - '§7near You, after Your victory'
 - ''
 - '§7Open: §a%s/%s §c%s'
-- '§7Effect selected:'
+- '§7Activated effect:'
 - '%s'
 - ''
 - '§e▸ Click, to open menu'
@@ -5335,7 +5545,7 @@ GUI_COSMETIC_STARTSOUND_LORE:
 - '§7старте игры.'
 - ''
 - '§7Open: §a%s/%s §c%s'
-- '§7Активированный звук:'
+- '§7Activated sound:'
 - '%s'
 - ''
 - '§e▸ Click, to open menu'
@@ -5346,7 +5556,18 @@ GUI_COSMETIC_COLORABLE_LORE:
 - '§7щиты и коженная броня.'
 - ''
 - '§7Open: §a%s/%s §c%s'
-- '§7Активированный цвет:'
+- '§7Activated color:'
+- '%s'
+- ''
+- '§e▸ Click, to open menu'
+GUI_COSMETIC_BWPERKS_LORE:
+- ''
+- '§7Покупка и активация перков'
+- '§7которые украсят вашу игру'
+- '§7различными дополнениями.'
+- ''
+- '§7Open: §a%s/%s §6%s'
+- '§7Activated perk:'
 - '%s'
 - ''
 - '§e▸ Click, to open menu'
@@ -5485,6 +5706,52 @@ GUI_COSMETIC_WINEFFECT_4_LORE:
 #- '§7Всякий раз когда вы зайдете в лобби,'
 #- '§7все игроки лобби смогут услышать §4страшную мелодию'
 #- ''
+
+GUI_COSMETIC_BWPERKS_1: 'Вор'
+GUI_COSMETIC_BWPERKS_1_LORE:
+- '§7После убийства игрока Вы надеваете'
+- '§7его броню, если такая имеется'
+GUI_COSMETIC_BWPERKS_2: 'Банкир'
+GUI_COSMETIC_BWPERKS_2_LORE:
+- '§7Цены на предметы во всех магазинах'
+- '§7будут снижены на 30% §8(кроме ресурсов)'
+GUI_COSMETIC_BWPERKS_3: 'Ресоед'
+GUI_COSMETIC_BWPERKS_3_LORE:
+- '§7С шансом 50% после вашей смерти,'
+- '§7у вас восстановится 50% опыта'
+- '§7А также после того как вы съели'
+- '§7любую еду, вы получаете 20 опыта'
+GUI_COSMETIC_BWPERKS_4: 'Шахтер'
+GUI_COSMETIC_BWPERKS_4_LORE:
+- '§7С шансом 50% вы получаете зачарование'
+- '§7§oЭффективность IV§7 на купленный предмет.'
+- '§7А также с шансом 15% вам возвращается'
+- '§7блок который вы поставили'
+GUI_COSMETIC_BWPERKS_5: 'Нео'
+GUI_COSMETIC_BWPERKS_5_LORE:
+- '§7С шансом 15% вам не наносится урона'
+GUI_COSMETIC_BWPERKS_6: 'Вторая жизнь'
+GUI_COSMETIC_BWPERKS_6_LORE:
+- '§7После того как вы погибнете'
+- '§7а ваша кровать будет сломана,'
+- '§7у вас будет 2-ой шанс возрадится'
+GUI_COSMETIC_BWPERKS_7: 'Оцелот'
+GUI_COSMETIC_BWPERKS_7_LORE:
+- '§7Пока у вас одет весь'
+- '§7сет брони, вы получаете,'
+- '§7эффект Скорость I'
+GUI_COSMETIC_BWPERKS_8: 'Повелитель душ'
+GUI_COSMETIC_BWPERKS_8_LORE:
+- '§7Убийство врага даёт вам 3 жёлтых'
+- '§7сердца на 1 минуту, если убитый'
+- '§7полностью в броне, то 6 жёлтых сердец'
+GUI_COSMETIC_BWPERKS_9: 'Повелитель молнй'
+GUI_COSMETIC_BWPERKS_9_LORE:
+- '§7Когда вы ломаете кровать,'
+- '§7всех игроков в этой команде'
+- '§7бьёт молния. Каждое финальное'
+- '§7убийство бьёт молнией во'
+- '§7всех игроков этой же команды'
 
 GUI_REPORTS_NAME: 'Report list'
 GUI_REPORTS_EMPTY: '§cВ данный момент нет report'
@@ -6246,11 +6513,33 @@ TOP_ONLINE_HOLO:
 - '§a§lTop of time players'
 - '§fTop players by number'
 - '§fplayed time'
+TOP_BLOCKPLACE_HOLO:
+- '§a§lTop по созданных блоков'
+- '§fТоп игроков по кол-ву'
+- '§fпоставленных блоков за §e%s'
+TOP_BLOCKBREAK_HOLO:
+- '§a§lTop по сломанных блоков'
+- '§fТоп игроков по кол-ву'
+- '§fразрушенных блоков за §e%s'
 HOLO_TOP_MAIN:
 - '§7Click to view another'
 - '§7Next [LMС], previous [RMC]'
 HOLO_TOP_UPDATE: '§cBefore update: §c%s'
 HOLO_TOP_UPDATE_NOW: 'Updated!'
+
+GUI_PRISON_SELL_NAME: 'Продажа предметов'
+GUI_PRISON_SELL_ITEM: '§aПродать'
+GUI_PRISON_SELL_ITEM_LORE:
+- ''
+- '§7Перенесите предмет на стекло,'
+- '§7чтобы его продать.'
+PRISON_SELL_NO_BUY: '§cИзвините, но данный предмет не подлежит продажи'
+PRISON_SELL_BUY: '§aСервер §8| §fВы продали %s§8 x%s§f и получили §a%s'
+
+PRISON_NPC_HOLO_SELL: 
+- '§aПродавец'
+PRISON_NPC_POVAR_ANDREY: 
+- '§aПовар Андрей'
 
 HOLO_INFORMATION:
 - 'Information about you'
@@ -6264,3 +6553,7 @@ HOLO_MONTHLY_TOP_INFO:
 - '§6❸ place§f - §e50§f gold'
 - '§6❹ place§f - §e40§f gold'
 - '§6❺ place§f - §e30§f gold'
+
+HOLO_SHOP:
+  - '§eМагазин'
+  - '§fНажмите, чтобы открыть!'
