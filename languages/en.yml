@@ -4995,8 +4995,9 @@ GUI_GADGETS_SPIRIT_LORE:
 - ''
 - '§e▸ Click, to open menu'
 GUI_GADGETS_BANNER_LORE:
-- ''
-- '§7Banners'
+- '§7Различные флаги и красивые картинки'
+- '§7которые вы можете одеть в качестве'
+- '§7головного убора.'
 - ''
 - '§7Open: §a%s/%s §c%s'
 - '§7Activated banner:'
@@ -5013,7 +5014,6 @@ GUI_GADGETS_EFFECT_LORE:
 - ''
 - '§e▸ Click, to open menu'
 GUI_GADGETS_HAT_LORE:
-- ''
 - '§7Тут вы можете найти лучшие шляпы'
 - '§7из гардероба! Нет, нет,'
 - '§7достать кролика из шляпы вы'
@@ -5025,7 +5025,6 @@ GUI_GADGETS_HAT_LORE:
 - ''
 - '§e▸ Click, to open menu'
 GUI_GADGETS_COMPANIONS_LORE:
-- ''
 - '§7В этом разделе есть маленькие и милые'
 - '§7создания, которые придутся вам по душе!'
 - '§7Только не держите их в клетках.'
@@ -5036,7 +5035,6 @@ GUI_GADGETS_COMPANIONS_LORE:
 - ''
 - '§e▸ Click, to open menu'
 GUI_GADGETS_DIS_LORE:
-- ''
 - '§7Испытайте на себе судьбу различных'
 - '§7существ! Будь то котик, крипер, или'
 - '§7котик, или зомби. Нет, но лучше всё'
@@ -5048,7 +5046,6 @@ GUI_GADGETS_DIS_LORE:
 - ''
 - '§e▸ Click, to open menu'
 GUI_GADGETS_PET_LORE:
-- ''
 - '§7Давно хотели себе ручного любимца?'
 - '§7Тогда вам сюда! Вы только посмотрите'
 - '§7на этого крипера, у-тю-тю.'
@@ -5059,7 +5056,6 @@ GUI_GADGETS_PET_LORE:
 - ''
 - '§e▸ Click, to open menu'
 GUI_GADGETS_MECHANISMS_LORE:
-- ''
 - '§7Интересные предметы для развлечения'
 - '§7в лобби, или подшучивания над друзьями.'
 - ''
@@ -5076,7 +5072,6 @@ GUI_GADGETS_DGG_LORE2:
 GUI_GADGETS_DGG_LORE3:
 - '§e▸ Right click, to disable all gadgets'
 GUI_GADGETS_SETTING_LORE:
-- ''
 - '§7Персональные настройки для'
 - '§7кастомизации gadgets под'
 - '§7каждого player'
@@ -5463,7 +5458,9 @@ GUI_COSMETIC_KILLEFFECT: 'Kill effects'
 GUI_COSMETIC_WINEFFECT: 'Win effects'
 GUI_COSMETIC_STARTSOUND: 'Sounds start'
 GUI_COSMETIC_COLORABLE: 'Colored shields and armor'
+GUI_COSMETIC_BWPERKS: 'Perks'
 GUI_COSMETIC_NAME: 'Cosmetics'
+
 
 GUI_COSMETIC_KILLSOUND_1: 'Creeper death'
 GUI_COSMETIC_KILLSOUND_2: 'Blaze death'
@@ -5540,7 +5537,7 @@ GUI_COSMETIC_WINEFFECT_LORE:
 - '§e▸ Click, to open menu'
 GUI_COSMETIC_STARTSOUND_LORE:
 - ''
-- '§7Покупка и активация звуков'
+- '§7Buying and activation sounds'
 - '§7которые вы услышите при'
 - '§7старте игры.'
 - ''
@@ -5551,7 +5548,7 @@ GUI_COSMETIC_STARTSOUND_LORE:
 - '§e▸ Click, to open menu'
 GUI_COSMETIC_COLORABLE_LORE:
 - ''
-- '§7Покупка и активация цветов'
+- '§7Buying and activation colors'
 - '§7в которые будут окращены ваши'
 - '§7щиты и коженная броня.'
 - ''
@@ -5562,7 +5559,7 @@ GUI_COSMETIC_COLORABLE_LORE:
 - '§e▸ Click, to open menu'
 GUI_COSMETIC_BWPERKS_LORE:
 - ''
-- '§7Покупка и активация перков'
+- '§7Buying and activation perks'
 - '§7которые украсят вашу игру'
 - '§7различными дополнениями.'
 - ''
@@ -5721,7 +5718,7 @@ GUI_COSMETIC_BWPERKS_3_LORE:
 - '§7у вас восстановится 50% опыта'
 - '§7А также после того как вы съели'
 - '§7любую еду, вы получаете 20 опыта'
-GUI_COSMETIC_BWPERKS_4: 'Шахтер'
+GUI_COSMETIC_BWPERKS_4: 'Miner'
 GUI_COSMETIC_BWPERKS_4_LORE:
 - '§7С шансом 50% вы получаете зачарование'
 - '§7§oЭффективность IV§7 на купленный предмет.'
