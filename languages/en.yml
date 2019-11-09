@@ -4370,6 +4370,7 @@ GUI_DONATEMENU_PREFIX_LORE:
 - ''
 - '§7Current color: %s'
 - '§7Current prefix: %s'
+- '§7In favorites: §a%s'
 - '§7Open: §a%s§7/§a%s §d%s'
 GUI_DONATEMENU_SMILES_LORE:
 - '§7Surprise your friends,'
@@ -5502,7 +5503,6 @@ GUI_COSMETIC_WINEFFECT_3: 'Lover'
 GUI_COSMETIC_WINEFFECT_4: 'Bastard'
 
 GUI_COSMETIC_KILLSOUND_LORE:
-- ''
 - '§7Buying and activation sounds'
 - '§7that will be playing'
 - '§7near You after Your death'
@@ -5513,7 +5513,6 @@ GUI_COSMETIC_KILLSOUND_LORE:
 - ''
 - '§e▸ Click, to open menu'
 GUI_COSMETIC_ARROWEFFECT_LORE:
-- ''
 - '§7Buying and activation effects'
 - '§7that will appear in arrows,'
 - '§7that You shot'
@@ -5524,7 +5523,6 @@ GUI_COSMETIC_ARROWEFFECT_LORE:
 - ''
 - '§e▸ Click, to open menu'
 GUI_COSMETIC_KILLEFFECT_LORE:
-- ''
 - '§7Buying and activation effects'
 - '§7that will be playing'
 - '§7near killed by You player.'
@@ -5535,7 +5533,6 @@ GUI_COSMETIC_KILLEFFECT_LORE:
 - ''
 - '§e▸ Click, to open menu'
 GUI_COSMETIC_WINEFFECT_LORE:
-- ''
 - '§7Buying and activation effects'
 - '§7that will be playing'
 - '§7near You, after Your victory'
@@ -5546,7 +5543,6 @@ GUI_COSMETIC_WINEFFECT_LORE:
 - ''
 - '§e▸ Click, to open menu'
 GUI_COSMETIC_STARTSOUND_LORE:
-- ''
 - '§7Buying and activation sounds'
 - '§7которые вы услышите при'
 - '§7старте игры.'
@@ -5557,7 +5553,6 @@ GUI_COSMETIC_STARTSOUND_LORE:
 - ''
 - '§e▸ Click, to open menu'
 GUI_COSMETIC_COLORABLE_LORE:
-- ''
 - '§7Buying and activation colors'
 - '§7в которые будут окращены ваши'
 - '§7щиты и коженная броня.'
@@ -5568,7 +5563,6 @@ GUI_COSMETIC_COLORABLE_LORE:
 - ''
 - '§e▸ Click, to open menu'
 GUI_COSMETIC_BWPERKS_LORE:
-- ''
 - '§7Buying and activation perks'
 - '§7которые украсят вашу игру'
 - '§7различными дополнениями.'
