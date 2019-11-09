@@ -6661,7 +6661,11 @@ PRISON_SELL_NO_BUY: '§cИзвините, но данный предмет не 
 PRISON_SELL_BUY: '§aСервер §8| §fВы продали %s§8 x%s§f и получили §a%s'
 
 PRISON_NPC_HOLO_SELL: 
-- '§aПродавец'
+- '§aТорговец'
+PRISON_NPC_SHOP: 
+- '§6Продавец'
+PRISON_NPC_UPGRADE: 
+- '§eКузнец'
 PRISON_NPC_POVAR_ANDREY: 
 - '§aПовар Андрей'
 
