@@ -228,6 +228,12 @@ BONUSES:
 - ''
 - 's'
 
+PREFIXS:
+- 'prefix'
+- ''
+- ''
+- 'es'
+
 REWARDS:
  - 'reward'
  - ''
