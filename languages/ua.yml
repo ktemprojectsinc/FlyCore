@@ -6629,3 +6629,13 @@ HOLO_MONTHLY_TOP_INFO:
 HOLO_SHOP:
   - '§eМагазин'
   - '§fНажмите, чтобы открыть!'
+
+HOLO_PRISON:
+- '§a§lPrison'
+- '§7Information:'
+- '§fNavigation - §7/menu'
+- '§fYour balance - §7/pbalance'
+- '§fLevel upgrade - §7/plevel'
+- '§fSell items - §7/sell'
+- '§fSelect faction - §7faction'
+- '§fMines - §7/mines'
