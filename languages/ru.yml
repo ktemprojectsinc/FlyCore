@@ -5767,9 +5767,9 @@ GUI_COSMETIC_KILLSOUND_3: 'Смерть эндермена'
 GUI_COSMETIC_KILLSOUND_4: 'Смерть гаста'
 GUI_COSMETIC_KILLSOUND_5: 'Смерть голема'
 GUI_COSMETIC_KILLSOUND_6: 'Смерть скелета'
-GUI_COSMETIC_KILLSOUND_9: 'Смерть зомби'
-GUI_COSMETIC_KILLSOUND_7: 'Смерть осла'
-GUI_COSMETIC_KILLSOUND_8: 'Смерть лошади-зомби'
+GUI_COSMETIC_KILLSOUND_7: 'Смерть зомби'
+GUI_COSMETIC_KILLSOUND_8: 'Смерть осла'
+GUI_COSMETIC_KILLSOUND_9: 'Смерть лошади-зомби'
 GUI_COSMETIC_KILLSOUND_10: 'Смерть визера'
 
 GUI_COSMETIC_KILLSOUND_1_LORE:
