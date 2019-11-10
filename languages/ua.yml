@@ -6632,10 +6632,10 @@ HOLO_SHOP:
 
 HOLO_PRISON:
 - '§a§lPrison'
-- '§7Information:'
-- '§fNavigation - §7/menu'
-- '§fYour balance - §7/pbalance'
-- '§fLevel upgrade - §7/plevel'
-- '§fSell items - §7/sell'
-- '§fSelect faction - §7faction'
-- '§fMines - §7/mines'
+- '§7Информация:'
+- '§fНавигация - §7/menu'
+- '§fВаш баланс - §7/pbalance'
+- '§fПовышение уровня - §7/plevel'
+- '§fПродажа вещей - §7/sell'
+- '§fВыбор фракции - §7faction'
+- '§fШахты - §7/mines'
