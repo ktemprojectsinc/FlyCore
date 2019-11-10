@@ -1827,11 +1827,15 @@ GUILD_TAG_NO_BUY: '§cУ вас еще не куплен тег гильдии, 
 GUILD_MOTD_COMMAND_HELP:
 - '§7/g motd info §f- просмотреть приветствие гильдии'
 - '§7/g motd set <приветствие> §f- установить приветствие гильдии'
+- '§7/g motd clear §f- удалить приветствие гильдии'
 GUILD_MOTD_INFO: '§aГильдия §8| §fПриветствие гильдии:'
 GUILD_MOTD_SET_FORMAT: '/guild motd set <приветствие>'
 GUILD_MOTD_SET_ALERT: '§2Гильдии §8| %s§7 обновил приветствие гильдии на -> §d%s'
 GUILD_MOTD_SET: '§aГильдия §8| §fПриветствие гильдии изменено на:'
 GUILD_MOTD_NO_BUY: '§cУ вас еще не куплено приветствие гильдии, купите его в /guild shop'
+GUILD_MOTD_CLEAR_ALERT: '§2Гильдии §8| %s§7 удалил приветствие гильдии'
+GUILD_MOTD_CLEAR: '§aГильдия §8| §fПриветствие гильдии удалено'
+GUILD_MOTD_NO_SET: '§cУ гильдии еще нет приветствия, создайте его /g motd set'
 
 GUILD_LEADER_FORMAT: '/guild leader <ник>'
 GUILD_LEADER_ME: '§cВы не можете передать лидерство самому себе'
