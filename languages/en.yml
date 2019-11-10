@@ -4937,8 +4937,8 @@ GUI_STATS_GLOBAL_LORE:
 - ' §8▪ §7Deaths: §a%s'
 - ' §8▪ §7Date first join: §a%s'
 
-GUI_GADGETS_NAME: 'Cosmetics'
-GUI_GADGETS_NAME_OTHER: 'Cosmetics ▸ %s'
+GUI_GADGETS_NAME: 'Gadgets'
+GUI_GADGETS_NAME_OTHER: 'Gadgets ▸ %s'
 GUI_GADGETS_EMOTE: 'Emotes'
 GUI_GADGETS_SPIRIT: 'Spirits'
 GUI_GADGETS_BANNER: 'Banners'
