@@ -1789,7 +1789,7 @@ GUILD_MOTD_COMMAND_HELP:
 GUILD_MOTD_INFO: '§aГильдия §8| §fПриветствие гильдии:'
 GUILD_MOTD_SET_FORMAT: '/guild motd set <приветствие>'
 GUILD_MOTD_SET_ALERT: '§2Гильдии §8| %s§7 обновил приветствие гильдии на -> §d%s'
-GUILD_MOTD_SET: '§aГильдия §8| §fПриветствие гильдии изменено на §a%s'
+GUILD_MOTD_SET: '§aГильдия §8| §fПриветствие гильдии изменено на:'
 GUILD_MOTD_NO_BUY: '§cУ вас еще не куплено приветствие гильдии, купите его в /guild shop'
 
 GUILD_LEADER_FORMAT: '/guild leader <ник>'
