@@ -1836,7 +1836,7 @@ GUILD_MOTD_COMMAND_HELP:
 GUILD_MOTD_INFO: '§aGuild §8| §fGuild greeting:'
 GUILD_MOTD_SET_FORMAT: '/guild motd set <greeting>'
 GUILD_MOTD_SET_ALERT: '§2Guilds §8| %s§7 updated the guild greeting to -> §d%s'
-GUILD_MOTD_SET: '§aGuild §8| §fGuild greeting changed to §a%s'
+GUILD_MOTD_SET: '§aGuild §8| §fGuild greeting changed to:'
 
 GUILD_LEADER_FORMAT: '/guild leader <player name>'
 GUILD_LEADER_ME: "§cYou can't transfer leadering to yourself"
