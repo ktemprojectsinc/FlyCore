@@ -270,7 +270,20 @@ GOLDS:
 - ''
 - 's'
 
+GOLDS_2:
+- 'gold'
+- ''
+- ''
+- 's'
+
 CORES:
+- 'core'
+- ''
+- ''
+- 's'
+
+
+CORES_2:
 - 'core'
 - ''
 - ''
