@@ -1269,7 +1269,7 @@ PLAYERINFO_STAFF:
 PLAYERINFO:
 - '§eInformation for player %s§e:'
 - '§f- Player ID: §a%s'
-- '§f- Rank: §a%s'
+- '§f- Group: §a%s'
 - '§f- Prefix: §a%s'
 - '§f- Suffix: §a%s'
 - '§f- Suffix on friend chat: §a%s'
