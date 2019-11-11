@@ -4008,6 +4008,20 @@ GUI_GAMES_FFA_LORE:
 - '§7with the team using available'
 - '§7sets. You can choose'
 - '§7and upgrade each on its own discretion.'
+GUI_GAMES_PRISON_LORE:
+- '§8Survival mode.'
+- ''
+- '§7Prison is not just a mini-game, it is a whole mode!'
+- '§7Your task is to dig blocks. More blocks> more power! '
+- '§7Upgrade things, develop, destroy enemies and become the highest!'
+- '§7Hurry! Stop by Prison and don’t miss important events! '
+- ''
+- '§8Background:'
+- '§7It is rumored that the first prisoner was - Nubik.'
+- '§7He went to the FlyCore project and asked: “who is the admin?”,'
+- '§7a then asked the donat. Admin didn’t like it and he created '
+- '§7for him a prison and gave him a life sentence. Now Nubik is destined '
+- '§7dig blocks all my life. So know, don’t do like Nubik, be a good player :) '
 GUI_GAMES_SURVIVAL_LORE:
 - '§8Выживание'
 - ''
@@ -6564,21 +6578,6 @@ HOLO_MONTHLY_TOP_INFO:
 HOLO_SHOP:
   - '§eShop'
   - '§fClick, to open!'
-
-GUI_GAMES_PRISON_LORE:
-- '§8 Survival mode.'
-- ''
-- '§7Prison is not just a mini-game, it is a whole mode!'
-- '§7Your task is to dig blocks. More blocks> more power! '
-- '§7Upgrade things, develop, destroy enemies and become the highest!'
-- '§7Hurry! Stop by Prison and don’t miss important events! '
-- ''
-- '§8 Background:'
-- '§7 It is rumored that the first prisoner was - Nubik.'
-- '§7 He went to the FlyCore project and asked: “who is the admin?”,'
-- '§7a then asked the donat. Admin didn’t like it and he created '
-- '§7for him a prison and gave him a life sentence. Now Nubik is destined '
-- '§7 dig blocks all my life. So know, don’t do like Nubik, be a good player :) '
 
 HOLO_PRISON:
 - '§a§lPrison'
