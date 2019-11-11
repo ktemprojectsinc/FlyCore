@@ -1300,7 +1300,7 @@ ME_INFO:
 - '§8#Whois'
 - "§ePlayer's information %s"
 - '§f- Player ID: §a%s'
-- '§f- Privilege: §a%s'
+- '§f- Group: §a%s'
 - '§f- IP address: §a%s'
 - '§f- Proxy: §a%s'
 - '§f- Server: §a%s'
@@ -2091,7 +2091,7 @@ FIND_OFFLINE: '§aServer §8| §fPlayer %s§f offline, last time %s was online �
 WHOIS:
 - '§eInfo about player %s'
 - ' §f- Player ID: §a%s'
-- ' §f- Rank: §a%s'
+- ' §f- Group: §a%s'
 WHOIS_ONLINE:
 - '§a§lOnline now'
 - ' §f- IP address: §a%s'
