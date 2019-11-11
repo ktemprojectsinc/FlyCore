@@ -5120,9 +5120,9 @@ GUI_GADGETS_SETTING_1_LORE:
 - '§7Активируйте данную опцию,'
 - '§7Если хотите видеть себя'
 - '§7как моба'
-GUI_GADGETS_HOLIDAY_HALLOWEEN: '§6Хэллоинский'
-GUI_GADGETS_HOLIDAY_SUMMER: '§eЛетний'
-GUI_GADGETS_HOLIDAY_NEWYEAR: '§bНовогодний'
+GUI_GADGETS_HOLIDAY_HALLOWEEN: 'Хэллоинский'
+GUI_GADGETS_HOLIDAY_SUMMER: 'Летний'
+GUI_GADGETS_HOLIDAY_NEWYEAR: 'Новогодний'
 GUI_GADGETS_ALL: '§aОбщая статистика'
 GUI_GADGETS_ALL_LORE:
 - ''
