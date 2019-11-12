@@ -6601,3 +6601,8 @@ HOLO_PRISON:
 - '§fSell items - §7/sell'
 - '§fSelect faction - §7faction'
 - '§fMines - §7/mines'
+
+HOLO_FASTSTART:
+- '§fClick on §6NPC§f,'
+- '§fto start the game §7[LMС]§f,'
+- '§for to select §aa map §7[RMС]'
