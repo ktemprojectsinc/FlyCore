@@ -1371,6 +1371,23 @@ CORE_SERVERS_INFO:
 - '§8 ▪ §fКарта: §e%s'
 - '§8 ▪ §fДоп. информация: §e%s'
 
+CORE_SERVERS_SERVERS_GROUP_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет серверов с минимальной группой'
+CORE_SERVERS_SERVERS_GROUP_TOTAL: '§aCore §8| §fВсего серверов (§a%s§f):'
+CORE_SERVERS_SERVERS_GROUP_FORMAT: 
+- ' §8• §a%s §fдоступен от %s§f и выше'
+
+CORE_SERVERS_SERVERS_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет подключенных серверов'
+CORE_SERVERS_SERVERS_TOTAL: '§aCore §8| §fВсего подключенных серверов (§a%s§f):'
+CORE_SERVERS_SERVERS_FORMAT: ' §8• §a%s §e[%s] §7(§a%s §f%s§7)'
+
+CORE_SERVERS_SETMINGROUP_FORMAT: '/core servers setmingroup <сервер> <группа>'
+CORE_SERVERS_SETMINGROUP_NOT_FOUND: '§cОшибка, сервер %s не найден в ядре'
+CORE_SERVERS_SETMINGROUP_NOT_ACCESS: '§aCore §8| §cДанный сервер является стандартным, Вы не можете установить для него минимальную группу'
+CORE_SERVERS_SETMINGROUP_DO_NOT_TEST: '§aCore §8| §6Данный сервер является тестовым, Вы не можете им управлять'
+CORE_SERVERS_SETMINGROUP_CONFIRM: '§aCore §8| §fНа сервер §a%s§f успешна установлена минимальная группа - %s'
+CORE_SERVERS_SETMINGROUP_GROUP_INVALID: '§cВы указали неверную группу, доступные группы: %s'
+CORE_SERVERS_SETMINGROUP_INFO: '§cCore §8| %s§7 установил минимальную группу %s§7 для сервера §a%s'
+
 CORE_CHANNELS_INFO_FORMAT: '/core channels info <канал>'
 CORE_CHANNELS_INFO:
 - '§aCore §8| §fИнформация о канале §a%s§f:'
@@ -1379,19 +1396,16 @@ CORE_CHANNELS_INFO:
 - '§8 ▪ §fСервера: §e%s'
 - '§8 ▪ §fИгроки: %s'
 
+CORE_CHANNELS_NOT_FOUND: '§cОшибка, канал %s не существует'
+CORE_CHANNELS_CHANNELS_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет созданных каналов'
+CORE_CHANNELS_CHANNELS_TOTAL: '§aCore §8| §fВсего каналов (§a%s§f):'
+CORE_CHANNELS_CHANNELS_FORMAT: ' §8• §a%s §7(§a%s §f%s, §a%s §f%s§7)'
+
 CORE_MEMORY:
 - '§aCore §8| §fИнформация о памяти:'
 - '§8 ▪ §fМаксимум памяти §a%s§f MB'
 - '§8 ▪ §fДоступно памяти §a%s§f MB'
 - '§8 ▪ §fСвободно памяти §a%s§f MB'
- 
-CORE_SETSERVER_FORMAT: '/core setserver <сервер> <группа>'
-CORE_SETSERVER_NOT_FOUND: '§cОшибка, сервер %s не найден в ядре'
-CORE_SETSERVER_NOT_ACCESS: '§aCore §8| §cДанный сервер является стандартным, Вы не можете установить для него минимальную группу'
-CORE_SETSERVER_DO_NOT_TEST: '§aCore §8| §6Данный сервер является тестовым, Вы не можете им управлять'
-CORE_SETSERVER_CONFIRM: '§aCore §8| §fНа сервер §a%s§f успешна установлена минимальная группа - %s'
-CORE_SETSERVER_GROUP_INVALID: '§cВы указали неверную группу, доступные группы: %s'
-CORE_SETSERVER_INFO: '§cCore §8| %s§7 установил минимальную группу %s§7 для сервера §a%s'
 
 CORE_PROXYS_NOT_EXISTS: '§aCore §8| §fВ данный момент нет подключенных прокиси'
 CORE_PROXYS_TOTAL: '§aCore §8| §fВсего подключенных прокси (§a%s§f):'
@@ -1402,20 +1416,6 @@ CORE_DATAINFO:
 - '§aCore §8| §fДата об §a%s§f:'
 - '§4 ▪ §c%s'
 - '§4 ▪ §c%s'
-
-CORE_SERVERS_GROUP_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет серверов с минимальной группой'
-CORE_SERVERS_GROUP_TOTAL: '§aCore §8| §fВсего серверов (§a%s§f):'
-CORE_SERVERS_GROUP_FORMAT: 
-- ' §8• §a%s §fдоступен от %s§f и выше'
-
-CORE_SERVERS_SERVERS_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет подключенных серверов'
-CORE_SERVERS_SERVERS_TOTAL: '§aCore §8| §fВсего подключенных серверов (§a%s§f):'
-CORE_SERVERS_SERVERS_FORMAT: ' §8• §a%s §e[%s] §7(§a%s §f%s§7)'
-
-CORE_CHANNELS_NOT_FOUND: '§cОшибка, канал %s не существует'
-CORE_CHANNELS_CHANNELS_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет созданных каналов'
-CORE_CHANNELS_CHANNELS_TOTAL: '§aCore §8| §fВсего каналов (§a%s§f):'
-CORE_CHANNELS_CHANNELS_FORMAT: ' §8• §a%s §7(§a%s §f%s, §a%s §f%s§7)'
 
 CORE_MONEY_COMMAND_HELP:
  - '§aСервер §8| §fСписок команд:'
