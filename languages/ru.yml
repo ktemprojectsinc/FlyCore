@@ -5679,6 +5679,26 @@ GUI_COSMETIC_ALL_LORE:
 - '§7Открыто косметики: §a%s/%s'
 - '§8• %s §c%s'
 
+GUI_COSMETIC_DGG: 'Отключение косметики'
+GUI_COSMETIC_DGG_DISABLE: 'Отключить всю косметику'
+GUI_COSMETIC_DGG_DISABLE_LORE:
+- ''
+- '§7Нажмите сюда, чтобы отключить'
+- '§7всю активированную косметику'
+GUI_COSMETIC_DGG_EMPTY: 'Нет активной косметики'
+GUI_COSMETIC_DGG_EMPTY_LORE:
+- ''
+- '§7В данный моменту у Вас нету,'
+- '§7активированной косметики'
+
+GUI_COSMETIC_DGG_LORE:
+- ''
+- '§7Список активной косметики:'
+GUI_COSMETIC_DGG_LORE2:
+- '§e▸ Нажмите, чтобы открыть меню'
+GUI_COSMETIC_DGG_LORE3:
+- '§e▸ ПКМ, чтобы отключить все гаджеты'
+
 GUI_COSMETIC_KILLSOUND_LORE:
 - '§7Покупка и активация звуков'
 - '§7которые будут воспроизводится'
