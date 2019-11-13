@@ -5551,6 +5551,9 @@ GUI_GADGETS_HAT_67_LORE:
 GUI_GADGETS_HAT_68: 'Тыкво-шляпа'
 GUI_GADGETS_HAT_68_LORE:
 - '§7Для тех кто отмечает §5Halloween§7 с нами :)'
+GUI_GADGETS_HAT_69: 'YouTube'
+GUI_GADGETS_HAT_69_LORE:
+- '§7Снимайте видео, делайте стримы прямо с головы!'
 GUI_GADGETS_BANNER_1: 'Белый баннер'
 GUI_GADGETS_BANNER_1_LORE:
 - '§7У Вас будет белый баннер'
