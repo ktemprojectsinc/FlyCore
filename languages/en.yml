@@ -1350,13 +1350,21 @@ PLAYER_OLD_VERSION:
 CORE_COMMAND_HELP:
  - '§7/core memory §f- Information of core memory'
  - '§7/core datainfo <player name> §f- Information of player'
- - '§7/core setserver <server> <group> §f- set minimal group join to server'
+ - '§7/core proxys §f- total connected proxies'
+ - '§7/core servers §f- help for servers'
+ - '§7/core channels §f- help for channels'
+ - '§7/core settings §f- help for settings'
+CORE_SETTINGS_COMMAND_HELP:
+ - '§7/core settings notify §f- change core notify'
+CORE_SERVERS_COMMAND_HELP:
  - '§7/core servers group §f- servers of sets group to server'
  - '§7/core servers menu §f- servers control menu'
- - '§7/core proxys §f- total connected proxies'
- - '§7/core servers §f- total connected servers'
- - '§7/core hide §f- hide your'
- - '§7/core notify §f- change core notify'
+ - '§7/core servers list §f- total connected servers'
+ - '§7/core servers info <server> §f- information of server'
+ - '§7/core servers setmingroup <server> <group> §f- set minimal group join to server'
+CORE_CHANNELS_COMMAND_HELP:
+ - '§7/core channels list §f- total server channels'
+ - '§7/core channels info <channel> §f- information of channel'
 CORE_NPC_COMMAND_HELP:
  - '§f[§cNPC§f] §fCommands list:'
  - '§7/core npc create <id> <type> <name> §f- create npc'
@@ -1371,19 +1379,51 @@ CORE_NPC_COMMAND_HELP:
  - '§7/core npc tp <id> §f- teleport to npc'
  - '§7/core npc list §f- npc list'
 
+CORE_SERVERS_INFO_FORMAT: '/core servers info <server>'
+CORE_SERVERS_INFO:
+- '§aCore §8| §fInformation of server §a%s§f:'
+- '§8 ▪ §fChannel: §e%s'
+- '§8 ▪ §fStatus: §e%s'
+- '§8 ▪ §fOnline: §e%s'
+- '§8 ▪ §fIP Address: §e%s'
+- '§8 ▪ §fPort: §e%s'
+- '§8 ▪ §fMap: §e%s'
+- '§8 ▪ §fAdditional information: §e%s'
+
+CORE_SERVERS_SERVERS_GROUP_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет серверов с минимальной группой'
+CORE_SERVERS_SERVERS_GROUP_TOTAL: '§aCore §8| §fTotal sets servers (§a%s§f):'
+CORE_SERVERS_SERVERS_GROUP_FORMAT: ' §8• §a%s §favailable from %s§f or higher'
+
+CORE_SERVERS_SERVERS_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет подключенных servers'
+CORE_SERVERS_SERVERS_TOTAL: '§aCore §8| §fTotal connected servers (§a%s§f):'
+CORE_SERVERS_SERVERS_FORMAT: ' §8• §a%s §e[%s] §7(§a%s §f%s§7)'
+
+CORE_SERVERS_SETMINGROUP_FORMAT: '/core servers setmingroup <server> <group>'
+CORE_SERVERS_SETMINGROUP_NOT_FOUND: '§cError, server %s not found to core'
+CORE_SERVERS_SETMINGROUP_NOT_ACCESS: '§aCore §8| §fCurrent server is standart, Вы не можете запретить его для входа'
+CORE_SERVERS_SETMINGROUP_DO_NOT_TEST: '§aCore §8| §6Current server is testing, Вы не можете им управлять'
+CORE_SERVERS_SETMINGROUP_CONFIRM: '§aCore §8| §fДля сервера §a%s§f успешна установлена минимальная группа - %s'
+CORE_SERVERS_SETMINGROUP_GROUP_INVALID: '§cError, group available: %s'
+CORE_SERVERS_SETMINGROUP_INFO: '§cCore §8| %s§7 set minimal group %s§7 for server §a%s'
+
+CORE_CHANNELS_INFO_FORMAT: '/core channels info <channel>'
+CORE_CHANNELS_INFO:
+- '§aCore §8| §fInformation of channel §a%s§f:'
+- '§8 ▪ §fServers: §e%s'
+- '§8 ▪ §fOnline: §e%s'
+- '§8 ▪ §fServers list: §e%s'
+- '§8 ▪ §fPlayers: %s'
+
+CORE_CHANNELS_NOT_FOUND: '§cError, channel %s not found'
+CORE_CHANNELS_CHANNELS_NOT_EXISTS: '§aCore §8| §cThis one moment, no channels created'
+CORE_CHANNELS_CHANNELS_TOTAL: '§aCore §8| §fTotal channels (§a%s§f):'
+CORE_CHANNELS_CHANNELS_FORMAT: ' §8• §a%s §7(§a%s §f%s, §a%s §f%s§7)'
+
 CORE_MEMORY:
 - '§aCore §8| §fInformation of memory:'
 - '§8 ▪ §fMax memory §a%s§f MB'
 - '§8 ▪ §fAllowed memory §a%s§f MB'
 - '§8 ▪ §fFree memory §a%s§f MB'
-
-CORE_SETSERVER_FORMAT: '/core setserver <server> <group>'
-CORE_SETSERVER_NOT_FOUND: '§cError, server %s not found to core'
-CORE_SETSERVER_NOT_ACCESS: '§aCore §8| §fДанный server является стандартным, Вы не можете запретить его для входа'
-CORE_SETSERVER_DO_NOT_TEST: '§aCore §8| §6Данный server является тестовым, Вы не можете им управлять'
-CORE_SETSERVER_CONFIRM: '§aCore §8| §fДля сервера §a%s§f успешна установлена минимальная группа - %s'
-CORE_SETSERVER_GROUP_INVALID: '§cError, group available: %s'
-CORE_SETSERVER_INFO: '§cCore §8| %s§7 set minimal group %s§7 for server §a%s'
 
 CORE_PROXYS_NOT_EXISTS: '§aCore §8| §fNow at moment not connected proxies'
 CORE_PROXYS_TOTAL: '§aCore §8| §fTotal connected proxies (§a%s§f):'
@@ -1435,17 +1475,6 @@ NPC_SETNAME_FORMAT: '/npc setname <id> <name>'
 NPC_SETNAME: '§f[§cNPC§f] §fNpc for id - §a%s§f §frenamed to %s'
 NPC_SETCOMMAND_FORMAT: '/npc setcommand <id> <command>'
 NPC_SETCOMMAND: '§f[§cNPC§f] §fYou set command §a%s§f for npc id - §e%s'
-
-CORE_SERVERS_GROUP_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет серверов с минимальной группой'
-CORE_SERVERS_GROUP_TOTAL: '§aCore §8| §fTotal sets servers (§a%s§f):'
-CORE_SERVERS_GROUP_FORMAT: ' §8• §a%s §favailable from %s§f or higher'
-
-CORE_SERVERS_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет подключенных servers'
-CORE_SERVERS_TOTAL: '§aCore §8| §fTotal connected servers (§a%s§f):'
-CORE_SERVERS_FORMAT: ' §8• §a%s §e[%s] §7(§a%s §f%s§7)'
-
-CORE_HIDE_ENABLE: '§aCore §8| §fYour enable hide for your'
-CORE_HIDE_DISABLE: '§aCore §8| §fYour disable hide'
 
 CORE_MONEY_COMMAND_HELP:
 - '§aEconomy §8| §fCommands list:'
@@ -2325,7 +2354,13 @@ MSG_DONATE: '§aPM §8| §6I §8-> %s §8| §f%s'
 MSG_ALERT_DONATE: '§aPM §8| %s §8-> §6I §8| §f%s'
 
 ONLINE_ALL: '§aServer §8| §fTotal online §a%s §f%s'
-ONLINE: '§aServer §8| §fTotal online of %s §b%s§f - §a%s §f%s'
+ONLINE:
+- '§aServer §8| §fTotal online of %s §b%s§f - §a%s §f%s'
+- ''
+- ' §a▪ §fCool people: %s'
+- ' §a▪ §fPlayers: %s'
+- ' §a▪ §fDonate: %s'
+- ' §a▪ §fStaff: %s'
 ONLINE_NOT_FOUND: '§cError, current %s not found'
 
 REPLY_FORMAT: '/reply <message>'
