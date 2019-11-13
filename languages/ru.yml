@@ -5697,7 +5697,7 @@ GUI_COSMETIC_DGG_LORE:
 GUI_COSMETIC_DGG_LORE2:
 - '§e▸ Нажмите, чтобы открыть меню'
 GUI_COSMETIC_DGG_LORE3:
-- '§e▸ ПКМ, чтобы отключить все гаджеты'
+- '§e▸ ПКМ, чтобы отключить всю косметику'
 
 GUI_COSMETIC_KILLSOUND_LORE:
 - '§7Покупка и активация звуков'
