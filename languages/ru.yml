@@ -1331,13 +1331,21 @@ PLAYER_OLD_VERSION:
 CORE_COMMAND_HELP:
  - '§7/core memory §f- информация о памяти ядра'
  - '§7/core datainfo <ник> §f- информация об игроке'
- - '§7/core setserver <сервер> <группа> §f- установить минимальную группу для входа на сервер'
+ - '§7/core proxys §f- список подключенных прокси'
+ - '§7/core servers §f- помощь по серверам'
+ - '§7/core channels §f- помощь по каналам'
+ - '§7/core settings §f- помощь по настройкам'
+CORE_SETTINGS_COMMAND_HELP:
+ - '§7/core settings notify §f- включить/выключить уведомления ядра'
+CORE_SERVERS_COMMAND_HELP:
  - '§7/core servers group §f- список серверов с минимальной группой'
  - '§7/core servers menu §f- управление серверами'
- - '§7/core proxys §f- список подключенных прокси'
- - '§7/core servers §f- список подключенных серверов'
- - '§7/core hide §f- скрыть себя(аналог /vanish)'
- - '§7/core notify §f- включить/выключить уведомления ядра'
+ - '§7/core servers list §f- список подключенных серверов'
+ - '§7/core servers info <сервер> §f- информация о сервере'
+ - '§7/core servers setmingroup <сервер> <группа> §f- установить минимальную группу для входа на сервер'
+ CORE_CHANNELS_COMMAND_HELP:
+ - '§7/core channels list §f- список каналов сервера'
+ - '§7/core channels info <канал> §f- информация о канале'
 CORE_NPC_COMMAND_HELP:
  - '§f[§cNPC§f] §fСписок команд:'
  - '§7/core npc create <id> <тип> <название> §f- создание npc'
@@ -1351,6 +1359,25 @@ CORE_NPC_COMMAND_HELP:
  - '§7/core npc info <id> §f- информация о npc'
  - '§7/core npc tp <id> §f- телепортация к npc'
  - '§7/core npc list §f- список всех npc'
+
+CORE_SERVERS_INFO_FORMAT: '/core servers info <сервер>'
+CORE_SERVERS_INFO:
+- '§aCore §8| §fИнформация о сервере §a%s§f:'
+- '§8 ▪ §fКанал: §e%s'
+- '§8 ▪ §fСтатус: §e%s'
+- '§8 ▪ §fОнлайн: §e%s'
+- '§8 ▪ §fIP Адрес: §e%s'
+- '§8 ▪ §fПорт: §e%s'
+- '§8 ▪ §fКарта: §e%s'
+- '§8 ▪ §fДоп. информация: §e%s'
+
+CORE_CHANNELS_INFO_FORMAT: '/core channels info <канал>'
+CORE_CHANNELS_INFO:
+- '§aCore §8| §fИнформация о канале §a%s§f:'
+- '§8 ▪ §fСерверов: §e%s'
+- '§8 ▪ §fОнлайн: §e%s'
+- '§8 ▪ §fСервера: §e%s'
+- '§8 ▪ §fИгроки: %s'
 
 CORE_MEMORY:
 - '§aCore §8| §fИнформация о памяти:'
@@ -1375,6 +1402,49 @@ CORE_DATAINFO:
 - '§aCore §8| §fДата об §a%s§f:'
 - '§4 ▪ §c%s'
 - '§4 ▪ §c%s'
+
+CORE_SERVERS_GROUP_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет серверов с минимальной группой'
+CORE_SERVERS_GROUP_TOTAL: '§aCore §8| §fВсего серверов (§a%s§f):'
+CORE_SERVERS_GROUP_FORMAT: 
+- ' §8• §a%s §fдоступен от %s§f и выше'
+
+CORE_SERVERS_SERVERS_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет подключенных серверов'
+CORE_SERVERS_SERVERS_TOTAL: '§aCore §8| §fВсего подключенных серверов (§a%s§f):'
+CORE_SERVERS_SERVERS_FORMAT: ' §8• §a%s §e[%s] §7(§a%s §f%s§7)'
+
+CORE_CHANNELS_NOT_FOUND: '§cОшибка, канал %s не существует'
+CORE_CHANNELS_CHANNELS_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет созданных каналов'
+CORE_CHANNELS_CHANNELS_TOTAL: '§aCore §8| §fВсего каналов (§a%s§f):'
+CORE_CHANNELS_CHANNELS_FORMAT: ' §8• §a%s §7(§a%s §f%s, §a%s §f%s§7)'
+
+CORE_MONEY_COMMAND_HELP:
+ - '§aСервер §8| §fСписок команд:'
+ - '§c/core money <ключ> check <ник> §f- проверка баланса'
+ - '§c/core money <ключ> add <ник> <монеты> §f- выдача монет'
+ - '§c/core money <ключ> rem <ник> <монеты> §f- удаление монет'
+CORE_MONEY_CHECK: '§aЭкономика §8| §fНа аккаунте %s§f: §a%s§f %s, §e%s§f %s и §b%s§f %s'
+CORE_MONEY_CHECK_FORMAT: '/core money <ключ> check <ник>'
+CORE_MONEY_ERROR: '§cВведена неверная сумма'
+CORE_MONEY_ADD: '§aЭкономика §8| §fНа аккаунт %s§f добавлено §a%s §fмонет'
+CORE_MONEY_ADD_FORMAT: '/core money <ключ> add <ник> <монеты>'
+CORE_MONEY_REMOVE: '§aЭкономика §8| §fС аккаунта %s§f снятно §a%s §fмонет'
+CORE_MONEY_REMOVE_FORMAT: '/core money <ключ> rem <ник> <монеты>'
+
+CORE_WRONGKEY: '§cОшибка, не верный ключ'
+CORE_REASON_WRONGKEY: '§4Ошибка #14 §cВведен не верный ключ.'
+
+CORE_ALREADY_ADMINISTRATOR: '§cДанный игрок уже администратор'
+CORE_SETADMINISTRATOR: '§eИгроку %s§e был установлен статус администратор'
+CORE_SETADMINISTRATOR_FORMAT: '/core setadministrator <ключ> <ник>'
+CORE_REMOVEADMINISTRATOR: '§eАдминистратор %s§e был удален'
+CORE_NO_ADMINISTRATOR: '§cИгрок %s §cне является администратором'
+CORE_REMOVEADMINISTRATOR_FORMAT: '/core removeadministrator <ключ> <администратор>'
+CORE_DELSTATS: '§eС игрока %s §eбыли сняты все привилегии'
+CORE_NO_PERSONAL: '§cИгрок %s §cне состоит в персонале или статусе'
+CORE_DELSTATS_FORMAT: '/core delstats <ключ> <ник>'
+CORE_SETSTATS: '§eИгроку %s§e установлен статус %s'
+CORE_STATS_INVALID: '§cВы указали неверный статус. Доступные статусы: §fTester, Builder, YouTube, Junior, Helper, Moder'
+CORE_SETSTATS_FORMAT: '/core setstats <ключ> <ник> <статус>'
 
 NPC_CREATE_FORMAT: '/npc create <id> <тип> <название>'
 NPC_ALREADY_EXIST: '§cОшибка, npc с id %s уже существует'
@@ -1416,47 +1486,6 @@ NPC_SETNAME_FORMAT: '/npc setname <id> <имя>'
 NPC_SETNAME: '§f[§cNPC§f] §fNpc с id - §a%s§f §fпереименован в %s'
 NPC_SETCOMMAND_FORMAT: '/npc setcommand <id> <команда>'
 NPC_SETCOMMAND: '§f[§cNPC§f] §fВы установили команду §a%s§f npc с id - §e%s'
-
-CORE_SERVERS_GROUP_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет серверов с минимальной группой'
-CORE_SERVERS_GROUP_TOTAL: '§aCore §8| §fВсего серверов (§a%s§f):'
-CORE_SERVERS_GROUP_FORMAT: 
-- ' §8• §a%s §fдоступен от %s§f и выше'
-
-CORE_SERVERS_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет подключенных серверов'
-CORE_SERVERS_TOTAL: '§aCore §8| §fВсего подключенных серверов (§a%s§f):'
-CORE_SERVERS_FORMAT: ' §8• §a%s §e[%s] §7(§a%s §f%s§7)'
-
-CORE_HIDE_ENABLE: '§aCore §8| §fВы скрыли себя'
-CORE_HIDE_DISABLE: '§aCore §8| §fВы отключили скрытие'
-
-CORE_MONEY_COMMAND_HELP:
- - '§aСервер §8| §fСписок команд:'
- - '§c/core money <ключ> check <ник> §f- проверка баланса'
- - '§c/core money <ключ> add <ник> <монеты> §f- выдача монет'
- - '§c/core money <ключ> rem <ник> <монеты> §f- удаление монет'
-CORE_MONEY_CHECK: '§aЭкономика §8| §fНа аккаунте %s§f: §a%s§f %s, §e%s§f %s и §b%s§f %s'
-CORE_MONEY_CHECK_FORMAT: '/core money <ключ> check <ник>'
-CORE_MONEY_ERROR: '§cВведена неверная сумма'
-CORE_MONEY_ADD: '§aЭкономика §8| §fНа аккаунт %s§f добавлено §a%s §fмонет'
-CORE_MONEY_ADD_FORMAT: '/core money <ключ> add <ник> <монеты>'
-CORE_MONEY_REMOVE: '§aЭкономика §8| §fС аккаунта %s§f снятно §a%s §fмонет'
-CORE_MONEY_REMOVE_FORMAT: '/core money <ключ> rem <ник> <монеты>'
-
-CORE_WRONGKEY: '§cОшибка, не верный ключ'
-CORE_REASON_WRONGKEY: '§4Ошибка #14 §cВведен не верный ключ.'
-
-CORE_ALREADY_ADMINISTRATOR: '§cДанный игрок уже администратор'
-CORE_SETADMINISTRATOR: '§eИгроку %s§e был установлен статус администратор'
-CORE_SETADMINISTRATOR_FORMAT: '/core setadministrator <ключ> <ник>'
-CORE_REMOVEADMINISTRATOR: '§eАдминистратор %s§e был удален'
-CORE_NO_ADMINISTRATOR: '§cИгрок %s §cне является администратором'
-CORE_REMOVEADMINISTRATOR_FORMAT: '/core removeadministrator <ключ> <администратор>'
-CORE_DELSTATS: '§eС игрока %s §eбыли сняты все привилегии'
-CORE_NO_PERSONAL: '§cИгрок %s §cне состоит в персонале или статусе'
-CORE_DELSTATS_FORMAT: '/core delstats <ключ> <ник>'
-CORE_SETSTATS: '§eИгроку %s§e установлен статус %s'
-CORE_STATS_INVALID: '§cВы указали неверный статус. Доступные статусы: §fTester, Builder, YouTube, Junior, Helper, Moder'
-CORE_SETSTATS_FORMAT: '/core setstats <ключ> <ник> <статус>'
 
 HACK_REASON: '§4Ошибка #3 §cПодозрение на взлом.'
 VZLOM_REASON: '§cОшибка #14 Пожалуйста сообщите в группу » §a§nvk.me/flycore'
