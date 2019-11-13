@@ -1343,7 +1343,7 @@ CORE_SERVERS_COMMAND_HELP:
  - '§7/core servers list §f- список подключенных серверов'
  - '§7/core servers info <сервер> §f- информация о сервере'
  - '§7/core servers setmingroup <сервер> <группа> §f- установить минимальную группу для входа на сервер'
- CORE_CHANNELS_COMMAND_HELP:
+CORE_CHANNELS_COMMAND_HELP:
  - '§7/core channels list §f- список каналов сервера'
  - '§7/core channels info <канал> §f- информация о канале'
 CORE_NPC_COMMAND_HELP:
