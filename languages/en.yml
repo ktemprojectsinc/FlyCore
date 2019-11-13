@@ -3118,7 +3118,7 @@ GUI_DONATE_FAQ_DIAMOND:
 - ' §8• §7Вторая привилегия по своей ценности,'
 - ' §8• §7но не по значимости привилегия.'
 - ' §8• §7Имея данную привилегию вы получаете возможность'
-- ' §8• §7полёта во всех лобби, просмотр серверного топа игроков(§f/toplist§7),'
+- ' §8• §7полёта во всех лобби, быстрый старт с любого режима(§f/play§7),'
 - ' §8• §7доступ к быстрым сообщениям §f/fm§7, отключением задержки в меню,'
 - ' §8• §7отключением задержки при телепортации на режиме Anarchy,'
 - ' §8• §7полный доступ к WorldEdit на режиме Creative,'
@@ -3304,6 +3304,7 @@ GUI_DONATE_EMERALD_ALL_LORE:
 - ' §8▪ §7No delay on §f/skin'
 - ' §8▪ §7Available glow in all lobbies'
 - ' §8▪ §7Coin multiplier §fx1.75'
+- ' §8▪ §7Available fast start - §f/play <game>'
 - ' §8▪ §7Access to features menu - §f/dm'
 - ' §8▪ §7Available launch of fireworkds - §f/fw'
 - ' §8▪ §7Available donate chat - §f/dc'
@@ -3373,6 +3374,7 @@ GUI_DONATE_GOLEM_ALL_LORE:
 - ' §8▪ §7Available glow in all lobbies'
 - ' §8▪ §7No delay on §f/skin'
 - ' §8▪ §7Coin multiplier §fx2.0'
+- ' §8▪ §7Available fast start - §f/play <game>'
 - ' §8▪ §7Access to features menu - §f/dm'
 - ' §8▪ §7Available set to your suffix - §f/suffix <suffix>'
 - ' §8▪ §7Ability to look at other peoples statistics - §f/stats <name>'
@@ -3452,6 +3454,7 @@ GUI_DONATE_ENDERMAN_ALL_LORE:
 - ' §8▪ §7Available item to disable or enable delay menu'
 - ' §8▪ §7No delay on §f/skin'
 - ' §8▪ §7Coin multiplier §fx2.0'
+- ' §8▪ §7Available fast start - §f/play <game>'
 - ' §8▪ §7Access to features menu - §f/dm'
 - ' §8▪ §7Available set to your suffix - §f/suffix <suffix>'
 - ' §8▪ §7Ability to look at other peoples statistics - §f/stats <name>'
@@ -5540,6 +5543,29 @@ GUI_COSMETIC_COLORABLE: 'Colored shields and armor'
 GUI_COSMETIC_BWPERKS: 'Perks'
 GUI_COSMETIC_NAME: 'Cosmetics'
 
+GUI_COSMETIC_ALL: '§aCommon stats'
+GUI_COSMETIC_ALL_LORE:
+- ''
+- '§7Open cosmetics: §a%s/%s'
+- '§8• %s §c%s'
+GUI_COSMETIC_DGG: 'Disabled cosmetics'
+GUI_COSMETIC_DGG_DISABLE: 'Disable all cosmetic'
+GUI_COSMETIC_DGG_DISABLE_LORE:
+- ''
+- '§7Click here, to disable'
+- '§7all activated cosmetic'
+GUI_COSMETIC_DGG_EMPTY: 'No activated cosmetic'
+GUI_COSMETIC_DGG_EMPTY_LORE:
+- ''
+- '§7At the moment, you no'
+- '§7activated cosmetic'
+GUI_COSMETIC_DGG_LORE:
+- ''
+- '§7List of activated cosmetic:'
+GUI_COSMETIC_DGG_LORE2:
+- '§e▸ Click, to open menu'
+GUI_COSMETIC_DGG_LORE3:
+- '§e▸ Right click, to disable all cosmetic'
 
 GUI_COSMETIC_KILLSOUND_1: 'Creeper death'
 GUI_COSMETIC_KILLSOUND_2: 'Blaze death'
