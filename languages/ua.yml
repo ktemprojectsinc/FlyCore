@@ -4965,17 +4965,17 @@ SITESHOP_GOLDEN_APPLE: 'Золотые яблоки'
 SITESHOP_POWDER: 'Порох'
 SITESHOP_TNT: 'TNT'
 
-GUI_GAMESERVERS_NAME: 'Выберите тип игры'
+GUI_GAMESERVERS_NAME: 'Вибір мапи'
 GUI_GAMESERVERS_NAME_MAP: 'Выбор карты'
-GUI_GAMESERVERS_BEST: '§eЛучший сервер'
+GUI_GAMESERVERS_BEST: '§eКращий сервер'
 GUI_GAMESERVERS_NOT_AVAILABLE: '§cНет доступных серверов'
 GUI_GAMESERVERS_NOT_AVAILABLE_LORE:
 - '§7В данный момент нет'
 - '§7ни одного свободного сервера'
 GUI_GAMESERVERS_NOT_FOUND_LORE:
 - ''
-- '§cОшибка, не могу найти'
-- '§cподходящие сервера'
+- '§cПомилка, не можу знайти'
+- '§cвідповідні сервери'
 GUI_GAMESERVERS_AVAILABLE_LORE:
 - '§7Для игры доступно:'
 - ' §c▪ §f%s §7%s'
@@ -4991,6 +4991,7 @@ GUI_GAMESERVERS_BEST_CONNECT_LORE:
 - ' §7Сервер: §b%s'
 - ' §7Онлайн: §a%s§8/§c%s'
 - ' §7Карта: §e%s'
+- ' §7Статус: %s'
 GUI_GAMESERVERS_BEST_NOT_FOUND_LORE:
 - '§cНет наилучшей арены'
 GUI_GAMESERVERS_BEST_INFO_LORE:
@@ -5015,8 +5016,10 @@ GUI_SPECTATOR_NOT_FOUND_LORE:
 - '§7ні одного сервера, де'
 - '§7йде гра'
 GUI_SPECTATOR_LORE:
-- '§7Мапа: §b%s'
-- '§7Онлайн: §a%s§7/§c%s'
+- '§7Арена:'
+- ' §7Мапа: §b%s'
+- ' §7Онлайн: §a%s§7/§c%s'
+- ' §7Статус: %s'
 - ''
 - '§e▸ Натисніть, щоб спостерігати за грою'
 
