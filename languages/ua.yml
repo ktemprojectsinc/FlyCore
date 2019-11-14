@@ -4982,35 +4982,43 @@ GUI_GAMESERVERS_AVAILABLE_LORE:
 - ' §c▪ §f%s §7%s'
 - ''
 - '§7Наилучшая арена:'
-GUI_GAMESERVERS_BEST_NOT_FOUND_LORE:
-- '§cНет наилучшей арены'
 GUI_GAMESERVERS_BEST_SELECT_LORE:
-- '§7Выбор самого оптимального'
-- '§7сервера для игры.'
+- '§7Вибір самого оптимального'
+- '§7серверу для гри'
 - ''
 - '§7В данный момент это:'
 GUI_GAMESERVERS_BEST_CONNECT_LORE:
 - ' §7Сервер: §b%s'
 - ' §7Онлайн: §a%s§8/§c%s'
 - ' §7Карта: §e%s'
-- ''
-- '§e▸ Перейти на сервер %s'
-GUI_GAMESERVERS_BEST_AVAILABLE_LORE:
-- ' §7Сервер: §b%s'
-- ' §7Онлайн: §a%s§8/§c%s'
-- ' §7Карта: §e%s'
+GUI_GAMESERVERS_BEST_NOT_FOUND_LORE:
+- '§cНет наилучшей арены'
 GUI_GAMESERVERS_BEST_INFO_LORE:
 - ''
 - '§7На режиме играет §b%s §7%s'
-- ''
-- '§e▸ Открыть список серверов'
+GUI_GAMESERVERS_BEST_INFO_OPEN_LORE:
+- '§e▸ ПКМ, чтобы открыть список карт'
+GUI_GAMESERVERS_BEST_CONNECT_SERVER_LORE:
+- '§e▸ Перейти на сервер %s'
 GUI_GAMESERVERS_MAPS_LORE:
-- '§7Всего арен: §a%s'
-- '§7Свободных арен: §c%s'
+- '§7Всього арен: §c%s'
+- '§7Вільних арен: §c%s'
 GUI_GAMESERVERS_SOLO_MODE: 'Одиночный режим'
 GUI_GAMESERVERS_TEAM_MODE: 'Командный режим'
 GUI_GAMESERVERS_DUO_MODE: 'Парный режим'
 GUI_GAMESERVERS_RUSH_MODE: 'Быстрый режим'
+
+GUI_SPECTATOR_NAME: 'Наблюдение за игрой'
+GUI_SPECTATOR_NOT_FOUND_NAME: '§cНемає запущених серверів'
+GUI_SPECTATOR_NOT_FOUND_LORE:
+- '§7На даний момент немає'
+- '§7ні одного сервера, де'
+- '§7йде гра'
+GUI_SPECTATOR_LORE:
+- '§7Мапа: §b%s'
+- '§7Онлайн: §a%s§7/§c%s'
+- ''
+- '§e▸ Натисніть, щоб спостерігати за грою'
 
 GUI_STATS_NAME: 'Статистика'
 GUI_STATS_NAME_OTHER: 'Статистика игрока - %s'
