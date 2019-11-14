@@ -5006,24 +5006,22 @@ SITESHOP_POWDER: 'Порох'
 SITESHOP_TNT: 'TNT'
 
 GUI_GAMESERVERS_NAME: 'Выберите тип игры'
-GUI_GAMESERVERS_NAME_MAP: 'Выбор карты'
-GUI_GAMESERVERS_BEST: '§eЛучший сервер'
+GUI_GAMESERVERS_NAME_MAP: 'Вибір мапи'
+GUI_GAMESERVERS_BEST: '§eКращий сервер'
 GUI_GAMESERVERS_NOT_AVAILABLE: '§cНет доступных серверов'
 GUI_GAMESERVERS_NOT_AVAILABLE_LORE:
 - '§7В данный момент нет'
 - '§7ни одного свободного сервера'
 GUI_GAMESERVERS_NOT_FOUND_LORE:
 - ''
-- '§cОшибка, не могу найти'
-- '§cподходящие сервера'
+- '§cПомилка, не можу знайти'
+- '§cвідповідні сервери'
 GUI_GAMESERVERS_AVAILABLE_LORE:
 - '§7Для игры доступно:'
 - ' §c▪ §f%s §7%s'
 - ' §c▪ §f%s §7%s'
 - ''
 - '§7Наилучшая арена:'
-GUI_GAMESERVERS_BEST_NOT_FOUND_LORE:
-- '§cНет наилучшей арены'
 GUI_GAMESERVERS_BEST_SELECT_LORE:
 - '§7Выбор самого оптимального'
 - '§7сервера для игры.'
@@ -5033,12 +5031,13 @@ GUI_GAMESERVERS_BEST_CONNECT_LORE:
 - ' §7Сервер: §b%s'
 - ' §7Онлайн: §a%s§8/§c%s'
 - ' §7Карта: §e%s'
+GUI_GAMESERVERS_BEST_NOT_FOUND_LORE:
+- '§cНет наилучшей арены'
 GUI_GAMESERVERS_BEST_INFO_LORE:
 - ''
 - '§7На режиме играет §b%s §7%s'
-- ''
 GUI_GAMESERVERS_BEST_INFO_OPEN_LORE:
-- '§e▸ ПКМ, чтобы открыть список серверов'
+- '§e▸ ПКМ, чтобы открыть список карт'
 GUI_GAMESERVERS_BEST_CONNECT_SERVER_LORE:
 - '§e▸ Перейти на сервер %s'
 GUI_GAMESERVERS_MAPS_LORE:
@@ -5048,6 +5047,18 @@ GUI_GAMESERVERS_SOLO_MODE: 'Одиночный режим'
 GUI_GAMESERVERS_TEAM_MODE: 'Командный режим'
 GUI_GAMESERVERS_DUO_MODE: 'Парный режим'
 GUI_GAMESERVERS_RUSH_MODE: 'Быстрый режим'
+
+GUI_SPECTATOR_NAME: 'Наблюдение за игрой'
+GUI_SPECTATOR_NOT_FOUND_NAME: '§cНет запущенных серверов'
+GUI_SPECTATOR_NOT_FOUND_LORE:
+- '§7В данный момент нет'
+- '§7ни одного сервера, где'
+- '§7идет игра'
+GUI_SPECTATOR_LORE:
+- '§7Карта: §b%s'
+- '§7Онлайн: §a%s§7/§c%s'
+- ''
+- '§e▸ Нажмите, чтобы наблюдать за игрой'
 
 GUI_STATS_NAME: 'Статистика'
 GUI_STATS_NAME_OTHER: 'Статистика игрока - %s'
