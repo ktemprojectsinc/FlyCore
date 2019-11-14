@@ -36,6 +36,11 @@ OCTOBER: 'October'
 NOVEMBER: 'November'
 DECEMBER: 'December'
 
+GAMESTATE_WAITING: '§6Waiting'
+GAMESTATE_STARTING: '§eStarting'
+GAMESTATE_GAME: '§cGame'
+GAMESTATE_END: '§cGame end'
+
 SERVER_REDIRECT: '§aServer §8| §fYou connected to §a%s'
 SERVER_REDIRECT_NOT_FOUND: '§aServer §8| §fHappened error on connected to §a%s§f current server not found'
 
@@ -4937,8 +4942,8 @@ GUI_SPECTATOR_NOT_FOUND_LORE:
 GUI_SPECTATOR_LORE:
 - '§7Arena:'
 - ' §7Map: §b%s'
-- ' §7Online: §a%s§7/§c%s'
 - ' §7Status: %s'
+- ' §7Online: §a%s§7/§c%s'
 - ''
 - '§e§e▸ Click to spectate a game'
 
