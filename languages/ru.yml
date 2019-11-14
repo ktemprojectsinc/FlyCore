@@ -5033,17 +5033,14 @@ GUI_GAMESERVERS_BEST_CONNECT_LORE:
 - ' §7Сервер: §b%s'
 - ' §7Онлайн: §a%s§8/§c%s'
 - ' §7Карта: §e%s'
-- ''
-- '§e▸ Перейти на сервер %s'
-GUI_GAMESERVERS_BEST_AVAILABLE_LORE:
-- ' §7Сервер: §b%s'
-- ' §7Онлайн: §a%s§8/§c%s'
-- ' §7Карта: §e%s'
 GUI_GAMESERVERS_BEST_INFO_LORE:
 - ''
 - '§7На режиме играет §b%s §7%s'
 - ''
-- '§e▸ Открыть список серверов'
+GUI_GAMESERVERS_BEST_INFO_OPEN_LORE:
+- '§e▸ ПКМ, чтобы открыть список серверов'
+GUI_GAMESERVERS_BEST_CONNECT_SERVER_LORE:
+- '§e▸ Перейти на сервер %s'
 GUI_GAMESERVERS_MAPS_LORE:
 - '§7Всего арен: §a%s'
 - '§7Свободных арен: §c%s'
