@@ -4894,16 +4894,14 @@ GUI_GAMESERVERS_NOT_AVAILABLE_LORE:
 - '§7no one free server'
 GUI_GAMESERVERS_NOT_FOUND_LORE:
 - ''
-- '§cError, не могу найти'
-- '§cподходящие сервера'
+- '§cError, no available'
+- '§cserver was found'
 GUI_GAMESERVERS_AVAILABLE_LORE:
 - '§7On game available:'
 - ' §c▪ §f%s §7%s'
 - ' §c▪ §f%s §7%s'
 - ''
 - '§7Best arena:'
-GUI_GAMESERVERS_BEST_NOT_FOUND_LORE:
-- '§cNot available arena'
 GUI_GAMESERVERS_BEST_SELECT_LORE:
 - '§7The choice of the most optimal'
 - '§7server for game.'
@@ -4913,17 +4911,15 @@ GUI_GAMESERVERS_BEST_CONNECT_LORE:
 - ' §7Server: §b%s'
 - ' §7Online: §a%s§7/§c%s'
 - ' §7Map: §e%s'
-- ''
-- '§e▸ Click to connect %s'
-GUI_GAMESERVERS_BEST_AVAILABLE_LORE:
-- ' §7Server: §b%s'
-- ' §7Online: §a%s§7/§c%s'
-- ' §7Map: §e%s'
+GUI_GAMESERVERS_BEST_NOT_FOUND_LORE:
+- '§cNot available arena'
 GUI_GAMESERVERS_BEST_INFO_LORE:
 - ''
 - '§7On mode played §b%s §7%s'
-- ''
-- '§e▸ Open servers list'
+GUI_GAMESERVERS_BEST_INFO_OPEN_LORE:
+- '§e▸ Right click, to open maps list'
+GUI_GAMESERVERS_BEST_CONNECT_SERVER_LORE:
+- '§e▸ Click to connect %s'
 GUI_GAMESERVERS_MAPS_LORE:
 - '§7Total arenas: §a%s'
 - '§7Free arenas: §c%s'
@@ -4931,6 +4927,17 @@ GUI_GAMESERVERS_SOLO_MODE: 'Solo mode'
 GUI_GAMESERVERS_TEAM_MODE: 'Team mode'
 GUI_GAMESERVERS_DUO_MODE: 'Double mode'
 GUI_GAMESERVERS_RUSH_MODE: 'Rush mode'
+
+GUI_SPECTATOR_NAME: 'Spectate a game'
+GUI_SPECTATOR_NOT_FOUND_NAME: '§cStarted server not found'
+GUI_SPECTATOR_NOT_FOUND_LORE:
+- '§7No one server with started'
+- '§7game was found'
+GUI_SPECTATOR_LORE:
+- '§7Map: §b%s'
+- '§7Online: §a%s§7/§c%s'
+- ''
+- '§e§e▸ Click to spectate a game'
 
 GUI_STATS_NAME: 'Stats'
 GUI_STATS_NAME_OTHER: 'Stats of player - %s'
