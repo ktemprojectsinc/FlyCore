@@ -4911,6 +4911,7 @@ GUI_GAMESERVERS_BEST_CONNECT_LORE:
 - ' §7Server: §b%s'
 - ' §7Online: §a%s§7/§c%s'
 - ' §7Map: §e%s'
+- ' §7Status: %s'
 GUI_GAMESERVERS_BEST_NOT_FOUND_LORE:
 - '§cNot available arena'
 GUI_GAMESERVERS_BEST_INFO_LORE:
@@ -4934,8 +4935,10 @@ GUI_SPECTATOR_NOT_FOUND_LORE:
 - '§7No one server with started'
 - '§7game was found'
 GUI_SPECTATOR_LORE:
-- '§7Map: §b%s'
-- '§7Online: §a%s§7/§c%s'
+- '§7Arena:'
+- ' §7Map: §b%s'
+- ' §7Online: §a%s§7/§c%s'
+- ' §7Status: %s'
 - ''
 - '§e§e▸ Click to spectate a game'
 
