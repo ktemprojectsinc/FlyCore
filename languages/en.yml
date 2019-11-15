@@ -3990,7 +3990,7 @@ GUI_GAMES_CONNECT_1:
 - '§8  §eClick to connect'
 - '§9▶ §eClick to connect'
 - '§9  §eClick to connect'
-GUI_GAMES_RECOMMEND: '§7Recomend version to game:'
+GUI_GAMES_RECOMMEND: 'Recomend version to game:'
 
 GUI_GAMES_SKYWARS_LORE:
 - '§8Battles on the islands'
