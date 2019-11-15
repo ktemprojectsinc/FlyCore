@@ -6598,7 +6598,7 @@ HOLO_DONATE:
 
 HOLO_ONLINE_UPDATER: '§fOn mode §a%s§f %s playing'
 HOLO_SELECTOR_GAME_CHANNEL: '§7Click to connect'
-HOLO_REPLACER_CHANNEL: 'On mode playing §a%s§r %s'
+HOLO_REPLACER_CHANNEL: 'On mode playing §a%s§8 %s'
 HOLO_REPLACER_CHANNEL_ERROR: '§cServers not found!'
 
 GAME_UPDATE_NAME: '§lUPDATE!'
