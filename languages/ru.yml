@@ -3375,7 +3375,7 @@ GUI_DONATE_BRICK_PRISON_LORE:
 - ' §4✕ §7Возможности отсутствуют'
 - ''
 
-GUI_DONATE_EMERALD_ALL_LORE:
+GUI_DONATE_CREEPER_ALL_LORE:
 - ''
 - ' §8▪ §7Префикс %s'
 - ' §8▪ §7Приветствие при входе'
@@ -3406,7 +3406,7 @@ GUI_DONATE_EMERALD_ALL_LORE:
 - ' §8▪ §7Увеличен лимит на получение монет до §f15,000§7 монет'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f20,000§7 монет'
 - ''
-GUI_DONATE_EMERALD_BEDWARS_LORE:
+GUI_DONATE_CREEPER_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Доступны скрытые перки'
 - ' §8▪ §7Снижена задержка на прыжок (§c17 сек§7)'
@@ -3414,7 +3414,7 @@ GUI_DONATE_EMERALD_BEDWARS_LORE:
 - ' §8▪ §7Снижена задержка §9телепортации на спавн§7 (§c3 сек§7)'
 - ' §8▪ §7Открыть GUI стола зачарований - §f/ie'
 - ''
-GUI_DONATE_EMERALD_ANARCHY_LORE:
+GUI_DONATE_CREEPER_ANARCHY_LORE:
 - ''
 - ' §8▪ §7Нет задержки при телепортации'
 - ' §8▪ §7Открыть GUI верстака - §f/workbench'
@@ -3430,7 +3430,7 @@ GUI_DONATE_EMERALD_ANARCHY_LORE:
 - ' §8▪ §7Установить время для себя - §f/ptime'
 - ' §8▪ §7Особый набор вещей каждый день (§f/kit creeper§7)'
 - ''
-GUI_DONATE_EMERALD_CREATIVE_LORE:
+GUI_DONATE_CREEPER_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Доступно §c5§7 участков (§f/p auto§7)'
 - ' §8▪ §7Доступно §c3§7 варпов (§f/setwarp <название>§7)'
@@ -3439,19 +3439,19 @@ GUI_DONATE_EMERALD_CREATIVE_LORE:
 - ' §8▪ §7Доступны все команды из WorldEdit'
 - ' §8▪ §7Доступ к AST (создание крутых стоек для брони)'
 - ''
-GUI_DONATE_EMERALD_PARKOUR_LORE:
+GUI_DONATE_CREEPER_PARKOUR_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
-GUI_DONATE_EMERALD_LUCKYWARS_LORE:
+GUI_DONATE_CREEPER_LUCKYWARS_LORE:
 - ''
 - ' §8▪ §7Открыть GUI стола зачарований - §f/ie'
 - ''
-GUI_DONATE_EMERALD_SKYPVP_LORE:
+GUI_DONATE_CREEPER_SKYPVP_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
-GUI_DONATE_EMERALD_PRISON_LORE:
+GUI_DONATE_CREEPER_PRISON_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
