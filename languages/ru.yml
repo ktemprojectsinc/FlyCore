@@ -3293,6 +3293,10 @@ GUI_DONATE_CLAY_SKYPVP_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
+GUI_DONATE_CLAY_PRISON_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
 
 GUI_DONATE_BRICK_ALL_LORE:
 - ''
@@ -3355,6 +3359,10 @@ GUI_DONATE_BRICK_LUCKYWARS_LORE:
 - ' §4✕ §7Возможности отсутствуют'
 - ''
 GUI_DONATE_BRICK_SKYPVP_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
+GUI_DONATE_BRICK_PRISON_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
@@ -3427,6 +3435,10 @@ GUI_DONATE_EMERALD_LUCKYWARS_LORE:
 - ' §8▪ §7Открыть GUI стола зачарований - §f/ie'
 - ''
 GUI_DONATE_EMERALD_SKYPVP_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
+GUI_DONATE_EMERALD_PRISON_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
@@ -3516,6 +3528,10 @@ GUI_DONATE_LAVA_SKYPVP_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
+GUI_DONATE_LAVA_PRISON_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
 
 GUI_DONATE_ENDERMAN_ALL_LORE:
 - ''
@@ -3600,6 +3616,10 @@ GUI_DONATE_ENDERMAN_SKYPVP_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
+GUI_DONATE_ENDERMAN_PRISON_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
 GUI_DONATE_YOUTUBE_ALL_LORE:
 - ''
 - ' §8▪ §7Префикс %s'
@@ -3666,6 +3686,10 @@ GUI_DONATE_YOUTUBE_LUCKYWARS_LORE:
 - ' §8▪ §7Открыть GUI стола зачарований - §f/ie'
 - ''
 GUI_DONATE_YOUTUBE_SKYPVP_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
+GUI_DONATE_YOUTUBE_PRISON_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
@@ -3741,6 +3765,10 @@ GUI_DONATE_JUNIOR_LUCKYWARS_LORE:
 - ' §8▪ §7Открыть GUI стола зачарований - §f/ie'
 - ''
 GUI_DONATE_JUNIOR_SKYPVP_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
+GUI_DONATE_JUNIOR_PRISON_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
