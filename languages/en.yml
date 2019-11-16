@@ -6210,11 +6210,11 @@ GUI_HISTORY_BLOCKING:
 GUI_HISTORY_FOR_TIME_BLOCKING: '§7На срок: %s'
 GUI_HISTORY_FOR_REQUEST_BLOCKING: '§7По просьбе: %s'
 
-GUI_BANLIST_NAME: 'Список блокировок'
-GUI_BANLIST_ITEM: '§eСписок блокировок'
+GUI_BANLIST_NAME: 'Banlist'
+GUI_BANLIST_ITEM: '§eBanlist'
 GUI_BANLIST_ITEM_LORE:
 - ''
-- '§7Всего блокировок:'
+- '§7Total bans:'
 - '§a%s'
 GUI_BANLIST_EMPTY: '§cВ данный момент нет блокировок'
 GUI_BANLIST_EMPTY_LORE:
