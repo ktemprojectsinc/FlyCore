@@ -2511,6 +2511,20 @@ DELHOME: 'Точка дома §a%s§f удалена'
 
 HOME: 'Вы были телепортированы на точку дома §a%s'
 
+TPA_FORMAT: '/tpa <ник>'
+TPACCEPT_NO: '§cОшибка, игрок %s не отправлял вам запроса'
+TPACCEPT_ALERT_TP: 'Игрок %s§f принял ваш запрос на телепортацию'
+TPACCEPT: 'Вы приняли запрос на телепортацию от игрока %s'
+TPACCEPT_ALERT:
+- ''
+- '§fИгрок %s§f хочет телепортироваться к вам'
+- '§fВведите §a/tpa accept %s§f чтобы принять'
+- '§fили §c/tpa cancel %s§f чтобы отклонить'
+- ''
+TPACCEPT_CALL: 'Игроку %s§f отправлен запрос на телепортацию'
+TPACCEPT_ALERT_NO: 'Игрок %s§f отклонил ваш запрос на телепортацию'
+TPACCEPT_CANCEL: 'Вы отклонили запрос на телепортацию от игрока %s'
+
 INVSEE_FORMAT: '/invsee <ник>'
 
 KIT_FORMAT: '/kit <enderman/golem/emerald/diamond/gold>'
