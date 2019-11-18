@@ -6708,7 +6708,7 @@ TOP_MONEY_HOLO:
 TOP_LEVEL_HOLO:
 - '§a§lTop of level players'
 - '§fTop players by'
-- '§finterserver level'
+- '§fearned level for §e%s'
 TOP_GOLDS_HOLO:
 - '§a§lTop of gold players'
 - '§fTop players by number'
