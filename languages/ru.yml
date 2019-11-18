@@ -2524,6 +2524,7 @@ TPACCEPT_ALERT:
 TPACCEPT_CALL: 'Игроку %s§f отправлен запрос на телепортацию'
 TPACCEPT_ALERT_NO: 'Игрок %s§f отклонил ваш запрос на телепортацию'
 TPACCEPT_CANCEL: 'Вы отклонили запрос на телепортацию от игрока %s'
+TPACCEPT_ALREADY: '§cВы уже отправляли запрос на телепортацию игроку %s'
 
 INVSEE_FORMAT: '/invsee <ник>'
 
