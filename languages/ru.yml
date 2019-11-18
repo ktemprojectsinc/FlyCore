@@ -2492,7 +2492,7 @@ TELEPORT_TO: 'Вы вы телепортировали %s§f к игроку - %
 
 SETWARP_FORMAT: '/setwarp <название>'
 SETWARP_DEVELOPED: '§cКоманда находится в разработке'
-SETWARO_ALREADY: '§cВарп %s уже существует'
+SETWARP_ALREADY: '§cВарп %s уже существует'
 SETWARP: 'Варп §a%s§f создан'
 
 DELWARP_FORMAT: '/delwarp <название>'
@@ -6790,7 +6790,7 @@ GUI_WARP_ITEM_LORE:
 - ' §7Z: §c%s'
 - ''
 - '§7В радиусе 30 блоков'
-- '§7от данного варпа §a%s§f %s'
+- '§7от данного варпа §a%s§7 %s'
 - ''
 - '§e▸ Нажмите, чтобы телепортироваться'
 
