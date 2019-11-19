@@ -2513,6 +2513,7 @@ DELWARP_ALREADY: '§cВарп %s не существует'
 DELWARP: 'Варп §a%s§f удален'
 
 WARP: 'Вы телепортированы на варп §a%s'
+WARP_CLOSE: '§cВарп %s закрыт, т.к. он является приватным!'
 
 SETHOME_FORMAT: '/sethome <название>'
 SETHOME_ALREADY: '§cТочка дома %s уже существует'
