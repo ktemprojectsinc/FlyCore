@@ -6977,10 +6977,27 @@ GUI_PTIME_ITEM_WATCH_LORE:
 - '§7Только для %s §7и выше'
 - ''
 - '§e▸ Нажмите, чтобы сменить'
+GUI_PLAYER_WARP_NAME: 'Список варпов - %s'
+
 DAY: день
 NIGHT: ночь
 MORNING: утро
 PWEATHER_CHANGED: 'Погода изменена'
+TELEPORT_MOVE_ERROR: '§cОшибка, вы двинулись, телепортация отменена'
+TELEPORTING: 'Телепортируем, не двигайтесь §a%s§f %s'
+PLAYER_WARP_FORMAT: '/playerwarp <имя игрока>'
+TPPOS_FORMAT: '/tppos <x> <y> <z>'
+WARPINFO_FORMAT: '/warpinfo <название варпа>'
+WARPINFO: '§fИнформация про варп §c%s§f, владелец - %s§f, дата создания - §a%s'
+TPPOS_ERROR: '§cАргументы не верны, должны быть цифры'
+TPPOS_ERROR_BORDER: '§cВы не можете телепортироваться в данную локацию, она находится за пределами границы мира'
+TPPOS: 'Телепортируем на координаты: %s'
+ITEMDB_ERROR: '§cОшибка, id не верен!'
+ITEMDB: 'Предмет §a%s §f- §e%s'
+RECIPE_FORMAT: '/recipe <id>'
+INVALID_ITEM_RECIPE: '§cОшибка, рецепт не найден'
+RECIPE_FURNACE: 'Для того, чтобы получить этот предмет, вам нужно обжарить в печи §c%s§f'
+RECIPE_LIST_VIEW: 'У предмета %s несколько рецептов. Введите §a/%s %s <номер> §fдля просмотра конкретного'
 
 TPTOGGLE_ENABLED: '§cИгрок %s отключил все запросы на телепортации'
 CALL_HOVER_ACCEPT:
