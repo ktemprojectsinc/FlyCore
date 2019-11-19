@@ -2521,7 +2521,7 @@ SETHOME: 'Вы создали точку дома §a%s'
 SETHOME_LIMIT: '§cВаш лимит точек дома превышен, лимит - %s'
 
 DELHOME_FORMAT: '/delhome <название>'
-DELHOME_ALREADY: '§cТочка дома %s уже существует'
+DELHOME_ALREADY: '§cТочка дома %s не существует'
 DELHOME: 'Точка дома §a%s§f удалена'
 
 HOME: 'Вы были телепортированы на точку дома §a%s'
