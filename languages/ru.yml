@@ -6980,6 +6980,7 @@ GUI_PTIME_ITEM_WATCH_LORE:
 DAY: день
 NIGHT: ночь
 MORNING: утро
+PWEATHER_CHANGED: 'Погода изменена'
 
 TPTOGGLE_ENABLED: '§cИгрок %s отключил все запросы на телепортации'
 CALL_HOVER_ACCEPT:
