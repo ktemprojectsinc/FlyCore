@@ -6851,6 +6851,8 @@ GUI_CALL_ITEM_HEAD_LORE:
 - '§e▸ ПКМ, чтобы отклонить'
 KIT_DEFAULT_LORE:
 - ''
+- '§8Задержка: %s'
+- ''
 - '§8Предметы:'
 NO_PERMS_KIT_ONLY:
 - ''
