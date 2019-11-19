@@ -6985,7 +6985,7 @@ MORNING: утро
 PWEATHER_CHANGED: 'Погода изменена'
 TELEPORT_MOVE_ERROR: '§cОшибка, вы двинулись, телепортация отменена'
 TELEPORTING: 'Телепортируем, не двигайтесь §a%s§f %s'
-PLAYER_WARP_FORMAT: '/playerwarp <имя игрока>'
+PLAYERWARP_FORMAT: '/playerwarp <имя игрока>'
 TPPOS_FORMAT: '/tppos <x> <y> <z>'
 WARPINFO_FORMAT: '/warpinfo <название варпа>'
 WARPINFO: '§fИнформация про варп §c%s§f, владелец - %s§f, дата создания - §a%s'
