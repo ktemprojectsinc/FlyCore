@@ -7514,7 +7514,7 @@ GUI_KTEMACRAFT_INFO_LORE:
 - ''
 - '§7Уровень: §d%s'
 - '§7До следующего уровня: §a%s XP'
-GUI_KTEMACRAFT_LEVEL_NAME: 'Уровень острова'
+GUI_KTEMACRAFT_LEVEL_NAME: 'Уровень'
 GUI_KTEMACRAFT_INFO_LEVEL_LORE:
 - ' '
 - '§7Увеличение вашего уровня'
