@@ -7508,6 +7508,39 @@ GUI_HELPMODE_INFO_1_LORE:
 - '§7числе и иссушитель, который может уничтожить любые'
 - '§7блоки, даже если находятся в чужом регионе..'
 
+GUI_KTEMACRAFT_MAIN_NAME: 'Профиль'
+GUI_KTEMACRAFT_INFO_NAME: 'Общая информация'
+GUI_KTEMACRAFT_INFO_LORE:
+- ''
+- '§7Уровень: §d%s'
+- '§7До следующего уровня: §a%s XP'
+GUI_KTEMACRAFT_LEVEL_NAME: 'Уровень острова'
+GUI_KTEMACRAFT_LEVEL_NAME_LORE:
+- ' '
+- '§7Увеличение вашего уровня'
+- '§7путем получения опыта!'
+- ' '
+GUI_KTEMACRAFT_LEVEL_NAME_LORE2:
+- ' '
+- '§e▸ Нажмите, чтобы открыть'
+
+GUI_KTEMACRAFT_LEVEL_INFO_NAME: 'Информация'
+GUI_KTEMACRAFT_LEVEL_INFO_LORE:
+- ''
+- '§7Уровень: §d%s %s §6%s'
+- '§7До следующего уровня: §a%s XP'
+GUI_KTEMACRAFT_LEVEL_ITEM_NAME: 'Перенесите предметы в этот слот'
+GUI_KTEMACRAFT_LEVEL_ITEM_LORE:
+- ''
+- '§7Как только вы положите нужный'
+- '§7предмет в этот слот, он пропадет,'
+- '§7а ваш уровень повысится'
+- ''
+- '§7PS: Можно класть сразу несколько блоков'
+
+P_COMMAND_HELP:
+- '§7/p §f- открыть меню'
+- '§7/p level §f- открыть меню повышения уровня'
 
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, наиграно - §a%s'
