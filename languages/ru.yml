@@ -7434,6 +7434,18 @@ SHOP_NOT_FOUND: '§cОшибка, магазин %s не найден'
 SHOP_ALL_ITEMS_SELLED: '§aМагазин §8| §fВы успешно продали §7%s §fx §7%s §fза §a%s$'
 SHOP_ALL_ITEMS_BUY: '§aМагазин §8| §fВы успешно купили §7%s §fx §7%s §fза §a%s$'
 
+RELOG_PVP_TELEPORT: '§fТелепортации во время PVP запрещены!'
+RELOG_PVP_COMMAND: '§fНельзя использовать эту команду во время PVP!'
+RELOG_PVP_START: '§fВы вступили в бой! Не покидайте игру в течении §c%s §fсекунд'
+RELOG_PVP_END: '§fВы вышли из боя! Теперь можно спокойно перезайти на сервер!'
+RELOG_PVP_BAR: '§fРежим боя %s §f%s %s'
+RELOG_SLEEP: '§fСпят: §a%s§f/§a%s §f- §a%s'
+RELOG_COMPASS_TO: 'Расстояние до цели: §a%s'
+RELOG_COMPASS_WITHOUT_BED: '§fВаш компас указывает на центр мира, так как у вас нет кровати!'
+RELOG_COMPASS: '§fВаш компас указывает на координаты §ax: %s §az: %s'
+RELOG_COMPASS_FORMAT: '§fВы можете настроить компасс на любые координаты §7/compass <x> <z>'
+RELOG_COMPASS_ERROR_FORMAT: '§fОшибка в написании координат! §fНастроить компас на координаты §7/compass <x> <z>'
+
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, наиграно - §a%s'
 
