@@ -7024,6 +7024,7 @@ HOVER: ' §7(наведите сюда)'
 TPTOGGLE_ENABLE: 'Телепортации - §aвключены'
 TPTOGGLE_DISABLE: 'Телепортации - §cотключены'
 
+#items
 POTION: 'Питьевое зелье'
 ANDESITE: 'Андезит'
 DIORITE: 'Диорит'
@@ -7184,6 +7185,13 @@ IRON_HELMET: 'Железный шлем'
 IRON_CHESTPLATE: 'Железный нагрудник'
 IRON_LEGGINGS: 'Железные штаны'
 IRON_BOOTS: 'Железные ботинки'
+IRON_BLOCK: 'Железный блок'
+QUARTZ_BLOCK: 'Кварцевый блок'
+LAPIS_BLOCK: 'Лазуритовый блок'
+DIAMOND_BLOCK: 'Алмазный блок'
+GOLD_BLOCK: 'Золотой блок'
+COAL_BLOCK: 'Угольный блок'
+REDSTONE_BLOCK: 'Редстоуновый блок'
 
 AUCTION_SHOW_FORMAT: '/ah show <ник>'
 AUCTION_ITEM_LORE:
