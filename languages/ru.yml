@@ -6942,6 +6942,11 @@ GUI_PLAYER_WARP_ITEM_EMPTY_LORE:
 - '§7В данный момент у игрока %s'
 - '§7нет доступных публичных варпов'
 - '§7или они отсутствуют вовсе'
+GUI_HOME_ITEM_EMPTY_NAME: '§cУ вас нет точек дома'
+GUI_HOME_ITEM_EMPTY_LORE:
+- '§7В данный момент у вас'
+- '§7нет установленных'
+- '§7точек дома'
 
 GUI_PTIME_NAME: 'Смена времени'
 GUI_PTIME_ITEM_LORE:
