@@ -63,6 +63,8 @@ PLAYER_GOT_BANNED: '§aАнтичит §8| §fИгрок %s§f был забло
 YOU_GOT_KICKED: '§aАнтичит §8| §fВы были кикнуты за использование стороннего ПО'
 PLAYER_CHECK_NOT_PASSED: '§aАнтичит §8| §fИгрок %s§f нарушил проверку §c%s§f, на сервере - §c%s §8(§7пинг §a%sms§8)'
 PLAYER_WAS_KICKED: '§aАнтичит §8| §fИгрок %s§f был кикнут по подозрению в использовании стороннего ПО'
+GAMECONVERT_FORMAT: '/gameconvert <золото>'
+GAMECONVERT: '§aМагазин §8| §fВы успешно обменяли §e%s§f золота на §a%s$'
 CONVERT_FORMAT: '/convert <golds/coins> <золото>'
 CONVERT_ERROR: '§cОшибка, нужно указывать только положительное число число!'
 CONVERT: '§aСервер §8| §fВы успешно обменяли %s §f%s на %s §f%s. Комиссия при переводе составила §c%s §f%s (§e%s§f)'
