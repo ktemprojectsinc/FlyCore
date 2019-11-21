@@ -7555,7 +7555,7 @@ P_COMMAND_HELP:
 - '§7/p §f- открыть меню'
 - '§7/p level §f- открыть меню повышения уровня'
 
-SHIO_OTHER: 'Разное'
+SHOP_OTHER: 'Разное'
 
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, наиграно - §a%s'
