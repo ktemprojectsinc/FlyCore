@@ -1122,7 +1122,7 @@ STP_FORMAT: '/stp <nickname>'
 VERIFY_FORMAT: '/verify <code>'
 PARTYCHAT_FORMAT: '/pchat <message>'
 GUILDCHAT_FORMAT: '/gchat <message>'
-IGNORE_FORMAT: '/ignore <nickname>'
+IGNORE_FORMAT: '/ignore <nickname> <reason>'
 HISTORY_FORMAT: '/history <nickname> <BAN/MUTE/KICK/BANIP/UNBAN/UNMUTE/UNBANIP/GUILDMUTE/GUILDUNMUTE>'
 TEST_FORMAT: '/test <String>'
 
@@ -2126,12 +2126,14 @@ ANS_NO: '§cError, player %s §cdid not asked a question or he already got an an
 
 IGNORE_REMOVE: '§cYou removed player %s§c from ignore list.'
 IGNORE_ME: '§cYou can not ignore yourself'
-IGNORE_ADD: '§eYou added player %s§e to your ignore list. He can no longer find and contact you'
+IGNORE_ADD:
+- '§aServer §8| §fYou added player %s§f to your ignore list.'
+- '§f He can no longer find and contact you'
 
 IGNORELIST_EMPTY: '§cВ Вашем списке игнорируемых нет игроков.'
 
 FIND: '§aServer §8| §fPlayer %s§f now at server §c%s'
-FIND_IGNORE: '§cThis player added You to ignoring list'
+FIND_IGNORE: '§cThis player added You to ignoring list of reason %s'
 FIND_TESTER: '§aServer §8| §fThis player is anticheat-tester. His cant spectate at the moment'
 FIND_OFFLINE: '§aServer §8| §fPlayer %s§f offline, last time %s was online §7%s§f ago'
 
@@ -2350,7 +2352,6 @@ REDIRECT: '§aYou were teleported to %s'
 
 MSG_FORMAT: '/msg <player name> <message>'
 MSG_ME: '§cYou can not contact yourself'
-MSG_IGNORE: '§cThis player added You to the ignore list'
 MSG_FRIENDS_ONLY: '§cAccording to your privacy settings, you can only chat with friends'
 MSG_FRIENDS: '§cError, this player accepts messages only from their friends'
 MSG: '§aPM §8| §6I §8-> %s §8| §7%s'
