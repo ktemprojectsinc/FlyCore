@@ -1127,7 +1127,7 @@ STP_FORMAT: '/stp <ник>'
 VERIFY_FORMAT: '/verify <код>'
 PARTYCHAT_FORMAT: '/pchat <сообщение>'
 GUILDCHAT_FORMAT: '/gchat <сообщение>'
-IGNORE_FORMAT: '/ignore <ник>'
+IGNORE_FORMAT: '/ignore <ник> <причина>'
 HISTORY_FORMAT: '/history <ник> <BAN/MUTE/KICK/BANIP/UNBAN/UNMUTE/UNBANIP/GUILDMUTE/GUILDUNMUTE>'
 TEST_FORMAT: '/test <String>'
 PLAY_FORMAT: '/play <игра>'
@@ -2134,7 +2134,8 @@ ANS_NO: '§cОшибка, игрок %s §cне задавал вопрос ил
 
 IGNORE_REMOVE: '§cВы удалили игрока %s§c из списка игнорируемых.'
 IGNORE_ME: '§cВы не можете добавить в список игнорируемых самого себя'
-IGNORE_ADD: '§eВы добавили игрока %s§e в список игнорируемых. Теперь он не сможет отслеживать и писать вам'
+IGNORE_ADD:
+- '§aСервер §8| §fВы добавили игрока %s§f в список игнорируемых по причине §e%s§f. Теперь он не сможет отслеживать и писать вам'
 
 IGNORELIST_EMPTY: '§cВ Вашем списке игнорируемых нет игроков.'
 
@@ -4082,6 +4083,8 @@ GUI_PAGE_PREVIOUS: '§aПредыдущая страница'
 GUI_PAGE_PREVIOUS_OLD: '§aПредыдущая страница'
 
 GUI_IGNORE_ITEM:
+- ''
+- '§8 • §7Игнорируется за: §a%s'
 - ''
 - ' §e▶ Нажмите, чтобы удалить'
 - ' §eигрока из списка игнорируемых'
