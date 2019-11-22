@@ -3932,6 +3932,8 @@ GUI_INFO_NAME: 'Information'
 GUI_INFO_NAME_TO: '%s ▸ %s'
 GUI_IGNORE_ITEM:
 - ''
+- '§8 • §7Ignored of: §a%s'
+- ''
 - ' §e▸ Click here to remove'
 - ' §eplayer from your ignore list'
 GUI_IGNORE_TOTAL_LORE:
