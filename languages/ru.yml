@@ -4287,6 +4287,14 @@ GUI_GAMES_PRISON_LORE:
 - '§7а затем попросил донат. Админу не понравилось и он создал'
 - '§7для него тюрьму и дал ему пожизненный срок. Теперь Нубику суждено'
 - '§7копать блоки всю жизнь. Так что знайте, не делайте как Нубик, будьте хорошим игроком :)'
+GUI_GAMES_UNKNOWNCRAFT_LORE:
+- '§8Выживание и прокачка'
+- ''
+- '§7Режим представляет из себя'
+- '§7сочетание обычного выживания'
+- '§7и улучшение своего аккаунта,'
+- '§7путем получения опыта'
+- '§7и повышения уровня'
 GUI_GAMES_DONATE_LORE:
 - '§7Подробная информация о возможностях'
 - '§7привилегий и их покупке'
@@ -7523,29 +7531,29 @@ GUI_HELPMODE_INFO_1_LORE:
 - '§7числе и иссушитель, который может уничтожить любые'
 - '§7блоки, даже если находятся в чужом регионе..'
 
-GUI_KTEMACRAFT_MAIN_NAME: 'Профиль'
-GUI_KTEMACRAFT_INFO_NAME: 'Общая информация'
-GUI_KTEMACRAFT_INFO_LORE:
+GUI_UNKNOWNCRAFT_MAIN_NAME: 'Профиль'
+GUI_UNKNOWNCRAFT_INFO_NAME: 'Общая информация'
+GUI_UNKNOWNCRAFT_INFO_LORE:
 - ''
 - '§7Уровень: §d%s'
 - '§7До следующего уровня: §a%s XP'
-GUI_KTEMACRAFT_LEVEL_NAME: 'Уровень'
-GUI_KTEMACRAFT_INFO_LEVEL_LORE:
+GUI_UNKNOWNCRAFT_LEVEL_NAME: 'Уровень'
+GUI_UNKNOWNCRAFT_INFO_LEVEL_LORE:
 - ' '
 - '§7Увеличение вашего уровня'
 - '§7путем получения опыта!'
 - ' '
-GUI_KTEMACRAFT_INFO_LEVEL_LORE2:
+GUI_UNKNOWNCRAFT_INFO_LEVEL_LORE2:
 - ' '
 - '§e▸ Нажмите, чтобы открыть'
 
-GUI_KTEMACRAFT_LEVEL_INFO_NAME: 'Информация'
-GUI_KTEMACRAFT_LEVEL_INFO_LORE:
+GUI_UNKNOWNCRAFT_LEVEL_INFO_NAME: 'Информация'
+GUI_UNKNOWNCRAFT_LEVEL_INFO_LORE:
 - ''
 - '§7Уровень: §d%s %s §6%s'
 - '§7До следующего уровня: §a%s XP'
-GUI_KTEMACRAFT_LEVEL_ITEM_NAME: 'Перенесите предметы в этот слот'
-GUI_KTEMACRAFT_LEVEL_ITEM_LORE:
+GUI_UNKNOWNCRAFT_LEVEL_ITEM_NAME: 'Перенесите предметы в этот слот'
+GUI_UNKNOWNCRAFT_LEVEL_ITEM_LORE:
 - ''
 - '§7Как только вы положите нужный'
 - '§7предмет в этот слот, он пропадет,'
@@ -7759,13 +7767,13 @@ HOLO_SHOP_LOBBY:
 - '§fПозволяет купить или выбрать'
 - '§fпредметы на данном режиме'
 
-HOLO_KTEMACRAFT_SPAWN:
+HOLO_UNKNOWNCRAFT_SPAWN:
 - '§cПомощник по режиму'
 - '§fОбщая информация об игре'
 - '§7Нажмите, чтобы открыть'
 
-HOLO_KTEMACRAFT:
-- '§a§lKtemaCraft'
+HOLO_UNKNOWNCRAFT:
+- '§a§lUNKNOWNCRAFT'
 - '§7Информация:'
 - '§fОсновная информация - §7/start'
 - '§fПрофиль - §7/p'
