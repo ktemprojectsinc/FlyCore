@@ -7466,7 +7466,7 @@ SHOP_ALL_ITEMS_BUY: '§aМагазин §8| §fВы успешно купили 
 RELOG_PVP_TELEPORT: '§fТелепортации во время PVP запрещены!'
 RELOG_PVP_COMMAND: '§fНельзя использовать эту команду во время PVP!'
 RELOG_PVP_START: '§fВы вступили в бой! Не покидайте игру в течении §c%s §fсекунд'
-RELOG_PVP_END: '§fВы вышли из боя! Теперь можно спокойно перезайти на сервер!'
+RELOG_PVP_FINISH: '§fВы вышли из боя! Теперь можно спокойно перезайти на сервер!'
 RELOG_PVP_BAR: '§fРежим боя %s §f%s %s'
 RELOG_SLEEP: '§fСпят: §a%s§f/§a%s §f- §a%s'
 RELOG_COMPASS_TO: 'Расстояние до цели: §a%s'
@@ -7542,7 +7542,11 @@ GUI_UNKNOWNCRAFT_INFO_LEVEL_LORE:
 - ' '
 - '§7Увеличение вашего уровня'
 - '§7путем получения опыта!'
+GUI_UNKNOWNCRAFT_LEVELOTHER_NAME: 'Уровень друзей'
+GUI_UNKNOWNCRAFT_INFO_LEVEL_LORE:
 - ' '
+- '§7Помощь друзьям, повышая их'
+- '§7уровень за свои ресурсы'
 GUI_UNKNOWNCRAFT_INFO_LEVEL_LORE2:
 - ' '
 - '§e▸ Нажмите, чтобы открыть'
@@ -7551,6 +7555,10 @@ GUI_UNKNOWNCRAFT_LEVEL_INFO_NAME: 'Информация'
 GUI_UNKNOWNCRAFT_LEVEL_INFO_LORE:
 - ''
 - '§7Уровень: §d%s %s §6%s'
+- '§7До следующего уровня: §a%s XP'
+GUI_UNKNOWNCRAFT_LEVEL_OTHER_INFO_LORE:
+- ''
+- '§7Уровень друга: §d%s %s §6%s'
 - '§7До следующего уровня: §a%s XP'
 GUI_UNKNOWNCRAFT_LEVEL_ITEM_NAME: 'Перенесите предметы в этот слот'
 GUI_UNKNOWNCRAFT_LEVEL_ITEM_LORE:
@@ -7561,8 +7569,10 @@ GUI_UNKNOWNCRAFT_LEVEL_ITEM_LORE:
 - ''
 - '§7PS: Можно класть сразу несколько предметов'
 
-LEVEL_ADD_SUCCES: 'Вы повысили опыт на §a%s §fXP'
+LEVEL_ADD_SUCCESS: 'Вы повысили опыт на §a%s §fXP'
 LEVEL_ADD_ERROR: 'Простите, но данный предмет §cне подходит§f для повышения уровня'
+LEVEL_OTHER_ADD_SUCCES: 'Вы повысили опыт игрока %s§f на §a%s§f XP'
+LEVEL_OTHER_YOU_ADD_SUCCES: 'Ваш уровень был повышен игроком %s§f на §a%s§f XP'
 
 P_COMMAND_HELP:
 - '§7/p §f- открыть меню'
