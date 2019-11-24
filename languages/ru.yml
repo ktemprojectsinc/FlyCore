@@ -7542,8 +7542,8 @@ GUI_UNKNOWNCRAFT_INFO_LEVEL_LORE:
 - ' '
 - '§7Увеличение вашего уровня'
 - '§7путем получения опыта!'
-GUI_UNKNOWNCRAFT_LEVELOTHER_NAME: 'Уровень друзей'
-GUI_UNKNOWNCRAFT_INFO_LEVEL_LORE:
+GUI_UNKNOWNCRAFT_LEVEL_OTHER_NAME: 'Уровень друзей'
+GUI_UNKNOWNCRAFT_INFO_LEVEL_OTHER_LORE:
 - ' '
 - '§7Помощь друзьям, повышая их'
 - '§7уровень за свои ресурсы'
