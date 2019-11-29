@@ -7588,6 +7588,10 @@ P_COMMAND_HELP:
 
 SHOP_OTHER: 'Разное'
 
+SIT_ENABLE: '§aСервер §8| §fВы успешно сели'
+SIT_DISABLE: '§aСервер §8| §fВы успешно встали'
+SIT_ERROR: '§aСервер §8| §fВы не можете сидеть в воздухе'
+
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, наиграно - §a%s'
 
