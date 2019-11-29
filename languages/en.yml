@@ -7528,3 +7528,7 @@ HOLO_FASTSTART:
 - '§fClick on §6NPC§f,'
 - '§fto start the game §7[LMС]§f,'
 - '§for to select §aa map §7[RMС]'
+
+HOLO_HORSE:
+  - '§eSled rental animals'
+  - 'Click, to get horse'
