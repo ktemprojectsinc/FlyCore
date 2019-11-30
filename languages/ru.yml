@@ -3361,6 +3361,10 @@ GUI_DONATE_CLAY_PRISON_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
+GUI_DONATE_CLAY_UNKNOWNCRAFT_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
 
 GUI_DONATE_BRICK_ALL_LORE:
 - ''
@@ -3431,6 +3435,10 @@ GUI_DONATE_BRICK_SKYPVP_LORE:
 - ' §4✕ §7Возможности отсутствуют'
 - ''
 GUI_DONATE_BRICK_PRISON_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
+GUI_DONATE_BRICK_UNKNOWNCRAFT_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
@@ -3512,6 +3520,10 @@ GUI_DONATE_CREEPER_SKYPVP_LORE:
 - ' §4✕ §7Возможности отсутствуют'
 - ''
 GUI_DONATE_CREEPER_PRISON_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
+GUI_DONATE_CREEPER_UNKNOWNCRAFT_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
@@ -3609,6 +3621,10 @@ GUI_DONATE_LAVA_PRISON_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
+GUI_DONATE_LAVA_UNKNOWNCRAFT_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
 
 GUI_DONATE_ENDERMAN_ALL_LORE:
 - ''
@@ -3703,6 +3719,10 @@ GUI_DONATE_ENDERMAN_PRISON_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
+GUI_DONATE_ENDERMAN_UNKNOWNCRAFT_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
 GUI_DONATE_YOUTUBE_ALL_LORE:
 - ''
 - ' §8▪ §7Префикс %s'
@@ -3773,6 +3793,10 @@ GUI_DONATE_YOUTUBE_SKYPVP_LORE:
 - ' §4✕ §7Возможности отсутствуют'
 - ''
 GUI_DONATE_YOUTUBE_PRISON_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
+GUI_DONATE_YOUTUBE_UNKNOWNCRAFT_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
@@ -3852,6 +3876,10 @@ GUI_DONATE_JUNIOR_SKYPVP_LORE:
 - ' §4✕ §7Возможности отсутствуют'
 - ''
 GUI_DONATE_JUNIOR_PRISON_LORE:
+- ''
+- ' §4✕ §7Возможности отсутствуют'
+- ''
+GUI_DONATE_JUNIOR_UNKNOWNCRAFT_LORE:
 - ''
 - ' §4✕ §7Возможности отсутствуют'
 - ''
