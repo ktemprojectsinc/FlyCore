@@ -4692,7 +4692,9 @@ GUI_SMILES_ITEM_LORE:
 - '§7Смайл §a%s'
 GUI_SMILES_AVAILABLE_LORE:
 - ''
-- '§e▸ Нажмите, чтобы отправить смайл'
+- '§e▸ Нажмите, чтобы получить смайл'
+SMILE_GET: '§aСмайлы §8| §fНажмите сюда, чтобы получить смайл §a%s'
+SMILE_GET_HOVER: 'Нажмите, чтобы получить'
 GUI_SMILES_0: '+_+'
 GUI_SMILES_1: ':('
 GUI_SMILES_2: ':)'
