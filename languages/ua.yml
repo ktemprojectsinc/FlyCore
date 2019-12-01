@@ -2320,7 +2320,7 @@ ONLINE_NOT_FOUND: '§cОшибка, указанный %s не найден'
 REPLY_FORMAT: '/reply <сообщение>'
 REPLY_EMPTY: '§cВам никто не писал'
 
-SEND_FORMAT: '/send <@сервер|player|all> <сервер2>'
+SEND_FORMAT: '/send <@сервер|cur|player|all> <сервер2>'
 SEND_NOT_FOUND: '§cОшибка, указанный сервер не существует'
 SEND_PLAYER: '§aСервер §8| §fИгрок %s§f успешно телепортирован на сервер §c%s'
 SEND_SERVER_PLAYERS: '§aСервер §8| §fВы телепортировали всех игроков с сервера §a%s§f на сервер §c%s'
