@@ -2373,7 +2373,7 @@ ONLINE_NOT_FOUND: '§cError, current %s not found'
 REPLY_FORMAT: '/reply <message>'
 REPLY_EMPTY: '§cNo one wrote to you'
 
-SEND_FORMAT: '/send <server|player|all> <server2>'
+SEND_FORMAT: '/send <@server|cur|player|all> <server2>'
 SEND_NOT_FOUND: '§cError, current server not found'
 SEND_PLAYER: '§aServer §8| §fPlayer %s§f success teleported to server §c%s'
 SEND_SERVER_PLAYERS: '§aServer §8| §fYou teleported all player of server §a%s§f to server §c%s'
