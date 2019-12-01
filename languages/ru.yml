@@ -1703,7 +1703,7 @@ LEVEL_COMMAND:
 - '§r'
 
 KEY_BOX: '%sУ вас %s %s'
-BOX_NAME: 'Сундук удачи'
+BOX_NAME: 'Окейсики удачи'
 BOX_SUB_NAME: '§7Нажмите, чтобы открыть'
 BOX_KEY_NOT_BUY: '§cПростите, но в данный момент этот ключ не продается!'
 BOX_NO_KEY: '§cУ вас нет ключей'
@@ -2450,7 +2450,7 @@ ONLINE_NOT_FOUND: '§cОшибка, указанный %s не найден'
 REPLY_FORMAT: '/reply <сообщение>'
 REPLY_EMPTY: '§cВам никто не писал'
 
-SEND_FORMAT: '/send <@сервер|player|all> <сервер2>'
+SEND_FORMAT: '/send <@сервер|cur|player|all> <сервер2>'
 SEND_NOT_FOUND: '§cОшибка, указанный сервер не существует'
 SEND_PLAYER: '§aСервер §8| §fИгрок %s§f успешно телепортирован на сервер §c%s'
 SEND_SERVER_PLAYERS: '§aСервер §8| §fВы телепортировали всех игроков с сервера §a%s§f на сервер §c%s'
