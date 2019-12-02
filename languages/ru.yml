@@ -150,6 +150,7 @@ HOLIDAY_HEAD_FOUND_ALL_SUBTITLE: '§6Вы нашли все подарки!'
 HOLIDAY_HEAD_FOUND_COUNT: 'Найдено подарков: §a%s§f/§a%s'
 HOLIDAY_HEAD_FOUND_COUNT_BOARD: 'Найдено подарков: §a'
 HOLIDAY_COUNTDOWN: 'Новый Год через: §a'
+HOLIDAY_MONEY: 'Новогодних монет'
 ENCHANT_TITLE: 'Чары'
 
 KILLS:
