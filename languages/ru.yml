@@ -1828,9 +1828,9 @@ GUILD_COMMAND_OWNER_HELP:
 GUILD_COMMAND_TOP_HELP:
 - '§7/g top coins §f- топ гильдий по монетам'
 - '§7/g top members §f- топ гильдий по участникам'
-GUILD_TOP_COINS_TITLE: '§aГильдии §8| §fТоп §a5§f гильдий:'
-GUILD_TOP_MEMBERS_TITLE: '§aГильдии §8| §fТоп §a5§f гильдий:'
-GUILD_TOP_DONATERS_TITLE: '§aГильдии §8| §fТоп §a5§f участников:'
+GUILD_TOP_COINS_TITLE: '§aГильдии §8| §fТоп §a%s§f гильдий:'
+GUILD_TOP_MEMBERS_TITLE: '§aГильдии §8| §fТоп §a%s§f гильдий:'
+GUILD_TOP_DONATERS_TITLE: '§aГильдии §8| §fТоп §a%s§f участников:'
 GUILD_TOP_COINS_FORMAT: ' §c#%s §f- §e%s §fигрока %s§f, баланс - §a%s'
 GUILD_TOP_MEMBERS_FORMAT: ' §c#%s §f- §e%s §fигрока %s§f, участников - §a%s'
 GUILD_TOP_DONATERS_FORMAT: ' §c#%s §f- %s§f, %s в гильдию - §a%s§f монет'
@@ -2058,6 +2058,7 @@ BAN_YOU_RANK: '§cВы не можете наказывать игроков, и
 BAN_HELP: '§cИспользуйте синтаксис -v, для обхода'
 BAN_ME: '§cВы не можете наказать сами себя'
 
+KICK_USE: '§aСервер §8| §fВы кикнули игрока %s§f по причине §a%s'
 KICK_REASON: "§e§l§nFlyCore§7\n\n§cВас выкинули с сервера\n\n§fДата: §7%s\n\n§fВы: %s\n§fКикнул: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
 BAN_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт был заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
 BAN_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cВаш аккаунт заблокирован навсегда\n\n§fДата блокировки: §7%s\n\n§fВы: %s\n§fЗаблокировал: %s\n§fПричина: §7%s\n\n§7Обжаловать наказание можно на форуме:\n§b§nforum.flycore.ru"
