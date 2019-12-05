@@ -4772,6 +4772,7 @@ GUI_FRIENDS_LORE:
 - ''
 - '§7Friend info:'
 - ' §8▪ §7Level: §d%s'
+- ' §8▪ §7EMail: §9%s'
 - ' §8▪ §7VK: §f%s'
 - ' §8▪ §7Version: §3%s'
 - ' §8▪ §7Guild: §3%s'
