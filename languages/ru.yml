@@ -4669,6 +4669,7 @@ GUI_SETTING_FRIEND: 'Приглашения в друзья'
 GUI_SETTING_PARTY: 'Приглашения в Party'
 GUI_SETTING_GUILD: 'Приглашения в гильдии'
 GUI_SETTING_DONATECHAT: 'Чат донатеров'
+GUI_SETTING_EMAIL: 'Почта'
 GUI_SETTING_NAME: 'Настройки'
 GUI_SETTING_DISABLE_LORE:
 - '§7Нажмите, чтобы отключить'
