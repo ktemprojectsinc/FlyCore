@@ -4647,7 +4647,7 @@ GUI_SETTING_DONATECHAT_LORE:
 GUI_SETTING_VK_LORE:
 - '§7Позволяет включить или выключить'
 - '§7отображение вашего VK другим игрокам'
-GUI_SETTING_MAIL_LORE:
+GUI_SETTING_EMAIL_LORE:
 - '§7Позволяет включить или выключить'
 - '§7отображение вашей почты другим игрокам'
 GUI_SETTING_UNAVAILABLE_LORE:
