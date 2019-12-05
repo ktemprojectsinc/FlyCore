@@ -2735,6 +2735,7 @@ AUTH_INFO:
 - '§f Последний сервер: §a%s'
 AUTH_WRONGKEY: '§cОшибка, не верный ключ'
 AUTH_REASON_WRONGKEY: '§4Ошибка #14 §cВведен не верный ключ.'
+NO_LOGIN: '§cВы не авторизованы'
 LOGIN_ALREADY: '§cВы уже авторизованы'
 LOGIN_FORMAT: '/login <ваш пароль>'
 REGISTER_FORMAT: '/reg <пароль> <повтор пароля>'
