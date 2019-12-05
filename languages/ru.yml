@@ -2770,6 +2770,7 @@ MAIL_VERIFY_SENDED:
 MAIL_TYPE_ADD: 'Подтверждения привязки новой почты'
 MAIL_TYPE_OLD_CONFIRM: 'Подтверждения старой почты'
 MAIL_TYPE_NEW_CONFIRM: 'Подтверждения новой почты'
+MAIL_TYPE_JOIN: 'Подтверждения входа'
 MAIL_ADD_FORMAT: '/email add <ваща электронная почта> <еще раз>'
 MAIL_ADD_ALREADY: '§cОшибка, у вас уже привязана почта. Для смены почты воспользуйтесь командой /email change <старая эл. почта> <новая эл. почта>'
 MAIL_ADD_INCORRECT: '§cУказанная электорнная почта невалидна'
