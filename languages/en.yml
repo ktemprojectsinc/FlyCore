@@ -2290,7 +2290,7 @@ SKIN_ERROR_MOJANG: '§aSkins §8| §cОшибка скин не установл
 SERVER_DENIED: '§aServer §8| §fThis server is blocked to teleportation'
 SERVER_NOT_FOUND: '§cError, specified server not found'
 SERVER_CONNECT: '§aServer §8| §fYou teleported to server §a%s'
-STAFF_CONNECTED: '§cModeration §8| %s§f %s to server %s'
+STAFF_CONNECTED: '§cModeration §8| %s§7 %s to server %s'
 STAFF_CONNECTED_IP: '[IP: %s]'
 
 SERVER_ALREADY: '§cYou already one server'
