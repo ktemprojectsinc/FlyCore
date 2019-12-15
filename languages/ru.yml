@@ -3048,6 +3048,7 @@ VK_RECIEVED_MESSAGE_FORMAT: ' §aЛС §8| %s§7 (VK) §8-> §6Я §8| §f%s'
 
 PROMO_FORMAT: '/promo-code <промо-код>'
 PROMO_NOT_FOUND: '§cОшибка, промо-код %s не найден'
+PROMO_ENDED: '§cОшибка, промо-код %s истек :( Его использовали более %s раз'
 PROMO_ACTIVATED: '§aПромо-код §8| §fВы успешно активировали промо-код §a%s'
 PROMO_ALREADY_ACTIVATED: '§cОшибка, вы уже использовали промо-код %s ранее'
 
