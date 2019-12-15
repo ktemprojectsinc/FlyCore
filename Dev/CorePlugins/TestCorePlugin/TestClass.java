@@ -8,6 +8,7 @@ public class TestClass extends Plugin  { //Plugin обозначает глав�
 	@Override
 	public void onEnable(){//Включение плагина
 		this.enableCommands();//Регистрация команд
+		this.newListener((Listener)new TestListener());//Регистрация Listener
 	}
 	
 	private void enableCommands(){//Метод регистрации команд
