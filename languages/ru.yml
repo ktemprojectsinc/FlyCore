@@ -169,6 +169,7 @@ RULE_ACCEPT_SUBTITLE: '§eЖелаем вам приятной игры :)'
 RULE_NO_ACCEPT: '§cСоглашение §8| §cПожалуйста примите соглашение, или откажитесь от него для данного действия'
 CHECKRULE_FORMAT: '/checkrule <ник>'
 CHECKRULE: '§cСоглашение §8| %s§f - %s'
+RULE_TYPE_NA: '§d⚠ Не выбрано'
 RULE_TYPE_YES: '§a✔ Соглашение принято'
 RULE_TYPE_NO: '§c✗ Соглашение отклонено'
 
