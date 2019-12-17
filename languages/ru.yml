@@ -17,6 +17,7 @@ HIDDEN: '§cСкрыт'
 PLAYER_HIDE: '§cСкрытый игрок'
 SLOT_EMPTY: '§cПустой слот'
 BANINFO_BY_ANOTHER: '§7(по просьбе %s§7)'
+AFK: '§cНе стойте на месте!'
 TOP_POSITION: '§e%s Место'
 ALL: 'ВСЕ ВРЕМЯ'
 JANUARY: 'Январь'
@@ -187,6 +188,8 @@ HOLIDAY_HEAD_FOUND_COUNT_BOARD: 'Найдено подарков: §a'
 HOLIDAY_COUNTDOWN: 'Новый Год через: §a'
 HOLIDAY_MONEY: 'Новогодних монет'
 ENCHANT_TITLE: 'Чары'
+
+AFKAFK: '§cНе стой на месте!'
 
 KILLS:
 - 'убийств'
