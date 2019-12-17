@@ -4337,7 +4337,7 @@ GUI_STAFF_PLAYER_INFO:
 - '§7Информация об игроке:'
 GUI_STAFF_PLAYER_YOUTUBE: ' §8▪ §7Канал: §f%s'
 GUI_STAFF_PLAYER_ONLINE:
-- ' §8▪ §7Сейчас на сервере: §b%s'
+- ' §8▪ §7Сейчас на сервере: §e%s'
 GUI_STAFF_PLAYER_OFFLINE:
 - ''
 - '§7Последний раз %s в сети:'
