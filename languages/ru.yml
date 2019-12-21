@@ -7886,7 +7886,7 @@ WARNINFO_FORMAT: '/warninfo <ник>'
 WARNINFO_NOT_FOUND: '§cОшибка, игрок %s не имеет предупреждений'
 WARNINFO: '§aСервер §8| §fУ вас %s§f предупреждений'
 WARNINFO_OTHER: '§aСервер §8| §fУ %s§f предупреждений (§a%s§f):'
-WARNINFO_FORMAT:
+WARN_INFO_FORMAT:
 - '§aСервер §8| §fПредупреждение §8#%s§f:'
 - '§8 ▪ §fОт %s'
 - '§8 ▪ §fПо причине %s'
