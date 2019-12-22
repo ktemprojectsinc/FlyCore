@@ -7895,7 +7895,7 @@ WARN_INFO_FORMAT:
 CONTACT_COMMAND:
  - '§7/contact site §f- помощь по привязке сайта'
  #- '§7/contact link §f- помощь по установки связи с вами'
- CONTACT_SITE_COMMAND:
+CONTACT_SITE_COMMAND:
   - '§7/contact site add <сайт> §f- добавить сайт'
   - '§7/contact site remove §f- удалить сайт'
   - '§7/contact site get §f- узнать ваш сайт'
