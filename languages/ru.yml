@@ -7892,6 +7892,27 @@ WARN_INFO_FORMAT:
 - '§8 ▪ §fПо причине §e%s'
 - '§8 ▪ §fДата выдачи §a%s'
 
+CONTACT_COMMAND:
+ - '§7/contact site §f- помощь по привязке сайта'
+ #- '§7/contact link §f- помощь по установки связи с вами'
+ CONTACT_SITE_COMMAND:
+  - '§7/contact site add <сайт> §f- добавить сайт'
+  - '§7/contact site remove §f- удалить сайт'
+  - '§7/contact site get §f- узнать ваш сайт'
+  #- '§7/contact site remove <сайт> §f- удалить сайт'
+  #- '§7/contact site list §f- список ваших сайтов'
+  #- '§7/contact site settop <сайт> §f- установить сайт который будет виден всем'
+  #- '§7/contact site setting §f- настройка сайтов' #Позже сделаю
+CONTACT_SITE_ADD_HELP:
+- '§aСервер §8| §fПожалуйста добавьте новую запись §aflycore.%s§f типа §aA§f в вашем домене,'
+- '§aСервер §8| §fи введите /contact site add %s'
+CONTACT_SITE_ADD_ERROR:
+- '§cОшибка, невозможно добавить сайт! Проверьте все ли вы сделали правильно.'
+- '§cВнимание! Обновление записи может занять до 72 часов!'
+CONTACT_SITE_CONFIRM: '§aСервер §8| §fВы успешно подтвердили владение доменом §a%s'
+CONTACT_NOT_FOUND: '§cУ вас еще не добавлен сайт, добавьте его /contact site add'
+CONTACT_REMOVE: '§aСервер §8| §fСайт §a%s§f успешно удален'
+
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, наиграно - §a%s'
 
