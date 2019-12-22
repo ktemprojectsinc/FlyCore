@@ -148,7 +148,7 @@ PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
 
 RULE_FORMAT: '%s <yes/no>'
 RULE_NO_AGREEMENT_TITLE: '§c⚠ У вас не принято соглашение!'
-RULE_NO_AGREEMENT_SUBTITLE: '§6Пожалуйста согласитесь с правилами сервера §e/elua yes'
+RULE_NO_AGREEMENT_SUBTITLE: '§6Пожалуйста согласитесь с правилами сервера §e/rule yes'
 RULE_NO_AGREEMENT:
 - ''
 - '§cСоглашение §8| §fИграя на сервере, вы соглашаетесь с его правилами(§aflycore.ru/rules§f),'
@@ -7881,10 +7881,10 @@ WARN_GIVE: '§aСервер §8| §fВы выдали предупреждени
 WARN_GIVE_INFO:
 - '§cПредупреждения §8| §fВы получили предупреждение §8(%s)§f от %s§f по причине §e%s'
 - '§cПредупреждения §8| §fУзнать об своих предупреждениях, вы можете в /warns'
-WARN_GIVE_STAFF: '§cПредупреждения §8| %s§7 получил предупреждение §8(%s)§7 от %s§7 по причине §e%s'
+WARN_GIVE_STAFF: '§cПредупреждения §8| %s§7 выдал предупреждение §8(%s)§7 игроку %s§7 по причине §e%s'
 WARNINFO_FORMAT: '/warninfo <ник>'
 WARNINFO_NOT_FOUND: '§cОшибка, игрок %s не имеет предупреждений'
-WARNINFO: '§aСервер §8| §fУ вас %s§f предупреждений'
+WARNINFO: '§aСервер §8| §fУ вас §a%s§f предупреждений'
 WARNINFO_OTHER: '§aСервер §8| §fУ %s§f предупреждений (§a%s§f):'
 WARN_INFO_FORMAT:
 - '§aСервер §8| §fПредупреждение §8#%s§f:'
