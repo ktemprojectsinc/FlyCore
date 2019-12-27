@@ -2671,6 +2671,10 @@ PARKOUR_MODULE: '§aParkour §8| §fModule §e%s§7/§a%s§f achieved'
 PARKOUR_MODULE_TITLE: '§fModule §e%s§7/§a%s§f passed'
 PARKOUR_MODULE_ALREADY: '§aParkour §8| §cYou already passed this module'
 PARKOUR_MODULE_NO: "§aParkour §8| §cYou didn't pass the modeule"
+PARKOUR_TIME_HOURS: 'hours'
+PARKOUR_TIME_MINUTES: 'minutes'
+PARKOUR_TIME_SECONDS: 'seconds'
+PARKOUR_TIME_MILLISECONDS: 'milliseconds'
 
 NO_PERMISSION_STATS: '§cError, view statistic other players can only %s§c or higher'
 PLAYER_PRIVATE_STATS: '§cОшибка, данный игрок запретил просмотр его статистики'
