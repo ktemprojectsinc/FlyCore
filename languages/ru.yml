@@ -2716,7 +2716,7 @@ PARKOUR_MODULE_NO: '§aПаркур §8| §cВы не прошли через м
 PARKOUR_TIME_HOURS: 'часов'
 PARKOUR_TIME_MINUTES: 'минут'
 PARKOUR_TIME_SECONDS: 'секунд'
-PARKOUR_TIME_MILLISECONDS: 'милли секунд'
+PARKOUR_TIME_MILLISECONDS: 'миллисекунд'
 
 NO_PERMISSION_STATS: '§cОшибка, просматривать статистику других игроков может только %s§c и выше'
 PLAYER_PRIVATE_STATS: '§cОшибка, данный игрок запретил просмотр его статистики'
