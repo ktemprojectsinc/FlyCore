@@ -5815,6 +5815,9 @@ GUI_GADGETS_EFFECT_19_LORE:
 GUI_GADGETS_EFFECT_20: 'Криты'
 GUI_GADGETS_EFFECT_20_LORE:
 - '§7Надеюсь это не вас бьют игроки...'
+GUI_GADGETS_EFFECT_21: 'Снежинки'
+GUI_GADGETS_EFFECT_21_LORE:
+- '§7§oА снег идет, идет и падают снежинки....'
 GUI_GADGETS_HAT_1: 'Обычная шапка'
 GUI_GADGETS_HAT_1_LORE:
 - '§7У Вас будет шапка стива'
