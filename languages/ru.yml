@@ -201,7 +201,8 @@ ENCHANT_TITLE: 'Чары'
 YOUR_FRIEND: '§6⚘ %s'
 CONTACT: 'Связь'
 SITE: 'Сайт'
-AFK: '§cНе стой на месте!'
+STATUS: 'Статус'
+AFK: '§cНе стойте на месте!'
 
 KILLS:
 - 'убийств'
