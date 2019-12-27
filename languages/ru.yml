@@ -5818,6 +5818,17 @@ GUI_GADGETS_EFFECT_20_LORE:
 GUI_GADGETS_EFFECT_21: 'Снежинки'
 GUI_GADGETS_EFFECT_21_LORE:
 - '§7§oА снег идет, идет и падают снежинки....'
+GUI_GADGETS_EFFECT_22: 'Пузыри'
+GUI_GADGETS_EFFECT_22_LORE:
+- '§7Это когда вы дуете мыльные пузыри,'
+- '§7только тут авто, удобно!'
+GUI_GADGETS_EFFECT_23: 'Брызги'
+GUI_GADGETS_EFFECT_23_LORE:
+- '§7Когда включил чит на хождение по воде,'
+- '§7ну, такое-же..'
+GUI_GADGETS_EFFECT_24: 'Дождь x2'
+GUI_GADGETS_EFFECT_24_LORE:
+- '§7§lПример дождя был взят с шторма...'
 GUI_GADGETS_HAT_1: 'Обычная шапка'
 GUI_GADGETS_HAT_1_LORE:
 - '§7У Вас будет шапка стива'
