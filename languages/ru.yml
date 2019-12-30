@@ -5464,6 +5464,7 @@ GUI_GAMESERVERS_SOLO_MODE: 'Одиночный режим'
 GUI_GAMESERVERS_TEAM_MODE: 'Командный режим'
 GUI_GAMESERVERS_DUO_MODE: 'Парный режим'
 GUI_GAMESERVERS_RUSH_MODE: 'Быстрый режим'
+GUI_GAMESERVERS_TOURNAMENT_MODE: 'Турнирный режим'
 
 GUI_SPECTATOR_NAME: 'Наблюдение за игрой'
 GUI_SPECTATOR_NOT_FOUND_NAME: '§cНет запущенных серверов'
