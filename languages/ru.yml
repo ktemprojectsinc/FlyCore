@@ -6048,6 +6048,13 @@ GUI_GADGETS_HAT_68_LORE:
 GUI_GADGETS_HAT_69: 'YouTube'
 GUI_GADGETS_HAT_69_LORE:
 - '§7Снимайте видео, делайте стримы прямо с головы!'
+GUI_GADGETS_HAT_70: 'Санта'
+GUI_GADGETS_HAT_70_LORE:
+- '§7Только для истенных администраторов.'
+GUI_GADGETS_HAT_71: 'Подарок'
+GUI_GADGETS_HAT_71_LORE:
+- '§7Зачем дарить подарок, если можно одеть его'
+- '§7к себе на голову, и показать всем?'
 GUI_GADGETS_BANNER_1: 'Белый баннер'
 GUI_GADGETS_BANNER_1_LORE:
 - '§7У Вас будет белый баннер'
