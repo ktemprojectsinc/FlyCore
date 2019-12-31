@@ -28,12 +28,12 @@ public class TestClass extends Plugin  { //Plugin обозначает глав�
     		})
     		.create();
     	this.newCmd("testcommandperm","testcmdperm")
-			.setMinimalGroup(Ktem_Group.HELPER)//Установка минимальной группы для команды, в данном случае это HELPER
-			.setOnlyGroup(Ktem_Group.YOUTUBE)//Установка индивидуальной группы, только этой группе будет доступна команда если не установлен MinimalGroup иначее - идут обе, идет после проверки минимальной группы
+			.setMinimalGroup(Ktem_Group.YOUTUBE)//Установка минимальной группы для команды, в данном случае это YouTube
+			.setOnlyGroup(Ktem_Group.BRICK)//Установка индивидуальной группы, только этой группе будет доступна команда если не установлен MinimalGroup иначее - идут обе, идет после проверки минимальной группы
 			.setPerm((gamer)->{//Создание индивидуальной проверки, которая идет после проверки мин. группы и onlygroup, например для проверки каких-то других данных кроме группы (return true - может выполнить / false - нет прав)
     			final int level=5;
     			if(gamer.getLevel()>level){
-    				gamer.sendMessageLocale("PLAYER_NO_USE_LEVEL",level,Ktem_Group.HELPER.getNameEn());
+    				gamer.sendMessageLocale("PLAYER_NO_USE_LEVEL",level,Ktem_Group.YOUTUBE.getNameEn());
     				return false;
     			}
     			return true;
@@ -43,6 +43,8 @@ public class TestClass extends Plugin  { //Plugin обозначает глав�
 			})
 			.create();
     	this.newCmd("localization","lang","локализация")//Пример использования
+    		.setArgs("getstring","getlist","getforlist")//Дописание аргументов при начале их ввода и нажатии на кнопку TAB, с учетом доступа к команде
+    		.blockTab()//Блокировка подбора ников игроков
     		.setAction((gamer,player,args)->{
     			if(args.length==0){
                 	player.sendMessage("§fThis a localization tested command");
@@ -56,7 +58,7 @@ public class TestClass extends Plugin  { //Plugin обозначает глав�
     			}
     			switch(args[0].toLowerCase()){
     				default : {
-    					player.sendMessage("§fSub command not found, see https://github.com/ktemprojectsinc/FlyCore/blob/master/Dev/CorePlugins/TestCorePlugin/TestClass.java");
+    					player.sendMessage("§fSub command "+args[0]+" not found, see https://github.com/ktemprojectsinc/FlyCore/blob/master/Dev/CorePlugins/TestCorePlugin/TestClass.java");
     					return;
     				}
 	    			case "getstring" : {
