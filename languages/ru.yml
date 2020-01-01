@@ -8116,7 +8116,8 @@ GUI_PRISON_SELL_ITEM_LORE:
 - '§cС любовью, ваш любимый Торговец!'
 PRISON_SELL_NO_BUY: '§cИзвините, но данный предмет не подлежит продажи'
 PRISON_SELL_BUY: '§aСервер §8| §fВы продали %s§8 x%s§f и получили §a%s'
-
+PRISON_NPC_HOLO_FARMER: 
+- '§bФермер'
 PRISON_NPC_HOLO_SELL: 
 - '§aТорговец'
 PRISON_NPC_SHOP: 
