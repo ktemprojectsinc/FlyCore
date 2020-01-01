@@ -145,7 +145,7 @@ PROXY_RECONNECTED_PLAYER_TITLE: ''
 PROXY_RECONNECTED_PLAYER_SUBTITLE: ''
 #§fПожалуйста подождите
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL:
-- '§a §8| §fСоединение с прокси-сервером восстановлено. Вы снова можете использовать весь функционал и команды.'
+- '§aCore §8| §fСоединение с прокси-сервером восстановлено. Вы снова можете использовать весь функционал и команды.'
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
 #§a✔ Соединение восстановлено §a✔
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
