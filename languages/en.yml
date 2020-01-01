@@ -610,7 +610,7 @@ PLAYER_SERVER_ALREADY: '§aServer §8| §cYou already on current server!'
 SLOT_BUSY: '§cSorry, but You was transfered to lobby, Your slot took %s'
 ERROR_TELEPORT: '§cError in teleporting to lobby'
 ONLY_DONATOR: '§cError, there are only donaters on arena'
-ARENA_BUYS: '§cArena is full, do not enough slots? Buy §3§lCLAY§c or higher'
+ARENA_BUYS: '§cArena is full, do not enough slots? Buy §3CLAY§c or higher'
 ARENA_START: '§cGame starting...'
 ARENA_RESTART: '§cArena restarting...'
 
@@ -1186,7 +1186,7 @@ VERIFY_NOT_ENABLE: '§cVerify §8| §cДля вас недоступна дан�
 NO_PERMS: '§cYou do not have permissions'
 NO_PERMS_GROUP: '§cYou do not have permissions, buy %s§c or higher'
 NO_PERMS_STATS: '§cYou do not have permissions, buy %s§c or higher'
-NO_PERMS_ENDERMAN_ONLY: '§cThis function is only for §5§lENDERMAN'
+NO_PERMS_ENDERMAN_ONLY: '§cThis function is only for §5ENDERMAN'
 NO_PERMS_ONLY: '§cThis function is only for %s'
 
 REPORT_FORMAT: '/report <nickname> <reason>'
@@ -2881,17 +2881,17 @@ BOSS_BAR_LOBBY:
 - '§fHELP THE SERVER §bIMPROVE §fLOCALIZATION §7► §6§lFLYCORE.RU/lang'
 
 MESSAGES_BROADCAST:
-- "\n§8 | §fAll arenas §ccrowded§f, not enough slots?\n§8 | §fPurchase §3§lCLAY§f on site §dflycore.ru\n§8 | §fand this problem will be solved\n"
-- "\n§8 | §fPurchase §3§lCLAY§f by very §dattractive§f price\n§8 | §fAlready with her you will get a decent amount §eof opportunities\n§8 | §fthat will make your game §amore interesting\n"
-- "\n§8 | §fPrivilege §6§lBRICK§f gives more\n§8 | §fquantity §bbonuses§f and §eof opportunities§f for a reasonable price.\n§8 | §fInterested? Buying on site §dflycore.ru\n"
+- "\n§8 | §fAll arenas §ccrowded§f, not enough slots?\n§8 | §fPurchase %pcreeper§f on site §dflycore.ru\n§8 | §fand this problem will be solved\n"
+- "\n§8 | §fPurchase %pbrick§f by very §dattractive§f price\n§8 | §fAlready with her you will get a decent amount §eof opportunities\n§8 | §fthat will make your game §amore interesting\n"
+- "\n§8 | §fPrivilege %pbrick§f gives more\n§8 | §fquantity §bbonuses§f and §eof opportunities§f for a reasonable price.\n§8 | §fInterested? Buying on site §dflycore.ru\n"
 - "\n§8 | §fTo play with friends\n§8 | §fjust write a command §c/party <nick>\n§8 | §fAnd all players will be moved behind the leader\n"
 - "\n§8 | §fThere are many different §epossibilities§f on the server\n§8 | §fand §dbonuses§f access to which only donators have,\n§8 | §finformation about donate §c/donate\n"
-- "\n§8 | §5§lENDERMAN§f - best server privilege,\n§8 | §fcombines the maximum amount\n§8 | §efeatures§f and §dbonuses§f for a comfortable game\n"
-- "\n§8 | §f§6§lBRICK§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dflycore.ru\n"
+- "\n§8 | %pjunior§f - best server privilege,\n§8 | §fcombines the maximum amount\n§8 | §efeatures§f and §dbonuses§f for a comfortable game\n"
+- "\n§8 | %plava§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dflycore.ru\n"
 - "\n§8 | §fYou already bought §edonat§f, now you want a §bhigher§f status?\n§8 | §COnly here§f you can purchase a new one\n§8 | §fprivilege with surcharge on the site §dflycore.ru\n"
 - "\n§8 | §fIf you saw §cthe intruder§f or §ccheater§f, that\n§8 | §fUse the command §c/report <nick>\n§8 | §fand your §ecomplaint§f complaint will be reviewed in real time\n"
 - "\n§8 | §C⚠ Warning §fWant to change the skin?\n§8 | §fFor all players available\n§8 | §fcommand §c/skin <nickname of player with skin>\n"
-- "\n§8 | §fYou rec §cletsplay§f, §coverview§f, love §cstream\n§8 | §fwith friends? Privilege §6§lYouTube§f specially for you!\n§8 | §fInterested? Buying on site §dflycore.ru\n"
+- "\n§8 | §fYou rec §cletsplay§f, §coverview§f, love §cstream\n§8 | §fwith friends? Privilege %pyoutube§f specially for you!\n§8 | §fInterested? Buying on site §dflycore.ru\n"
 - "\n§8 | §fWant to §asecure§f your account?\n§8 | §fThen tie it to your mail\n§8 | §fcommand §c/email add <mail> <repeat mail>\n"
 - "\n§8 | §fAppeared §eare questions§f, to which you §cdo not know the answer?\n§8 | §fWrite a team §c/ask <your question>\n§8 | §aOnline administration§f will help you §bin real time\n"
 - "\n§8 | §fWant §dunique§f, hidden §afeatures§f and §acapabilities§f?\n§8 | §fBuy Donat from us and get access to\n§8 | §fdonat-menu command §c/donatemenu\n"
@@ -2899,7 +2899,7 @@ MESSAGES_BROADCAST:
 - "\n§8 | §fVisit our group §9VK§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore\n"
 - "\n§8 | §fWant to discuss your §awin§f or challenge the §closs§f,\n§8 | §for maybe you want to find new §efriends§f?\n§8 | §fCome to our forum §dforum.flycore.ru\n"
 - "\n§8 | §fAppeared §eare questions§f, to which you §cdo not know the answer?\n§8 | §fWrite a team §c/ask <your question>\n§8 | §aOnline administration§f will help you §bin real time\n"
-- "\n§8 | §f§6§lBRICK§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dflycore.ru\n"
+- "\n§8 | %pbrick§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dflycore.ru\n"
 - "\n§8 | §fIf you saw §cthe intruder§f or §ccheater§f, that\n§8 | §fUse the command §c/report <nick>\n§8 | §fand your §ecomplaint§f complaint will be reviewed in real time\n"
 - "\n§8 | §fVisit our group §9VK§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore\n"
 - "\n§8 | §fVisit our group §5Group development§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore_dev\n"
@@ -3312,17 +3312,18 @@ GUI_DONATE_FAQ_CREEPER:
 - ' §8• §7Золотая середина среди привилегий на сервере.'
 - ' §8• §7Данная привилегия включает себя уникальные возможности'
 - ' §8• §7как и у более дорогих привилегий, но также дает средние'
-- ' §8• §7возможности такие как использование смайлов(§f/smile§7),'
-- ' §8• §7быстрый старт с любого режима(§f/play§7)'
-- ' §8• §7для настройки авто-исключения оффлайн игроков из вашей пати,'
+- ' §8• §7возможности такие как: использование смайлов(§f/smile§7),'
+- ' §8• §7быстрый старт с любого режима(§f/play§7),'
+- ' §8• §7настройка авто-исключения оффлайн игроков из пати,'
+- ' §8• §7возможность создания гильдии(§f/guild create§7),'
 - ' §8• §7множитель монет §fx17.5§7, и еще несколько не мало интересных возможностей!'
 GUI_DONATE_FAQ_LAVA:
 - ''
 - '§7Краткая информация:'
 - ' §8• §7Самая уникальная привилегия сервера за свою цену.'
 - ' §8• §7Думаете что купить? Это может стать хорошим выбором!'
-- ' §8• §7Покупая данную привилегию вы получаете возможность'
-- ' §8• §7создания гильдии(§f/guild§7), множитель монет §fx2.0§7 на всех мини играх,'
+- ' §8• §7Покупая данную привилегию вы получаете'
+- ' §8• §7множитель монет §fx2.0§7 на всех мини играх,'
 - ' §8• §7доступ к редким гаджетам, просмотр чужой статистики(§f/stats <ник>§7) и многое другое!'
 GUI_DONATE_FAQ_ENDERMAN:
 - ''
@@ -3521,6 +3522,7 @@ GUI_DONATE_CREEPER_ALL_LORE:
 - ' §8▪ §7Available х2 jump in all lobbies(if disable flying)'
 - ' §8▪ §7Reduced jump delay to 6 sec'
 - ' §8▪ §7Flight mode is available in all lobbies'
+- ' §8▪ §7Ability to create guilds - §f/g create'
 - ' §8▪ §7Ability to write in capital letters'
 - ' §8▪ §7Available item to disable or enable delay menu'
 - ' §8▪ §7No delay on §f/skin'
@@ -3622,7 +3624,7 @@ GUI_DONATE_LAVA_ALL_LORE:
 - ' §8▪ §7Available х2 jump in all lobbies(if disable flying)'
 - ' §8▪ §7Reduced jump delay to 6 sec'
 - ' §8▪ §7Flight mode is available in all lobbies'
-- ' §8▪ §7Ability to create guilds - §f/guild create <name>'
+- ' §8▪ §7Ability to create guilds - §f/g create'
 - ' §8▪ §7Ability to write in capital letters'
 - ' §8▪ §7Available item to disable or enable delay menu'
 - ' §8▪ §7Available glow in all lobbies'
@@ -4063,8 +4065,8 @@ GUI_DONATE_INFO_LORE:
 - ' §f<The price of your existing status> '
 - '' 
 - '§7For example, if you want to buy a status'
-- '§c§lLAVA§7, and you already have §6§lBRICK§7,'
-- '§7then you have to pay §c182 rubbles§7.'
+- '§cLAVA§7, and you already have §aCREEPER§7,'
+- '§7then you have to pay §c139 rubbles§7.'
 GUI_DONATE_MONEY_LORE:
 - '§7Все денежные средства вырученные с'
 - '§7привилегий идут на развитие проекта:'
@@ -4103,13 +4105,13 @@ GUI_INFO_HELP_LORE:
 - '§7вводить команду и она также будет добавлена.'
 GUI_INFO_DONATE_LORE:
 - '§7List of paid statuses:'
-- ' §8▪ §3§lCLAY §7- §f24 Rubbles'
-- ' §8▪ §6§lBRICK §7- §f86 Rubbles'
-- ' §8▪ §a§lCREEPER §7- §f139 Rubbles'
-- ' §8▪ §c§lLAVA §7- §f278 Rubbles'
-- ' §8▪ §5§lENDERMAN §7- §f520 Rubbles'
-- ' §8▪ §6§lYouTube §7- §f640 Rubbles'
-- ' §8▪ §2§lJUNIOR §7- §f720 Rubbles'
+- ' §8▪ §3CLAY §7- §f24 Rubbles'
+- ' §8▪ §6BRICK §7- §f86 Rubbles'
+- ' §8▪ §aCREEPER §7- §f139 Rubbles'
+- ' §8▪ §cLAVA §7- §f278 Rubbles'
+- ' §8▪ §5ENDERMAN §7- §f520 Rubbles'
+- ' §8▪ §6YouTube §7- §f640 Rubbles'
+- ' §8▪ §2JUNIOR §7- §f720 Rubbles'
 - ''
 - '§7A detailed description of the donate you can'
 - '§7find in section named §fGame menu ▸ Privileges'
@@ -4818,9 +4820,9 @@ GUI_REWARDS_INFO_LORE:
 - '§7much more coins with a multiplier'
 - ''
 - '§fAvailable multipliers:'
-- ' §8▪ §3§lCLAY§7 and §6§lBRICK §7- §e1.5x'
-- ' §8▪ §a§lCREEPER§7 - §e1.75x'
-- ' §8▪ §c§lLAVA§7 and §5§lENDERMAN §7- §e2.0x'
+- ' §8▪ §3CLAY§7 and §6§lBRICK §7- §e1.5x'
+- ' §8▪ §aCREEPER§7 - §e1.75x'
+- ' §8▪ §cLAVA§7, §5ENDERMAN§7, §6YouTube§7 and §2JUNIOR §7- §e2.0x'
 - ''
 - '§7You can buy status'
 - '§7Online §dflycore.ru'
@@ -7776,13 +7778,13 @@ HOLO_REWARDS:
 HOLO_DONATE:
 - 'Большое обилие возможностей,'
 - 'откроется Вам, с donate-привилегиями:'
-- '§3§lCLAY §f- §a24 §fRubbles'
-- '§6§lBRICK §f- §a86 §fRubbles'
-- '§a§lCREEPER §f- §a139 §fRubbles'
-- '§c§lLAVA §f- §a278 §fRubbles'
-- '%animation%§lENDERMAN §f- §a520 §fRubbles'
-- '§6§lYouTube §f- §a640 §fRubbles'
-- '§2§lJUNIOR §f- §a720 §fRubbles'
+- '%pclay §f- §a24 §fRubbles'
+- '%pbrick §f- §a86 §fRubbles'
+- '%pcreeper §f- §a139 §fRubbles'
+- '%plava §f- §a278 §fRubbles'
+- '§f[%animation%Enderman§f] §f- §a520 §fRubbles'
+- '%pyoutube §f- §a640 §fRubbles'
+- '%pjunior §f- §a720 §fRubbles'
 - '§fBuy on our site:'
 - '§ewww.flycore.ru'
 
@@ -7810,7 +7812,7 @@ HOLO_ANARCHY:
 - '§fТочка дома сохраняется где Вы спали'
 - '§fЗдесь нету приватов и регионов!'
 - '§fНа режиме §c4§f правила §7/rules'
-- '§fНаборы для §3§lCLAY§f и выше §7/kit'
+- '§fНаборы для §3CLAY§f и выше §7/kit'
 
 HOLO_CREATIVE:
 - '§a§lCreative'
