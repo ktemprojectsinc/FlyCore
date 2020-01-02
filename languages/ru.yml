@@ -8120,6 +8120,11 @@ PRISON_SELL_NO_BUY: '§cИзвините, но данный предмет не 
 PRISON_SELL_BUY: '§aСервер §8| §fВы продали %s§8 x%s§f и получили §a%s'
 PRISON_NPC_HOLO_FARMER: 
 - '§bФермер'
+PRISON_HOLO_SITO: 
+- '§aСито'
+- '§7Положив в сито Отборочную глину, можно найти предметы,'
+- '§7которые помогут вам с игрой и прокачкой.'
+- ''
 PRISON_NPC_HOLO_SELL: 
 - '§aТорговец'
 PRISON_NPC_SHOP: 
