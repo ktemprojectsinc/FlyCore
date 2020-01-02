@@ -2876,7 +2876,7 @@ BOSS_BAR_LOBBY:
 #- '§fВ ЧЕСТЬ §3НОВОГО ДИЗАЙНА§f КУПОН §a§lDESIGN§f НА СКИДКУ §c35§f%!'
 - '§fCOUPON §b§l§nCHRISTMAS§f DISCOUNT §a§l60%§f IN HONOR OF §c§lNEW YEAR'
 - '§fREPORT ABOUT§c BAGUE§f OR§c ERRORS §7► §c§lFLYCORE.RU/BUGS'
-#- '§c§lNEW! §fOPENING NEW MODE §9§lUnknownCraft§f!'
+#- '§c§lNEW! §fOPENING NEW MODE §9§lSURVIVAL§f!'
 - '§fASK YOUR QUESTION §cADMINISTRATIONS§f COMMAND §7► §d/ASK'
 - '§fHELP THE SERVER §bIMPROVE §fLOCALIZATION §7► §6§lFLYCORE.RU/lang'
 
@@ -3419,7 +3419,7 @@ GUI_DONATE_CLAY_PRISON_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_CLAY_UNKNOWNCRAFT_LORE:
+GUI_DONATE_CLAY_SURVIVAL_LORE:
 - ''
 - ' §8▪ §7Множитель монет от убийства мобов §fx1.5'
 - ' §8▪ §7Потушить себя - §f/ext'
@@ -3501,7 +3501,7 @@ GUI_DONATE_BRICK_SKYPVP_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_BRICK_UNKNOWNCRAFT_LORE:
+GUI_DONATE_BRICK_SURVIVAL_LORE:
 - ''
 - ' §8▪ §7Множитель монет от убийства мобов §fx1.5'
 - ' §8▪ §7Доступна починка предметов - §f/repair'
@@ -3595,7 +3595,7 @@ GUI_DONATE_CREEPER_PRISON_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_CREEPER_UNKNOWNCRAFT_LORE:
+GUI_DONATE_CREEPER_SURVIVAL_LORE:
 - ''
 - ' §8▪ §7Множитель монет от убийства мобов §fx1.75'
 - ' §8▪ §7Вылечить себя - §f/heal'
@@ -3704,7 +3704,7 @@ GUI_DONATE_LAVA_PRISON_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_LAVA_UNKNOWNCRAFT_LORE:
+GUI_DONATE_LAVA_SURVIVAL_LORE:
 - ''
 - ' §8▪ §7Множитель монет от убийства мобов §fx2.0'
 - ' §8▪ §7Доступен режим полета - §f/fly'
@@ -3819,7 +3819,7 @@ GUI_DONATE_ENDERMAN_PRISON_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_ENDERMAN_UNKNOWNCRAFT_LORE:
+GUI_DONATE_ENDERMAN_SURVIVAL_LORE:
 - ''
 - ' §8▪ §7Множитель монет от убийства мобов §fx2.0'
 - ' §8▪ §7Доступна телепортация к игроку - §f/tp <ник>'
@@ -3918,7 +3918,7 @@ GUI_DONATE_YOUTUBE_PRISON_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_YOUTUBE_UNKNOWNCRAFT_LORE:
+GUI_DONATE_YOUTUBE_SURVIVAL_LORE:
 - ''
 - ' §8▪ §7Множитель монет от убийства мобов §fx2.0'
 - ' §8▪ §7Доступна телепортация к игроку - §f/tp <ник>'
@@ -4021,7 +4021,7 @@ GUI_DONATE_JUNIOR_PRISON_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_JUNIOR_UNKNOWNCRAFT_LORE:
+GUI_DONATE_JUNIOR_SURVIVAL_LORE:
 - ''
 - ' §8▪ §7Множитель монет от убийства мобов §fx2.0'
 - ' §8▪ §7Доступна телепортация к игроку - §f/tp <ник>'
@@ -7674,37 +7674,37 @@ GUI_HELPMODE_INFO_1_LORE:
 - '§7числе и иссушитель, который может уничтожить любые'
 - '§7блоки, даже если находятся в чужом регионе..'
 
-GUI_UNKNOWNCRAFT_MAIN_NAME: 'Профиль'
-GUI_UNKNOWNCRAFT_INFO_NAME: 'Общая информация'
-GUI_UNKNOWNCRAFT_INFO_LORE:
+GUI_SURVIVAL_MAIN_NAME: 'Профиль'
+GUI_SURVIVAL_INFO_NAME: 'Общая информация'
+GUI_SURVIVAL_INFO_LORE:
 - ''
 - '§7Уровень: §d%s'
 - '§7До следующего уровня: §a%s XP'
-GUI_UNKNOWNCRAFT_LEVEL_NAME: 'Уровень'
-GUI_UNKNOWNCRAFT_INFO_LEVEL_LORE:
+GUI_SURVIVAL_LEVEL_NAME: 'Уровень'
+GUI_SURVIVAL_INFO_LEVEL_LORE:
 - ' '
 - '§7Увеличение вашего уровня'
 - '§7путем получения опыта!'
-GUI_UNKNOWNCRAFT_LEVEL_OTHER_NAME: 'Уровень друзей'
-GUI_UNKNOWNCRAFT_INFO_LEVEL_OTHER_LORE:
+GUI_SURVIVAL_LEVEL_OTHER_NAME: 'Уровень друзей'
+GUI_SURVIVAL_INFO_LEVEL_OTHER_LORE:
 - ' '
 - '§7Помощь друзьям, повышая их'
 - '§7уровень за свои ресурсы'
-GUI_UNKNOWNCRAFT_INFO_LEVEL_LORE2:
+GUI_SURVIVAL_INFO_LEVEL_LORE2:
 - ' '
 - '§e▸ Нажмите, чтобы открыть'
 
-GUI_UNKNOWNCRAFT_LEVEL_INFO_NAME: 'Информация'
-GUI_UNKNOWNCRAFT_LEVEL_INFO_LORE:
+GUI_SURVIVAL_LEVEL_INFO_NAME: 'Информация'
+GUI_SURVIVAL_LEVEL_INFO_LORE:
 - ''
 - '§7Уровень: §d%s %s §6%s'
 - '§7До следующего уровня: §a%s XP'
-GUI_UNKNOWNCRAFT_LEVEL_OTHER_INFO_LORE:
+GUI_SURVIVAL_LEVEL_OTHER_INFO_LORE:
 - ''
 - '§7Уровень друга: §d%s %s §6%s'
 - '§7До следующего уровня: §a%s XP'
-GUI_UNKNOWNCRAFT_LEVEL_ITEM_NAME: 'Перенесите предметы в этот слот'
-GUI_UNKNOWNCRAFT_LEVEL_ITEM_LORE:
+GUI_SURVIVAL_LEVEL_ITEM_NAME: 'Перенесите предметы в этот слот'
+GUI_SURVIVAL_LEVEL_ITEM_LORE:
 - ''
 - '§7Как только вы положите нужный'
 - '§7предмет в этот слот, он пропадет,'
@@ -7788,7 +7788,7 @@ HOLO_DONATE:
 - '§fBuy on our site:'
 - '§ewww.flycore.ru'
 
-HOLO_ONLINE_UPDATER: '§fOn mode §a%s§f %s playing'
+HOLO_ONLINE_UPDATER: '§fOn mode §a§n%s§f %s playing'
 HOLO_SELECTOR_GAME_CHANNEL: '§7Click to connect'
 HOLO_REPLACER_CHANNEL: 'On mode playing §a%s§8 %s'
 HOLO_REPLACER_CHANNEL_ERROR: '§cServers not found!'
