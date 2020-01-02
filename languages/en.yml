@@ -4221,7 +4221,7 @@ GUI_INFO_GUILD_LORE:
 - '§7Write §e/guild §7and create your guild!'
 - '§7'
 - '§cATTENTION! Guild creation cost'
-- '§c15.000 coins and available only for §c§lLAVA'
+- '§c15.000 coins and available only for §aCreeper'
 - '§cFor entry donate dont need.'
 GUI_INFO_LUCKYCHEST_LORE:
 - '§7Используйте ключи чтобы,'
