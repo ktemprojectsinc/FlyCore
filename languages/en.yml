@@ -152,23 +152,23 @@ CORE_NOT_FOUND_PLAYER_SERVER_MSG:
 CORE_NOT_FOUND_PLAYER_DATA: "§fОшибка, Ваши данные на сервере не были определены или правильно загружены. §7(Ошибка #§c%s§7)\n\n§6Если ошибка повторилась, сообщите » §avk.me/flycore_dev"
 #CORE_NOT_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If error repeated, report » §a§nvk.com/flycore\n\n§fError code (§c%s§f)"
 PROXY_CORE_LOST_CONNECTION:
-- '§aServer §8| §fProxy-server disconnected of core. Until the next connection, the transition through the servers will not be available and some commands.'
-- ' Wait reconnecting...'
-#- '§cCore §8| §cПрокси-сервер, на котором вы сейчас находились, был отключен от главного ядра.'
-#- '§cCore §8| §fСейчас вам временно будут недоступны некоторые команды и переход между серверами.'
-#- '§cCore §8| §fПросим набратся немного терпения и подождать, мы оповестим вас когда все стабилизируется :)'
+#- '§aServer §8| §fProxy-server disconnected of core. Until the next connection, the transition through the servers will not be available and some commands.'
+#- ' Wait reconnecting...'
+- '§aCore §8| §cПрокси-сервер, на котором вы сейчас находились, был отключен от главного ядра.'
+- '§aCore §8| §fСейчас вам временно будут недоступны некоторые команды и некоторые функции.'
+- '§aCore §8| §fПросим вас набратся немного терпения и подождать, мы оповестим вас когда все стабилизируется :)'
 PROXY_CORE_LOST_CONNECTION_TITLE: ''
 #§c✗ Соединение потеряно §c✗
 PROXY_CORE_LOST_CONNECTION_SUBTITLE: ''
 #§fПрокси-сервер был отключен от главного ядра
 PROXY_RECONNECTED_PLAYER:
-- '§aServer §8| §fReconnecting to server... [§a%s§f/§a%s§f]'
+- '§aCore §8| §fReconnecting to server... [§a%s§f/§a%s§f]'
 PROXY_RECONNECTED_PLAYER_TITLE: ''
 #§6⚠ Выполняется переподключение. . 
 PROXY_RECONNECTED_PLAYER_SUBTITLE: ''
 #§fПожалуйста подождите
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL:
-- '§aServer §8| §fConnention proxy-server restored. You again can use move to servers and commands.'
+- '§aCore §8| §fConnention proxy-server restored. You again can use all functionality and commands.'
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
 #§a✔ Соединение восстановлено §a✔
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
