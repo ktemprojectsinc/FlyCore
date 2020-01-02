@@ -2982,7 +2982,7 @@ TRADE_NO_READY: '§cДанный игрок не готов к обмену'
 TRADE_READY_NAME: '§aГотов'
 TRADE_NO_READY_NAME: '§cНе готов'
 
-QUESTION_MSG_INFO: "\n§aSums §8| §fWant to earn §6coins§f, §aexperience§f?\n§aSums §8| §fThen solve a little sums.\n§aSums §8| §fHow much will be §6%s§f+§6%s§f = §a/goto <your answer>\n"
+QUESTION_MSG_INFO: "§aSums §8| §fHow much will be §6%s§f+§6%s§f §7(answer write to chat)"
 QUESTION_HOVER_MSG_INFO: '§fClick here,\n§for write /goto <answer>\n§fTo answer the sum'
 GOTO_FORMAT: '/goto <top/your answer>'
 QUESTION_NOT_FOUND: '§cThere is someone who already answered, wait for a new one'
@@ -2991,10 +2991,10 @@ QUESTION_SUCCESS: '§aSums §8| §fCongratulations! You answered right on sum, a
 QUESTION_DELETE_MSG_INFO: '§aSums §8| §fUnfortunately, no one answered the sum...'
 QUESTION_WRONG_COUNT: '§cWritten by you answer is not a number'
 QUESTION_SUCCESS_MSG_INFO:
-- ''
+#- ''
 - '§aSums §8| §fWarning! Player %s§f answered right on sum %s§f, and got: §a%s§f %s'
-- '§aExamples §8| §fAnd also do not forger about top of answers on sums /goto top, in that can get exaclty You!'
-- ''
+#- '§aExamples §8| §fAnd also do not forger about top of answers on sums /goto top, in that can get exaclty You!'
+#- ''
 
 GOTO_TOP: '§aSums §8| §fTop §a%s§f players for all times:'
 GOTO_TOP_WEEK: '§aSums §8| §fTop §a%s§f players for week:'
