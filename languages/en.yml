@@ -6957,7 +6957,7 @@ GUI_LISTS_FAST_COMMAND_LORE:
 - '§7use command §f%s'
 - ' '
 GUI_LISTS_FRIENDLIST_LORE:
-- '§7View your friends list,'
+- '§7View your friends/girlfriends list,'
 - '§7as well information about them.'
 GUI_LISTS_FRIENDLIST_INFO_LORE:
 - ''
