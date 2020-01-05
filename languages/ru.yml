@@ -7117,7 +7117,7 @@ GUI_LISTS_FRIENDLIST_INFO_LORE:
 - '§8 • §7Всего: §a%s'
 - '§8 • §7Онлайн: §a%s'
 - '§8 • §7Всего: §a%s'
-- '§8 • §7Онлайн: §a%s
+- '§8 • §7Онлайн: §a%s'
 GUI_LISTS_FRIENDLIST_OPEN:
 - '§e▸ Открыть список друзей и подруг'
 GUI_LISTS_FRIENDLIST_NOT_FOUND:
