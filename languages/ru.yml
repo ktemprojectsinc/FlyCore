@@ -864,8 +864,10 @@ LEVEL_NOT:
 
 SERVER_QUEUE: '§aСервер §8| §fТелепортация на сервер §a%s'
 
-TAB_HEADER: "§aВы играете на §a§lFLYCORE.RU\n"
-TAB_FOOTER: "\n§a§lРанги, Ключи, & Другое §c§lSTORE.FLYCORE.RU\n§aВы находитесь на сервере: §d%s"
+#TAB_HEADER: "§aВы играете на §a§lFLYCORE.RU\n"
+#TAB_FOOTER: "\n§a§lРанги, Ключи, & Другое §c§lSTORE.FLYCORE.RU\n§aВы находитесь на сервере: §d%s"
+TAB_HEADER: "§f[§a§nFlyCore§f] §a%s\n§aОнлайн §8[§a%s§8/§a∞§8]"
+TAB_FOOTER: "§aНаш айпи: §6➝ §cmc.flycore.ru:25565 §6| §aДонат: §6➝ §cflycore.ru"
 
 REDIRECT_ERROR: '§cНевозможно найти подходящий сервер('
 HUBS_ERROR: '§cОшибка, нет доступного лобби, попробуйте повторить попытку позже'
