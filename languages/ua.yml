@@ -7912,7 +7912,7 @@ HOLO_DONATE:
 - '%pbrick §f- §a86 §fРублів'
 - '%pcreeper §f- §a139 §fРублів'
 - '%plava §f- §a278 §fРублів'
-- '§f[%animation%Enderman§f] §f- §a520 §fРублів'
+- '§f%ps%animation%Enderman§f%pe §f- §a520 §fРублів'
 - '%pyoutube §f- §a640 §fРублів'
 - '%pjunior §f- §a720 §fРублів'
 - '§fПокупка на сайті:'
