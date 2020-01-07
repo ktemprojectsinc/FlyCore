@@ -8271,4 +8271,13 @@ HOLO_PORTAL_START:
 - '§7начала игры на наилучшей арене!'
 
 HOLO_LASTDONATE:
-- '1 %s'
+- '§a§lПоследняя покупка доната'
+- '§eПокупка на сайте: §cwww.flycore.ru'
+
+LDON_BUYER: 'Покупатель'
+LDON_TYPE: 'Куплено'
+LDON_DATE: 'Дата'
+LDON_STATS: 'Статус'
+LDON_STATS_GIVE: 'Выдано'
+LDON_STATS_NO: 'Не выдано'
+LDON_PROMO: 'Промо-код'
