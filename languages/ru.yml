@@ -1119,6 +1119,8 @@ VERIFY_NOT_ENABLE: '§aВерификация §8| §cДля вас недост
 NO_PERMS: '§cУ вас нет прав'
 NO_PERMS_GROUP: '§cУ вас нет прав, купите %s§c или выше'
 NO_PERMS_STATS: '§cУ вас нет прав, купите должность %s§c или выше'
+NO_PERMS_TITLE: '§c✗ У вас нет прав ✗'
+NO_PERMS_SUBTITLE: '§cКупите минимум %s§c для доступа'
 NO_PERMS_ENDERMAN_ONLY: '§cДанная функция только для §5ENDERMAN'
 NO_PERMS_ONLY: '§cДанная функция только для %s'
 
