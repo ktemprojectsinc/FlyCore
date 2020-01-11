@@ -1740,7 +1740,7 @@ FRIEND_ADD_EXPIRED: '§cЗапрос, отправленный игроку %s§
 FRIEND_ADD_EXPIRED_TO: '§aДрузья §8| §fИгрок %s§f отправлявший Вам запрос в друзья, был автоматически отклонен спустя %s'
 
 FRIEND_CHAT_FORMAT: '/fchat <сообщение>'
-FRIEND_CHAT: '§aДрузья §8| %s'
+FRIEND_CHAT: '§aЧат друзей §8| %s'
 FRIEND_CHAT_OFFLINE: '§cУ вас нет друзей онлайн'
 
 FRIEND_ACCEPT_FORMAT: '/f accept <ник игрока>'
