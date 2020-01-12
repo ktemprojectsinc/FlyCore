@@ -7968,3 +7968,16 @@ HOLO_PORTAL_START:
 - '§d§lБыстрый старт'
 - '§7Прыгай в потрал, для'
 - '§7начала игры на наилучшей арене!'
+
+HOLO_LASTDONATE:
+- '§a§lLast purchase of goods'
+- '§ePurchase on site: §cwww.flycore.ru'
+
+LDON_BUYER: 'Buyer'
+LDON_TYPE: 'Bought'
+LDON_DATE: 'Date'
+LDON_STATS: 'Status'
+LDON_STATS_GIVE: 'Issued by'
+LDON_STATS_NO: 'No issued by'
+LDON_PROMO: 'Promo-code'
+LDON_COUNT: 'Total purchases'
