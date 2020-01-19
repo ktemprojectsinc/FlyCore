@@ -232,9 +232,10 @@ BEST_PLAYER_LORE:
 - '§7Его статус истекает §7%s МСК'
 - '§7(Если его никто не перекупит)'
 BEST_PLAYER_GUI: 'Самый лучший игрок'
-BEST_PLAYER_HOLO: '§fСамый лучший игрок сервера'
+BEST_PLAYER_HOLO: '§fСамый лучший игрок сервера:'
 BEST_PLAYER_HOLO2: '§fОн вложил: §e%s§f %s'
-BEST_PLAYER_HOLO3: '§7Нажмите, чтобы сменить!'
+BEST_PLAYER_HOLO3: '§7Осталось: %s'
+BEST_PLAYER_HOLO4: '§7Нажмите, чтобы сменить!'
 
 KILLS:
 - 'убийств'
