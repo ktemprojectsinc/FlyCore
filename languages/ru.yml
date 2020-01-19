@@ -3334,7 +3334,8 @@ LEVEL_ALREADY_GIVE: '§cОшибка, Вы уже получили данную 
 LEVEL_NO_OTHER_REWARD: '§cОшибка, перед получением этой награды Вы обязаны получить все предыдущие!'
 LEVEL_REWARD_COSMETIC:  'Игровая косметика'
 LEVEL_REWARD_GADGET: 'Гаджет'
-LEVEL_REWARD_SENDMONEY: '§8+ §7Принимать и отправлять деньги через §f/sendmoney'
+LEVEL_REWARD_SENDMONEY: '§8+ §7Принимать и отправлять деньги через §f/pay'
+LEVEL_REWARD_PAYIGNOR: '§8+ §7Игнорировать лимит получателя через §f/pay'
 LEVEL_REWARD_ANTICHEAT: '§8+ §7Иммунитет к некоторым проверкам античита!'
 LEVEL_REWARD_NAME: 'Награда за %s уровень'
 LEVEL_REWARD_LORE1:
