@@ -233,13 +233,13 @@ BUY_UNAVAILABLE_LORE:
 
 GUI_SKINHISTORY_NAME: 'История скинов'
 GUI_SKINHISTORY_RESET: '§bСбросить скин'
-GUI_SKINHISTORY_SKIN_DEFAULT:
+GUI_SKINHISTORY_RESET_LORE:
 - ''
 - '§7У вас установлен скин игрока:'
 - '§f%s'
-GUI_SKINHISTORY_RESET_LORE:
+GUI_SKINHISTORY_SKIN_DEFAULT:
 - ''
-- '§C▸ У вас установлен скин по умолчанию'
+- '§C▸ У вас уже скин по умолчанию'
 GUI_SKINHISTORY_SKIN_OTHER:
 - ''
 - '§e▸ Нажмите, чтобы сбросить скин'
@@ -7278,6 +7278,9 @@ GUI_SKINHISTORY_LORE:
 - ''
 - '§7В истории хранятся только последние'
 - '§f%s§7 записей об изменении скина'
+GUI_SKINHISTORY_LAST_LORE:
+- ''
+- '§7Вот некоторые из них:'
 GUI_LISTS_SKINHISTORY_OPEN:
 - '§e▸ Открыть историю скинов'
 
