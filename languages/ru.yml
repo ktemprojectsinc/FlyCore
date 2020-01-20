@@ -204,6 +204,63 @@ SITE: 'Сайт'
 STATUS: 'Статус'
 AFK: '§cБеги!'
 
+GUI_PLOTSHOP_NAME: 'Покупка плотов для'
+GUI_PLOTSHOP_PLAYERINFO_LORE:
+- ''
+- '§7Доступно плотов: §a%s§7/§c%s'
+GUI_PLOTSHOP_INFO_LORE:
+- ''
+- '§7Здесь вы можете приобрести плот,'
+- '§7если вам не хватает текущего количество'
+- '§7плотов.'
+- ''
+- '§7Можно купить до §c%s§f плотов'
+GUI_PLOTSHOP_BUY: '§6Плот #%s'
+GUI_PLOTSHOP_BUY_ALREADY_LORE:
+- ''
+- '§7Данный плот уже куплен'
+GUI_PLOTSHOP_BUY_LORE:
+- ''
+- '§cПлот не куплен'
+- ''
+- '§7Стоимость плота: §e%s'
+
+BUY_UNAVAILABLE_LORE:
+- '§cУ вас недостаточно %s'
+- ''
+- '§7Приобрести %s можно на'
+- '§7нашем сайте: §dflycore.ru'
+
+GUI_SKINHISTORY_NAME: 'История скинов'
+GUI_SKINHISTORY_RESET: '§bСбросить скин'
+GUI_SKINHISTORY_SKIN_DEFAULT:
+- ''
+- '§7У вас установлен скин игрока:'
+- '§f%s'
+GUI_SKINHISTORY_RESET_LORE:
+- ''
+- '§с▸ У вас установлен скин по умолчанию'
+GUI_SKINHISTORY_SKIN_OTHER:
+- ''
+- '§e▸ Нажмите, чтобы сбросить скин'
+GUI_SKINHISTORY_EMPTY: '§cИстория скинов пуста'
+GUI_SKINHISTORY_EMPTY_LORE:
+- ''
+- '§7Скорее всего, вы еще никогда'
+- '§7не меняли скин командой §f%s'
+GUI_SKINHISTORY_OTHER_SET: '§aСкин игрока %s'
+GUI_SKINHISTORY_OTHER_SET_LORE:
+- ''
+- '%s'
+- ''
+- '§7С последней установки прошло:'
+- '§f%s'
+GUI_SKINHISTORY_ALREADY_LORE:
+- '§c▸ У вас сейчас установлен этот скин'
+GUI_SKINHISTORY_SET_LORE:
+- '§e▸ Нажмите, чтобы установить снова'
+
+
 BEST_PLAYER_INFO:
 - ''
 - '§7Тот игрок, что внесет'
