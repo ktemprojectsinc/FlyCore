@@ -262,6 +262,15 @@ GUI_SKINHISTORY_OTHER_SET_LORE:
 - '§f%s'
 GUI_SKINHISTORY_ALREADY_LORE: '§C▸ У вас сейчас установлен этот скин'
 GUI_SKINHISTORY_SET_LORE: '§e▸ Нажмите, чтобы установить снова'
+GUI_SKINHISTORY_CLEAR: '§4Очистка истории'
+GUI_SKINHISTORY_CLEAR_LORE:
+- ''
+- '§7Не хочется хранить'
+- '§7историю скинов?'
+- '§7Тогда вы можете очистить'
+- '§7её за %s'
+- ''
+- '§e▸ Нажмите, чтобы очистить'
 
 
 BEST_PLAYER_INFO:
