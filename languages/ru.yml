@@ -1,7 +1,7 @@
 #Russian
 
 SERVER: '§aСервер §8| §f'
-SERVER_RESTART: 'Перезагрузка'
+SERVER_RESTART: 'Перезагрузка'GUI_SKINHISTORY_LORE
 COMMAND_DOUBLE: '§aСервер §8| §fПожалуйста используйте команды §cбез §fдвоеточия'
 ENABLED: '§aВключено вроде'
 DISABLED: '§cОтключено (не точно)'
@@ -7270,6 +7270,16 @@ GUI_LISTS_PARTYLIST_OPEN:
 - '§e▸ Открыть список участников пати'
 GUI_LISTS_PARTYLIST_NOT_FOUND:
 - '§c ✗ Вы не состоите в пати'
+
+GUI_SKINHISTORY_LORE:
+- ''
+- '§7Вы можете посмотреть историю'
+- '§7установленных когда-либо скинов'
+- ''
+- '§7В истории хранятся только последние'
+- '§f%s§f записей об изменении скина'
+GUI_LISTS_SKINHISTORY_OPEN:
+- '§e▸ Открыть историю скинов'
 
 GUI_MENU_NAME: 'Меню'
 GUI_HOME_LORE:
