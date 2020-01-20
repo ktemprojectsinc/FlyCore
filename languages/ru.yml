@@ -239,7 +239,7 @@ GUI_SKINHISTORY_SKIN_DEFAULT:
 - '§f%s'
 GUI_SKINHISTORY_RESET_LORE:
 - ''
-- '§с▸ У вас установлен скин по умолчанию'
+- '§C▸ У вас установлен скин по умолчанию'
 GUI_SKINHISTORY_SKIN_OTHER:
 - ''
 - '§e▸ Нажмите, чтобы сбросить скин'
@@ -247,7 +247,7 @@ GUI_SKINHISTORY_EMPTY: '§cИстория скинов пуста'
 GUI_SKINHISTORY_EMPTY_LORE:
 - ''
 - '§7Скорее всего, вы еще никогда'
-- '§7не меняли скин командой §f%s'
+- '§7не меняли скин командой §f/skin <ник>'
 GUI_SKINHISTORY_OTHER_SET: '§aСкин игрока %s'
 GUI_SKINHISTORY_OTHER_SET_LORE:
 - ''
@@ -255,10 +255,8 @@ GUI_SKINHISTORY_OTHER_SET_LORE:
 - ''
 - '§7С последней установки прошло:'
 - '§f%s'
-GUI_SKINHISTORY_ALREADY_LORE:
-- '§c▸ У вас сейчас установлен этот скин'
-GUI_SKINHISTORY_SET_LORE:
-- '§e▸ Нажмите, чтобы установить снова'
+GUI_SKINHISTORY_ALREADY_LORE: '§C▸ У вас сейчас установлен этот скин'
+GUI_SKINHISTORY_SET_LORE: '§e▸ Нажмите, чтобы установить снова'
 
 
 BEST_PLAYER_INFO:
