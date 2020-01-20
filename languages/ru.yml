@@ -1,7 +1,7 @@
 #Russian
 
 SERVER: '§aСервер §8| §f'
-SERVER_RESTART: 'Перезагрузка'GUI_SKINHISTORY_LORE
+SERVER_RESTART: 'Перезагрузка'
 COMMAND_DOUBLE: '§aСервер §8| §fПожалуйста используйте команды §cбез §fдвоеточия'
 ENABLED: '§aВключено вроде'
 DISABLED: '§cОтключено (не точно)'
