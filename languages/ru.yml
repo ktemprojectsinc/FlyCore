@@ -7302,7 +7302,7 @@ GUI_SKINHISTORY_LORE:
 - '§7до §f%s§7 скинов'
 GUI_SKINHISTORY_LAST_LORE:
 - ''
-- '§7В вашей истории: §a%s§7 скинов'
+- '§7В вашей истории: §a%s§7 %s'
 - '§7Вот некоторые из них:'
 GUI_LISTS_SKINHISTORY_OPEN:
 - '§e▸ Открыть историю скинов'
