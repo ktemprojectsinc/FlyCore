@@ -305,6 +305,8 @@ BEST_PLAYER_HOLO: '§fСамый почетный игрок сервера:'
 BEST_PLAYER_HOLO2: '§fОн вложил: §e%s§f %s'
 BEST_PLAYER_HOLO3: '§7Осталось: %s'
 BEST_PLAYER_HOLO4: '§7Нажмите, чтобы сменить!'
+BEST_PLAYER_CLICK: '§aСервер §8| §f-%s§f за удар почетного игрока!'
+BEST_PLAYER_CLICK_ERROR: '§cОшибка, удар почетного игрока стоит %s!'
 
 KILLS:
 - 'убийств'
