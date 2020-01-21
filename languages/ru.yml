@@ -6202,6 +6202,9 @@ GUI_GADGETS_HAT_71: 'Подарок'
 GUI_GADGETS_HAT_71_LORE:
 - '§7Зачем дарить подарок, если можно одеть его'
 - '§7к себе на голову, и показать всем?'
+GUI_GADGETS_HAT_72: 'Крыса'
+GUI_GADGETS_HAT_72_LORE:
+- '§7§oNo comments..'
 GUI_GADGETS_BANNER_1: 'Белый баннер'
 GUI_GADGETS_BANNER_1_LORE:
 - '§7У Вас будет белый баннер'
@@ -6277,6 +6280,9 @@ GUI_GADGETS_SPIRIT_8_LORE:
 - '§7Дари сам подарки, с новым духом!'
 - ''
 - '§7§oМешок с подарками прилагается'
+GUI_GADGETS_SPIRIT_9: 'Крысы'
+GUI_GADGETS_SPIRIT_9_LORE:
+- '§7В честь года ..!'
 
 GUI_PREFIX_NAME: 'Смена префикса'
 GUI_PREFIX_SELECTED_LORE:
