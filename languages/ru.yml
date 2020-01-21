@@ -3230,9 +3230,12 @@ FORMATNAME_FINISH: '§aСервер §8| §fПоиск завершен за §6
 
 SENDMONEY_FORMAT: '/pay <ник игрока> <сумма>'
 SENDMONEY_YOU: '§cНельзя отправлять деньги самому себе'
-COMMISSION_SENDMONEY: '§fВаша комиссия на отправку денег: §a%s'
-COMMISSION_LIMITMONEY: '§fВаш дневной лимит на отправку денег: §a%s'
-COMMISSION_GETMONEY: '§fВаш дневной лимит на получение денег: §a%s'
+COMMISSION_SENDMONEY: '§c • §fВаша комиссия на отправку денег: §a%s'
+COMMISSION_LIMITMONEY: '§c • §fВаш дневной лимит на отправку денег: §a%s'
+COMMISSION_GETMONEY: '§c • §fВаш дневной лимит на получение денег: §a%s'
+COMMISSION_SENDCORE: '§c • §fВаша комиссия на отправку ядер: §a%s'
+COMMISSION_LIMITCORE: '§c • §fВаш дневной лимит на отправку ядер: §a%s'
+COMMISSION_GETCORE: '§c • §fВаш дневной лимит на получение ядер: §a%s'
 SENDMONEY_SEND: '§aСервер §8| §fВы успешно передали §a%s §f%s игроку %s§f. Комиссия при переводе составила §c%s §f%s (§e%s§f)'
 SENDMONEY_ERROR_SEND: '§cОшибка, вы не можете отправить %s %s, так как ваш дневной лимит на отправку денег не должен превышать %s %s'
 SENDMONEY_ERROR_SENDED: '§cОшибка, вы не можете отправить %s %s игроку %s§c, так как его дневной лимит на получение денег не должен превышать %s %s'
@@ -3244,6 +3247,8 @@ SENDMONEY_ERROR_MONEY: '§cОшибка, вы не можете переводи
 SENDMONEY_NO_MONEY_OTHER: '§cОшибка, на балансе гильдии недостаточно средств! Включая комиссию %s на счету гильдии должно быть %s %s'
 SENDMONEY_ERROR_MONEY_OTHER: '§cОшибка, вы не можете вносить суммы ниже %s и выше %s за раз!'
 SENDMONEY_ERROR_MONEY_OTHER_2: '§cОшибка, вы не можете выводить суммы ниже %s и выше %s за раз!'
+
+SENDCORE_FORMAT: '/sendcore <ник крысы> <сумма>'
 
 VK_NOT_LINK: '§aVK-bot §8| §fДанный игрок не привязал свой аккаунт к §9VK §fботу'
 VK_HIDE: '§cДанный игрок запретил узнавать его страницу VK'
