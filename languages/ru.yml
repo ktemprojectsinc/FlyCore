@@ -3460,6 +3460,8 @@ LEVEL_REWARD_COSMETIC:  'Игровая косметика'
 LEVEL_REWARD_GADGET: 'Гаджет'
 LEVEL_REWARD_SENDMONEY: '§8+ §7Принимать и отправлять деньги через §f/pay'
 LEVEL_REWARD_PAYIGNOR: '§8+ §7Игнорировать лимит получателя через §f/pay'
+LEVEL_REWARD_SENDCORE: '§8+ §7Отправлять ядра через §f/paycore'
+LEVEL_REWARD_GETCORE: '§8+ §7Принимать ядра через §f/paycore'
 LEVEL_REWARD_ANTICHEAT: '§8+ §7Иммунитет к некоторым проверкам античита!'
 LEVEL_REWARD_NAME: 'Награда за %s уровень'
 LEVEL_REWARD_LORE1:
