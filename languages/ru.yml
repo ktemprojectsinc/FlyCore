@@ -308,7 +308,7 @@ BEST_PLAYER_HOLO3: '§7Осталось: %s'
 BEST_PLAYER_HOLO4: '§7Нажмите, чтобы сменить!'
 BEST_PLAYER_CLICK: '§aСервер §8| §f-%s§f за удар почетного игрока!'
 BEST_PLAYER_CLICK_ERROR: '§cОшибка, удар почетного игрока стоит %s!'
-BEST_PLAYER_CLICK_MSG: '§fВы получили %s§f за то что он вас ударил %s'
+BEST_PLAYER_CLICK_MSG: '§fВы получили %s§f за то что вас ударил %s'
 
 KILLS:
 - 'убийств'
