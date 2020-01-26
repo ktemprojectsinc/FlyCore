@@ -314,7 +314,7 @@ GUI_TITLE_NAME: 'Титулы'
 GUI_TITLE_NOT_ACCESS: '§cДоступен по особым праздникам или дням'
 GUI_TITLE_UNAVAILABLE: '§cДанный титул вам не доступен'
 GUI_TITLE_SHOW: '§e▸ Нажмите, чтобы показать титул'
-GUI_TITLE_HIDE: '§e▸ Нажмите, чтобы скрыть титул'
+GUI_TITLE_HIDE: '§c▸ Нажмите, чтобы скрыть титул'
 GUI_TITLE_LORE:
 - '§7Сменить титул на: %s'
 
