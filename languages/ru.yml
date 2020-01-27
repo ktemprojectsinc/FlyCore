@@ -317,6 +317,9 @@ GUI_TITLE_SHOW: '§e▸ Нажмите, чтобы показать титул'
 GUI_TITLE_HIDE: '§c▸ Нажмите, чтобы скрыть титул'
 GUI_TITLE_LORE:
 - '§7Сменить титул на: %s'
+GUI_TITLE_ITEM_LORE:
+- ''
+- '§fВсего титулов: §e%s'
 
 KILLS:
 - 'убийств'
