@@ -2745,7 +2745,7 @@ GOD_TO: 'Для игрока %s§f установлен режим бога - %s
 GOD_ON: '§aвключен'
 GOD_OFF: '§cотключен'
 
-USER_SETBED: 'Точка §aкровати§f установлена'
+GAMER_SETBED: 'Точка §aкровати§f установлена'
 
 GAMEMODE_FORMAT: '/gamemode <1|2|0>'
 GAMEMODE: '§fУстановлен режим - §c%s'
