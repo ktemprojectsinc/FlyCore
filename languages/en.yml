@@ -1405,6 +1405,7 @@ ME_INFO:
 - ''
 - '§8Here You can see information,'
 - '§8that we keep on server about You.'
+ME_INFO_OLD:
 - ''
 - '§8#Proxy'
 - "§aProxy §8| §fInformation about player's connection %s§f:"
@@ -1522,9 +1523,10 @@ CORE_CHANNELS_CHANNELS_FORMAT: ' §8• §a%s §7(§a%s §f%s, §a%s §f%s§7)'
 
 CORE_MEMORY:
 - '§aCore §8| §fInformation of memory:'
-- '§8 ▪ §fMax memory §a%s§f MB'
-- '§8 ▪ §fAllowed memory §a%s§f MB'
-- '§8 ▪ §fFree memory §a%s§f MB'
+- '§8 ▪ §fTime jobs: §a%s§f MB'
+- '§8 ▪ §fMax memory: §a%s§f MB'
+- '§8 ▪ §fAllowed memory: §a%s§f MB'
+- '§8 ▪ §fFree memory: §a%s§f MB'
 
 CORE_PROXYS_NOT_EXISTS: '§aCore §8| §fNow at moment not connected proxies'
 CORE_PROXYS_TOTAL: '§aCore §8| §fTotal connected proxies (§a%s§f):'
@@ -1626,7 +1628,7 @@ PARTY_CHAT: '§dParty chat §8| %s'
 PARTY_COMMAND_HELP:
 - '§7/party invite <player name> §f- create new group'
 - '§7/party requests §f- invite list of group'
-- '§7/party join <player name> §f- join to public player group'
+- '§7/party join <player name> §f- join to public player group §7(from /party all)'
 - '§7/party all §f- all public groups'
 PARTY_COMMAND_OWNER_HELP:
 - '§7/party kick <player name> §f- remove member group'
@@ -2463,7 +2465,9 @@ MSG_ALERT: '§aPM §8| %s §8-> §6I §8| §7%s'
 MSG_DONATE: '§aPM §8| §6I §8-> %s §8| §f%s'
 MSG_ALERT_DONATE: '§aPM §8| %s §8-> §6I §8| §f%s'
 
-ONLINE_ALL: '§aServer §8| §fTotal online §a%s §f%s'
+ONLINE_ALL:
+- '§aServer §8| §fTotal online §a%s §f%s'
+- '§f %s'
 ONLINE:
 - '§aServer §8| §fTotal online of %s §b%s§f - §a%s §f%s'
 - ''
