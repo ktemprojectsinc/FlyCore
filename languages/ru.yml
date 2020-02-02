@@ -1980,6 +1980,7 @@ SERVER_KILL_BROADCAST: '§cСервер §8| %s§4 убил§7 сервер ▬ 
 SERVER_MEMORY_ENDS_BROADCAST: '§cСервер §8| §7У сервера §a%s§7 кончается §cсвободная память §7(%sMB)'
 SERVER_MEMORY_ENDS_DISABLE_BROADCAST: '§cСервер §8| §7Сервер §a%s§7 был отключен, из-за §cнехватки памяти §7(Свободной памяти было: %sMB)'
 SERVER_PLAYER_CONNECTION_CLOSED: '§cСервер §8| §7Соединение игрока %s§7 было §cаварийно§7 завершено, по причине - §c%s'
+SERVER_PLAYER_COMMAND_USED_ERROR: '§cСервер §8| §7Команда §a%s§8 (%s)§7 использованная игроком %s§7 была §cне корректно§7 выполнена, по причине - §c%s'
 
 DEVELOPER_BROADCAST: '§cDevelopment §8| %s§7 %s вам сообщение: §a%s'
 ANSWER_BROADCAST: '§cВопросы §8| %s§7 %s игроку %s§8 (§a%s§8) §7 -> §e%s'
