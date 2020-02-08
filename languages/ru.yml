@@ -8304,10 +8304,10 @@ HOLO_DONATE:
 - '§fПокупать на сайте:'
 - '§dwww.flycore.ru'
 
-HOLO_ONLINE_UPDATER: '§7На режиме играет §a§n%s§7 %s'
-HOLO_SELECTOR_GAME_CHANNEL: '§eНажмите, чтобы подключиться'
+HOLO_ONLINE_UPDATER: '§dНа режиме играет §a§n%s§f %s'
+HOLO_SELECTOR_GAME_CHANNEL: '§bНажмите, чтобы подключиться'
 HOLO_REPLACER_CHANNEL: 'На режиме играет §a%s§8 %s'
-HOLO_REPLACER_CHANNEL_ERROR: '§cСервера не найдены!'
+HOLO_REPLACER_CHANNEL_ERROR: '§4Сервера не найдены!'
 
 GAME_UPDATE_NAME: '§lОбновлено!'
 GAME_UPDATE_NEW_NAME: '§lНовый!'
