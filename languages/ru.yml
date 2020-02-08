@@ -8305,7 +8305,7 @@ HOLO_DONATE:
 - '§fПокупать на сайте:'
 - '§dwww.flycore.ru'
 
-HOLO_ONLINE_UPDATER: '§dНа режиме играет §a§n%s§d %s'
+HOLO_ONLINE_UPDATER: '§dНа режиме играет §a%s§d %s'
 HOLO_SELECTOR_GAME_CHANNEL: '§bНажмите, чтобы подключиться'
 HOLO_REPLACER_CHANNEL: 'На режиме играет §a%s§8 %s'
 HOLO_REPLACER_CHANNEL_ERROR: '§4Сервера не найдены!'
