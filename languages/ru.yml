@@ -1947,6 +1947,7 @@ LEVEL_COMMAND:
 KEY_BOX: '%sУ вас %s %s'
 BOX_NAME: 'Сундук удачи'
 BOX_SUB_NAME: '§7Нажмите, чтобы открыть'
+BOX_IS_CLOSED: '§cПростите, но данный сундук временно недоступен'
 BOX_KEY_NOT_BUY: '§cПростите, но в данный момент этот ключ не продается!'
 BOX_NO_KEY: '§cУ вас нет ключей'
 BOX_WORK: '§cПодождите... Сундук прокручивается!'
@@ -8304,7 +8305,7 @@ HOLO_DONATE:
 - '§fПокупать на сайте:'
 - '§dwww.flycore.ru'
 
-HOLO_ONLINE_UPDATER: '§dНа режиме играет §a§n%s§f %s'
+HOLO_ONLINE_UPDATER: '§dНа режиме играет §a§n%s§d %s'
 HOLO_SELECTOR_GAME_CHANNEL: '§bНажмите, чтобы подключиться'
 HOLO_REPLACER_CHANNEL: 'На режиме играет §a%s§8 %s'
 HOLO_REPLACER_CHANNEL_ERROR: '§4Сервера не найдены!'
