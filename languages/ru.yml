@@ -3531,7 +3531,7 @@ GUI_PROFILE_TITLE_LORE3:
 
 GUI_PROFILE_NAME: 'Профиль'
 GUI_PROFILE_THEME: '§bВыбор темы'
-GUI_DONATE_NAME: 'Привилегии и статусы'
+GUI_DONATE_NAME: 'Привилегии'
 GUI_DONATE_NAME_TO: '%s ▸ Привилегии'
 GUI_DONATE_TITLE: 'Возможности'
 GUI_DONATE_ALL: '§bОбщие возможности'
@@ -4815,7 +4815,11 @@ GUI_GAMES_DONATE_LORE:
 - ''
 - '§e▸ Открыть меню привилегий'
 GUI_GAMES_LOBBY_LORE:
-- '§7Вернутся в главное лобби'
+- '§7В главном лобби:
+- '§7 %s %s'
+- ''
+- '§7Смените лобби, и найдите'
+- '§7своих друзей'
 
 GUI_STAFF_AND_DONATE_ITEM: 'Список %s'
 GUI_STAFF_AND_DONATE_NAME: 'Список персонала и донатеров (%s)'
