@@ -838,8 +838,8 @@ LEVEL_NOT:
 REDIRECT_TO_SERVER: '§aТелепортую на сервер %s'
 SERVER_QUEUE: '§aТелепортую на сервер %s'
 
-TAB_HEADER: ""
-TAB_FOOTER: ""
+TAB_HEADER: "онлайн %go из %max"
+TAB_FOOTER: "пинг %pms\n§bFlyCore.ru"
 
 REDIRECT_ERROR: '§cНеможливо знайти відповідний сервер('
 HUBS_ERROR: '§cПомилка, немає доступного лобі, спробуйте повторити спробу пізніше'
@@ -7909,11 +7909,11 @@ HOLO_REWARDS:
 
 HOLO_DONATE:
 - '§eПривилегии:'
-- '%pclay §f- §a24 §fРублів'
-- '%pbrick §f- §a86 §fРублів'
-- '%pcreeper §f- §a139 §fРублів'
-- '%plava §f- §a278 §fРублів'
-- '§f%ps§dEnderman§f%pe §f- §a520 §fРублів'
+- '%pclay §f- §524 §fРублів'
+- '%pbrick §f- §586 §fРублів'
+- '%pcreeper §f- §5139 §fРублів'
+- '%plava §f- §5278 §fРублів'
+- '§f%ps§dEnderman§f%pe §f- §5520 §fРублів'
 - '§fПокупка на сайті:'
 - '%animation%www.flycore.ru'
 
