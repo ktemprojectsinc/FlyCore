@@ -7801,15 +7801,14 @@ HOLO_REWARDS:
 - '§7Click, to open'
 
 HOLO_DONATE:
-- 'Большое обилие возможностей,'
-- 'откроется Вам, с donate-привилегиями:'
+- '§ePrivileges'
 - '%pclay §f- §a24 §fRubbles'
 - '%pbrick §f- §a86 §fRubbles'
 - '%pcreeper §f- §a139 §fRubbles'
 - '%plava §f- §a278 §fRubbles'
-- '§f%ps%animation%Enderman§f%pe §f- §a520 §fRubbles'
+- '§f%ps§dEnderman§f%pe §f- §a520 §fRubbles'
 - '§fBuy on our site:'
-- '§ewww.flycore.ru'
+- '%animation%www.flycore.ru'
 
 HOLO_ONLINE_UPDATER: '§7On mode §a§n%s§7 %s playing'
 HOLO_SELECTOR_GAME_CHANNEL: '§eClick to connect'
