@@ -7908,15 +7908,14 @@ HOLO_REWARDS:
 - '§7Натисніть, щоб відкрити'
 
 HOLO_DONATE:
-- 'Большое обилие возможностей,'
-- 'откроется Вам, с донат-привилегиями:'
+- '§eПривилегии:'
 - '%pclay §f- §a24 §fРублів'
 - '%pbrick §f- §a86 §fРублів'
 - '%pcreeper §f- §a139 §fРублів'
 - '%plava §f- §a278 §fРублів'
-- '§f%ps%animation%Enderman§f%pe §f- §a520 §fРублів'
+- '§f%ps§dEnderman§f%pe §f- §a520 §fРублів'
 - '§fПокупка на сайті:'
-- '§ewww.flycore.ru'
+- '%animation%www.flycore.ru'
 
 HOLO_ONLINE_UPDATER: '§7На режимі грає §a§n%s§7 %s'
 HOLO_SELECTOR_GAME_CHANNEL: '§eНатисніть, щоб приєднатися'
