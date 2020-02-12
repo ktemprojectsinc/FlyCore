@@ -7801,7 +7801,7 @@ HOLO_REWARDS:
 - '§7Click, to open'
 
 HOLO_DONATE:
-- '§ePrivileges'
+- '§ePrivileges:'
 - '%pclay §f- §a24 §fRubbles'
 - '%pbrick §f- §a86 §fRubbles'
 - '%pcreeper §f- §a139 §fRubbles'
