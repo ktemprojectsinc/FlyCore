@@ -884,8 +884,8 @@ LEVEL_NOT: '§cError, rewards can receive only 5 level or higher'
 REDIRECT_TO_SERVER: '§aTeleported to server %s'
 SERVER_QUEUE: '§aTeleported to server %s'
 
-TAB_HEADER: ""
-TAB_FOOTER: ""
+TAB_HEADER: "online %go or %max"
+TAB_FOOTER: "ping %pms\n§bFlyCore.ru"
 
 REDIRECT_ERROR: '§cUnable to find suitable server('
 HUBS_ERROR: '§cError, lobby unavailable, try again later'
@@ -7802,11 +7802,11 @@ HOLO_REWARDS:
 
 HOLO_DONATE:
 - '§ePrivileges:'
-- '%pclay §f- §a24 §fRubbles'
-- '%pbrick §f- §a86 §fRubbles'
-- '%pcreeper §f- §a139 §fRubbles'
-- '%plava §f- §a278 §fRubbles'
-- '§f%ps§dEnderman§f%pe §f- §a520 §fRubbles'
+- '%pclay §f- §524 §fRubbles'
+- '%pbrick §f- §586 §fRubbles'
+- '%pcreeper §f- §5139 §fRubbles'
+- '%plava §f- §5278 §fRubbles'
+- '§f%ps§dEnderman§f%pe §f- §5520 §fRubbles'
 - '§fBuy on our site:'
 - '%animation%www.flycore.ru'
 
