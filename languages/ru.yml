@@ -8297,9 +8297,9 @@ HOLO_DONATE:
 - '%pbrick §f- §586 §fрублей'
 - '%pcreeper §f- §5139 §fрублей'
 - '%plava §f- §5278 §fрублей'
-- '§f%ps%animation%Enderman§f%pe §f- §5520 §fрублей'
+- '§f%psEnderman§f%pe §f- §5520 §fрублей'
 - '§fПокупать на сайте:'
-- '§dwww.flycore.ru'
+- '%animation%www.flycore.ru'
 
 HOLO_ONLINE_UPDATER: '§dНа режиме играет §a%s§d %s'
 HOLO_SELECTOR_GAME_CHANNEL: '§bНажмите, чтобы подключиться'
