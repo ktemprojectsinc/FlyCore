@@ -1027,7 +1027,7 @@ LEVEL_NOT:
 SERVER_QUEUE: '§aСервер §8| §fТелепортация на сервер §a%s'
 
 TAB_HEADER: "онлайн %go из %max"
-TAB_FOOTER: "пинг %pms"
+TAB_FOOTER: "пинг %pms\n§bFlyCore.ru"
 
 REDIRECT_ERROR: '§cНевозможно найти подходящий сервер('
 HUBS_ERROR: '§cОшибка, нет доступного лобби, попробуйте повторить попытку позже'
