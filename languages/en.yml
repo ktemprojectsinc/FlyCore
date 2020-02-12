@@ -1190,7 +1190,7 @@ VERIFY_NOT_ENABLE: '§cVerify §8| §cДля вас недоступна дан�
 
 NO_PERMS: '§cYou do not have permissions'
 NO_PERMS_GROUP: '§cYou do not have permissions, buy %s§c or higher'
-NO_PERMS_STATS: '§cYou do not have permissions, buy %s§c or higher'
+NO_PERMS_STATS: '§cYou do not have permissions, get %s§c or higher'
 NO_PERMS_ENDERMAN_ONLY: '§cThis function is only for §5ENDERMAN'
 NO_PERMS_ONLY: '§cThis function is only for %s'
 
@@ -4119,8 +4119,6 @@ GUI_INFO_DONATE_LORE:
 - ' §8▪ §aCREEPER §7- §f139 Rubbles'
 - ' §8▪ §cLAVA §7- §f278 Rubbles'
 - ' §8▪ §5ENDERMAN §7- §f520 Rubbles'
-- ' §8▪ §6YouTube §7- §f640 Rubbles'
-- ' §8▪ §2JUNIOR §7- §f720 Rubbles'
 - ''
 - '§7A detailed description of the donate you can'
 - '§7find in section named §fGame menu ▸ Privileges'
@@ -4839,7 +4837,7 @@ GUI_REWARDS_INFO_LORE:
 - '§fAvailable multipliers:'
 - ' §8▪ §3CLAY§7 and §6§lBRICK §7- §e1.5x'
 - ' §8▪ §aCREEPER§7 - §e1.75x'
-- ' §8▪ §cLAVA§7, §5ENDERMAN§7, §6YouTube§7 and §2JUNIOR §7- §e2.0x'
+- ' §8▪ §cLAVA§7, §5ENDERMAN§7 - §e2.0x'
 - ''
 - '§7You can buy status'
 - '§7Online §dflycore.ru'
@@ -7810,8 +7808,6 @@ HOLO_DONATE:
 - '%pcreeper §f- §a139 §fRubbles'
 - '%plava §f- §a278 §fRubbles'
 - '§f%ps%animation%Enderman§f%pe §f- §a520 §fRubbles'
-- '%pyoutube §f- §a640 §fRubbles'
-- '%pjunior §f- §a720 §fRubbles'
 - '§fBuy on our site:'
 - '§ewww.flycore.ru'
 
