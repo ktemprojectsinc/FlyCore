@@ -2950,7 +2950,7 @@ YOUTUBE_NOT_FOUND: '§aYouTube §8| §fСейчас у вас нет ссылк�
 YOUTUBE_INFO: '§6§lYouTube §fканал » §3§l%s'
 YOUTUBE_OTHER: '§aСервер §8| §fУ %s§f YouTube канал: §b%s'
 
-JOIN_TO_LOBBY: ' §a‣ %s§f %s %s'
+JOIN_TO_LOBBY: '§f+ %s§f %s %s'
 JOIN_TYPE_LOBBY: 'в лобби'
 JOIN_TYPE_OTHER: 'к игре'
 
