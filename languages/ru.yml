@@ -3274,6 +3274,7 @@ SUFFIX_FORMAT: '/suffix <суффикс/reset>'
 SUFFIX_LIMIT: '§aСуффиксы §8| §fСуффикс не должен превышать §c16§f символов'
 SUFFIX_CHANGED: '§aСуффиксы §8| §fВаш суффикс изменен на: %s'
 SUFFIX_RESET: '§aСуффиксы §8| §fВаш суффикс удален'
+PREFIX_LIMIT: '§aПрефиксы §8| §fПрефикс не должен превышать §c%s§f символов'
 
 CHECK_FORMAT: '/checkip <ip>'
 ADDRESS_INVALID: '§cОшибка, адрес %s указан неверно'
