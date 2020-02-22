@@ -8309,10 +8309,10 @@ GUI_SURVIVAL_LEVEL_ITEM_LORE:
 - ''
 - '§7PS: Можно класть сразу несколько предметов'
 
-LEVEL_ADD_SUCCESS: 'Вы повысили опыт на §a%s §fXP'
+LEVEL_ADD_SUCCESS: 'Вы повысили опыт на §a%s §fXP и §6%s§f %s'
 LEVEL_ADD_ERROR: 'Простите, но данный предмет §cне подходит§f для повышения уровня'
-LEVEL_OTHER_ADD_SUCCES: 'Вы повысили опыт игрока %s§f на §a%s§f XP'
-LEVEL_OTHER_YOU_ADD_SUCCES: 'Ваш уровень был повышен игроком %s§f на §a%s§f XP'
+LEVEL_OTHER_ADD_SUCCES: 'Вы повысили опыт игрока %s§f на §a%s§f XP и §6%s§f %s'
+LEVEL_OTHER_YOU_ADD_SUCCES: 'Ваш уровень был повышен игроком %s§f на §a%s§f XP и §6%s§f %s'
 
 P_COMMAND_HELP:
 - '§7/p §f- открыть меню'
