@@ -73,7 +73,7 @@ BANIP_REQUEST_REJECT: '%s §cdeclined your request for blocking address %s'
 BAN_REQUEST_HOVER: '§fClick to accept the request'
 
 BAN_REQUEST_NOT_FOUND: '§cPlayer lock request %s not found or already closed'
- 
+
 BAN_REQUEST_ACCEPT: '%s §aApproved your request to lock %s'
 BAN_REQUEST_REJECT: '%s §cDenied your request for a lock %s'
 
@@ -110,7 +110,7 @@ PLAYER_NO_PLOT: '§aServer §8| §fYou have to be a plot member to use your oppo
 PLAYER_NO_REGION: '§aServer §8| §fYou have to be a region member to use your opportunities'
 PLAYER_NO_PVP: '§aServer §8| §fDisable §a%s§f to start PvP'
 TIME_GIVE: '§aServer §8| §fYou got §a%s§f %s§f for being online %s'
- 
+
 TYPE_YES: 'Yes'
 TYPE_NO: 'No'
 
@@ -179,11 +179,11 @@ RULE_NO_AGREEMENT_TITLE: '§c⚠ You have not accepted the agreement!'
 RULE_NO_AGREEMENT_SUBTITLE: '§6Please agree with the server rules §e/rule yes'
 RULE_NO_AGREEMENT:
 - ''
-- '§cAgreement §8| §fBy playing on the server, you accept its rules (§aлучше FilkWorld.cf/rules§f),'
+- '§cAgreement §8| §fBy playing on the server, you accept its rules (§aflycore.ru/rules§f),'
 - '§cAgreement §8| §fBy clicking on this message, you completely agree that all your future actions on the server, will not break the rules above. §7(Click, to agree)'
 - '§cAgreement §8| §f§nOtherwise, please leave the server'
 - ''
-RULE_ORIGINAL: '§7§oLink to the original agreement: лучше FilkWorld.cf/elua'
+RULE_ORIGINAL: '§7§oLink to the original agreement: flycore.ru/elua'
 RULE_NO_AGREEMENT_HOVER: 'Click here,\nto accept agreement'
 RULE_ALREADY_ACCEPT: '§cError, you have already accepted eula, write §c%s false to refuse'
 RULE_FALSE:
@@ -321,7 +321,7 @@ REWARDS:
  - ''
  - 's'
  - 's'
- 
+
 AVAILABLE:
  - 'Available'
  - ''
@@ -508,23 +508,23 @@ HP_ADD: '§c+%s hp'
 
 PLAYER_NO_MONEY:
 - ''
-- '§aServer §8| §fOn your account недостаточно §amoney§f. Пополнить Ваш счёт можно на сайте §cлучше FilkWorld.cf'
+- '§aServer §8| §fOn your account недостаточно §amoney§f. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_GOLDS:
 - ''
-- '§aServer §8| §fOn your account недостаточно §egold§f. Пополнить Ваш счёт можно на сайте §cлучше FilkWorld.cf'
+- '§aServer §8| §fOn your account недостаточно §egold§f. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_CORE:
 - ''
-- '§aServer §8| §fOn your account недостаточно §bcores§f. Пополнить Ваш счёт можно на сайте §cлучше FilkWorld.cf'
+- '§aServer §8| §fOn your account недостаточно §bcores§f. Пополнить Ваш счёт можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_LEVEL:
 - ''
-- '§aServer §8| §fOn your account недостаточно §dlevel§f. Приобрести опыт можно на сайте §cлучше FilkWorld.cf'
+- '§aServer §8| §fOn your account недостаточно §dlevel§f. Приобрести опыт можно на сайте §cflycore.ru'
 - '§r'
 PLAYER_NO_KEYS:
 - ''
-- '§aServer §8| §fOn your account недостаточно §akeys§f. Приобрести ключи можно на сайте §cлучше FilkWorld.cf'
+- '§aServer §8| §fOn your account недостаточно §akeys§f. Приобрести ключи можно на сайте §cflycore.ru'
 - '§r'
 
 PLAYER_GADGETS_GADGET_NO_GROUP: '§cFor buying this item, your need privilege %s§c or higher'
@@ -559,7 +559,7 @@ PLAYER_GUILD_YOU_KICKED:
 - ''
 - '§c • §fDate: §a%s'
 - '§c • §e%s ago'
-  
+
 PLAYER_BOOSTER_BUY_MULTIPLY:
 - ''
 - '                §8-| §b§lBOOSTERS §8|-'
@@ -827,7 +827,7 @@ SITE_SHOP_NO_SLOTS: '§cУ вас недостаточно места в инв�
 SITE_SHOP_ITEMS_NAME: 'Предметы'
 SITE_SHOP_ITEM_EMPTY_LORE:
 - '§7У вас нет доступных предметов'
-- '§7Покупка на сайте §dлучше FilkWorld.cf'
+- '§7Покупка на сайте §dflycore.ru'
 SITE_SHOP_ITEM_LORE_1:
 - '§7Получить следующие предметы:'
 SITE_SHOP_ITEM_LORE_2:
@@ -885,7 +885,7 @@ REDIRECT_TO_SERVER: '§aTeleported to server %s'
 SERVER_QUEUE: '§aTeleported to server %s'
 
 TAB_HEADER: "online %go or %max"
-TAB_FOOTER: "ping %pms\n§bлучше FilkWorld.cf"
+TAB_FOOTER: "ping %pms\n§bFlyCore.ru"
 
 REDIRECT_ERROR: '§cUnable to find suitable server('
 HUBS_ERROR: '§cError, lobby unavailable, try again later'
@@ -897,19 +897,19 @@ JOIN_RECOMMEND_ADDMAIL: "§bBind mail\n\n §e▸ Click here to link your email"
 JOIN_RECOMMEND_CREATEAPI: "§bCreate api-key\n\n §e▸ Click here to create an api key"
 JOIN_RECOMMEND_CHANGEAPI: "§bTo change the api-key\n\n §e▸ Click here to change your api key"
 
-GUILD_JOIN_CHAT: '§2фвыфвырывроs §8| %s §f%s to server'
+GUILD_JOIN_CHAT: '§2Guilds §8| %s §f%s to server'
 GUILD_JOIN_HOVER: "§fClick here,\n§fto write to the player %s"
-GUILD_JOIN_ACTIONBAR: '§2фвыфвырывроs §8| %s §f%s to server'
-GUILD_JOIN_ONLINE: '§2фвыфвырывроs §8| §fOnline: §a%s§f %s'
+GUILD_JOIN_ACTIONBAR: '§2Guilds §8| %s §f%s to server'
+GUILD_JOIN_ONLINE: '§2Guilds §8| §fOnline: §a%s§f %s'
 
-FRIEND_JOIN_CHAT: '§aРу фигня §8| §f%s %s §f%s to game §7(click here)'
+FRIEND_JOIN_CHAT: '§aFriends §8| §f%s %s §f%s to game §7(click here)'
 FRIEND_JOIN_HOVER: "§fClick here,\n§fto send message %s %s"
-FRIEND_JOIN_ACTIONBAR: '§aРу фигня §8| §f%s %s §f%s to game'
-FRIEND_JOIN_ONLINE: '§aРу фигня §8| §fOnline §a%s§f %s'
+FRIEND_JOIN_ACTIONBAR: '§aFriends §8| §f%s %s §f%s to game'
+FRIEND_JOIN_ONLINE: '§aFriends §8| §fOnline §a%s§f %s'
 
-FRIEND_JOIN_REQUESTS: '§aРу фигня §8| §fYou have §e%s §frejected friend requests'
-PARTY_JOIN_REQUESTS: '§aнн какие-то §8| §fYou have §e%s §frejected applications to the party'
-GUILD_JOIN_REQUESTS: '§2фвыфвырывроs §8| §fYou have §e%s §fmissed filings in the Guild'
+FRIEND_JOIN_REQUESTS: '§aFriends §8| §fYou have §e%s §frejected friend requests'
+PARTY_JOIN_REQUESTS: '§aParty §8| §fYou have §e%s §frejected applications to the party'
+GUILD_JOIN_REQUESTS: '§2Guilds §8| §fYou have §e%s §fmissed filings in the Guild'
 MAIL_JOIN_REQUESTS: '§aMail §8| §fYou have §e%s §funread emails §7(Click here)'
 MAIL_JOIN_HOVER: "§fClick here,\n§fto open mail list"
 
@@ -1092,7 +1092,7 @@ TRAINING_STAGE_3_MSG_15_SUBTITLE: '§fopen §2Profile ▸ Settings'
 TRAINING_STAGE_3_MSG_16_TITLE: "§fIf You want to change the prefix's color,"
 TRAINING_STAGE_3_MSG_16_SUBTITLE: "§fthen open §2Donater's Menu ▸ Prefix"
 TRAINING_STAGE_3_MSG_17_TITLE: '§fYou like the server, or You want to support it?'
-TRAINING_STAGE_3_MSG_17_SUBTITLE: '§fthen You can purchase privilege on our site §dлучше FilkWorld.cf'
+TRAINING_STAGE_3_MSG_17_SUBTITLE: '§fthen You can purchase privilege on our site §dflycore.ru'
 TRAINING_STAGE_3_MSG_18_TITLE: ''
 TRAINING_STAGE_3_MSG_18_SUBTITLE: '§7And, of course, the main...'
 TRAINING_STAGE_3_MSG_19_TITLE: '§fInterested in §5develops§f, or have questions about plugins§f/§6forum§f?'
@@ -1374,7 +1374,7 @@ PROXY_INFO_TO:
 - '§8 • §fProxy: §a%s'
 - '§8 • §fIP address: §a%s'
 - '§8 • §fTotal online: §a%s §f%s'
- 
+
 PLAYERINFO_FORMAT: '/playerinfo <player name>'
 PLAYERINFO_YT:
 - '§f- YouTube channel: §a%s'
@@ -1400,7 +1400,7 @@ PLAYERINFO:
 - '§f- Ultra keys: §a%s'
 - '§f- Donate keys: §a%s'
 - '§f- uuid: §a%s'
- 
+
 ME_INFO:
 - ''
 - '§8Here You can see information,'
@@ -1612,9 +1612,9 @@ HACK_REASON: '§4Error #3 §cSuspicion of hacking'
 VZLOM_REASON: '§cError #14 Please, contact group » §a§nvk.me/flycore'
 DOWNLOAD_MAP_REASON: '§cError #19 §cПодозрение в скачивании карты, сообщите vk.me/flycore если это не так'
 
-PARTY_ALREADY: '§aнн какие-то §8| §fYou are already in the group'
+PARTY_ALREADY: '§aParty §8| §fYou are already in the group'
 PARTY_PLAYER_ALREADY: '§cPlayer %s is already in the group'
-PARTY_NOT: "§aнн какие-то §8| §fError, you aren't in the group, perhaps nobody needs you :("
+PARTY_NOT: "§aParty §8| §fError, you aren't in the group, perhaps nobody needs you :("
 PARTY_PLAYER_NO_PARTY: "§cPlayer %s isn't in your group"
 PARTY_PLAYER_NO_OWNER: "§cYou aren't owner of the group"
 PARTY_LIMIT: "§cThis group can't accept players because its limit is exceeded"
@@ -1645,12 +1645,12 @@ PARTY_COMMAND_MEMBER_HELP:
 - '§7/party list §f- group list of members'
 - '§7/party invite <player name> §f- invite player in the group'
 
-PARTY_NOT_LEAVE_OWNER: '§aнн какие-то §8| §fTo §leave§f the group, give manage permissions to another player first'
-PARTY_LEAVE: '§aнн какие-то §8| §fYou left %s§f the group'
-PARTY_LEAVE_ALERT: '§aнн какие-то §8| %s§f left the group'
-PARTY_NOT_MEMBERS: '§aнн какие-то §8| §fAll group members left it, the group has been deleted'
+PARTY_NOT_LEAVE_OWNER: '§aParty §8| §fTo §leave§f the group, give manage permissions to another player first'
+PARTY_LEAVE: '§aParty §8| §fYou left %s§f the group'
+PARTY_LEAVE_ALERT: '§aParty §8| %s§f left the group'
+PARTY_NOT_MEMBERS: '§aParty §8| §fAll group members left it, the group has been deleted'
 
-PARTY_REQUESTS: '§aнн какие-то §8| §fList of the group invites (§a%s§f)'
+PARTY_REQUESTS: '§aParty §8| §fList of the group invites (§a%s§f)'
 PARTY_REQUESTS_FORMAT: '  §c• §fRequest from %s§7 §nclick to accept'
 PARTY_REQUESTS_HOVER: '§fClick, to join the group'
 PARTY_REQUESTS_NO: "§cYou haven't got party invites"
@@ -1658,13 +1658,13 @@ PARTY_REQUESTS_NO: "§cYou haven't got party invites"
 PARTY_KICK_FORMAT: '/party kick <nickname>'
 PARTY_KICK_ME: "§cError, You can't kick yourself"
 PARTY_KICK_OWNER: "§cError, You can't kick the group owner"
-PARTY_KICK: '§aнн какие-то §8| §fYou kicked %s§f from the group'
-PARTY_KICK_ALERT: '§aнн какие-то §8| %s§f have been kicked by the group owner'
-PARTY_KICK_MSG: '§aнн какие-то §8| %s§f kicked You from the group'
+PARTY_KICK: '§aParty §8| §fYou kicked %s§f from the group'
+PARTY_KICK_ALERT: '§aParty §8| %s§f have been kicked by the group owner'
+PARTY_KICK_MSG: '§aParty §8| %s§f kicked You from the group'
 
-PARTY_WARP_ALERT: '§aнн какие-то §8| §fThe group leader teleported You to his(her) server'
-PARTY_WARP: '§aнн какие-то §8| §fAll online-members were teleported on Your server'
-PARTY_WARP_OWNER: '§aнн какие-то §8| §fTeleport members on your server can only the group leader'
+PARTY_WARP_ALERT: '§aParty §8| §fThe group leader teleported You to his(her) server'
+PARTY_WARP: '§aParty §8| §fAll online-members were teleported on Your server'
+PARTY_WARP_OWNER: '§aParty §8| §fTeleport members on your server can only the group leader'
 
 PARTY_SETTING_PUBLIC: 'publicity'
 PARTY_SETTING_PUBLIC_DESCRIPTION: 'makes group publuc'
@@ -1676,31 +1676,31 @@ PARTY_SETTING_AUTOKICK: 'auto-kick'
 PARTY_SETTING_AUTOKICK_DESCRIPTION: 'disables the automatic kick of group members when offline time expires'
 PARTY_SETTING_FORMAT: '/party setting <setting> <true/false>'
 PARTY_SETTING_ALREADY: '§cError, value of this setting is already said'
-PARTY_SETTING_ALERT: '§aнн какие-то §8| %s§f updated value of the setting §a%s§f in the group'
-PARTY_SETTING: '§aнн какие-то §8| §fValue of the setting §a%s §fupdated'
+PARTY_SETTING_ALERT: '§aParty §8| %s§f updated value of the setting §a%s§f in the group'
+PARTY_SETTING: '§aParty §8| §fValue of the setting §a%s §fupdated'
 PARTY_COMMAND_SETTING_HELP:
-- '§aнн какие-то §8| §fList setting:'
+- '§aParty §8| §fList setting:'
 PARTY_SETTING_OWNER: '§cChange the group settings can only the group owner'
 
-PARTY_DISBAND: '§aнн какие-то §8| §fYou disbanded the group'
-PARTY_DISBAND_ALERT: '§aнн какие-то §8| §fYour group has been disbanded'
+PARTY_DISBAND: '§aParty §8| §fYou disbanded the group'
+PARTY_DISBAND_ALERT: '§aParty §8| §fYour group has been disbanded'
 PARTY_DISBAND_OWNER: '§cDisband the group can only the group owner'
 
 PARTY_SETOWNER_FORMAT: '/party setowner <player name>'
-PARTY_SETOWNER_ALREADY: '§aнн какие-то §8| §fYou are already the group owner'
-PARTY_SETOWNER_ALERT: '§aнн какие-то §8| %s§f became the new owner of the group'
-PARTY_SETOWNER: '§aнн какие-то §8| §fYou have transferred leader rights to player %s'
+PARTY_SETOWNER_ALREADY: '§aParty §8| §fYou are already the group owner'
+PARTY_SETOWNER_ALERT: '§aParty §8| %s§f became the new owner of the group'
+PARTY_SETOWNER: '§aParty §8| §fYou have transferred leader rights to player %s'
 PARTY_SETOWNER_OWNER: '§cError, give permissions to manage the group can only the group owner'
 
 PARTY_JOIN_FORMAT: '/party join <player name>'
 PARTY_JOIN_NOT: "§cError, this player isn't being in the group"
 PARTY_JOIN_PUBLIC: "§cError, the group of this player isn't public"
-PARTY_JOIN: '§aнн какие-то §8| §fYou joined the group of %s'
-PARTY_JOIN_ALERT: '§aнн какие-то §8| %s§f joined the public group'
+PARTY_JOIN: '§aParty §8| §fYou joined the group of %s'
+PARTY_JOIN_ALERT: '§aParty §8| %s§f joined the public group'
 
 PARTY_REJECT_FORMAT: '/party reject <player name>'
-PARTY_REJECT_ALERT: "§aнн какие-то §8| %s§f rejected your invition to the group (he doesn't know, what loses)"
-PARTY_REJECT: '§aнн какие-то §8| §fYou rejected the invaition to the group from §a%s'
+PARTY_REJECT_ALERT: "§aParty §8| %s§f rejected your invition to the group (he doesn't know, what loses)"
+PARTY_REJECT: '§aParty §8| §fYou rejected the invaition to the group from §a%s'
 PARTY_REJECT_NO: "§cPlayer %s didn't send you party invites"
 
 PARTY_INVITE_FORMAT: '/party invite <player name>'
@@ -1708,19 +1708,19 @@ PARTY_INVITE_ME: "§cError, you can't invite yourself to the group"
 PARTY_INVITE_FRIEND: '§cError, this player takes invites only from his(her) friends'
 PARTY_INVITE_ALREADY: '§cPlayer %s already has invite to the group'
 PARTY_INVITE_LIMIT: '§cLimit of the group exceeded, limit - %s'
-PARTY_INVITE: '§aнн какие-то §8| §fInvite to the group sent to %s'
-PARTY_INVITE_OWNER: '§aнн какие-то §8| §fSend invites to the group can only the group owner'
+PARTY_INVITE: '§aParty §8| §fInvite to the group sent to %s'
+PARTY_INVITE_OWNER: '§aParty §8| §fSend invites to the group can only the group owner'
 PARTY_INVITE_EXPIRED: '§cЗапрос, отправленный игроку %s§c был автоматически отклонен'
-PARTY_INVITE_EXPIRED_TO: '§aнн какие-то §8| §fИгрок %s§f отправлявший Вам приглашение в группу, был автоматически отклонен спустя %s'
+PARTY_INVITE_EXPIRED_TO: '§aParty §8| §fИгрок %s§f отправлявший Вам приглашение в группу, был автоматически отклонен спустя %s'
 
-PARTY_GUILD: '§aнн какие-то §8| §fYou joined to the group of the player %s §fguild'
-PARTY_GUILD_ALERT: '§aнн какие-то §8| %s§f joined to the guild group'
-PARTY_GUILD_CREATE: '§aнн какие-то §8| §fYou created new the guild group with player %s'
+PARTY_GUILD: '§aParty §8| §fYou joined to the group of the player %s §fguild'
+PARTY_GUILD_ALERT: '§aParty §8| %s§f joined to the guild group'
+PARTY_GUILD_CREATE: '§aParty §8| §fYou created new the guild group with player %s'
 
 PARTY_ACCEPT_FORMAT: '/party accept <player name>'
-PARTY_ACCEPT_ALERT: '§aнн какие-то §8| %s§f joined to the group'
-PARTY_ACCEPT: '§aнн какие-то §8| §fYou joined to the player %s §fgroup'
-PARTY_ACCEPT_CREATE: '§aнн какие-то §8| §fYou created new group with player %s'
+PARTY_ACCEPT_ALERT: '§aParty §8| %s§f joined to the group'
+PARTY_ACCEPT: '§aParty §8| §fYou joined to the player %s §fgroup'
+PARTY_ACCEPT_CREATE: '§aParty §8| §fYou created new group with player %s'
 PARTY_ACCEPT_ME: "§cError, You can't invite yourself to the group"
 
 FRIEND_COMMAND_HELP:
@@ -1740,40 +1740,40 @@ FRIEND_YOU_LIMIT: '§cYou exceeded the amount of friends limit, your limit - %s'
 FRIEND_LIMIT: "§cThe player you specified can't accept friend requests, because his(her) limit is exceeded"
 
 FRIEND_ADD_FORMAT: '/f add <player name>'
-FRIEND_ADD: '§aРу фигня §8| §fFriend request was sent to %s'
+FRIEND_ADD: '§aFriends §8| §fFriend request was sent to %s'
 FRIEND_ADD_ME: "§cYou can't send friend request yourself"
 FRIEND_ADD_NO: '§cThis player forbad to send him(her) friend requests'
 FRIEND_ADD_ALREADY: '§cYou have already sent friend request to that player...'
 FRIEND_ADD_EXPIRED: '§cRequest, sent to player %s§c was automatically rejected'
-FRIEND_ADD_EXPIRED_TO: '§aРу фигня §8| §fRequest to player %s§f was automatically rejected after %s'
+FRIEND_ADD_EXPIRED_TO: '§aFriends §8| §fRequest to player %s§f was automatically rejected after %s'
 
 FRIEND_CHAT_FORMAT: '/fchat <message>'
-FRIEND_CHAT: '§aРу фигня §8| %s'
+FRIEND_CHAT: '§aFriends §8| %s'
 FRIEND_CHAT_OFFLINE: "§cYou haven't got online friends"
 
 FRIEND_ACCEPT_FORMAT: '/f accept <player name>'
-FRIEND_ACCEPT: '§aРу фигня §8| §fCongratulations! You became friends with player %s'
-FRIEND_ACCEPT_ALERT: '§aРу фигня §8| §fCongratulations! You became friends with player %s'
+FRIEND_ACCEPT: '§aFriends §8| §fCongratulations! You became friends with player %s'
+FRIEND_ACCEPT_ALERT: '§aFriends §8| §fCongratulations! You became friends with player %s'
 
 FRIEND_REJECT_FORMAT: '/f reject <player name>'
-FRIEND_REJECT: '§aРу фигня §8| §fYou rejected friend request from player %s'
-FRIEND_REJECT_ALERT: '§aРу фигня §8| §fPlayer %s§f rejected your friend request'
+FRIEND_REJECT: '§aFriends §8| §fYou rejected friend request from player %s'
+FRIEND_REJECT_ALERT: '§aFriends §8| §fPlayer %s§f rejected your friend request'
 
 FRIEND_REMOVE_FORMAT: '/f remove <player name>'
 FRIEND_REMOVE_ME: "§cYou can't remove yourself from friends"
-FRIEND_REMOVE: '§aРу фигня §8| §fPlayer %s§f was removed from your friends list'
-FRIEND_REMOVE_ALERT: '§aРу фигня §8| §fPlayer %s§f removed you from friends'
+FRIEND_REMOVE: '§aFriends §8| §fPlayer %s§f was removed from your friends list'
+FRIEND_REMOVE_ALERT: '§aFriends §8| §fPlayer %s§f removed you from friends'
 FRIEND_REMOVE_CONFIRM:
-- '§aРу фигня §8| §fВы уверены что хотите удалить друга? Это действие нельзя будет отменить!'
-- '§aРу фигня §8| §fВведите §e%s§f снова чтобы подтвердить §cудаление§f или §e%s§f чтобы §aотменить'
-FRIEND_REMOVE_CANCELLED: '§aРу фигня §8| §fУдаление друга отменено'
+- '§aFriends §8| §fВы уверены что хотите удалить друга? Это действие нельзя будет отменить!'
+- '§aFriends §8| §fВведите §e%s§f снова чтобы подтвердить §cудаление§f или §e%s§f чтобы §aотменить'
+FRIEND_REMOVE_CANCELLED: '§aFriends §8| §fУдаление друга отменено'
 
 FRIEND_REQUESTS_NOT: "§cYou have't got unaccepted friend requests."
 
 FRIEND_TP_FORMAT: '/f tp <player name>'
 FRIEND_TP_ALREADY: '§cYou are already on the same server'
-FRIEND_TP: '§aРу фигня §8| %s§f teleported to you on the server'
-FRIEND_TP_ALERT: '§aРу фигня §8| §fYou were teleported on the server of player %s§f (§7%s§f)'
+FRIEND_TP: '§aFriends §8| %s§f teleported to you on the server'
+FRIEND_TP_ALERT: '§aFriends §8| §fYou were teleported on the server of player %s§f (§7%s§f)'
 
 LVL_UP: '§a§l§kX§r §c§lLEVEL UP §a§l§kX'
 NEW_LVL: '§fYou received §d%s§f level!'
@@ -1865,7 +1865,7 @@ GUILD_NO: "§cYou aren't in the guild"
 GUILD_MUTE: '§cYou guild chat banned by %s §cfor %s for reason: §e%s'
 GUILD_CHAT_FORMAT: '/gchat <message>'
 GUILD_OFFLINE: '§cAll guild members are offline'
-GUILD_CHAT: '§2фвыфвырывроs chat §8| %s §8» §7%s'
+GUILD_CHAT: '§2Guilds chat §8| %s §8» §7%s'
 
 GUILD_COMMAND_HELP:
 - '§7/g create <name> §f- create guild (create guild price - §a15,000§f coins)'
@@ -1948,7 +1948,7 @@ GUILD_CREATE_ALREADY: '§cGuild with name %s is already exists'
 GUILD_CREATE_NO_PERMISSION: '§cCreate guilds may only players with group %s§c and higher'
 
 GUILD_DELETE: '§aGuild §8| §fYou removed guild §a%s'
-GUILD_DELETE_ALERT: '§2фвыфвырывроs §8| %s §fremoved guild'
+GUILD_DELETE_ALERT: '§2Guilds §8| %s §fremoved guild'
 
 GUILD_INVITE_FORMAT: '/guild invite <player name>'
 GUILD_INVITE: '§aGuild §8| §fTo player %s§f was sent invition to the guild'
@@ -1960,18 +1960,18 @@ GUILD_INVITE_EXPIRED: '§cЗапрос, отправленный игроку %s
 GUILD_INVITE_EXPIRED_TO: '§aGuild §8| §fИгрок %s§f отправлявший Вам приглашение в гильдию, был автоматически отклонен спустя %s'
 
 GUILD_ACCEPT_FORMAT: '/guild accept <player name>'
-GUILD_ACCEPT_ALERT: '§2фвыфвырывроs §8| %s§f joined the guild'
+GUILD_ACCEPT_ALERT: '§2Guilds §8| %s§f joined the guild'
 GUILD_ACCEPT: '§aGuild §8| §fYou accepted invition to the guild §a%s'
 
 GUILD_REJECT_FORMAT: '/guild reject <player name>'
-GUILD_REJECT_ALERT: '§2фвыфвырывроs §8| %s§7 rejected your guild invition'
+GUILD_REJECT_ALERT: '§2Guilds §8| %s§7 rejected your guild invition'
 GUILD_REJECT: '§aGuild §8| §fYou rejected invition to the guild §a%s'
 
 GUILD_TAG_FORMAT: '/guild tag <tag>'
 GUILD_TAG_LIMIT: "§aGuild §8| §fGuild tag doesn't have to be more than §c%s§f characters"
-GUILD_TAG_ALERT: '§2фвыфвырывроs §8| %s§7 set guild tag -> §e%s'
+GUILD_TAG_ALERT: '§2Guilds §8| %s§7 set guild tag -> §e%s'
 GUILD_TAG: '§aGuild §8| §fGuild tag set to §a%s'
-GUILD_TAG_RESET_ALERT: '§2фвыфвырывроs §8| %s§7 deleted guild tag'
+GUILD_TAG_RESET_ALERT: '§2Guilds §8| %s§7 deleted guild tag'
 GUILD_TAG_RESET: '§aGuild §8| §fТег гильдии удален'
 GUILD_TAG_NO_MONEY: '§cGuild lacks %s coins to change tag'
 GUILD_TAG_NO_BUY: "§cYou haven't got guild tag, buy it in /guild shop"
@@ -1981,25 +1981,25 @@ GUILD_MOTD_COMMAND_HELP:
 - '§7/g motd set <greeting> §f- set motd of guild'
 GUILD_MOTD_INFO: '§aGuild §8| §fGuild greeting:'
 GUILD_MOTD_SET_FORMAT: '/guild motd set <greeting>'
-GUILD_MOTD_SET_ALERT: '§2фвыфвырывроs §8| %s§7 updated the guild greeting to -> §d%s'
+GUILD_MOTD_SET_ALERT: '§2Guilds §8| %s§7 updated the guild greeting to -> §d%s'
 GUILD_MOTD_SET: '§aGuild §8| §fGuild greeting changed to:'
 
 GUILD_LEADER_FORMAT: '/guild leader <player name>'
 GUILD_LEADER_ME: "§cYou can't transfer leadering to yourself"
-GUILD_LEADER_ALERT: '§2фвыфвырывроs §8| %s§7 transfered leadering to player %s'
+GUILD_LEADER_ALERT: '§2Guilds §8| %s§7 transfered leadering to player %s'
 GUILD_SETLEADER: '§aGuild §8| §fYou transfered leadering to player %s'
 
 GUILD_RANK_FORMAT: '/guild rank <player name> <rank>'
 GUILD_RANK_ME: "§cYou can't change rank yourself"
-GUILD_RANK_ALERT: '§2фвыфвырывроs §8| %s§7 lowered %s §7to %s'
-GUILD_SETRANK_ALERT: '§2фвыфвырывроs §8| %s§7 set rank %s§7 to player %s'
+GUILD_RANK_ALERT: '§2Guilds §8| %s§7 lowered %s §7to %s'
+GUILD_SETRANK_ALERT: '§2Guilds §8| %s§7 set rank %s§7 to player %s'
 GUILD_RANK: '§aGuild §8| §fYou lowered %s§f to §7%s'
 GUILD_SETRANK: '§aGuild §8| §fYou assign new %s§f guild %s'
 GUILD_RANK_INVALID: '§cYou specified wrong rank Available ranks: §fDefault, Moderator, Deputy'
 GUILD_RANK_NO_ACCESS: "§cYou can't manage ranks this player"
 
 GUILD_DONATE_FORMAT: '/guild donate <amount>'
-GUILD_DONATE_ALERT: '§2фвыфвырывроs §8| %s§7 invested to the guild bank §a%s §7%s'
+GUILD_DONATE_ALERT: '§2Guilds §8| %s§7 invested to the guild bank §a%s §7%s'
 GUILD_DONATE: '§aGuild §8| §fYou invested to the guild bank §a%s §f%s Comission by paying made up §c%s §f%s (§e%s§f)'
 GUILD_DONATE_DAILYLIMIT: '§cThe amount you want to invest exceeds the guild 12 hours limit, limit - %s'
 GUILD_DONATE_LIMIT: '§c12 Hours guild limit exceeded, limit - %s'
@@ -2008,22 +2008,22 @@ GUILD_DONATE_NO_MONEY: '§cThe amount you want to invest exceeds your balance'
 GUILD_DONATE_AVAILABLE: '§cMay invest %s'
 
 GUILD_LEAVE_OWNER: '§cYou are guild leader, to remove guild use /guild delete, or transfer leader /g leader'
-GUILD_LEAVE_ALERT: '§2фвыфвырывроs §8| %s§7 left the guild'
+GUILD_LEAVE_ALERT: '§2Guilds §8| %s§7 left the guild'
 GUILD_LEAVE: '§aGuild §8| §fYou left the guild §a%s'
 
 GUILD_DEPOSIT_FORMAT: '/guild deposit <player name> <amount>'
-GUILD_DEPOSIT_ALERT: '§2фвыфвырывроs §8| %s§7 withdrawed §a%s §7coins from guild bank to %s'
+GUILD_DEPOSIT_ALERT: '§2Guilds §8| %s§7 withdrawed §a%s §7coins from guild bank to %s'
 GUILD_DEPOSIT_MSG: '§aGuild §8| §fYour balance replenished from guild bank by %s§f on §a%s§f %s'
 GUILD_DEPOSIT: '§aGuild §8| §7You withdrawed on player balance %s §a%s §f%s Comission by paying made up §c%s §f%s (§e%s§f)'
 GUILD_DEPOSIT_NO_MONEY: '§cThe amount you want to withdraw, exceeds guild balance'
 
 GUILD_KICK_FORMAT: '/guild kick <player name> <reason>'
-GUILD_KICK_ALERT: '§2фвыфвырывроs §8| %s§7 kicked the player %s§7 for reason: §e%s'
+GUILD_KICK_ALERT: '§2Guilds §8| %s§7 kicked the player %s§7 for reason: §e%s'
 GUILD_KICK: '§aGuild §8| §fYou kicked the player %s§f for reason: §e%s'
 GUILD_KICK_EXEMPT: "§cYou can't kick this player"
 
 GUILD_MUTE_FORMAT: '/guild mute <player name> <time> <reason>'
-GUILD_MUTE_ALERT: '§2фвыфвырывроs §8| %s§7 muted guild chat for the player %s§7 on §a%s§7 for reason: §a%s'
+GUILD_MUTE_ALERT: '§2Guilds §8| %s§7 muted guild chat for the player %s§7 on §a%s§7 for reason: §a%s'
 GUILD_NEWMUTE: '§aGuild §8| §fYou muted guild chat for the player %s§f on §a%s§f for reason: §a%s'
 GUILD_MUTE_ME: "§cYou can't mute yourself"
 GUILD_MUTE_ALREADY: '§cPlayer %s has got already muted guild chat'
@@ -2031,7 +2031,7 @@ GUILD_MUTE_MSG: '§c%s §cmuted chat guild for You %s on %s'
 
 GUILD_UNMUTE_FORMAT: '/guild unmute <player name>'
 GUILD_UNMUTE_ALREADY: "§cPlayer %s hasn't got guild chat mute"
-GUILD_UNMUTE_ALERT: '§2фвыфвырывроs §8| %s§f unmuted guild chat for the player %s'
+GUILD_UNMUTE_ALERT: '§2Guilds §8| %s§f unmuted guild chat for the player %s'
 GUILD_UNMUTE_MSG: '§aYour guild chat has been unmuted'
 GUILD_UNMUTE: '§aGuild §8| §fYou unmuted guild chat for the player %s'
 
@@ -2063,10 +2063,10 @@ GUILD_HOME_ALREADY: '§cTeleportation is already running'
 
 GUILD_DELHOME: '§aGuild §8| §fGuild home removed'
 GUILD_DELHOME_ALREADY: "§cGuild hasn't got guild home, сreate it /g sethome"
-GUILD_DELHOME_ALERT: '§2фвыфвырывроs §8| %s§7 deleted guild home'
+GUILD_DELHOME_ALERT: '§2Guilds §8| %s§7 deleted guild home'
 
 GUILD_SETHOME: '§aGuild §8| §fGuild home set'
-GUILD_SETHOME_ALERT: '§2фвыфвырывроs §8| %s§7 set to new guild home'
+GUILD_SETHOME_ALERT: '§2Guilds §8| %s§7 set to new guild home'
 GUILD_SETHOME_INVALID: '§cSet guild home may on thr servers: Anarchy, Creative, SkyBlock'
 
 GUILD_INFO_FORMAT: '/guild info <player name>'
@@ -2134,19 +2134,19 @@ UNBAN_NO: '§cPlayer %s, not blocked'
 UNMUTE_NO: '§cPlayer chat %s, not blocked'
 UNBANIP_NO: '§cIP address %s, not blocked'
 KICK_USE: '§aServer §8| §fВы кикнули игрока %s§f по причине §a%s'
-KICK_REASON: "§e§l§nFlyCore§7\n\n§cYou have been kicked from the server\n\n§fDate: §7%s\n\n§fYou: %s\n§fKicked: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.лучше FilkWorld.cf"
-BAN_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYou have been lifetime banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.лучше FilkWorld.cf"
-BAN_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cYou are lifetime banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.лучше FilkWorld.cf"
-BAN_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYou have been temporarily banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n§fTime: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.лучше FilkWorld.cf"
-BAN_REASON: "§e§l§nFlyCore§7\n\n§cYou are temporarily banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n§fTime: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.лучше FilkWorld.cf"
-BANIP_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYour IP have been lifetime banned\n\n§fBanning date: §7%s\n\n§fYour address: §7%s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum::\n§b§nforum.лучше FilkWorld.cf"
-BANIP_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cYour IP are lifetime banned\n\n§fBanning date: §7%s\n\n§fYour address: §7%s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum::\n§b§nforum.лучше FilkWorld.cf"
-BANIP_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYour IP have been temporarily banned\n\n§fBanning date: §7%s\n\n§fYour address: §7%s\n§fBanned: %s\n§fReason: §7%s\n§fTime: §7%s\n\n§7Appeal the punishment You may on the forum::\n§b§nforum.лучше FilkWorld.cf"
-BANIP_REASON: "§e§l§nFlyCore§7\n\n§cYour IP are temporarily banned\n\n§fBanning date: §7%s\n\n§fYour address: §7%s\n§fBanned: %s\n§fReason: §7%s\n§fTime: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.лучше FilkWorld.cf"
-MUTE_NEVER_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cAccess to chat have been lifetime banned for %s\n \n §7Banned: %s\n\n §7Appeal the punishment You may on the forum:\n §b§nforum.лучше FilkWorld.cf\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
-MUTE_NEVER_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cAccess to chat are banned lifetime for %s\n \n §7Banned: %s\n \n §7Appeal the punishment You may on the forum:\n §b§nforum.лучше FilkWorld.cf\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
-MUTE_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cAcess to chat have been blocked for %s\n \n §7Expiration after %s\n §7Banned: %s\n \n §7Appeal the punishment You may on the forum:\n §b§nforum.лучше FilkWorld.cf\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
-MUTE_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cAccess to chat are banned for %s\n \n §7Banned: %s\n \n §7Appeal the punishment You may on the forum:\n §b§nforum.лучше FilkWorld.cf\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+KICK_REASON: "§e§l§nFlyCore§7\n\n§cYou have been kicked from the server\n\n§fDate: §7%s\n\n§fYou: %s\n§fKicked: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
+BAN_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYou have been lifetime banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
+BAN_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cYou are lifetime banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
+BAN_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYou have been temporarily banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n§fTime: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
+BAN_REASON: "§e§l§nFlyCore§7\n\n§cYou are temporarily banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n§fTime: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
+BANIP_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYour IP have been lifetime banned\n\n§fBanning date: §7%s\n\n§fYour address: §7%s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum::\n§b§nforum.flycore.ru"
+BANIP_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cYour IP are lifetime banned\n\n§fBanning date: §7%s\n\n§fYour address: §7%s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum::\n§b§nforum.flycore.ru"
+BANIP_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYour IP have been temporarily banned\n\n§fBanning date: §7%s\n\n§fYour address: §7%s\n§fBanned: %s\n§fReason: §7%s\n§fTime: §7%s\n\n§7Appeal the punishment You may on the forum::\n§b§nforum.flycore.ru"
+BANIP_REASON: "§e§l§nFlyCore§7\n\n§cYour IP are temporarily banned\n\n§fBanning date: §7%s\n\n§fYour address: §7%s\n§fBanned: %s\n§fReason: §7%s\n§fTime: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
+MUTE_NEVER_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cAccess to chat have been lifetime banned for %s\n \n §7Banned: %s\n\n §7Appeal the punishment You may on the forum:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+MUTE_NEVER_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cAccess to chat are banned lifetime for %s\n \n §7Banned: %s\n \n §7Appeal the punishment You may on the forum:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+MUTE_NEW_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cAcess to chat have been blocked for %s\n \n §7Expiration after %s\n §7Banned: %s\n \n §7Appeal the punishment You may on the forum:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
+MUTE_REASON: "§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n §cAccess to chat are banned for %s\n \n §7Banned: %s\n \n §7Appeal the punishment You may on the forum:\n §b§nforum.flycore.ru\n§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬"
 BAN_INFO: '§cModeration §8| %s§7 blocked player §e%s§7 from reason: §e%s'
 BAN_TIME_INFO: '§cModeration §8| %s§7 blocked player §e%s§7 on %s from reason: §e%s'
 BANIP_INFO: '§cModeration §8| %s§7 blocked IP address §a%s§7 from reason: §e%s'
@@ -2209,7 +2209,7 @@ ASK_SENT:
 - '§aQuestions §8| §fYou question sent all staff online'
 - ' §fIf you noticed, what with you communicate rough, or responded'
 - ' §fplayer will not want help you, refer to the forum:'
-- ' §eforum.лучше FilkWorld.cf§f, section - §eComplaint to the administration'
+- ' §eforum.flycore.ru§f, section - §eComplaint to the administration'
 ASK_LIMIT: '§aQuestions §8| §fYou question must have §e6 §fand no more §c100 §fcharacters'
 ASK_DELAY_NEW: '§cError, new question may be sent after %s'
 YOU_CANT_ASK_QUESTIONS: '§aQuestions §8| §fYou can only answer to question, for this write §a/ans'
@@ -2261,7 +2261,7 @@ WHOIS_OFFLINE:
 - ' §f- Server data: §c%s'
 RULES:
 - '§aServer §8| §fFull list of server rules -'
-RULES_2: '§dhttp://лучше FilkWorld.cf/rules'
+RULES_2: '§dhttp://flycore.ru/rules'
 RULES_HOVER: '§fClick here,\n§fto open url'
 
 FIREWORK: '§aFirework!'
@@ -2342,7 +2342,7 @@ TRAINING_SKIP_MSG_10_SUBTITLE: '§fтогда просто пригласите 
 TRAINING_SKIP_MSG_11_TITLE: '§fЕсли Вы хотите узнать свою §3Статистику§f,'
 TRAINING_SKIP_MSG_11_SUBTITLE: '§fтогда для этого Вы можете воспользоваться командой - §4/stats'
 TRAINING_SKIP_MSG_12_TITLE: '§fЕсли Вы хотите зависти себе друзей,'
-TRAINING_SKIP_MSG_12_SUBTITLE: '§fто просто отправьте приглашение в обманщики и вруны - §4/f add <ник>'
+TRAINING_SKIP_MSG_12_SUBTITLE: '§fто просто отправьте приглашение в друзья - §4/f add <ник>'
 TRAINING_SKIP_MSG_13_TITLE: '§fХотите просмотреть все §3Гильдии§f, или §6Party§f?,'
 TRAINING_SKIP_MSG_13_SUBTITLE: '§fТогда воспользуйтесь  - §3/guild all§f, §6/party all'
 TRAINING_SKIP_MSG_14_TITLE: '§fА теперь давайте поговорим о §6Меню§f'
@@ -2352,7 +2352,7 @@ TRAINING_SKIP_MSG_15_SUBTITLE: '§fтогда войдите в §2Профил�
 TRAINING_SKIP_MSG_16_TITLE: '§fЕсли Вы хотите прочитать информацию о сервере,'
 TRAINING_SKIP_MSG_16_SUBTITLE: '§fтогда зайдите в §2Профиль ▸ Информация'
 TRAINING_SKIP_MSG_17_TITLE: '§fВам понравился сервер, или Вы хотите его поддержать?'
-TRAINING_SKIP_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dлучше FilkWorld.cf'
+TRAINING_SKIP_MSG_17_SUBTITLE: '§fтогда Вы можете приобрести привилегию на нашем сайте §dflycore.ru'
 TRAINING_SKIP_MSG_18_TITLE: ''
 TRAINING_SKIP_MSG_18_SUBTITLE: '§7И конечно самое главное...'
 TRAINING_SKIP_MSG_19_TITLE: '§fИнтересны §5разработки§f, или есть вопросы по плагинам§f/§6форуму§f?'
@@ -2407,7 +2407,7 @@ BUY_DONATE_BROADCAST:
 - '                    §c§lВНИМАНИЕ!'
 - '            §fУ нас пополнение на %s§f!'
 - '            §fСпасибо %s§f за покупку!'
-- '  §fХотите тоже? Заходите на §b§nstore.лучше FilkWorld.cf§7 [tap]'
+- '  §fХотите тоже? Заходите на §b§nstore.flycore.ru§7 [tap]'
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 - ' '
 BUY_BROADCAST:
@@ -2416,11 +2416,11 @@ BUY_BROADCAST:
 - '                    §c§lВНИМАНИЕ!'
 - '           §fПоздравляем игрока %s§f!'
 - '        §fСпасибо ему за покупку %s§f!'
-- '  §fХотите тоже? Заходите на §b§nstore.лучше FilkWorld.cf§7 [tap]'
+- '  §fХотите тоже? Заходите на §b§nstore.flycore.ru§7 [tap]'
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 - ' '
-#BUY_DONATE_BROADCAST: '\n§e§l§nFlyCore§7 - §d§lDonate\n§fCongratulations to player §c%s§f,\n§fhe just bought privilege %s \n§fon online-shop §dлучше FilkWorld.cf §7(click to link)\n'
-#BUY_BROADCAST: '\n§e§l§nFlyCore§7 - §d§lDonate\n§fCongratulations to player §c%s§f,\n§fhe just bought %s \n§fon online-shop §dлучше FilkWorld.cf §7(click to link)\n'
+#BUY_DONATE_BROADCAST: '\n§e§l§nFlyCore§7 - §d§lDonate\n§fCongratulations to player §c%s§f,\n§fhe just bought privilege %s \n§fon online-shop §dflycore.ru §7(click to link)\n'
+#BUY_BROADCAST: '\n§e§l§nFlyCore§7 - §d§lDonate\n§fCongratulations to player §c%s§f,\n§fhe just bought %s \n§fon online-shop §dflycore.ru §7(click to link)\n'
 BUY_THANKS:
 - '§aServer §8| §fThanks for buying privilege %s'
 - '§fon our server. Now You have new available opportunities;'
@@ -2434,8 +2434,8 @@ BUY_THANKS:
 - ''
 - '§fIf You have got remained questions, You can use §n/ask§f;'
 - '§for our group §9§nvk.me/FlyCore'
-BUY_NOT_STORE: "§cOn Your account was not purchased none privilege;\nuse main account, or buy a privilege on website лучше FilkWorld.cf;\nto get an opportunity to create multi-account"
-BUY_MAX_NOT_MULTIACCOUNT: "§cYou have created maximum amount of multi-accounts\nuse them, or buy a privilege on website лучше FilkWorld.cf\nto increase maximum amount of multi-accounts"
+BUY_NOT_STORE: "§cOn Your account was not purchased none privilege;\nuse main account, or buy a privilege on website flycore.ru;\nto get an opportunity to create multi-account"
+BUY_MAX_NOT_MULTIACCOUNT: "§cYou have created maximum amount of multi-accounts\nuse them, or buy a privilege on website flycore.ru\nto increase maximum amount of multi-accounts"
 BUY_MAX_MULTIACCOUNT: "§cYou exhausted your limit to create multi-accounts!\nYour available multi-account for join: %s"
 
 BUY_HOVER_BROADCAST: '§fClick here\n§fto transition link'
@@ -2813,11 +2813,11 @@ MAIL_ADD_ALREADY_USE:
 - '§c§oP.s. Это было сделано чтобы у каждого игрока был свой аккаунт на форуме'
 MAIL_ADD_CONFIRM: '§aEMail §8| §fEmail ownership §e%s§f confirmed!'
 MAIL_MESSAGE_RECOVERY_NAME: 'Восстановление аккаунта <user>'
-MAIL_MESSAGE_RECOVERY: 'Здравствуйте §l<user>§r!\n Ваш пароль на сервере: §l<pass>§r\n Для входа в аккаунт напишите команду §l/login <pass>§r\n\n Внимание!\nЕсли вы получили это письмо по ошибке, значит кто-то решил подшутить над вами\n и выслать вам это письмо, либо кто-то посторонний имеет доступ к вашему аккаунту.\n Мы настоятельно рекомендуем вам сменить пароль на сервере\n командой: /changepass <pass> "новый пароль"\n\n Если остались вопросы, или нужна помощь, пишите нам: §lsupport@лучше FilkWorld.cf§r или §lvk.me/flycore'
+MAIL_MESSAGE_RECOVERY: 'Здравствуйте §l<user>§r!\n Ваш пароль на сервере: §l<pass>§r\n Для входа в аккаунт напишите команду §l/login <pass>§r\n\n Внимание!\nЕсли вы получили это письмо по ошибке, значит кто-то решил подшутить над вами\n и выслать вам это письмо, либо кто-то посторонний имеет доступ к вашему аккаунту.\n Мы настоятельно рекомендуем вам сменить пароль на сервере\n командой: /changepass <pass> "новый пароль"\n\n Если остались вопросы, или нужна помощь, пишите нам: §lsupport@flycore.ru§r или §lvk.me/flycore'
 MAIL_MESSAGE_VERIFY_NAME: 'Уведомление <action> для аккаунта <user>'
-MAIL_MESSAGE_VERIFY: 'Здравствуйте §l<user>§r!\n\nДля <action>, введите на сервере команду §l/email verify <code>§r\n\nЕсли вы получили это письмо по ошибке, значит кто-то попытался использовать вашу почту как свою,\nлибо кто-то просто допустил ошибку при вводе своей почты.\n\nЕсли остались вопросы или нужна помощь, можете написать нам: §lsupport@лучше FilkWorld.cf§r или §lvk.me/flycore\n\nP.S. Если вы не понимаете что это за пиьсмо или как оно появилось,\nпросто проигнорируйте его.'
+MAIL_MESSAGE_VERIFY: 'Здравствуйте §l<user>§r!\n\nДля <action>, введите на сервере команду §l/email verify <code>§r\n\nЕсли вы получили это письмо по ошибке, значит кто-то попытался использовать вашу почту как свою,\nлибо кто-то просто допустил ошибку при вводе своей почты.\n\nЕсли остались вопросы или нужна помощь, можете написать нам: §lsupport@flycore.ru§r или §lvk.me/flycore\n\nP.S. Если вы не понимаете что это за пиьсмо или как оно появилось,\nпросто проигнорируйте его.'
 MAIL_MESSAGE_JOIN_NAME: 'Оповещение о входе на аккаунт <user>'
-MAIL_MESSAGE_JOIN: 'Здравствуйте §l<user>§r!\n\nМы хотим вас уведомить о том,\nчто на ваш аккаунт §l<user>§r был произведен вход с адреса §l<ip>§r\n\n\nЕсли это были не вы, то срочно смените пароль командой /changepass <pass> "новый пароль"\nВ случае неудачи, пожалуйста напишите нам в группу §lvk.me/flycore§r для восстановления.\n\nЕсли остались вопросы, можете написать нам: §lsupport@лучше FilkWorld.cf§r или §lvk.me/flycore'
+MAIL_MESSAGE_JOIN: 'Здравствуйте §l<user>§r!\n\nМы хотим вас уведомить о том,\nчто на ваш аккаунт §l<user>§r был произведен вход с адреса §l<ip>§r\n\n\nЕсли это были не вы, то срочно смените пароль командой /changepass <pass> "новый пароль"\nВ случае неудачи, пожалуйста напишите нам в группу §lvk.me/flycore§r для восстановления.\n\nЕсли остались вопросы, можете написать нам: §lsupport@flycore.ru§r или §lvk.me/flycore'
 AUTH_TIMEOUT: '§cAuthorization timeout'
 AUTH_REGISTER_INFO: '§7Register - §e/reg §f[§epassword§f] §f[§erepeat password§f]'
 AUTH_LOGIN_INFO: '§7Log in - §e/login §f[§epassword§f]'
@@ -2829,9 +2829,9 @@ AUTH_EMAIL_INFO: '§c⚠ Warning! §fYou did not bind §cemail §fto your accoun
 AUTH_EMAIL_INFO_HOVER: "§fClick here,\nto add mail"
 AUTH_REGISTER_CONFIRM_INFO: '§cYou successfully registered! §fYour current password §7(hover here)'
 AUTH_REGISTER_CONFIRM_INFO_HOVER: "§fPassword - §a%s\n\n§fRemember it or made\nscreenshot, to not forget - §ckey F2"
-AUTH_LOGIN_TITLE: '§a§l§nлучше FilkWorld.cf'
+AUTH_LOGIN_TITLE: '§a§l§nFlyCore.ru'
 AUTH_LOGIN_SUBTITLE: '§7For continuation register'
-AUTH_REGISTER_TITLE: '§a§l§nлучше FilkWorld.cf'
+AUTH_REGISTER_TITLE: '§a§l§nFlyCore.ru'
 AUTH_REGISTER_SUBTITLE: '§7For continuation log in'
 AUTH_NAME_SHORT: '§cNickname lhas to be more than 3 and less than 16 characters'
 AUTH_NAME_LIMIT: "§cYou can't use nickname with more than 16 characters!"
@@ -2845,7 +2845,7 @@ FORUM_INFO: '§c⚠ Warning! §fYou already register §cin forum§f, do this rig
 FORUM_INFO_HOVER: "§fClick here,\nto registred from forum"
 TFA_INFO: "§c⚠ Warning! §fYou didn't activated §ctwo-factor authentication§f, do it now - §e/api"
 TFA_INFO_HOVER: "§fClick here,\nto activate two-factor authentication"
-TFA_LOGIN_TITLE: '§a§l§nлучше FilkWorld.cf'
+TFA_LOGIN_TITLE: '§a§l§nFlyCore.ru'
 TFA_LOGIN_SUBTITLE: '§7For continuation identification'
 TFA_LOGIN_INFO: '§7Log in - §e/tfa §f[§eapi-key§f]'
 TFA_FORMAT: '/tfa <api-key>'
@@ -2853,7 +2853,7 @@ TFA_WRONG: '§cError, invalid key'
 TFA_WRONGS: "§cСлишком много попыток неправильного\nввода ключа. Ваш аккаунт\nзаблокирован на несколько минут"
 TFA_CONFIRM: '§fAuthentication is successful! Have a good game :)'
 VK_INFO: "§c⚠ Warning! §fYou did not activate §cthree-factors authentication§f, do it now - §fwrite to the group messages §cvk.me/flycore§f word ''§eПривязать§f''"
-VK_LOGIN_TITLE: '§a§l§nлучше FilkWorld.cf'
+VK_LOGIN_TITLE: '§a§l§nFlyCore.ru'
 VK_LOGIN_SUBTITLE: '§7Verify account for сontinuation'
 VK_LOGIN_INFO: '§aVK §8| §fOn your VK was sent message with code. Write it in chat for сontinuation'
 VK_WRONG: '§cError, wrong code'
@@ -2873,42 +2873,42 @@ FORUM_ACCOUNT_REGISTRED:
 - '§7• §fLogin: §a%s'
 - '§7• §fPassword: §a%s'
 - ''
-- '§fLogin may on: §cforum.лучше FilkWorld.cf'
-FORUM_ACCOUNT_ALREADY: '§cError, forum account already snap, authorization to forum.лучше FilkWorld.cf'
+- '§fLogin may on: §cforum.flycore.ru'
+FORUM_ACCOUNT_ALREADY: '§cError, forum account already snap, authorization to forum.flycore.ru'
 
 BOSS_BAR_LOBBY:
 #- "§bINSTANT §fCHANGE §dSKIN'S§f COMMAND §7► §5/skin"
 #- '§fCRUSHING §cPRICE §fCOLLAPSE! ALL PRICES WERE §aREDUCED §fBY §615%'
 #- '§fCRUSHING §cPRICE §fBASEMENT! ALL PRICES WERE §aINCREASED §fBY §615%'
-- '§fPURCHASE§e OF DONAT §fON THE SITE §7► §c§lлучше FilkWorld.cf'
+- '§fPURCHASE§e OF DONAT §fON THE SITE §7► §c§lFLYCORE.RU'
 #- '§c§lNEW! §fNEW MODE OPEN §6§lCREATIVE§f!'
 #- '§fВ ЧЕСТЬ §3НОВОГО ДИЗАЙНА§f КУПОН §a§lDESIGN§f НА СКИДКУ §c35§f%!'
 #- '§fCOUPON §b§l§nCHRISTMAS§f DISCOUNT §a§l60%§f IN HONOR OF §c§lNEW YEAR'
-- '§fREPORT ABOUT§c BAGUE§f OR§c ERRORS §7► §c§lлучше FilkWorld.cf/BUGS'
+- '§fREPORT ABOUT§c BAGUE§f OR§c ERRORS §7► §c§lFLYCORE.RU/BUGS'
 #- '§c§lNEW! §fOPENING NEW MODE §9§lSURVIVAL§f!'
 - '§fASK YOUR QUESTION §cADMINISTRATIONS§f COMMAND §7► §d/ASK'
-- '§fHELP THE SERVER §bIMPROVE §fLOCALIZATION §7► §6§lлучше FilkWorld.cf/lang'
+- '§fHELP THE SERVER §bIMPROVE §fLOCALIZATION §7► §6§lFLYCORE.RU/lang'
 
 MESSAGES_BROADCAST:
-- "\n§8 | §fAll arenas §ccrowded§f, not enough slots?\n§8 | §fPurchase %pcreeper§f on site §dлучше FilkWorld.cf\n§8 | §fand this problem will be solved\n"
+- "\n§8 | §fAll arenas §ccrowded§f, not enough slots?\n§8 | §fPurchase %pcreeper§f on site §dflycore.ru\n§8 | §fand this problem will be solved\n"
 - "\n§8 | §fPurchase %pbrick§f by very §dattractive§f price\n§8 | §fAlready with her you will get a decent amount §eof opportunities\n§8 | §fthat will make your game §amore interesting\n"
-- "\n§8 | §fPrivilege %pbrick§f gives more\n§8 | §fquantity §bbonuses§f and §eof opportunities§f for a reasonable price.\n§8 | §fInterested? Buying on site §dлучше FilkWorld.cf\n"
+- "\n§8 | §fPrivilege %pbrick§f gives more\n§8 | §fquantity §bbonuses§f and §eof opportunities§f for a reasonable price.\n§8 | §fInterested? Buying on site §dflycore.ru\n"
 - "\n§8 | §fTo play with friends\n§8 | §fjust write a command §c/party <nick>\n§8 | §fAnd all players will be moved behind the leader\n"
 - "\n§8 | §fThere are many different §epossibilities§f on the server\n§8 | §fand §dbonuses§f access to which only donators have,\n§8 | §finformation about donate §c/donate\n"
 - "\n§8 | %pjunior§f - best server privilege,\n§8 | §fcombines the maximum amount\n§8 | §efeatures§f and §dbonuses§f for a comfortable game\n"
-- "\n§8 | %plava§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dлучше FilkWorld.cf\n"
-- "\n§8 | §fYou already bought §edonat§f, now you want a §bhigher§f status?\n§8 | §COnly here§f you can purchase a new one\n§8 | §fprivilege with surcharge on the site §dлучше FilkWorld.cf\n"
+- "\n§8 | %plava§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dflycore.ru\n"
+- "\n§8 | §fYou already bought §edonat§f, now you want a §bhigher§f status?\n§8 | §COnly here§f you can purchase a new one\n§8 | §fprivilege with surcharge on the site §dflycore.ru\n"
 - "\n§8 | §fIf you saw §cthe intruder§f or §ccheater§f, that\n§8 | §fUse the command §c/report <nick>\n§8 | §fand your §ecomplaint§f complaint will be reviewed in real time\n"
 - "\n§8 | §C⚠ Warning §fWant to change the skin?\n§8 | §fFor all players available\n§8 | §fcommand §c/skin <nickname of player with skin>\n"
-- "\n§8 | §fYou rec §cletsplay§f, §coverview§f, love §cstream\n§8 | §fwith friends? Privilege %pyoutube§f specially for you!\n§8 | §fInterested? Buying on site §dлучше FilkWorld.cf\n"
+- "\n§8 | §fYou rec §cletsplay§f, §coverview§f, love §cstream\n§8 | §fwith friends? Privilege %pyoutube§f specially for you!\n§8 | §fInterested? Buying on site §dflycore.ru\n"
 - "\n§8 | §fWant to §asecure§f your account?\n§8 | §fThen tie it to your mail\n§8 | §fcommand §c/email add <mail> <repeat mail>\n"
 - "\n§8 | §fAppeared §eare questions§f, to which you §cdo not know the answer?\n§8 | §fWrite a team §c/ask <your question>\n§8 | §aOnline administration§f will help you §bin real time\n"
 - "\n§8 | §fWant §dunique§f, hidden §afeatures§f and §acapabilities§f?\n§8 | §fBuy Donat from us and get access to\n§8 | §fdonat-menu command §c/donatemenu\n"
 - "\n§8 | §fYou have §cproblems§f or you have found some §cbug§f?\n§8 | §fWrite to us in the group §bvk.com/flycore\n§8 | §fand you §awill be§f answered soon\n"
 - "\n§8 | §fVisit our group §9VK§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore\n"
-- "\n§8 | §fWant to discuss your §awin§f or challenge the §closs§f,\n§8 | §for maybe you want to find new §efriends§f?\n§8 | §fCome to our forum §dforum.лучше FilkWorld.cf\n"
+- "\n§8 | §fWant to discuss your §awin§f or challenge the §closs§f,\n§8 | §for maybe you want to find new §efriends§f?\n§8 | §fCome to our forum §dforum.flycore.ru\n"
 - "\n§8 | §fAppeared §eare questions§f, to which you §cdo not know the answer?\n§8 | §fWrite a team §c/ask <your question>\n§8 | §aOnline administration§f will help you §bin real time\n"
-- "\n§8 | %pbrick§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dлучше FilkWorld.cf\n"
+- "\n§8 | %pbrick§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dflycore.ru\n"
 - "\n§8 | §fIf you saw §cthe intruder§f or §ccheater§f, that\n§8 | §fUse the command §c/report <nick>\n§8 | §fand your §ecomplaint§f complaint will be reviewed in real time\n"
 - "\n§8 | §fVisit our group §9VK§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore\n"
 - "\n§8 | §fVisit our group §5Group development§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore_dev\n"
@@ -3129,7 +3129,7 @@ GUI_PROFILE_LORE:
 - '§7Также у нас есть экономика, которая состоит из 3-ех валют:'
 - '§71) Монеты - Основная валюта(Можно получить в мини-играх),'
 - '§72) Золото - Более ценная валюта(Выдается за победы в розыгрышах/конкурсах)'
-- '§73) Ядра - Самая ценная валюта сервера(Покупается только на нашем сайте §dлучше FilkWorld.cf§7)'
+- '§73) Ядра - Самая ценная валюта сервера(Покупается только на нашем сайте §dflycore.ru§7)'
 - '§8 • §7Ваш баланс монет: §6%s§7, §7золота: §e%s§7, ядер: §b%s'
 - ''
 - '§7У нас также присутствует поддержка нескольких языков,'
@@ -3230,7 +3230,7 @@ PROFILE_LANG_ITEM_LORE2:
 - ''
 - '§cWARNING! If you want to help'
 - '§cwith transation, you can write'
-- '§cerrors on link лучше FilkWorld.cf/lang'
+- '§cerrors on link flycore.ru/lang'
 - ''
 - '§e▸ Open the language menu'
 GUI_PROFILE_ITEMS_LORE:
@@ -4124,7 +4124,7 @@ GUI_INFO_DONATE_LORE:
 - '§7find in section named §fGame menu ▸ Privileges'
 - ''
 - '§7You can buy status'
-- '§7Online §dлучше FilkWorld.cf'
+- '§7Online §dflycore.ru'
 GUI_INFO_FRIEND_LORE:
 - '§7For a comfortable game with friends'
 - '§7use the commands below'
@@ -4183,12 +4183,12 @@ GUI_INFO_MESSAGES_LORE:
 - '§e/ignorelist §7- List of all'
 - '§7blocked players'
 GUI_INFO_LINKS_LORE:
-- '§7Server Address: §eлучше FilkWorld.cf'
+- '§7Server Address: §eflycore.ru'
 - ''
 - '§7VK community: §fvk.com/flycore'
 - ''
-- '§7Site: §fлучше FilkWorld.cf'
-- '§7Forum: §fforum.лучше FilkWorld.cf'
+- '§7Site: §fflycore.ru'
+- '§7Forum: §fforum.flycore.ru'
 - ''
 - '§7E-mail: §dktemprojects@mail.ru'
 GUI_INFO_REWARD_LORE:
@@ -4840,7 +4840,7 @@ GUI_REWARDS_INFO_LORE:
 - ' §8▪ §cLAVA§7, §5ENDERMAN§7 - §e2.0x'
 - ''
 - '§7You can buy status'
-- '§7Online §dлучше FilkWorld.cf'
+- '§7Online §dflycore.ru'
 GUI_WINREWARDS_NAME: 'Awards (detailed information)'
 GUI_REWARDS_INFO: '§bAdditional Information'
 GUI_DONATEMENU_FASTMESSAGES_LORE:
@@ -5165,7 +5165,7 @@ GUI_REWARDS_5_LORE:
 - ' §8• §a7 rubbles§7 = 500 coins'
 - ' §8• §a3 rubbles§7 = 1 key'
 - ''
-- '§7Shop: §eлучше FilkWorld.cf'
+- '§7Shop: §eflycore.ru'
 GUI_REWARDS_BOOSTER_ALREADY:
 - ''
 - '§7Available after:'
@@ -5625,7 +5625,7 @@ GUI_GADGETS_PET_LORE:
 - '§e▸ Click, to open menu'
 GUI_GADGETS_MECHANISMS_LORE:
 - '§7Интересные предметы для развлечения'
-- '§7в лобби, или подшучивания над обманщики и вруными.'
+- '§7в лобби, или подшучивания над друзьями.'
 - ''
 - '§7Open: §a%s/%s §3%s'
 - '§7Activated mechanisms:'
@@ -6822,7 +6822,7 @@ GUI_CASES_INFO2_LORE:
 - '§7If You have not got enough keys,'
 - '§7then You can always buy them for coins'
 - '§7by clicking §cRMB §7on needed key or'
-- '§7on our website §fлучше FilkWorld.cf'
+- '§7on our website §fflycore.ru'
 - '§7More information about rewards,'
 - '§7by clicking on this item.'
 - ''
@@ -7713,7 +7713,7 @@ GUI_SURVIVAL_INFO_LEVEL_LORE:
 GUI_SURVIVAL_LEVEL_OTHER_NAME: 'Уровень друзей'
 GUI_SURVIVAL_INFO_LEVEL_OTHER_LORE:
 - ' '
-- '§7Помощь обманщики и вруным, повышая их'
+- '§7Помощь друзьям, повышая их'
 - '§7уровень за свои ресурсы'
 GUI_SURVIVAL_INFO_LEVEL_LORE2:
 - ' '
@@ -7808,7 +7808,7 @@ HOLO_DONATE:
 - '%plava §f- §5278 §fRubbles'
 - '§f%ps§dEnderman§f%pe §f- §5520 §fRubbles'
 - '§fBuy on our site:'
-- '%animation%www.лучше FilkWorld.cf'
+- '%animation%www.flycore.ru'
 
 HOLO_ONLINE_UPDATER: '§7On mode §a§n%s§7 %s playing'
 HOLO_SELECTOR_GAME_CHANNEL: '§eClick to connect'
@@ -7825,7 +7825,7 @@ HOLO_VK:
 - '§d§lvk.com/flycore'
 HOLO_SITE:
 - '§fServer site §7§lOnline'
-- '§d§lwww.лучше FilkWorld.cf'
+- '§d§lwww.flycore.ru'
 
 HOLO_ANARCHY:
 - '§a§lAnarchy'
@@ -7970,7 +7970,7 @@ HOLO_PORTAL_START:
 
 HOLO_LASTDONATE:
 - '§a§lLast purchase of goods'
-- '§ePurchase on site: §cwww.лучше FilkWorld.cf'
+- '§ePurchase on site: §cwww.flycore.ru'
 
 LDON_BUYER: 'Buyer'
 LDON_TYPE: 'Bought'
