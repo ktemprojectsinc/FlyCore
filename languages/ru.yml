@@ -7755,6 +7755,7 @@ TPTOGGLE_ENABLE: 'Телепортации - §aвключены'
 TPTOGGLE_DISABLE: 'Телепортации - §cотключены'
 
 #items
+BEACON: 'Маяк'
 POTION: 'Питьевое зелье'
 ANDESITE: 'Андезит'
 DIORITE: 'Диорит'
