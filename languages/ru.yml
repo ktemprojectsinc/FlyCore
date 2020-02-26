@@ -129,7 +129,7 @@ RANK_CHIEFDEVELOPER: 'Гл. Разраб.'
 RANK_ELITE: 'Элита'
 RANK_GAMERPRO: 'Геймер§6Про'
 RANK_GAMER: 'Геймер'
-SERVER_RESTARTING_BROADCAST: '§cДо перезагрузки осталось, §e%s§c %s'
+SERVER_RESTARTING_BROADCAST: '§cДо перезагрузки осталось §e%s§c %s'
 SERVER_RESTARTING_MESSAGE: '§aСервер §8| §fСервер на котором Вы находились перезагружается...'
 NO_CONNECT_REASON: "§cОшибка #13, Синхронизация не выполнена. Если ошибка повторилась, сообщите » §a§nvk.com/flycore"
 CORE_NOT_FOUND_PLAYER_SERVER_MSG:
