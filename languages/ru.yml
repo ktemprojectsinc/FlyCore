@@ -1277,7 +1277,7 @@ VERIFY_ALERT: '§aВерификация §8| §cПодтвердите свой
 VERIFY_SUCCESS: '§aВерификация §8| §fВы подтвердили свой аккаунт, данные обновлены'
 VERIFY_ERRORCODE: '§aВерификация §8| §cОшибка, код введен не верно'
 VERIFY_INFO: '§cввел неверный код'
-VERIFY_REASON: '§cОшибка #18 Пожалуйста сообщите в группу » §a§nvk.me/flycore'
+VERIFY_REASON: '§cПроверка не пройдена. Пожалуйста сообщите в группу для разблокировки » §a§nvk.me/flycore'
 VERIFY_SESSION_REMOVE: '§aВерификация §8| §fСессия удалена'
 VERIFY_UPDATED_BROADCAST: '§cВерификация §8| %s§a обновил данные своей сессии'
 VERIFY_ERROR_BROADCAST: '§aВерификация §8| %s§c ввел неверный код'
