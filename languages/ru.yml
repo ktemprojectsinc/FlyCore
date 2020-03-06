@@ -1032,7 +1032,7 @@ LEVEL_NOT:
 
 SERVER_QUEUE: '§aСервер §8| §fТелепортация на сервер §a%s'
 
-TAB_HEADER: "§a§lFlyCore\n\n§fОнлайн-магазин:\n§ewww.flycore.ru\n\n"
+TAB_HEADER: "§a§lFlyCore\n\n§fОнлайн-магазин:\n§ewww.flycore.ru\n"
 TAB_FOOTER: "\n§fВы находитесь на сервере:\n§e%s"
 
 REDIRECT_ERROR: '§cНевозможно найти подходящий сервер('
