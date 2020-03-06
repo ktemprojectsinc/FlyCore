@@ -18,7 +18,11 @@ HIDDEN: '§cHide'
 PLAYER_HIDE: '§cHidden player'
 NOT_SETS: '§cNot set'
 SLOT_EMPTY: '§cEmpty slot'
-
+SLOT_PREMIUM: 'Premium-slot (Empty)'
+SLOT_PREMIUM_LORE:
+- ''
+- '§7Приобретите %s§7 или выше,'
+- '§7для разблокировки данного слота'
 BANINFO_BY_ANOTHER: '§7(By request %s§7)'
 
 TOP_POSITION: '§e%s Place'
@@ -105,6 +109,8 @@ CORE_NO_CONNECTED:
 GROUP_TIME_EXPIRE_LEFT: "§aServer §8| §fYour group's time %s§f has expired, and it has been removed"
 PREFIX_TIME_EXPIRE_LEFT: "§aServer §8| §fYour prefix's time %s§f has expired, and it has been removed"
 ANARCHY_KILL_MOB: '§6+%s %s for kill mob'
+MODE_KILL_PLAYER: '§6+%s %s за убийство игрока'
+BOX_GIVE_KILLS: '§fВы получили §a%s§f %s§f за убийство %s'
 PLAYER_IS_PRIVATE: '§aServer §8| §fCurrent player enabled private mode, information for player is not available'
 PLAYER_NO_PLOT: '§aServer §8| §fYou have to be a plot member to use your opportunities'
 PLAYER_NO_REGION: '§aServer §8| §fYou have to be a region member to use your opportunities'
@@ -120,6 +126,7 @@ RANK_CREEPER: 'Creeper'
 RANK_LAVA: 'Lava'
 RANK_BRICK: 'Brick'
 RANK_ENDERMAN: 'Enderman'
+RANK_SHULKER: 'Shulker'
 RANK_TESTER: 'Tester'
 RANK_BUILDER: 'Builder'
 RANK_CHIEFBUILDER: 'Ch. Builder'
@@ -144,7 +151,7 @@ RANK_ELITE: 'Elite'
 RANK_GAMERPRO: 'Gamer§6Pro'
 RANK_GAMER: 'Gamer'
 
-SERVER_RESTARTING_BROADCAST: '§cBefore a restart remained, §e%s§c %s'
+SERVER_RESTARTING_BROADCAST: '§cBefore a restart remained §e%s§c %s'
 SERVER_RESTARTING_MESSAGE: '§aServer §8| §fServer from you current, restarted..'
 NO_CONNECT_REASON: "§cError#13, Synchronization is not executed. Report, if error to repeated » §a§nvk.com/flycore"
 CORE_NOT_FOUND_PLAYER_SERVER_MSG:
@@ -227,11 +234,118 @@ SITE: 'Site'
 STATUS: 'Status'
 AFK: '§cDo not stand still!'
 
+BUY_UNAVAILABLE_LORE:
+- '§cУ вас недостаточно %s'
+- ''
+- '§7Приобрести %s можно на'
+- '§7нашем сайте: §dflycore.ru'
+
+GUI_SKINHISTORY_NAME: 'История скинов'
+GUI_SKINHISTORY_RESET: '§bСбросить скин'
+GUI_SKINHISTORY_RESET_LORE:
+- ''
+- '§7У вас установлен скин игрока:'
+- '§f%s'
+GUI_SKINHISTORY_SKIN_DEFAULT:
+- ''
+- '§C▸ У вас уже скин по умолчанию'
+GUI_SKINHISTORY_SKIN_OTHER:
+- ''
+- '§e▸ Нажмите, чтобы сбросить скин'
+GUI_SKINHISTORY_EMPTY: '§cИстория скинов пуста'
+GUI_SKINHISTORY_EMPTY_LORE:
+- ''
+- '§7Скорее всего, вы еще никогда'
+- '§7не меняли скин командой §f/skin <ник>'
+GUI_SKINHISTORY_OTHER_SET: '§aСкин игрока %s'
+GUI_SKINHISTORY_OTHER_SET_LORE:
+- ''
+- '%s'
+- ''
+- '§7С последней установки прошло:'
+- '§f%s'
+GUI_SKINHISTORY_ALREADY_LORE: '§C▸ У вас сейчас установлен этот скин'
+GUI_SKINHISTORY_SET_LORE: '§e▸ Нажмите, чтобы установить снова'
+GUI_SKINHISTORY_CLEAR: '§4Очистка истории'
+GUI_SKINHISTORY_CLEAR_LORE:
+- ''
+- '§7Не хочется хранить'
+- '§7историю скинов?'
+- '§7Тогда вы можете очистить'
+- '§7её за %s'
+- ''
+- '§e▸ Нажмите, чтобы очистить'
+
+
+BEST_PLAYER_INFO:
+- ''
+- '§7Тот игрок, что внесет'
+- '§7больше всего золота в казну сервера,'
+- '§7станет почетным игроком сервера'
+- '§7и его скин(NPC) будет отображаться во всех лобби.'
+- '§7А любой ударивший его'
+- '§7при условии что у него есть минимум 1 золото,'
+- '§7потеряет его, и будет начислено §eПочетному игроку§7.'
+- '§7Также, вы будете получать бонус в размере §a%s§7 с'
+- '§7пройгрышей в §f/casino§7 других игроков, и §a%s§f'
+- '§7с выйгрышей.'
+- ''
+- '§cPS: небольшое условие, если вас'
+- '§cникто не перекупит, то через %s дней'
+- '§cваш "NPC"(Существо) будет удален из всех лобби.'
+- ''
+BEST_PLAYER_BUY_MESSAGE: '§6Почетный игрок §8| §fВы перекупили игрока %s§f за §e%s §f%s и стали новым "почетным игроком"'
+BEST_PLAYER_BUY_MESSAGE_ALERT: '§6Почетный игрок §8| %s§f перекупил игрока %s§f за %s и стал новым "почетным игроком"'
+BEST_PLAYER_BUY: '§bПовысить на %s'
+BEST_PLAYER_BUY_LORE:
+- '§7'
+- '§7Перекупить и заплатить'
+- '§e%s §7золота, чтобы стать'
+- '§7новым "почетным игроком"'
+- '§7'
+- '§e▸ Нажмите, чтобы перекупить'
+BEST_PLAYER_NAME: '§eИнформация'
+BEST_PLAYER_LORE:
+- '§7'
+- '§fДанный игрок заплатил: §e%s§f %s'
+- '§7'
+- '§7Его статус истекает §7%s МСК'
+- '§7(Если его никто не перекупит)'
+BEST_PLAYER_GUI: 'Самый почетный игрок'
+BEST_PLAYER_HOLO: '§fСамый почетный игрок сервера:'
+BEST_PLAYER_HOLO2: '§fОн вложил: §e%s§f %s'
+BEST_PLAYER_HOLO3: '§7Осталось: %s'
+BEST_PLAYER_HOLO4: '§7Нажмите, чтобы сменить!'
+BEST_PLAYER_CLICK: '§aСервер §8| §f-%s§f за удар почетного игрока!'
+BEST_PLAYER_CASINO_WIN: '§aСервер §8| §f-%s§f §7(§e%s§7)§f за выйгрышь, так как они ушли почетному игроку!'
+BEST_PLAYER_CASINO_LOSING: '§aСервер §8| §f-%s§f §7(§e%s§7)§f за пройгрышь, так как они ушли почетному игроку!'
+BEST_PLAYER_CLICK_ERROR: '§cОшибка, удар почетного игрока стоит %s!'
+BEST_PLAYER_CLICK_MSG: '§fВы получили %s§f за то что вас ударил %s'
+BEST_PLAYER_CASINO_WIN_MSG: '§aСервер §8| §fВы получили %s§f §7(§e%s§7)§f за победу игрока %s§f в казино'
+BEST_PLAYER_CASINO_LOSING_MSG: '§aСервер §8| §fВы получили %s§f §7(§e%s§7)§f за пройгрышь игрока %s§а в казино'
+
+GUI_TITLE_NAME: 'Titles'
+GUI_TITLE_NOT_ACCESS: '§cДоступен по особым праздникам или дням'
+GUI_TITLE_UNAVAILABLE: '§cДанный титул вам не доступен'
+GUI_TITLE_SHOW: '§e▸ Нажмите, чтобы показать титул'
+GUI_TITLE_HIDE: '§c▸ Нажмите, чтобы скрыть титул'
+GUI_TITLE_LORE:
+- '§7Сменить титул на: %s'
+GUI_TITLE_ITEM_LORE:
+- ''
+- '§fTotal titles: §e%s'
+
 KILLS:
 - 'kill'
 - ''
 - ''
 - 's'
+
+DEATHS:
+- 'смерт'
+- 'ь'
+- 'и'
+- 'ей'
 
 SECONDS: 
 - 'second'
@@ -240,16 +354,28 @@ SECONDS:
 - 's'
 
 BLOCKS:
-- 'блок'
+- 'block'
+- ''
+- ''
+- 's'
+
+GOTOS:
+- 'пример'
 - ''
 - 'а'
 - 'ов'
 
 MOBS:
-- 'моб'
+- 'mob'
 - ''
-- 'а'
-- 'ов'
+- ''
+- 's'
+
+SKINS:
+- 'skin'
+- ''
+- ''
+- 's'
 
 KEYS:
 - 'key'
@@ -333,6 +459,12 @@ WINS_1:
 - ''
 - 's'
 - 's'
+
+LOSINGS:
+- 'проигрыш'
+- 'а'
+- 'а'
+- 'ей'
 
 MONEYS:
 - 'coin'
@@ -420,6 +552,22 @@ HOMES_2:
 
 ITEMS:
 - 'item'
+- ''
+- ''
+- 's'
+
+HOMES_1:
+- 'home'
+- ''
+- ''
+- 's'
+HOMES_2:
+- 'home'
+- ''
+- ''
+- 's'
+WARPS_1:
+- 'warp'
 - ''
 - ''
 - 's'
@@ -526,6 +674,11 @@ PLAYER_NO_KEYS:
 - ''
 - '§aServer §8| §fOn your account недостаточно §akeys§f. Приобрести ключи можно на сайте §cflycore.ru'
 - '§r'
+PLAYER_NO:
+- ''
+- '§aСервер §8| §fНа вашем счёте нехватает §a%s§f. Приобрести %s§f можно на сайте §bflycore.ru'
+- '§r'
+PLAYER_LIMIT: '§cОшибка, лимит символов не должен быть больше числа %s'
 
 PLAYER_GADGETS_GADGET_NO_GROUP: '§cFor buying this item, your need privilege %s§c or higher'
 PLAYER_GADGETS_GADGET_NO_GROUP_ONLY: '§cОшибка, для бесплатного получения данного предмета у Вас должна быть привилегия %s'
@@ -615,7 +768,7 @@ PLAYER_SERVER_ALREADY: '§aServer §8| §cYou already on current server!'
 SLOT_BUSY: '§cSorry, but You was transfered to lobby, Your slot took %s'
 ERROR_TELEPORT: '§cError in teleporting to lobby'
 ONLY_DONATOR: '§cError, there are only donaters on arena'
-ARENA_BUYS: '§cArena is full, do not enough slots? Buy §3CLAY§c or higher'
+ARENA_BUYS: '§cArena is full, do not enough slots? Buy §3§lCLAY§c or higher'
 ARENA_START: '§cGame starting...'
 ARENA_RESTART: '§cArena restarting...'
 
@@ -865,24 +1018,23 @@ PRIZE_STATS: ' §8 • §7+%s§f Rank'
 PRIZE_STATS_ALREADY: '§aRewards §8| §fYou already have higher status, you got §e+%s§f %s'
 PRIZE_NO_LEVEL: '§cYou must have minimum 1 level, to get reward'
 
-ANS_REASON: '1.16. (Offtopic)'
+ANS_REASON: '4.4. (Offtopic)'
 ANS_REASON_MSG: 'This chat is intended only for helping player with adequate question, remember this'
 ANS_USE_MSG: '§aQuestions §8| §fWrite for answer §a/ans %s <your message> §7(hover)'
 ANS_USE_HOVER: '§fClick to, answered to player %s'
 
-REPORT_REASON_1: '1.4 (Advertising other resources)'
-REPORT_REASON_2: '1.3 (Flood)'
-REPORT_REASON_3: '1.5 (Попрашайнечество)'
+REPORT_REASON_1: '3.10. (Advertising other resources)'
+REPORT_REASON_2: '3.3. (Flood)'
+REPORT_REASON_3: '5.6. (Попрашайнечество)'
 REPORT_REASON_4: '(Possibly account hacked, report vk.com/flycore)'
-REPORT_REASON_5: '1.6 (Cheats)'
+REPORT_REASON_5: '2.1. (Cheats)'
 
 SERVER_STOP: '§aServer §8| §fStopping server §a%s§f...'
 SERVER_START: '§aServer §8| §fStarting server §a%s§f..'
 SERVER_KILL: '§aServer §8| §fKilling server §a%s§f. . '
 
 LEVEL_NOT: '§cError, rewards can receive only 5 level or higher'
-REDIRECT_TO_SERVER: '§aTeleported to server %s'
-SERVER_QUEUE: '§aTeleported to server %s'
+SERVER_QUEUE: '§aServer §8| §fTeleported to server %s'
 
 TAB_HEADER: "online %go or %max"
 TAB_FOOTER: "ping %pms\n§bFlyCore.ru"
@@ -1113,6 +1265,7 @@ TRAINING_STAGE_6_SUBTITLE: '§fIf you want to know all available commands, use �
 CREATIVE_COMMANDS: '§aServer §8| §fPlease create your plot §c/p auto§f, or teleported to home §c/p home'
 
 BOARD_NEWS: 'News: §7'
+BOARD_NEED_BOX: 'Up to case'
 BOARD_PLAYERS: 'Players'
 BOARD_TEAMS: 'Teams'
 BOARD_TEAMS_2: 'Teams'
@@ -1148,6 +1301,7 @@ BOARD_POINTS: 'Points'
 BOARD_MONEY: 'Coins'
 BOARD_BALANCE: 'Balance'
 BOARD_LEVEL: 'Level'
+BOARD_PROGRESS: 'Progress'
 BOARD_BLOCK_BREAK: 'Blocks removed'
 BOARD_BLOCK_PLACE: 'Blocks created'
 BOARD_BOOSTER: 'Active booster'
@@ -1174,6 +1328,8 @@ DISABLE_CHAT_IN_LIMBO: '§aServer §8| §fSorry, buy You can not write in §acha
 DISABLE_COMMAND_IN_LIMBO: '§aServer §8| §fSorry, but You can not §ause commands§f. Back in main lobby §7/hub§f or §7/lobby'
 DISABLE_INTERACT_IN_LIMBO: '§aServer §8| §fSorry, but You can not §ainterract with items§f. Back in main lobby §7/hub§f or §7/lobby'
 ERROR_COMMAND: '§cError, write %s'
+ERROR_COMMAND_IN_GAME: '§cДанная команда недоступна во время игры'
+ERROR_COMMAND_IN_LOBBY: '§cДанная команда доступна только во время игры'
 
 VERIFY_ALERT: '§aVerify §8| §cVerify your account -> /verify <code>'
 VERIFY_SUCCESS: '§aVerify §8| §fYou verifed your account, data updated'
@@ -1191,7 +1347,8 @@ VERIFY_NOT_ENABLE: '§cVerify §8| §cДля вас недоступна дан�
 NO_PERMS: '§cYou do not have permissions'
 NO_PERMS_GROUP: '§cYou do not have permissions, buy %s§c or higher'
 NO_PERMS_STATS: '§cYou do not have permissions, get %s§c or higher'
-NO_PERMS_ENDERMAN_ONLY: '§cThis function is only for §5ENDERMAN'
+NO_PERMS_TITLE: '§c✗ У вас нет прав ✗'
+NO_PERMS_SUBTITLE: '§cСтаньте минимум %s§c для доступа'
 NO_PERMS_ONLY: '§cThis function is only for %s'
 
 REPORT_FORMAT: '/report <nickname> <reason>'
@@ -1243,6 +1400,7 @@ API_RESET_SUCCESS: '§aApi §8| §fAcces key successfully removed.'
 API_NOT_FOUND: '§aApi §8| §cThere is no access key on your account, create it by /api create'
 
 SPAWN_TELEPORT: 'Teleporting on spawn...'
+SPAWN_TELEPORT_TO: '%s§f moving to spawn'
 
 SPAWN_DELAY: '§cWait %s before next teleportation'
 SPAWN_START: '%sProcess of teleportation is running, you will be teleported in §a3§f seconds'
@@ -1293,11 +1451,13 @@ GROUP_VIEW_FORMAT: '/group view <group>'
 GROUP_MIGRATE_FORMAT: '/group migrate <old nickname> <new nickname>'
 GROUP_SETLONGPREFIX_FORMAT: '/group setlongprefix <ник> <время> <префикс>'
 GROUP_SETLONGGROUP_FORMAT: '/group setlonggroup <ник> <время> <донат-группа>'
+GROUP_PREFIXRESET_FORMAT: '/group prefixreset <ник>'
 
 GROUP_HELP:
  - '§7/group setlongprefix <ник> <время> <префикс> §f- установить временный префикс'
  - '§7/group setlonggroup <ник> <время> <донат-группа> §f- установить временную донат-группу'
  - '§7/group clear <nickname> §f- clearing group'
+ - '§7/group prefixreset <ник> §f- вернуть префикс игрока по умолчанию'
 # - '§c/group prefix <prefix> §f- change to your prefix'
  - '§7/group migrate <old nickname> <new nickname> §f- transfer group'
  - '§7/group set <nickname> <group> §f- update group'
@@ -1320,6 +1480,8 @@ GROUP_VIEW_INVALID: '§cYou wrote wrong group. Available groups: §f%s'
 GROUP_SET_BROADCAST: '§cGroups §8| %s§7 set to player %s§7 group %s'
 GROUP_SET_STATS_BROADCAST: '§cGroups §8| %s§7 set to player %s§7 group %s'
 GROUP_TIME_INFO: '§7(Сроком: %s)'
+GROUP_PREFIXRESET: '§aГруппы §8| §fИгроку %s§f был установлен префикс по умолчанию'
+GROUP_PREFIXRESET_BROADCAST: '§cГруппы §8| %s§7 обнулил префикс игрока %s§7 до умолчания'
 
 NO_FOUND_PLAYER: '§cPlayer %s§c not found or player is offline'
 NO_FOUND_PLAYER_IN_GAMEMODE: '§cPlayer %s§c not found on this gamemode'
@@ -1360,6 +1522,10 @@ PLAYER_NAME_27: 'won'
 PLAYER_NAME_28: 'won'
 PLAYER_NAME_29: 'Временная'
 PLAYER_NAME_30: 'Временный'
+PLAYER_NAME_31: 'вошла'
+PLAYER_NAME_32: 'вошел'
+PLAYER_NAME_33: 'присоединилась'
+PLAYER_NAME_34: 'присоединился'
 
 PROXY_COMMAND_HELP:
 - '§7/proxy info §f- information for your connected to proxies'
@@ -1490,6 +1656,7 @@ CORE_SERVERS_INFO:
 - '§8 ▪ §fIP Address: §e%s'
 - '§8 ▪ §fPort: §e%s'
 - '§8 ▪ §fMap: §e%s'
+- '§8 ▪ §fMin. Group: %s'
 - '§8 ▪ §fAdditional information: §e%s'
 
 CORE_SERVERS_SERVERS_GROUP_NOT_EXISTS: '§aCore §8| §cВ данный момент, нет серверов с минимальной группой'
@@ -1710,8 +1877,8 @@ PARTY_INVITE_ALREADY: '§cPlayer %s already has invite to the group'
 PARTY_INVITE_LIMIT: '§cLimit of the group exceeded, limit - %s'
 PARTY_INVITE: '§aParty §8| §fInvite to the group sent to %s'
 PARTY_INVITE_OWNER: '§aParty §8| §fSend invites to the group can only the group owner'
-PARTY_INVITE_EXPIRED: '§cЗапрос, отправленный игроку %s§c был автоматически отклонен'
-PARTY_INVITE_EXPIRED_TO: '§aParty §8| §fИгрок %s§f отправлявший Вам приглашение в группу, был автоматически отклонен спустя %s'
+PARTY_INVITE_EXPIRED: '§aParty §8| §cЗапрос, отправленный игроку %s§c был автоматически отклонен'
+PARTY_INVITE_EXPIRED_TO: '§aParty §8| %s§f отправлявший Вам приглашение в группу, был автоматически отклонен спустя %s'
 
 PARTY_GUILD: '§aParty §8| §fYou joined to the group of the player %s §fguild'
 PARTY_GUILD_ALERT: '§aParty §8| %s§f joined to the guild group'
@@ -1744,11 +1911,11 @@ FRIEND_ADD: '§aFriends §8| §fFriend request was sent to %s'
 FRIEND_ADD_ME: "§cYou can't send friend request yourself"
 FRIEND_ADD_NO: '§cThis player forbad to send him(her) friend requests'
 FRIEND_ADD_ALREADY: '§cYou have already sent friend request to that player...'
-FRIEND_ADD_EXPIRED: '§cRequest, sent to player %s§c was automatically rejected'
-FRIEND_ADD_EXPIRED_TO: '§aFriends §8| §fRequest to player %s§f was automatically rejected after %s'
+FRIEND_ADD_EXPIRED: '§aFriends §8| §cRequest, sent to player %s§c was automatically rejected'
+FRIEND_ADD_EXPIRED_TO: '§aFriends §8| %s§f was automatically rejected after %s'
 
 FRIEND_CHAT_FORMAT: '/fchat <message>'
-FRIEND_CHAT: '§aFriends §8| %s'
+FRIEND_CHAT: '§aFriends chat §8| %s'
 FRIEND_CHAT_OFFLINE: "§cYou haven't got online friends"
 
 FRIEND_ACCEPT_FORMAT: '/f accept <player name>'
@@ -1788,6 +1955,8 @@ LEVEL_COMMAND:
 KEY_BOX: '%sYou have %s %s'
 BOX_NAME: 'Lucky Chest'
 BOX_SUB_NAME: '§7Click to open'
+BOX_IS_CLOSED: '§cSorry, но данный сундук временно недоступен'
+BOX_KEY_NOT_BUY: '§cSorry, но в данный момент этот ключ не продается!'
 BOX_NO_KEY: '§cYou have not keys'
 BOX_WORK: '§cWait... Chest scrolls!'
 BOX_OPEN_YOU: 'You started open a chest...'
@@ -1796,7 +1965,8 @@ BOX_WINNER_OTHER: '%s §f%s %s§f item %s'
 BOX_FAST_START: 'Fast chest opening... §cTo cancel, click on lucky chest'
 BOX_FAST_STOP: 'Fast opening canceled'
 BOX_KEYS: '§dCosmetic keys §f(§6+%s§f)'
-BOX_NEWYEARKEYS: '§bНовогоднии ключи §f(§c+%s§f)'
+BOX_NEWYEARKEYS: '§bNewYear keys §f(§c+%s§f)'
+BOX_TITLEKEYS: '§fTitle keys §f(§2+%s§f)'
 BOX_EXP: '§eExperience §f(§a+%s§f)'
 BOX_MONEY: '§aCoins §f(§6+%s§f)'
 BOX_GOLDS: '§eGolds §f(§a+%s§f)'
@@ -1833,6 +2003,8 @@ SERVER_KILL_BROADCAST: '§cServer §8| %s§4 убил§7 сервер ▬ §a%s'
 SERVER_MEMORY_ENDS_BROADCAST: '§cServer §8| §7У сервера §a%s§f кончается §cсвободная память §7(%s)'
 SERVER_MEMORY_ENDS_DISABLE_BROADCAST: '§cServer §8| §7Сервер §a%s§7 был отключен, из-за §cнехватки памяти §7(Свободной памяти было: %s)'
 SERVER_PLAYER_CONNECTION_CLOSED: '§cServer §8| §7Соединение игрока %s§f было §cаварийно§7 завершено, по причине - §c%s'
+SERVER_PLAYER_COMMAND_USED_ERROR: '§cServer §8| §7Command §a%s§8 (%s)§7 used player %s§7 been §cno correct§7 completed, from reason - §c%s'
+
 
 DEVELOPER_BROADCAST: '§cDevelopment §8| %s§f %s has writen you message: §a%s'
 ANSWER_BROADCAST: '§cQuestions §8| %s§f %s player %s§8 (§a%s§8) §f -> §e%s'
@@ -1862,9 +2034,9 @@ GUILD_HOVER_NO: '§fClick, to reject invition'
 
 GUILD_NO: "§cYou aren't in the guild"
 
-GUILD_MUTE: '§cYou guild chat banned by %s §cfor %s for reason: §e%s'
+GUILD_MUTE: '§aGuild §8| §cYou guild chat banned by %s §cfor %s for reason: §e%s'
 GUILD_CHAT_FORMAT: '/gchat <message>'
-GUILD_OFFLINE: '§cAll guild members are offline'
+GUILD_OFFLINE: '§cError, all guild members are offline'
 GUILD_CHAT: '§2Guilds chat §8| %s §8» §7%s'
 
 GUILD_COMMAND_HELP:
@@ -1899,10 +2071,11 @@ GUILD_COMMAND_DEPUTY_HELP:
 - '§7/g motd §f- set control for motd of guild'
 - '§7/g rank <nickname> <rank> §f- set player rank'
 - '§7/g deposit <nickname> <amount of coins> §f- withdraw money from guild balance'
-GUILD_COMMAND_OWNER_HELP:
 - '§7/g kick <nickname> <reason> §f- kick player from group'
-- '§7/g delete §f- remove guild'
-- '§7/g leader <ник игрока> §f- transfer leadering'
+GUILD_COMMAND_OWNER_HELP:
+- '§7/g rename <name> §f- переименовать гильдию'
+- '§7/g delete §f- remove guild (деньги вложенные в гильдию не возвращаются!)'
+- '§7/g leader <nickname> §f- transfer leadering'
 GUILD_COMMAND_TOP_HELP:
 - '§7/g top coins §f- top coins guilds'
 - '§7/g top members §f- top members guilds'
@@ -1925,8 +2098,8 @@ GUILD_NAME_1: 'invested'
 GUILD_NAME_2: 'invested'
 GUILD_MONEY_INVALID: '§cWritten wrong amount'
 GUILD_LIMIT: "§cThis guild can't accept players, because its limit is exceeded"
-GUILD_LEADER: "§cYou aren't guild leader"
-GUILD_MODER: "§cYou aren't guild moderator"
+GUILD_LEADER: "§cError, you aren't guild leader"
+GUILD_MODER: "§cError, you aren't guild moderator"
 GUILD_NAME_MEMBER: 'Member'
 GUILD_NAME_MODER: 'Moderator'
 GUILD_NAME_DEPUTY: 'Deputy'
@@ -1943,11 +2116,15 @@ GUILD_PARTY: '§aGuild §8| §fYou invited all online members to the guild party
 
 GUILD_CREATE_FORMAT: '/guild create <name>'
 GUILD_CREATE: '§aGuild §8| §fYou created guild §a%s'
-GUILD_CREATE_NO_MONEY: '§cYou lack %s coins to create the guild'
-GUILD_CREATE_ALREADY: '§cGuild with name %s is already exists'
-GUILD_CREATE_NO_PERMISSION: '§cCreate guilds may only players with group %s§c and higher'
+GUILD_CREATE_NO_MONEY: '§cError, you lack %s coins to create the guild'
+GUILD_CREATE_ALREADY: '§cError, guild with name %s is already exists'
+GUILD_CREATE_NO_PERMISSION: '§cError, create guilds may only players with group %s§c and higher'
 
-GUILD_DELETE: '§aGuild §8| §fYou removed guild §a%s'
+GUILD_RENAME_FORMAT: '/guild rename <название>'
+GUILD_RENAME_ALERT: '§2Гильдии §8| %s§7 переименовал гильдию на %s'
+GUILD_RENAME: '§aГильдия §8| §fВы изменили название гильдии на %s'
+
+GUILD_DELETE: '§aGuild §8| §fYou removed guild §a%s§f :('
 GUILD_DELETE_ALERT: '§2Guilds §8| %s §fremoved guild'
 
 GUILD_INVITE_FORMAT: '/guild invite <player name>'
@@ -1956,8 +2133,8 @@ GUILD_INVITE_ME: "§cError, You can't invite yourself"
 GUILD_INVITE_FRIEND: '§cThe player forbad to send him(her) guild invitions'
 GUILD_INVITE_ALREADY: '§cPlayer %s already has invition to the guild'
 GUILD_INVITE_LIMIT: '§cGuild limit exceeded, limit - %s'
-GUILD_INVITE_EXPIRED: '§cЗапрос, отправленный игроку %s§c был автоматически отклонен'
-GUILD_INVITE_EXPIRED_TO: '§aGuild §8| §fИгрок %s§f отправлявший Вам приглашение в гильдию, был автоматически отклонен спустя %s'
+GUILD_INVITE_EXPIRED: '§2Guilds §8| §fRequest, sended to player %s§c был автоматически отклонен'
+GUILD_INVITE_EXPIRED_TO: '§aGuilds §8| %s§f отправлявший Вам приглашение в гильдию, был автоматически отклонен спустя %s'
 
 GUILD_ACCEPT_FORMAT: '/guild accept <player name>'
 GUILD_ACCEPT_ALERT: '§2Guilds §8| %s§f joined the guild'
@@ -1965,7 +2142,7 @@ GUILD_ACCEPT: '§aGuild §8| §fYou accepted invition to the guild §a%s'
 
 GUILD_REJECT_FORMAT: '/guild reject <player name>'
 GUILD_REJECT_ALERT: '§2Guilds §8| %s§7 rejected your guild invition'
-GUILD_REJECT: '§aGuild §8| §fYou rejected invition to the guild §a%s'
+GUILD_REJECT: '§aGuilds §8| §fYou rejected invition to the guild §a%s'
 
 GUILD_TAG_FORMAT: '/guild tag <tag>'
 GUILD_TAG_LIMIT: "§aGuild §8| §fGuild tag doesn't have to be more than §c%s§f characters"
@@ -1974,15 +2151,20 @@ GUILD_TAG: '§aGuild §8| §fGuild tag set to §a%s'
 GUILD_TAG_RESET_ALERT: '§2Guilds §8| %s§7 deleted guild tag'
 GUILD_TAG_RESET: '§aGuild §8| §fТег гильдии удален'
 GUILD_TAG_NO_MONEY: '§cGuild lacks %s coins to change tag'
-GUILD_TAG_NO_BUY: "§cYou haven't got guild tag, buy it in /guild shop"
+GUILD_TAG_NO_BUY: "§cGuild haven't got "Guild tag", buy it in /guild shop"
 
 GUILD_MOTD_COMMAND_HELP:
 - '§7/g motd info §f- view motd of guild'
 - '§7/g motd set <greeting> §f- set motd of guild'
+- '§7/g motd clear §f- delete guild greeting'
 GUILD_MOTD_INFO: '§aGuild §8| §fGuild greeting:'
 GUILD_MOTD_SET_FORMAT: '/guild motd set <greeting>'
 GUILD_MOTD_SET_ALERT: '§2Guilds §8| %s§7 updated the guild greeting to -> §d%s'
 GUILD_MOTD_SET: '§aGuild §8| §fGuild greeting changed to:'
+GUILD_MOTD_NO_BUY: '§cУ гильдии еще не куплено "Приветствие гильдии", купите его в /guild shop'
+GUILD_MOTD_CLEAR_ALERT: '§2Guilds §8| %s§7 удалил приветствие гильдии'
+GUILD_MOTD_CLEAR: '§aGuild §8| §fПриветствие гильдии удалено'
+GUILD_MOTD_NO_SET: '§cУ гильдии еще не установлено приветствие, создайте его /g motd set'
 
 GUILD_LEADER_FORMAT: '/guild leader <player name>'
 GUILD_LEADER_ME: "§cYou can't transfer leadering to yourself"
@@ -1994,8 +2176,8 @@ GUILD_RANK_ME: "§cYou can't change rank yourself"
 GUILD_RANK_ALERT: '§2Guilds §8| %s§7 lowered %s §7to %s'
 GUILD_SETRANK_ALERT: '§2Guilds §8| %s§7 set rank %s§7 to player %s'
 GUILD_RANK: '§aGuild §8| §fYou lowered %s§f to §7%s'
-GUILD_SETRANK: '§aGuild §8| §fYou assign new %s§f guild %s'
-GUILD_RANK_INVALID: '§cYou specified wrong rank Available ranks: §fDefault, Moderator, Deputy'
+GUILD_SETRANK: '§aGuild §8| §fYou assign on guild new %s§f - %s'
+GUILD_RANK_INVALID: '§cYou specified wrong rank Available ranks: §f%s'
 GUILD_RANK_NO_ACCESS: "§cYou can't manage ranks this player"
 
 GUILD_DONATE_FORMAT: '/guild donate <amount>'
@@ -2018,7 +2200,7 @@ GUILD_DEPOSIT: '§aGuild §8| §7You withdrawed on player balance %s §a%s §f%s
 GUILD_DEPOSIT_NO_MONEY: '§cThe amount you want to withdraw, exceeds guild balance'
 
 GUILD_KICK_FORMAT: '/guild kick <player name> <reason>'
-GUILD_KICK_ALERT: '§2Guilds §8| %s§7 kicked the player %s§7 for reason: §e%s'
+GUILD_KICK_ALERT: '§2Guilds §8| %s§7 kicked the player %s§7 for reason §e%s'
 GUILD_KICK: '§aGuild §8| §fYou kicked the player %s§f for reason: §e%s'
 GUILD_KICK_EXEMPT: "§cYou can't kick this player"
 
@@ -2027,12 +2209,12 @@ GUILD_MUTE_ALERT: '§2Guilds §8| %s§7 muted guild chat for the player %s§7 on
 GUILD_NEWMUTE: '§aGuild §8| §fYou muted guild chat for the player %s§f on §a%s§f for reason: §a%s'
 GUILD_MUTE_ME: "§cYou can't mute yourself"
 GUILD_MUTE_ALREADY: '§cPlayer %s has got already muted guild chat'
-GUILD_MUTE_MSG: '§c%s §cmuted chat guild for You %s on %s'
+GUILD_MUTE_MSG: '§aGuild §8| %s§c muted chat guild for You %s on %s'
 
 GUILD_UNMUTE_FORMAT: '/guild unmute <player name>'
 GUILD_UNMUTE_ALREADY: "§cPlayer %s hasn't got guild chat mute"
 GUILD_UNMUTE_ALERT: '§2Guilds §8| %s§f unmuted guild chat for the player %s'
-GUILD_UNMUTE_MSG: '§aYour guild chat has been unmuted'
+GUILD_UNMUTE_MSG: '§aГильдия §8| §aYour guild chat has been unmuted'
 GUILD_UNMUTE: '§aGuild §8| §fYou unmuted guild chat for the player %s'
 
 GUILD_STATS_MOTD_BUY: '§aBought'
@@ -2067,7 +2249,7 @@ GUILD_DELHOME_ALERT: '§2Guilds §8| %s§7 deleted guild home'
 
 GUILD_SETHOME: '§aGuild §8| §fGuild home set'
 GUILD_SETHOME_ALERT: '§2Guilds §8| %s§7 set to new guild home'
-GUILD_SETHOME_INVALID: '§cSet guild home may on thr servers: Anarchy, Creative, SkyBlock'
+GUILD_SETHOME_INVALID: '§cError, set guild home may on thr servers: %s'
 
 GUILD_INFO_FORMAT: '/guild info <player name>'
 GUILD_INFO:
@@ -2123,6 +2305,7 @@ BANINFO_IP:
 - '§f- Reason: §e%s'
 - '§f- Date: §6%s'
 UNBAN_NO_ACCESS: '§cThe player is blocked administration, you do not have permission to him unlocked'
+UNBAN_NO_OTHER: '§cError, вы можете разблокировать только тех кого сами наказывали'
 UNMUTE_NO_YOURSELF: '§cYou no available unblocked to yourself chat'
 BAN_NO_ACCESS: '§cYou can not ban this player'
 BAN_NO_ACCESS_SYNTAX: '§cYou are not permitted, to use lifetime syntax'
@@ -2133,7 +2316,7 @@ BAN_ME: '§cYou can not punish yourself'
 UNBAN_NO: '§cPlayer %s, not blocked'
 UNMUTE_NO: '§cPlayer chat %s, not blocked'
 UNBANIP_NO: '§cIP address %s, not blocked'
-KICK_USE: '§aServer §8| §fВы кикнули игрока %s§f по причине §a%s'
+KICK_USE: '§aServer §8| §fYou kicked player %s§f from reason §a%s'
 KICK_REASON: "§e§l§nFlyCore§7\n\n§cYou have been kicked from the server\n\n§fDate: §7%s\n\n§fYou: %s\n§fKicked: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
 BAN_NEVER_NEW_REASON: "§e§l§nFlyCore§7\n\n§cYou have been lifetime banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
 BAN_NEVER_REASON: "§e§l§nFlyCore§7\n\n§cYou are lifetime banned\n\n§fBanning date: §7%s\n\n§fYou: %s\n§fBanned: %s\n§fReason: §7%s\n\n§7Appeal the punishment You may on the forum:\n§b§nforum.flycore.ru"
@@ -2454,16 +2637,14 @@ SPY_ALREADY_OFF: '§aSpy §8| §cYou already disabled spying'
 
 HUBS_ALREADY: '§cYou are already in hub'
 
-REDIRECT: '§aYou were teleported to %s'
+REDIRECT: '§aServer §8| §fYou were teleported to %s'
 
 MSG_FORMAT: '/msg <player name> <message>'
 MSG_ME: '§cYou can not contact yourself'
 MSG_FRIENDS_ONLY: '§cAccording to your privacy settings, you can only chat with friends and girlfriends'
 MSG_FRIENDS: '§cError, this player accepts messages only from their friends and girlfriends'
-MSG: '§aPM §8| §6I §8-> %s §8| §7%s'
-MSG_ALERT: '§aPM §8| %s §8-> §6I §8| §7%s'
-MSG_DONATE: '§aPM §8| §6I §8-> %s §8| §f%s'
-MSG_ALERT_DONATE: '§aPM §8| %s §8-> §6I §8| §f%s'
+MSG: '§aPM §8| §aI §8-> %s §8| §7%s'
+MSG_ALERT: '§aPM §8| %s §8-> §aI §8| §7%s'
 
 ONLINE_ALL:
 - '§aServer §8| §fTotal online §a%s §f%s'
@@ -2538,6 +2719,8 @@ GOD_TO: 'For player %s §fset god mode - %s'
 GOD_ON: '§aenabled'
 GOD_OFF: '§cdisabled'
 
+GAMER_SETBED: 'Точка §aкровати§f установлена'
+
 GAMEMODE_FORMAT: '/gamemode <1|2|0>'
 GAMEMODE: '§fSet gamemode - §c%s'
 GAMEMODE_TO: 'For player %s §fset gamemode - §c%s'
@@ -2569,7 +2752,6 @@ HOME: 'Вы были телепортированы на точку дома §a
 
 INVSEE_FORMAT: '/invsee <name>'
 
-KIT_FORMAT: '/kit <enderman/golem/emerald/diamond/gold>'
 KIT_DELAY: '§cNext kit will be available in %s'
 KIT_GET: 'You got kit %s'
 
@@ -2609,6 +2791,12 @@ RTP: 'You teleported to random place: X: %s, Y: %s, Z: %s'
 RTP_START: 'Teleportation started, you will be teleported in §a5 §fseconds'
 RTP_ALREADY: '§cTeleportation is already running'
 RTP_CANCEL: '§cYou moved, teleportation cancel'
+
+DISPELL_ERROR: '§cЭтот предмет не содержит чары'
+DISPELL: 'Чары с предмета были удалены'
+
+ITEM_CONVERTED_ERROR: '§cПроизошла ошибка при сборе предметов'
+ITEM_CONVERTED: 'Предметы успешно собраны в блоки'
 
 ANVIL_DELAY: '§cOpen anvil may once per 4 minutes, time left %s'
 
@@ -2710,7 +2898,10 @@ YOUTUBE_NOT_FOUND: "§aYouTube §8| §cYou don't have got link, add it /yt addli
 YOUTUBE_INFO: '§6§lYouTube §fchannel » §3§l%s'
 YOUTUBE_OTHER: '§aServer §8| §fOn %s§f YouTube channel: §b%s'
 
-JOIN_TO_LOBBY: ' §a‣ %s §6joined to server'
+#JOIN_TO_LOBBY: ' §a‣ %s §6joined to server'
+JOIN_TO_LOBBY: '§f+ %s§f %s %s'
+JOIN_TYPE_LOBBY: 'on lobby'
+JOIN_TYPE_OTHER: 'to game'
 
 VERIFY_CONFIRM: '§aVerify §8| §fДанные совпадают, сессия восстановлена'
 VERIFY_CONFIRM_BROADCAST: '§cVerify §8| §7Сессия %s§f восстановлена'
@@ -2720,7 +2911,7 @@ VERIFY_LASTTIMED: '§aVerify §8| §cСессия истекла'
 VERIFY_LASTTIMED_BROADCAST: '§cVerify §8| §7Данные сессии %s§7 истекли'
 VERIFY_CODE_CHANGED_BROADCAST: '§aVerify §8| %s§7 %s свой код'
 
-LANGUAGE_CHANGE: '§aServer §8| §fYou Language is change to §c%s'
+LANGUAGE_CHANGE: '§aServer §8| §fYou Language is change to §6%s'
 PREFIX_CHANGE: '§aServer §8| §fYou prefix changed to %s'
 THEME_CHANGE: '§aServer §8| §fYou selected theme %s'
 
@@ -2784,18 +2975,18 @@ AUTH_CHANGEPASSWORD: '§eYou password was successfully changed'
 EMAIL_COMMAND_HELP:
 - '§7/email add <your email> <again> §f- snap email to the your account'
 - '§7/email change <old email> <new email> §f- Change email on your account'
+- '§7/email verify <verify code> §f- Action confirm'
 - '§7/email recovery <your email> §f- Send on the email setting password'
-- '§7/email recovery <эл. почта> §f- Выслать на почту установленный пароль'
 MAIL_CHANGE_FORMAT: '/email change <old mail> <new mail>'
 MAIL_NO: '§cError, you have not snap email'
 MAIL_CHANGE_WRONG: '§cMail, the one you specified as a previously linked account, not correct'
 MAIL_CHANGE_INCORRECT: '§cSpecified email not valid'
-MAIL_CHANGE_CONFIRM: '§aEMail §8| §fСтарая почта §c%s§f успешна заменена на §e%s§f!'
+MAIL_CHANGE_CONFIRM: '§aEMail §8| §fOld email §c%s§f successful changed to §e%s§f!'
 RECOVERY_WRONG: '§cError, wrong mail'
 RECOVERY_SENT: '§aEMail §8| §fLetter with password was sent to your email'
 MAIL_RECOVERY_FORMAT: '/email recovery <mail>'
-MAIL_VERIFY_FORMAT: '/email verify <код>'
-MAIL_VERIFY_ERROR: '§cОшибка, указанный код введен не верно, или вам нечего подтверждать'
+MAIL_VERIFY_FORMAT: '/email verify <verify code>'
+MAIL_VERIFY_ERROR: '§cError, указанный код введен не верно, или вам нечего подтверждать'
 MAIL_VERIFY_SENDED:
 - '§aEMail §8| §fКод подтверждения отправлен на почту §c%s§f для §e%s§f.'
 - '§aEMail §8| §fДля подтверждения почты используйте команду §7/email verify <код>'
@@ -2836,7 +3027,7 @@ AUTH_REGISTER_SUBTITLE: '§7For continuation log in'
 AUTH_NAME_SHORT: '§cNickname lhas to be more than 3 and less than 16 characters'
 AUTH_NAME_LIMIT: "§cYou can't use nickname with more than 16 characters!"
 AUTH_NAME_INCORRECT: "§cThere are unacceptable characters in the nickname \n\n§cAllow to use only numbers and latin alphabet symbols"
-AUTH_NAME_MORE: "§eВы сменили слишком много ников за короткое время\n§eДопустимые ники: %s"
+AUTH_NAME_MORE: "§eYou changed слишком more names за короткое время\n§eAvailable names: %s"
 AUTH_BANNED: "§cThis Ip was banned for §e10 §cminutes \n§cSuspicion of hacking :/"
 AUTH_LOAD_ERROR: '§cError #2, contact vk.me/flycore'
 AUTH_SERVERS_NOT_AVAILABLE: '§cAuthorization servers is not availables, Contact vk.me/flycore'
@@ -2859,12 +3050,12 @@ VK_LOGIN_INFO: '§aVK §8| §fOn your VK was sent message with code. Write it in
 VK_WRONG: '§cError, wrong code'
 VK_CONFIRM: '§fVerified succesfully! Have a good game :)'
 VK_MSG_CODE: |-
- На ваш аккаунт %s,
+ On your account %s,
  был произведен вход с address: %s
  Ваш код для авторизации: %s
  Введите его в игре.
 VK_MSG_JOIN: |-
- На ваш аккаунт %s,
+ On your account %s,
  был произведен вход с address: %s
 FORUM_NOT_MAIL: '§cError, to your accoint not snap email. To snap mail to your account, Write /email add <email> <repeat email>'
 FORUM_ACCOUNT_REGISTRED:
@@ -2895,7 +3086,7 @@ MESSAGES_BROADCAST:
 - "\n§8 | §fPrivilege %pbrick§f gives more\n§8 | §fquantity §bbonuses§f and §eof opportunities§f for a reasonable price.\n§8 | §fInterested? Buying on site §dflycore.ru\n"
 - "\n§8 | §fTo play with friends\n§8 | §fjust write a command §c/party <nick>\n§8 | §fAnd all players will be moved behind the leader\n"
 - "\n§8 | §fThere are many different §epossibilities§f on the server\n§8 | §fand §dbonuses§f access to which only donators have,\n§8 | §finformation about donate §c/donate\n"
-- "\n§8 | %pjunior§f - best server privilege,\n§8 | §fcombines the maximum amount\n§8 | §efeatures§f and §dbonuses§f for a comfortable game\n"
+- "\n§8 | %pshulker§f - best server privilege,\n§8 | §fcombines the maximum amount\n§8 | §efeatures§f and §dbonuses§f for a comfortable game\n"
 - "\n§8 | %plava§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dflycore.ru\n"
 - "\n§8 | §fYou already bought §edonat§f, now you want a §bhigher§f status?\n§8 | §COnly here§f you can purchase a new one\n§8 | §fprivilege with surcharge on the site §dflycore.ru\n"
 - "\n§8 | §fIf you saw §cthe intruder§f or §ccheater§f, that\n§8 | §fUse the command §c/report <nick>\n§8 | §fand your §ecomplaint§f complaint will be reviewed in real time\n"
@@ -2912,6 +3103,7 @@ MESSAGES_BROADCAST:
 - "\n§8 | §fIf you saw §cthe intruder§f or §ccheater§f, that\n§8 | §fUse the command §c/report <nick>\n§8 | §fand your §ecomplaint§f complaint will be reviewed in real time\n"
 - "\n§8 | §fVisit our group §9VK§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore\n"
 - "\n§8 | §fVisit our group §5Group development§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore_dev\n"
+- "\n§8 | §fХотите иметь свой собственный §aprefix§f?\n§8 | §fтогда привилегия %pshulker§f только для вас!\n§8 | §fПриобрести её можно на сайте §cstore.flycore.ru\n"
 MESSAGES_HOVER_BROADCAST:
 - "§fClick here to\n§ffollowing the link"
 - "§fClick here to\n§ffollowing the link"
@@ -3031,6 +3223,7 @@ SUFFIX_FORMAT: '/suffix <suffix/reset>'
 SUFFIX_LIMIT: '§aSuffixes §8| §fСуффикс не должен превышать §c10§f символов'
 SUFFIX_CHANGED: '§aSuffixes §8| §fYour suffix changed to: %s'
 SUFFIX_RESET: '§aSuffixes §8| §fSuffix restored'
+PREFIX_LIMIT: '§aPrefixs §8| §fПрефикс не должен превышать §c%s§f символов'
 
 CHECK_FORMAT: '/checkip <ip>'
 ADDRESS_INVALID: '§cError, address %s invalid'
@@ -3055,6 +3248,12 @@ FORMATNAME_FINISH: '§aServer §8| §fSearch complete. Request took §6%sms§f f
 
 SENDMONEY_FORMAT: '/pay <player name> <sum>'
 SENDMONEY_YOU: '§cYou can not send money to yourself'
+COMMISSION_SENDMONEY: '§c • §fВаша комиссия на отправку денег: §a%s'
+COMMISSION_LIMITMONEY: '§c • §fВаш дневной лимит на отправку денег: §a%s'
+COMMISSION_GETMONEY: '§c • §fВаш дневной лимит на получение денег: §a%s'
+COMMISSION_SENDCORE: '§c • §fВаша комиссия на отправку ядер: §a%s'
+COMMISSION_LIMITCORE: '§c • §fВаш дневной лимит на отправку ядер: §a%s'
+COMMISSION_GETCORE: '§c • §fВаш дневной лимит на получение ядер: §a%s'
 SENDMONEY_SEND: '§aServer §8| §fYou succesfully send §a%s §f%s to player %s§f. Comission by paying made up §c%s §f%s (§e%s§f)'
 SENDMONEY_ERROR_SEND: '§cError, you can not send %s %s, because your daily limit on sending money must not exceed %s %s'
 SENDMONEY_ERROR_SENDED: '§cError, you can not send %s %s to player %s§c, because his daily limit on getting money must not exceed %s %s'
@@ -3066,21 +3265,36 @@ SENDMONEY_ERROR_MONEY: '§cError, you can not send amounts lower than %s and hig
 SENDMONEY_NO_MONEY_OTHER: '§cError, there is not enough money on guild balance! Including commission %s you must have %s %s on guild balance'
 SENDMONEY_ERROR_MONEY_OTHER: '§cError, you can not donate amounts lower than %s and higher than %s at a one time!'
 SENDMONEY_ERROR_MONEY_OTHER_2: '§cError, you can not deposit amounts lower than %s and higher than %s at a one time!'
+SENDCORE_FORMAT: '/sendcore <ник крысы> <sum>'
 
 VK_NOT_LINK: '§aVK-bot §8| §fДанный игрок не привязал свой аккаунт к §9VK §fботу'
 VK_HIDE: '§cДанный игрок запретил узнавать его страницу VK'
-VK_FORMAT: '/vk <player name>'
-VK_OTHER: '§aVK-bot §8| §fУ пользователя %s §fпривязан аккаунт §7%s'
-VK: '§aVK-bot §8| §fК вашему аккаунту привязан профиль §7%s'
+VK_OTHER: '§aVK-bot §8| §fУ пользователя %s§f привязан аккаунт: §7%s'
+VK: '§aVK-bot §8| §fК вашему аккаунту привязан профиль: §7%s'
+VK_HELP:
+- '§aVK-bot §8| §fДля просмотра чужого профиля используйте §7/vk <ник>'
 VK_NOT_LINK_YOU: '§aVK-bot §8| §fК вашему аккаунту не привязан профиль §9VK'
-VK_SENT_MESSAGE_FORMAT: ' §aPM §8| §6I §8-> %s§7 (VK) §8| §f%s'
-VK_RECIEVED_MESSAGE_FORMAT: ' §aPM §8| %s§7 (VK) §8-> §6I §8| §f%s'
+VK_SENT_MESSAGE_FORMAT: ' §aPM §8| §aI §8-> %s§7 (VK) §8| §f%s'
+VK_RECIEVED_MESSAGE_FORMAT: ' §aPM §8| %s§7 (VK) §8-> §aI §8| §f%s'
+VK_INFO_ERROR:
+- '§cОшибка, для привязки аккаунта у вас должен быть создан Api-Ключ.'
+- '§cСоздайте его командой §e/api create§c, или-же задайте свой §e/api change <ключ>'
+VK_INFO_MSG:
+- '§aVK-bot §8| §fДля привязки аккаунта вам нужно написать,'
+- '§f в сообщения нашего сообщества §dvk.me/flycore'
+- '§f сообщение: §c!привязать %s'
+- '§f после чего вам нужно перезайти, и если'
+- '§f все было сделано правильно, то при написании команды'
+- '§f §e/vk %s§f вы сможете увидеть ссылку на ваш §9VK§f.'
+- '§8 ▪ §7Отключить или включить отображение вашего §9VK'
+- ' §7 вы можете в §c/vkinfo toggle'
+VK_TOGGLE: '§aVK-bot §8| §fОтображение вашего §9VK§f - %s'
 
 PROMO_FORMAT: '/promo-code <promo-code>'
-PROMO_NOT_FOUND: '§cОшибка, промо-код %s не найден'
-PROMO_ENDED: '§cОшибка, промо-код %s истек :( Его использовали более %s раз'
-PROMO_ACTIVATED: '§aПромо-код §8| §fВы успешно активировали промо-код §a%s'
-PROMO_ALREADY_ACTIVATED: '§cОшибка, вы уже использовали промо-код %s ранее'
+PROMO_NOT_FOUND: '§cError, promo-code %s is not found'
+PROMO_ENDED: '§cError, promo-code %s expired :( It was used more %s'
+PROMO_ACTIVATED: '§aPromo-code §8| §fYou successful activated promo-code §a%s'
+PROMO_ALREADY_ACTIVATED: '§cError, you already activated promo-code %s earlier'
 
 COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
@@ -3088,9 +3302,11 @@ COOLDOWN_2: '§cWait %s %s to use that'
 #Guis en
 BACK_ITEM_NAME: '§cBack'
 BACK_ITEM_LORE:
-- '§7Click to return'
+- '§7Click to return,'
+- '§7one step back.'
 BACK_ITEM_LORE2:
-- '§7Click to return to main menu'
+- '§7Click to return,'
+- '§7to main menu.'
 
 GUI_PAGE_NEXT_LORE:
 - '§7Click to go'
@@ -3114,40 +3330,46 @@ GUI_PROFILE_LORE:
 - '§7Здесь вы можете прочитать,'
 - '§7общую информацию о вашем аккаунте.'
 - ''
-- '§7На нашем сервере есть систама ID,'
+- '§7На нашем сервере присутствует систама ID,'
 - '§7которая используется для сохранения ваших данных.'
 - '§8 • §7ID вашего аккаунта: §a%s'
 - ''
-- '§7Также на нашем сервере присутствуют отдельные,'
-- '§7статусы и донат-привилегии, подробнее в §f/donate'
+#- '§7Также на нашем сервере присутствуют отдельные,'
+#- '§7статусы и донат-привилегии, подробнее в §f/donate'
 - '§8 • §7В данный момент ваш статус: %s§7(%s§7)'
+- '§8 ▪ §7Подробнее §f/donate'
 - ''
-- '§7Также у нас присутствует смена пола,'
-- '§7который вы можете сменить командой §f/gender <male/female>'
+#- '§7Также у нас присутствует смена пола,'
+#- '§7который вы можете сменить командой §f/gender <male/female>'
 - '§8 • §7Сейчас у вас выбран пол: %s'
+- '§8 ▪ §7Для смены используйте §f/gender'
 - ''
-- '§7Также у нас есть экономика, которая состоит из 3-ех валют:'
-- '§71) Монеты - Основная валюта(Можно получить в мини-играх),'
-- '§72) Золото - Более ценная валюта(Выдается за победы в розыгрышах/конкурсах)'
-- '§73) Ядра - Самая ценная валюта сервера(Покупается только на нашем сайте §dflycore.ru§7)'
+#- '§7Также у нас есть экономика, которая состоит из 3-ех валют:'
+#- '§71) Монеты - Основная валюта(Можно получить в мини-играх),'
+#- '§72) Золото - Более ценная валюта(Выдается за победы в розыгрышах/конкурсах)'
+#- '§73) Ядра - Самая ценная валюта сервера(Покупается только на нашем сайте §dflycore.ru§7)'
 - '§8 • §7Ваш баланс монет: §6%s§7, §7золота: §e%s§7, ядер: §b%s'
 - ''
 - '§7У нас также присутствует поддержка нескольких языков,'
 - '§7которые вы можете выбрать если они вам подходят.'
 - '§8 • §7В данный момент у вас выбран язык: §a%s'
+- '§8 ▪ §7Подробнее в разделе §fСмена языка'
 - ''
 - '§7Также у нас присутствует привязка [В]контакте и EMail,'
-- '§7вы можете привязать свой аккаунт или почту для защиты своего аккаунта,'
-- '§7подробнее о привязке вы можете прочитать в §f/vk info§7 или §f/email help'
+- '§7вы можете привязать свой аккаунт или почту для защиты своего аккаунта.'
 - '§8 • §7Сейчас у вас VK: §e%s§7, EMail: §e%s'
+- '§8 ▪ §7Подробнее о привязке VK: §f/vkinfo§7, EMail: §f/email help'
+- '§8 ▪ §7Подробнее о безопасности аккаунта в §f/help'
 - ''
-- '§7У нас также есть система скинов,'
-- '§7Вы можете установить себе скин с помощью команды §f/skin <ник>'
+- '§7У нас также есть система скинов.'
+#- '§7Вы можете установить себе скин с помощью команды §f/skin <ник>'
 - '§8 • §7Сейчас у вас установлен скин: §e%s'
+- '§8 ▪ §7Подробнее §f/help'
 - ''
 - '§7Об остальной информации, а также'
 - '§7наших системах друзей/party/гильдий,'
-- '§7вы можете ознакомится в разделе §fИнформация'
+- '§7вы можете ознакомится в разделе §fИнформация§7,'
+- '§7или используя команду §f/help'
 GUI_PROFILE_SETTING_LORE:
 - '§7Personal settings'
 GUI_PROFILE_SETTING2_LORE:
@@ -3255,6 +3477,21 @@ GUI_PROFILE_THEME_LORE:
 - '§7Open: §a%s§7/§a%s §d%s'
 - ''
 - '§e▸ Click, to open menu'
+GUI_PROFILE_TITLE_LORE:
+- '§7Позволяет купить или активировать'
+- '§7уже купленные титулы'
+
+GUI_PROFILE_TITLE_LORE2:
+- ''
+- '§7Current title: %s'
+- '§7Open: §a%s§7/§a%s §d%s'
+
+GUI_PROFILE_TITLE_LORE3:
+- ''
+- '§cWARNING! Все титулы будут'
+- '§cработать на всех аренах и играх!'
+- ''
+- '§e▸ Open title menu'
 GUI_PROFILE_NAME: 'Profile'
 GUI_PROFILE_THEME: '§bВыбор темы'
 GUI_DONATE_NAME: 'Privileges'
@@ -3269,7 +3506,10 @@ LEVEL_ALREADY_GIVE: '§cError, your already got current reward!'
 LEVEL_NO_OTHER_REWARD: '§cError, перед получением этой награды Вы обязаны получить все предыдущие!'
 LEVEL_REWARD_COSMETIC:  'Game cosmetic'
 LEVEL_REWARD_GADGET: 'Gadget'
-LEVEL_REWARD_SENDMONEY: '§8+ §7Accept and send money across §f/sendmoney'
+LEVEL_REWARD_SENDMONEY: '§8+ §7Accept and send money across §f/pay'
+LEVEL_REWARD_PAYIGNOR: '§8+ §7Игнорировать лимит получателя через §f/pay'
+LEVEL_REWARD_SENDCORE: '§8+ §7Отправлять ядра через §f/paycore'
+LEVEL_REWARD_GETCORE: '§8+ §7Принимать ядра через §f/paycore'
 LEVEL_REWARD_ANTICHEAT: '§8+ §7Иммунитет к некоторым проверкам античита!'
 LEVEL_REWARD_NAME: 'Reward for %s level'
 LEVEL_REWARD_LORE1:
@@ -3337,9 +3577,9 @@ GUI_DONATE_FAQ_LAVA:
 GUI_DONATE_FAQ_ENDERMAN:
 - ''
 - '§7Краткая информация:'
-- ' §8• §7Покупая привилегию ENDERMAN, вы получаете большое количество'
+- ' §8• §7Покупая привилегию Shulker, вы получаете большое количество'
 - ' §8• §7новых возможностей таких как Доступ к цветному чату,'
-- ' §8• §7смене префикса, бесплатную косметику и гаджеты в лобби,'
+- ' §8• §7созданию своего префикса, бесплатную косметику и гаджеты в лобби,'
 - ' §8• §7и это далеко не все! Таким образом вы сможете получить'
 - ' §8• §7большое количество новых возможностей бесплатно,'
 - ' §8• §7за которые другим бы пришлось тратить очень много времени для их получения.'
@@ -3736,11 +3976,11 @@ GUI_DONATE_LAVA_SURVIVAL_LORE:
 - ' §8▪ §7Нет задержки при телепортации'
 - ' §8▪ §7Возможность поставить 10 варпа'
 - ''
-GUI_DONATE_ENDERMAN_ALL_LORE:
+GUI_DONATE_SHULKER_ALL_LORE:
 - ''
-- ' §8▪ §7Prefix %s'
+- ' §8▪ §7Prefix %s§7 (or own §f/prefix <префикс>§7)'
 - ' §8▪ §7The greeting at the entrance'
-- ' §8▪ §7Ability to change color Prefix'
+- ' §8▪ §7Ability to set you individual Prefix'
 - ' §8▪ §7Ability to change messages when loggin in'
 - ' §8▪ §7Ability to create guilds - §f/guild create <name>'
 - ' §8▪ §7A huge number of gadgets in the lobby'
@@ -3772,7 +4012,7 @@ GUI_DONATE_ENDERMAN_ALL_LORE:
 - ' §8▪ §7Увеличен лимит на получение монет до §f20,000§7 coins'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f30,000§7 coins'
 - ''
-GUI_DONATE_ENDERMAN_BEDWARS_LORE:
+GUI_DONATE_SHULKER_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Available hidden perks'
 - ' §8▪ §7No delay in the revisal'
@@ -3780,7 +4020,7 @@ GUI_DONATE_ENDERMAN_BEDWARS_LORE:
 - ' §8▪ §7Reduced delay of §9teleportation on spawn§7 (§c2 sec§7)'
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_DONATE_ENDERMAN_ANARCHY_LORE:
+GUI_DONATE_SHULKER_ANARCHY_LORE:
 - ''
 - ' §8▪ §7Coin multiplier from mob kills §fx1.3'
 - ' §8▪ §7No delay in teleportation'
@@ -3796,10 +4036,10 @@ GUI_DONATE_ENDERMAN_ANARCHY_LORE:
 - ' §8▪ §7Quickly clean inventory - §f/clear'
 - ' §8▪ §7Back to the place of death - §f/back'
 - ' §8▪ §7Set the time for yourself - §f/ptime'
-- ' §8▪ §7A special kits things every day (§f/kit enderman§7)'
+- ' §8▪ §7A special kits things every day (§f/kit shulker§7)'
 - ' §8▪ §7Allowed to have up to §c30§7 items at auction (§f/ah§7)'
 - ''
-GUI_DONATE_ENDERMAN_CREATIVE_LORE:
+GUI_DONATE_SHULKER_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Available §c6§7 plots (§f/p auto§7)'
 - ' §8▪ §7Available §c4§7 warps (§f/setwarp <name>§7)'
@@ -3812,23 +4052,23 @@ GUI_DONATE_ENDERMAN_CREATIVE_LORE:
 - ' §8▪ §7Big limit on the set blocks in one operation'
 - ' §8▪ §7Available AST (create amazing armor stands)'
 - ''
-GUI_DONATE_ENDERMAN_PARKOUR_LORE:
+GUI_DONATE_SHULKER_PARKOUR_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_ENDERMAN_LUCKYWARS_LORE:
+GUI_DONATE_SHULKER_LUCKYWARS_LORE:
 - ''
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_DONATE_ENDERMAN_SKYPVP_LORE:
+GUI_DONATE_SHULKER_SKYPVP_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_ENDERMAN_PRISON_LORE:
+GUI_DONATE_SHULKER_PRISON_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_ENDERMAN_SURVIVAL_LORE:
+GUI_DONATE_SHULKER_SURVIVAL_LORE:
 - ''
 - ' §8▪ §7Множитель монет от убийства мобов §fx2.0'
 - ' §8▪ §7Доступна телепортация к игроку - §f/tp <ник>'
@@ -3847,7 +4087,7 @@ GUI_DONATE_ENDERMAN_SURVIVAL_LORE:
 - ' §8▪ §7Восстановить голод - §f/feed'
 - ' §8▪ §7Умереть - §f/suicide'
 - ' §8▪ §7Виртуальная наковальня - §f/anvil'
-- ' §8▪ §7Особый набор вещей каждые два дня (§f/kit enderman§7)'
+- ' §8▪ §7Особый набор вещей каждые два дня (§f/kit shulker§7)'
 - ' §8▪ §7Разрешено иметь до §c30 §7предметов на аукционе (§f/ah§7)'
 - ' §8▪ §7Нет задержки при телепортации'
 - ' §8▪ §7Возможность поставить 15 варпа'
@@ -3869,7 +4109,7 @@ GUI_DONATE_YOUTUBE_ALL_LORE:
 - ' §8▪ §7Сниженная комиссия при конвертировании монет §f4%§7, золота §f35%'
 - ' §8▪ §7Увеличен лимит на получение монет до §f20,000§7 монет'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f30,000§7 монет'
-- ' §8▪ §7Все возможности §lENDERMAN'
+- ' §8▪ §7Все возможности §lSHULKER'
 - ''
 GUI_DONATE_YOUTUBE_BEDWARS_LORE:
 - ''
@@ -3895,7 +4135,7 @@ GUI_DONATE_YOUTUBE_ANARCHY_LORE:
 - ' §8▪ §7Quickly clean inventory - §f/clear'
 - ' §8▪ §7Back to the place of death - §f/back'
 - ' §8▪ §7Set the time for yourself - §f/ptime'
-- ' §8▪ §7A special kits things every day (§f/kit enderman§7)'
+- ' §8▪ §7A special kits things every day (§f/kit shulker§7)'
 - ' §8▪ §7Allowed to have up to §c40§7 items at auction (§f/ah§7)'
 - ''
 GUI_DONATE_YOUTUBE_CREATIVE_LORE:
@@ -3946,6 +4186,7 @@ GUI_DONATE_YOUTUBE_SURVIVAL_LORE:
 - ' §8▪ §7Восстановить голод - §f/feed'
 - ' §8▪ §7Умереть - §f/suicide'
 - ' §8▪ §7Виртуальная наковальня - §f/anvil'
+- ' §8▪ §7Особый набор вещей каждые два дня (§f/kit shulker§7)'
 - ' §8▪ §7Разрешено иметь до §c40 §7предметов на аукционе (§f/ah§7)'
 - ' §8▪ §7Нет задержки при телепортации'
 - ' §8▪ §7Возможность поставить 20 варпа'
@@ -3972,7 +4213,7 @@ GUI_DONATE_JUNIOR_ALL_LORE:
 - ' §8▪ §7Сниженная комиссия при конвертировании монет §f4%§7, золота §f35%'
 - ' §8▪ §7Увеличен лимит на получение монет до §f20,000§7 монет'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f30,000§7 монет'
-- ' §8▪ §7Все возможности §lYouTube§7, §lENDERMAN§7 (Кроме цветного чата)'
+- ' §8▪ §7Все возможности §lYouTube§7, §lSHULKER§7 (Кроме цветного чата)'
 - ''
 GUI_DONATE_JUNIOR_BEDWARS_LORE:
 - ''
@@ -3998,7 +4239,7 @@ GUI_DONATE_JUNIOR_ANARCHY_LORE:
 - ' §8▪ §7Quickly clean inventory - §f/clear'
 - ' §8▪ §7Back to the place of death - §f/back'
 - ' §8▪ §7Set the time for yourself - §f/ptime'
-- ' §8▪ §7A special kits things every day (§f/kit enderman§7)'
+- ' §8▪ §7A special kits things every day (§f/kit shulker§7)'
 - ' §8▪ §7Allowed to have up to §c45§7 items at auction (§f/ah§7)'
 - ''
 GUI_DONATE_JUNIOR_CREATIVE_LORE:
@@ -4074,8 +4315,8 @@ GUI_DONATE_INFO_LORE:
 - ' §f<The price of your existing status> '
 - '' 
 - '§7For example, if you want to buy a status'
-- '§cLAVA§7, and you already have §aCREEPER§7,'
-- '§7then you have to pay §c139 rubbles§7.'
+- '§c§lLAVA§7, and you already have §a§lCREEPER§7,'
+- '§7then you have to pay §c155 rubbles§7.'
 GUI_DONATE_MONEY_LORE:
 - '§7Все денежные средства вырученные с'
 - '§7привилегий идут на развитие проекта:'
@@ -4089,9 +4330,11 @@ GUI_DONATE_MONEY_LORE:
 - '§7Выражаем вам благодарность за'
 - '§7осуществление наших общих мечт!'
 GUI_DONATE_ITEM: '§bRank'
+GUI_DONATE_STATS_ITEM: '§bStats'
 GUI_DONATE_ITEM_LORE:
 - ''
 - ' §8▪ §7Cost: §a%s§7 rubbles'
+- ' §8▪ §7Покупка на сайте: §6%s'
 - ''
 - '§e▸ Tap to open the options menu'
 GUI_INFO_HELP_LORE:
@@ -4099,14 +4342,15 @@ GUI_INFO_HELP_LORE:
 - ''
 - '§e/hub §7or §e/lobby §7- Return to main lobby'
 #- '§e/online §7- Online from all servers'
-#- '§e/online §7or§e §e/online <server/@channel> §7- Online from all servers/Mode online'
+- '§e/online §7or§e §e/online <server/@channel> §7- Online from all servers/Mode online'
 - '§e/find <Nickname> §7- Find player'
 - '§e/staff §7- Server staff online'
 - '§e/ask <your question> §7- Create question'
 - '§e/report <player name> <reason> §7- Report for player'
 - '§e/convert <golds/coins> <golds> §7- Transfer currency'
 - '§e/gender <male/female> §7- Change your gender'
-- '§e/pay <player name> <sum> §7- Transfer money'
+- '§e/pay <player name> <sum> §7- Transfer §6money'
+- '§e/paycore <ник> <сумма> §7- Передача §bядер'
 - ''
 - '§7Также для получения списка всех доступных Вам команд,'
 - '§7введите в поле ввода §e/§7 и нажмите на кнопку Tab'
@@ -4114,17 +4358,20 @@ GUI_INFO_HELP_LORE:
 - '§7вводить команду и она также будет добавлена.'
 GUI_INFO_DONATE_LORE:
 - '§7List of paid statuses:'
-- ' §8▪ §3CLAY §7- §f24 Rubbles'
-- ' §8▪ §6BRICK §7- §f86 Rubbles'
-- ' §8▪ §aCREEPER §7- §f139 Rubbles'
-- ' §8▪ §cLAVA §7- §f278 Rubbles'
-- ' §8▪ §5ENDERMAN §7- §f520 Rubbles'
+- ' §8▪ %s§7 - §f%s Rubbles'
+- ' §8▪ %s§7 - §f%s Rubbles'
+- ' §8▪ %s§7 - §f%s Rubbles'
+- ' §8▪ %s§7 - §f%s Rubbles'
+- ' §8▪ %s§7 - §f%s Rubbles'
 - ''
 - '§7A detailed description of the donate you can'
-- '§7find in section named §fGame menu ▸ Privileges'
+#- '§7find in section named §fProfile ▸ Privileges'
+- '§7получить нажав на данный предмет'
 - ''
 - '§7You can buy status'
 - '§7Online §dflycore.ru'
+- ''
+- '§e▸ Open privileges'
 GUI_INFO_FRIEND_LORE:
 - '§7For a comfortable game with friends'
 - '§7use the commands below'
@@ -4142,38 +4389,43 @@ GUI_INFO_FRIEND_LORE:
 - '§e/party list §7- List players in party'
 - ''
 - '§7More info about the friends or party system'
-- '§7can be found, by writing §e/friends §7or §e/party'
+- '§7can be found, by writing §e/f §7or §e/party'
 - ''
 - '§7A regular player have a maximum of §c20§7 friends!'
 GUI_INFO_SECURITY_LORE:
 - '§7After registration, we recommend'
-- '§7link your email to your account:'
+- '§7создать api-ключ: §e/api create'
+- '§7and link your email to your account:'
 - '§e/email add <email> <email>'
 - ''
+- '§7Для смены или изменения api-key use:'
+- '§e/api change <Новый ключ>'
+- '§7Для смены почты используйте:'
+- '§e/email change <Старая почта> <Новая почта>'
 - '§7To change the password, use:'
 - '§e/changepassword <Old password> <New password>'
 - ''
 - '§7If you lose your password, write the command:'
 - '§e/email recovery <Email>'
-- '§7A new password will be sent to your mail'
+- '§7A password will be sent to your mail'
 GUI_INFO_SKIN_LORE:
 - '§7On our server there is a system of skins,'
 - '§7that allows you to install yourself'
 - '§7skin of any player with a license'
 - ''
-- '§e/skin <player> §7- Set the skin of the player'
+- '§e/skin <premium player> §7- Set the skin of the player'
 - '§e/skin reset §7- Return your skin'
 - ''
-- '§7Skin changes momentally. You do not'
-- '§7need to relog'
+- '§cSkin changes momentally. You do not'
+- '§cneed to relog'
 GUI_INFO_MESSAGES_LORE:
 - '§7If you want to write a specific'
 - '§7message to a specific player, then'
 - '§7use the command'
-- '§e/msg <players> <message>'
+- '§e/m <players> <message>'
 - '§7For quick response to message,'
 - '§7you can use the command'
-- '§e/reply <message>'
+- '§e/r <message>'
 - ''
 - '§7If you do not want to receive'
 - '§7personal messages from a certain'
@@ -4183,14 +4435,14 @@ GUI_INFO_MESSAGES_LORE:
 - '§e/ignorelist §7- List of all'
 - '§7blocked players'
 GUI_INFO_LINKS_LORE:
-- '§7Server Address: §eflycore.ru'
+- '§7Server Address: §eplay.flycore.ru'
 - ''
 - '§7VK community: §fvk.com/flycore'
 - ''
-- '§7Site: §fflycore.ru'
+- '§7Site: §bstore.flycore.ru'
 - '§7Forum: §fforum.flycore.ru'
 - ''
-- '§7E-mail: §dktemprojects@mail.ru'
+- '§7E-mail: §dsupport@flycore.ru'
 GUI_INFO_REWARD_LORE:
 - '§7Playing on server modes,'
 - '§7you can get coins and experience,'
@@ -4228,7 +4480,7 @@ GUI_INFO_GUILD_LORE:
 - '§7Write §e/guild §7and create your guild!'
 - '§7'
 - '§cATTENTION! Guild creation cost'
-- '§c15.000 coins and available only for §aCreeper'
+- '§c15.000 coins and available only for §a§lCREEPER'
 - '§cFor entry donate dont need.'
 GUI_INFO_LUCKYCHEST_LORE:
 - '§7Используйте ключи чтобы,'
@@ -4253,6 +4505,31 @@ GUI_INFO_LUCKYCHEST_LORE:
 - '§7Вам могут выпасть гаджеты, монеты, опыт'
 - '§7При выпадении уже существующего гаджета,'
 - '§7Вы получите от 1000 до 1900 money'
+GUI_INFO_ECONOMY: 'Экономика'
+GUI_INFO_ECONOMY_LORE:
+- '§7На нашем сервере как и на других,'
+- '§7присудствуют свою валюты.'
+- '§7У нас это: §6Монеты§7, §eЗолото§7, §bЯдра'
+- ''
+- '§7У каждой валюты есть свой особый цвет,'
+- '§7а также её ценность.'
+- ''
+- '§7Основной и часто-используемой валютой'
+- '§7является: §6Монеты§7.'
+- '§7За них можно приобрести различные дополнительные бонусы,'
+- '§7которые украсят игру, или помогут вам в каком-то бою.'
+- '§7Способы получения: Играя в §7Мини-игры§7, Конвертация валюты §f/convert golds§7, Из §bСундук удачи§7 или Из §eНаграды за уровень'
+- ''
+- '§72-ая более ценная валюта - §eЗолото§7.'
+- '§7За золото можно приобрести более ценные возможности,'
+- '§7вещи, или плюшки. Также она дает возможность получить'
+- '§7почти любой ключ из §bСундука удачи'
+- '§7Способы получения: §eТоп за месяц§7, §6Денежный ключ§7, Конвертация валюты §f/convert coins§7, Покупка на сайте §bwww.flycore.ru'
+- ''
+- '§73-я валюта сервера: §bЯдра§7.'
+- '§7За ядра можно приобрести какие-то редкие ценности,'
+- '§7или-же любой ключ из §bСундука удачи'
+- '§7Способы получения: Покупка на сайте §dflycore.ru§7, Из §eНаграды за уровень'
 GUI_INFO_HELP: '§bNavigation'
 GUI_INFO_DONATE: '§bPrivileges'
 GUI_INFO_FRIEND: '§bPlaying with friends'
@@ -4428,6 +4705,7 @@ GUI_GAMES_ANARCHY_LORE:
 - '§7Killed? Explode them bunker!'
 - '§7This mode have not rules' 
 - '§7Well or almost..'
+- '§8 ▪ §7More on the mode itself §f/start'
 GUI_GAMES_PARKOUR_LORE:
 - '§8Parkour'
 - ''
@@ -4477,20 +4755,25 @@ GUI_GAMES_PRISON_LORE:
 #- ''
 #- '%s'
 GUI_GAMES_SURVIVAL_LORE:
-- '§8Выживание и прокачка'
+- '§8Survival and upgrade'
 - ''
 - '§7Режим представляет из себя'
 - '§7сочетание обычного выживания'
 - '§7и улучшение своего аккаунта,'
 - '§7путем получения опыта'
 - '§7и повышения уровня'
+- '§8 ▪ §7More on the mode itself §f/start'
 GUI_GAMES_DONATE_LORE:
 - '§7Detailed information about the features'
 - '§7privileges and their purchase'
 - ''
 - '§e▸ Open the donation menu'
 GUI_GAMES_LOBBY_LORE:
-- '§7Back to main lobby'
+- '§7On main lobby:'
+- '§7 %s %s'
+- ''
+- '§7Change lobby and'
+- '§7find your friends'
 GUI_GAMES_DONATE: '§bPrivileges'
 GUI_GAMES_LOBBY: '§bMain lobby'
 GUI_STAFF_AND_DONATE_ITEM: 'List %s'
@@ -4503,21 +4786,24 @@ GUI_GROUP_NO_FOUND_LORE:
 - '§7нет ни одного человека,'
 - '§7состоящего в %s.'
 GUI_GROUP_ITEM: '§eList of players with the group - %s'
-GUI_DEFAULT: 'players'
-GUI_CLAY: 'clays'
-GUI_CREEPER: 'creepers'
-GUI_LAVA: 'lavas'
-GUI_BRICK: 'bricks'
-GUI_ENDERMAN: 'endermans'
-GUI_ELITE: 'elite'
-GUI_GAMERPRO: "gamerpro's"
-GUI_TESTER: 'testers'
-GUI_BUILDER: 'builders'
-GUI_YOUTUBE: 'youtubers'
-GUI_JUNIOR: 'juniors'
-GUI_HELPER: 'helpers'
-GUI_MODERATOR: 'moderators'
-GUI_ADMINISTRATOR: 'admins'
+GUI_DEFAULT: 'Players'
+GUI_CLAY: 'Clays'
+GUI_CREEPER: 'Creepers'
+GUI_LAVA: 'Lavas'
+GUI_BRICK: 'Bricks'
+GUI_ENDERMAN: 'Endermans'
+GUI_SHULKER: 'Shulkers'
+GUI_ELITE: 'Elite'
+GUI_GAMERPRO: "Gamerpro's"
+GUI_TESTER: 'Testers'
+GUI_BUILDER: 'Builders'
+GUI_YOUTUBE: 'Youtubers'
+GUI_JUNIOR: 'Juniors'
+GUI_HELPER: 'Helpers'
+GUI_MODERATOR: 'Moderators'
+GUI_ADMINISTRATOR: 'Admins'
+GUI_DEVELOPER: 'Developers'
+GUI_ORGANIZER: 'Organizers'
 GUI_NO_DEFAULT: 'players'
 GUI_NO_CLAY: 'clays'
 GUI_NO_CREEPER: 'creepers'
@@ -4534,7 +4820,7 @@ GUI_NO_HELPER: 'helpers'
 GUI_NO_MODERATOR: 'moderators'
 GUI_NO_ADMINISTRATOR: 'admins'
 GUI_NO_DEVELOPER: 'developers'
-GUI_DEVELOPER: 'developers'
+GUI_NO_ORGANIZER: 'organizers'
 GUI_STAFF_ITEM_LORE:
 - ''
 - '§7Total %s'
@@ -4575,6 +4861,7 @@ GUI_STAFF_BRICKS: 'Bricks'
 GUI_STAFF_CREEPERS: 'Creepers'
 GUI_STAFF_LAVAS: 'Lavas'
 GUI_STAFF_ENDERMANS: 'Endermans'
+GUI_STAFF_SHULKERS: 'Shulkers'
 GUI_STAFF_ELITES: 'Elites'
 GUI_STAFF_JUNIORS: 'Juniors'
 GUI_STAFF_HELPERS: 'Helpers'
@@ -4583,6 +4870,8 @@ GUI_STAFF_ADMINISTRATORS: 'Admins'
 GUI_STAFF_YOUTUBES: 'YouTubers'
 GUI_STAFF_BUILDERS: 'Builders'
 GUI_STAFF_DEVELOPERS: 'Developers'
+GUI_STAFF_TESTERS: 'Testers'
+GUI_STAFF_ORGANIZERS: 'Organizers'
 GUI_SETTING_FLY_LORE:
 - '§7Allows to enable or disable'
 - '§7flying in the main lobby and lobby'
@@ -4835,9 +5124,9 @@ GUI_REWARDS_INFO_LORE:
 - '§7much more coins with a multiplier'
 - ''
 - '§fAvailable multipliers:'
-- ' §8▪ §3CLAY§7 and §6§lBRICK §7- §e1.5x'
-- ' §8▪ §aCREEPER§7 - §e1.75x'
-- ' §8▪ §cLAVA§7, §5ENDERMAN§7 - §e2.0x'
+- ' §8▪ %s§7 и %s§7 - §e2.0x'
+- ' §8▪ %s§7 - §e1.75x'
+- ' §8▪ %s§7, %s §7- §e1.5x'
 - ''
 - '§7You can buy status'
 - '§7Online §dflycore.ru'
@@ -5118,20 +5407,30 @@ GUI_REWARDS_1: '§eDaily rewards'
 GUI_REWARDS_1_LORE:
 - ''
 - '§7Daily reward, that'
-- '§7includes bonus in the form of'
-- '§7coins'
+- '§7includes in form of:'
+- '§8 • §fCoins §7(from §6%s §7to §6%s§7)'
+- '§8 • §fExpire §7(from §a%s §7to §a%s§7)'
 GUI_REWARDS_2: '§eWeekly rewards'
 GUI_REWARDS_2_LORE:
 - ''
 - '§7Weekly reward, that'
-- '§7includes bonus in the form of'
-- '§7coins and experience'
+- '§7includes in form of:'
+- '§8 • §fCoins §7(from §6%s §7to §6%s§7)'
+- '§8 • §fExpire §7(from §a%s §7to §a%s§7)'
+- '§8 • §fCosmetic keys §7(from §d%s§7 to §d%s§7)'
+- '§8 • §fUltra keys §7(from §d%s§7 to §d%s§7)'
 GUI_REWARDS_3: '§eMonthly rewards'
 GUI_REWARDS_3_LORE:
 - ''
 - '§7Monthly reward, that'
-- '§7includes bonus in the form of'
-- '§7coins, experience and keys'
+- '§7includes in form of:'
+- '§8 • §fCoins §7(from §6%s §7to §6%s§7)'
+- '§8 • §fGold §7(from §e%s§7 to §e%s§7)'
+- '§8 • §fCore §7(§b%s§7)'
+- '§8 • §fExpire §7(from §a%s §7to §a%s§7)'
+- '§8 • §fCosmetic keys §7(from §d%s§7 to §d%s§7)'
+- '§8 • §fUltra keys §7(from §d%s§7 to §d%s§7)'
+- '§8 • §fCosmetic-game keys §7(from §d%s§7 to §d%s§7)'
 GUI_REWARDS_BOOSTER: '§eBooster: §bMultiplier x2.0'
 GUI_REWARDS_BOOSTER_LORE:
 - ''
@@ -5166,6 +5465,20 @@ GUI_REWARDS_5_LORE:
 - ' §8• §a3 rubbles§7 = 1 key'
 - ''
 - '§7Shop: §eflycore.ru'
+GUI_REWARDS_6: '§6Еженедельные донатерские награды'
+GUI_REWARDS_6_NO_PERM:
+- ''
+- ' §c▸ Для %s§c и выше'
+GUI_REWARDS_6_LORE:
+- ''
+- '§7Еженедельная донатерская награда, которая'
+- '§7включает в себя:'
+- '§8 • §fЗолото §7(от §e%s§7 до §e%s§7)'
+- '§8 • §fМонеты §7(от §6%s §7до §6%s§7)'
+- '§8 • §fОпыт §7(от §a%s §7до §a%s§7)'
+- '§8 • §fКосметические ключи §7(от §d%s§7 до §d%s§7)'
+- '§8 • §fУльтра ключи §7(от §d%s§7 до §d%s§7)'
+- '§8 • §fКосметико-игровые ключи §7(от §d%s§7 до §d%s§7)'
 GUI_REWARDS_BOOSTER_ALREADY:
 - ''
 - '§7Available after:'
@@ -5351,6 +5664,7 @@ GUI_GAMESERVERS_SOLO_MODE: 'Solo mode'
 GUI_GAMESERVERS_TEAM_MODE: 'Team mode'
 GUI_GAMESERVERS_DUO_MODE: 'Double mode'
 GUI_GAMESERVERS_RUSH_MODE: 'Rush mode'
+GUI_GAMESERVERS_TOURNAMENT_MODE: 'Tournament mode'
 
 GUI_SPECTATOR_NAME: 'Spectate a game'
 GUI_SPECTATOR_NOT_FOUND_NAME: '§cStarted server not found'
@@ -5706,6 +6020,20 @@ GUI_GADGETS_EFFECT_19_LORE:
 GUI_GADGETS_EFFECT_20: 'Криты'
 GUI_GADGETS_EFFECT_20_LORE:
 - '§7Надеюсь это не вас бьют игроки...'
+GUI_GADGETS_EFFECT_21: 'Снежинки'
+GUI_GADGETS_EFFECT_21_LORE:
+- '§7§oА снег идет, идет и падают снежинки....'
+GUI_GADGETS_EFFECT_22: 'Пузыри'
+GUI_GADGETS_EFFECT_22_LORE:
+- '§7Это когда вы дуете мыльные пузыри,'
+- '§7только тут авто, удобно!'
+GUI_GADGETS_EFFECT_23: 'Брызги'
+GUI_GADGETS_EFFECT_23_LORE:
+- '§7Когда включил чит на хождение по воде,'
+- '§7ну, такое-же..'
+GUI_GADGETS_EFFECT_24: 'Дождь x2'
+GUI_GADGETS_EFFECT_24_LORE:
+- '§7§lПример дождя был взят с шторма...'
 GUI_GADGETS_HAT_1: 'Default hat'
 GUI_GADGETS_HAT_1_LORE:
 - '§7У Вас будет шапка стива'
@@ -5917,6 +6245,16 @@ GUI_GADGETS_HAT_68_LORE:
 GUI_GADGETS_HAT_69: 'YouTube'
 GUI_GADGETS_HAT_69_LORE:
 - '§7Снимайте видео, делайте стримы прямо с головы!'
+GUI_GADGETS_HAT_70: 'Санта'
+GUI_GADGETS_HAT_70_LORE:
+- '§7Только для истенных нубов.'
+GUI_GADGETS_HAT_71: 'Подарок'
+GUI_GADGETS_HAT_71_LORE:
+- '§7Зачем дарить подарок, если можно одеть его'
+- '§7к себе на голову, и показать всем?'
+GUI_GADGETS_HAT_72: 'Крыса'
+GUI_GADGETS_HAT_72_LORE:
+- '§7§oNo comments..'
 GUI_GADGETS_BANNER_1: 'White banner'
 GUI_GADGETS_BANNER_1_LORE:
 - '§7У Вас будет белый banner'
@@ -5987,6 +6325,14 @@ GUI_GADGETS_SPIRIT_6_LORE:
 GUI_GADGETS_SPIRIT_7: 'YouTube'
 GUI_GADGETS_SPIRIT_7_LORE:
 - '§7Компания YouTube рядом с вами!'
+GUI_GADGETS_SPIRIT_8: 'Дед мороз / Санта'
+GUI_GADGETS_SPIRIT_8_LORE:
+- '§7Дари сам подарки, с новым духом!'
+- ''
+- '§7§oМешок с подарками прилагается'
+GUI_GADGETS_SPIRIT_9: 'Крысы'
+GUI_GADGETS_SPIRIT_9_LORE:
+- '§7В честь года ..!'
 
 GUI_PREFIX_NAME: 'Change the prefix'
 GUI_PREFIX_SELECTED_LORE:
@@ -6888,12 +7234,20 @@ GUI_CASES_GAME_LORE:
 - '§7Используется для получения'
 - '§7различных предметов,'
 - '§7на режимах выживаний.'
-GUI_CASES_NEWYEAR_NAME: '§bНовогодний ключ'
+GUI_CASES_NEWYEAR_NAME: '§bNewYear key'
 GUI_CASES_NEWYEAR_LORE:
 - ''
 - '§7Открой празднично-новогодний'
 - '§7ключ, и получи подарки быстрее чем,'
 - '§7из под ёлки :)'
+GUI_CASES_TITLE_NAME: '§fТитульный ключ'
+GUI_CASES_TITLE_LORE:
+- ''
+- '§7Используется для получения'
+- '§7титулов (§fПрофиль §7▸ §fТитулы§7)'
+- ''
+- '§cВнимание! При выбивании уже существующего'
+- '§cтитула вы получите от %s до %s золота!'
 GUI_CASES_INFO_TO_LORE:
 - ''
 - '§7Approximate next rarity: %s'
@@ -7247,6 +7601,8 @@ HOVER: ' §7(наведите сюда)'
 TPTOGGLE_ENABLE: 'Телепортации - §aвключены'
 TPTOGGLE_DISABLE: 'Телепортации - §cотключены'
 
+#items
+BEACON: 'Маяк'
 ANDESITE: 'Andesite'
 DIORITE: 'Diorite'
 GRANITE: 'Granite'
@@ -7257,7 +7613,7 @@ GRAVEL: 'Gravel'
 SNOW_BLOCK: 'Snow Block'
 COBBLESTONE: 'Cobblestone'
 SPONGE: 'Sponge'
-WITHER_SKULL: 'Wither Skull'
+SKULL_ITEM: 'Wither Skull'
 STONE: 'Stone'
 MOSSY_COBBLESTONE: 'Mossy Cobblestone'
 WOOL: 'Wool'
@@ -7373,7 +7729,55 @@ CHORUS_FRUIT_POPPED: 'Popped Chorus Fruit'
 RABBIT: 'Cooked Rabbit'
 MUTTON: 'Cooked Mutton'
 COOKED_FISH: 'Cooked Salmon'
-
+DIAMOND_SPADE: 'Алмазная лопата'
+IRON_SPADE: 'Железная лопата'
+STONE_SPADE: 'Каменная лопата'
+WOOD_SPADE: 'Деревянная лопата'
+STONE_SWORD: 'Каменный меч'
+DIAMOND_HELMET: 'Алмазный шлем'
+DIAMOND_CHESTPLATE: 'Алмазный нагрудник'
+DIAMOND_LEGGINGS: 'Алмазные штаны'
+DIAMOND_BOOTS: 'Алмазные ботинки'
+CHAINMAIL_HELMET: 'Койф'
+CHAINMAIL_CHESTPLATE: 'Кольчуга'
+CHAINMAIL_LEGGINGS: 'Кольчужные поножи'
+CHAINMAIL_BOOTS: 'Кольчужные ботинки'
+IRON_HELMET: 'Железный шлем'
+IRON_CHESTPLATE: 'Железный нагрудник'
+IRON_LEGGINGS: 'Железные штаны'
+IRON_BOOTS: 'Железные ботинки'
+IRON_BLOCK: 'Железный блок'
+QUARTZ_BLOCK: 'Кварцевый блок'
+LAPIS_BLOCK: 'Лазуритовый блок'
+DIAMOND_BLOCK: 'Алмазный блок'
+GOLD_BLOCK: 'Золотой блок'
+COAL_BLOCK: 'Угольный блок'
+REDSTONE_BLOCK: 'Редстоуновый блок'
+FLINT_AND_STEEL: 'Огниво'
+SANDSTONE: 'Песчаник'
+WEB: 'Паутина'
+LADDER: 'Лестница'
+SANDSTONE_STAIRS: 'Ступеньки из песчаника'
+CHEST: 'Сундук'
+ENDER_CHEST: 'Эндер-сундук'
+EXP_BOTTLE: 'Пузырьки опыта'
+MONSTER_EGG: 'Яйцо спавна мобов'
+COAL_BLOCK: 'Угольный блок'
+ENDER_PEARL: 'Эндерперл'
+WATER_BUCKET: 'Ведро воды'
+TNT: 'Динамит'
+WOOD_AXE: 'Деревянный топор'
+FISHING_ROD: 'Удочка'
+BREAD: 'Хлеб'
+CAKE: 'Торт'
+GRILLED_PORK: 'Свинина'
+GOLDEN_APPLE: 'Золотое яблоко'
+SPEED_POTION: 'Зелье скорости'
+JUMP_POTION: 'Зелье прыгучести II'
+STRENGTH_POTION: 'Зелье силы'
+DAMAGE_POTION: 'Туманное зелье урона'
+SHIELD: 'Щит'
+PAPER: 'Бумага'
 
 AUCTION_SHOW_FORMAT: '/ah show <ник>'
 AUCTION_ITEM_LORE:
@@ -7479,8 +7883,8 @@ AUCTION_ADD_TO_SELL_ERROR: '§aАукцион §8| §fОшибка, в ваше�
 AUCTION_ITEM_ALLREADY_SELLED: '§aАукцион §8| §fОшибка, предмет был продан, сожалеем...'
 AUCTION_NO_MONEY: '§aАукцион §8| §fОшибка, у вас недостаточно денег для покупки предмета'
 AUCTION_BUY_YOU_ERROR: '§aАукцион §8| §fОшибка, вы не можете купить сами у себя...'
-AUCTION_BUY: '§aАукцион §8| §fВы успешно купили §7%s §fx §7%s §fза §a%s$'
-AUCTION_BUY_SELLER: '§aАукцион §8| §fИгрок %s §fкупил у вас §7%s §fx §7%s §fза §a%s'
+AUCTION_BUY: '§aАукцион §8| §fВы успешно купили §7%s §fx§7%s §fза §a%s$'
+AUCTION_BUY_SELLER: '§aАукцион §8| §fИгрок %s §fкупил у вас §7%s§fx §7%s §fза §a%s'
 AUCTION_LIMIT_ERROR: '§aАукцион §8| §fОшибка, у вас превышен лимит на кол-во активных предметов. Ваш текующий лимит §a%s §fпредметов'
 AUCTION_SHOW_ERROR: '§aАукцион §8| §fОшибка, у игрока %s §fнет активных товаров для продажи'
 AUCTION_TYPE_ARMOR_NAME: 'Броня'
@@ -7737,10 +8141,10 @@ GUI_SURVIVAL_LEVEL_ITEM_LORE:
 - ''
 - '§7PS: Можно класть сразу несколько предметов'
 
-LEVEL_ADD_SUCCESS: 'Вы повысили опыт на §a%s §fXP'
+LEVEL_ADD_SUCCESS: 'Вы повысили опыт на §a%s §fXP и получили §6%s§f %s'
 LEVEL_ADD_ERROR: 'Простите, но данный предмет §cне подходит§f для повышения уровня'
-LEVEL_OTHER_ADD_SUCCES: 'Вы повысили опыт игрока %s§f на §a%s§f XP'
-LEVEL_OTHER_YOU_ADD_SUCCES: 'Ваш уровень был повышен игроком %s§f на §a%s§f XP'
+LEVEL_OTHER_ADD_SUCCES: 'Вы повысили опыт игрока %s§f на §a%s§f XP и получили §6%s§f %s'
+LEVEL_OTHER_YOU_ADD_SUCCES: 'Ваш уровень был повышен игроком %s§f на §a%s§f XP и §6%s§f %s'
 
 P_COMMAND_HELP:
 - '§7/p §f- открыть меню'
@@ -7776,8 +8180,8 @@ CONTACT_SITE_COMMAND:
   - '§7/contact site remove §f- удалить сайт'
   - '§7/contact site get §f- узнать ваш сайт'
 SITE_ADD_HELP:
-- '§aСервер §8| §fПожалуйста добавьте новую запись (СУБДОМЕН) §aflycore§f типа §aA§f в вашем домене,'
-- '§aСервер §8| §fи введите §c/contact site add ваш_сайт'
+- '§aServer §8| §fПожалуйста добавьте новую запись (СУБДОМЕН) §aflycore§f типа §aA§f в вашем домене,'
+- '§aServer §8| §fи введите §c/contact site add ваш_сайт'
 SITE_ADD_ERROR:
 - '§cОшибка, невозможно добавить сайт! Проверьте все ли вы сделали правильно.'
 - '§cУ вас должна быть запись: flycore.%s с типом A'
@@ -7785,13 +8189,13 @@ SITE_ADD_ERROR:
 SITE_ADD_ALREADY: '§cОшибка, данный домен уже привязал кто-то другой'
 SITE_ADD_BONUS_NO: '§cОшибка, данный домен ранее уже кем-то привязывался, бонус за него не дан'
 SITE_ADD_BONUS_FAKE: 
-- '§aСервер §8| §fДанный сайт является бесплатным, вы получили бонус за него в виде: §6%s§f %s'
+- '§aServer §8| §fДанный сайт является бесплатным, вы получили бонус за него в виде: §6%s§f %s'
 SITE_ADD_BONUS:
-- '§aСервер §8| §fВы получили бонус в виде §b%s§f %s§f и §e%s§f %s, за добавление сайта'
+- '§aServer §8| §fВы получили бонус в виде §b%s§f %s§f и §e%s§f %s, за добавление сайта'
 SITE_ADD_CONFIRM: '§aСервер §8| §fВы успешно подтвердили владение доменом §a%s'
 SITE_NOT_FOUND: '§cУ вас еще не добавлен сайт, добавьте его /contact site add'
 SITE_REMOVE_CONFIRM: '§aСервер §8| §fСайт §a%s§f успешно удален'
-SITE_YOU: '§aСервер §8| §fВаш сайт §a%s'
+SITE_YOU: '§aServer §8| §fВаш сайт §a%s'
 
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, played - §a%s'
@@ -7802,11 +8206,11 @@ HOLO_REWARDS:
 
 HOLO_DONATE:
 - '§ePrivileges:'
-- '%pclay §f- §524 §fRubbles'
-- '%pbrick §f- §586 §fRubbles'
-- '%pcreeper §f- §5139 §fRubbles'
-- '%plava §f- §5278 §fRubbles'
-- '§f%ps§dEnderman§f%pe §f- §5520 §fRubbles'
+- '%pclay§f - §5%s §frubbles'
+- '%pbrick§f - §5%s §frubbles'
+- '%pcreeper§f - §5%s §frubbles'
+- '%plava§f - §5%s §frubbles'
+- '%animation%§lSHULKER§f - §5%s §frubbles'
 - '§fBuy on our site:'
 - '%animation%www.flycore.ru'
 
@@ -7834,7 +8238,7 @@ HOLO_ANARCHY:
 - '§fТочка дома сохраняется где Вы спали'
 - '§fЗдесь нету приватов и регионов!'
 - '§fНа режиме §c4§f правила §7/rules'
-- '§fНаборы для §3CLAY§f и выше §7/kit'
+- '§fНаборы для §3§lCLAY§f и выше §7/kit'
 
 HOLO_CREATIVE:
 - '§a§lCreative'
@@ -7890,6 +8294,10 @@ TOP_KILLS_HOLO:
 - '§a§lTop of kills players'
 - '§fTop players by number'
 - '§fkilled player for §e%s'
+TOP_DEATHS_HOLO:
+- '§a§lТоп по смертям'
+- '§fТоп игроков по кол-ву'
+- '§fпогибших за §e%s'
 TOP_ONLINE_HOLO:
 - '§a§lTop of time players'
 - '§fTop players by number'
@@ -7906,6 +8314,26 @@ TOP_MOB_KILLS_HOLO:
 - '§a§lТоп по убийствам мобов'
 - '§fТоп игроков по кол-ву'
 - '§fубитых мобов за §e%s'
+TOP_GOTOS_HOLO:
+- '§a§lТоп по примерам'
+- '§fТоп игроков по'
+- '§fрешенным примерам за §e%s'
+TOP_CASINOWIN_HOLO:
+- '§a§lТоп по казино'
+- '§fТоп игроков по'
+- '§fпобедам в казино за §e%s'
+TOP_CASINOWINMONEY_HOLO:
+- '§a§lТоп по казино-монетам'
+- '§fТоп игроков по выигранным'
+- '§fмонетам в казино за §e%s'
+TOP_CASINOLOSING_HOLO:
+- '§a§lТоп по казино'
+- '§fТоп игроков по'
+- '§fпроигрышам в казино за §e%s'
+TOP_CASINOLOSINGMONEY_HOLO:
+- '§a§lТоп по казино-монетам'
+- '§fТоп игроков по просравшим'
+- '§fмонетам в казино за §e%s'
 HOLO_TOP_MAIN:
 - '§7Click to view another'
 - '§7Next [LMС], previous [RMC]'
@@ -7964,9 +8392,9 @@ HOLO_HORSE:
   - 'Click, to get horse'
 
 HOLO_PORTAL_START:
-- '§d§lБыстрый старт'
-- '§7Прыгай в потрал, для'
-- '§7начала игры на наилучшей арене!'
+- '§d§lFast start'
+- '§7Jump to portal, for'
+- '§7start game on best arena!'
 
 HOLO_LASTDONATE:
 - '§a§lLast purchase of goods'
