@@ -1032,8 +1032,8 @@ LEVEL_NOT:
 
 SERVER_QUEUE: '§aСервер §8| §fТелепортация на сервер §a%s'
 
-TAB_HEADER: "онлайн %go из %max"
-TAB_FOOTER: "пинг %pms\n§bFlyCore.ru"
+TAB_HEADER: "§a§lFlyCore\n\n§fОнлайн-магазин:\n§ewww.flycore.ru\n\n"
+TAB_FOOTER: "\n§fВы находитесь на сервере:\n§e%s"
 
 REDIRECT_ERROR: '§cНевозможно найти подходящий сервер('
 HUBS_ERROR: '§cОшибка, нет доступного лобби, попробуйте повторить попытку позже'
@@ -1063,8 +1063,8 @@ MAIL_JOIN_HOVER: "§fНажмите сюда,\n§fчтобы открыть сп
 
 #§7Наш Discord: §6discord.gg/
 #§6http://flycore.ru
-MSG_TITLE: '§7VK: §bvk.com/flycore'
-MSG_SUBTITLE: '§7Наш Discord: §adiscord.gg/EMEdvak'
+MSG_TITLE: '§7Группа: §cvk.com/flycore'
+MSG_SUBTITLE: '§7Наш discord: §6discord.gg/EMEdvak'
 #§fпромокод §adesign§f на скидку §c35%
 #§7Группа: §cvk.com/flycore
 
@@ -1352,6 +1352,7 @@ BOARD_RANK: 'Ранг'
 BOARD_VK: 'Вконтакте'
 BOARD_SHOP: 'Магазин'
 BOARD_GROUP: 'Группа проекта'
+BOARD_DEVELOPMENT: 'Разработка'
 BOARD_SECOUNDS: 'сек'
 
 REPORT_FORMAT: '/report <ник> <причина>'
