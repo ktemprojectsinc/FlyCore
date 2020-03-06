@@ -2151,7 +2151,7 @@ GUILD_TAG: '§aGuild §8| §fGuild tag set to §a%s'
 GUILD_TAG_RESET_ALERT: '§2Guilds §8| %s§7 deleted guild tag'
 GUILD_TAG_RESET: '§aGuild §8| §fТег гильдии удален'
 GUILD_TAG_NO_MONEY: '§cGuild lacks %s coins to change tag'
-GUILD_TAG_NO_BUY: "§cGuild haven't got "Guild tag", buy it in /guild shop"
+GUILD_TAG_NO_BUY: "§cGuild haven't got 'Guild tag', buy it in /guild shop"
 
 GUILD_MOTD_COMMAND_HELP:
 - '§7/g motd info §f- view motd of guild'
