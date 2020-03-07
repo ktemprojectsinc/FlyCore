@@ -8387,7 +8387,7 @@ HOLO_DONATE:
 - '%pbrick§f - §5%dbrick §fрублей'
 - '%pcreeper§f - §5%dcreeper §fрублей'
 - '%plava§f - §5%dlava §fрублей'
-- '%animation%§lSHULKER§f - §5%dshulker §fрублей'
+- '%animation%§lSHULKER§f - §b%dshulker §fрублей'
 - '§fПокупать на сайте:'
 - '%animation%www.flycore.ru'
 
