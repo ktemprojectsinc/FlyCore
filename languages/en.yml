@@ -1036,8 +1036,8 @@ SERVER_KILL: '§aServer §8| §fKilling server §a%s§f. . '
 LEVEL_NOT: '§cError, rewards can receive only 5 level or higher'
 SERVER_QUEUE: '§aServer §8| §fTeleported to server %s'
 
-TAB_HEADER: "online %go or %max"
-TAB_FOOTER: "ping %pms\n§bFlyCore.ru"
+TAB_HEADER: "§2§lFilkWorld§7 /|\ §a§lFlyCore\n\n§fShop-online:\n§ewww.flycore.ru\n"
+TAB_FOOTER: "\nYour location is server:\n§e%s"
 
 REDIRECT_ERROR: '§cUnable to find suitable server('
 HUBS_ERROR: '§cError, lobby unavailable, try again later'
