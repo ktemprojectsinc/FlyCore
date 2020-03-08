@@ -1292,6 +1292,7 @@ NO_PERMS_STATS: '§cУ вас нет прав, получите должност
 NO_PERMS_TITLE: '§c✗ У вас нет прав ✗'
 NO_PERMS_SUBTITLE: '§cСтаньте минимум %s§c для доступа'
 NO_PERMS_ONLY: '§cДанная функция только для %s'
+NO_PERMS_STAFF: '§cДанная функция только для донатеров'
 
 CREATIVE_COMMANDS: '§aСервер §8| §fСоздайте свой плот §c/p auto§f, или телепортируйтесь домой §c/p home'
 
