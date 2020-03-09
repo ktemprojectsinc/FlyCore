@@ -2637,7 +2637,7 @@ SPY_ALREADY_OFF: '§aSpy §8| §cYou already disabled spying'
 
 HUBS_ALREADY: '§cYou are already in hub'
 
-REDIRECT: '§aServer §8| §fYou were teleported to %s'
+REDIRECT: '§aServer §8| §fYou were teleported to §a%s'
 
 MSG_FORMAT: '/msg <player name> <message>'
 MSG_ME: '§cYou can not contact yourself'
