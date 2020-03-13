@@ -323,7 +323,7 @@ BEST_PLAYER_CASINO_LOSING: '§aСервер §8| §f-%s§f §7(§e%s§7)§f за
 BEST_PLAYER_CLICK_ERROR: '§cОшибка, удар почетного игрока стоит %s!'
 BEST_PLAYER_CLICK_MSG: '§fВы получили %s§f за то что вас ударил %s'
 BEST_PLAYER_CASINO_WIN_MSG: '§aСервер §8| §fВы получили %s§f §7(§e%s§7)§f за победу игрока %s§f в казино'
-BEST_PLAYER_CASINO_LOSING_MSG: '§aСервер §8| §fВы получили %s§f §7(§e%s§7)§f за пройгрышь игрока %s§а в казино'
+BEST_PLAYER_CASINO_LOSING_MSG: '§aСервер §8| §fВы получили %s§f §7(§e%s§7)§f за пройгрышь игрока %s§f в казино'
 
 GUI_TITLE_NAME: 'Титулы'
 GUI_TITLE_NOT_ACCESS: '§cДоступен по особым праздникам или дням'
