@@ -7069,9 +7069,9 @@ GUI_HISTORY_UNBLOCKING:
 GUI_HISTORY_BLOCKING:
 - '§7%s: %s'
 - '§7Reason: §a%s'
-- '§7Date %s: §6%s'
-GUI_HISTORY_FOR_TIME_BLOCKING: '§7На срок: %s'
-GUI_HISTORY_FOR_REQUEST_BLOCKING: '§7По просьбе: %s'
+GUI_HISTORY_FOR_TIME_BLOCKING: '§7For a period of: %s'
+GUI_HISTORY_FOR_NEEDTIME_BLOCKING: '§7Left: %s'
+GUI_HISTORY_FOR_DATE_BLOCKING: '§7Date %s: §6%s'
 
 GUI_BANLIST_NAME: 'Banlist'
 GUI_BANLIST_ITEM: '§eBanlist'
@@ -7082,7 +7082,7 @@ GUI_BANLIST_ITEM_LORE:
 GUI_BANLIST_EMPTY: '§cВ данный момент нет блокировок'
 GUI_BANLIST_EMPTY_LORE:
 - ''
-- '§7В данный момент,'
+- '§7On current moment,'
 - '§7нет ни одного наказанного игрока'
 GUI_BANLIST_PLAYER_ONLINE:
 - ''
