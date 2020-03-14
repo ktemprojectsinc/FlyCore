@@ -7234,6 +7234,7 @@ GUI_HISTORY_BLOCKING:
 - '§7%s: %s'
 - '§7Причина: §a%s'
 GUI_HISTORY_FOR_TIME_BLOCKING: '§7На срок: %s'
+GUI_HISTORY_FOR_NEEDTIME_BLOCKING: '§7Осталось: %s'
 GUI_HISTORY_FOR_DATE_BLOCKING: '§7Дата %s: §6%s'
 
 GUI_BANLIST_NAME: 'Список блокировок'
