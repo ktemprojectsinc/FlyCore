@@ -8362,7 +8362,7 @@ HOLO_DONATE:
 - '§fBuy on our site:'
 - '%animation%www.flycore.ru'
 
-HOLO_ONLINE_UPDATER: '§fOn mode §a§n%s§f %s playing'
+HOLO_ONLINE_UPDATER: '§fOn mode §a%s§f %s playing'
 HOLO_SELECTOR_GAME_CHANNEL: '§eClick to connect'
 HOLO_REPLACER_CHANNEL: 'On mode playing %s %s'
 HOLO_REPLACER_CHANNEL_ERROR: '§cServers not found!'
