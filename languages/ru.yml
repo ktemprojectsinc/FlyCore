@@ -5263,44 +5263,44 @@ GUI_SETTING_ENABLE_LORE:
 - '§7Нажмите, чтобы включить'
 
 GUI_ASETTING_NAME: 'Дополнительные настройки'
-GUI_ASETTING_LEFTCLICK: 'Открытие меню при нажатии ЛКМ'
-GUI_ASETTING_LEFTCLICK_LORE:
+GUI_SETTING_LEFTCLICK: 'Открытие меню при нажатии ЛКМ'
+GUI_SETTING_LEFTCLICK_LORE:
 - '§7Позволяет включить или выключить'
 - '§7открытия меню от предметов инвентаре,'
 - '§7при нажатии левой кнопки мыши'
-GUI_ASETTING_AUTOMESSAGE: 'Авто-Сообщения'
-GUI_ASETTING_AUTOMESSAGE_LORE:
+GUI_SETTING_AUTOMESSAGE: 'Авто-Сообщения'
+GUI_SETTING_AUTOMESSAGE_LORE:
 - '§7Позволяет включить или выключить'
 - '§7авто-сообщения сервера,'
 - '§7которые пишутся в чате'
-GUI_ASETTING_SOUNDAM: 'Звуки авто-сообщений'
-GUI_ASETTING_SOUNDAM_LORE:
+GUI_SETTING_SOUNDAM: 'Звуки авто-сообщений'
+GUI_SETTING_SOUNDAM_LORE:
 - '§7Позволяет включить или выключить'
 - '§7звуки, издаваемые при появлении'
 - '§7авто-сообщения в чате'
-GUI_ASETTING_SOUNDGOTO: 'Звуки примеров'
-GUI_ASETTING_SOUNDGOTO_LORE:
+GUI_SETTING_SOUNDGOTO: 'Звуки примеров'
+GUI_SETTING_SOUNDGOTO_LORE:
 - '§7Позволяет включить или выключить'
 - '§7звуки, издаваемые при появлении,'
 - '§7нового вопроса в чате'
-GUI_ASETTING_FIND: 'Поиск игрока'
-GUI_ASETTING_FIND_LORE:
+GUI_SETTING_FIND: 'Поиск игрока'
+GUI_SETTING_FIND_LORE:
 - '§7Позволяет включить или выключить'
 - '§7отображение сервера где вы находитесь,'
 - '§7для других игроков'
 - ''
 - '§cВнимание§7! Персонал со статусом %s'
 - '§7и выше, игнорирует данную настройку!'
-GUI_ASETTING_STATSVIEW: 'Статистика'
-GUI_ASETTING_STATSVIEW_LORE:
+GUI_SETTING_STATSVIEW: 'Статистика'
+GUI_SETTING_STATSVIEW_LORE:
 - '§7Позволяет включить или выключить'
 - '§7просмотр вашей статистики,'
 - '§7по команде §f/stats <ник>'
 - ''
 - '§cВнимание§7! Персонал со статусом %s'
 - '§7и выше, игнорирует данную настройку!'
-GUI_ASETTING_AUTODELETE: 'Авто-удаление запросов'
-GUI_ASETTING_AUTODELETE_LORE:
+GUI_SETTING_AUTODELETE: 'Авто-удаление запросов'
+GUI_SETTING_AUTODELETE_LORE:
 - '§7Позволяет включить или выключить'
 - '§7автоматические удаление запросов'
 - '§7по истечению %s'
@@ -5308,55 +5308,55 @@ GUI_ASETTING_AUTODELETE_LORE:
 - '§8Используйте shift, для изменения по секундам'
 - '§e▸ ЛКМ, чтобы добавить минуту'
 - '§e▸ ПКМ, чтобы удалить минуту'
-GUI_ASETTING_AUTODELETE_RESET_LORE:
+GUI_SETTING_AUTODELETE_RESET_LORE:
 - '§e▸ Нажмите колесом мыши, чтобы восстановить'
-GUI_ASETTING_HIDELISTS: 'Скрытие в списках'
-GUI_ASETTING_HIDELISTS_LORE:
+GUI_SETTING_HIDELISTS: 'Скрытие в списках'
+GUI_SETTING_HIDELISTS_LORE:
 - '§7Позволяет включить или выключить'
 - '§7скрытия информации и вашего ника,'
 - '§7в публичных списках доступных любому игроку'
 - ''
 - '§cВнимание§7! Персонал со статусом %s'
 - '§7и выше, игнорирует данную настройку!'
-GUI_ASETTING_CONFIRMDELETE: 'Подтверждение действия'
-GUI_ASETTING_CONFIRMDELETE_LORE:
+GUI_SETTING_CONFIRMDELETE: 'Подтверждение действия'
+GUI_SETTING_CONFIRMDELETE_LORE:
 - '§7Позволяет включить или выключить'
 - '§7подтверждения действие на использование,'
 - '§7какой-то функции или команды'
 - ''
 - '§cВнимание§7! Не относится к подтверждению'
 - '§7при покупке чего-либо!'
-GUI_ASETTING_CONFIRMBUYING: 'Подтверждение покупки'
-GUI_ASETTING_CONFIRMBUYING_LORE:
+GUI_SETTING_CONFIRMBUYING: 'Подтверждение покупки'
+GUI_SETTING_CONFIRMBUYING_LORE:
 - '§7Позволяет включить или выключить'
 - '§7подтверждения действия о покупке,'
 - '§7чего-либо'
-GUI_ASETTING_JOINTITLE: 'Экранное сообщение при входе'
-GUI_ASETTING_JOINTITLE_LORE:
+GUI_SETTING_JOINTITLE: 'Экранное сообщение при входе'
+GUI_SETTING_JOINTITLE_LORE:
 - '§7Позволяет включить или выключить'
 - '§7сообщение появляющиеся при входе'
 - '§7на сервер, по центру экрана'
-GUI_ASETTING_JOINDONATER: 'Оповещение о входе донатера'
-GUI_ASETTING_JOINDONATER_LORE:
+GUI_SETTING_JOINDONATER: 'Оповещение о входе донатера'
+GUI_SETTING_JOINDONATER_LORE:
 - '§7Позволяет включить или выключить'
 - '§7оповещение, которое пишется при входе'
 - '§7какого-либо донатера'
-GUI_ASETTING_PRIVATE: 'Приватность'
-GUI_ASETTING_PRIVATE_LORE:
+GUI_SETTING_PRIVATE: 'Приватность'
+GUI_SETTING_PRIVATE_LORE:
 - '§7Позволяет включить или выключить'
 - '§7вашу приватность на сервере,'
 - '§7которая скроет вас во всех меню и командах'
 - ''
 - '§cВнимание§7! Персонал со статусом %s'
 - '§7и выше, игнорирует данную настройку!'
-GUI_ASETTING_THEMEACTIVATE: 'Активация темы'
-GUI_ASETTING_THEMEACTIVATE_LORE:
+GUI_SETTING_THEMEACTIVATE: 'Активация темы'
+GUI_SETTING_THEMEACTIVATE_LORE:
 - '§7Позволяет включить или выключить'
 - '§7активность вашей выбранной темы,'
 - '§7при отключении будет выбрана'
 - '§7стандартная тема: %s'
-GUI_ASETTING_ANIMATION: 'Анимация'
-GUI_ASETTING_ANIMATION_LORE:
+GUI_SETTING_ANIMATION: 'Анимация'
+GUI_SETTING_ANIMATION_LORE:
 - '§7Позволяет включить или выключить'
 - '§7анимацию вашего префикса,'
 - '§7из тех префиксов которые вы выберите'
@@ -5365,13 +5365,13 @@ GUI_ASETTING_ANIMATION_LORE:
 - '§cВнимание§7! Для работы анимации'
 - '§7у вас должно быть 2 или более'
 - '§7префикса в избранном!'
-GUI_ASETTING_VKJOIN: 'Оповещение в Вконтакте'
-GUI_ASETTING_VKJOIN_LORE:
+GUI_SETTING_VKJOIN: 'Оповещение в Вконтакте'
+GUI_SETTING_VKJOIN_LORE:
 - '§7Позволяет включить или выключить'
 - '§7оповещение о вашем заходе на сервер,'
 - '§7в вконтакте.'
-GUI_ASETTING_EMAILJOIN: 'Оповещение в почте'
-GUI_ASETTING_EMAILJOIN_LORE:
+GUI_SETTING_EMAILJOIN: 'Оповещение в почте'
+GUI_SETTING_EMAILJOIN_LORE:
 - '§7Позволяет включить или выключить'
 - '§7оповещение о вашем заходе на сервер,'
 - '§7в вашей почте.'
