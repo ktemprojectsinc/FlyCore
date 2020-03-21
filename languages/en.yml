@@ -908,8 +908,6 @@ ITEM_COSMETIC_LORE:
 
 GUI_TP_NAME: 'Телепортатор'
 GUI_TP_LORE:
-- ''
-- '§7В команде: %s'
 - '§7Жизней: §f%s'
 - '§7Голод: §f%s'
 - ''
