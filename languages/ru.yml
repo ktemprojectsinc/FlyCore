@@ -765,12 +765,12 @@ PLAYER_SERVER_ALREADY: '§aСервер §8| §cВы уже находитесь
 SLOT_BUSY: '§cПростите, но вы были перемещены в лобби, ваше место занял %s'
 ERROR_TELEPORT: '§cОшибка телепортации в лобби'
 ONLY_DONATOR: '§cОшибка, на арене только донатеры'
-ARENA_BUYS: '§cАрена заполнена, не хватает слотов? Купите §3CLAY§c или выше'
+ARENA_BUSY: '§cАрена заполнена, не хватает слотов? Купите %s§c или выше'
 ARENA_START: '§cИгра начинается...'
 ARENA_RESTART: '§cСервер перезагружается...'
 
-PLAYER_JOIN_ARENA: '%s§f зашел в игру (§a%s§f/§a%s§f)'
-PLAYER_QUIT_ARENA: '%s§f покинул игру (§c%s§f/§a%s§f)'
+GAMER_JOIN_ARENA: '%s§f зашел в игру (§a%s§f/§a%s§f)'
+GAMER_QUIT_ARENA: '%s§f покинул игру (§c%s§f/§a%s§f)'
 ARENA_DO_NOT_PLAYERS: '§cОшибка, не хватает игроков для старта'
 ARENA_STARTED: '§fИгра начнется через §a%s §f%s'
 
@@ -817,6 +817,9 @@ GAME_PLAYER_KILLED_INFO: '%s§f убил игрока %s'
 GAME_PLAYER_KILLED_FELL_OUT_WORLD: '%s§f выпал из мира'
 GAME_PLAYER_KILLED_WALL: '%s§f задохнулся в стене'
 GAME_WIN_INFO: 'Вы заработали'
+GAME_REWARD_MONEY: 'Заработано монет'
+GAME_REWARD_STATS: 'Статистика за игру'
+GAME_REWARD_MULTIPLAY: 'Множитель монет'
 GAME_TEAM_WIN: '§eПобедила команда §8- %s'
 GAME_SOLO_WIN: '§eПобедил игрок §8- %s'
 GAME_CHAT_SPECTATORS: '§8[§7Наблюдателям§8]'
@@ -826,6 +829,26 @@ GAME_TEAM_GAME_OVER: 'Команда %s§f проиграла'
 GAME_PLAYER_GAME_QUIT: '§fИгрок %s§f покинул игру'
 GAME_PLAYER_RESOURCES: '§fВы получили +§6%s ресурсов§f за убийство игрока %s'
 GAME_ENDERCHEST_ALREADY_OPEN: '§cЭндер-сундук команды уже открыт игроком %s'
+GAME_WIN_PLAYER_BOARD: 'Победил игрок'
+GAME_WIN_TEAM_BOARD: 'Победила команда'
+GAME_TITLE_WIN: '§a§lПОБЕДА'
+GAME_TITLE_TEAM_WIN: '§7Ваша команда победила в этой игре'
+GAME_TITLE_SOLO_WIN: '§7Вы остались последним выжившим игроком'
+GAME_TITLE_OVER: '§c§lИГРА ОКОНЧЕНА'
+GAME_TITLE_NOT_WINNER: '§7Вы проиграли в этой игре'
+GAME_NO_BREAK_BLOCK_TEAM: '§cВы не можете ломать блоки под своими тиммейтами'
+
+COMPASS_MESSAGE: '§fИгрок: %s      §fРасстояние: '
+COMPASS_MESSAGE_SPECTATOR: '§fБлижайший игрок: %s      §fРасстояние: §a%s'
+COMPASS_NOT_FOUND: '§cНичего не найдено'
+COMPASS_MODE_NEAREST_PLAYER: 'поиск ближайшего игрока'
+COMPASS_MODE_TEAMMATE: 'поиск ближайшего тиммейта'
+COMPASS_MODE_CHANGED: 'Режим локатора изменен на §e%s'
+
+SPECTATOR_CAMERA_OFF: '§cВы покинули режим наблюдателя'
+SPECTATOR_CAMERA_TITLE: '§aРежим наблюдения'
+SPECTATOR_CAMERA_SUBTITLE: 'Наблюдаем за игроком: %s'
+SPECTATOR_CAMERA_ACTIONBAR: '§fНажмите §aSHIFT §fчтобы покинуть режим наблюдателя'
 
 BEDWARS_BED_BREAK_TITLE: '§cВаша кровать сломана'
 BEDWARS_BED_BREAK_SUBTITLE: '§7Вы больше не сможете возрождаться'
@@ -905,57 +928,68 @@ ITEM_COSMETIC_LORE:
 - '§7Используйте этот предмет,'
 - '§7чтобы выбрать косметику'
 - '§7для игры'
+ITEM_REPLAY_NAME: '§eНачать новую игру'
+ITEM_REPLAY_LORE:
+- '§7Кликните, чтобы начать новую игру'
+- '§7на этом же режиме'
+
+SPECTATOR_PERK_LORE: '§7Выбранный навык: §a%s'
 
 GUI_TP_NAME: 'Телепортатор'
 GUI_TP_LORE:
+- '§7Здоровье: §e%s'
+- '§7Голод: §e%s'
 - ''
-- '§7В команде: %s'
-- '§7Жизней: §f%s'
-- '§7Голод: §f%s'
-- ''
-- '§e▸ Нажмите, чтобы телепортироваться'
+- '§e▸ ЛКМ, чтобы телепортироваться'
+- '§e▸ ПКМ, чтобы наблюдать от 1-ого лица'
 
 GUI_SETTINGS_NAME: 'Настройка наблюдателей'
-GUI_SETTINGS_SPEED_0: '§aУбрать скорость'
-GUI_SETTINGS_SPEED_1: '§aСкорость I'
-GUI_SETTINGS_SPEED_2: '§aСкорость II'
-GUI_SETTINGS_SPEED_3: '§aСкорость III'
-GUI_SETTINGS_SPEED_4: '§aСкорость IV'
-GUI_SETTINGS_NIGHT: '§aНочное зрение'
-GUI_SETTINGS_NIGHT_OFF:
-- ''
-- '§e▸ Нажмите, чтобы выключить ночное зрение'
-GUI_SETTINGS_NIGHT_ON:
-- ''
-- '§e▸ Нажмите, чтобы включить ночное зрение'
-GUI_SETTINGS_SPECTATORS: '§aНаблюдатели'
-GUI_SETTINGS_SPECTATORS_HIDE:
-- ''
-- '§e▸ Нажмите, чтобы спрятать наблюдателей'
-GUI_SETTINGS_SPECTATORS_SHOW:
-- ''
-- '§e▸ Нажмите, чтобы показать наблюдателей'
-GUI_SETTINGS_FLY: '§aПолёт'
-GUI_SETTINGS_FLY_ON:
-- ''
-- '§e▸ Нажмите, чтобы включить полёт'
-GUI_SETTINGS_FLY_OFF:
-- ''
-- '§e▸ Нажмите, чтобы выключить полёт'
+GUI_SETTINGS_NO_SPEED: 'Без скорости'
+GUI_SETTINGS_SPEED: 'Скорость'
+GUI_SETTINGS_FLY_ON: '§aВключить постоянный полет'
+GUI_SETTINGS_FLY_OFF: '§cВыключить постоянный полет'
+GUI_SETTINGS_VISION_OFF: '§cВыключить ночное видение'
+GUI_SETTINGS_VISION_ON: '§aВключить ночное видение'
+GUI_SETTINGS_HIDE: '§cСкрыть наблюдателей'
+GUI_SETTINGS_SHOW: '§aПоказать наблюдателей'
+
+GUI_SETTINGS_NOFLY_LORE:
+- ' '
+- '§e▸ Нажмите, чтобы включить'
+GUI_SETTINGS_FLY_LORE:
+- ' '
+- '§e▸ Нажмите, чтобы выключить'
+GUI_SETTINGS_VISION_LORE:
+- ' '
+- '§e▸ Нажмите, чтобы выключить'
+GUI_SETTINGS_NOVISION_LORE:
+- ' '
+- '§e▸ Нажмите, чтобы включить'
+GUI_SETTINGS_SHOW_LORE:
+- ' '
+- '§7Сейчас Вы не видите других'
+- '§7наблюдателей. После изменения'
+- '§7этой настройки Вы снова сможете'
+- '§7их видеть'
+- ' '
+- '§e▸ Нажмите, чтобы показать'
+GUI_SETTINGS_HIDE_LORE:
+- ' '
+- '§7Сейчас Вы видите других'
+- '§7наблюдателей. После изменения'
+- '§7этой настройки они будут скрыты'
+- '§7для Вас.'
+- ' '
+- '§e▸ Нажмите, чтобы скрыть'
+
+SPECTATOR_SETTING_CHANGED: '§aНаблюдение §8| §fСкорость передвижения изменена'
+SPECTATOR_SETTING_FLY_ON: '§aНаблюдение §8| §fВы включили постоянный полет'
+SPECTATOR_SETTING_FLY_OFF: '§aНаблюдение §8| §fВы выключили постоянный полет'
 
 GAME_KIT_UNSELECT: '§eНажмите ещё раз, чтобы аннулировать покупку набора §a%s'
 GAME_KIT_RETURN: '§eВам вернули деньги за набор §a%s'
 
 #GUI_KIT_NAME: 'Покупка наборов'
-
-GAME_SPEED_DEFAULT: 'Вы стали двигаться со стандартной скоростью!'
-GAME_SELECT: 'Вы выбрали %s'
-GAME_NIGHT_ON: 'Вы включили себе §aНочное зрение§e!'
-GAME_NIGHT_OFF: 'Вы выключили себе §aНочное зрение§e!'
-GAME_SPECTATORS_HIDE: 'Вы теперь не видете §aНаблюдателей§e!'
-GAME_SPECTATORS_SHOW: 'Вы видете §aНаблюдателей§e!'
-GAME_FLYING_ON: 'Вы включили §aПолёт§e!'
-GAME_FLYING_OFF: 'Вы выключили §aПолёт§e!'
 
 SITESHOP_BUY: '§aМагазин §8| §fВы успешно купили §a%s'
 SITESHOP_INFO: '§aСервер §8| §fИгрок %s§f купил §a%s§f, купить можно в §c/siteshop'
@@ -1193,7 +1227,13 @@ ITEM_KIT_NAME: '§eПокупка наборов'
 ITEM_KIT_LORE:
 - '§7Используйте этот предмет,'
 - '§7чтобы выбрать набор'
-
+ITEM_LOCATOR_NAME: '§aЛокатор'
+ITEM_LOCATOR_LORE:
+- '§7Используйте этот предмет, чтобы'
+- '§7находить ближайшего игрока'
+ITEM_ITEMS_NAME: '§eПредметы'
+ITEM_ITEMS_LORE:
+- '§7Кликните, чтобы выбрать предметы'
 
 TRAINING_PREFIX: '§aОбучение §8| §f'
 TRAINING_PREFIX_HOVER: '   §8 -| §6§lОбучение §8|-'
@@ -1311,6 +1351,7 @@ BOARD_NEED_BOX: 'До кейса'
 BOARD_PLAYERS: 'Игроков'
 BOARD_TEAMS: 'Команд'
 BOARD_TEAMS_2: 'Команды'
+BOARD_TEAMS_3: 'Команда'
 BOARD_FOR_START: 'Для старта нужно'
 BOARD_TIME: 'Время'
 BOARD_GAME_STATS: 'Статистика'
@@ -7689,7 +7730,7 @@ GUI_MARKETING_TWO_LORE:
 
 GUI_TEAMS_NAME: 'Выбор команды: %s'
 GUI_TEAMS_NO_PLAYERS_LORE:
-- '§7Нет игроков%s'
+- '§7Нет игроков'
 GUI_TEAMS_PLAYERS_LORE:
 - '§7Игроки:'
 - '%s'
