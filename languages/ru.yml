@@ -953,6 +953,11 @@ GUI_SETTINGS_VISION_ON: '§aВключить ночное видение'
 GUI_SETTINGS_HIDE: '§cСкрыть наблюдателей'
 GUI_SETTINGS_SHOW: '§aПоказать наблюдателей'
 
+GUI_SETTINGS_SPEED_LORE:
+- ' '
+- '§7Изменяет скорость передвижения'
+- '§7в зависимости от выбранного'
+- '§7уровня'
 GUI_SETTINGS_NOFLY_LORE:
 - ' '
 - '§e▸ Нажмите, чтобы включить'
