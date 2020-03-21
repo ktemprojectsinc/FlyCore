@@ -7740,7 +7740,6 @@ GUI_TEAMS_NO_PLAYERS_LORE:
 - '§7Нет игроков'
 GUI_TEAMS_PLAYERS_LORE:
 - '§7Игроки:'
-- '%s'
 GUI_TEAMS_YELLOW: '§eЖёлтые [%s/%s]'
 GUI_TEAMS_GREEN: '§aЗеленые [%s/%s]'
 GUI_TEAMS_BLUE: '§9Синии [%s/%s]'
