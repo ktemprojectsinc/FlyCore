@@ -795,6 +795,8 @@ DAMAGE_CAUSE_DROP_TO: '%s§f был скинут игроком %s'
 DAMAGE_CAUSE_DROP: '%s§f разбился насмерть'
 DAMAGE_CAUSE_MAGIC_TO: '%s§f был убит с помощью магии игроком %s'
 DAMAGE_CAUSE_MAGIC: '%s§f был убит с помощью магии'
+FINAL_KILL: '%s§f был убит игроком %s§b ФИНАЛЬНОЕ УБИЙСТВО!'
+TEAM_LOSE: '§fКоманда %s§f проиграла (последний игрок погиб или покинул игру)'
 
 START_TITLE_MSG: 'Старт!'
 
