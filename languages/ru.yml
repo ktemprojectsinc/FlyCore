@@ -837,6 +837,7 @@ GAME_TITLE_SOLO_WIN: '§7Вы остались последним выживши
 GAME_TITLE_OVER: '§c§lИГРА ОКОНЧЕНА'
 GAME_TITLE_NOT_WINNER: '§7Вы проиграли в этой игре'
 GAME_NO_BREAK_BLOCK_TEAM: '§cВы не можете ломать блоки под своими тиммейтами'
+GAME_REJOIN: '§fВы перезашли в игру'
 
 COMPASS_MESSAGE: '§fИгрок: %s      §fРасстояние: '
 COMPASS_MESSAGE_SPECTATOR: '§fБлижайший игрок: %s      §fРасстояние: §a%s'
@@ -859,6 +860,7 @@ BEDWARS_BED_BREAK: '§fКровать команды %s §fбыла сломан
 BEDWARS_BED_GAME_OVER: '§cВы умерли, ваша кровать разрушена'
 BEDWARS_BED_GAME_OVER_TITLE: '§cВы умерли'
 BEDWARS_BED_GAME_OVER_SUBTITLE: '§cВаша кровать разрушена'
+BEDWARS_NO_PLACE_SPAWN: '§cСтавить блоки рядом с местом респавна запрещено'
 
 LUCKYWARS_INFO:
 - '§eВаша задача ломать лакиблоки и убивать игроков'
