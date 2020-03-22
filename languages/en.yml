@@ -126,7 +126,6 @@ RANK_CREEPER: 'Creeper'
 RANK_LAVA: 'Lava'
 RANK_BRICK: 'Brick'
 RANK_ENDERMAN: 'Enderman'
-RANK_SHULKER: 'Shulker'
 RANK_TESTER: 'Tester'
 RANK_BUILDER: 'Builder'
 RANK_CHIEFBUILDER: 'Ch. Builder'
@@ -3232,7 +3231,7 @@ MESSAGES_BROADCAST:
 - "\n§8 | §fPrivilege %pbrick§f gives more\n§8 | §fquantity §bbonuses§f and §eof opportunities§f for a reasonable price.\n§8 | §fInterested? Buying on site §dflycore.ru\n"
 - "\n§8 | §fTo play with friends\n§8 | §fjust write a command §c/party <nick>\n§8 | §fAnd all players will be moved behind the leader\n"
 - "\n§8 | §fThere are many different §epossibilities§f on the server\n§8 | §fand §dbonuses§f access to which only donators have,\n§8 | §finformation about donate §c/donate\n"
-- "\n§8 | %pshulker§f - best server privilege,\n§8 | §fcombines the maximum amount\n§8 | §efeatures§f and §dbonuses§f for a comfortable game\n"
+- "\n§8 | %penderman§f - best server privilege,\n§8 | §fcombines the maximum amount\n§8 | §efeatures§f and §dbonuses§f for a comfortable game\n"
 - "\n§8 | %plava§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dflycore.ru\n"
 - "\n§8 | §fYou already bought §edonat§f, now you want a §bhigher§f status?\n§8 | §COnly here§f you can purchase a new one\n§8 | §fprivilege with surcharge on the site §dflycore.ru\n"
 - "\n§8 | §fIf you saw §cthe intruder§f or §ccheater§f, that\n§8 | §fUse the command §c/report <nick>\n§8 | §fand your §ecomplaint§f complaint will be reviewed in real time\n"
@@ -3249,7 +3248,7 @@ MESSAGES_BROADCAST:
 - "\n§8 | §fIf you saw §cthe intruder§f or §ccheater§f, that\n§8 | §fUse the command §c/report <nick>\n§8 | §fand your §ecomplaint§f complaint will be reviewed in real time\n"
 - "\n§8 | §fVisit our group §9VK§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore\n"
 - "\n§8 | §fVisit our group §5Group development§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore_dev\n"
-- "\n§8 | §fХотите иметь свой собственный §aprefix§f?\n§8 | §fтогда привилегия %pshulker§f только для вас!\n§8 | §fПриобрести её можно на сайте §cstore.flycore.ru\n"
+- "\n§8 | §fХотите иметь свой собственный §aprefix§f?\n§8 | §fтогда привилегия %penderman§f только для вас!\n§8 | §fПриобрести её можно на сайте §cstore.flycore.ru\n"
 MESSAGES_HOVER_BROADCAST:
 - "§fClick here to\n§ffollowing the link"
 - "§fClick here to\n§ffollowing the link"
@@ -4122,7 +4121,7 @@ GUI_DONATE_LAVA_SURVIVAL_LORE:
 - ' §8▪ §7Нет задержки при телепортации'
 - ' §8▪ §7Возможность поставить 10 варпа'
 - ''
-GUI_DONATE_SHULKER_ALL_LORE:
+GUI_DONATE_ENDERMAN_ALL_LORE:
 - ''
 - ' §8▪ §7Prefix %s§7 (or own §f/prefix <префикс>§7)'
 - ' §8▪ §7The greeting at the entrance'
@@ -4158,7 +4157,7 @@ GUI_DONATE_SHULKER_ALL_LORE:
 - ' §8▪ §7Увеличен лимит на получение монет до §f20,000§7 coins'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f30,000§7 coins'
 - ''
-GUI_DONATE_SHULKER_BEDWARS_LORE:
+GUI_DONATE_ENDERMAN_BEDWARS_LORE:
 - ''
 - ' §8▪ §7Available hidden perks'
 - ' §8▪ §7No delay in the revisal'
@@ -4166,7 +4165,7 @@ GUI_DONATE_SHULKER_BEDWARS_LORE:
 - ' §8▪ §7Reduced delay of §9teleportation on spawn§7 (§c2 sec§7)'
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_DONATE_SHULKER_ANARCHY_LORE:
+GUI_DONATE_ENDERMAN_ANARCHY_LORE:
 - ''
 - ' §8▪ §7Coin multiplier from mob kills §fx1.3'
 - ' §8▪ §7No delay in teleportation'
@@ -4182,10 +4181,10 @@ GUI_DONATE_SHULKER_ANARCHY_LORE:
 - ' §8▪ §7Quickly clean inventory - §f/clear'
 - ' §8▪ §7Back to the place of death - §f/back'
 - ' §8▪ §7Set the time for yourself - §f/ptime'
-- ' §8▪ §7A special kits things every day (§f/kit shulker§7)'
+- ' §8▪ §7A special kits things every day (§f/kit enderman§7)'
 - ' §8▪ §7Allowed to have up to §c30§7 items at auction (§f/ah§7)'
 - ''
-GUI_DONATE_SHULKER_CREATIVE_LORE:
+GUI_DONATE_ENDERMAN_CREATIVE_LORE:
 - ''
 - ' §8▪ §7Available §c6§7 plots (§f/p auto§7)'
 - ' §8▪ §7Available §c4§7 warps (§f/setwarp <name>§7)'
@@ -4198,23 +4197,23 @@ GUI_DONATE_SHULKER_CREATIVE_LORE:
 - ' §8▪ §7Big limit on the set blocks in one operation'
 - ' §8▪ §7Available AST (create amazing armor stands)'
 - ''
-GUI_DONATE_SHULKER_PARKOUR_LORE:
+GUI_DONATE_ENDERMAN_PARKOUR_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_SHULKER_LUCKYWARS_LORE:
+GUI_DONATE_ENDERMAN_LUCKYWARS_LORE:
 - ''
 - ' §8▪ §7Open the GUI of the enchantment table - §f/ie'
 - ''
-GUI_DONATE_SHULKER_SKYPVP_LORE:
+GUI_DONATE_ENDERMAN_SKYPVP_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_SHULKER_PRISON_LORE:
+GUI_DONATE_ENDERMAN_PRISON_LORE:
 - ''
 - ' §4✕ §7No features available'
 - ''
-GUI_DONATE_SHULKER_SURVIVAL_LORE:
+GUI_DONATE_ENDERMAN_SURVIVAL_LORE:
 - ''
 - ' §8▪ §7Множитель монет от убийства мобов §fx2.0'
 - ' §8▪ §7Доступна телепортация к игроку - §f/tp <ник>'
@@ -4233,7 +4232,7 @@ GUI_DONATE_SHULKER_SURVIVAL_LORE:
 - ' §8▪ §7Восстановить голод - §f/feed'
 - ' §8▪ §7Умереть - §f/suicide'
 - ' §8▪ §7Виртуальная наковальня - §f/anvil'
-- ' §8▪ §7Особый набор вещей каждые два дня (§f/kit shulker§7)'
+- ' §8▪ §7Особый набор вещей каждые два дня (§f/kit enderman§7)'
 - ' §8▪ §7Разрешено иметь до §c30 §7предметов на аукционе (§f/ah§7)'
 - ' §8▪ §7Нет задержки при телепортации'
 - ' §8▪ §7Возможность поставить 15 варпа'
@@ -4255,7 +4254,7 @@ GUI_DONATE_YOUTUBE_ALL_LORE:
 - ' §8▪ §7Сниженная комиссия при конвертировании монет §f4%§7, золота §f35%'
 - ' §8▪ §7Увеличен лимит на получение монет до §f20,000§7 монет'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f30,000§7 монет'
-- ' §8▪ §7Все возможности §lSHULKER'
+- ' §8▪ §7Все возможности §lENDERMAN'
 - ''
 GUI_DONATE_YOUTUBE_BEDWARS_LORE:
 - ''
@@ -4281,7 +4280,7 @@ GUI_DONATE_YOUTUBE_ANARCHY_LORE:
 - ' §8▪ §7Quickly clean inventory - §f/clear'
 - ' §8▪ §7Back to the place of death - §f/back'
 - ' §8▪ §7Set the time for yourself - §f/ptime'
-- ' §8▪ §7A special kits things every day (§f/kit shulker§7)'
+- ' §8▪ §7A special kits things every day (§f/kit enderman§7)'
 - ' §8▪ §7Allowed to have up to §c40§7 items at auction (§f/ah§7)'
 - ''
 GUI_DONATE_YOUTUBE_CREATIVE_LORE:
@@ -4332,7 +4331,7 @@ GUI_DONATE_YOUTUBE_SURVIVAL_LORE:
 - ' §8▪ §7Восстановить голод - §f/feed'
 - ' §8▪ §7Умереть - §f/suicide'
 - ' §8▪ §7Виртуальная наковальня - §f/anvil'
-- ' §8▪ §7Особый набор вещей каждые два дня (§f/kit shulker§7)'
+- ' §8▪ §7Особый набор вещей каждые два дня (§f/kit enderman§7)'
 - ' §8▪ §7Разрешено иметь до §c40 §7предметов на аукционе (§f/ah§7)'
 - ' §8▪ §7Нет задержки при телепортации'
 - ' §8▪ §7Возможность поставить 20 варпа'
@@ -4359,7 +4358,7 @@ GUI_DONATE_JUNIOR_ALL_LORE:
 - ' §8▪ §7Сниженная комиссия при конвертировании монет §f4%§7, золота §f35%'
 - ' §8▪ §7Увеличен лимит на получение монет до §f20,000§7 монет'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f30,000§7 монет'
-- ' §8▪ §7Все возможности §lYouTube§7, §lSHULKER§7 (Кроме цветного чата)'
+- ' §8▪ §7Все возможности §lYouTube§7, §lENDERMAN§7 (Кроме цветного чата)'
 - ''
 GUI_DONATE_JUNIOR_BEDWARS_LORE:
 - ''
@@ -4385,7 +4384,7 @@ GUI_DONATE_JUNIOR_ANARCHY_LORE:
 - ' §8▪ §7Quickly clean inventory - §f/clear'
 - ' §8▪ §7Back to the place of death - §f/back'
 - ' §8▪ §7Set the time for yourself - §f/ptime'
-- ' §8▪ §7A special kits things every day (§f/kit shulker§7)'
+- ' §8▪ §7A special kits things every day (§f/kit enderman§7)'
 - ' §8▪ §7Allowed to have up to §c45§7 items at auction (§f/ah§7)'
 - ''
 GUI_DONATE_JUNIOR_CREATIVE_LORE:
@@ -4938,7 +4937,6 @@ GUI_CREEPER: 'Creepers'
 GUI_LAVA: 'Lavas'
 GUI_BRICK: 'Bricks'
 GUI_ENDERMAN: 'Endermans'
-GUI_SHULKER: 'Shulkers'
 GUI_ELITE: 'Elite'
 GUI_GAMERPRO: "Gamerpro's"
 GUI_TESTER: 'Testers'
@@ -4950,23 +4948,23 @@ GUI_MODERATOR: 'Moderators'
 GUI_ADMINISTRATOR: 'Admins'
 GUI_DEVELOPER: 'Developers'
 GUI_ORGANIZER: 'Organizers'
-GUI_NO_DEFAULT: 'players'
-GUI_NO_CLAY: 'clays'
-GUI_NO_CREEPER: 'creepers'
-GUI_NO_LAVA: 'lavas'
-GUI_NO_BRICK: 'bricks'
-GUI_NO_ENDERMAN: 'endermans'
-GUI_NO_ELITE: 'elites'
-GUI_NO_GAMERPRO: "gamerpro's"
-GUI_NO_TESTER: 'testers'
-GUI_NO_BUILDER: 'builders'
-GUI_NO_YOUTUBE: 'youtubers'
-GUI_NO_JUNIOR: 'juniors'
-GUI_NO_HELPER: 'helpers'
-GUI_NO_MODERATOR: 'moderators'
-GUI_NO_ADMINISTRATOR: 'admins'
-GUI_NO_DEVELOPER: 'developers'
-GUI_NO_ORGANIZER: 'organizers'
+GUI_NO_DEFAULT: 'Players'
+GUI_NO_CLAY: 'Clays'
+GUI_NO_CREEPER: 'Creepers'
+GUI_NO_LAVA: 'Lavas'
+GUI_NO_BRICK: 'Bricks'
+GUI_NO_ENDERMAN: 'Endermans'
+GUI_NO_ELITE: 'Elites'
+GUI_NO_GAMERPRO: "GamerPro's"
+GUI_NO_TESTER: 'Testers'
+GUI_NO_BUILDER: 'Builders'
+GUI_NO_YOUTUBE: 'YouTubers'
+GUI_NO_JUNIOR: 'Juniors'
+GUI_NO_HELPER: 'Helpers'
+GUI_NO_MODERATOR: 'Moderators'
+GUI_NO_ADMINISTRATOR: 'Administrators'
+GUI_NO_DEVELOPER: 'Developers'
+GUI_NO_ORGANIZER: 'Organizers'
 GUI_STAFF_ITEM_LORE:
 - ''
 - '§7Total %s'
@@ -5007,7 +5005,6 @@ GUI_STAFF_BRICKS: 'Bricks'
 GUI_STAFF_CREEPERS: 'Creepers'
 GUI_STAFF_LAVAS: 'Lavas'
 GUI_STAFF_ENDERMANS: 'Endermans'
-GUI_STAFF_SHULKERS: 'Shulkers'
 GUI_STAFF_ELITES: 'Elites'
 GUI_STAFF_JUNIORS: 'Juniors'
 GUI_STAFF_HELPERS: 'Helpers'
@@ -8356,7 +8353,7 @@ HOLO_DONATE:
 - '%pbrick§f - §5%s §frubbles'
 - '%pcreeper§f - §5%s §frubbles'
 - '%plava§f - §5%s §frubbles'
-- '%animation%§lSHULKER§f - §5%s §frubbles'
+- '%animation%§lENDERMAN§f - §5%s §frubbles'
 - '§fBuy on our site:'
 - '%animation%www.flycore.ru'
 
