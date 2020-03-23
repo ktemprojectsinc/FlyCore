@@ -6496,10 +6496,10 @@ COLOR_AQUA: '§bМорской'
 COLOR_GREEN: '§aСалатовый'
 COLOR_RED: '§cКрасный'
 COLOR_DARK_GREEN: '§2Темно зеленый'
-COLOR_ORANGE: '§6Оранжевый'
-COLOR_TURQUOISE: '§3Бирюзовый'
-COLOR_PINK: '§dРозовый'
-COLOR_PURPLE: '§5Фиолетовый'
+COLOR_GOLD: '§6Оранжевый'
+COLOR_DARK_AQUA: '§3Бирюзовый'
+COLOR_LIGHT_PURPLE: '§dРозовый'
+COLOR_DARK_PURPLE: '§5Фиолетовый'
 COLOR_BLUE: '§9Синий'
 COLOR_DARK_BLUE: '§1Темно синий'
 COLOR_WHITE: '§fБелый'
@@ -7246,16 +7246,13 @@ GUI_MARKETING_TWO_LORE:
 
 GUI_TEAMS_NAME: 'Выбор команды: %s'
 GUI_TEAMS_NO_PLAYERS_LORE:
-- '§7Нет игроков%s'
+- '§7Нет игроков'
 GUI_TEAMS_PLAYERS_LORE:
-- '§7Игроки:'
-- '%s'
-GUI_TEAMS_YELLOW: '§eЖёлтые [%s/%s]'
-GUI_TEAMS_GREEN: '§aЗеленые [%s/%s]'
-GUI_TEAMS_BLUE: '§9Синии [%s/%s]'
-GUI_TEAMS_RED: '§cКрасные [%s/%s]'
-
-PERK_FIRE: 'Огонь'
+- '§7Игроки в команде:'
+GUI_TEAMS_ALREADY:
+- '§c▸ Вы уже в этой команде'
+GUI_TEAMS_FULL:
+- '§c▸ В команде нет мест'
 
 GUI_CASES_NAME: 'Открытие кейса'
 GUI_CASES_BUY_NAME: 'Покупка ключей'
