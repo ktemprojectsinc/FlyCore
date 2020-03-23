@@ -7750,11 +7750,9 @@ GUI_TEAMS_NAME: 'Выбор команды: %s'
 GUI_TEAMS_NO_PLAYERS_LORE:
 - '§7Нет игроков'
 GUI_TEAMS_PLAYERS_LORE:
-- '§7Игроки:'
-GUI_TEAMS_YELLOW: '§eЖёлтые [%s/%s]'
-GUI_TEAMS_GREEN: '§aЗеленые [%s/%s]'
-GUI_TEAMS_BLUE: '§9Синии [%s/%s]'
-GUI_TEAMS_RED: '§cКрасные [%s/%s]'
+- '§7Игроки в команде:'
+GUI_TEAMS_ALREADY: '§c▸ Вы уже в этой команде'
+GUI_TEAMS_FULL: '§c▸ В команде нет мест'
 
 PERK_FIRE: '§cОгонь'
 
