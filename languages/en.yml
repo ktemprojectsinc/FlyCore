@@ -6492,10 +6492,10 @@ COLOR_AQUA: '§bAqua'
 COLOR_GREEN: '§aGreen'
 COLOR_RED: '§cRed'
 COLOR_DARK_GREEN: '§2Dark green'
-COLOR_ORANGE: '§6Orange'
-COLOR_TURQUOISE: '§3Turquoise'
-COLOR_PINK: '§dPink'
-COLOR_PURPLE: '§5Pueplw'
+COLOR_GOLD: '§6Orange'
+COLOR_DARK_AQUA: '§3Turquoise'
+COLOR_LIGHT_PURPLE: '§dPink'
+COLOR_DARK_PURPLE: '§5Pueplw'
 COLOR_BLUE: '§9Blue'
 COLOR_DARK_BLUE: '§1Dark blue'
 COLOR_WHITE: '§fWhite'
@@ -7256,18 +7256,15 @@ GUI_MARKETING_TWO_LORE:
 - ''
 - '§e▶ Нажмите, чтобы начать'
 
-GUI_TEAMS_NAME: 'Выбор команды: %s'
+GUI_TEAMS_NAME: 'Team select: %s'
 GUI_TEAMS_NO_PLAYERS_LORE:
-- '§7Нет игроков%s'
+- '§7No players'
 GUI_TEAMS_PLAYERS_LORE:
-- '§7Игроки:'
-- '%s'
-GUI_TEAMS_YELLOW: '§eYellow [%s/%s]'
-GUI_TEAMS_GREEN: '§aGreen [%s/%s]'
-GUI_TEAMS_BLUE: '§9Blue [%s/%s]'
-GUI_TEAMS_RED: '§cRed [%s/%s]'
-
-PERK_FIRE: 'Fire'
+- '§7Players in team:'
+GUI_TEAMS_ALREADY:
+- '§c▸ You already in team'
+GUI_TEAMS_FULL:
+- '§c▸ Team is full'
 
 GUI_CASES_NAME: 'Open case'
 GUI_CASES_BUY_NAME: 'Buy case'
