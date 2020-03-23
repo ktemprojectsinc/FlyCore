@@ -7751,8 +7751,10 @@ GUI_TEAMS_NO_PLAYERS_LORE:
 - '§7Нет игроков'
 GUI_TEAMS_PLAYERS_LORE:
 - '§7Игроки в команде:'
-GUI_TEAMS_ALREADY: '§c▸ Вы уже в этой команде'
-GUI_TEAMS_FULL: '§c▸ В команде нет мест'
+GUI_TEAMS_ALREADY:
+- '§c▸ Вы уже в этой команде'
+GUI_TEAMS_FULL:
+- '§c▸ В команде нет мест'
 
 PERK_FIRE: '§cОгонь'
 
