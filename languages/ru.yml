@@ -7079,6 +7079,10 @@ GUI_GADGETS_SPIRIT_8_LORE:
 GUI_GADGETS_SPIRIT_9: 'Крысы'
 GUI_GADGETS_SPIRIT_9_LORE:
 - '§7В честь года ..!'
+GUI_GADGETS_SPIRIT_10: 'Andrik'
+GUI_GADGETS_SPIRIT_10_LORE:
+- '§7Добрый зверек, который'
+- '§7дружит с Andry_Lavandery'
 
 GUI_PREFIX_NAME: 'Смена префикса'
 GUI_PREFIX_SELECTED_LORE:
