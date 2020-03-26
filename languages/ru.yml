@@ -827,6 +827,8 @@ KITWARS_KIT_UNAVAILABLE_LORE:
 KITWARS_KIT_LORE:
 - '§8Предметы:'
 KITWARS_BONUS: 'Бонус'
+KITWARS_BONUS_LORE:
+- '§7Подойди, чтобы забрать'
 KITWARS_BONUS_1_NAME: 'Ослепление'
 KITWARS_BONUS_2_NAME: 'Скорость'
 KITWARS_BONUS_3_NAME: 'Регенерация'
