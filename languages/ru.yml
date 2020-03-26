@@ -435,6 +435,11 @@ BONUSES:
 - 'у'
 - 'ы'
 - ''
+BONUSES_2:
+- 'бонус'
+- ''
+- 'а'
+- 'ов'
 
 PREFIXS:
 - 'префикс'
@@ -1451,6 +1456,7 @@ BOARD_SERVER: 'Сервер'
 BOARD_TO_START: 'Старт через'
 BOARD_SPECTATOR: 'Наблюдателей'
 BOARD_KILLS: 'Убийств'
+BOARD_BONUS: 'Бонусов'
 BOARD_MOBKILLS: 'Убито мобов'
 BOARD_LUCKYBLOCKS: 'ЛакиБлоков'
 BOARD_LIFE_COUNT: 'Жизней'
@@ -9106,6 +9112,10 @@ TOP_CASINOLOSINGMONEY_HOLO:
 - '§a§lТоп по казино-монетам'
 - '§fТоп игроков по просравшим'
 - '§fмонетам в казино за §e%s'
+TOP_BONUS_HOLO:
+- '§a§lТоп по бонусам'
+- '§fТоп игроков по кол-ву'
+- '§fсобранных бонусов за §e%s'
 HOLO_TOP_MAIN:
 - '§7Нажмите, чтобы сменить топ'
 - '§7Вперед [ЛКМ], назад [ПКМ]'
