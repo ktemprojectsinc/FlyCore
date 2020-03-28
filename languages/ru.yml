@@ -7088,6 +7088,45 @@ GUI_GADGETS_SPIRIT_10: 'Andrik'
 GUI_GADGETS_SPIRIT_10_LORE:
 - '§7Добрый зверек, который'
 - '§7дружит с Andry_Lavandery'
+GUI_GADGETS_COMPANIONS_1: 'Попугай'
+GUI_GADGETS_COMPANIONS_1_LORE:
+- '§7Твой верный летуче-говорящий друг.'
+- '§7Каким словам его учить - решать только тебе :)'
+GUI_GADGETS_COMPANIONS_2: 'Блейз'
+GUI_GADGETS_COMPANIONS_2_LORE:
+- '§7Пусть игроки возненавидят звук,'
+- '§7огня который он издает.'
+GUI_GADGETS_COMPANIONS_3: 'Корова'
+GUI_GADGETS_COMPANIONS_3_LORE:
+- '§7Му му му..'
+- '§7§oлапки гну'
+GUI_GADGETS_COMPANIONS_4: 'Крипер'
+GUI_GADGETS_COMPANIONS_4_LORE:
+- '§7Ссс..'
+- '§cBOOM'
+GUI_GADGETS_COMPANIONS_5: 'Полярный медведь'
+GUI_GADGETS_COMPANIONS_5_LORE:
+- '§7Он будет защищать вас,'
+- '§7в качестве своего малыша'
+GUI_GADGETS_COMPANIONS_6: 'Кролик'
+GUI_GADGETS_COMPANIONS_6_LORE:
+- '§7Прыгучесть не прилагается...'
+- ''
+- '§7§oНо никто не отменял ваши навыки..'
+GUI_GADGETS_COMPANIONS_7: 'Спрут или Кольмар'
+GUI_GADGETS_COMPANIONS_7_LORE:
+- '§7Молчиливый добрый друг'
+GUI_GADGETS_COMPANIONS_8: 'Слайм'
+GUI_GADGETS_COMPANIONS_8_LORE:
+- '§7Он всегда принесет тебе'
+- '§7покушать, проскальзывая сквозь'
+- '§7двери кухни'
+GUI_GADGETS_COMPANIONS_9: 'Волк'
+GUI_GADGETS_COMPANIONS_9_LORE:
+- '§7Загрызет твоих врагов!'
+GUI_GADGETS_COMPANIONS_10: 'Зомби'
+GUI_GADGETS_COMPANIONS_10_LORE:
+- '§7Вы из будущего'
 
 GUI_PREFIX_NAME: 'Смена префикса'
 GUI_PREFIX_SELECTED_LORE:
