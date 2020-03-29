@@ -7174,7 +7174,12 @@ GUI_COSMETIC_WINEFFECT: 'Эффекты победы'
 GUI_COSMETIC_STARTSOUND: 'Звуки старта'
 GUI_COSMETIC_COLORABLE: 'Цветные щиты и броня'
 GUI_COSMETIC_BWPERKS: 'Перки BedWars'
+GUI_COSMETIC_LWPERKS: 'Перки LuckyWars'
+GUI_COSMETIC_LWKITS: 'Наборы LuckyWars'
 GUI_COSMETIC_NAME: 'Косметика'
+
+GUI_COSMETIC_PERK_NAME: 'Перк'
+GUI_COSMETIC_KIT_NAME: 'Набор'
 
 GUI_COSMETIC_NO_LEVEL:
 - '§cВНИМАНИЕ! Для использования этой вещи'
@@ -7267,13 +7272,23 @@ GUI_COSMETIC_COLORABLE_LORE:
 - '%s'
 - ''
 - '§e▸ Нажмите, чтобы открыть меню'
-GUI_COSMETIC_BWPERKS_LORE:
+GUI_COSMETIC_PERKS_LORE:
 - '§7Покупка и активация перков'
 - '§7которые украсят вашу игру'
 - '§7различными дополнениями.'
 - ''
 - '§7Открыто: §a%s/%s §3%s'
 - '§7Активированный перк:'
+- '%s'
+- ''
+- '§e▸ Нажмите, чтобы открыть меню'
+GUI_COSMETIC_KITS_LORE:
+- '§7Покупка и активация наборов'
+- '§7которые будут выданы'
+- '§7вам при старте игры.'
+- ''
+- '§7Открыто: §a%s/%s §3%s'
+- '§7Активированный набор:'
 - '%s'
 - ''
 - '§e▸ Нажмите, чтобы открыть меню'
