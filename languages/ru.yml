@@ -8419,6 +8419,7 @@ TPTOGGLE_DISABLE: 'Телепортации - §cотключены'
 
 #items
 WOOD: 'Дерево'
+SNOW_BALL: 'Снежок'
 BOW: 'Лук'
 BEACON: 'Маяк'
 POTION: 'Питьевое зелье'
