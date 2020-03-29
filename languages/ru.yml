@@ -2782,7 +2782,7 @@ RULES_ALL:
 RULES_2: '§dhttp://flycore.ru/rules'
 RULES_HOVER: '§fнажмите сюда\n§fдля перехода по ссылке'
 
-FIREWORK: '§aСалют!'
+FIREWORK_CMD: '§aСалют!'
 
 MAIL_SEND_FORMAT: '/mail send <ник> <сообщение>'
 MAIL_COMMAND_HELP:
