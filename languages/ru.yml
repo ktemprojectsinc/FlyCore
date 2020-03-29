@@ -1005,7 +1005,7 @@ ITEM_REPLAY_LORE:
 - '§7Кликните, чтобы начать новую игру'
 - '§7на этом же режиме'
 
-SPECTATOR_PERK_LORE: '§7Выбранный навык: §a%s'
+SPECTATOR_PERK_LORE: 'Выбранные дополнения:'
 
 GUI_TP_NAME: 'Телепортатор'
 GUI_TP_LORE:
@@ -8418,6 +8418,7 @@ TPTOGGLE_ENABLE: 'Телепортации - §aвключены'
 TPTOGGLE_DISABLE: 'Телепортации - §cотключены'
 
 #items
+WOOD: 'Дерево'
 BOW: 'Лук'
 BEACON: 'Маяк'
 POTION: 'Питьевое зелье'
