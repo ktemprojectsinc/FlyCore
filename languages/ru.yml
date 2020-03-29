@@ -917,6 +917,7 @@ COMPASS_MODE_CHANGED: 'Режим локатора изменен на §e%s'
 
 SPECTATOR_JOIN_MSG_TITLE: '§cИгра уже началась'
 SPECTATOR_JOIN_MSG_SUBTITLE: '§7Вы можете только следить за игровым процессом'
+SPECTATOR_SET_MSG_SUBTITLE: '§7Теперь вы можете только следить за игровым процессом'
 
 SPECTATOR_CAMERA_OFF: '§cВы покинули режим наблюдателя'
 SPECTATOR_CAMERA_TITLE: '§aРежим наблюдения'
