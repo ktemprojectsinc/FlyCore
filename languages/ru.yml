@@ -1006,7 +1006,8 @@ ITEM_REPLAY_LORE:
 - '§7Кликните, чтобы начать новую игру'
 - '§7на этом же режиме'
 
-SPECTATOR_PERK_LORE: 'Выбранные дополнения:'
+SPECTATOR_PERK_LORE:
+- 'Выбранные дополнения:'
 
 GUI_TP_NAME: 'Телепортатор'
 GUI_TP_LORE:
@@ -2050,8 +2051,14 @@ FRIEND_COMMAND_HELP:
 - '§7/f remove <ник друга> §f- удалить игрока из друзей'
 - '§7/f accept <ник игрока> §f- принять запрос игрока в друзья'
 - '§7/f reject <ник игрока> §f- отклонить запрос игрока в друзья'
+- '§7/f setrank <ник друга> <ранг> §f- изменить ранг друга'
+- '§7/f addrank <название ранга> §f- добавить новый ранг'
+- '§7/f delrank <название ранга> §f- удалить ранг'
+- '§7/f rankrename <название ранга> <новое имя> §f- переименовать ранг'
+- '§7/f rename <ник друга> <префикс> §f- изменить другу префикс в чате друзей'
 - '§7/f requests §f- список запросов в друзья'
 - '§7/f list §f- список друзей'
+- '§7/f ranks §f- управление рангами'
 - '§7/fchat <сообщение> §f- отправить всем друзьям онлайн сообщение'
 - '§7/f tp <ник друга> §f- телепортация на сервер друга'
 FRIEND_NO_FRIENDS: '§cУ вас нет друзей или подруг'
@@ -2096,6 +2103,52 @@ FRIEND_TP_FORMAT: '/f tp <ник друга>'
 FRIEND_TP_ALREADY: '§aСервер §8| §cВы уже на одном сервере с другом!'
 FRIEND_TP: '§aДрузья §8| %s§f телепортировался к Вам на сервер'
 FRIEND_TP_ALERT: '§aДрузья §8| §fВы были телепортированы на сервер друга %s§f (§7%s§f)'
+
+FRIEND_SETRANK_FORMAT: '/f setrank <ник друга> <название ранга>'
+FRIEND_SETRANK: '§aДрузья §8| §fВы установили ранг §a%s§f другу %s'
+FRIEND_SETRANK_ALREADY: '§cОшибка, у друга уже данный ранг'
+FRIEND_SETRANK_INVALID: '§aДрузья §8| §fОшибка, ранга %s не существует, доступные ранги: %s'
+
+FRIEND_ADDRANK_FORMAT: '/f addrank <название ранга>'
+FRIEND_ADDRANK_ALREADY: '§cОшибка, ранг с названием %s уже существует'
+FRIEND_ADDRANK: '§aДрузья §8| §fРанг §a%s§f успешно создан, отредактируйте его в §e/g ranks %s'
+FRIEND_ADDRANK_LIMIT: '§cОшибка, вы привысили кол-во доступных к созданию рангов. Ваш лимит - %s'
+
+FRIEND_DELRANK_FORMAT: '/f delrank <название ранга>'
+FRIEND_DELRANK_ALREADY: '§cОшибка, ранга %s не существует'
+FRIEND_DELRANK: '§aДрузья §8| §fРанг §a%s§f удален'
+FRIEND_DELRANK_UNAVAILABLE: '§cОшибка, нельзя удалять стандартные ранги'
+
+FRIEND_RANK_RENAME_FORMAT: '/f rankrename <ранг> <имя ранга>'
+FRIEND_RANK_RENAME: '§aДрузья §8| §fРанг §a%s§f переименован в §e%s'
+
+FRIEND_RENAME_FORMAT: '/f rename <ник друга> <префикс>'
+FRIEND_RENAME: '§aДрузья §8| §fПрефикс друга §a%s§f изменен на §e%s'
+
+FRIEND_SETTING_TPHERE: 'Телепортация'
+FRIEND_SETTING_TPHERE_DESCRIPTION:
+- 'Позволяет другу телепортировать вас к себе'
+FRIEND_SETTING_IGNORE: 'Игнорирование'
+FRIEND_SETTING_IGNORE_DESCRIPTION:
+- 'Позволяет другу игнорировать то что вы добавили его в игнор(/ignore)'
+FRIEND_SETTING_PVP: 'PvP'
+FRIEND_SETTING_PVP_DESCRIPTION:
+- 'Не дает другу нанести урон по вам'
+FRIEND_SETTING_CHATSUFFIX: 'Суффикс друга'
+FRIEND_SETTING_CHATSUFFIX_DESCRIPTION:
+- 'Скрывает суффикс друга для вашего чата друзей(/fc)'
+
+GUI_FRIENDTYPES_NAME: 'Настройки рангов друзей'
+GUI_FRIENDTYPES_RANK_NAME: 'Ранг'
+GUI_FRIENDTYPES_RANK_SELECT_LORE:
+- '§7Вы можете отредактировать'
+- '§7настройки ранга'
+- ''
+- '§e▸ Нажмите, чтобы редактировать'
+GUI_FRIENDTYPES_RANK_SELECTED_LORE:
+- ''
+- '§c✗ Вы уже редактируете данный ранг'
+
 
 LVL_UP: '§a§l§kX§r §c§lУРОВЕНЬ ПОВЫШЕН §a§l§kX§r'
 NEW_LVL: '§fВы достигли §d%s§f уровня!'
@@ -6007,6 +6060,8 @@ GUI_FRIENDS_ITEM_LORE:
 - '§7Всего §a%s'
 - '§7Онлайн: §a%s'
 GUI_FRIENDS_LORE:
+- ''
+- '§7Ранг: §e%s'
 - ''
 - '§7Информация:'
 - ' §8▪ §7Уровень: §d%s'
