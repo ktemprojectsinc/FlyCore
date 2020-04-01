@@ -7752,6 +7752,7 @@ TPTOGGLE_DISABLE: 'Телепортации - §cотключены'
 
 #items
 FIREWORK: 'Firework'
+LUCKYBLOCK: 'LuckyBlock'
 BEACON: 'Маяк'
 ANDESITE: 'Andesite'
 DIORITE: 'Diorite'
