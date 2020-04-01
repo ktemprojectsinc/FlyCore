@@ -2113,7 +2113,7 @@ FRIEND_TP_ALERT: '§aДрузья §8| §fВы были телепортиров
 
 FRIEND_TPHERE_FORMAT: '/f tphere <ник друга>'
 FRIEND_TPHERE: '§aДрузья §8| §fВы телепортировали %s§f к себе на сервер'
-FRIEND_TPHERE_ALERT: '§aДрузья §8| §fВаш друг %s§f телепортировал Вас на его сервер %s§f (§7%s§f)'
+FRIEND_TPHERE_ALERT: '§aДрузья §8| §fВаш друг %s§f телепортировал Вас на его сервер (§7%s§f)'
 
 FRIEND_SETRANK_FORMAT: '/f setrank <ник друга> <название ранга>'
 FRIEND_SETRANK: '§aДрузья §8| §fВы установили ранг §a%s§f другу %s'
