@@ -8503,8 +8503,8 @@ TPTOGGLE_ENABLE: 'Телепортации - §aвключены'
 TPTOGGLE_DISABLE: 'Телепортации - §cотключены'
 
 #items
-FIREWORK: 'фейерверк'
-LUCKYBLOCK: 'Лакиблок'
+FIREWORK: 'Фейерверк'
+LUCKYBLOCK: 'ЛакиБлок'
 WOOD: 'Дерево'
 SNOW_BALL: 'Снежок'
 BOW: 'Лук'
