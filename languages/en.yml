@@ -5925,7 +5925,6 @@ GUI_STATS_LUCKYWARS_LORE:
 - ' §8▪ §7Win rate: §a%s'
 - ' §8▪ §7Played games: §a%s'
 - ' §8▪ §7Victories: §a%s'
-- ' §8▪ §7Final kills: §a%s'
 - ' §8▪ §7Kills: §a%s'
 - ' §8▪ §7Broken luckyblocks: §a%s'
 - ''
@@ -5933,7 +5932,6 @@ GUI_STATS_LUCKYWARS_LORE:
 - ' §8▪ §7Win rate: §a%s'
 - ' §8▪ §7Played games: §a%s'
 - ' §8▪ §7Victories: §a%s'
-- ' §8▪ §7Final kills: §a%s'
 - ' §8▪ §7Kills: §a%s'
 - ' §8▪ §7Broken luckyblocks: §a%s'
 GUI_STATS_PARKOUR_LORE:
