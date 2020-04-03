@@ -2158,11 +2158,15 @@ FRIEND_SETTING_PVP_DESCRIPTION:
 - '§7Не дает другу нанести урон по вам'
 FRIEND_SETTING_CHATSUFFIX: 'Суффикс друга'
 FRIEND_SETTING_CHATSUFFIX_DESCRIPTION:
-- '§7Скрывает суффикс друга для вашего чата друзей(/fc)'
+- '§7Скрывает суффикс друга)'
 FRIEND_SETTING_CHATPREFIX: 'Префикс друга'
 FRIEND_SETTING_CHATPREFIX_DESCRIPTION:
-- '§7Скрывает префикс друга для вашего чата друзей(/fc)'
+- '§7Скрывает префикс друга'
 - '§7который вы ему задавали через /f rename'
+FRIEND_SETTING_CHATRANKPREFIX: 'Префикс друга'
+FRIEND_SETTING_CHATRANKPREFIX_DESCRIPTION:
+- '§7Скрывает префикс ранга друга'
+- '§7который вы задавали через /f rankrename'
 
 GUI_FRIENDTYPES_NAME: 'Настройки рангов друзей'
 GUI_FRIENDTYPES_RANK_NAME: 'Ранг'
