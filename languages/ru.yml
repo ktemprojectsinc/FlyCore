@@ -1013,7 +1013,7 @@ ITEM_REPLAY_LORE:
 - '§7на этом же режиме'
 
 SPECTATOR_PERK_LORE:
-- 'Выбранные дополнения:'
+- '§7Выбранные дополнения:'
 
 GUI_TP_NAME: 'Телепортатор'
 GUI_TP_LORE:
