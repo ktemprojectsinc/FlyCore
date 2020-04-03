@@ -877,6 +877,13 @@ KITWARS_KIT_CAPITAN: 'Капитан америка'
 KITWARS_KIT_DARTWEIDER: 'Дарт Вейдер'
 KITWARS_KIT_DEDPUL: 'Дэдпул'
 
+#InfectedWars
+INFECTEDWARS_INFO:
+- '§eВаша задача спрятаться в домах, чтобы'
+- '§eвас не заразили. Время в скорборде покажет сколько'
+- '§eосталось до конца игры. Успейте продержаться до конца'
+- '§eи вы выиграете.'
+
 LUCKYWARS_FLY: '§aLuckyWars §fПолет отключается через §a5 секунд.'
 LUCKYWARS_FLY_INFO: '§aLuckyWars §fИгроку %s§f выпал полёт из лаки блока'
 
