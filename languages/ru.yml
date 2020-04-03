@@ -1445,6 +1445,7 @@ NO_PERMS_STAFF: '§cДанная функция только для донате
 
 CREATIVE_COMMANDS: '§aСервер §8| §fСоздайте свой плот §c/p auto§f, или телепортируйтесь домой §c/p home'
 
+BOARD_INFECTED: 'Зараженный'
 BOARD_NEWS: 'Новости: §7'
 BOARD_NEED_BOX: 'До кейса'
 BOARD_PLAYERS: 'Игроков'
