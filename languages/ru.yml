@@ -902,7 +902,7 @@ STAYHOME_WIN_RECOVERED: 'Все выздовили'
 STAYHOME_RECOVERED: '§aВас вылечил %s'
 STAYHOME_INFECTED: '§cВас заразил %s'
 STAYHOME_RECOVERED_MSG: '%s§f вылечил %s'
-STAYHOME_INFECTED: '%s§f заразил %s'
+STAYHOME_INFECTED_MSG: '%s§f заразил %s'
 STAYHOME_RECOVERY_START:
 - '§fВсе здоровые игроки получили луки для лечения зараженных'
 - '§fПопадайте в них из лука, и лечите их!'
