@@ -896,7 +896,7 @@ STAYHOME_INFO:
 - '§eлечить зараженных попадая в них из лука.'
 STAYHOME_STARTED_SUBTITLE: '§fБегом прятаться!'
 STAYHOME_STARTED_SUBTITLE2: '§fНайдите всех!'
-STAYHOME_TIME: '%s игры'
+STAYHOME_TIME: ' игры'
 STAYHOME_WIN_INFECTED: 'Все погибли'
 STAYHOME_WIN_RECOVERED: 'Все выздовили'
 STAYHOME_RECOVERED: '§aВас вылечил %s'
