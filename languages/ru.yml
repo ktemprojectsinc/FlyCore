@@ -388,6 +388,18 @@ KEYS:
 - 'а'
 - 'ей'
 
+INFECTEDS:
+- 'зараженн'
+- 'ый'
+- 'ых'
+- 'ых'
+
+RECOVERED:
+- 'выздовивши'
+- 'йся'
+- 'хся'
+- 'хся'
+
 DONATKEYS:
 - 'донат-ключ'
 - ''
@@ -877,14 +889,16 @@ KITWARS_KIT_CAPITAN: 'Капитан америка'
 KITWARS_KIT_DARTWEIDER: 'Дарт Вейдер'
 KITWARS_KIT_DEDPUL: 'Дэдпул'
 
-#InfectedWars
-INFECTEDWARS_INFO:
-- '§eВаша задача спрятаться в домах, чтобы'
-- '§eвас не заразили. Время в скорборде покажет сколько'
-- '§eосталось до конца игры. Успейте продержаться до конца'
-- '§eи вы выиграете.'
-INFECTEDWARS_STARTED_SUBTITLE: '§fБегом прятаться в домах!'
-INFECTEDWARS_STARTED_SUBTITLE2: '§fНайди всех!'
+#StayHome
+STAYHOME_INFO:
+- '§eВаша задача спрятаться, чтобы'
+- '§eвас не заразили. После %s минут игры вы сможете'
+- '§eлечить зараженных попадая в них из лука.'
+STAYHOME_STARTED_SUBTITLE: '§fБегом прятаться!'
+STAYHOME_STARTED_SUBTITLE2: '§fНайдите всех!'
+STAYHOME_TIME_ADD: '%s игры'
+STAYHOME_WIN_INFECTED: 'Все погибли'
+STAYHOME_WIN_RECOVERED: 'Все выздовили'
 
 LUCKYWARS_FLY: '§aLuckyWars §fПолет отключается через §a5 секунд.'
 LUCKYWARS_FLY_INFO: '§aLuckyWars §fИгроку %s§f выпал полёт из лаки блока'
@@ -1455,6 +1469,7 @@ NO_PERMS_STAFF: '§cДанная функция только для донате
 CREATIVE_COMMANDS: '§aСервер §8| §fСоздайте свой плот §c/p auto§f, или телепортируйтесь домой §c/p home'
 
 BOARD_INFECTED: 'Зараженных'
+BOARD_RECOVERED: 'Здоровых'
 BOARD_NEWS: 'Новости: §7'
 BOARD_NEED_BOX: 'До кейса'
 BOARD_PLAYERS: 'Игроков'
