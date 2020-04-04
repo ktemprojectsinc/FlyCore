@@ -883,6 +883,8 @@ INFECTEDWARS_INFO:
 - '§eвас не заразили. Время в скорборде покажет сколько'
 - '§eосталось до конца игры. Успейте продержаться до конца'
 - '§eи вы выиграете.'
+INFECTEDWARS_STARTED_SUBTITLE: '§fБегом прятаться в домах!'
+INFECTEDWARS_STARTED_SUBTITLE2: '§fНайди всех!'
 
 LUCKYWARS_FLY: '§aLuckyWars §fПолет отключается через §a5 секунд.'
 LUCKYWARS_FLY_INFO: '§aLuckyWars §fИгроку %s§f выпал полёт из лаки блока'
