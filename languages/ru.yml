@@ -901,6 +901,8 @@ STAYHOME_WIN_INFECTED: 'Все погибли'
 STAYHOME_WIN_RECOVERED: 'Все выздовили'
 STAYHOME_RECOVERED: '§aВас вылечил %s'
 STAYHOME_INFECTED: '§cВас заразил %s'
+STAYHOME_RECOVERED_MSG: '%s§f вылечил %s'
+STAYHOME_INFECTED: '%s§f заразил %s'
 
 LUCKYWARS_FLY: '§aLuckyWars §fПолет отключается через §a5 секунд.'
 LUCKYWARS_FLY_INFO: '§aLuckyWars §fИгроку %s§f выпал полёт из лаки блока'
