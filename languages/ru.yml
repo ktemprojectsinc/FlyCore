@@ -899,6 +899,8 @@ STAYHOME_STARTED_SUBTITLE2: '§fНайдите всех!'
 STAYHOME_TIME: '%s игры'
 STAYHOME_WIN_INFECTED: 'Все погибли'
 STAYHOME_WIN_RECOVERED: 'Все выздовили'
+STAYHOME_RECOVERED: '§aВас вылечил %s'
+STAYHOME_INFECTED: '§cВас заразил %s'
 
 LUCKYWARS_FLY: '§aLuckyWars §fПолет отключается через §a5 секунд.'
 LUCKYWARS_FLY_INFO: '§aLuckyWars §fИгроку %s§f выпал полёт из лаки блока'
