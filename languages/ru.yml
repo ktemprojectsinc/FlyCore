@@ -903,6 +903,9 @@ STAYHOME_RECOVERED: '§aВас вылечил %s'
 STAYHOME_INFECTED: '§cВас заразил %s'
 STAYHOME_RECOVERED_MSG: '%s§f вылечил %s'
 STAYHOME_INFECTED: '%s§f заразил %s'
+STAYHOME_RECOVERY_START:
+- '§fВсе здоровые игроки получили луки для лечения зараженных'
+- '§fПопадайте в них из лука, и лечите их!'
 
 LUCKYWARS_FLY: '§aLuckyWars §fПолет отключается через §a5 секунд.'
 LUCKYWARS_FLY_INFO: '§aLuckyWars §fИгроку %s§f выпал полёт из лаки блока'
