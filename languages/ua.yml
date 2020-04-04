@@ -8357,11 +8357,11 @@ HOLO_REWARDS:
 
 HOLO_DONATE:
 - '§eПривилегии:'
-- '%pclay§f - §5%s §fрублів'
-- '%pbrick§f - §5%s §fрублів'
-- '%pcreeper§f - §5%s §fрублів'
-- '%plava§f - §5%s §fрублів'
-- '%animation%§lENDERMAN§f - §5%s §fрублів'
+- '%pclay§f - §5%dclay §fрублів'
+- '%pbrick§f - §5%dbrick §fрублів'
+- '%pcreeper§f - §5%dcreeper §fрублів'
+- '%plava§f - §5%dlava §fрублів'
+- '%animation%§lENDERMAN§f - §5%denderman §fрублів'
 - '§fПокупка на сайті:'
 - '%animation%www.flycore.ru'
 
