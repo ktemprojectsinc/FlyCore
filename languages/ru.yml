@@ -5605,7 +5605,7 @@ GUI_GAMES_SURVIVAL_LORE:
 - '§7путем получения опыта'
 - '§7и повышения уровня'
 - '§8 ▪ §7Подробнее на самом режиме §f/start'
-GUI_GAMES_STAYHOME_LORE:
+GUI_GAMES_ARCADEGAMES_LORE:
 - '§8Разные игры'
 - ''
 - '§7Сборник мини-игр:'
