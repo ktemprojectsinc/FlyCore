@@ -2583,7 +2583,7 @@ WHOIS_OFFLINE:
 - '§c§lOffline now'
 - ' §f- Lase seen §e%s ago'
 - ' §f- IP address: §c%s'
-- ' §f- Last IP address: §a%s'
+- ' §f- Last IP address: §c%s'
 - ' §f- Proxy: §c%s'
 - ' §f- Server: §c%s'
 - ' §f- Version: §c%s'
