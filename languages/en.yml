@@ -1631,7 +1631,7 @@ CORE_SETTINGS_COMMAND_HELP:
  - '§7/core settings notify §f- change core notify'
 CORE_SERVERS_COMMAND_HELP:
  - '§7/core servers group §f- servers of sets group to server'
- - '§7/core servers menu §f- servers control menu'
+# - '§7/core servers menu §f- servers control menu'
  - '§7/core servers list §f- total connected servers'
  - '§7/core servers info <server> §f- information of server'
  - '§7/core servers setmingroup <server> <group> §f- set minimal group join to server'
