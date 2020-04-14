@@ -2197,7 +2197,7 @@ FRIEND_SETTING_PVP_DESCRIPTION:
 - '§7Не дает другу нанести урон по вам'
 FRIEND_SETTING_CHATSUFFIX: 'Суффикс друга'
 FRIEND_SETTING_CHATSUFFIX_DESCRIPTION:
-- '§7Скрывает суффикс друга)'
+- '§7Скрывает суффикс друга для вашего чата друзей(/fc)'
 FRIEND_SETTING_CHATPREFIX: 'Префикс друга'
 FRIEND_SETTING_CHATPREFIX_DESCRIPTION:
 - '§7Скрывает префикс друга'
