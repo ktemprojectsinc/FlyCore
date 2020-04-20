@@ -3531,7 +3531,7 @@ VK_MSG_JOIN: |-
 VKBOT_KICK_REASON: "Аккаунт был кикнут с помощью VK-Bot"
 VKBOT_BAN_REASON:
 - '§cАккаунт заблокирован с помощью Vk-Bot'
-- '§cНапишите в §9vk.me/flycore§C боту §a!разблокировать %s"
+- '§cНапишите в §9vk.me/flycore§C боту §a!разблокировать %s'
 VKBOT_KICK_ADMIN_INFO: '§9VkBot §8| %s§7 кикнул свой аккаунт через §9Vk-bot'
 VKBOT_BAN_ADMIN_INFO: '§9VkBot §8| %s§7 заблокировал свой аккаунт через §9Vk-bot'
 VKBOT_UNBAN_ADMIN_INFO: '§9VkBot §8| %s§7 разблокировал свой аккаунт через §9Vk-bot'
