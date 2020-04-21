@@ -21,8 +21,8 @@ SLOT_EMPTY: '§cEmpty slot'
 SLOT_PREMIUM: 'Premium-slot (Empty)'
 SLOT_PREMIUM_LORE:
 - ''
-- '§7Приобретите %s§7 или выше,'
-- '§7для разблокировки данного слота'
+- '§7Buy %s§7 or higher,'
+- '§7for unlock this slot'
 BANINFO_BY_ANOTHER: '§7(By request %s§7)'
 
 TOP_POSITION: '§e%s Place'
@@ -110,7 +110,7 @@ GROUP_TIME_EXPIRE_LEFT: "§aServer §8| §fYour group's time %s§f has expired, 
 PREFIX_TIME_EXPIRE_LEFT: "§aServer §8| §fYour prefix's time %s§f has expired, and it has been removed"
 ANARCHY_KILL_MOB: '§6+%s %s for kill mob'
 MODE_KILL_PLAYER: '§6+%s %s за убийство игрока'
-BOX_GIVE_KILLS: '§fВы получили §a%s§f %s§f за убийство %s'
+BOX_GIVE_KILLS: '§fYou got §a%s§f %s§f for kill %s'
 PLAYER_IS_PRIVATE: '§aServer §8| §fCurrent player enabled private mode, information for player is not available'
 PLAYER_NO_PLOT: '§aServer §8| §fYou have to be a plot member to use your opportunities'
 PLAYER_NO_REGION: '§aServer §8| §fYou have to be a region member to use your opportunities'
@@ -206,7 +206,7 @@ RULE_ACCEPT:
 RULE_ACCEPT_TITLE: '§a✔ Agreement succesfully accepted'
 RULE_ACCEPT_SUBTITLE: '§eWish you a nice game :)'
 RULE_NO_ACCEPT: '§cAgreement §8| §cPlease accept the agreement, or refuse it for this action'
-CHECKRULE_FORMAT: '/checkrule <ник>'
+CHECKRULE_FORMAT: '/checkrule <Nickname>'
 CHECKRULE: '§cAgreement §8| %s§f - %s'
 RULE_TYPE_NA: '§d⚠ Not chosen'
 RULE_TYPE_YES: '§a✔ Agreement accepted'
@@ -234,46 +234,46 @@ STATUS: 'Status'
 AFK: '§cDo not stand still!'
 
 BUY_UNAVAILABLE_LORE:
-- '§cУ вас недостаточно %s'
+- '§cYou don't have enough %s'
 - ''
-- '§7Приобрести %s можно на'
-- '§7нашем сайте: §dflycore.ru'
+- '§7Buy %s possible on'
+- '§7our website: §dflycore.ru'
 
-GUI_SKINHISTORY_NAME: 'История скинов'
-GUI_SKINHISTORY_RESET: '§bСбросить скин'
+GUI_SKINHISTORY_NAME: 'Skin history'
+GUI_SKINHISTORY_RESET: '§bClear skin'
 GUI_SKINHISTORY_RESET_LORE:
 - ''
-- '§7У вас установлен скин игрока:'
+- '§7You have skin player:'
 - '§f%s'
 GUI_SKINHISTORY_SKIN_DEFAULT:
 - ''
-- '§C▸ У вас уже скин по умолчанию'
+- '§C▸ You already have a default skin'
 GUI_SKINHISTORY_SKIN_OTHER:
 - ''
-- '§e▸ Нажмите, чтобы сбросить скин'
-GUI_SKINHISTORY_EMPTY: '§cИстория скинов пуста'
+- '§e▸ Click, to clear skin'
+GUI_SKINHISTORY_EMPTY: '§cSkin history is empty'
 GUI_SKINHISTORY_EMPTY_LORE:
 - ''
-- '§7Скорее всего, вы еще никогда'
-- '§7не меняли скин командой §f/skin <ник>'
-GUI_SKINHISTORY_OTHER_SET: '§aСкин игрока %s'
+- '§7Most likely, you never changed'
+- '§7the skin with the command §f/skin <Nickname>'
+GUI_SKINHISTORY_OTHER_SET: '§aSkin player %s'
 GUI_SKINHISTORY_OTHER_SET_LORE:
 - ''
 - '%s'
 - ''
-- '§7С последней установки прошло:'
+- '§7Since last install passed:'
 - '§f%s'
-GUI_SKINHISTORY_ALREADY_LORE: '§C▸ У вас сейчас установлен этот скин'
-GUI_SKINHISTORY_SET_LORE: '§e▸ Нажмите, чтобы установить снова'
-GUI_SKINHISTORY_CLEAR: '§4Очистка истории'
+GUI_SKINHISTORY_ALREADY_LORE: '§C▸ You now have this skin installed.'
+GUI_SKINHISTORY_SET_LORE: '§e▸ Click, to install again'
+GUI_SKINHISTORY_CLEAR: '§4Clear history'
 GUI_SKINHISTORY_CLEAR_LORE:
 - ''
-- '§7Не хочется хранить'
-- '§7историю скинов?'
-- '§7Тогда вы можете очистить'
-- '§7её за %s'
+- '§7Do not want to store'
+- '§7skin history?'
+- '§7Then you can clean'
+- '§7for %s'
 - ''
-- '§e▸ Нажмите, чтобы очистить'
+- '§e▸ Click, for clear'
 
 
 BEST_PLAYER_INFO:
@@ -324,12 +324,12 @@ BEST_PLAYER_CASINO_WIN_MSG: "§aServer §8| §fYou got %s§f §7(§e%s§7)§f fr
 BEST_PLAYER_CASINO_LOSING_MSG: "§aServer §8| §fYou got %s§f §7(§e%s§7)§f from player's %s§а lose in the casino"
 
 GUI_TITLE_NAME: 'Titles'
-GUI_TITLE_NOT_ACCESS: '§cДоступен по особым праздникам или дням'
-GUI_TITLE_UNAVAILABLE: '§cДанный титул вам не доступен'
-GUI_TITLE_SHOW: '§e▸ Нажмите, чтобы показать титул'
-GUI_TITLE_HIDE: '§c▸ Нажмите, чтобы скрыть титул'
+GUI_TITLE_NOT_ACCESS: '§cAvailable on special holidays or days'
+GUI_TITLE_UNAVAILABLE: '§cThis title is not available to you.'
+GUI_TITLE_SHOW: '§e▸ Click to show title'
+GUI_TITLE_HIDE: '§c▸ Click to hide title'
 GUI_TITLE_LORE:
-- '§7Сменить титул на: %s'
+- '§7Change title to: %s'
 GUI_TITLE_ITEM_LORE:
 - ''
 - '§fTotal titles: §e%s'
@@ -341,10 +341,10 @@ KILLS:
 - 's'
 
 DEATHS:
-- 'смерт'
-- 'ь'
-- 'и'
-- 'ей'
+- 'death'
+- ''
+- 's'
+- 's'
 
 SECONDS: 
 - 'second'
@@ -460,10 +460,10 @@ WINS_1:
 - 's'
 
 LOSINGS:
-- 'проигрыш'
-- 'а'
-- 'а'
-- 'ей'
+- 'lose'
+- ''
+- 's'
+- 's'
 
 MONEYS:
 - 'coin'
@@ -538,10 +538,10 @@ UPDATES:
 - 's'
 
 HOMES:
-- 'дом'
-- 'а'
-- 'ов'
-- 'ов'
+- 'home'
+- ''
+- 's'
+- 's'
 
 HOMES_2:
 - 'home'
@@ -638,10 +638,10 @@ ITEMS_ADD_STATS: '§aItems §8| §fYou get stats %s'
 ITEMS_ADD_DONATE: '§aItems §8| §fYou get privilege %s'
 
 HOVER_MESSAGE_CHAT:
-- '§fНажмите сюда, чтобы написать'
-- '§fигроку %s§f в лс'
+- '§fClick here, to write'
+- '§fplayer %s§f in pm (personal message)'
 
-PLAYER_NO_USE_LEVEL: '§cОшибка, чтобы использовать это у вас должен быть уровень не ниже %s или привилегия %s§c!'
+PLAYER_NO_USE_LEVEL: '§cError, for use this you must have a level not lower %s or rank %s§c!'
 
 COINS_ADD: '§6+%s'
 KEY_ADD: '§d+%s'
@@ -655,32 +655,32 @@ HP_ADD: '§c+%s hp'
 
 PLAYER_NO_MONEY:
 - ''
-- '§aServer §8| §fOn your account недостаточно §amoney§f. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account not enough §amoney§f. You can replenish your balance on the site §cflycore.ru'
 - '§r'
 PLAYER_NO_GOLDS:
 - ''
-- '§aServer §8| §fOn your account недостаточно §egold§f. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account not enough §egold§f. You can replenish your balance on the site §cflycore.ru'
 - '§r'
 PLAYER_NO_CORE:
 - ''
-- '§aServer §8| §fOn your account недостаточно §bcores§f. Пополнить Ваш счёт можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account not enough §bcores§f. You can replenish your balance on the site §cflycore.ru'
 - '§r'
 PLAYER_NO_LEVEL:
 - ''
-- '§aServer §8| §fOn your account недостаточно §dlevel§f. Приобрести опыт можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account not enough §dlevel§f. You can buy XP on the site §cflycore.ru'
 - '§r'
 PLAYER_NO_KEYS:
 - ''
-- '§aServer §8| §fOn your account недостаточно §akeys§f. Приобрести ключи можно на сайте §cflycore.ru'
+- '§aServer §8| §fOn your account not enough §akeys§f. You can purchase keys on the site §cflycore.ru'
 - '§r'
 PLAYER_NO:
 - ''
-- '§aСервер §8| §fНа вашем счёте нехватает §a%s§f. Приобрести %s§f можно на сайте §bflycore.ru'
+- '§aServer §8| §fOn your balance is not enough §a%s§f. You can purchase %s§f on the site §bflycore.ru'
 - '§r'
-PLAYER_LIMIT: '§cОшибка, лимит символов не должен быть больше числа %s'
+PLAYER_LIMIT: '§cError, character limit should not be more than number %s'
 
 PLAYER_GADGETS_GADGET_NO_GROUP: '§cFor buying this item, your need privilege %s§c or higher'
-PLAYER_GADGETS_GADGET_NO_GROUP_ONLY: '§cОшибка, для бесплатного получения данного предмета у Вас должна быть привилегия %s'
+PLAYER_GADGETS_GADGET_NO_GROUP_ONLY: '§cError, you must have rank %s to receive this item for free'
 PLAYER_COSMETIC_NO_LEVEL: '§cFor activate, your need level §d%s§c or higher'
 
 PLAYER_GUILDSHOP_NO_MONEY: "§aGuild §8| §fThere is no enough coins on the guild's bank to buy this upgrade"
@@ -845,114 +845,113 @@ LUCKYWARS_INFO:
 - '§eso be very carefull!'
 
 BEDWARS_INFO:
-- '§eВам необходимо уничтожить команды противников раньше,'
-- '§eчем они вас! Пока у команды есть кровать — команда возрождается.'
-- '§eСломайте её у противника и защитите свою!'
+- '§eYou need to destroy enemy teams before,'
+- '§ethan they you! While the team has a bed - the team is reborn.'
+- '§eBreak it at the enemy and defend your!'
 
-BEDWARS_BOOSTER: 'Множитель §b%sx§f активирован'
-BEDWARS_MODE_RUSH: 'BedWars Rush, ваш стартовый баланс: §a%s'
+BEDWARS_BOOSTER: 'Factor §b%sx§f activate'
+BEDWARS_MODE_RUSH: 'BedWars Rush, your start balance: §a%s'
 
-BEDWARS_NO_BED_BREAK: '§cВы не можете сломать кровать вашей команды!'
+BEDWARS_NO_BED_BREAK: '§cYou cannot break your team’s bed!'
 
-ARENA_TYPE_TEAM_NO_TEAM: '§c§lВнимание! §cОбразование союзов из нескольких команд запрещено. Докладывайте о таких игроках на форум.'
-ARENA_TYPE_SOLO_NO_TEAM: '§c§lВнимание! §cКомандная игра запрещена на Solo режиме. Докладывайте о таких игроках на форум.'
+ARENA_TYPE_TEAM_NO_TEAM: '§c§lWarning! §cThe formation of unions from several teams is prohibited. Report such players to the forum.'
+ARENA_TYPE_SOLO_NO_TEAM: '§c§lWarning! §cTeam play banned in Solo mode. Report such players to the forum.'
 
 GUI_BW_SHOP_NAME: 'Shop'
 GUI_BW_SHOP_BUY: '§a▸ Click, to buy'
-GUI_BW_SHOP_NO_BUY: '§cУ вас не достаточно ресурсов'
+GUI_BW_SHOP_NO_BUY: '§cYou do not have enough resources'
 GUI_BW_SHOP_PRICE: 'Price'
 GUI_BW_SHOP_INFO:
 - ''
-- '§8Click SHIFT чтобы'
-- '§8купить в 5 раз больше'
-- '§8Цена с учетом x5: %s'
+- '§8Click SHIFT for'
+- '§8buy in 5 times more'
+- '§8Price adjusted x5: %s'
 
-GUI_BW_SHOP_BLOCKS: 'Блоки'
-GUI_BW_SHOP_CHESTPLATE: 'Броня'
-GUI_BW_SHOP_PICKAXE: 'Кирки'
-GUI_BW_SHOP_SWORD: 'Мечи'
-GUI_BW_SHOP_BOW: 'Луки'
-GUI_BW_SHOP_FEED: 'Еда'
-GUI_BW_SHOP_CHEST: 'Сундуки'
-GUI_BW_SHOP_POTION: 'Зелья'
-GUI_BW_SHOP_OTHER: 'Разное'
+GUI_BW_SHOP_BLOCKS: 'Blocks'
+GUI_BW_SHOP_CHESTPLATE: 'Armor'
+GUI_BW_SHOP_PICKAXE: 'Pickaxes'
+GUI_BW_SHOP_SWORD: 'Swords'
+GUI_BW_SHOP_BOW: 'Bows'
+GUI_BW_SHOP_FEED: 'Foods'
+GUI_BW_SHOP_CHEST: 'Chests'
+GUI_BW_SHOP_POTION: 'Potions'
+GUI_BW_SHOP_OTHER: 'Different'
 
-GUI_BW_SHOP_NO_SLOTS: '§cУ вас недостаточно места в инвентаре!'
-GUI_BW_SHOP_GUI_ADD_FAVOURITE: '§aПКМ, чтобы добавить в избранное'
-GUI_BW_SHOP_GUI_REMOVE_FAVOURITE: '§cПКМ, чтобы удалить из избранного'
-GUI_BW_SHOP_GUI_NO_SLOTS_FAVOURITE: '§cУ вас нет свободных слотов для добавления в избранное!'
-GUI_BW_SHOP_GUI_FAVOURITE: 'Пустой слот для избранного'
+GUI_BW_SHOP_NO_SLOTS: '§cYou do not have enough space in your inventory!'
+GUI_BW_SHOP_GUI_ADD_FAVOURITE: '§aRight click, to add to favorites'
+GUI_BW_SHOP_GUI_REMOVE_FAVOURITE: '§cRight click, to remove from favorites'
+GUI_BW_SHOP_GUI_NO_SLOTS_FAVOURITE: '§cYou do not have free slots to add to favorites!'
+GUI_BW_SHOP_GUI_FAVOURITE: 'Empty slot for favorites'
 GUI_BW_SHOP_GUI_FAVOURITE_LOER:
 - ''
-- '§cДанный слот заблокирован'
-- '§cКупите %s§c или выше, чтобы разблокировать'
+- '§cThis slot blocked'
+- '§cBuy %s§c or higher, for unlock'
 
 GUI_BW_SHOP_ITEM_LEVEL: '§8(§fLvl.%s§8)'
 
-GUI_BEDWARS_CHEST: 'Сундук команды'
+GUI_BEDWARS_CHEST: 'Team chest'
 
-ITEM_TP_NAME: '§eТелепортатор'
+ITEM_TP_NAME: '§eTeleportator'
 ITEM_TP_LORE:
-- '§7Используйте этот предмет,'
-- '§7чтобы наблюдать за игроками'
-ITEM_SETTINGS_NAME: '§eНастройка смотрящих'
+- '§7Use this item,'
+- '§7for watching players'
+ITEM_SETTINGS_NAME: '§eWatcher Settings'
 ITEM_SETTINGS_LORE:
-- '§7Используйте этот предмет,'
-- '§7чтобы изменить настройки'
-- '§7наблюдателя'
+- '§7Use this item,'
+- '§7for change settings'
+- '§7wacther'
 ITEM_COSMETIC_LORE:
-- '§7Используйте этот предмет,'
-- '§7чтобы выбрать косметику'
-- '§7для игры'
+- '§7Use this item,'
+- '§7for game cosmetics'
 
-GUI_TP_NAME: 'Телепортатор'
+GUI_TP_NAME: 'Teleportator'
 GUI_TP_LORE:
-- '§7Жизней: §f%s'
-- '§7Голод: §f%s'
+- '§7Health: §f%s'
+- '§7Food: §f%s'
 - ''
-- '§e▸ Нажмите, чтобы телепортироваться'
+- '§e▸ Click, for teleport'
 
-GUI_SETTINGS_NAME: 'Настройка наблюдателей'
-GUI_SETTINGS_SPEED_0: '§aУбрать скорость'
-GUI_SETTINGS_SPEED_1: '§aСкорость I'
-GUI_SETTINGS_SPEED_2: '§aСкорость II'
-GUI_SETTINGS_SPEED_3: '§aСкорость III'
-GUI_SETTINGS_SPEED_4: '§aСкорость IV'
-GUI_SETTINGS_NIGHT: '§aНочное зрение'
+GUI_SETTINGS_NAME: 'Watcher Settings'
+GUI_SETTINGS_SPEED_0: '§aClear speed'
+GUI_SETTINGS_SPEED_1: '§aSpeed I'
+GUI_SETTINGS_SPEED_2: '§aSpeed II'
+GUI_SETTINGS_SPEED_3: '§aSpeed III'
+GUI_SETTINGS_SPEED_4: '§aSpeed IV'
+GUI_SETTINGS_NIGHT: '§aNight vision'
 GUI_SETTINGS_NIGHT_OFF:
 - ''
-- '§e▸ Нажмите, чтобы выключить ночное зрение'
+- '§e▸ Click, to turn off night vision'
 GUI_SETTINGS_NIGHT_ON:
 - ''
-- '§e▸ Нажмите, чтобы включить ночное зрение'
+- '§e▸ Click, to turn on night vision'
 GUI_SETTINGS_SPECTATORS: '§aНаблюдатели'
 GUI_SETTINGS_SPECTATORS_HIDE:
 - ''
-- '§e▸ Нажмите, чтобы спрятать наблюдателей'
+- '§e▸ Click to hide watcher'
 GUI_SETTINGS_SPECTATORS_SHOW:
 - ''
-- '§e▸ Нажмите, чтобы показать наблюдателей'
-GUI_SETTINGS_FLY: '§aПолёт'
+- '§e▸ Click to show watcher'
+GUI_SETTINGS_FLY: '§aFlight'
 GUI_SETTINGS_FLY_ON:
 - ''
-- '§e▸ Нажмите, чтобы включить полёт'
+- '§e▸ Click to enable flight'
 GUI_SETTINGS_FLY_OFF:
 - ''
-- '§e▸ Нажмите, чтобы выключить полёт'
+- '§e▸ Click to disable flight'
 
-GAME_KIT_UNSELECT: '§eНажмите ещё раз, чтобы аннулировать покупку набора §a%s'
-GAME_KIT_RETURN: '§eВам вернули деньги за набор §a%s'
+GAME_KIT_UNSELECT: '§eClick again to cancel set purchase §a%s'
+GAME_KIT_RETURN: '§eYour money back for a kit §a%s'
 
-#GUI_KIT_NAME: 'Покупка наборов'
+#GUI_KIT_NAME: 'Kit buying'
 
-GAME_SPEED_DEFAULT: 'Вы стали двигаться со стандартной скоростью!'
-GAME_SELECT: 'Вы выбрали %s'
-GAME_NIGHT_ON: 'Вы включили себе §aНочное зрение§e!'
-GAME_NIGHT_OFF: 'Вы выключили себе §aНочное зрение§e!'
-GAME_SPECTATORS_HIDE: 'Вы теперь не видете §aНаблюдателей§e!'
-GAME_SPECTATORS_SHOW: 'Вы видете §aНаблюдателей§e!'
-GAME_FLYING_ON: 'Вы включили §aПолёт§e!'
-GAME_FLYING_OFF: 'Вы выключили §aПолёт§e!'
+GAME_SPEED_DEFAULT: 'You began to move at standard speed!'
+GAME_SELECT: 'You choose %s'
+GAME_NIGHT_ON: 'You turned on your §aNight vision§e!'
+GAME_NIGHT_OFF: 'You turned off your §aNight vision§e!'
+GAME_SPECTATORS_HIDE: 'You don't see now §aWatchers§e!'
+GAME_SPECTATORS_SHOW: 'You see §aWatchers§e!'
+GAME_FLYING_ON: 'You turned on §aFlight§e!'
+GAME_FLYING_OFF: 'You turned off §aFlight§e!'
 
 PLAYER_TEAM_NO_PLACES: '§cThere is no slots in this team.'
 PLAYER_TEAM_SELECTED: 'You chose team %s'
@@ -972,33 +971,33 @@ SITESHOP_KIT_MEGA: 'Kit mega'
 SITESHOP_LUCKYCHEST: 'Default keys'
 SITESHOP_DONATKEY: 'Donate key'
 
-SITE_SHOP_ITEM_ALERT: '§aМагазин §8| §fВсе предметы успешно выданы'
-SITE_SHOP_NO_SLOTS: '§cУ вас недостаточно места в инвентаре!'
-SITE_SHOP_ITEMS_NAME: 'Предметы'
+SITE_SHOP_ITEM_ALERT: '§aShop §8| §fAll items successfully gived'
+SITE_SHOP_NO_SLOTS: '§cYou do not have enough space in your inventory!'
+SITE_SHOP_ITEMS_NAME: 'Items'
 SITE_SHOP_ITEM_EMPTY_LORE:
-- '§7У вас нет доступных предметов'
-- '§7Покупка на сайте §dflycore.ru'
+- '§7You have no items available'
+- '§7Purchase on site §dflycore.ru'
 SITE_SHOP_ITEM_LORE_1:
-- '§7Получить следующие предметы:'
+- '§7Get the following items:'
 SITE_SHOP_ITEM_LORE_2:
 - ' '
-- '§cВНИМАНИЕ! У вас должно быть %s'
-- '§cсвободных слотов в вашем инвентаре!'
+- '§cWARNING! You should have %s'
+- '§cfree slots in your inventory!'
 - ' '
-SITE_SHOP_ITEM_LORE_3: '§e▸ Нажмите, чтобы получить'
+SITE_SHOP_ITEM_LORE_3: '§e▸ Click, for buy'
 SITE_SHOP_ITEM_LORE_4:
-- '§7Цена: §e%s §7%s'
+- '§7Price: §e%s §7%s'
 - ''
-- '§e▸ Нажмите, чтобы купить'
+- '§e▸ Click, for buy'
 
 PERSONALUP_CONFIRM: '§cConfirm your key /personalup <key>'
 
 REWARDS_1: '§fYou got §b%s§f %s:'
 REWARDS_2: '§7+§6%s§f %s'
 REWARDS_3: '§7+§a%s§f EXP'
-REWARDS_4: '§7+§d%s§f Косметических keys'
-REWARDS_5: '§7+§d%s§f Косметическо-игровых keys'
-REWARDS_6: '§7+§d%s§f Денежных keys'
+REWARDS_4: '§7+§d%s§f Cosmetics keys'
+REWARDS_5: '§7+§d%s§f Cosmetics-game keys'
+REWARDS_6: '§7+§d%s§f Money keys'
 REWARDS_7: '§7+§d%s§f Ultra keys'
 REWARDS_8: '§7+§e%s§f Golds'
 REWARDS_9: '§7+§b%s§f %s'
@@ -1022,7 +1021,7 @@ ANS_USE_HOVER: '§fClick to, answered to player %s'
 
 REPORT_REASON_1: '3.10. (Advertising other resources)'
 REPORT_REASON_2: '3.3. (Flood)'
-REPORT_REASON_3: '5.6. (Попрашайнечество)'
+REPORT_REASON_3: '5.6. (Begging)'
 REPORT_REASON_4: '(Possibly account hacked, report vk.com/flycore)'
 REPORT_REASON_5: '2.1. (Cheats)'
 
@@ -1036,12 +1035,12 @@ SERVER_QUEUE: '§aServer §8| §fTeleported to server §a%s'
 TAB_HEADER:
 - '§a§lFlyCore'
 - ''
-- '§fShop-online:'
+- '§fWebsite:'
 - '§ewww.flycore.ru'
 - ''
 TAB_FOOTER:
 - ''
-- 'Your location is server:'
+- 'You are in:'
 - '§e%s'
 
 REDIRECT_ERROR: '§cUnable to find suitable server('
@@ -1102,15 +1101,15 @@ ITEM_DELAY_LORE:
  - '§7Delay: %s'
  - ''
  - ' §e▸ Click, to %s delay'
-ITEM_TRACES_NAME: '§eСледы'
+ITEM_TRACES_NAME: '§eFootprints'
 ITEM_TRACES_LORE:
  - '§7Allows you to enable or disable'
- - '§7Следы после вашего хождения'
- - '§7на всех режимах'
+ - '§7Footprints after your walk'
+ - '§7in all games'
  - ''
- - '§7Следы: %s'
+ - '§7Footprints: %s'
  - ''
- - ' §e▸ Нажмите, чтобы %s следы'
+ - ' §e▸ Click, for %s следы'
 ITEM_GAME_NAME: '§eGame menu'
 ITEM_GAME_LORE:
  - '§7Universal device'
@@ -1333,8 +1332,8 @@ DISABLE_CHAT_IN_LIMBO: '§aServer §8| §fSorry, buy You can not write in §acha
 DISABLE_COMMAND_IN_LIMBO: '§aServer §8| §fSorry, but You can not §ause commands§f. Back in main lobby §7/hub§f or §7/lobby'
 DISABLE_INTERACT_IN_LIMBO: '§aServer §8| §fSorry, but You can not §ainterract with items§f. Back in main lobby §7/hub§f or §7/lobby'
 ERROR_COMMAND: '§cError, write %s'
-ERROR_COMMAND_IN_GAME: '§cДанная команда недоступна во время игры'
-ERROR_COMMAND_IN_LOBBY: '§cДанная команда доступна только во время игры'
+ERROR_COMMAND_IN_GAME: '§cThis command is not available during the game'
+ERROR_COMMAND_IN_LOBBY: '§cThis command is available only during the game'
 
 VERIFY_ALERT: '§aVerify §8| §cVerify your account -> /verify <code>'
 VERIFY_SUCCESS: '§aVerify §8| §fYou verifed your account, data updated'
@@ -1347,13 +1346,13 @@ VERIFY_UPDATED_BROADCAST: '§cVerify §8| %s§a updated dats his session'
 VERIFY_ERROR_BROADCAST: '§cVerify §8| %s§c written wrong code'
 VERIFY_BLOCKED_BROADCAST: '§cVerify §8| %s§4 was blocked'
 VERIFY_REMOVED_BROADCAST: '§cVerify §8| %s§c removed data his session'
-VERIFY_NOT_ENABLE: '§cVerify §8| §cДля вас недоступна данная аунтефикация'
+VERIFY_NOT_ENABLE: '§cVerify §8| §cThis authentication is not available to you'
 
 NO_PERMS: '§cYou do not have permissions'
 NO_PERMS_GROUP: '§cYou do not have permissions, buy %s§c or higher'
 NO_PERMS_STATS: '§cYou do not have permissions, get %s§c or higher'
-NO_PERMS_TITLE: '§c✗ У вас нет прав ✗'
-NO_PERMS_SUBTITLE: '§cСтаньте минимум %s§c для доступа'
+NO_PERMS_TITLE: '§c✗ You do not have permissions ✗'
+NO_PERMS_SUBTITLE: '§cBecome a minimum %s§c for access'
 NO_PERMS_ONLY: '§cThis function is only for %s'
 
 REPORT_FORMAT: '/report <nickname> <reason>'
@@ -1454,9 +1453,10 @@ GROUP_PREFIX_FORMAT: '/group prefix <prefix>'
 GROUP_CLEAR_FORMAT: '/group clear <nickname>'
 GROUP_VIEW_FORMAT: '/group view <group>'
 GROUP_MIGRATE_FORMAT: '/group migrate <old nickname> <new nickname>'
-GROUP_SETLONGPREFIX_FORMAT: '/group setlongprefix <ник> <время> <префикс>'
-GROUP_SETLONGGROUP_FORMAT: '/group setlonggroup <ник> <время> <донат-группа>'
-GROUP_PREFIXRESET_FORMAT: '/group prefixreset <ник>'
+GROUP_SETLONGPREFIX_FORMAT: '/group setlongprefix <nickname> <time> <prefix>'
+GROUP_SETLONGGROUP_FORMAT: '/group setlonggroup <nickname> <time> <rank>'
+GROUP_PREFIXRESET_FORMAT: '/group prefixreset <nickname>'
+#Зачем вообще переводить группы доната на английский? Будут англ. админы?
 
 GROUP_HELP:
  - '§7/group setlongprefix <ник> <время> <префикс> §f- установить временный префикс'
@@ -7706,11 +7706,11 @@ GUI_PTIME_ITEM_WATCH_LORE:
 - '§7Только для %s §7и выше'
 - ''
 - '§e▸ Нажмите, чтобы сменить'
-GUI_PLAYER_WARP_NAME: 'Список варпов - %s'
+GUI_PLAYER_WARP_NAME: 'Warps list - %s'
 
-DAY: день
-NIGHT: ночь
-MORNING: утро
+DAY: day
+NIGHT: night
+MORNING: morning
 PWEATHER_CHANGED: 'Погода изменена'
 TELEPORT_MOVE_ERROR: '§cОшибка, вы двинулись, телепортация отменена'
 TELEPORTING: 'Телепортируем, не двигайтесь §a%s§f %s'
@@ -7731,9 +7731,9 @@ RECIPE_LIST_VIEW: 'У предмета %s несколько рецептов. �
 SPEED: '§fУстановлена скорость §a%s'
 SPEED_TO: '§fУстановлена скорость §a%s §fдля игрока %s'
 NAME_IS_INVALID: '§cВ нике есть недопустимые символы. Разрешено использовать только цифры и английские буквы!'
-S_FORMAT: '/s <ник игрока>'
+S_FORMAT: '/s <Nickname player>'
 
-TPTOGGLE_ENABLED: '§cИгрок %s отключил все запросы на телепортации'
+TPTOGGLE_ENABLED: '§cPlayer %s disable teleportation'
 CALL_HOVER_ACCEPT:
 - '§fНажмите сюда, чтобы §aпринять'
 - '§fзапрос от игрока %s'
@@ -7745,10 +7745,10 @@ CALL_INVITE_2: ' §fДля принятия запроса пишите §c'
 CALL_INVITE_3: ' §fДля отмены запроса пиши §c'
 CALL_INVITE_4: ' §fУ вас есть §a120 §fсекунд, чтобы его принять'
 
-HOVER: ' §7(наведите сюда)'
+HOVER: ' §7(click here)'
 
-TPTOGGLE_ENABLE: 'Телепортации - §aвключены'
-TPTOGGLE_DISABLE: 'Телепортации - §cотключены'
+TPTOGGLE_ENABLE: 'Teleportation - §aenabled'
+TPTOGGLE_DISABLE: 'Teleportation - §cdisabled'
 
 #items
 FIREWORK: 'Firework'
@@ -8084,7 +8084,7 @@ AUCTION_SUB_TYPE_LORE:
 - ''
 - '§e▸ Нажмите, чтобы выбрать этот тип'
 AUCTION_COMMAND_HELP:
-- '§7/ah §f- открыть аукцион'
+- '§7/ah §f- open auction'
 - '§7/ah sell <цена> [кол-во] [время в часах] §f- выставить предметы в руке на продажу'
 - '§7/ah show <ник игрока> §f- посмотреть продаваемые предметы этим игроком'
 AUCTION_CONFIRMED_GUI: 'Подтверждение покупки'
@@ -8127,26 +8127,26 @@ SHOP_LORE_FIXED_ITEM:
 - '§7Нажмите на §fколесико мыши,'
 - '§7чтобы продать все %s'
 - ''
-- '§e▸ ЛКМ, чтобы купить'
-- '§e▸ ПКМ, чтобы продать'
+- '§e▸ Left click, for buy'
+- '§e▸ Right click, for sell'
 SHOP_LORE_FIXED_ITEM_BUY:
 - ''
-- '§7Цена покупки: §a%s'
+- '§7Price: §a%s'
 - ''
-- '§e▸ Нажмите, чтобы купить'
+- '§e▸ Click, to buy'
 SHOP_LORE_FIXED_ITEM_SELL:
 - ''
 - '§7Получите после продажи: §a%s'
 - ''
-- '§7Нажмите на §fколесико мыши,'
-- '§7чтобы продать все %s'
+- '§7Click to §fколесико мыши,'
+- '§7for sell all %s'
 - ''
-- '§e▸ Нажмите, чтобы продать'
-SHOP_GUIBUY_NAME: 'Покупка %s'
-SHOP_GUISELL_NAME: 'Продажа %s'
+- '§e▸ Click, for sell'
+SHOP_GUIBUY_NAME: 'Buy %s'
+SHOP_GUISELL_NAME: 'Sell %s'
 SHOP_ITEMBUY_LORE:
 - ''
-- '§7Цена покупки §c%s'
+- '§7Price §c%s'
 SHOP_ITEM_NO_MONEY:
 - ''
 - '§cОшибка, у вас недостаточно средств'
@@ -8334,19 +8334,19 @@ SITE_ADD_HELP:
 - '§aServer §8| §fПожалуйста добавьте новую запись (СУБДОМЕН) §aflycore§f типа §aA§f в вашем домене,'
 - '§aServer §8| §fи введите §c/contact site add ваш_сайт'
 SITE_ADD_ERROR:
-- '§cОшибка, невозможно добавить сайт! Проверьте все ли вы сделали правильно.'
+- '§cError, невозможно добавить сайт! Проверьте все ли вы сделали правильно.'
 - '§cУ вас должна быть запись: flycore.%s с типом A'
-- '§cВнимание! Обновление записи может занять до 72 часов!'
-SITE_ADD_ALREADY: '§cОшибка, данный домен уже привязал кто-то другой'
-SITE_ADD_BONUS_NO: '§cОшибка, данный домен ранее уже кем-то привязывался, бонус за него не дан'
+- '§cWarning! Update записи может занять до 72 hours!'
+SITE_ADD_ALREADY: '§cError, this домен уже привязал кто-то другой'
+SITE_ADD_BONUS_NO: '§cError, this домен ранее уже кем-то привязывался, бонус за него не дан'
 SITE_ADD_BONUS_FAKE: 
-- '§aServer §8| §fДанный сайт является бесплатным, вы получили бонус за него в виде: §6%s§f %s'
+- '§aServer §8| §fThis site is free, you got bonus for him: §6%s§f %s'
 SITE_ADD_BONUS:
-- '§aServer §8| §fВы получили бонус в виде §b%s§f %s§f и §e%s§f %s, за добавление сайта'
+- '§aServer §8| §fYou got bonus §b%s§f %s§f and §e%s§f %s, for adding site'
 SITE_ADD_CONFIRM: '§aСервер §8| §fВы успешно подтвердили владение доменом §a%s'
 SITE_NOT_FOUND: '§cУ вас еще не добавлен сайт, добавьте его /contact site add'
-SITE_REMOVE_CONFIRM: '§aСервер §8| §fСайт §a%s§f успешно удален'
-SITE_YOU: '§aServer §8| §fВаш сайт §a%s'
+SITE_REMOVE_CONFIRM: '§aСервер §8| §fSite §a%s§f succesfully deleted'
+SITE_YOU: '§aServer §8| §fYour site §a%s'
 
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, played - §a%s'
@@ -8385,24 +8385,24 @@ HOLO_SITE:
 HOLO_ANARCHY:
 - '§a§lAnarchy'
 - '§7Information:'
-- '§fДля поиска рандомной локации - §7/rtp'
-- '§fТочка дома сохраняется где Вы спали'
-- '§fЗдесь нету приватов и регионов!'
+- '§fTeleport to random location - §7/rtp'
+- '§fThe house point is saved where you slept'
+- '§fThere are no regions!'
 - '§fНа режиме §c4§f правила §7/rules'
-- '§fНаборы для §3§lCLAY§f и выше §7/kit'
+- '§fKits for §3§lCLAY§f or higher §7/kit'
 
 HOLO_CREATIVE:
 - '§a§lCreative'
 - '§7Information:'
-- '§fСоздание плота §7/plot auto'
-- '§fДобавить друга в участок §7/plot trust <ник>'
-- '§fДруг может строить пока Вы онлайн §7/plout add <ник>'
-- '§fУдалить друга из участка §7/plot remove <ник>'
-- '§fЗаблокировать на участке §7/plot deny <ник>'
-- '§fРазблокировать на участке §7/plot undeny <ник>'
-- '§fКикнуть игрока с участка §7/plot kick <ник>'
-- '§fСписок участков §7/plot list <ник>'
-- '§fДомой §7/plot home'
+- '§fCreate plot §7/plot auto'
+- '§fAdd player in plot §7/plot trust <ник>'
+- '§fЗlayer can build while you are online §7/plot add <ник>'
+- '§fDelete player in plot §7/plot remove <ник>'
+- '§fBlock player §7/plot deny <ник>'
+- '§fUnblock player §7/plot undeny <ник>'
+- '§fKick player §7/plot kick <ник>'
+- '§fPlot list §7/plot list <ник>'
+- '§fTeleport to home §7/plot home'
 
 HOLO_RTP:
  - '§cRandom teleport'
