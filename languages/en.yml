@@ -952,7 +952,7 @@ GAME_SPEED_DEFAULT: 'You began to move at standard speed!'
 GAME_SELECT: 'You choose %s'
 GAME_NIGHT_ON: 'You turned on your §aNight vision§e!'
 GAME_NIGHT_OFF: 'You turned off your §aNight vision§e!'
-GAME_SPECTATORS_HIDE: 'You don't see now §aWatchers§e!'
+GAME_SPECTATORS_HIDE: "You don't see now §aWatchers§e!"
 GAME_SPECTATORS_SHOW: 'You see §aWatchers§e!'
 GAME_FLYING_ON: 'You turned on §aFlight§e!'
 GAME_FLYING_OFF: 'You turned off §aFlight§e!'
