@@ -57,8 +57,8 @@ NOOBIK_NOOB4IK:
 - 'ато некоторые подумают что я умерал так'
 - 'меня все бопиждали'
 
-BAN_REQUEST_SENT: '§eYour request to block this player has been sent to all online moderators'
-BAN_REQUEST_ALREADY_SENT: '§cPlease to block this player has already been sent, wait for decision'
+BAN_REQUEST_SENT: '§aRequests §8| §eYour request to block this player has been sent to all online moderators'
+BAN_REQUEST_ALREADY_SENT: '§aRequests §8| §cPlease to block this player has already been sent, wait for decision'
 SERVER_CLOSED_PLAYER_CONNECTION: '§aServer §8| §fServer §a%s §fshut down your connection, Your server is installed on §a%s'
 
 BAN_REQUEST_BROADCAST: '§cModeration §8| %s §flock requests %s§f on %s §fbecause of §e%s'
@@ -66,30 +66,31 @@ BAN_REQUEST_ACCEPT_BROADCAST: '§cModeration §8| %s§a accepted§7 a request to
 BAN_REQUEST_REJECT_BROADCAST: '§cModeration §8| %s§c declined§7 a request to block §e%s'
 BAN_ACCEPT_FORMAT: '/banrequests accept <the nickname of the offender>'
 BAN_REJECT_FORMAT: '/banrequests reject <the nickname of the offender>'
-BANIP_REQUEST_SENT: '§eYour request to block ip address was sent to all online-moderators'
-BANIP_REQUEST_ALREADY_SENT: '§cA request for blocking ip address was already sent, wait decision'
+BANIP_REQUEST_SENT: '§aRequests §8| §eYour request to block ip address was sent to all online-moderators'
+BANIP_REQUEST_ALREADY_SENT: '§aRequests §8| §cA request for blocking ip address was already sent, wait decision'
 BANIP_REQUEST_BROADCAST: '§cModeration §8| %s§7 asks to block ip adress §a%s§7 for %s with reason §e%s'
 BANIP_REQUEST_ACCEPT_BROADCAST: '§cModeration §8| %s§a accepted§7 request for blocking address §a%s'
 BANIP_REQUEST_REJECT_BROADCAST: '§cModeration §8| %s§c declined§7 request for blocking address §a%s'
-BANIP_REQUEST_ACCEPT: '%s §aaccepted your request for blocking address %s'
-BANIP_REQUEST_REJECT: '%s §cdeclined your request for blocking address %s'
+BANIP_REQUEST_ACCEPT: '§aRequests §8| %s§a accepted your request for blocking address %s'
+BANIP_REQUEST_REJECT: '§aRequests §8| %s§c declined your request for blocking address %s'
 
-BAN_REQUEST_HOVER: '§fClick to accept the request'
+BAN_REQUEST_HOVER:
+- '§fClick to accept the request'
 
-BAN_REQUEST_NOT_FOUND: '§cPlayer lock request %s not found or already closed'
+BAN_REQUEST_NOT_FOUND: '§aRequests §8| §cPlayer lock request %s not found or already closed'
 
-BAN_REQUEST_ACCEPT: '%s §aApproved your request to lock %s'
-BAN_REQUEST_REJECT: '%s §cDenied your request for a lock %s'
+BAN_REQUEST_ACCEPT: '§aRequests §8| %s§a Approved your request to lock %s'
+BAN_REQUEST_REJECT: '§aRequests §8| %s§c Denied your request for a lock %s'
 
 BAN_REQUEST_FOR_PERSONAL:
  - "§cYou can't send a lock request to the server staff"
  - '§cFor it exists discussion on group https://vk.com/topic-157663196_39337015'
 
 CONVERT_FORMAT: '/convert <golds/coins> <golds sum>'
-CONVERT_ERROR: '§cError, you must specify only a positive number!'
+CONVERT_ERROR: '§aServer §8| §cError, you must specify only a positive number!'
 CONVERT: '§aServer §8| §fYou have successfully exchanged %s §f%s on %s §f%s. Comission by paying made up §c%s §f%s (§e%s§f)'
-CONVERT_AVAILABLE: '§cError, available currencies: golds, coins'
-CONVERT_ERROR_NO: '§cError, you can not exchanged amounts lower than %s and higher than %s at a one time!'
+CONVERT_AVAILABLE: '§aServer §8| §cError, available currencies: golds, coins'
+CONVERT_ERROR_NO: '§aServer §8| §cError, you can not exchanged amounts lower than %s and higher than %s at a one time!'
 
 CORE_PROXY_CONNECTED: '§cCore §8| §7Proxy §a%s§a success§7 connected from address §e%s'
 CORE_PROXY_CONNECTION_CLOSED: '§cCore §8| §7Proxy §a%s§c disconnected§7, of reason: §a%s'
@@ -103,8 +104,8 @@ CORE_HANDSHAKE_CONNECTION_CLOSED: '§cCore §8| §7Connection §a%s§7 closed fo
 CORE_HANDSHAKE_CONNECTION_CONFIRM: '§cCore §8| §7Connection §a%s§7 successful accepted (§e#%s§7)'
 
 CORE_NO_CONNECTED:
-- '§cAt this moment, there is no connection to core, wait a little for its connection.'
-- ' §cwritten by your commands, will be saved in background mode.'
+- '§aRequests §8| §fAt this moment, there is no connection to core, wait a little for its connection.'
+- '§f written by your commands, will be saved in background mode.'
 
 GROUP_TIME_EXPIRE_LEFT: "§aServer §8| §fYour group's time %s§f has expired, and it has been removed"
 PREFIX_TIME_EXPIRE_LEFT: "§aServer §8| §fYour prefix's time %s§f has expired, and it has been removed"
@@ -190,7 +191,9 @@ RULE_NO_AGREEMENT:
 - '§cAgreement §8| §f§nOtherwise, please leave the server'
 - ''
 RULE_ORIGINAL: '§7§oLink to the original agreement: flycore.ru/elua'
-RULE_NO_AGREEMENT_HOVER: 'Click here,\nto accept agreement'
+RULE_NO_AGREEMENT_HOVER:
+- 'Click here,'
+- 'to accept agreement'
 RULE_ALREADY_ACCEPT: '§cError, you have already accepted eula, write §c%s false to refuse'
 RULE_FALSE:
 - ''
@@ -198,7 +201,7 @@ RULE_FALSE:
 - ''
 RULE_FALSE_TITLE: '§c✗ You succesfully refused the agreement'
 RULE_FALSE_SUBTITLE: '§cPlease leave the server, as soon as possible!'
-RULE_FALSE_ALREADY: '§cYou do not have an agreement, because you completely refused it'
+RULE_FALSE_ALREADY: '§cAgreement §8| §cYou do not have an agreement, because you completely refused it'
 RULE_ACCEPT:
 - ''
 - '§aAgreement §8| §fAgreement accepted, have a nice game :)'
@@ -234,7 +237,7 @@ STATUS: 'Status'
 AFK: '§cDo not stand still!'
 
 BUY_UNAVAILABLE_LORE:
-- '§cYou don't have enough %s'
+- "§cYou don't have enough %s"
 - ''
 - '§7Buy %s possible on'
 - '§7our website: §dflycore.ru'
@@ -641,7 +644,7 @@ HOVER_MESSAGE_CHAT:
 - '§fClick here, to write'
 - '§fplayer %s§f in pm (personal message)'
 
-PLAYER_NO_USE_LEVEL: '§cError, for use this you must have a level not lower %s or rank %s§c!'
+PLAYER_NO_USE_LEVEL: '§aAccount §8| §cError, for use this you must have a level not lower %s or rank %s§c!'
 
 COINS_ADD: '§6+%s'
 KEY_ADD: '§d+%s'
@@ -655,33 +658,33 @@ HP_ADD: '§c+%s hp'
 
 PLAYER_NO_MONEY:
 - ''
-- '§aServer §8| §fOn your account not enough §amoney§f. You can replenish your balance on the site §cflycore.ru'
+- '§aAccount §8| §fOn your account not enough §amoney§f. You can replenish your balance on the site §cflycore.ru'
 - '§r'
 PLAYER_NO_GOLDS:
 - ''
-- '§aServer §8| §fOn your account not enough §egold§f. You can replenish your balance on the site §cflycore.ru'
+- '§aAccount §8| §fOn your account not enough §egold§f. You can replenish your balance on the site §cflycore.ru'
 - '§r'
 PLAYER_NO_CORE:
 - ''
-- '§aServer §8| §fOn your account not enough §bcores§f. You can replenish your balance on the site §cflycore.ru'
+- '§aAccount §8| §fOn your account not enough §bcores§f. You can replenish your balance on the site §cflycore.ru'
 - '§r'
 PLAYER_NO_LEVEL:
 - ''
-- '§aServer §8| §fOn your account not enough §dlevel§f. You can buy XP on the site §cflycore.ru'
+- '§aAccount §8| §fOn your account not enough §dlevel§f. You can buy XP on the site §cflycore.ru'
 - '§r'
 PLAYER_NO_KEYS:
 - ''
-- '§aServer §8| §fOn your account not enough §akeys§f. You can purchase keys on the site §cflycore.ru'
+- '§aAccount §8| §fOn your account not enough §akeys§f. You can purchase keys on the site §cflycore.ru'
 - '§r'
 PLAYER_NO:
 - ''
-- '§aServer §8| §fOn your balance is not enough §a%s§f. You can purchase %s§f on the site §bflycore.ru'
+- '§aAccount §8| §fOn your balance is not enough §a%s§f. You can purchase %s§f on the site §bflycore.ru'
 - '§r'
-PLAYER_LIMIT: '§cError, character limit should not be more than number %s'
+PLAYER_LIMIT: '§aServer §8| §cError, character limit should not be more than number %s'
 
-PLAYER_GADGETS_GADGET_NO_GROUP: '§cFor buying this item, your need privilege %s§c or higher'
-PLAYER_GADGETS_GADGET_NO_GROUP_ONLY: '§cError, you must have rank %s to receive this item for free'
-PLAYER_COSMETIC_NO_LEVEL: '§cFor activate, your need level §d%s§c or higher'
+PLAYER_GADGETS_GADGET_NO_GROUP: '§aAccount §8| §cFor buying this item, your need privilege %s§c or higher'
+PLAYER_GADGETS_GADGET_NO_GROUP_ONLY: '§aAccount §8| §cError, you must have rank %s to receive this item for free'
+PLAYER_COSMETIC_NO_LEVEL: '§aAccount §8| §cFor activate, your need level §d%s§c or higher'
 
 PLAYER_GUILDSHOP_NO_MONEY: "§aGuild §8| §fThere is no enough coins on the guild's bank to buy this upgrade"
 PLAYER_GUILDSHOP_ALREADY: '§aGuild §8| §fThis updrage is already bought'
@@ -712,6 +715,7 @@ PLAYER_GUILD_YOU_KICKED:
 - '§c • §fDate: §a%s'
 - '§c • §e%s ago'
 
+#boosters
 PLAYER_BOOSTER_BUY_MULTIPLY:
 - ''
 - '                §8-| §b§lBOOSTERS §8|-'
@@ -761,7 +765,7 @@ PLAYER_BOOST_PLEASE_MADE_SCREENSHOT:
 AVAILABLE_SERVER_NOT_FOUND:
 - '§aServer §8| §fCould not find suitable server'
 
-SERVER_NOT_AVAILABLE_GROUP: '§cError, entry is available only for %s§c or higher'
+SERVER_NOT_AVAILABLE_GROUP: '§aСервер §8| §cError, entry is available only for %s§c or higher'
 PLAYER_SERVER_ALREADY: '§aServer §8| §cYou already on current server!'
 
 SLOT_BUSY: '§cSorry, but You was transfered to lobby, Your slot took %s'
@@ -972,7 +976,7 @@ SITESHOP_LUCKYCHEST: 'Default keys'
 SITESHOP_DONATKEY: 'Donate key'
 
 SITE_SHOP_ITEM_ALERT: '§aShop §8| §fAll items successfully gived'
-SITE_SHOP_NO_SLOTS: '§cYou do not have enough space in your inventory!'
+SITE_SHOP_NO_SLOTS: '§aСервер §8| §cYou do not have enough space in your inventory!'
 SITE_SHOP_ITEMS_NAME: 'Items'
 SITE_SHOP_ITEM_EMPTY_LORE:
 - '§7You have no items available'
@@ -1017,7 +1021,8 @@ PRIZE_NO_LEVEL: '§cYou must have minimum 1 level, to get reward'
 ANS_REASON: '4.4. (Offtopic)'
 ANS_REASON_MSG: 'This chat is intended only for helping player with adequate question, remember this'
 ANS_USE_MSG: '§aQuestions §8| §fWrite for answer §a/ans %s <your message> §7(hover)'
-ANS_USE_HOVER: '§fClick to, answered to player %s'
+ANS_USE_HOVER:
+- '§fClick to, answered to player %s'
 
 REPORT_REASON_1: '3.10. (Advertising other resources)'
 REPORT_REASON_2: '3.3. (Flood)'
@@ -1029,7 +1034,10 @@ SERVER_STOP: '§aServer §8| §fStopping server §a%s§f...'
 SERVER_START: '§aServer §8| §fStarting server §a%s§f..'
 SERVER_KILL: '§aServer §8| §fKilling server §a%s§f. . '
 
-LEVEL_NOT: '§cError, rewards can receive only 5 level or higher'
+LEVEL_NOT:
+- ''
+- '§cError, rewards can receive only 5 level or higher'
+- ' '
 SERVER_QUEUE: '§aServer §8| §fTeleported to server §a%s'
 
 TAB_HEADER:
@@ -1047,19 +1055,37 @@ REDIRECT_ERROR: '§cUnable to find suitable server('
 HUBS_ERROR: '§cError, lobby unavailable, try again later'
 
 JOIN_WARNING_IP_CHANGE: '§c⚠ Attention! §fYour §cip last session address§f does not match, point here, and check'
-JOIN_WARNING_HOVER: "§fyour last address: §a%s\n§fyour current address: §c%s\n§fyour mail: %s\n\n§frecommended: %s"
+JOIN_WARNING_HOVER:
+- '§fYour last address: §a%s'
+- '§fyour current address: §c%s'
+- '§fyour mail: %s'
+- ''
+- '§frecommended: %s'
 JOIN_NOT_MAIL: '§cNo mail'
-JOIN_RECOMMEND_ADDMAIL: "§bBind mail\n\n §e▸ Click here to link your email"
-JOIN_RECOMMEND_CREATEAPI: "§bCreate api-key\n\n §e▸ Click here to create an api key"
-JOIN_RECOMMEND_CHANGEAPI: "§bTo change the api-key\n\n §e▸ Click here to change your api key"
+JOIN_RECOMMEND_ADDMAIL:
+- '§bBind mail'
+- ''
+- '§e▸ Click here to link your email'
+JOIN_RECOMMEND_CREATEAPI:
+- '§bCreate api-key'
+- ''
+- '§e▸ Click here to create an api key'
+JOIN_RECOMMEND_CHANGEAPI:
+- '§bTo change the api-key'
+- ''
+- ' §e▸ Click here to change your api key'
 
 GUILD_JOIN_CHAT: '§2Guilds §8| %s §f%s to server'
-GUILD_JOIN_HOVER: "§fClick here,\n§fto write to the player %s"
+GUILD_JOIN_HOVER:
+- '§fClick here,'
+- '§fto write to the player %s'
 GUILD_JOIN_ACTIONBAR: '§2Guilds §8| %s §f%s to server'
 GUILD_JOIN_ONLINE: '§2Guilds §8| §fOnline: §a%s§f %s'
 
 FRIEND_JOIN_CHAT: '§aFriends §8| §f%s %s §f%s to game §7(click here)'
-FRIEND_JOIN_HOVER: "§fClick here,\n§fto send message %s %s"
+FRIEND_JOIN_HOVER:
+- '§fClick here,'
+- '§fto send message %s %s'
 FRIEND_JOIN_ACTIONBAR: '§aFriends §8| §f%s %s §f%s to game'
 FRIEND_JOIN_ONLINE: '§aFriends §8| §fOnline §a%s§f %s'
 
@@ -1067,7 +1093,9 @@ FRIEND_JOIN_REQUESTS: '§aFriends §8| §fYou have §e%s §frejected friend requ
 PARTY_JOIN_REQUESTS: '§aParty §8| §fYou have §e%s §frejected applications to the party'
 GUILD_JOIN_REQUESTS: '§2Guilds §8| §fYou have §e%s §fmissed filings in the Guild'
 MAIL_JOIN_REQUESTS: '§aMail §8| §fYou have §e%s §funread emails §7(Click here)'
-MAIL_JOIN_HOVER: "§fClick here,\n§fto open mail list"
+MAIL_JOIN_HOVER:
+- '§fClick here,'
+- '§fto open mail list'
 
 #§7Our Discord: §6discord.gg/
 MSG_TITLE: '§7VK: §bvk.com/flycore'
@@ -1079,11 +1107,11 @@ ITEM_EXIT_NAME: '§eBack to lobby'
 ITEM_EXIT_LORE:
  - '§7Click here item,'
  - '§7to return main lobby'
-ITEM_START_NAME: '§eFast start'
+ITEM_START_NAME: '§dFast start'
 ITEM_START_LORE:
  - '§7Convenient navigation'
  - '§7on maps and arenas of this mode'
-ITEM_STAFFCHAT_NAME: '§eStaff chat'
+ITEM_STAFFCHAT_NAME: '§aStaff chat'
 ITEM_STAFFCHAT_LORE:
  - '§7Allows you to enable or disable'
  - '§7Staffchat §f/sc'
@@ -1092,7 +1120,7 @@ ITEM_STAFFCHAT_LORE:
  - '§7Staff chat: %s'
  - ''
  - ' §e▸ Click, to %s staff chat'
-ITEM_DELAY_NAME: '§eDelay'
+ITEM_DELAY_NAME: '§aDelay'
 ITEM_DELAY_LORE:
  - '§7Allows you to enable or disable'
  - '§7Menu delays,'
@@ -1101,7 +1129,7 @@ ITEM_DELAY_LORE:
  - '§7Delay: %s'
  - ''
  - ' §e▸ Click, to %s delay'
-ITEM_TRACES_NAME: '§eFootprints'
+ITEM_TRACES_NAME: '§aFootprints'
 ITEM_TRACES_LORE:
  - '§7Allows you to enable or disable'
  - '§7Footprints after your walk'
@@ -1110,87 +1138,86 @@ ITEM_TRACES_LORE:
  - '§7Footprints: %s'
  - ''
  - ' §e▸ Click, for %s следы'
-ITEM_GAME_NAME: '§eGame menu'
+ITEM_GAME_NAME: '§cGame menu'
 ITEM_GAME_LORE:
- - '§7Universal device'
- - '§7for movent through'
- - '§7all server modes'
-ITEM_GADGETS_NAME: '§eGadgets'
+ - '§7Выберите себе режим'
+ - '§7для игры'
+ITEM_GADGETS_NAME: '§cGadgets'
 ITEM_GADGETS_LORE:
- - '§7Different things for'
- - '§7entertainment in the lobby'
-ITEM_LOBBY_NAME: '§eLobby selector'
+ - '§7Всевозможные инструменты'
+ - '§7для украшения игры в лобби'
+ITEM_LOBBY_NAME: '§cLobby selector'
 ITEM_LOBBY_LORE:
- - '§7Change lobby and'
- - '§7find your friends'
-ITEM_PROFILE_NAME: '§ePlayer %s§e profile'
+ - '§7Надоели игроки?'
+ - '§7Тогда спрячьтесь от них'
+ - '§7в другом лобби'
+ITEM_PROFILE_NAME: '%s§b PROFILE'
 ITEM_PROFILE_LORE:
- - '§7Helpful information'
-ITEM_TEST_NAME: '§b%s |'
-ITEM_TEST_LORE:
- - '§7Test item'
- - '§7Test time %s'
-ITEM_ADMINMENU_NAME: '§eAdmin-Menu'
+ - '§7Полезная и личная'
+ - '§7информация о вас'
+ITEM_ADMINMENU_NAME: '§2Admin-Menu'
 ITEM_ADMINMENU_LORE:
  - '§7Here you can find useful information'
  - '§7for personnel'
-ITEM_HIDEPLAYERS_NAME: '§cHide players'
+ITEM_HIDEPLAYERS_NAME: '§4Hide players'
 ITEM_HIDEPLAYERS_LORE:
-- '§7Use this item,'
-- '§7to hide players'
+- '§7Скройте игроков'
 ITEM_SHOWPLAYERS_NAME: '§aShow players'
 ITEM_SHOWPLAYERS_LORE:
-- '§7Use this item,'
-- '§7to show players'
-HIDE_DELAY: '§cClock overheated, left %s to cooling..'
-ITEM_GADGETS_FAVORITE_NAME: '§aFavorite'
+- '§7Покажите игроков'
+HIDE_DELAY: '§aClock §8| §cClock overheated, left %s to cooling..'
+ITEM_GADGETS_FAVORITE_NAME: '§bFavorite'
 ITEM_GADGETS_FAVORITE_LORE:
-- '§7Menu favorites - is menu for'
-- '§7fast launching some gadget,'
-- '§7that you will able to tune for yourself.'
+- '§7Избранное - это функция для'
+- '§7быстрого запуска любого гаджета'
+- '§7из вашего инвенторя, которые вы'
+- '§7сможете выбрать для себя'
 - ''
-- '§7To add item to favourite,'
-- '§7press §cRight click§7 on the icon of wanted item'
+- '§7Чтобы добавить предмет в избранное'
+- '§7перейдите в гаджеты, и нажмите'
+- '§cПКМ§7 по иконке желаемого гаджета'
 ITEM_GADGETS_SELECTED_NAME: '§cClear favorites'
 ITEM_GADGETS_SELECTED_LORE:
-- '§7Click to, removed all,'
+- '§7Click to, removed §call§7,'
 - '§7gadgets from favorites'
 ITEM_GADGETS_GADGET_LORE:
 - ''
 - '§cRight click, to removed from favorites'
-ITEM_GADGETS_HAT: '§aHat'
-ITEM_GADGETS_BANNER: '§aBanner'
-ITEM_GAME_EXIT_NAME: '§eExit'
+ITEM_GADGETS_HAT: '§bHat'
+ITEM_GADGETS_BANNER: '§bBanner'
+ITEM_GAME_EXIT_NAME: '§bExit'
 ITEM_GAME_EXIT_LORE:
-- '§7Use this item,'
-- '§7to leave arena'
-ITEM_TEAMS_NAME: '§eSelect team'
+- '§7Leave arena'
+- '§0§oне дайте ей начаться'
+ITEM_TEAMS_NAME: '§6Select team'
 ITEM_TEAMS_LORE:
-- '§7Use this item,'
-- '§7to choose your team'
-ITEM_PARKOUR_NAME: '§eMap exit'
-ITEM_PARKOUR_LORE:
-- '§7Use this item,'
-- '§7to leave arena'
-ITEM_PARKOUR_RESPAWN_NAME: '§eRespawn'
+- '§7Choose your team'
+- '§7from available'
+ITEM_PARKOUR_RESPAWN_NAME: '§aRespawn'
 ITEM_PARKOUR_RESPAWN_LORE:
-- '§7Use this item,'
-- '§7to back to last module'
-ITEM_INFO_NAME: '§eInformation'
+- '§7Back to last module'
+ITEM_INFO_NAME: '§bInformation'
 ITEM_INFO_LORE:
-- '§7Useful information for'
-- '§7games on the server'
-ITEM_DONATE_NAME: '§ePrivileges'
+- '§7Здесь вы узнаете полезную'
+- '§7информацию по игре на §a§lFlyCore.ru'
+ITEM_DONATE_NAME: '§bPrivileges'
 ITEM_DONATE_LORE:
-- '§7Detalied information about the features'
+- '§7Information about the features'
 - '§7privileges and their purchase'
+ITEM_LOCATOR_NAME: '§aLocator'
+ITEM_LOCATOR_LORE:
+- '§7Используйте этот предмет, чтобы'
+- '§7находить ближайшего игрока'
+ITEM_ITEMS_NAME: '§9Items'
+ITEM_ITEMS_LORE:
+- '§7Click, to select item'
 
 TRAINING_PREFIX: '§aTraining §8| §f'
 TRAINING_PREFIX_HOVER: '   §8 -| §6§lTraining §8|-'
 TRAINING_PREFIX_HOVER_LANG: '   §8 -| §6§lLanguage §8|-'
 
 TRAINING_FIRST_TITLE: '§fWelcome %s'
-TRAINING_FIRST_SUBTITLE: '§7You are on the serverе: §e§l§nFlyCore'
+TRAINING_FIRST_SUBTITLE: '§7You are on the serverе: §a§l§nFlyCore'
 
 #Stage 0
 TRAINING_STAGE_0_TITLE: '§fPlease look in the chat,'
@@ -1348,12 +1375,12 @@ VERIFY_BLOCKED_BROADCAST: '§cVerify §8| %s§4 was blocked'
 VERIFY_REMOVED_BROADCAST: '§cVerify §8| %s§c removed data his session'
 VERIFY_NOT_ENABLE: '§cVerify §8| §cThis authentication is not available to you'
 
-NO_PERMS: '§cYou do not have permissions'
-NO_PERMS_GROUP: '§cYou do not have permissions, buy %s§c or higher'
-NO_PERMS_STATS: '§cYou do not have permissions, get %s§c or higher'
+NO_PERMS: '§aAccount §8| §cYou do not have permissions'
+NO_PERMS_GROUP: '§aAccount §8| §cYou do not have permissions, buy %s§c or higher'
+NO_PERMS_STATS: '§aAccount §8| §cYou do not have permissions, get %s§c or higher'
 NO_PERMS_TITLE: '§c✗ You do not have permissions ✗'
 NO_PERMS_SUBTITLE: '§cBecome a minimum %s§c for access'
-NO_PERMS_ONLY: '§cThis function is only for %s'
+NO_PERMS_ONLY: '§aAccount §8| §cThis function is only for %s'
 
 REPORT_FORMAT: '/report <nickname> <reason>'
 WHOIS_FORMAT: '/whois <nickname>'
@@ -1390,8 +1417,11 @@ API_CREATE:
  - ' §fIn future, You should generate new one'
  - " §cBe careful! §fDon't show key anyone"
  - ' '
-API_HOVER_MSG: '§aApi §8| §fYour access key - §a%s §7(hover)'
-API_HOVER_COPY_MSG: '§fClick, to show the access key in the input field\n§fThen copy it (CTRL+A, CTRL+C)'
+API_HOVER_MSG:
+- '§aApi §8| §fYour access key - §a%s §7(hover)'
+API_HOVER_COPY_MSG:
+- '§fClick, to show the access key in the input field'
+- '§fThen copy it (CTRL+A, CTRL+C)'
 API_HELP:
  - '§7/api create §f- generate new access key'
  - '§7/api change <api-key> §f- change access key'
@@ -1456,7 +1486,6 @@ GROUP_MIGRATE_FORMAT: '/group migrate <old nickname> <new nickname>'
 GROUP_SETLONGPREFIX_FORMAT: '/group setlongprefix <nickname> <time> <prefix>'
 GROUP_SETLONGGROUP_FORMAT: '/group setlonggroup <nickname> <time> <rank>'
 GROUP_PREFIXRESET_FORMAT: '/group prefixreset <nickname>'
-#Зачем вообще переводить группы доната на английский? Будут англ. админы?
 
 GROUP_HELP:
  - '§7/group setlongprefix <ник> <время> <префикс> §f- установить временный префикс'
@@ -1467,35 +1496,35 @@ GROUP_HELP:
  - '§7/group migrate <old nickname> <new nickname> §f- transfer group'
  - '§7/group set <nickname> <group> §f- update group'
  - '§7/group view <group> §f- show all players with certain group'
-GROUP_ERROR_ACCESS: "§cYou can't manage groups of this player"
-GROUP_ALREADY_DEFAULT: "§cThis player hasn't got group"
-GROUP_ALREADY_PREFIX: '§cУ данного игрока уже данный префикс'
-GROUP_ALREADY_GROUP: '§cУ данного игрока уже данная группа'
-GROUP_PREFIX_INVALID: '§cПрефикс может состоять только из букв или цифр'
+GROUP_ERROR_ACCESS: "§aGroups §8| §fYou can't manage groups of this player"
+GROUP_ALREADY_DEFAULT: "§aGroups §8| §cThis player hasn't got group"
+GROUP_ALREADY_PREFIX: '§aGroups §8| §cУ данного игрока уже данный префикс'
+GROUP_ALREADY_GROUP: '§aGroups §8| §cУ данного игрока уже данная группа'
+GROUP_PREFIX_INVALID: '§aGroups §8| §cПрефикс может состоять только из букв или цифр'
 GROUP_PREFIX_LIMIT: '§aGroups §8| §fПрефикс не должен превышать §c%s§f символа'
 GROUP_PREFIX: '§aGroups §8| §fИгроку %s§f был установлен префикс префикс %s'
 GROUP_PREFIX_BROADCAST: '§cGroups §8| %s§7 обновил префикс игрока %s§7 на %s'
 GROUP_CLEAR: '§aGroups §8| §fFrom player %s§f group has been removed'
 GROUP_SET: '§aGroups §8| §fFor player %s§f has been set group %s'
-GROUP_INVALID: '§cYou wrote wrong group. Available groups: §f%s'
-GROUP_MIGRATE: '§aGroups §8| §fFor player %s§f has been transfered group %s'
+GROUP_INVALID: '§aGroups §8| §fYou wrote wrong group. Available groups: §f%s'
+GROUP_MIGRATE: '§aGroups §8| §fFor player %s§f has been transfered group player %s'
 GROUP_CLEAR_BROADCAST: '§cGroups §8| %s§7 stripped off privilege from player %s'
 GROUP_MIGRATE_BROADCAST: '§cGroups §8| %s§7 migrated privilege of %s§7 to %s'
-GROUP_VIEW_INVALID: '§cYou wrote wrong group. Available groups: §f%s'
+GROUP_VIEW_INVALID: '§aGroups §8| §fYou wrote wrong group. Available groups: %s'
 GROUP_SET_BROADCAST: '§cGroups §8| %s§7 set to player %s§7 group %s'
 GROUP_SET_STATS_BROADCAST: '§cGroups §8| %s§7 set to player %s§7 group %s'
 GROUP_TIME_INFO: '§7(Сроком: %s)'
-GROUP_PREFIXRESET: '§aГруппы §8| §fИгроку %s§f был установлен префикс по умолчанию'
-GROUP_PREFIXRESET_BROADCAST: '§cГруппы §8| %s§7 обнулил префикс игрока %s§7 до умолчания'
+GROUP_PREFIXRESET: '§aGroups §8| §fИгроку %s§f был установлен префикс по умолчанию'
+GROUP_PREFIXRESET_BROADCAST: '§cGroups §8| %s§7 обнулил префикс игрока %s§7 до умолчания'
 
-NO_FOUND_PLAYER: '§cPlayer %s§c not found or player is offline'
-NO_FOUND_PLAYER_IN_GAMEMODE: '§cPlayer %s§c not found on this gamemode'
-NO_NEVER_PLAYER: '§cError, player %s never played on our project'
+NO_FOUND_PLAYER: '§aServer §8| §fPlayer %s§c not found or player is offline'
+NO_FOUND_PLAYER_IN_GAMEMODE: '§aServer §8| §fPlayer %s§f not found on this gamemode'
+NO_NEVER_PLAYER: '§aServer §8| §fError, player %s never played on our project'
 
 NO_FOUND_COMMAND: '§cUnknown command, use /help to help.'
 
 # Новые сообщения с она/подруга
-NOT_FOUND_PLAYER: '§c%s %s§c not %s or %s offline'
+NOT_FOUND_PLAYER: '§aServer §8| §f%s %s§f not %s or %s offline'
 
 PLAYER_NAME_1: 'Your girl friend'
 PLAYER_NAME_2: 'found'
@@ -1529,8 +1558,8 @@ PLAYER_NAME_29: 'Временная'
 PLAYER_NAME_30: 'Временный'
 PLAYER_NAME_31: 'вошла'
 PLAYER_NAME_32: 'вошел'
-PLAYER_NAME_33: 'присоединилась'
-PLAYER_NAME_34: 'присоединился'
+PLAYER_NAME_33: 'joined'
+PLAYER_NAME_34: 'joined'
 
 PROXY_COMMAND_HELP:
 - '§7/proxy info §f- information for your connected to proxies'
@@ -1576,49 +1605,10 @@ ME_INFO:
 - ''
 - '§8Here You can see information,'
 - '§8that we keep on server about You.'
-ME_INFO_OLD:
-- ''
-- '§8#Proxy'
-- "§aProxy §8| §fInformation about player's connection %s§f:"
-- '§f- §fProxy: §a%s'
-- '§f- §fIP address: §a%s'
-- '§f- §fGeneral online: §a%s §f%s'
-- '§8#Whois'
-- "§ePlayer's information %s"
-- '§f- Player ID: §a%s'
-- '§f- Group: §a%s'
-- '§f- IP address: §a%s'
-- '§f- Proxy: §a%s'
-- '§f- Server: §a%s'
-- '§f- Version: §a%s'
-- '§f- Language: §a%s'
-- '§f- Connected from: §a%s'
-- '§f- Server data: §a%s'
-- '§8#Datas'
-- '§eInformation for player %s§e:'
-- '§f- Player ID: §a%s'
-- '§f- Rank: §a%s'
-- '§f- Money: §a%s'
-- '§f- Golds: §a%s'
-- '§f- Cores: §a%s'
-- '§f- Player level: §a%s'
-- '§f- Player experience: §a%s'
-- '§f- Cosmetic keys: §a%s'
-- '§f- Money keys: §a%s'
-- '§f- Cosmetick-game keys: §a%s'
-- '§f- Ultra keys: §a%s'
-- '§f- Donate keys: §a%s'
-- '§f- uuid: §a%s'
-
 FINDID_FORMAT: '/findid <id>'
-FINDID_NOT_FOUND: '§cPlayer of id %s, never played on our project'
-FINDID_INVALID_ID: '§cid %s, is not a number'
+FINDID_NOT_FOUND: '§aServer §8| §cPlayer of id %s, never played on our project'
+FINDID_INVALID_ID: '§aServer §8| §cid %s, is not a number'
 FINDID_CONFIRM: '§aServer §8| §fInformation for id §a%s§f: Player: %s'
-
-PLAYER_OLD_VERSION:
-- '§cWe noticed, that You use game version lower than 1.12'
-- '§cIt can cause different problems'
-- '§cReccomending You to update game client just now!'
 
 CORE_COMMAND_HELP:
  - '§7/core memory §f- Information of core memory'
@@ -1673,11 +1663,11 @@ CORE_SERVERS_SERVERS_TOTAL: '§aCore §8| §fTotal connected servers (§a%s§f):
 CORE_SERVERS_SERVERS_FORMAT: ' §8• §a%s §e[%s] §7(§a%s §f%s§7)'
 
 CORE_SERVERS_SETMINGROUP_FORMAT: '/core servers setmingroup <server> <group>'
-CORE_SERVERS_SETMINGROUP_NOT_FOUND: '§cError, server %s not found to core'
+CORE_SERVERS_SETMINGROUP_NOT_FOUND: '§aCore §8| §cError, server %s not found to core'
 CORE_SERVERS_SETMINGROUP_NOT_ACCESS: '§aCore §8| §fCurrent server is standart, Вы не можете запретить его для входа'
 CORE_SERVERS_SETMINGROUP_DO_NOT_TEST: '§aCore §8| §6Current server is testing, Вы не можете им управлять'
 CORE_SERVERS_SETMINGROUP_CONFIRM: '§aCore §8| §fДля сервера §a%s§f успешна установлена минимальная группа - %s'
-CORE_SERVERS_SETMINGROUP_GROUP_INVALID: '§cError, group available: %s'
+CORE_SERVERS_SETMINGROUP_GROUP_INVALID: '§aCore §8| §cError, group available: %s'
 CORE_SERVERS_SETMINGROUP_INFO: '§cCore §8| %s§7 set minimal group %s§7 for server §a%s'
 
 CORE_CHANNELS_INFO_FORMAT: '/core channels info <channel>'
@@ -1688,7 +1678,7 @@ CORE_CHANNELS_INFO:
 - '§8 ▪ §fServers list: §e%s'
 - '§8 ▪ §fPlayers: %s'
 
-CORE_CHANNELS_NOT_FOUND: '§cError, channel %s not found'
+CORE_CHANNELS_NOT_FOUND: '§aCore §8| §cError, channel %s not found'
 CORE_CHANNELS_CHANNELS_NOT_EXISTS: '§aCore §8| §cThis one moment, no channels created'
 CORE_CHANNELS_CHANNELS_TOTAL: '§aCore §8| §fTotal channels (§a%s§f):'
 CORE_CHANNELS_CHANNELS_FORMAT: ' §8• §a%s §7(§a%s §f%s, §a%s §f%s§7)'
@@ -1758,7 +1748,6 @@ CORE_MONEY_COMMAND_HELP:
 - '§c/core money <key> rem <name> <money> §f- take money'
 CORE_MONEY_CHECK: '§aEconomy §8| §fFor account %s§f: §a%s§f %s, §e%s§f %s and §b%s§f %s'
 CORE_MONEY_CHECK_FORMAT: '/core money <key> check <name>'
-CORE_MONEY_ERROR: '§cSum incorrect'
 CORE_MONEY_ADD: '§aEconomy §8| §fFor account %s§f added §a%s §fmoney'
 CORE_MONEY_ADD_FORMAT: '/core money <key> add <name> <money>'
 CORE_MONEY_REMOVE: '§aEconomy §8| §fFor account %s§f take §a%s §fmoney'
@@ -1785,16 +1774,16 @@ VZLOM_REASON: '§cError #14 Please, contact group » §a§nvk.me/flycore'
 DOWNLOAD_MAP_REASON: '§cError #19 §cПодозрение в скачивании карты, сообщите vk.me/flycore если это не так'
 
 PARTY_ALREADY: '§aParty §8| §fYou are already in the group'
-PARTY_PLAYER_ALREADY: '§cPlayer %s is already in the group'
+PARTY_PLAYER_ALREADY: '§aParty §8| §cPlayer %s is already in the group'
 PARTY_NOT: "§aParty §8| §fError, you aren't in the group, perhaps nobody needs you :("
-PARTY_PLAYER_NO_PARTY: "§cPlayer %s isn't in your group"
-PARTY_PLAYER_NO_OWNER: "§cYou aren't owner of the group"
-PARTY_LIMIT: "§cThis group can't accept players because its limit is exceeded"
-PARTY_OWNER_NO_PARTY: "§cPlayer %s is no longer a member of the group he(she) invited you to"
-PARTY_NO_INVITE: "§cPlayer %s didn't send you party invites"
+PARTY_PLAYER_NO_PARTY: "§aParty §8| §cPlayer %s isn't in your group"
+PARTY_PLAYER_NO_OWNER: "§aParty §8| §cYou aren't owner of the group"
+PARTY_LIMIT: "§aParty §8| §cThis group can't accept players because its limit is exceeded"
+PARTY_OWNER_NO_PARTY: "§aParty §8| §cError, player %s is no longer a member of the group he(she) invited you to"
+PARTY_NO_INVITE: "§aParty §8| §cError, player %s didn't send you party invites"
 
 PARTY_CHAT_FORMAT: '/pchat <message>'
-PARTY_OFFLINE: "§cAll group's members are offline"
+PARTY_OFFLINE: "§aParty §8| §cAll group's members are offline :("
 PARTY_CHAT: '§dParty chat §8| %s'
 
 PARTY_COMMAND_HELP:
@@ -1824,12 +1813,13 @@ PARTY_NOT_MEMBERS: '§aParty §8| §fAll group members left it, the group has be
 
 PARTY_REQUESTS: '§aParty §8| §fList of the group invites (§a%s§f)'
 PARTY_REQUESTS_FORMAT: '  §c• §fRequest from %s§7 §nclick to accept'
-PARTY_REQUESTS_HOVER: '§fClick, to join the group'
-PARTY_REQUESTS_NO: "§cYou haven't got party invites"
+PARTY_REQUESTS_HOVER:
+- '§fClick, to join the group'
+PARTY_REQUESTS_NO: "§aParty §8| §cYou haven't got party invites"
 
 PARTY_KICK_FORMAT: '/party kick <nickname>'
-PARTY_KICK_ME: "§cError, You can't kick yourself"
-PARTY_KICK_OWNER: "§cError, You can't kick the group owner"
+PARTY_KICK_ME: "§aParty §8| §cError, You can't kick yourself"
+PARTY_KICK_OWNER: "§aParty §8| §cError, You can't kick the group owner"
 PARTY_KICK: '§aParty §8| §fYou kicked %s§f from the group'
 PARTY_KICK_ALERT: '§aParty §8| %s§f have been kicked by the group owner'
 PARTY_KICK_MSG: '§aParty §8| %s§f kicked You from the group'
@@ -1839,15 +1829,15 @@ PARTY_WARP: '§aParty §8| §fAll online-members were teleported on Your server'
 PARTY_WARP_OWNER: '§aParty §8| §fTeleport members on your server can only the group leader'
 
 PARTY_SETTING_PUBLIC: 'publicity'
-PARTY_SETTING_PUBLIC_DESCRIPTION: 'makes group publuc'
+PARTY_SETTING_PUBLIC_DESCRIPTION: 'makes group publuc and available join from command /party join'
 PARTY_SETTING_ALLINVITE: 'invites'
-PARTY_SETTING_ALLINVITE_DESCRIPTION: 'allows all members to invite players in group'
+PARTY_SETTING_ALLINVITE_DESCRIPTION: 'allows all members to invite players in group from command /party invite'
 PARTY_SETTING_AUTOWARP: 'auto-teleportation'
 PARTY_SETTING_AUTOWARP_DESCRIPTION: 'disables teleportation of group members when joining the server'
 PARTY_SETTING_AUTOKICK: 'auto-kick'
 PARTY_SETTING_AUTOKICK_DESCRIPTION: 'disables the automatic kick of group members when offline time expires'
 PARTY_SETTING_FORMAT: '/party setting <setting> <true/false>'
-PARTY_SETTING_ALREADY: '§cError, value of this setting is already said'
+PARTY_SETTING_ALREADY: '§aParty §8| §cValue of this setting is already said'
 PARTY_SETTING_ALERT: '§aParty §8| %s§f updated value of the setting §a%s§f in the group'
 PARTY_SETTING: '§aParty §8| §fValue of the setting §a%s §fupdated'
 PARTY_COMMAND_SETTING_HELP:
@@ -1856,7 +1846,7 @@ PARTY_SETTING_OWNER: '§cChange the group settings can only the group owner'
 
 PARTY_DISBAND: '§aParty §8| §fYou disbanded the group'
 PARTY_DISBAND_ALERT: '§aParty §8| §fYour group has been disbanded'
-PARTY_DISBAND_OWNER: '§cDisband the group can only the group owner'
+PARTY_DISBAND_OWNER: '§aParty §8| §fDisband the group can only the group §cowner'
 
 PARTY_SETOWNER_FORMAT: '/party setowner <player name>'
 PARTY_SETOWNER_ALREADY: '§aParty §8| §fYou are already the group owner'
@@ -1865,8 +1855,7 @@ PARTY_SETOWNER: '§aParty §8| §fYou have transferred leader rights to player %
 PARTY_SETOWNER_OWNER: '§cError, give permissions to manage the group can only the group owner'
 
 PARTY_JOIN_FORMAT: '/party join <player name>'
-PARTY_JOIN_NOT: "§cError, this player isn't being in the group"
-PARTY_JOIN_PUBLIC: "§cError, the group of this player isn't public"
+PARTY_JOIN_NOT: "§aParty §8| §cError, this player isn't being in the group or group not public"
 PARTY_JOIN: '§aParty §8| §fYou joined the group of %s'
 PARTY_JOIN_ALERT: '§aParty §8| %s§f joined the public group'
 
@@ -1876,10 +1865,10 @@ PARTY_REJECT: '§aParty §8| §fYou rejected the invaition to the group from §a
 PARTY_REJECT_NO: "§cPlayer %s didn't send you party invites"
 
 PARTY_INVITE_FORMAT: '/party invite <player name>'
-PARTY_INVITE_ME: "§cError, you can't invite yourself to the group"
-PARTY_INVITE_FRIEND: '§cError, this player takes invites only from his(her) friends'
-PARTY_INVITE_ALREADY: '§cPlayer %s already has invite to the group'
-PARTY_INVITE_LIMIT: '§cLimit of the group exceeded, limit - %s'
+PARTY_INVITE_ME: "§aParty §8| §cError, you can't invite yourself to the group"
+PARTY_INVITE_FRIEND: '§aParty §8| §cError, this player takes invites only from his(her) friends'
+PARTY_INVITE_ALREADY: '§aParty §8| §cError, player %s already has invite to the group'
+PARTY_INVITE_LIMIT: '§aParty §8| §cLimit of the group exceeded, limit - %s'
 PARTY_INVITE: '§aParty §8| §fInvite to the group sent to %s'
 PARTY_INVITE_OWNER: '§aParty §8| §fSend invites to the group can only the group owner'
 PARTY_INVITE_EXPIRED: '§aParty §8| §cЗапрос, отправленный игроку %s§c был автоматически отклонен'
@@ -1893,35 +1882,42 @@ PARTY_ACCEPT_FORMAT: '/party accept <player name>'
 PARTY_ACCEPT_ALERT: '§aParty §8| %s§f joined to the group'
 PARTY_ACCEPT: '§aParty §8| §fYou joined to the player %s §fgroup'
 PARTY_ACCEPT_CREATE: '§aParty §8| §fYou created new group with player %s'
-PARTY_ACCEPT_ME: "§cError, You can't invite yourself to the group"
 
 FRIEND_COMMAND_HELP:
+- '§7/f suffix <suffix/reset> §f- изменить свой суффикс для друзей'
 - '§7/f add <player name> §f- add player to friends list'
 - '§7/f remove <friend name> §f- remove player from friends list'
 - '§7/f accept <player name> §f- accept friend request from player'
 - '§7/f reject <player name> §f- decline friend request from player'
+- '§7/f setrank <friend name> <rank> §f- изменить ранг друга'
+- '§7/f addrank <rank name> §f- добавить новый ранг'
+- '§7/f delrank <rank name> §f- удалить ранг'
+- '§7/f rankrename <rank name> <prefix/reset> §f- изменить префикс рангу'
+- '§7/f rename <friend name> <prefix/reset> §f- изменить префикс друга'
 - '§7/f requests §f- friend request list'
 - '§7/f list §f- friend list'
+- '§7/f ranks §f- управление рангами'
 - '§7/fchat <message> §f- send message for online all friends'
 - '§7/f tp <friend name> §f- teleport to your friend server'
-FRIEND_NO_FRIENDS: "§cYou haven't got friends or girlfriends"
-FRIEND_NOTFRI: "§cPlayer %s§c isn't your friend or girlfriend"
-FRIEND_ALREADY: '§cYou are already friends'
-FRIEND_NO_REQUEST: "§cYou haven't got friend requests from player %s"
-FRIEND_YOU_LIMIT: '§cYou exceeded the amount of friends limit, your limit - %s'
-FRIEND_LIMIT: "§cThe player you specified can't accept friend requests, because his(her) limit is exceeded"
+- '§7/f tphere <friend name> §f- телепортация друга на ваш сервер'
+FRIEND_NO_FRIENDS: "§aFriends §8| §cError, you haven't got friends or girlfriends"
+FRIEND_NOTFRI: "§aFriends §8| §cError, player %s§c isn't your friend or girlfriend"
+FRIEND_ALREADY: '§aFriends §8| §cYou are already friends'
+FRIEND_NO_REQUEST: "§aFriends §8| §cYou haven't got friend requests from player %s"
+FRIEND_YOU_LIMIT: '§aFriends §8| §cYou exceeded the amount of friends limit, your limit - %s'
+FRIEND_LIMIT: "§aFriends §8| §cError, the player you specified can't accept friend requests, because his(her) limit is exceeded"
 
 FRIEND_ADD_FORMAT: '/f add <player name>'
 FRIEND_ADD: '§aFriends §8| §fFriend request was sent to %s'
-FRIEND_ADD_ME: "§cYou can't send friend request yourself"
-FRIEND_ADD_NO: '§cThis player forbad to send him(her) friend requests'
-FRIEND_ADD_ALREADY: '§cYou have already sent friend request to that player...'
+FRIEND_ADD_ME: "§aFriends §8| §cYou can't send friend request yourself"
+FRIEND_ADD_NO: '§aFriends §8| §cThis player forbad to send him(her) friend requests'
+FRIEND_ADD_ALREADY: '§aFriends §8| §cYou have already sent friend request to that player...'
 FRIEND_ADD_EXPIRED: '§aFriends §8| §cRequest, sent to player %s§c was automatically rejected'
 FRIEND_ADD_EXPIRED_TO: '§aFriends §8| %s§f was automatically rejected after %s'
 
 FRIEND_CHAT_FORMAT: '/fchat <message>'
 FRIEND_CHAT: '§aFriends chat §8| %s'
-FRIEND_CHAT_OFFLINE: "§cYou haven't got online friends"
+FRIEND_CHAT_OFFLINE: "§aFriends §8| §cYou haven't got online friends"
 
 FRIEND_ACCEPT_FORMAT: '/f accept <player name>'
 FRIEND_ACCEPT: '§aFriends §8| §fCongratulations! You became friends with player %s'
@@ -1932,7 +1928,7 @@ FRIEND_REJECT: '§aFriends §8| §fYou rejected friend request from player %s'
 FRIEND_REJECT_ALERT: '§aFriends §8| §fPlayer %s§f rejected your friend request'
 
 FRIEND_REMOVE_FORMAT: '/f remove <player name>'
-FRIEND_REMOVE_ME: "§cYou can't remove yourself from friends"
+FRIEND_REMOVE_ME: "§aFriends §8| §cYou can't remove yourself from friends"
 FRIEND_REMOVE: '§aFriends §8| §fPlayer %s§f was removed from your friends list'
 FRIEND_REMOVE_ALERT: '§aFriends §8| §fPlayer %s§f removed you from friends'
 FRIEND_REMOVE_CONFIRM:
@@ -1940,12 +1936,79 @@ FRIEND_REMOVE_CONFIRM:
 - '§aFriends §8| §fВведите §e%s§f снова чтобы подтвердить §cудаление§f или §e%s§f чтобы §aотменить'
 FRIEND_REMOVE_CANCELLED: '§aFriends §8| §fУдаление друга отменено'
 
-FRIEND_REQUESTS_NOT: "§cYou have't got unaccepted friend requests."
+FRIEND_REQUESTS_NOT: "§aFriends §8| §cYou have't got unaccepted friend requests."
 
 FRIEND_TP_FORMAT: '/f tp <player name>'
-FRIEND_TP_ALREADY: '§cYou are already on the same server'
+FRIEND_TP_ALREADY: '§aFriends §8| §cError, you are already on the same server'
 FRIEND_TP: '§aFriends §8| %s§f teleported to you on the server'
 FRIEND_TP_ALERT: '§aFriends §8| §fYou were teleported on the server of player %s§f (§7%s§f)'
+
+FRIEND_TPHERE_FORMAT: '/f tphere <friend name>'
+FRIEND_TPHERE: '§aДрузья §8| §fВы телепортировали %s§f к себе на сервер'
+FRIEND_TPHERE_ALERT: '§aДрузья §8| §fВаш друг %s§f телепортировал Вас на его сервер (§7%s§f)'
+
+FRIEND_SETRANK_FORMAT: '/f setrank <friend name> <rank name>'
+FRIEND_SETRANK: '§aFriends §8| §fВы установили ранг §a%s§f другу %s'
+FRIEND_SETRANK_ALREADY: '§aFriends §8| §cОшибка, у друга уже данный ранг'
+FRIEND_SETRANK_INVALID: '§aFriends §8| §fОшибка, ранга %s не существует, доступные ранги: %s'
+
+FRIEND_ADDRANK_FORMAT: '/f addrank <rank name>'
+FRIEND_ADDRANK_ALREADY: '§aFriends §8| §cОшибка, ранг с названием %s уже существует'
+FRIEND_ADDRANK: '§aFriends §8| §fРанг §a%s§f успешно создан, отредактируйте его в §e/f ranks %s'
+FRIEND_ADDRANK_LIMIT: '§aFriends §8| §cОшибка, вы привысили кол-во доступных к созданию рангов. Ваш лимит - %s'
+
+FRIEND_DELRANK_FORMAT: '/f delrank <rank name>'
+FRIEND_DELRANK_ALREADY: '§aFriends §8| §cОшибка, ранга %s не существует'
+FRIEND_DELRANK: '§aFriends §8| §fРанг §a%s§f удален'
+FRIEND_DELRANK_UNAVAILABLE: '§aFriends §8| §cОшибка, нельзя удалять стандартные ранги'
+
+FRIEND_RANK_RENAME_FORMAT: '/f rankrename <rank> <prefix/reset>'
+FRIEND_RANK_RENAME: '§aFriends §8| §fРанг §a%s§f переименован в §e%s'
+
+FRIEND_SUFFIX_NO_PERM: '§aFriends §8| §cОшибка, у вас еще не куплена "Смена суффикса друзей", купите её на сайте %s для использования'
+FRIEND_SUFFIX_FORMAT: '/f suffix <suffix/reset>'
+FRIEND_SUFFIX_RENAME: '§aFriends §8| §fСуффикс изменен на §a%s'
+FRIEND_SUFFIX_RESET: '§aFriends §8| §fСуффикс очищен'
+
+FRIEND_RENAME_FORMAT: '/f rename <friend name> <prefix/reset>'
+FRIEND_RENAME: '§aFriends §8| §fПрефикс друга §a%s§f изменен на §e%s'
+
+FRIEND_PREFIX_RESET: '§aFriends §8| §fПрефикс для %sа §a%s§f очищен'
+
+FRIEND_SETTING_UNAVAILABLE:
+- '§cУ ранга установленного Вам, нет доступа к данной возможности (Настройка %s)'
+- '§c  Попросите вашего друга изменить вам ранг или выдать права через §e/g ranks§c или §e/g setrank'
+FRIEND_SETTING_TPHERE: 'Телепортация'
+FRIEND_SETTING_TPHERE_DESCRIPTION:
+- '§7Позволяет другу телепортировать вас к себе'
+FRIEND_SETTING_IGNORE: 'Игнорирование'
+FRIEND_SETTING_IGNORE_DESCRIPTION:
+- '§7Позволяет другу игнорировать то что вы добавили его в игнор(/ignore)'
+FRIEND_SETTING_PVP: 'PvP'
+FRIEND_SETTING_PVP_DESCRIPTION:
+- '§7Не дает другу нанести урон по вам'
+FRIEND_SETTING_CHATSUFFIX: 'Суффикс друга'
+FRIEND_SETTING_CHATSUFFIX_DESCRIPTION:
+- '§7Скрывает суффикс друга'
+FRIEND_SETTING_CHATPREFIX: 'Префикс друга'
+FRIEND_SETTING_CHATPREFIX_DESCRIPTION:
+- '§7Скрывает префикс друга'
+- '§7который вы ему задавали через /f rename'
+FRIEND_SETTING_CHATRANKPREFIX: 'Префикс друга'
+FRIEND_SETTING_CHATRANKPREFIX_DESCRIPTION:
+- '§7Скрывает префикс ранга друга'
+- '§7который вы задавали через /f rankrename'
+
+GUI_FRIENDTYPES_NAME: 'Настройки рангов друзей'
+GUI_FRIENDTYPES_RANK_NAME: 'Ранг'
+GUI_FRIENDTYPES_RANK_SELECT_LORE:
+- '§7Вы можете отредактировать'
+- '§7настройки ранга'
+- ''
+- '§e▸ Нажмите, чтобы редактировать'
+GUI_FRIENDTYPES_RANK_SELECTED_LORE:
+- ''
+- '§c✗ Вы уже редактируете данный ранг'
 
 LVL_UP: '§a§l§kX§r §c§lLEVEL UP §a§l§kX'
 NEW_LVL: '§fYou received §d%s§f level!'
@@ -1953,22 +2016,24 @@ EXP_TO_NEW_LVL: '§fTo the next level you need §a%s§f exp more'
 GET_REWARD: '§7Go to the profile to get your reward'
 LEVEL_COMMAND:
 - ''
-- '§aLevel §8| §fYou have §d%s§f level'
-- '§aLevel §8| §fTo the next level you need §a%s§f exp more'
+- '§aAccount §8| §fYou have §d%s§f level'
+- '§aAcount §8| §fTo the next level you need §a%s§f exp more'
 - '§r'
 
 KEY_BOX: '%sYou have %s %s'
-BOX_NAME: 'Lucky Chest'
+BOX_NAME: 'Lucky Cube'
 BOX_SUB_NAME: '§7Click to open'
-BOX_IS_CLOSED: '§cSorry, но данный сундук временно недоступен'
+BOX_IS_CLOSED: '§cSorry, но данный cube временно недоступен'
 BOX_KEY_NOT_BUY: '§cSorry, но в данный момент этот ключ не продается!'
 BOX_NO_KEY: '§cYou have not keys'
-BOX_WORK: '§cWait... Chest scrolls!'
-BOX_OPEN_YOU: 'You started open a chest...'
+BOX_WORK: '§cWait... Cube scrolls!'
+BOX_NO_OPEN: '§cПростите, но Вы не можете открыть этот "кейс" на данном режиме!'
+BOX_NO_ITEMS: '§cПростите, но в данном "кейсе" нету предметов!'
+BOX_OPEN_YOU: 'You started open a cube...'
 BOX_WINNER: 'You won %s§f item %s'
 BOX_WINNER_OTHER: '%s §f%s %s§f item %s'
-BOX_FAST_START: 'Fast chest opening... §cTo cancel, click on lucky chest'
-BOX_FAST_STOP: 'Fast opening canceled'
+BOX_FAST_START: 'Fast chest opening... §cTo cancel, click on lucky cube'
+BOX_FAST_STOP: 'Fast opening cube canceled'
 BOX_KEYS: '§dCosmetic keys §f(§6+%s§f)'
 BOX_NEWYEARKEYS: '§bNewYear keys §f(§c+%s§f)'
 BOX_TITLEKEYS: '§fTitle keys §f(§2+%s§f)'
@@ -2024,9 +2089,11 @@ FRIEND_TITLE: 'FRIENDS'
 PARTY_TITLE: 'PARTY'
 GUILD_TITLE: 'GUILDS'
 INVITE_ACCEPT_BUTTON: '          §a§l[ACCEPT]'
-INVITE_DECLINE_BUTTON: ' §c§l[REJECT]'
+INVITE_DECLINE_BUTTON: ' §4§l[REJECT]'
 
-ASK_HOVER: '§7Click, to answer player\n§7On question: §a%s'
+ASK_HOVER:
+- '§7Click, to answer player'
+- '§7On question: §a%s'
 FRIEND_HOVER_YES: '§fClick, to be friends'
 FRIEND_HOVER_NO: '§fClick, to reject'
 PARTY_HOVER_YES: '§fClick, to accept invition'
@@ -2037,15 +2104,15 @@ GUILD_HOVER_YES: '§fClick, to accept invition'
 GUILD_HOVER_NO: '§fClick, to reject invition'
 
 
-GUILD_NO: "§cYou aren't in the guild"
+GUILD_NO: "§aGuilds §8| §cYou aren't in the guild"
 
 GUILD_MUTE: '§aGuild §8| §cYou guild chat banned by %s §cfor %s for reason: §e%s'
 GUILD_CHAT_FORMAT: '/gchat <message>'
-GUILD_OFFLINE: '§cError, all guild members are offline'
-GUILD_CHAT: '§2Guilds chat §8| %s §8» §7%s'
+GUILD_OFFLINE: '§aGuild §8| §cError, all guild members are offline'
+GUILD_CHAT: '§2Guilds chat §8| %s§8 » §7%s'
 
 GUILD_COMMAND_HELP:
-- '§7/g create <name> §f- create guild (create guild price - §a15,000§f coins)'
+- '§7/g create <name> §f- create guild (create guild price - §615,000§f coins)'
 - '§7/g top §f- see guilds top'
 - '§7/g accept <player nickname> §f- accept guild invite'
 - '§7/g reject <player nickname> §f- reject guild invite'
@@ -2093,18 +2160,17 @@ GUILD_TOP_DONATERS_FORMAT: ' §c#%s §f- %s§f, %s to the guild - §a%s§f coins
 GUILD_TOP_GUILD_YOUR: '§аYour guild is on §e#%s §fplace in the top'
 GUILD_TOP_YOUR: '§аYou are on §e#%s §fplace in the top'
 
-GUILD_REQUESTS_NO: "§cYou haven't got guild invitions"
-GUILD_ALREADY: '§cYou are already in the guild'
-GUILD_PLAYER_ALREADY: '§cPlayer %s is already in the guild'
-GUILD_PLAYER_NO_GUILD: "§cPlayer %s isn't in your guild"
-GUILD_PLAYER_NO_MEMBER: '§cPlayer %s is no longer in the guild in which he(she) invited you'
-GUILD_PLAYER_NO_REQUEST: "§cPlayer %s didn't send you guild invitions"
+GUILD_REQUESTS_NO: "§aGuilds §8| §cYou haven't got guild invitions"
+GUILD_ALREADY: '§aGuild §8| §cYou are already in the guild'
+GUILD_PLAYER_ALREADY: '§aGuild §8| §cPlayer %s is already in the guild'
+GUILD_PLAYER_NO_GUILD: "§aGuild §8| §cPlayer %s isn't in your guild"
+GUILD_PLAYER_NO_MEMBER: '§aGuilds §8| §cPlayer %s is no longer in the guild in which he(she) invited you'
+GUILD_PLAYER_NO_REQUEST: "§aGuilds §8| §cPlayer %s didn't send you guild invitions"
 GUILD_NAME_1: 'invested'
 GUILD_NAME_2: 'invested'
-GUILD_MONEY_INVALID: '§cWritten wrong amount'
-GUILD_LIMIT: "§cThis guild can't accept players, because its limit is exceeded"
-GUILD_LEADER: "§cError, you aren't guild leader"
-GUILD_MODER: "§cError, you aren't guild moderator"
+GUILD_LIMIT: "§aGuild §8| §cThis guild can't accept players, because its limit is exceeded"
+GUILD_LEADER: "§aGuild §8| §cError, you aren't guild leader"
+GUILD_MODER: "§aGuild §8| §cError, you aren't guild moderator"
 GUILD_NAME_MEMBER: 'Member'
 GUILD_NAME_MODER: 'Moderator'
 GUILD_NAME_DEPUTY: 'Deputy'
@@ -2121,9 +2187,9 @@ GUILD_PARTY: '§aGuild §8| §fYou invited all online members to the guild party
 
 GUILD_CREATE_FORMAT: '/guild create <name>'
 GUILD_CREATE: '§aGuild §8| §fYou created guild §a%s'
-GUILD_CREATE_NO_MONEY: '§cError, you lack %s coins to create the guild'
-GUILD_CREATE_ALREADY: '§cError, guild with name %s is already exists'
-GUILD_CREATE_NO_PERMISSION: '§cError, create guilds may only players with group %s§c and higher'
+GUILD_CREATE_NO_MONEY: '§aGuild §8| §cYou lack %s coins to create the guild'
+GUILD_CREATE_ALREADY: '§aGuild §8| §cError, guild with name %s is already exists'
+GUILD_CREATE_NO_PERMISSION: '§aGuild §8| §cError, create guilds may only players with group %s§c and higher'
 
 GUILD_RENAME_FORMAT: '/guild rename <название>'
 GUILD_RENAME_ALERT: '§2Гильдии §8| %s§7 переименовал гильдию на %s'
@@ -2134,11 +2200,11 @@ GUILD_DELETE_ALERT: '§2Guilds §8| %s §fremoved guild'
 
 GUILD_INVITE_FORMAT: '/guild invite <player name>'
 GUILD_INVITE: '§aGuild §8| §fTo player %s§f was sent invition to the guild'
-GUILD_INVITE_ME: "§cError, You can't invite yourself"
-GUILD_INVITE_FRIEND: '§cThe player forbad to send him(her) guild invitions'
-GUILD_INVITE_ALREADY: '§cPlayer %s already has invition to the guild'
-GUILD_INVITE_LIMIT: '§cGuild limit exceeded, limit - %s'
-GUILD_INVITE_EXPIRED: '§2Guilds §8| §fRequest, sended to player %s§c был автоматически отклонен'
+GUILD_INVITE_ME: "§aGuild §8| §cError, You can't invite yourself"
+GUILD_INVITE_FRIEND: '§aGuild §8| §cThe player forbad to send him(her) guild invitions'
+GUILD_INVITE_ALREADY: '§aGuild §8| §cPlayer %s already has invition to the guild'
+GUILD_INVITE_LIMIT: '§aGuild §8| §cGuild limit exceeded, limit - %s'
+GUILD_INVITE_EXPIRED: '§2Guilds §8| §fRequest, sended to player %s§f был автоматически отклонен'
 GUILD_INVITE_EXPIRED_TO: '§aGuilds §8| %s§f отправлявший Вам приглашение в гильдию, был автоматически отклонен спустя %s'
 
 GUILD_ACCEPT_FORMAT: '/guild accept <player name>'
@@ -2155,8 +2221,8 @@ GUILD_TAG_ALERT: '§2Guilds §8| %s§7 set guild tag -> §e%s'
 GUILD_TAG: '§aGuild §8| §fGuild tag set to §a%s'
 GUILD_TAG_RESET_ALERT: '§2Guilds §8| %s§7 deleted guild tag'
 GUILD_TAG_RESET: '§aGuild §8| §fТег гильдии удален'
-GUILD_TAG_NO_MONEY: '§cGuild lacks %s coins to change tag'
-GUILD_TAG_NO_BUY: "§cGuild haven't got 'Guild tag', buy it in /guild shop"
+GUILD_TAG_NO_MONEY: '§aGuild §8| §cGuild lacks %s coins to change tag'
+GUILD_TAG_NO_BUY: "§aGuild §8| §cGuild haven't got 'Guild tag', buy it in /guild shop"
 
 GUILD_MOTD_COMMAND_HELP:
 - '§7/g motd info §f- view motd of guild'
@@ -2166,35 +2232,35 @@ GUILD_MOTD_INFO: '§aGuild §8| §fGuild greeting:'
 GUILD_MOTD_SET_FORMAT: '/guild motd set <greeting>'
 GUILD_MOTD_SET_ALERT: '§2Guilds §8| %s§7 updated the guild greeting to -> §d%s'
 GUILD_MOTD_SET: '§aGuild §8| §fGuild greeting changed to:'
-GUILD_MOTD_NO_BUY: '§cУ гильдии еще не куплено "Приветствие гильдии", купите его в /guild shop'
+GUILD_MOTD_NO_BUY: '§aGuild §8| §cУ гильдии еще не куплено "Приветствие гильдии", купите его в /guild shop'
 GUILD_MOTD_CLEAR_ALERT: '§2Guilds §8| %s§7 удалил приветствие гильдии'
 GUILD_MOTD_CLEAR: '§aGuild §8| §fПриветствие гильдии удалено'
-GUILD_MOTD_NO_SET: '§cУ гильдии еще не установлено приветствие, создайте его /g motd set'
+GUILD_MOTD_NO_SET: '§aGuild §8| §cУ гильдии еще не установлено приветствие, установите его /g motd set'
 
 GUILD_LEADER_FORMAT: '/guild leader <player name>'
-GUILD_LEADER_ME: "§cYou can't transfer leadering to yourself"
+GUILD_LEADER_ME: "§aGuild §8| §cYou can't transfer leadering to yourself"
 GUILD_LEADER_ALERT: '§2Guilds §8| %s§7 transfered leadering to player %s'
 GUILD_SETLEADER: '§aGuild §8| §fYou transfered leadering to player %s'
 
 GUILD_RANK_FORMAT: '/guild rank <player name> <rank>'
-GUILD_RANK_ME: "§cYou can't change rank yourself"
+GUILD_RANK_ME: "§aGuild §8| §cYou can't change rank yourself"
 GUILD_RANK_ALERT: '§2Guilds §8| %s§7 lowered %s §7to %s'
 GUILD_SETRANK_ALERT: '§2Guilds §8| %s§7 set rank %s§7 to player %s'
 GUILD_RANK: '§aGuild §8| §fYou lowered %s§f to §7%s'
 GUILD_SETRANK: '§aGuild §8| §fYou assign on guild new %s§f - %s'
-GUILD_RANK_INVALID: '§cYou specified wrong rank Available ranks: §f%s'
-GUILD_RANK_NO_ACCESS: "§cYou can't manage ranks this player"
+GUILD_RANK_INVALID: '§aGuild §8| §cYou specified wrong rank Available ranks: §f%s'
+GUILD_RANK_NO_ACCESS: "§aGuild §8| §cYou can't manage ranks this player"
 
 GUILD_DONATE_FORMAT: '/guild donate <amount>'
 GUILD_DONATE_ALERT: '§2Guilds §8| %s§7 invested to the guild bank §a%s §7%s'
 GUILD_DONATE: '§aGuild §8| §fYou invested to the guild bank §a%s §f%s Comission by paying made up §c%s §f%s (§e%s§f)'
-GUILD_DONATE_DAILYLIMIT: '§cThe amount you want to invest exceeds the guild 12 hours limit, limit - %s'
-GUILD_DONATE_LIMIT: '§c12 Hours guild limit exceeded, limit - %s'
-GUILD_DONATE_REMOVELIMIT: '§cZeroing limit after: %s'
-GUILD_DONATE_NO_MONEY: '§cThe amount you want to invest exceeds your balance'
-GUILD_DONATE_AVAILABLE: '§cMay invest %s'
+GUILD_DONATE_DAILYLIMIT: '§aGuild §8| §cThe amount you want to invest exceeds the guild 12 hours limit, limit - %s'
+GUILD_DONATE_LIMIT: '§aGuild §8| §c12 Hours guild limit exceeded, limit - %s'
+GUILD_DONATE_REMOVELIMIT: '§aGuild §8| §fZeroing limit after: %s'
+GUILD_DONATE_NO_MONEY: '§aGuild §8| §cThe amount you want to invest exceeds your balance'
+GUILD_DONATE_AVAILABLE: '§aGuild §8| §fMay invest %s'
 
-GUILD_LEAVE_OWNER: '§cYou are guild leader, to remove guild use /guild delete, or transfer leader /g leader'
+GUILD_LEAVE_OWNER: '§aGuild §8| §cYou are guild leader, to remove guild use /guild delete, or transfer leader /g leader'
 GUILD_LEAVE_ALERT: '§2Guilds §8| %s§7 left the guild'
 GUILD_LEAVE: '§aGuild §8| §fYou left the guild §a%s'
 
@@ -2202,24 +2268,24 @@ GUILD_DEPOSIT_FORMAT: '/guild deposit <player name> <amount>'
 GUILD_DEPOSIT_ALERT: '§2Guilds §8| %s§7 withdrawed §a%s §7coins from guild bank to %s'
 GUILD_DEPOSIT_MSG: '§aGuild §8| §fYour balance replenished from guild bank by %s§f on §a%s§f %s'
 GUILD_DEPOSIT: '§aGuild §8| §7You withdrawed on player balance %s §a%s §f%s Comission by paying made up §c%s §f%s (§e%s§f)'
-GUILD_DEPOSIT_NO_MONEY: '§cThe amount you want to withdraw, exceeds guild balance'
+GUILD_DEPOSIT_NO_MONEY: '§aGuild §8| §cThe amount you want to withdraw, exceeds guild balance'
 
 GUILD_KICK_FORMAT: '/guild kick <player name> <reason>'
 GUILD_KICK_ALERT: '§2Guilds §8| %s§7 kicked the player %s§7 for reason §e%s'
 GUILD_KICK: '§aGuild §8| §fYou kicked the player %s§f for reason: §e%s'
-GUILD_KICK_EXEMPT: "§cYou can't kick this player"
+GUILD_KICK_EXEMPT: "§aGuild §8| §fYou can't kick this player"
 
 GUILD_MUTE_FORMAT: '/guild mute <player name> <time> <reason>'
 GUILD_MUTE_ALERT: '§2Guilds §8| %s§7 muted guild chat for the player %s§7 on §a%s§7 for reason: §a%s'
 GUILD_NEWMUTE: '§aGuild §8| §fYou muted guild chat for the player %s§f on §a%s§f for reason: §a%s'
-GUILD_MUTE_ME: "§cYou can't mute yourself"
-GUILD_MUTE_ALREADY: '§cPlayer %s has got already muted guild chat'
+GUILD_MUTE_ME: "§aGuild §8| §cYou can't mute yourself"
+GUILD_MUTE_ALREADY: '§aGuild §8| §cPlayer %s has got already muted guild chat'
 GUILD_MUTE_MSG: '§aGuild §8| %s§c muted chat guild for You %s on %s'
 
 GUILD_UNMUTE_FORMAT: '/guild unmute <player name>'
-GUILD_UNMUTE_ALREADY: "§cPlayer %s hasn't got guild chat mute"
+GUILD_UNMUTE_ALREADY: "§aGuild §8| §cPlayer %s hasn't got guild chat mute"
 GUILD_UNMUTE_ALERT: '§2Guilds §8| %s§f unmuted guild chat for the player %s'
-GUILD_UNMUTE_MSG: '§aГильдия §8| §aYour guild chat has been unmuted'
+GUILD_UNMUTE_MSG: '§aGuild §8| §aYour guild chat has been unmuted'
 GUILD_UNMUTE: '§aGuild §8| §fYou unmuted guild chat for the player %s'
 
 GUILD_STATS_MOTD_BUY: '§aBought'
@@ -2241,20 +2307,16 @@ GUILD_STATS:
 - '§c • §fModerators: §a%s'
 - '§c • §fDeputies: §a%s'
 
-GUILD_HOME_NO: "§cYou haven't got guild home"
+GUILD_HOME_NO: "§aGuild §8| §cYou haven't got guild home"
 GUILD_HOME: '§aGuild §8| §fYou were teleported to the guild home'
-GUILD_HOME_DELAY: '§cТелепортироватся в дом гильдии можно 1 раз в 5 минут, осталось %s'
-GUILD_HOME_CANCEL: '§cYou moved, teleportation canceled'
-GUILD_HOME_START: 'Teleportation started, you will be teleported in §a5§f seconds'
-GUILD_HOME_ALREADY: '§cTeleportation is already running'
 
 GUILD_DELHOME: '§aGuild §8| §fGuild home removed'
-GUILD_DELHOME_ALREADY: "§cGuild hasn't got guild home, сreate it /g sethome"
+GUILD_DELHOME_ALREADY: "§aGuild §8| §cGuild hasn't got guild home, сreate it /g sethome"
 GUILD_DELHOME_ALERT: '§2Guilds §8| %s§7 deleted guild home'
 
 GUILD_SETHOME: '§aGuild §8| §fGuild home set'
-GUILD_SETHOME_ALERT: '§2Guilds §8| %s§7 set to new guild home'
-GUILD_SETHOME_INVALID: '§cError, set guild home may on thr servers: %s'
+GUILD_SETHOME_ALERT: '§2Guilds §8| %s§7 set to new guild home from mode §a%s'
+GUILD_SETHOME_INVALID: '§aGuild §8| §cError, set guild home may on thr servers: %s'
 
 GUILD_INFO_FORMAT: '/guild info <player name>'
 GUILD_INFO:
@@ -2267,8 +2329,8 @@ GUILD_DONATEINFO:
 - '§c• §fDonated: §a%s'
 - '§c• §fGot from guild: §c%s'
 
-PERSONALUP_DISABLE: '§cFrom you no available boost.'
-PERSONALUP_KEY_NOT_ACTIVE: '§cError, key no valid.'
+PERSONALUP_DISABLE: '§aServer §8| §cFrom you no available boost.'
+PERSONALUP_KEY_NOT_ACTIVE: '§aServer §8| §cError, written key no valid.  Уточнить можно в vk.me/flycore'
 PERSONALUP_KEY_REASON: '§4Error #23 §cWritten no valid key.'
 
 DISABLE_COMMAND_IN_GAME: '%s§cThis feature is disabled'
@@ -2296,32 +2358,36 @@ BANINFO_COOLDOWN: '§f- Кончится через: §e%s'
 BANINFO_NEVER: '§f- Never blocked'
 BANINFO_BY: '§f- By request %s'
 BANINFO:
-- '§aBans §8| §fInfo:'
+- '§aPunishment §8| §fInfo:'
 - '§f- Player: %s'
 - '§f- %s %s'
 - '§f- Type: §7%s'
 - '§f- Reason: §e%s'
 - '§f- Date: §6%s'
 BANINFO_IP:
-- '§aBans §8| §fInfo:'
+- '§aPunishment §8| §fInfo:'
 - '§f- IP addres: %s'
 - '§f- %s %s'
 - '§f- Type: §7%s'
 - '§f- Reason: §e%s'
 - '§f- Date: §6%s'
-UNBAN_NO_ACCESS: '§cThe player is blocked administration, you do not have permission to him unlocked'
-UNBAN_NO_OTHER: '§cError, вы можете разблокировать только тех кого сами наказывали'
-UNMUTE_NO_YOURSELF: '§cYou no available unblocked to yourself chat'
-BAN_NO_ACCESS: '§cYou can not ban this player'
-BAN_NO_ACCESS_SYNTAX: '§cYou are not permitted, to use lifetime syntax'
-BAN_UP_RANK: '§cYou are not permitted to punish players, higher than your status'
-BAN_YOU_RANK: '§cYpu are not permitted to punish players, having the same status'
-BAN_HELP: '§cUse syntax -v, to bypass'
-BAN_ME: '§cYou can not punish yourself'
-UNBAN_NO: '§cPlayer %s, not blocked'
-UNMUTE_NO: '§cPlayer chat %s, not blocked'
-UNBANIP_NO: '§cIP address %s, not blocked'
-KICK_USE: '§aServer §8| §fYou kicked player %s§f from reason §a%s'
+UNBAN_NO_ACCESS: '§aPunishment §8| §cThe player is blocked administration, you do not have permission to him unlocked'
+UNBAN_NO_OTHER: '§aPunishment §8| §cError, вы можете разблокировать только тех кого сами наказывали'
+UNMUTE_NO_YOURSELF: '§aPunishment §8| §aPunishment §8| §cYou no available unblocked to yourself chat'
+BAN_NO_ACCESS: '§aPunishment §8| §cYou can not ban this player'
+BAN_NO_ACCESS_SYNTAX: '§aPunishment §8| §cYou are not permitted, to use lifetime syntax'
+BAN_UP_RANK: '§aPunishment §8| §cYou are not permitted to punish players, higher than your status'
+BAN_YOU_RANK: '§aPunishment §8| §cYou are not permitted to punish players, having the same status'
+BAN_BIG_TIME: '§aPunishment §8| §cОшибка, Вы не можете наказывать на такой срок'
+BAN_DEFAULT_TIME: '§aPunishment §8| §cВы ввели некорректное время'
+BAN_LIMIT_REACHED: '§aPunishment §8| §fВы достигли лимита для этого наказания, подождите еще §e%s'
+BAN_HELP: '§aPunishment §8| §cUse syntax -v, to bypass'
+BAN_ME: '§aPunishment §8| §cYou can not punish yourself'
+UNBAN_NO: '§aPunishment §8| §cPlayer %s, not blocked'
+UNMUTE_NO: '§aPunishment §8| §cPlayer chat %s, not blocked'
+UNBANIP_NO: '§aPunishment §8| §cIP address %s, not blocked'
+
+KICK_USE: '§aPunishment §8| §fYou kicked player %s§f from reason §a%s'
 KICK_REASON:
 - '§a§l§nFlyCore'
 - ''
@@ -2486,27 +2552,27 @@ UNMUTE_INFO: '§cModeration §8| %s§7 unblocked chat of player §e%s'
 UNBAN_INFO: '§cModeration §8| %s§7 unblocked player §e%s'
 UNBANIP_INFO: '§cModeration §8| %s§7 unblocked IP address §a%s'
 UNMUTE_MSG: '§aServer §8| §fAccess to chat has unlocked'
-BAN_ALREADY: '§cPlayer %s already blocked'
-BANIP_ALREADY: '§cIP addres %s already blocked'
-MUTE_ALREADY: '§cFrom player %s already blocked chat'
-BANIP_INCORRECT: '§cPlayer %s not found, or specified invalid ip address'
-REPORT_ALREADY_SENT: '§cYou already sent from this player'
-REPORT_ME: '§cYou can not report yourself'
+BAN_ALREADY: '§aPunishment §8| §cPlayer %s already blocked'
+BANIP_ALREADY: '§aPunishment §8| §cIP addres %s already blocked'
+MUTE_ALREADY: '§aPunishment §8| §cFrom player %s already blocked chat'
+BANIP_INCORRECT: '§aPunishment §8| §cPlayer %s not found, or specified invalid ip address'
+REPORT_ALREADY_SENT: '§aReports §8| §cYou already sent from this player'
+REPORT_ME: '§aReports §8| §cYou can not report yourself'
 REPORT_FOR_PERSONAL:
- - '§cYou can not report server personal'
- - '§cThere is a discussion for this in group https://vk.com/topic-157663196_39337015'
+ - '§aReports §8| §fYou can not report server personal'
+ - '§f There is a discussion for this in group https://vk.com/topic-157663196_39337015'
 REPORT_FOR_TESTER: '§aAntiCheat §8| §fThis player is not a cheater'
-REPORT_SENT: '§cReports §8| §eReport was sent. To be consided by moderators, it is necessary to be reported by another one player'
-REPORT_TWO_SENT: '§cReports §8| §fReport was sent. You are not first, who reported this player, our §9moderators§f were notified'
+REPORT_SENT: '§aReports §8| §eReport was sent. To be consided by moderators, it is necessary to be reported by another one player'
+REPORT_TWO_SENT: '§aReports §8| §fReport was sent. You are not first, who reported this player, our §9moderators§f were notified'
 REPORT_INFO_ONE: '§cReports §8| §fOn player %s§f recieved §c%s§f %s'
 REPORT_INFO_TWO: '§cReports §8| §fOn player %s§f already recieved §c%s§f %s'
-REPORT_PLAYER_GUILTY: '§cReports §8| §fPlayer %s§f, that You have reported was punished. Thanks for assistance in catching!'
-REPORT_PLAYER_INNOCENT: '%s§f rejected your report on %s'
+REPORT_PLAYER_GUILTY: '§aReports §8| §fPlayer %s§f, that You have reported was punished. Thanks for assistance in catching!'
+REPORT_PLAYER_INNOCENT: '§aReports §8| %s§f rejected your report on %s'
 REPORT_BROADCAST_PLAYER_GUILTY: '§cModeration §8| %s§7 thought, that §e%s §f- §cguilty'
 REPORT_BROADCAST_PLAYER_INNOCENT: '§cModeration §8| %s§7 thought, that §e%s §f- §aunguilty'
 REPORT_PLAYER_STARTED_SPECTATE: '§cModeration §8| %s§7 went to spectate for %s'
-REPORT_NO_PERM_ACTIONS: '§cReports §8| §fMake decisions on reports can only moderators or higher.'
-REPORT_NO_REPORT_PLAYER: '§cOn player %s there is not reports'
+REPORT_NO_PERM_ACTIONS: '§aReports §8| §fMake decisions on reports can only §9moderators§f or higher.'
+REPORT_NO_REPORT_PLAYER: '§aReports §8| §cOn player %s there is not reports'
 REPORT_COMMAND_HELP:
 - '§7/report list §f- list of reports'
 - '§7/report info <player name> §f- information of report'
@@ -2515,7 +2581,7 @@ REPORT_COMMAND_HELP:
 - '§7/report idlist §f- list id reason'
 REPORT_INFO_FORMAT: '/report info <player name>'
 REPORT_INFO:
-- '§cReports §8| §fInformation for player §e%s§f:'
+- '§aReports §8| §fInformation for player §e%s§f:'
 - '§f - §fReported: §a%s'
 - '§f - §fSpectate now: §a%s'
 - '§f - §fLast report: §a%s ago'
