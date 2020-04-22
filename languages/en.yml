@@ -3310,7 +3310,7 @@ AUTH_EMAIL_INFO_HOVER:
 - '§fto add mail'
 AUTH_REGISTER_CONFIRM_INFO: '§cYou successfully registered! §fYour current password §7(hover here)'
 AUTH_REGISTER_CONFIRM_INFO_HOVER:
-- '§fThank you for registering!'
+- '§aThank you for registering!'
 - ''
 - '§7Data indicated at register:'
 - '§fPassword - §a%s'
