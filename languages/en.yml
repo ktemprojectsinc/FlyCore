@@ -765,7 +765,7 @@ PLAYER_BOOST_PLEASE_MADE_SCREENSHOT:
 AVAILABLE_SERVER_NOT_FOUND:
 - '§aServer §8| §fCould not find suitable server'
 
-SERVER_NOT_AVAILABLE_GROUP: '§aСервер §8| §cError, entry is available only for %s§c or higher'
+SERVER_NOT_AVAILABLE_GROUP: '§aServer §8| §cError, entry is available only for %s§c or higher'
 PLAYER_SERVER_ALREADY: '§aServer §8| §cYou already on current server!'
 
 SLOT_BUSY: '§cSorry, but You was transfered to lobby, Your slot took %s'
@@ -976,7 +976,7 @@ SITESHOP_LUCKYCHEST: 'Default keys'
 SITESHOP_DONATKEY: 'Donate key'
 
 SITE_SHOP_ITEM_ALERT: '§aShop §8| §fAll items successfully gived'
-SITE_SHOP_NO_SLOTS: '§aСервер §8| §cYou do not have enough space in your inventory!'
+SITE_SHOP_NO_SLOTS: '§aServer §8| §cYou do not have enough space in your inventory!'
 SITE_SHOP_ITEMS_NAME: 'Items'
 SITE_SHOP_ITEM_EMPTY_LORE:
 - '§7You have no items available'
@@ -2589,7 +2589,7 @@ REPORT_ACCEPT_FORMAT: '/report accept <nick> <reason id>'
 REPORT_DECLINE_FORMAT: '/report decline <nick>'
 REPORT_INVALID_ID_REASON: '§cInvalid id reason'
 REPORT_IDLIST:
-- '§cReports §8| §fAvailable id reason:'
+- '§aReports §8| §fAvailable id reason:'
 - '§c №1.4 §f- §e%s'
 - '§c №1.3 §f- §e%s'
 - '§c №1.5 §f- §e%s'
@@ -2597,37 +2597,40 @@ REPORT_IDLIST:
 - '§c №1.6 §f- §e%s'
 SETTINGS_DONATECHAT_DISABLE: '§cYou disabled donate chat. To write there, turn it on in the personal settings'
 ASK_NO_STAFF_ONLINE: '§aQuestions §8| §fNo staff online, On your question no one to answer :('
-ASK_DELAY: '§cError, new question may be sent after %s'
-ASK_ALREADY_SENT: '§cYou already asked a question, wait for answer'
+ASK_ALREADY_SENT: '§aQuestions §8| §cYou already asked a question, wait for answer'
 ASK_SENT:
 - '§aQuestions §8| §fYou question sent all staff online'
 - ' §fIf you noticed, what with you communicate rough, or responded'
-- ' §fplayer will not want help you, refer to the forum:'
-- ' §eforum.flycore.ru§f, section - §eComplaint to the administration'
+- ' §fplayer will not want help you, please refer to the vk group:'
+- ' §b§l vk.com/flycore§f, section - §eComplaint to the administration'
 ASK_LIMIT: '§aQuestions §8| §fYou question must have §e6 §fand no more §c100 §fcharacters'
 ASK_DELAY_NEW: '§cError, new question may be sent after %s'
 YOU_CANT_ASK_QUESTIONS: '§aQuestions §8| §fYou can only answer to question, for this write §a/ans'
 ANS_SENT: '§aQuestions §8| §fYou answered %s'
-ANS_HOVER: '§7On question: §a%s\n\n§fClick to write,\nmessage by player %s'
+ANS_HOVER:
+- '§7On question: §a%s'
+- ''
+- '§fClick to write,'
+- '§fmessage by player %s'
 ANS_MSG:
 - '§aQuestions §8| §fOn Your question %s %s'
 - ' §a• §fAnswer: §e%s'
 ANS_JOIN_MSG:
 - '§aQuestions §8| §fWhile You were offline, on Your question %s %s'
 - ' §a• §fAnswer: §e%s'
-ANS_LIMIT: '§aQuestions §8| §fYour answer has to consist of §e1§f symbols'
-ANS_NO: '§cError, player %s §cdid not asked a question or he already got an answer'
+ANS_LIMIT: '§aQuestions §8| §fYour answer has to consist of §e%s§f symbols'
+ANS_NO: '§aQuestions §8| §fError, player %s§f did not asked a question or he already got an answer'
 
-IGNORE_REMOVE: '§cYou removed player %s§c from ignore list.'
-IGNORE_ME: '§cYou can not ignore yourself'
+IGNORE_REMOVE: '§aIgnore §8| §cYou removed player %s§c from ignore list.'
+IGNORE_ME: '§aIgnore §8| §cYou can not ignore yourself'
 IGNORE_ADD:
-- '§aServer §8| §fYou added player %s§f to your ignore list for reason §e%s§f.'
-- '§f He can no longer find and contact you'
+- '§aIgnore §8| §fYou added player %s§f to your ignore list for reason §e%s§f.'
+- '§f No can no longer find and contact you'
 
 IGNORELIST_EMPTY: '§cВ Вашем списке игнорируемых нет игроков.'
 
 FIND: '§aServer §8| §fPlayer %s§f now at server §c%s'
-FIND_IGNORE: '§cThis player added You to ignoring list of reason %s'
+FIND_IGNORE: '§aIgnore §8| §cThis player added You to ignoring list of reason %s'
 FIND_TESTER: '§aServer §8| §fThis player is anticheat-tester. His cant spectate at the moment'
 FIND_OFFLINE: '§aServer §8| §fPlayer %s§f offline, last time %s was online §7%s§f ago'
 
@@ -2658,7 +2661,9 @@ WHOIS_OFFLINE:
 RULES:
 - '§aServer §8| §fFull list of server rules -'
 RULES_2: '§dhttp://flycore.ru/rules'
-RULES_HOVER: '§fClick here,\n§fto open url'
+RULES_HOVER:
+- '§fClick here,'
+- '§fto open url'
 
 FIREWORK_CMD: '§aFirework!'
 
@@ -2667,12 +2672,12 @@ MAIL_COMMAND_HELP_SEND: '§c/mail send <player name> <message> §f- sent message
 MAIL_COMMAND_HELP_LIST: '§c/mail list §f- open mail list'
 MAIL_HOVER_SEND: '§fClick to, get commant to chat'
 MAIL_HOVER_LIST: '§fClick to, open mail list'
-MAIL_SEND_ME: '§cYou can not write mail to yourself'
+MAIL_SEND_ME: '§aMail §8| §cYou can not write mail to yourself'
 MAIL_SEND_DELAY: '§aMail §8| §fWait still §a%s §fto sent new letter'
-MAIL_INCORRECT: '§cError, your message %s contains prohibited symbols, available use one numbers or only numbers, latin symbols characters'
+MAIL_INCORRECT: '§aServer §8| §cError, your message %s contains prohibited symbols, available use one numbers or only numbers, latin symbols characters'
 MAIL_SEND: '§aMail §8| §fPlayer %s §fwas sent message ▬ §e%s'
-MAIL_MSG_FRIENDS: '§cError, this player takes "mail" messages only from his friends and girlfriends'
-MAIL_EMPTY: '§cYour not mails'
+MAIL_MSG_FRIENDS: '§aServer §8| §cError, this player takes "mail" messages only from his friends and girlfriends'
+MAIL_EMPTY: '§aMail §8| §cYour not mails'
 MAIL_MSG:
 - '§aMail §8| §fYou arrived new message from %s'
 - ' §a• §fMessage: §e%s'
@@ -2681,23 +2686,35 @@ MEMORY:
 - '§8 | §fMax memory %s MB'
 - '§8 | §fAvailable memory %s MB'
 - '§8 | §fFree memory %s MB'
+MEMORY_STAT:
+- '§aServer §8| §fGlobal information'
+- ' §8| §fPlayers loaded %s'
+- ' §8| §fPlayers for gadgets loaded %s'
+- ' §8| §f~Sql requests %s'
+- ' §8| §fPlayers inventories %s'
+- ' §8| §fOpening animation inventories %s'
+- ' §8| §fOpening inventories %s'
+- ' §8| §fPlayers from delay to items %s'
+- ' §8| §fPlayers on delay to inventory click %s'
+- ' §8| §fPlayers from delay to click NPC %s'
+- " §8| §fPlayers is offset`s %s"
 
 YT_COMMAND_HELP:
  - '§7/yt addlink <channel link> §f- add link to your channel'
  - '§7/yt remlink §f- removed link'
  - '§7/yt getlink §f- view current link'
- - '§7/yt alert §f- create announcement for all server'
+ - '§7/yt alert §f- create announcement for all server (YourName announcement оf ...)'
  - '§7/yt alertactionbar §f- сделать объявление на весь сервер в actionbar'
  - '§7/yt menu §f- open youtube menu'
 YT_LINK_NOT_FOUND: '§aYouTube §8| §cУ вас еще нет ссылки, добавьте её /yt addlink <ссылка>'
 
 YT_ALERT_FORMAT: '/yt alert <your broadcast>'
 YT_ALERT_DELAY: '§aYouTube §8| §fWait still §a%s §f%s to sent new announcement'
-YT_ALERT_BROADCAST: '%s §fnow §e%s'
+YT_ALERT_BROADCAST: '%s§f - §e%s'
 
 YT_ALERTACTIONBAR_FORMAT: '/yt alertactionbar <your broadcast>'
 YT_ALERTACTIONBAR_DELAY: '§aYouTube §8| §fПодождите еще §a%s §f%s для отправки нового объявления в actionbar'
-YT_ALERTACTIONBAR_BROADCAST: '%s §fnow §e%s'
+YT_ALERTACTIONBAR_BROADCAST: '%s§f announcement of §e%s'
 
 YT_ADDLINK_NO_CHANGE: '§aYouTube §8| §cLink no changed'
 YT_ADDLINK: '§aYouTube §8| §fYou added link §a%s'
@@ -2766,15 +2783,15 @@ TRAINING_ALREADY: '§aTraining §8| §cYou already passing training'
 TRAINING_NOT_FOUND: '§aTraining §8| §cTraining for You is not found, it removed'
 TRAINING_REMOVE: '§aTraining §8| §fYou removed training, Вы больше не сможете его проходить...'
 
-BAN_NOT_FOUND: '§cHistory blocked account player is empty'
-MUTE_NOT_FOUND: '§cHistory blocked chat player is empty'
-KICK_NOT_FOUND: '§cHistory kicked player is empty'
-BANIP_NOT_FOUND: '§cHistory blocked address of player is empty'
-UNBAN_NOT_FOUND: '§cHistory unblocked player is empty'
-UNMUTE_NOT_FOUND: '§cHistory unblocked chat of player is empty'
-UNBANIP_NOT_FOUND: '§cHistory unblocked address of player is empty'
-GUILDMUTE_NOT_FOUND: '§cHistory blocked guild chat of player is empty'
-GUILDUNMUTE_NOT_FOUND: '§cHistory unblocked guild chat of player is empty'
+BAN_NOT_FOUND: '§aHistory §8| §cHistory blocked account player is empty'
+MUTE_NOT_FOUND: '§aHistory §8| §cHistory blocked chat player is empty'
+KICK_NOT_FOUND: '§aHistory §8| §cHistory kicked player is empty'
+BANIP_NOT_FOUND: '§aHistory §8| §cHistory blocked address of player is empty'
+UNBAN_NOT_FOUND: '§aHistory §8| §cHistory unblocked player is empty'
+UNMUTE_NOT_FOUND: '§aHistory §8| §cHistory unblocked chat of player is empty'
+UNBANIP_NOT_FOUND: '§aHistory §8| §cHistory unblocked address of player is empty'
+GUILDMUTE_NOT_FOUND: '§aHistory §8| §cHistory blocked guild chat of player is empty'
+GUILDUNMUTE_NOT_FOUND: '§aHistory §8| §cHistory unblocked guild chat of player is empty'
 
 SKIN_CLEAR: '§aSkins §8| §fYou reseting your skin'
 SKIN_SET: '§aSkins §8| §fYou set skin to §a%s'
@@ -2783,19 +2800,19 @@ SKIN_ERROR: '§aSkins §8| §cВо время установки скина пр
 SKIN_ERROR_MOJANG: '§aSkins §8| §cОшибка скин не установлен, подождите несколько секунд пока mojang разрешит снова получить текстуры'
 
 SERVER_DENIED: '§aServer §8| §fThis server is blocked to teleportation'
-SERVER_NOT_FOUND: '§cError, specified server not found'
+SERVER_NOT_FOUND: '§aServer §8| §cError, specified server not found'
 SERVER_CONNECT: '§aServer §8| §fYou teleported to server §a%s'
 STAFF_CONNECTED: '§cModeration §8| %s§7 %s to server %s'
 STAFF_CONNECTED_IP: '[IP: %s]'
 
-SERVER_ALREADY: '§cYou already one server'
+SERVER_ALREADY: '§aServer §8| §cYou already one server'
 SERVER_TELEPORTED: '§aServer §8| §fYou teleported to player server %s'
 SERVER_BROADCAST: '§aServer §8| %s §fteleported to your server'
 
 TIME: '§aServer §8| §fTime spent on the server - §a%s'
 TIME_TO: '§aServer §8| §fPlayer %s§f played - §a%s§f time of server'
 
-MONEY_AND_GOLDS: '§aBalance §8| §fYou have §a%s§f %s, §e%s§f %s and §b%s§f %s'
+MONEY_AND_GOLDS: '§aАккаунт §8| §fYou have §a%s§f %s, §e%s§f %s and §b%s§f %s'
 
 BUY_DONATE_BROADCAST:
 - ''
@@ -2834,9 +2851,11 @@ BUY_NOT_STORE: "§cOn Your account was not purchased none privilege;\nuse main a
 BUY_MAX_NOT_MULTIACCOUNT: "§cYou have created maximum amount of multi-accounts\nuse them, or buy a privilege on website flycore.ru\nto increase maximum amount of multi-accounts"
 BUY_MAX_MULTIACCOUNT: "§cYou exhausted your limit to create multi-accounts!\nYour available multi-account for join: %s"
 
-BUY_HOVER_BROADCAST: '§fClick here\n§fto transition link'
+BUY_HOVER_BROADCAST:
+- '§fClick here'
+- '§fto transition link'
 
-PLAYER_IS_BANNED: '§cError #5, Please made screenshot, and report for vk.me/flycore'
+PLAYER_IS_BANNED: '§cYou are banned (#5)'
 
 ALERT_FORMAT: '/alert <message>'
 
@@ -2848,14 +2867,14 @@ SPY_ALREADY_ON: '§aSpy §8| §cYou already enabled spying'
 SPY_OFF: '§aSpy §8| §fYou disabling spying'
 SPY_ALREADY_OFF: '§aSpy §8| §cYou already disabled spying'
 
-HUBS_ALREADY: '§cYou are already in hub'
+HUBS_ALREADY: '§aServer §8| §cYou are already in hub'
 
 REDIRECT: '§aServer §8| §fYou were teleported to §a%s'
 
 MSG_FORMAT: '/msg <player name> <message>'
-MSG_ME: '§cYou can not contact yourself'
-MSG_FRIENDS_ONLY: '§cAccording to your privacy settings, you can only chat with friends and girlfriends'
-MSG_FRIENDS: '§cError, this player accepts messages only from their friends and girlfriends'
+MSG_ME: '§aPM §8| §cYou can not contact yourself'
+MSG_FRIENDS_ONLY: '§aPM §8| §cAccording to your privacy settings, you can only chat with friends and girlfriends'
+MSG_FRIENDS: '§aPM §8| §cError, this player accepts messages only from their friends and girlfriends'
 MSG: '§aPM §8| §aI §8-> %s §8| §7%s'
 MSG_ALERT: '§aPM §8| %s §8-> §aI §8| §7%s'
 
@@ -2869,13 +2888,13 @@ ONLINE:
 - ' §a▪ §fPlayers: %s'
 - ' §a▪ §fDonate: %s'
 - ' §a▪ §fStaff: %s'
-ONLINE_NOT_FOUND: '§cError, current %s not found'
+ONLINE_NOT_FOUND: '§aServer §8| §cError, current %s not found'
 
 REPLY_FORMAT: '/reply <message>'
 REPLY_EMPTY: '§cNo one wrote to you'
 
 SEND_FORMAT: '/send <@server|cur|player|all> <server2>'
-SEND_NOT_FOUND: '§cError, current server not found'
+SEND_NOT_FOUND: '§aServer §8| §cError, current server not found'
 SEND_PLAYER: '§aServer §8| §fPlayer %s§f success teleported to server §c%s'
 SEND_SERVER_PLAYERS: '§aServer §8| §fYou teleported all player of server §a%s§f to server §c%s'
 SEND_SERVER_CURRENT: '§aServer §8| §fYou teleported all player on current server to server §c%s'
@@ -2888,9 +2907,9 @@ PING: '§aServer §8| §fYour ping §a%s §fms'
 PING_CORE: '§aServer §8| §fPing for Core §a%s §fms'
 
 CRASH_FORMAT: '/crash <player name>'
-CRASH_ERROR_YOU: '§cYou can not crash yourself'
-CRASH_NO: '§cВы не можете крашнуть данного игрока'
-CRASH_PLAYER: '§fYou crached player %s'
+CRASH_ERROR_YOU: '§aCrash §8| §cYou can not crash yourself'
+CRASH_NO: '§aCrash §8| §cВы не можете крашнуть данного игрока'
+CRASH_PLAYER: '§aCrash §8| §fYou crached player %s'
 
 NEAR: 'Ближайщие игроки: %s'
 NEAR_NOT_FOUND: 'Ближайших игроков нет'
@@ -3063,8 +3082,8 @@ PARKOUR_NO_FOUND: '§cError, map not found'
 PARKOUR_EXIT: '§aParkour §8| §fYou leave for map'
 PARKOUR_START: "§aParkour §8| §fYou started to pass parkour on the map '§a%s§f' §7(§a%s§7)"
 PARKOUR_FLY:
-- "§cDon't use fly, otherwise your account will be banned"
-- '§cWrite about the cheaters on forum.'
+- "§aParkour §8| §cDon't use fly, otherwise your account will be banned"
+- '§c Write about the cheaters on forum.'
 PARKOUR_DISABLE: '§aParkour §8| §cThis parkour is disabled'
 PARKOUR_NO_MODULE: '§aParkour §8| §fYou have to pass the module 1'
 PARKOUR_NO_MAP: "§aParkour §8| §fYou aren't on the area"
@@ -3086,14 +3105,14 @@ PARKOUR_TIME_MINUTES: 'minutes'
 PARKOUR_TIME_SECONDS: 'seconds'
 PARKOUR_TIME_MILLISECONDS: 'milliseconds'
 
-NO_PERMISSION_STATS: '§cError, view statistic other players can only %s§c or higher'
-PLAYER_PRIVATE_STATS: '§cОшибка, данный игрок запретил просмотр его статистики'
+NO_PERMISSION_STATS: '§aStats §8| §cError, view statistic other players can only %s§c or higher'
+PLAYER_PRIVATE_STATS: '§aStats §8| §cError, this player blocked view him stats'
 STAFFCHAT_ENABLED: '§cModeration §8| %s§7 now sees staff chat'
 STAFFCHAT_DISABLED: '§cModeration §8| %s§7 is no longer see staff chat'
-YOU_ENABLED_STAFFCHAT: '§aВы снова видите чат персонала'
-YOU_DISABLED_STAFFCHAT: '§cYou disabling staff chat. Чтобы писать в него, напишите /sc toggle'
-DONATECHAT_ENABLED: '§aВы снова видите донат-чат'
-DONATECHAT_DISABLED: '§cВы отключили донат-чат. Чтобы писать в него, напишите /dc toggle'
+YOU_ENABLED_STAFFCHAT: '§aServer §8| §aВы снова видите чат персонала'
+YOU_DISABLED_STAFFCHAT: '§aServer §8| §cYou disabling staff chat. Чтобы писать в него, напишите /sc toggle'
+DONATECHAT_ENABLED: '§aServer §8| §aВы снова видите донат-чат'
+DONATECHAT_DISABLED: '§aServer §8| §cВы отключили донат-чат. Чтобы писать в него, напишите /dc toggle'
 
 CORE_NOTIFY_ENABLED: '§cModeration §8| %s§f снова видит уведомления ядра'
 CORE_NOTIFY_DISABLED: '§cModeration §8| %s§f теперь не видит уведомления ядра'
@@ -3109,7 +3128,7 @@ HIDE_INFO: '§4§lWarning! §cYou are hided!'
 
 YOUTUBE_NOT_FOUND: "§aYouTube §8| §cYou don't have got link, add it /yt addlink <channel link>"
 YOUTUBE_INFO: '§6§lYouTube §fchannel » §3§l%s'
-YOUTUBE_OTHER: '§aServer §8| §fOn %s§f YouTube channel: §b%s'
+YOUTUBE_OTHER: '§aStaff §8| §fOn %s§f YouTube channel: §b%s'
 
 #JOIN_TO_LOBBY: ' §a‣ %s §6joined to server'
 JOIN_TO_LOBBY: '§f+ %s§f %s %s'
@@ -3128,9 +3147,9 @@ LANGUAGE_CHANGE: '§aServer §8| §fYou Language is change to §6%s'
 PREFIX_CHANGE: '§aServer §8| §fYou prefix changed to %s'
 THEME_CHANGE: '§aServer §8| §fYou selected theme %s'
 
-REJOIN_NOT_FOUND: "§cError, You didn't played anywhere or server was restarted"
-REJOIN_INFO: '§fIf you were §ckicked§f, write §7/rejoin§f for second join to the games'
-REJOIN: '§aYou join second to the game %s'
+REJOIN_NOT_FOUND: "§aServer §8| §cError, You didn't played anywhere or server was restarted"
+REJOIN_INFO: '§aServer §8| §fIf you were §ckicked§f, write §7/rejoin§f for second join to the games'
+REJOIN: '§aServer §8| §aYou join second to the game %s'
 
 CHAT_DOUBLE: ' §cℹ Please, do not repeat the same messages'
 CHAT_SPAM: ' §cℹ Do not flood.'
@@ -3151,55 +3170,72 @@ AUTH_COMMAND_HELP:
 - '§7/auth changepassword <key> <player name> <password> §f- change password for player'
 - '§7/auth changemail <key> <player name> <email> §f- change mail for player'
 - '§7/auth info <player name> §f- information for player'
+- '§7/auth resetlicense <player name> §f - Disable join by license'
 AUTH_RELOAD: '§aAuthorization §8| §fConfiguration reloaded'
 AUTH_CHANGEMAIL_FORMAT: '/auth changemail <key> <player name> <email>'
 AUTH_CHANGEMAIL: '§aAuthorization §8| §fPlayer mail %s§f changed to §a%s'
 AUTH_REGISTER_FORMAT: '/auth register <key> <player name> <password>'
 AUTH_REGISTER: '§aAuthorization §8| §fAccount %s registred from password - §e%s'
 AUTH_UNREGISTER_FORMAT: '/auth unregister <key> <player name>'
-AUTH_NO_ACCESS: '§сВы не можете управлять аккаунтом данного игрока'
+AUTH_NO_ACCESS: '§aAuthorization §8| §сВы не можете управлять аккаунтом данного игрока'
 AUTH_UNREGISTRED: '§aAuthorization §8| §fAccount %s §fdeleted'
-AUTH_ERROR: '§cError - %s'
+AUTH_ERROR: '§aAuthorization §8| §cError - %s'
 AUTH_CHANGEPASSWORD_FORMAT: '/auth changepassword <key> <player name> <password>'
 AUTH_PASSWORD_CHANGED: '§aAuthorization §8| §fPlayer password %s§f changed to §a%s'
 AUTH_INFO_FORMAT: '/auth info <player name>'
 AUTH_INFO:
-- '§f Email: §a%s'
-- '§f Last ip address: §a%s'
-- '§f Registration ip address: §a%s'
-- '§f Last server: §a%s'
-AUTH_WRONGKEY: '§cError, written wrong key'
-AUTH_REASON_WRONGKEY: '§4Eror #14 §cWritten wrong key.'
-NO_LOGIN: '§cYou no authorized'
-LOGIN_ALREADY: '§cYou already authorized!'
+- '§aAuthorization §8| §fИнформация об игроке §e%s§f:'
+- ' - §fEmail: §a%s'
+- ' - §fLast ip address: §a%s'
+- ' - §fЛицензия: §a%s'
+- ' - §fВ ожидании активации лицензии: §a%s'
+- ' - §fRegistration ip address: §a%s'
+- ' - §fLast server: §a%s'
+AUTH_RESETLICENSE_FORMAT: '/auth resetlicense <player name>'
+AUTH_LICENSE_NOT_ENABLED: '§aAuthorization §8| §cError, у игрока %s не включен вход по лицензии'
+AUTH_LICENSE_DISABLED: '§aAuthorization §8| §fВход по лицензии был §cотключен§f для игрока %s'
+AUTH_WRONGKEY: '§aAuthorization §8| §cError, written wrong key'
+AUTH_REASON_WRONGKEY: '§aAuthorization §8| §4Eror #14 §cWritten wrong key.'
+NO_LOGIN: '§aAuthorization §8| §cYou no authorized'
+LOGIN_ALREADY: '§aAuthorization §8| §cYou already authorized!'
 LOGIN_FORMAT: '/login <password>'
 REGISTER_FORMAT: '/reg <password> <repeat password>'
-AUTH_REGISTER_ALREADY: '§cError, this account already registred'
-AUTH_PASSWORD_ERROR: '§cError, this passwords do not match!'
-AUTH_PASSWORD_LIMIT: '§cThis password is short or very long'
-AUTH_PASSWORD_LONG: '§cThis password is short or very long'
-AUTH_PASSWORD_INCORRENT: '§cError, password contains prohibited symbols'
+AUTH_REGISTER_ALREADY: '§aAuthorization §8| §cError, this account already registred'
+AUTH_PASSWORD_ERROR: '§aAuthorization §8| §cError, this passwords do not match!'
+AUTH_PASSWORD_LIMIT: '§aAuthorization §8| §cThis password is short or very long'
+AUTH_PASSWORD_LONG: '§aAuthorization §8| §cThis password is short or very long'
+AUTH_PASSWORD_INCORRENT: '§aAuthorization §8| §cError, password contains prohibited symbols'
 CHANGEPASSWORD_FORMAT: '/changepass <old password> <new password>'
-AUTH_CHANGEPASSWORD_WRONG: '§cError, incorrect password!'
-AUTH_CHANGEPASSWORD_LIMIT: '§cThis password is short or very long'
-AUTH_CHANGEPASSWORD_LONG: '§cThis password is short or very long'
-AUTH_CHANGEPASSWORD_INCORRECT: '§cError, password contains prohibited symbols'
-AUTH_CHANGEPASSWORD: '§eYou password was successfully changed'
+AUTH_CHANGEPASSWORD_WRONG: '§aAuthorization §8| §cError, incorrect password!'
+AUTH_CHANGEPASSWORD_LIMIT: '§aAuthorization §8| §cThis password is short or very long'
+AUTH_CHANGEPASSWORD_LONG: '§aAuthorization §8| §cThis password is short or very long'
+AUTH_CHANGEPASSWORD_INCORRECT: '§aAuthorization §8| §cError, password contains prohibited symbols'
+AUTH_CHANGEPASSWORD: '§aAuthorization §8| §fYou password was successfully changed'
+LICENSE_REJOIN_START: '§aLicense §8| §fПерезайдите на сервер с лицензионного аккаунта, чтобы активировать данную опцию'
+LICENSE_REJOIN_FIRST: '§aLicense §8| §fЕсли спустя §c2§f минуты, вы не зайдете с §aлиц. аккаунта§f, то вход будет вновь доступен с §cпиратского'
+LICENSE_ACTIVED: '§aLicense §8| §fПоздравляем, теперь вход возможен только с §aлицензионного аккаунта§f!'
+LICENSE_DISABLED: '§aLicense §8| §fВход через лицензию §cотключен§f, надеюсь вы помните свой пароль, так как он тебе пригодится'
+LICENSE_INFO:
+- '§c⚠ Внимание! §fМы заметили вход с §alicense§f!'
+- '§f не желаете ли §dактивировать§f, её чтобы не вводить пароль? §7(click to activate)'
+LICENSE_INFO_HOVER:
+- 'Нажмите,'
+- 'чтобы активировать вход по лицензии'
 EMAIL_COMMAND_HELP:
 - '§7/email add <your email> <again> §f- snap email to the your account'
 - '§7/email change <old email> <new email> §f- Change email on your account'
 - '§7/email verify <verify code> §f- Action confirm'
 - '§7/email recovery <your email> §f- Send on the email setting password'
 MAIL_CHANGE_FORMAT: '/email change <old mail> <new mail>'
-MAIL_NO: '§cError, you have not snap email'
-MAIL_CHANGE_WRONG: '§cMail, the one you specified as a previously linked account, not correct'
-MAIL_CHANGE_INCORRECT: '§cSpecified email not valid'
-MAIL_CHANGE_CONFIRM: '§aEMail §8| §fOld email §c%s§f successful changed to §e%s§f!'
-RECOVERY_WRONG: '§cError, wrong mail'
+MAIL_NO: '§aEMail §8| §cError, you have not snap email'
+MAIL_CHANGE_WRONG: '§aEMail §8| §cMail, the one you specified as a previously linked account, not correct'
+MAIL_CHANGE_INCORRECT: '§aEMail §8| §cSpecified email not valid'
+MAIL_CHANGE_CONFIRM: '§aEMail §8| §fOld email §c%s§f successful changed to §a%s§f!'
+RECOVERY_WRONG: '§aEMail §8| §cError, wrong mail'
 RECOVERY_SENT: '§aEMail §8| §fLetter with password was sent to your email'
 MAIL_RECOVERY_FORMAT: '/email recovery <mail>'
 MAIL_VERIFY_FORMAT: '/email verify <verify code>'
-MAIL_VERIFY_ERROR: '§cError, указанный код введен не верно, или вам нечего подтверждать'
+MAIL_VERIFY_ERROR: '§aEMail §8| §cError, указанный код введен не верно, или вам нечего подтверждать'
 MAIL_VERIFY_SENDED:
 - '§aEMail §8| §fКод подтверждения отправлен на почту §c%s§f для §e%s§f.'
 - '§aEMail §8| §fДля подтверждения почты используйте команду §7/email verify <код>'
@@ -3208,14 +3244,14 @@ MAIL_TYPE_OLD_CONFIRM: 'Подтверждения старой почты'
 MAIL_TYPE_NEW_CONFIRM: 'Подтверждения новой почты'
 MAIL_TYPE_JOIN: 'Подтверждения входа'
 MAIL_ADD_FORMAT: '/email add <your mail> <repeat mail>'
-MAIL_ADD_ALREADY: '§cError, you already have got tethered email. To change email use /email change <old email> <new email>'
-MAIL_ADD_INCORRECT: "§cThis email isn't valid"
-MAIL_ADD_WRONG: "§cError, specified adresses aren't same!"
+MAIL_ADD_ALREADY: '§aEMail §8| §cError, you already have got tethered email. To change email use /email change <old email> <new email>'
+MAIL_ADD_INCORRECT: "§aEMail §8| §cThis email isn't valid"
+MAIL_ADD_WRONG: "§aEMail §8| §cError, specified adresses aren't same!"
 MAIL_ADD_ALREADY_USE:
-- '§cОшибка, вы не можете привязать данную почту, так как она уже используется кем-то другим,'
-- '§cчей ник кончается на буквы %s'
-- '§c§oP.s. Это было сделано чтобы у каждого игрока был свой аккаунт на форуме'
-MAIL_ADD_CONFIRM: '§aEMail §8| §fEmail ownership §e%s§f confirmed!'
+- '§aEMail §8| §cОшибка, вы не можете привязать данную почту, так как она уже используется кем-то другим,'
+- '§c чей ник оканчивается на буквы %s'
+- '§c §oP.s. Это было сделано чтобы у каждого игрока был свой аккаунт на форуме'
+MAIL_ADD_CONFIRM: '§aEMail §8| §fEmail ownership §a%s§f confirmed!'
 MAIL_MESSAGE_RECOVERY_NAME: 'Восстановление аккаунта <user>'
 MAIL_MESSAGE_RECOVERY: 'Здравствуйте §l<user>§r!\n Ваш пароль на сервере: §l<pass>§r\n Для входа в аккаунт напишите команду §l/login <pass>§r\n\n Внимание!\nЕсли вы получили это письмо по ошибке, значит кто-то решил подшутить над вами\n и выслать вам это письмо, либо кто-то посторонний имеет доступ к вашему аккаунту.\n Мы настоятельно рекомендуем вам сменить пароль на сервере\n командой: /changepass <pass> "новый пароль"\n\n Если остались вопросы, или нужна помощь, пишите нам: §lsupport@flycore.ru§r или §lvk.me/flycore'
 MAIL_MESSAGE_VERIFY_NAME: 'Уведомление <action> для аккаунта <user>'
@@ -3223,41 +3259,103 @@ MAIL_MESSAGE_VERIFY: 'Здравствуйте §l<user>§r!\n\nДля <action>,
 MAIL_MESSAGE_JOIN_NAME: 'Оповещение о входе на аккаунт <user>'
 MAIL_MESSAGE_JOIN: 'Здравствуйте §l<user>§r!\n\nМы хотим вас уведомить о том,\nчто на ваш аккаунт §l<user>§r был произведен вход с адреса §l<ip>§r\n\n\nЕсли это были не вы, то срочно смените пароль командой /changepass <pass> "новый пароль"\nВ случае неудачи, пожалуйста напишите нам в группу §lvk.me/flycore§r для восстановления.\n\nЕсли остались вопросы, можете написать нам: §lsupport@flycore.ru§r или §lvk.me/flycore'
 AUTH_TIMEOUT: '§cAuthorization timeout'
-AUTH_REGISTER_INFO: '§7Register - §e/reg §f[§epassword§f] §f[§erepeat password§f]'
-AUTH_LOGIN_INFO: '§7Log in - §e/login §f[§epassword§f]'
-AUTH_LOGOUT: '§cYou signed out of your account'
-AUTH_LOGIN_CONFIRM: '§fAuthorization is successful!'
-AUTH_LOGIN_WRONG: '§cError, uncorrect password'
-AUTH_LOGIN_WRONGS: "§cA lot of a attempts incorrect\ninput a password. Your account\nis blocked for a few minutes"
-AUTH_EMAIL_INFO: '§c⚠ Warning! §fYou did not bind §cemail §fto your account, do this right now - §e/email'
-AUTH_EMAIL_INFO_HOVER: "§fClick here,\nto add mail"
+AUTH_REGISTER_INFO: '§7Register - §a/reg §f[§apassword§f] §f[§arepeat password§f]'
+AUTH_LOGIN_INFO: '§7Log in - §a/login §f[§apassword§f]'
+AUTH_REGISTER_HOLO:
+- '§a§lREGISTER'
+- ''
+- '§fHello %s§f, welcome to §a§lFlyCore§f Project'
+- '§fFor reg. on the server please'
+- '§fuse command §a/reg §f[§apass§f] [§apass§f]'
+- ''
+- '§fWish you comfortable game!'
+AUTH_LOGIN_HOLO:
+- '§a§lAUTHORIZATION'
+- ''
+AUTH_LOGIN_HOLO_LOGIN:
+- '§fWelcome back %s§f!'
+- ''
+- '§fPlease auth. §a/l §f[§apass§f]'
+- ''
+- '§fYou been offline: §e%s'
+AUTH_LOGIN_HOLO_VK:
+- '§fStage - §9§lVK Authentication'
+- ''
+- '§fPlease sent to chat your'
+- '§fcode in §a§lvk-bot'
+- ' '
+- '§7From vk.me/flycore'
+AUTH_LOGIN_HOLO_TFA:
+- '§fStage - §c§lAPI Authentication'
+- ''
+- '§fPlease use command'
+- '§a/tfa §f[§aapi-key§f]'
+- ' '
+AUTH_LOGIN_HOLO_MAIL:
+- '§fStage - §b§lMail Authentication'
+- ''
+- '§fPlease use command'
+- '§a/email verify §f[§verify code§f]'
+- ' '
+AUTH_LOGOUT: '§aAuthorization §8| §cYou signed out of your account'
+AUTH_LOGIN_CONFIRM: '§aAuthorization §8| §fAuthorization is successful!'
+AUTH_LOGIN_WRONG: '§aAuthorization §8| §cError, uncorrect password'
+AUTH_LOGIN_WRONGS:
+- '§cA lot of a attempts incorrect'
+- '§cinput a password. Your account'
+- '§cis blocked for a few minutes'
+AUTH_EMAIL_INFO: '§c⚠ Warning! §fYou did not bind §cemail §fto your account, do this right now - §a/email'
+AUTH_EMAIL_INFO_HOVER:
+- '§fClick here,'
+- '§fto add mail'
 AUTH_REGISTER_CONFIRM_INFO: '§cYou successfully registered! §fYour current password §7(hover here)'
-AUTH_REGISTER_CONFIRM_INFO_HOVER: "§fPassword - §a%s\n\n§fRemember it or made\nscreenshot, to not forget - §ckey F2"
-AUTH_LOGIN_TITLE: '§a§l§nFlyCore.ru'
+AUTH_REGISTER_CONFIRM_INFO_HOVER:
+- '§fThank you for registering!'
+- ''
+- '§7Data indicated at register:'
+- '§fPassword - §a%s'
+- ''
+- '§fRemember it or made'
+- '§fscreenshot, to not forget - §ckey F2'
+AUTH_LOGIN_TITLE: '§a§l§nFlyCore'
 AUTH_LOGIN_SUBTITLE: '§7For continuation register'
 AUTH_REGISTER_TITLE: '§a§l§nFlyCore.ru'
 AUTH_REGISTER_SUBTITLE: '§7For continuation log in'
 AUTH_NAME_SHORT: '§cNickname lhas to be more than 3 and less than 16 characters'
 AUTH_NAME_LIMIT: "§cYou can't use nickname with more than 16 characters!"
-AUTH_NAME_INCORRECT: "§cThere are unacceptable characters in the nickname \n\n§cAllow to use only numbers and latin alphabet symbols"
-AUTH_NAME_MORE: "§eYou changed слишком more names за короткое время\n§eAvailable names: %s"
-AUTH_BANNED: "§cThis Ip was banned for §e10 §cminutes \n§cSuspicion of hacking :/"
+AUTH_NAME_INCORRECT:
+- '§cThere are unacceptable characters in the nickname'
+- ''
+- '§cAllow to use only numbers and latin alphabet symbols'
+AUTH_NAME_MORE:
+- '§eYou changed слишком more names за короткое время'
+- '§eAvailable names: %s'
+AUTH_BANNED:
+- '§cThis Ip was banned for §e10 §cminutes'
+- '§cSuspicion of hacking :/'
 AUTH_LOAD_ERROR: '§cError #2, contact vk.me/flycore'
 AUTH_SERVERS_NOT_AVAILABLE: '§cAuthorization servers is not availables, Contact vk.me/flycore'
 AUTH_ACCOUNT_PROTECTED: "§cThis account isn't your"
 FORUM_INFO: '§c⚠ Warning! §fYou already register §cin forum§f, do this right now - §e/forum'
-FORUM_INFO_HOVER: "§fClick here,\nto registred from forum"
-TFA_INFO: "§c⚠ Warning! §fYou didn't activated §ctwo-factor authentication§f, do it now - §e/api"
-TFA_INFO_HOVER: "§fClick here,\nto activate two-factor authentication"
-TFA_LOGIN_TITLE: '§a§l§nFlyCore.ru'
+FORUM_INFO_HOVER:
+- '§fClick here,'
+- '§fto registred from forum'
+TFA_INFO: "§c⚠ Warning! §fYou didn't activated §ctwo-factor authentication§f, do it now - §a/api"
+TFA_INFO_HOVER:
+- '§fClick here,'
+- '§fto activate two-factor authentication'
+TFA_LOGIN_TITLE: '§a§l§nFlyCore'
 TFA_LOGIN_SUBTITLE: '§7For continuation identification'
-TFA_LOGIN_INFO: '§7Log in - §e/tfa §f[§eapi-key§f]'
+TFA_LOGIN_INFO: '§7Log in - §a/tfa §f[§aapi-key§f]'
 TFA_FORMAT: '/tfa <api-key>'
 TFA_WRONG: '§cError, invalid key'
-TFA_WRONGS: "§cСлишком много попыток неправильного\nввода ключа. Ваш аккаунт\nзаблокирован на несколько минут"
+TFA_WRONGS:
+- '§cСлишком много попыток неправильного'
+- '§cввода ключа. Ваш аккаунт'
+- '§cзаблокирован на несколько минут'
 TFA_CONFIRM: '§fAuthentication is successful! Have a good game :)'
-VK_INFO: "§c⚠ Warning! §fYou did not activate §cthree-factors authentication§f, do it now - §fwrite to the group messages §cvk.me/flycore§f word ''§eПривязать§f''"
-VK_LOGIN_TITLE: '§a§l§nFlyCore.ru'
+VK_INFO: "§c⚠ Warning! §fYou did not activate §cthree-factors authentication§f, do it now - §fwrite to the group messages §cvk.me/flycore§f word ''§aПривязать§f''"
+VK_LOGIN_TITLE: '§a§l§nFlyCore'
 VK_LOGIN_SUBTITLE: '§7Verify account for сontinuation'
 VK_LOGIN_INFO: '§aVK §8| §fOn your VK was sent message with code. Write it in chat for сontinuation'
 VK_WRONG: '§cError, wrong code'
@@ -3270,6 +3368,13 @@ VK_MSG_CODE: |-
 VK_MSG_JOIN: |-
  On your account %s,
  был произведен вход с address: %s
+VKBOT_KICK_REASON: "Аккаунт был кикнут с помощью VK-Bot"
+VKBOT_BAN_REASON:
+- '§cАккаунт заблокирован с помощью Vk-Bot'
+- '§cНапишите в §9vk.me/flycore§C боту §a!разблокировать %s'
+VKBOT_KICK_ADMIN_INFO: '§9VkBot §8| %s§7 кикнул свой аккаунт через §9Vk-bot'
+VKBOT_BAN_ADMIN_INFO: '§9VkBot §8| %s§7 заблокировал свой аккаунт через §9Vk-bot'
+VKBOT_UNBAN_ADMIN_INFO: '§9VkBot §8| %s§7 разблокировал свой аккаунт через §9Vk-bot'
 FORUM_NOT_MAIL: '§cError, to your accoint not snap email. To snap mail to your account, Write /email add <email> <repeat email>'
 FORUM_ACCOUNT_REGISTRED:
 - '§aForum §8| §fYou account was registered on forum!'
@@ -3282,64 +3387,318 @@ FORUM_ACCOUNT_ALREADY: '§cError, forum account already snap, authorization to f
 
 BOSS_BAR_LOBBY:
 - "§bINSTANT §fCHANGE §dSKIN'S§f COMMAND §7► §5/skin"
-#- '§fCRUSHING §cPRICE §fCOLLAPSE! ALL PRICES WERE §aREDUCED §fBY §615%'
-#- '§fCRUSHING §cPRICE §fBASEMENT! ALL PRICES WERE §aINCREASED §fBY §615%'
 - '§fPURCHASE§e OF DONAT §fON THE SITE §7► §a§lFLYCORE.RU'
-#- '§c§lNEW! §fNEW MODE OPEN §6§lCREATIVE§f!'
-#- '§fВ ЧЕСТЬ §3НОВОГО ДИЗАЙНА§f КУПОН §a§lDESIGN§f НА СКИДКУ §c35§f%!'
-#- '§fCOUPON §b§l§nCHRISTMAS§f DISCOUNT §a§l60%§f IN HONOR OF §c§lNEW YEAR'
 - '§fREPORT ABOUT§c BAGUE§f OR§c ERRORS §7► §3§lFLYCORE.RU/BUGS'
-#- '§c§lNEW! §fOPENING NEW MODE §9§lSURVIVAL§f!'
 - '§fASK YOUR QUESTION §9STAFF§f COMMAND §7► §d/ASK'
 - '§fHELP THE SERVER §6§lIMPROVE§f LOCALIZATION §7► §d§l§nFLYCORE.RU/lang'
 
-MESSAGES_BROADCAST:
-- "\n§8 | §fAll arenas §ccrowded§f, not enough slots?\n§8 | §fPurchase %pcreeper§f on site §dflycore.ru\n§8 | §fand this problem will be solved\n"
-- "\n§8 | §fPurchase %pbrick§f by very §dattractive§f price\n§8 | §fAlready with her you will get a decent amount §eof opportunities\n§8 | §fthat will make your game §amore interesting\n"
-- "\n§8 | §fPrivilege %pbrick§f gives more\n§8 | §fquantity §bbonuses§f and §eof opportunities§f for a reasonable price.\n§8 | §fInterested? Buying on site §dflycore.ru\n"
-- "\n§8 | §fTo play with friends\n§8 | §fjust write a command §c/party <nick>\n§8 | §fAnd all players will be moved behind the leader\n"
-- "\n§8 | §fThere are many different §epossibilities§f on the server\n§8 | §fand §dbonuses§f access to which only donators have,\n§8 | §finformation about donate §c/donate\n"
-- "\n§8 | %penderman§f - best server privilege,\n§8 | §fcombines the maximum amount\n§8 | §efeatures§f and §dbonuses§f for a comfortable game\n"
-- "\n§8 | %plava§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dflycore.ru\n"
-- "\n§8 | §fYou already bought §edonat§f, now you want a §bhigher§f status?\n§8 | §COnly here§f you can purchase a new one\n§8 | §fprivilege with surcharge on the site §dflycore.ru\n"
-- "\n§8 | §fIf you saw §cthe intruder§f or §ccheater§f, that\n§8 | §fUse the command §c/report <nick>\n§8 | §fand your §ecomplaint§f complaint will be reviewed in real time\n"
-- "\n§8 | §C⚠ Warning §fWant to change the skin?\n§8 | §fFor all players available\n§8 | §fcommand §c/skin <nickname of player with skin>\n"
-- "\n§8 | §fYou rec §cletsplay§f, §coverview§f, love §cstream\n§8 | §fwith friends? Privilege %pyoutube§f specially for you!\n§8 | §fInterested? Buying on site §dflycore.ru\n"
-- "\n§8 | §fWant to §asecure§f your account?\n§8 | §fThen tie it to your mail\n§8 | §fcommand §c/email add <mail> <repeat mail>\n"
-- "\n§8 | §fAppeared §eare questions§f, to which you §cdo not know the answer?\n§8 | §fWrite a team §c/ask <your question>\n§8 | §aOnline administration§f will help you §bin real time\n"
-- "\n§8 | §fWant §dunique§f, hidden §afeatures§f and §acapabilities§f?\n§8 | §fBuy Donat from us and get access to\n§8 | §fdonat-menu command §c/donatemenu\n"
-- "\n§8 | §fYou have §cproblems§f or you have found some §cbug§f?\n§8 | §fWrite to us in the group §bvk.com/flycore\n§8 | §fand you §awill be§f answered soon\n"
-- "\n§8 | §fVisit our group §9VK§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore\n"
-- "\n§8 | §fWant to discuss your §awin§f or challenge the §closs§f,\n§8 | §for maybe you want to find new §efriends§f?\n§8 | §fCome to our forum §dforum.flycore.ru\n"
-- "\n§8 | §fAppeared §eare questions§f, to which you §cdo not know the answer?\n§8 | §fWrite a team §c/ask <your question>\n§8 | §aOnline administration§f will help you §bin real time\n"
-- "\n§8 | %pbrick§f - most popular privilege\n§8 | §fwhich combines §abest price§f and\n§8 | §efeatures§f, buying on site §dflycore.ru\n"
-- "\n§8 | §fIf you saw §cthe intruder§f or §ccheater§f, that\n§8 | §fUse the command §c/report <nick>\n§8 | §fand your §ecomplaint§f complaint will be reviewed in real time\n"
-- "\n§8 | §fVisit our group §9VK§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore\n"
-- "\n§8 | §fVisit our group §5Group development§f and you will always\n§8 | §fin the latest news §eserver\n§8 | §fFollow the link §bvk.com/flycore_dev\n"
-- "\n§8 | §fХотите иметь свой собственный §aprefix§f?\n§8 | §fтогда привилегия %penderman§f только для вас!\n§8 | §fПриобрести её можно на сайте §cstore.flycore.ru\n"
-MESSAGES_HOVER_BROADCAST:
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here"
-- "§fClick here to\n§fto menu open"
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here"
-- "§fClick here"
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here"
-- "§fClick here to\n§fto menu open"
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here"
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here"
-- "§fClick here to\n§ffollowing the link"
-- "§fClick here to\n§ffollowing the link"
+MSG_1:
+- ''
+- '§8 | §fВсе арены §cпереполнены§f, не хватает слотов?'
+- '§8 | §fПриобретите %pcreeper§f на сайте §dflycore.ru'
+- '§8 | §fи данная проблема будет решена'
+- ''
+MSG_2:
+- ''
+- '§8 | §fПокупайте %pbrick§f по очень §dпривлекательной§f цене'
+- '§8 | §fУже с ней вы получите достойное количество §eвозможностей'
+- '§8 | §fкоторые сделают вашу игру §aинтереснее'
+- ''
+MSG_3:
+- ''
+- '§8 | §fПривилегия %pbrick§f дает большое'
+- '§8 | §fколичество §bбонусов§f и §eвозможностей§f за умеренную цену.'
+- '§8 | §fЗаинтересовало? Покупай на сайте §dflycore.ru'
+- ''
+MSG_4:
+- ''
+- '§8 | §fХотите удобнее играть с §bдрузьями§f?'
+- '§8 | §fИспользуйте §d/party§f и получите новые §dвозможности§f'
+- '§8 | §fс которыми вы всегда будете в §eодной арене§f и §eчате§f - §c/pc'
+- ''
+MSG_5:
+- ''
+- '§8 | §fНа сервере есть много разных §eвозможностей'
+- '§8 | §fи §dбонусов§f доступ к которым имеют только донатеры,'
+- '§8 | §fинформация о донате §c/donate'
+- ''
+MSG_6:
+- ''
+- '§8 | %penderman§f - лучшая привилегия сервера,'
+- '§8 | §fсочетает в себе максимальное количество'
+- '§8 | §eвозможностей§f и §dбонусов§f для комфортной игры'
+- ''
+MSG_7:
+- ''
+- '§8 | %plava§f - самая популярная привилегия'
+- '§8 | §fкоторая сочетает в себе §aоптимальную цену§f и'
+- '§8 | §eвозможности§f, покупка на сайте §dflycore.ru'
+- ''
+MSG_8:
+- ''
+- '§8 | §fВы уже купили §eдонат§f, а теперь хотите статус §bповыше§f?'
+- '§8 | §CТолько у нас§f вы можете приобрести новую'
+- '§8 | §fпривилегию с доплатой на сайте §dflycore.ru'
+- ''
+MSG_9:
+- ''
+- '§8 | §fЕсли вы увидели §cнарушителя§f или §cчитера§f, то'
+- '§8 | §fВоспользуйтесь командой §c/report <ник>'
+- '§8 | §fи вашу §eжалобу§f рассмотрят в режиме реального времени'
+- ''
+MSG_10:
+- ''
+- '§8 | §C⚠ Внимание §fХотите сменить скин?'
+- '§8 | §fДля всех игроков доступна'
+- '§8 | §fкоманда §c/skin <ник игрока со скином>'
+- ''
+MSG_11:
+- ''
+- '§8 | §fСнимаете §cлетсплеи§f, §cобзоры§f, любите §cпостримить'
+- '§8 | §fс друзьями? Привилегия %pyoutube§f специально для вас!'
+- '§8 | §fЗаинтересовало? Покупайте на сайте §dflycore.ru'
+- ''
+MSG_12:
+- ''
+- '§8 | §fХотите обеспечить §aбезопасность§f своему аккаунту?'
+- '§8 | §fТогда привяжите его к вашей почте'
+- '§8 | §fкомандой §c/email add <почта> <повтор почты>'
+- ''
+MSG_13:
+- ''
+- '§8 | §fПоявились §eвопросы§f, на которые Вы §cне знаете ответ?'
+- '§8 | §fНапишите команду §c/ask <ваш вопрос>'
+- '§8 | §aОнлайн администрация§f поможет Вам §bв реальном времени'
+- ''
+MSG_14:
+- ''
+- '§8 | §fХотите §dуникальные§f, скрытые §eфункции§f и §aвозможности§f?'
+- '§8 | §fПокупайте донат у нас и получайте доступ к'
+- '§8 | §fдонат-меню командой §c/donatemenu'
+- ''
+MSG_15:
+- ''
+- '§8 | §fУ вас §cпроблемы§f или вы нашли какой-то §cбаг§f?'
+- '§8 | §fНапишите нам в группу §bvk.me/flycore'
+- '§8 | §fи вам §aобязательно§f ответят в ближайшее время'
+- ''
+MSG_16:
+- ''
+- '§8 | §fПосетите нашу группу §9VK§f и вы будете всегда'
+- '§8 | §fв курсе последних новостей §eсервера'
+- '§8 | §fПереходите по ссылке §bvk.com/flycore'
+- ''
+MSG_17:
+- ''
+- '§8 | §fХотите обсудить свою §aпобеду§f или оспорить §cпроигрыш§f,'
+- '§8 | §fа может вы Хотите найти новых §eдрузей§f?'
+- '§8 | §fЗаходи на наш форум §dforum.flycore.ru'
+- ''
+MSG_18:
+- ''
+- '§8 | %pcreeper§f - самая популярная привилегия'
+- '§8 | §fкоторая сочетает в себе §aоптимальную цену§f и'
+- '§8 | §eвозможности§f, покупка на сайте §dflycore.ru'
+- ''
+MSG_19:
+- ''
+- '§8 | §fПосетите нашу группу §5Разработки сервера§f и Вы будете всегда'
+- '§8 | §fв курсе последних разработок §eсервера'
+- '§8 | §fПереходите по ссылке §bvk.com/flycore_dev'
+- ''
+MSG_20:
+- ''
+- '§8 | §fХотите иметь свой собственный §dпрефикс§f?'
+- '§8 | §fтогда привилегия %penderman§f специально для §aВас§f!'
+- '§8 | §fПриобрести её можно на сайте §bwww.flycore.ru'
+- ''
+MSG_21:
+- ''
+- '§8 | §fМного §aиграешь§f на сервере? §dБольшой§f уровень?'
+- '§8 | §fТак получи за него §eнаграду§f в профиле!'
+- '§8 | §3Ядра§f, §aМонеты§f, §bключи§f и §cгаджеты§f уже ждут тебя'
+- ''
+MSG_22:
+- ''
+- '§8 | §fВсегда мечтали о §aбесплатном§f подарке?'
+- '§8 | §fА может быть вы уже §dзнаете§f как его получить?'
+- '§8 | §fТогда §eнайди§f спрятанные промо-коды и активируй их §b/promo'
+- ''
+MSG_23:
+- ''
+- '§8 | §cСомневаетесь§f в разработках сервера или его реализации?'
+- '§8 | §fТогда §aпосетите§f нашу §cстарую§f группу сервера - §dvk.com/filkworld'
+- '§8 | §fГде было разработано §bбольше половины§f функционала!'
+- ''
+MSG_24:
+- ''
+- '§8 | §fУ сервера есть свой голосовой сервер §9Discord'
+- '§8 | §fИграй и §aобщайся§f с друзьями!'
+- '§8 | §fЗаходи прямо сейчас §ddiscord.gg/EMEdvak'
+- ''
+MSG_25:
+- ''
+- '§8 | §fХотите встать на §2стражу§f порядка?'
+- '§8 | §fНо нет §aвозможности§f пройти отбор?'
+- '§8 | §fСтатус %pmoderator§f уже ждет тебя на сайте §dwww.flycore.ru'
+- ''
+MSG_26:
+- ''
+- '§8 | §cБезопасность§f - превыше всего! Мы подготовили для Вас'
+- '§8 | §fНесколько §bспособов§f авторизации, с ними Ваш аккаунт будет'
+- '§8 | §fМаксимально защищен! Ознакомится с ними вы можете в §6/help'
+- ''
+MSG_27:
+- ''
+- '§8 | §fХотите получить §e2 золота§f и §aобезопасить§f свой аккаунт?'
+- '§8 | §fТогда рекомендуем привязать свой аккаунт к нашему боту §9VK'
+- '§8 | §fНапишите §e!привязать§f в сообщения группы §bvk.me/flycore'
+- ''
+MSG_28:
+- ''
+- '§8 | §aОбезопасьте§f свой аккаунт и привяжите его к §9VK'
+- '§8 | §fВы также сможете управлять аккаунтом прямо из §9VK§f!'
+- '§8 | §fДостаточно лишь написать §c!привязать§f в §evk.me/flycore'
+- ''
+MSG_29:
+- ''
+- '§8 | §fХочешь получить §dдонат§f но нет §cденег§f?'
+- '§8 | §fТогда наиграй §eопределенное§f количество часов'
+- '§8 | §fи забирай сокровенный донат в §b/timedonate'
+- ''
+MSG_30:
+- ''
+- '§8 | §fЗаблудился на §dсервере§f? Не знаешь что-как использовать?'
+- '§8 | §fНе беда! Благодаря команде §c/help§f Вы всегда сможете'
+- '§8 | §fоткрыть свой §eличный§f путеводитель по серверу!'
+- ''
+MSG_31:
+- ''
+- '§8 | §fПонравился сервер? Хотите §6помочь§f в развитии или просто поддержать?'
+- '§8 | §fТогда можете §aприобрести§f любой товар в нашем магазине §bflycore.ru'
+- '§8 | §fи уже с ним мы будем вам очень §eблагодарны'
+- ''
+MSG_32:
+- ''
+- '§8 | §fВсе время пишутся §cнадоедливые§a авто-сообщения§f?'
+- '§8 | §fТогда отключи их в §aПрофиль ▸ Настройки'
+- '§8 | §fи больше §cне придется§f отвлекаться на §bчат'
+- ''
+MSG_33:
+- ''
+- '§8 | §fХочешь доказать всем какой ты §dкрутой§f?'
+- '§8 | §fС нашими §eтитулами§f у тебя есть такая возможность!'
+- '§8 | §fУже сейчас ты можешь найти их в §cПрофиль ▸ Титулы'
+- '§8 | §fИ выбрать тот, что тебе §aпо вкусу§f!'
+- ''
+MSG_34:
+- ''
+- '§8 | §fВсегда §aмечтал§f иметь своего §bклона§f, чтобы на тебя'
+- '§8 | §fсмотрели все игроки? Тогда становись §eПочетным игроком§f!'
+- '§8 | §fи §aтвой скин§f а также §aподсветка§f под цвет префикса, будет показана'
+- '§8 | §aкруглосуточно§f всем игрокам сервера!'
+- ''
+MSG_35:
+- ''
+- '§8 | §fНе нравится сервер, плохая §cадминистрация§f?'
+- '§8 | §fТогда стань новым §cадминистратором§f купив'
+- '§8 | %padministrator§f на сайте §dwww.flycore.ru'
+- '§8 | §fвы получите доступ ко всем возможностям §dсервера'
+- '§8 | §fа также §eOP§f во всех лобби!'
+- ''
+MSG_36:
+- ''
+- '§8 | §fЕсть друзья? Хотите сделать им §aподарок§f?'
+- '§8 | §fТогда купите им §eгаджет§f и обрадуйте своего'
+- '§8 | §fдруга или подругу с помощью сайта §bwww.flycore.ru'
+- ''
+MSG_37:
+- ''
+- '§8 | §fУ Вас есть §6друзья или подруги§f? Хотите всегда быть'
+- '§8 | §fвместе и не теряться? Тогда §bСистема друзей§f - специально для вас!'
+- '§8 | §fС ней вы сможете смотреть §bинформацию друзей§f, а также'
+- '§8 | §fтелепортироваться к ним и не только! Опробуй прямо сейчас §a/f'
+- ''
+MSG_38:
+- ''
+- '§8 | §fМечтаете собрать §aсвою§f из игроков?'
+- '§8 | §fНо нет §cсобранности§f или §cорганизованности§f?'
+- '§8 | §fТогда создай свою §aГильдию§f с помощью §b/g create'
+- '§8 | §fИ пригласи §eвсех§f кого захочешь к себе §c/g invite'
+- ''
+MSG_39:
+- ''
+- '§8 | §fМечтаете стать %pyoutube§f но боитесь или не знаете'
+- '§8 | §fчто писать? Тогда просто посетите наше обсуждение'
+- '§8 | §6vk.com/topic-157663196_39337000§f и прочитайте подробно'
+- '§8 | §fкак стать §6Ютубером§f. Это бесплатно!'
+- ''
+MSG_40:
+- ''
+- '§8 | §fМало §bденег§f боитесь §aкомиссии§f?'
+- '§8 | §fТогда покупайте §6Донат ключ§f и получайте привилегию'
+- '§8 | §fпочти бесплатно! Из которого выпадают §bвсе§f привилегии!'
+- '§8 | §fИли-же купите §4Администраторский ключ§f и получите §9Статус персонала'
+- ''
+MSG_41:
+- ''
+- '§8 | §fМало настроек? Хотите больше §aкастомизировать§f свою игру?'
+- '§8 | §fТогда перейдите в §bПрофиль§f в нем вы сможете выбрать'
+- '§8 | §fличную §aТему§f, изменить §aНастройки§f, выбрать §6Оповещение о входе§f,'
+- '§8 | §fвыбрать собственный §aПрефикси§f многое другое, уже ждет тебя!'
+- ''
+MSG_42:
+- ''
+- '§8 | §fУбивают §cчитеры§b донатеры§f портят игру?'
+- '§8 | §fНе беда! Купив %phelper§f Вы получите доступ к §a/ban'
+- '§8 | §fдля блокировки §cнадоедливых§f игроков. Нет денег?'
+- '§8 | §fтогда посети нашу §aКосметику§f и выбери свой §bСупер-Перк'
+- ''
+MSG_43:
+- ''
+- '§8 | §fНеможешь §eрекламировать§f свои ссылки? Или-же твои сообщения'
+- '§8 | §fсчитает как §aреклама§f или §aспам§f? Тогда купи %penderman'
+- '§8 | §fс ним вы забудете что такое §cкрасное сообщение в чате'
+- ''
+MSG_44:
+- ''
+- '§8 | §fВсе дорогое, лень тратить время а хочется сразу и бесплатно?'
+- '§8 | §fТогда займи §6Месячный топ§f на любом режиме'
+- '§8 | §fи получи §e70§f,§e60§f,§e50§f,§e40§f,§e30§f золота за места!'
+- '§8 | §fА также в подарок от §b5§f до §b1§f ядер с §a1§f по §a5§f места'
+- ''
+MSG_45:
+- ''
+- '§8 | §fТебе §cне нравится§f что сервер считает тебя §bдругого пола§f?'
+- '§8 | §fА может тебя так считают §eигроки§f?'
+- '§8 | §fТогда выбери свой пол командой §d/gender'
+- '§8 | §fИ перестань это терпеть!'
+- ''
+MSG_46:
+- ''
+- '§8 | §fХочется бесплатные §bпризы§f или §bбонусы§f?'
+- '§8 | §fТогда забери свои §dнаграды§f в §c/rewards'
+- '§8 | §fИ получи их совершенно бесплатно!'
+- ''
+MSG_47:
+- ''
+- '§8 | §fДолго идешь к цели? Не как §aне можешь§f достичь чего-то?'
+- '§8 | §fТогда наш §bСундук удачи§f - это то что тебе нужно'
+- '§8 | §fБесплатные §6Монеты§f, §aОпыт§f, §dКлючи§f, уже ждут тебя!'
+- ''
+MSG_TYPE_LINK:
+- '§fClick here'
+- '§fto link'
+MSG_TYPE_GUI:
+- '§fClick here'
+- '§fto open menu'
+MSG_TYPE_GET:
+- '§fClick here,'
+- '§fto get command'
+- '§fin chat'
+MSG_TYPE_RUN:
+- '§fClick here,'
+- '§fto run command'
 
 ECONOMY_MONEY_CHANGE_BROADCAST: '§aEconomy §8| %s§7 начислил на аккаунт %s§7 - §6Монеты §f(§a+%s§f)'
 ECONOMY_GOLDS_CHANGE_BROADCAST: '§aEconomy §8| %s§7 начислил на аккаунт %s§7 - §eКристаллы §f(§a+%s§f)'
@@ -3397,13 +3756,16 @@ TRADE_READY_NAME: '§aГотов'
 TRADE_NO_READY_NAME: '§cНе готов'
 
 QUESTION_MSG_INFO: "§aSums §8| §fHow much will be §6%s§f+§6%s§f §7(answer write in chat)"
-QUESTION_HOVER_MSG_INFO: '§fClick here,\n§for write /goto <answer>\n§fTo answer the sum'
+QUESTION_HOVER_MSG_INFO:
+- '§fClick here,'
+- '§for write /goto <answer>'
+- '§fTo answer the sum'
 GOTO_FORMAT: '/goto <top/your answer>'
-QUESTION_NOT_FOUND: '§cThere is someone who already answered, wait for a new one'
-QUESTION_WRONG: '§cSorry, this is wrong answer'
+QUESTION_NOT_FOUND: '§aSums §8| §cThere is someone who already answered, wait for a new one'
+QUESTION_WRONG: '§aSums §8| §cSorry, this is wrong answer'
 QUESTION_SUCCESS: '§aSums §8| §fCongratulations! You answered right on sum, and got §a%s§f %s'
 QUESTION_DELETE_MSG_INFO: '§aSums §8| §fUnfortunately, no one answered the sum...'
-QUESTION_WRONG_COUNT: '§cWritten by you answer is not a number'
+QUESTION_WRONG_COUNT: '§aSums §8| §cWritten by you answer is not a number'
 QUESTION_SUCCESS_MSG_INFO:
 #- ''
 - '§aSums §8| §fWarning! Player %s§f answered right on sum %s§f, and got: §a%s§f %s'
@@ -3422,7 +3784,7 @@ GOTO_TOP_YOUR:
 
 NICK_FORMAT: '/nick <nick/off>'
 NICK_ALREADY: '§aNick change §8| §cCurrent nick already used'
-NICK_INVALID: '§cВыбранный ник содержит недопустимые символы в использовании ник-неймов'
+NICK_INVALID: '§aServer §8| §cВыбранный ник содержит недопустимые символы в использовании ник-неймов'
 NICK_LIMIT: '§aNick change §8| §fЛимит ника превышен, максимально можно указать §c%s§f символов'
 NICK_CHANGED: '§aNick change §8| §fYou nick changed to: §a%s'
 NICK_RESET: '§aNick change §8| §fNick restored'
@@ -3438,19 +3800,19 @@ SUFFIX_CHANGED: '§aSuffixes §8| §fYour suffix changed to: %s'
 SUFFIX_RESET: '§aSuffixes §8| §fSuffix restored'
 PREFIX_LIMIT: '§aPrefixs §8| §fПрефикс не должен превышать §c%s§f символов'
 
-CHECK_FORMAT: '/checkip <ip>'
-ADDRESS_INVALID: '§cError, address %s invalid'
+CHECK_FORMAT: '/checkip <ip/name>'
+ADDRESS_INVALID: '§aServer §8| §cError, address %s invalid'
 ADDRESS_INFO: '§aServer §8| §fSearch §a%s'
 ADDRESS_TO: ' §8▪ %s'
 ADDRESS_NOT_FOUND: '§aServer §8| §fFor request §a%s§f nothing found'
 ADDRESS_FINISH: '§aServer §8| §fSearch complete. Request took §6%sms§f found: §a%s'
-ADDRESS_NOT_AVAILABLE: '§cSearch for address %s unavailable'
+ADDRESS_NOT_AVAILABLE: '§aServer §8| §cSearch for address %s unavailable'
 
 GENDER_FORMAT: '/gender <male/female>'
-GENDER_NO_GOLDS: '§cError, for changing gender you need to have at least %s gold'
+GENDER_NO_GOLDS: §aServer §8| '§cError, for changing gender you need to have at least %s gold'
 GENDER_MALE: '§9Male'
 GENDER_FEMALE: '§dFemale'
-GENDER_ALREADY: '§cYou have already chosen this gender'
+GENDER_ALREADY: '§aServer §8| §cYou have already chosen this gender'
 GENDER_CHANGED: '§aServer §8| §fYour gender succesfully changed to %s'
 
 FORMATNAME_FORMAT: '/formatname <nick>'
@@ -3460,7 +3822,7 @@ FORMATNAME_NOT_FOUND: '§aServer §8| §fFor request §a%s§f nothing found'
 FORMATNAME_FINISH: '§aServer §8| §fSearch complete. Request took §6%sms§f found: §a%s'
 
 SENDMONEY_FORMAT: '/pay <player name> <sum>'
-SENDMONEY_YOU: '§cYou can not send money to yourself'
+SENDMONEY_YOU: '§aServer §8| §cYou can not send money to yourself'
 COMMISSION_SENDMONEY: '§c • §fВаша комиссия на отправку денег: §a%s'
 COMMISSION_LIMITMONEY: '§c • §fВаш дневной лимит на отправку денег: §a%s'
 COMMISSION_GETMONEY: '§c • §fВаш дневной лимит на получение денег: §a%s'
@@ -3468,20 +3830,20 @@ COMMISSION_SENDCORE: '§c • §fВаша комиссия на отправку
 COMMISSION_LIMITCORE: '§c • §fВаш дневной лимит на отправку ядер: §a%s'
 COMMISSION_GETCORE: '§c • §fВаш дневной лимит на получение ядер: §a%s'
 SENDMONEY_SEND: '§aServer §8| §fYou succesfully send §a%s §f%s to player %s§f. Comission by paying made up §c%s §f%s (§e%s§f)'
-SENDMONEY_ERROR_SEND: '§cError, you can not send %s %s, because your daily limit on sending money must not exceed %s %s'
-SENDMONEY_ERROR_SENDED: '§cError, you can not send %s %s to player %s§c, because his daily limit on getting money must not exceed %s %s'
+SENDMONEY_ERROR_SEND: '§aServer §8| §cError, you can not send %s %s, because your daily limit on sending money must not exceed %s %s'
+SENDMONEY_ERROR_SENDED: '§aServer §8| §cError, you can not send %s %s to player %s§c, because his daily limit on getting money must not exceed %s %s'
 SENDMONEY_TO: '§aServer §8| §fYou succesfully got §a%s §f%s from player %s'
 SENDMONEY_NO_LEVEL_YOU: '§cError, you can not send money, your level is above 10!'
 SENDMONEY_NO_LEVEL_OTHER: '§cError, you can not send money to this player. His level is above 10!'
-SENDMONEY_NO_MONEY: '§cError, there is not enough money on your balance! Including commission %s you must have %s %s on your balance'
-SENDMONEY_ERROR_MONEY: '§cError, you can not send amounts lower than %s and higher than %s at a one time!'
-SENDMONEY_NO_MONEY_OTHER: '§cError, there is not enough money on guild balance! Including commission %s you must have %s %s on guild balance'
-SENDMONEY_ERROR_MONEY_OTHER: '§cError, you can not donate amounts lower than %s and higher than %s at a one time!'
-SENDMONEY_ERROR_MONEY_OTHER_2: '§cError, you can not deposit amounts lower than %s and higher than %s at a one time!'
-SENDCORE_FORMAT: '/sendcore <ник крысы> <sum>'
+SENDMONEY_NO_MONEY: '§aServer §8| §cError, there is not enough money on your balance! Including commission %s you must have %s %s on your balance'
+SENDMONEY_ERROR_MONEY: '§aServer §8| §cError, you can not send amounts lower than %s and higher than %s at a one time!'
+SENDMONEY_NO_MONEY_OTHER: '§aGuild §8| §cError, there is not enough money on guild balance! Including commission %s you must have %s %s on guild balance'
+SENDMONEY_ERROR_MONEY_OTHER: '§aServer §8| §cError, you can not donate amounts lower than %s and higher than %s at a one time!'
+SENDMONEY_ERROR_MONEY_OTHER_2: '§aServer §8| §cError, you can not deposit amounts lower than %s and higher than %s at a one time!'
+SENDCORE_FORMAT: '/sendcore <player name> <sum>'
 
 VK_NOT_LINK: '§aVK-bot §8| §fДанный игрок не привязал свой аккаунт к §9VK §fботу'
-VK_HIDE: '§cДанный игрок запретил узнавать его страницу VK'
+VK_HIDE: '§aVK-bot §8| §cДанный игрок запретил узнавать его страницу VK'
 VK_OTHER: '§aVK-bot §8| §fУ пользователя %s§f привязан аккаунт: §7%s'
 VK: '§aVK-bot §8| §fК вашему аккаунту привязан профиль: §7%s'
 VK_HELP:
@@ -3490,8 +3852,8 @@ VK_NOT_LINK_YOU: '§aVK-bot §8| §fК вашему аккаунту не при
 VK_SENT_MESSAGE_FORMAT: ' §aPM §8| §aI §8-> %s§7 (VK) §8| §f%s'
 VK_RECIEVED_MESSAGE_FORMAT: ' §aPM §8| %s§7 (VK) §8-> §aI §8| §f%s'
 VK_INFO_ERROR:
-- '§cОшибка, для привязки аккаунта у вас должен быть создан Api-Ключ.'
-- '§cСоздайте его командой §e/api create§c, или-же задайте свой §e/api change <ключ>'
+- '§aVK-bot §8| §cОшибка, для привязки аккаунта у вас должен быть создан Api-Ключ.'
+- '§c Создайте его командой §e/api create§c, или-же задайте свой §e/api change <ключ>'
 VK_INFO_MSG:
 - '§aVK-bot §8| §fДля привязки аккаунта вам нужно написать,'
 - '§f в сообщения нашего сообщества §dvk.me/flycore'
@@ -3504,10 +3866,10 @@ VK_INFO_MSG:
 VK_TOGGLE: '§aVK-bot §8| §fОтображение вашего §9VK§f - %s'
 
 PROMO_FORMAT: '/promo-code <promo-code>'
-PROMO_NOT_FOUND: '§cError, promo-code %s is not found'
-PROMO_ENDED: '§cError, promo-code %s expired :( It was used more %s'
-PROMO_ACTIVATED: '§aPromo-code §8| §fYou successful activated promo-code §a%s'
-PROMO_ALREADY_ACTIVATED: '§cError, you already activated promo-code %s earlier'
+PROMO_NOT_FOUND: '§aPromo-codes §8| §cError, promo-code %s is not found'
+PROMO_ENDED: '§aPromo-codes §8| §cError, promo-code %s expired :( It was used more %s'
+PROMO_ACTIVATED: '§aPromo-codes §8| §fYou successful activated promo-code §a%s'
+PROMO_ALREADY_ACTIVATED: '§aPromo-codes §8| §cError, you already activated promo-code %s earlier'
 
 COOLDOWN: '§cWait %s to use that'
 COOLDOWN_2: '§cWait %s %s to use that'
@@ -5231,14 +5593,15 @@ GUI_SETTING_CONFIRMDELETE_LORE:
 - '§7Позволяет включить или выключить'
 - '§7подтверждения действие на использование,'
 - '§7какой-то функции или команды'
+- '§8Например удаление друга (/f remove)'
 - ''
-- '§cВнимание§7! Не относится к подтверждению'
-- '§7при покупке чего-либо!'
+- '§cВнимание§7! Не относится к'
+- '§7подтверждению покупки!'
 GUI_SETTING_CONFIRMBUYING: 'Подтверждение покупки'
 GUI_SETTING_CONFIRMBUYING_LORE:
 - '§7Позволяет включить или выключить'
 - '§7подтверждения действия о покупке,'
-- '§7чего-либо'
+- '§7чего-либо §8(Например покупка гаджета)'
 GUI_SETTING_JOINTITLE: 'Экранное сообщение при входе'
 GUI_SETTING_JOINTITLE_LORE:
 - '§7Позволяет включить или выключить'
@@ -5256,7 +5619,8 @@ GUI_SETTING_PRIVATE_LORE:
 - '§7которая скроет вас во всех меню и командах'
 - ''
 - '§cВнимание§7! Персонал со статусом %s'
-- '§7и выше, игнорирует данную настройку!'
+- '§7и выше а также ваши друзья,'
+- '§7игнорируют данную настройку!'
 GUI_SETTING_THEMEACTIVATE: 'Активация темы'
 GUI_SETTING_THEMEACTIVATE_LORE:
 - '§7Позволяет включить или выключить'
@@ -5268,7 +5632,7 @@ GUI_SETTING_ANIMATION_LORE:
 - '§7Позволяет включить или выключить'
 - '§7анимацию вашего префикса,'
 - '§7из тех префиксов которые вы выберите'
-- '§7в избранном'
+- '§7в избранном (§f/pref§7)'
 - ''
 - '§cВнимание§7! Для работы анимации'
 - '§7у вас должно быть 2 или более'
@@ -7519,7 +7883,7 @@ GUI_TIMEDONATE_ALREADY_LORE:
 GUI_TIMEDONATE_ALREADYGET_LORE:
 - ' §c✗ Вы уже получали данную привилегию'
 
-TIMEDONATE_GET: '§aСервер §8| §fВы успешно забрали привилегию %s'
+TIMEDONATE_GET: '§aServer §8| §fВы успешно забрали привилегию %s'
 
 GUI_LISTS_NAME: 'Lists menu'
 GUI_LISTS_FAST_COMMAND_LORE:
@@ -8091,10 +8455,10 @@ AUCTION_GUI_BUY_NAME: 'Покупка'
 AUCTION_PLAYERGUI_NAME: 'Аукцион %s'
 AUCTION_FORMAT: '/ah sell <цена> [кол-во] [время в часах]'
 AUCTION_SELL_AIR: '§aАукцион §8| §fОшибка, вы не можете продавать воздух ('
-AUCTION_COMMAND_ERROR: '§cОшибка, цена предмета должна быть только числом'
-AUCTION_COMMAND_ERROR1: '§cОшибка, цена и кол-во предмета не может быть равна 0'
-AUCTION_COMMAND_ERROR2: '§cОшибка, кол-во предметов для продажи должно быть числом'
-AUCTION_COMMAND_ERROR3: '§cОшибка, вы не можете продать данный айтем пока он находится во 2й руке'
+AUCTION_COMMAND_ERROR: '§aАукцион §8| §cОшибка, цена предмета должна быть только числом'
+AUCTION_COMMAND_ERROR1: '§aАукцион §8| §cОшибка, цена и кол-во предмета не может быть равна 0'
+AUCTION_COMMAND_ERROR2: '§aАукцион §8| §cОшибка, кол-во предметов для продажи должно быть числом'
+AUCTION_COMMAND_ERROR3: '§aАукцион §8| §cОшибка, вы не можете продать данный айтем пока он находится во 2й руке'
 AUCTION_ADD_TO_SELL: '§aАукцион §8| §fПредмет §7%s §fбыл выложен на продажу за §a%s§f на §a%s§f %s'
 AUCTION_ADD_TO_SELL_ERROR: '§aАукцион §8| §fОшибка, в вашей руке недостаточное кол-во предметов'
 AUCTION_ITEM_ALLREADY_SELLED: '§aАукцион §8| §fОшибка, предмет был продан, сожалеем...'
@@ -8169,7 +8533,9 @@ AUCTION_LORE_ITEM:
 - ''
 - '§e▸ ЛКМ, чтобы купить'
 - '§e▸ ПКМ, чтобы открыть все товары продавца'
-SHOP_HOVER_TEST: '§fНажмите сюда, §fчтобы открыть этот магазин'
+SHOP_HOVER_TEST:
+- '§fНажмите сюда,'
+- '§fчтобы открыть этот магазин'
 SHOP_LORE_ITEM:
 - ''
 - '§7Цена покупки: §a%s'
@@ -8242,7 +8608,7 @@ SHOP_LORE_CHANGED:
 - '§e▸ Нажмите, чтобы сменить'
 SHOP_FORMAT: '/shop <название магазина>'
 SHOP_NAMES: '§aМагазин §8| §fДоступные магазины: '
-SHOP_NOT_FOUND: '§cОшибка, магазин %s не найден'
+SHOP_NOT_FOUND: '§aМагазин §8| §cОшибка, магазин %s не найден'
 SHOP_ALL_ITEMS_SELLED: '§aМагазин §8| §fВы успешно продали §7%s §fx §7%s §fза §a%s$'
 SHOP_ALL_ITEMS_BUY: '§aМагазин §8| §fВы успешно купили §7%s §fx §7%s §fза §a%s$'
 
@@ -8369,23 +8735,23 @@ P_COMMAND_HELP:
 
 SHOP_OTHER: 'Разное'
 
-SIT_ENABLE: '§aСервер §8| §fВы успешно сели'
-SIT_DISABLE: '§aСервер §8| §fВы успешно встали'
-SIT_ERROR: '§aСервер §8| §fВы не можете сидеть в воздухе'
+SIT_ENABLE: '§aServer §8| §fВы успешно сели'
+SIT_DISABLE: '§aServer §8| §fВы успешно встали'
+SIT_ERROR: '§aServer §8| §fВы не можете сидеть в воздухе'
 
 WARN_FORMAT: '/warn <ник> <причина>'
-WARN_ERROR: '§cОшибка, вы не можете выдать предупреждение данному игроку'
-WARN_GIVE: '§aСервер §8| §fВы выдали предупреждение игроку %s§f по причине §e%s'
+WARN_ERROR: '§aWarning §8| §cОшибка, вы не можете выдать предупреждение данному игроку'
+WARN_GIVE: '§aWarning §8| §fВы выдали предупреждение игроку %s§f по причине §e%s'
 WARN_GIVE_INFO:
-- '§cПредупреждения §8| §fВы получили предупреждение §8(%s)§f от %s§f по причине §e%s'
-- '§cПредупреждения §8| §fУзнать об своих предупреждениях, вы можете в /warns'
-WARN_GIVE_STAFF: '§cПредупреждения §8| %s§7 выдал предупреждение §8(%s)§7 игроку %s§7 по причине §e%s'
+- '§cWarning §8| §fВы получили предупреждение §8(%s)§f от %s§f по причине §e%s'
+- '§cWarning §8| §fУзнать об своих предупреждениях, вы можете в /warns'
+WARN_GIVE_STAFF: '§cWarning §8| %s§7 выдал предупреждение §8(%s)§7 игроку %s§7 по причине §e%s'
 WARNINFO_FORMAT: '/warninfo <ник>'
-WARNINFO_NOT_FOUND: '§cОшибка, игрок %s не имеет предупреждений'
-WARNINFO: '§aСервер §8| §fУ вас §a%s§f предупреждений'
-WARNINFO_OTHER: '§aСервер §8| §fУ %s§f предупреждений (§a%s§f):'
+WARNINFO_NOT_FOUND: '§aWarning §8| §cОшибка, игрок %s не имеет предупреждений'
+WARNINFO: '§aWarning §8| §fУ вас §a%s§f предупреждений'
+WARNINFO_OTHER: '§aWarning §8| §fУ %s§f предупреждений (§a%s§f):'
 WARN_INFO_FORMAT:
-- '§aСервер §8| §fПредупреждение §8#%s§f:'
+- '§aWarning §8| §fПредупреждение §8#%s§f:'
 - '§8 ▪ §fОт %s'
 - '§8 ▪ §fПо причине §e%s'
 - '§8 ▪ §fДата выдачи §a%s'
@@ -8394,25 +8760,25 @@ CONTACT_COMMAND:
  - '§7/contact site §f- помощь по привязке сайта'
 CONTACT_SITE_COMMAND:
   - '§7/contact site add <сайт> §f- добавить сайт'
-  - '§7/contact site remove §f- удалить сайт'
+  - '§7/contact site remove §f- отвязать сайт'
   - '§7/contact site get §f- узнать ваш сайт'
 SITE_ADD_HELP:
-- '§aServer §8| §fПожалуйста добавьте новую запись (СУБДОМЕН) §aflycore§f типа §aA§f в вашем домене,'
-- '§aServer §8| §fи введите §c/contact site add ваш_сайт'
+- '§aContacts-Site §8| §fПожалуйста добавьте новую запись (СУБДОМЕН) §aflycore§f типа §aA§f в вашем домене,'
+- '§aContacts-Site §8| §fи введите §c/contact site add ваш_сайт'
 SITE_ADD_ERROR:
-- '§cError, невозможно добавить сайт! Проверьте все ли вы сделали правильно.'
-- '§cУ вас должна быть запись: flycore.%s с типом A'
-- '§cWarning! Update записи может занять до 72 hours!'
-SITE_ADD_ALREADY: '§cError, this домен уже привязал кто-то другой'
-SITE_ADD_BONUS_NO: '§cError, this домен ранее уже кем-то привязывался, бонус за него не дан'
+- '§aContacts-Site §8| §cError, невозможно добавить сайт! Проверьте все ли вы сделали правильно.'
+- '§c У вас должна быть запись: flycore.%s с типом A'
+- '§c Warning! Update записи может занять до 72 hours!'
+SITE_ADD_ALREADY: '§aContacts-Site §8| §cError, this домен уже привязал кто-то другой'
+SITE_ADD_BONUS_NO: '§aContacts-Site §8| §cError, this домен ранее уже кем-то привязывался, бонус за него не дан'
 SITE_ADD_BONUS_FAKE: 
-- '§aServer §8| §fThis site is free, you got bonus for him: §6%s§f %s'
+- '§aContacts-Site §8| §fThis site is free, you got bonus for him: §6%s§f %s'
 SITE_ADD_BONUS:
-- '§aServer §8| §fYou got bonus §b%s§f %s§f and §e%s§f %s, for adding site'
-SITE_ADD_CONFIRM: '§aСервер §8| §fВы успешно подтвердили владение доменом §a%s'
-SITE_NOT_FOUND: '§cУ вас еще не добавлен сайт, добавьте его /contact site add'
-SITE_REMOVE_CONFIRM: '§aСервер §8| §fSite §a%s§f succesfully deleted'
-SITE_YOU: '§aServer §8| §fYour site §a%s'
+- '§aContacts-Site §8| §fYou got bonus §b%s§f %s§f and §e%s§f %s, for adding site'
+SITE_ADD_CONFIRM: '§aContacts-Site §8| §fВы успешно подтвердили владение доменом §a%s'
+SITE_NOT_FOUND: '§aContacts-Site §8| §cУ вас еще не добавлен сайт, добавьте его /contact site add'
+SITE_REMOVE_CONFIRM: '§aContacts-Site §8| §fSite §a%s§f succesfully deleted'
+SITE_YOU: '§aContacts-Site §8| §fYour site §a%s'
 
 #Holograms
 HOLO_TOP_ONLINE_FORMAT: ' §c#%s §f- %s§f, played - §a%s'
