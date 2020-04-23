@@ -3758,17 +3758,17 @@ TRADE_NO_READY: '§cДанный игрок не готов к обмену'
 TRADE_READY_NAME: '§aГотов'
 TRADE_NO_READY_NAME: '§cНе готов'
 
-QUESTION_MSG_INFO: "§aSums §8| §fHow much will be §6%s§f+§6%s§f §7(answer write in chat)"
+QUESTION_MSG_INFO: "§8Sums §8| §7How much will be %s+%s (answer write in chat)"
 QUESTION_HOVER_MSG_INFO:
 - '§fClick here,'
 - '§for write /goto <answer>'
 - '§fTo answer the sum'
 GOTO_FORMAT: '/goto <top/your answer>'
-QUESTION_NOT_FOUND: '§aSums §8| §cThere is someone who already answered, wait for a new one'
-QUESTION_WRONG: '§aSums §8| §cSorry, this is wrong answer'
-QUESTION_SUCCESS: '§aSums §8| §fCongratulations! You answered right on sum, and got §a%s§f %s'
-QUESTION_DELETE_MSG_INFO: '§aSums §8| §fUnfortunately, no one answered the sum...'
-QUESTION_WRONG_COUNT: '§aSums §8| §cWritten by you answer is not a number'
+QUESTION_NOT_FOUND: '§8Sums §8| §cThere is someone who already answered, wait for a new one'
+QUESTION_WRONG: '§8Sums §8| §cSorry, this is wrong answer'
+QUESTION_SUCCESS: '§8Sums §8| §aCongratulations!§f You answered right on sum, and got §a%s§f %s'
+QUESTION_DELETE_MSG_INFO: '§8Sums §8| §7Unfortunately, no one answered the sum...'
+QUESTION_WRONG_COUNT: '§8Sums §8| §fWritten by you answer is not a number'
 QUESTION_SUCCESS_MSG_INFO:
 #- ''
 - '§aSums §8| §fWarning! Player %s§f answered right on sum %s§f, and got: §a%s§f %s'
@@ -5395,7 +5395,7 @@ GUI_NO_YOUTUBE: 'YouTubers'
 GUI_NO_JUNIOR: 'Juniors'
 GUI_NO_HELPER: 'Helpers'
 GUI_NO_MODERATOR: 'Moderators'
-GUI_NO_ADMINISTRATOR: 'Administrators'
+GUI_NO_ADMIN: 'Administrators'
 GUI_NO_DEVELOPER: 'Developers'
 GUI_NO_ORGANIZER: 'Organizers'
 GUI_STAFF_ITEM_LORE:
@@ -8771,6 +8771,7 @@ SITE_ADD_ERROR:
 - '§aContacts-Site §8| §cError, невозможно добавить сайт! Проверьте все ли вы сделали правильно.'
 - '§c У вас должна быть запись: flycore.%s с типом A'
 - '§c Warning! Update записи может занять до 72 hours!'
+SITE_ADD_ERROR2: '§aКонтакты-Сайт §8| §fПожалуйста вводите адрес сайта без §ahttp://§f символов, например §dflycore.ru'
 SITE_ADD_ALREADY: '§aContacts-Site §8| §cError, this домен уже привязал кто-то другой'
 SITE_ADD_BONUS_NO: '§aContacts-Site §8| §cError, this домен ранее уже кем-то привязывался, бонус за него не дан'
 SITE_ADD_BONUS_FAKE: 
