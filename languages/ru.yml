@@ -1267,7 +1267,7 @@ MAIL_JOIN_HOVER:
 #§7Наш Discord: §6discord.gg/
 #§6http://flycore.ru
 MSG_TITLE: '§7Группа: §cvk.com/flycore'
-MSG_SUBTITLE: '§7Наш discord: §6discord.gg/EMEdvak'
+MSG_SUBTITLE: '§7Наш discord: §6dis.flycore.ru'
 #§fпромокод §adesign§f на скидку §c35%
 #§7Группа: §cvk.com/flycore
 
@@ -3735,7 +3735,7 @@ MSG_24:
 - ''
 - '§8 | §fУ сервера есть свой голосовой сервер §9Discord'
 - '§8 | §fИграй и §aобщайся§f с друзьями!'
-- '§8 | §fЗаходи прямо сейчас §ddiscord.gg/EMEdvak'
+- '§8 | §fЗаходи прямо сейчас §ddis.flycore.ru'
 - ''
 MSG_25:
 - ''
