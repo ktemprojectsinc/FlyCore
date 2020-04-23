@@ -5689,7 +5689,7 @@ GUI_NO_YOUTUBE: 'Ютуберах'
 GUI_NO_JUNIOR: 'Младших хелперах'
 GUI_NO_HELPER: 'Хелперах'
 GUI_NO_MODERATOR: 'Модераторах'
-GUI_NO_ADMINISTRATOR: 'Администраторах'
+GUI_NO_ADMIN: 'Администраторах'
 GUI_NO_DEVELOPER: 'Разработчиках'
 GUI_NO_ORGANIZER: 'Организаторах'
 GUI_STAFF_ITEM_LORE:
