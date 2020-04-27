@@ -282,11 +282,11 @@ GUI_SKINHISTORY_CLEAR_LORE:
 BEST_PLAYER_INFO:
 - ''
 - '§7That player, who will pay'
-- "§7the most amount of gold to the server's coffers,"
+- "§7the most amount of %s to the server's coffers,"
 - '§7will become honorable server player'
 - '§7and his skin(NPC) will be shown in all lobbies.'
 - '§7And some player that will hit him'
-- '§7on condition that he has minimum 1 gold,'
+- '§7on condition that he has minimum %s,'
 - '§7will lose it, and it will be accrued to the §eHonorable player§7.'
 - '§7Also, you will get bonus in amount of §a%s§7 from'
 - '§7loses in §f/casino§7 other players, and §a%s§f'
@@ -302,29 +302,29 @@ BEST_PLAYER_BUY: '§bRaise on %s'
 BEST_PLAYER_BUY_LORE:
 - '§7'
 - '§7Outbid and pay'
-- '§e%s §7gold, to become'
+- '%s, to become'
 - '§7new "honorable player"'
 - '§7'
 - '§e▸ Click, to outbid'
 BEST_PLAYER_NAME: '§eInformation'
 BEST_PLAYER_LORE:
 - '§7'
-- '§fThis player payed: §e%s§f %s'
+- '§fThis player payed: %s'
 - '§7'
 - '§7His status expires in §7%s MSW'
 - '§7(If noone outbid him)'
 BEST_PLAYER_GUI: 'Most honorable player'
 BEST_PLAYER_HOLO: '§fMost honorable server player:'
-BEST_PLAYER_HOLO2: '§fHe invested: §e%s§f %s'
+BEST_PLAYER_HOLO2: '§fHe invested: %s§f %s'
 BEST_PLAYER_HOLO3: '§7Left: %s'
 BEST_PLAYER_HOLO4: '§7Click, to change!'
 BEST_PLAYER_CLICK: '§aServer §8| §f-%s§f for hitting honorable player!'
 BEST_PLAYER_CASINO_WIN: '§aServer §8| §f-%s§f §7(§e%s§7)§f for winning, because they have gone to the honorable player!'
 BEST_PLAYER_CASINO_LOSING: '§aServer §8| §f-%s§f §7(§e%s§7)§f for losing, because they have gone to the honorable player!'
 BEST_PLAYER_CLICK_ERROR: '§cОшибка, удар почетного игрока стоит %s!'
-BEST_PLAYER_CLICK_MSG: '§fYou got %s§f because %s §fhit you'
+BEST_PLAYER_CLICK_MSG: '§6Honorable player §8| §fYou got %s§f because %s§f hit you'
 BEST_PLAYER_CASINO_WIN_MSG: "§aServer §8| §fYou got %s§f §7(§e%s§7)§f from player's %s§f win in the casino"
-BEST_PLAYER_CASINO_LOSING_MSG: "§aServer §8| §fYou got %s§f §7(§e%s§7)§f from player's %s§а lose in the casino"
+BEST_PLAYER_CASINO_LOSING_MSG: "§aServer §8| §fYou got %s§f §7(§e%s§7)§f from player's %s§f lose in the casino"
 
 GUI_TITLE_NAME: 'Titles'
 GUI_TITLE_NOT_ACCESS: '§cAvailable on special holidays or days'
