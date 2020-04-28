@@ -952,6 +952,7 @@ GAME_TITLE_OVER: '§c§lИГРА ОКОНЧЕНА'
 GAME_TITLE_NOT_WINNER: '§7Вы проиграли в этой игре'
 GAME_NO_BREAK_BLOCK_TEAM: '§cВы не можете ломать блоки под своими тиммейтами'
 GAME_REJOIN: '§fВы перезашли в игру'
+GAME_COSMETIC_NO_AVAILABLE: '§cНельзя менять перк во время игры'
 
 COMPASS_MESSAGE: '§fИгрок: %s      §fРасстояние: '
 COMPASS_MESSAGE_SPECTATOR: '§fБлижайший игрок: %s      §fРасстояние: §a%s'
