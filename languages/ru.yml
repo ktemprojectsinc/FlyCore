@@ -1640,7 +1640,6 @@ SPYCMD_ON: '§aSpyCommands §8| §fТеперь вы следите за ком�
 SPYCMD_OFF: '§aSpyCommands §8| §fВы больше не следите за командами'
 SPYCMD_ALREADY: '§aSpyCommands §8| §cУ вас уже включена слежка'
 SPYCMD_ALREADY_DISABLE: '§aSpyCommands §8| §cУ вас уже отключена слежка'
-SPYCMD_FORMAT: '§aCmd %s§8 » §b%s'
 
 SPYCHAT_HELP:
  - '§7/spychat on §f- включить слежку за чатом'
