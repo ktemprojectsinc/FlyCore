@@ -5856,6 +5856,8 @@ GUI_FRIENDS_ITEM_LORE:
 - '§7Online: §a%s'
 GUI_FRIENDS_LORE:
 - ''
+- '§7Rank: §e%s'
+- ''
 - '§7Information:'
 - ' §8▪ §7Level: §d%s'
 - ' §8▪ §7EMail: §9%s'
