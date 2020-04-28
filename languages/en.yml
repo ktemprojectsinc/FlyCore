@@ -1468,7 +1468,6 @@ SPYCMD_ON: '§aSpyCommands §8| §fNow you are spying for commands'
 SPYCMD_OFF: '§aSpyCommands §8| §fYou are no longer spying for commands'
 SPYCMD_ALREADY: '§aSpyCommands §8| §cSpying is already enabled'
 SPYCMD_ALREADY_DISABLE: '§aSpyCommands §8| §cSpying is already disabled'
-SPYCMD_FORMAT: '§aCmd %s§8 » §b%s'
 
 SPYCHAT_HELP:
  - '§7/spychat on §f- enable chat spying'
