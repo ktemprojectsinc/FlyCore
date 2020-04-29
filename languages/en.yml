@@ -3150,17 +3150,29 @@ REJOIN_NOT_FOUND: "§aServer §8| §cError, You didn't played anywhere or server
 REJOIN_INFO: '§aServer §8| §fIf you were §ckicked§f, write §7/rejoin§f for second join to the games'
 REJOIN: '§aServer §8| §aYou join second to the game %s'
 
-CHAT_DOUBLE: ' §cℹ Please, do not repeat the same messages'
-CHAT_SPAM: ' §cℹ Do not flood.'
-CHAT_YOUTUBE: '\n§cℹ Advertise channels can only players with privilage §6§lYouTube\n'
-CHAT_PIAR: "\n§cℹ We have forbidden the advertise of sites and other resources\n"
-CHAT_MAT: "\n§cℹ We have forbidden the insulting other (Warning %s/%s)\n"
-CHAT_MAT_REASON: '1.2. (Insulting)'
+CHAT_DOUBLE:
+- '§c ℹ Please, do not repeat the same messages'
+CHAT_SPAM:
+- '§c ℹ Do not flood'
+CHAT_YOUTUBE:
+- ''
+- '§c ℹ Advertise channels can only players with privilage %s'
+- ''
+CHAT_PIAR:
+- ''
+- '§c ℹ We have forbidden the advertise of sites and other resources'
+- ''
+CHAT_MAT:
+- ''
+- '§c ℹ We have forbidden the insulting other (Warning %s/%s)'
+- ''
+CHAT_MAT_REASON: '3.6. (Insulting)'
 
 ANTICHEAT: '§cAntiCheat'
 ANTIMAT: '§cAntiAbuse'
+VKBOT: '§9VK-bot'
 
-PLAYER_YOUR_BOT: '§cБот, уходи!'
+PLAYER_YOUR_BOT: '§cBot, leave!'
 
 AUTH_PLAYER_ALREADY: '§cPlayer already on server'
 AUTH_COMMAND_HELP:
