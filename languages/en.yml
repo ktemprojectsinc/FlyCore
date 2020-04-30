@@ -1044,12 +1044,12 @@ TAB_HEADER:
 - '§a§lFlyCore'
 - ''
 - '§fWebsite:'
-- '§ewww.flycore.ru'
+- '§bwww.flycore.ru'
 - ''
 TAB_FOOTER:
 - ''
 - 'You are in:'
-- '§e%s'
+- '§b%s'
 
 REDIRECT_ERROR: '§cUnable to find suitable server('
 HUBS_ERROR: '§cError, lobby unavailable, try again later'
