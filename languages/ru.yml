@@ -2579,6 +2579,7 @@ KICK_REASON:
 - ''
 - '§7Обжаловать наказание можно в группе:'
 - '§b§nvk.com/flycore'
+- '§7Правила: §b§nflycore.ru/rules'
 BAN_NEVER_NEW_REASON:
 - '§a§l§nFlyCore'
 - ''
@@ -2591,6 +2592,7 @@ BAN_NEVER_NEW_REASON:
 - ''
 - '§7Обжаловать наказание можно в группе:'
 - '§b§nvk.com/flycore'
+- '§7Правила: §b§nflycore.ru/rules'
 BAN_NEVER_REASON:
 - '§a§l§nFlyCore'
 - ''
@@ -2603,6 +2605,7 @@ BAN_NEVER_REASON:
 - ''
 - '§7Обжаловать наказание можно в группе:'
 - '§b§nvk.com/flycore'
+- '§7Правила: §b§nflycore.ru/rules'
 BAN_NEW_REASON:
 - '§a§l§nFlyCore'
 - ''
@@ -2616,6 +2619,7 @@ BAN_NEW_REASON:
 - ''
 - '§7Обжаловать наказание можно в группе:'
 - '§b§nvk.com/flycore'
+- '§7Правила: §b§nflycore.ru/rules'
 BAN_REASON:
 - '§a§l§nFlyCore'
 - ''
@@ -2629,6 +2633,7 @@ BAN_REASON:
 - ''
 - '§7Обжаловать наказание можно в группе:'
 - '§b§nvk.com/flycore'
+- '§7Правила: §b§nflycore.ru/rules'
 BANIP_NEVER_NEW_REASON:
 - '§a§l§nFlyCore'
 - ''
@@ -2641,6 +2646,7 @@ BANIP_NEVER_NEW_REASON:
 - ''
 - '§7Обжаловать наказание можно в группе:'
 - '§b§nvk.com/flycore'
+- '§7Правила: §b§nflycore.ru/rules'
 BANIP_NEVER_REASON:
 - '§a§l§nFlyCore'
 - ''
@@ -2653,6 +2659,7 @@ BANIP_NEVER_REASON:
 - ''
 - '§7Обжаловать наказание можно в группе:'
 - '§b§nvk.com/flycore'
+- '§7Правила: §b§nflycore.ru/rules'
 BANIP_NEW_REASON:
 - '§a§l§nFlyCore'
 - ''
@@ -2666,6 +2673,7 @@ BANIP_NEW_REASON:
 - ''
 - '§7Обжаловать наказание можно в группе:'
 - '§b§nvk.com/flycore'
+- '§7Правила: §b§nflycore.ru/rules'
 BANIP_REASON:
 - '§a§l§nFlyCore'
 - ''
@@ -2679,6 +2687,7 @@ BANIP_REASON:
 - ''
 - '§7Обжаловать наказание можно в группе:'
 - '§b§nvk.com/flycore'
+- '§7Правила: §b§nflycore.ru/rules'
 MUTE_NEVER_NEW_REASON:
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 - '§c Доступ к чату был заблокирован навсегда за %s'
@@ -2688,6 +2697,7 @@ MUTE_NEVER_NEW_REASON:
 - ''
 - '§7 Обжаловать наказание можно в группе:'
 - '§b §nvk.com/flycore'
+- '§7 Правила: §b§nflycore.ru/rules'
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 MUTE_NEVER_REASON:
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
@@ -2698,6 +2708,7 @@ MUTE_NEVER_REASON:
 - ''
 - '§7 Обжаловать наказание можно в группе:'
 - '§b §nvk.com/flycore'
+- '§7 Правила: §b§nflycore.ru/rules'
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 MUTE_NEW_REASON:
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
@@ -2709,6 +2720,7 @@ MUTE_NEW_REASON:
 - ''
 - '§7 Обжаловать наказание можно в группе:'
 - '§b §nvk.com/flycore'
+- '§7 Правила: §b§nflycore.ru/rules'
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 MUTE_REASON:
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
@@ -2719,6 +2731,7 @@ MUTE_REASON:
 - ''
 - '§7 Обжаловать наказание можно в группе:'
 - '§b §nvk.com/flycore'
+- '§7 Правила: §b§nflycore.ru/rules'
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 BAN_INFO: '§cМодерация §8| %s§7 заблокировал игрока %s§7 по причине: §e%s'
 BAN_TIME_INFO: '§cМодерация §8| %s§7 заблокировал игрока %s§7 на %s по причине: §e%s'
