@@ -3930,6 +3930,7 @@ MSG_TYPE_RUN:
 ECONOMY_MONEY_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §6Монеты §f(§a+%s§f)'
 ECONOMY_GOLDS_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §eЗолото §f(§a+%s§f)'
 ECONOMY_CORES_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §bЯдра §f(§d+%s§f)'
+ECONOMY_EXP_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §aОпыт §f(§e+%s§f)'
 
 LAST_UPDATES_INFO: '§aОбновления §8| §fБыло сделано §a%s§f %s'
 LAST_UPDATES: '§aОбновления §8| §f%s'
