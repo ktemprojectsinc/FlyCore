@@ -7602,6 +7602,7 @@ GUI_GUILDSHOP_NAME: 'Guild balance: %s'
 GUI_GUILDSHOP_NO_MONEY_LORE:
 - ''
 - '§7Стоимость улучшения: §c%s §7%s'
+- '§7Для покупки не хватает §6%s§7 %s'
 - ''
 - ' §c▸ В гильдии не достаточно монет для приобретения'
 GUI_GUILDSHOP_BUY_LORE:
