@@ -1308,7 +1308,7 @@ ITEM_TRACES_LORE:
  - '§7Следы: %s'
  - ''
  - ' §e▸ Нажмите, чтобы %s следы'
-ITEM_GAME_NAME: '§b§lИгровые режимы'
+ITEM_GAME_NAME: 'Игровые режимы'
 ITEM_GAME_LORE:
  - '§7Выберите себе режим'
  - '§7для игры'
@@ -1316,7 +1316,7 @@ ITEM_GADGETS_NAME: '§a§lГаджеты'
 ITEM_GADGETS_LORE:
  - '§7Всевозможные инструменты'
  - '§7для украшения игры в лобби'
-ITEM_LOBBY_NAME: '§b§lВыбор лобби'
+ITEM_LOBBY_NAME: 'Выбор лобби'
 ITEM_LOBBY_LORE:
  - '§7Надоели игроки?'
  - '§7Тогда спрячьтесь от них'
@@ -1365,7 +1365,7 @@ ITEM_TEAMS_LORE:
 ITEM_PARKOUR_RESPAWN_NAME: '§a§lРеспавн'
 ITEM_PARKOUR_RESPAWN_LORE:
 - '§7Вернуться к прошлому модулю'
-ITEM_INFO_NAME: '§b§lИнформация'
+ITEM_INFO_NAME: 'Информация'
 ITEM_INFO_LORE:
 - '§7Здесь вы узнаете полезную'
 - '§7информацию по игре на §a§lFlyCore.ru'
