@@ -1038,7 +1038,6 @@ ITEM_TP_NAME: '§eТелепортатор'
 ITEM_TP_LORE:
 - '§7Используйте этот предмет,'
 - '§7чтобы наблюдать за игроками'
-ITEM_SETTINGS_NAME: '§eНастройка смотрящих'
 ITEM_SETTINGS_LORE:
 - '§7Используйте этот предмет,'
 - '§7чтобы изменить настройки'
@@ -1381,8 +1380,7 @@ ITEM_LOCATOR_LORE:
 ITEM_ITEMS_NAME: '§9§lПредметы'
 ITEM_ITEMS_LORE:
 - '§7Кликните, чтобы выбрать предметы'
-ITEM_SETTINGS_NAME: '§b§lНастройки'
-ITEM_SETTINGS_LORE:
+ITEM_SETTING_LORE:
 - '§7Настройте аккаунт под себя'
 
 TRAINING_PREFIX: '§aОбучение §8| §f'
