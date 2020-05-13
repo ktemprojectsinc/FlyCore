@@ -1274,11 +1274,11 @@ MSG_SUBTITLE: '§7Наш discord: §6dis.flycore.ru'
 #§7Группа: §cvk.com/flycore
 
 #Ru items
-ITEM_EXIT_NAME: '§aНазад в главное лобби'
+ITEM_EXIT_NAME: '§a§lНазад в главное лобби'
 ITEM_EXIT_LORE:
  - '§7Используйте этот предмет,'
  - '§7чтобы вернуться в главное лобби'
-ITEM_START_NAME: '§eБыстрый старт'
+ITEM_START_NAME: '§b§lБыстрый старт'
 ITEM_START_LORE:
  - '§7Удобная навигация по'
  - '§7картам и аренам данного режима'
@@ -1309,15 +1309,15 @@ ITEM_TRACES_LORE:
  - '§7Следы: %s'
  - ''
  - ' §e▸ Нажмите, чтобы %s следы'
-ITEM_GAME_NAME: '§cИгровые режимы'
+ITEM_GAME_NAME: '§b§lИгровые режимы'
 ITEM_GAME_LORE:
  - '§7Выберите себе режим'
  - '§7для игры'
-ITEM_GADGETS_NAME: '§cГаджеты'
+ITEM_GADGETS_NAME: '§a§lГаджеты'
 ITEM_GADGETS_LORE:
  - '§7Всевозможные инструменты'
  - '§7для украшения игры в лобби'
-ITEM_LOBBY_NAME: '§cВыбор лобби'
+ITEM_LOBBY_NAME: '§b§lВыбор лобби'
 ITEM_LOBBY_LORE:
  - '§7Надоели игроки?'
  - '§7Тогда спрячьтесь от них'
@@ -1330,10 +1330,10 @@ ITEM_ADMINMENU_NAME: '§2Админ-Меню'
 ITEM_ADMINMENU_LORE:
  - '§7Здесь вы можете узнать полезную информацию'
  - '§7для персонала'
-ITEM_HIDEPLAYERS_NAME: '§4Скрыть игроков'
+ITEM_HIDEPLAYERS_NAME: '§4§lСкрыть игроков'
 ITEM_HIDEPLAYERS_LORE:
 - '§7Скройте игроков'
-ITEM_SHOWPLAYERS_NAME: '§aПоказать игроков'
+ITEM_SHOWPLAYERS_NAME: '§a§lПоказать игроков'
 ITEM_SHOWPLAYERS_LORE:
 - '§7Покажите игроков'
 HIDE_DELAY: '§aЧасы §8| §cЧасы перегрелись, осталось %s до охлаждения..'
@@ -1356,21 +1356,21 @@ ITEM_GADGETS_GADGET_LORE:
 - '§cПКМ, чтобы убрать из избранного'
 ITEM_GADGETS_HAT: '§bШляпа'
 ITEM_GADGETS_BANNER: '§bБаннер'
-ITEM_GAME_EXIT_NAME: '§cВыход'
+ITEM_GAME_EXIT_NAME: '§c§lВыход'
 ITEM_GAME_EXIT_LORE:
 - '§7Покиньте арену'
-- '§0§oне дайте ей начаться'
-ITEM_TEAMS_NAME: '§6Выбор команды'
+- '§7§oне дайте ей начаться'
+ITEM_TEAMS_NAME: '§6§lВыбор команды'
 ITEM_TEAMS_LORE:
 - '§7Выберите команду из доступных'
-ITEM_PARKOUR_RESPAWN_NAME: '§aРеспавн'
+ITEM_PARKOUR_RESPAWN_NAME: '§a§lРеспавн'
 ITEM_PARKOUR_RESPAWN_LORE:
 - '§7Вернуться к прошлому модулю'
-ITEM_INFO_NAME: '§bИнформация'
+ITEM_INFO_NAME: '§b§lИнформация'
 ITEM_INFO_LORE:
 - '§7Здесь вы узнаете полезную'
 - '§7информацию по игре на §a§lFlyCore.ru'
-ITEM_DONATE_NAME: '§bПривилегии'
+ITEM_DONATE_NAME: '§d§lПривилегии'
 ITEM_DONATE_LORE:
 - '§7Информация о привилегиях,'
 - '§7и способах их покупки'
@@ -1378,9 +1378,12 @@ ITEM_LOCATOR_NAME: '§aЛокатор'
 ITEM_LOCATOR_LORE:
 - '§7Используйте этот предмет, чтобы'
 - '§7находить ближайшего игрока'
-ITEM_ITEMS_NAME: '§9Предметы'
+ITEM_ITEMS_NAME: '§9§lПредметы'
 ITEM_ITEMS_LORE:
 - '§7Кликните, чтобы выбрать предметы'
+ITEM_SETTINGS_NAME: '§b§lНастройки'
+ITEM_SETTINGS_LORE:
+- '§7Настройте аккаунт под себя'
 
 TRAINING_PREFIX: '§aОбучение §8| §f'
 TRAINING_PREFIX_HOVER: '   §8 -| §6§lОбучение §8|-'
