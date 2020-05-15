@@ -9616,6 +9616,12 @@ PRISON_HOLO_CORPUS_STOLOVKA:
 - '§fЗдесь вы сможете отведать вкуснейшего'
 - '§fшницеля от самого §aПовара Андрея§f!'
 
+GUI_PRISON_ARSENAL_NAME: 'Мой арсенал'
+PRISON_FACTION_1: '§8Ниггеры'
+PRISON_FACTION_2: '§fБелые'
+PRISON_FACTION_3: '§eАзиаты'
+PRISON_FACTION_0: 'Не выбран'
+
 HOLO_INFORMATION:
 - 'Информация о вас'
 
