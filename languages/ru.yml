@@ -27,6 +27,7 @@ CHEST_EMPTY: 'Пустой'
 BANINFO_BY_ANOTHER: '§7(по просьбе %s§7)'
 TOP_POSITION: '§e%s Место'
 ALL: 'ВСЕ ВРЕМЯ'
+CURRENT: 'СЕЙЧАС'
 JANUARY: 'Январь'
 FEBRUARY: 'Февраль'
 MARCH: 'Март'
@@ -9479,6 +9480,10 @@ TOP_LUCKYBLOCKS_HOLO:
 - '%s'
 - '§fТоп игроков по разрушенным'
 - '§fлакиблокам за §e%s'
+TOP_CHESTS_HOLO:
+- '%s'
+- '§fТоп игроков по облутанным'
+- '§fсундукам за §e%s'
 TOP_MONEY_HOLO:
 - '§a§lТоп по монетам'
 - '§fТоп игроков по количеству'
