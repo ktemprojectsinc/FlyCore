@@ -5980,6 +5980,15 @@ GUI_SETTING_VK_LORE:
 GUI_SETTING_EMAIL_LORE:
 - '§7Позволяет включить или выключить'
 - '§7отображение вашей почты другим игрокам'
+GUI_SETTING_FASTSTART_LORE:
+- '§7Позволяет включить или выключить'
+- '§7быструю телепортацию на следующую арену'
+- '§7после окончания игры'
+GUI_SETTING_HUB_LORE:
+- '§7Позволяет включить или выключить'
+- '§7телепортацию в лобби режима,'
+- '§7например из §fbws-1§7 в §fbwlobby§7 если'
+- '§7настройка включена'
 GUI_SETTING_UNAVAILABLE_LORE:
 - ''
 - '§cНедоступно!'
@@ -6000,6 +6009,8 @@ GUI_SETTING_PARTY: 'Приглашения в Party'
 GUI_SETTING_GUILD: 'Приглашения в гильдии'
 GUI_SETTING_DONATECHAT: 'Чат донатеров'
 GUI_SETTING_EMAIL: 'Почта'
+GUI_SETTING_FASTSTART: 'Быстрый старт'
+GUI_SETTING_HUB: 'Лобби режима(/hub)'
 GUI_SETTING_NAME: 'Настройки'
 GUI_SETTING_DISABLE_LORE:
 - '§7Нажмите, чтобы отключить'
@@ -9748,6 +9759,17 @@ LDON_STATS_GIVE: 'Выдано'
 LDON_STATS_NO: 'Не выдано'
 LDON_PROMO: 'Промо-код'
 LDON_COUNT: 'Всего покупок'
+
+ITEM_PVP_NAME: 'Выбор пвп'
+ITEM_PVP_LORE:
+- '§7Выберите пвп которое будет'
+- '§7на аране путем голосования!'
+GUI_PVP_ITEM:
+- '§7Нажмите, чтобы выбрать'
+- '§7пвп %s'
+- ''
+- '§7Его выбрали:'
+PVP_SELECT_INFO: 'Большинство выбрало %s пвп'
 
 HOLO_WELCOME:
 - '§bПривет %s§b, добро пожаловать на §a§aFlyCore'
