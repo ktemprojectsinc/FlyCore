@@ -2193,26 +2193,32 @@ FRIEND_PREFIX_RESET: '§aДрузья §8| §fПрефикс для %sа §a%s§
 FRIEND_SETTING_UNAVAILABLE:
 - '§cУ ранга установленного Вам, нет доступа к данной возможности (Настройка %s)'
 - '§c  Попросите вашего друга изменить вам ранг или выдать права через §e/g ranks§c или §e/g setrank'
-FRIEND_SETTING_TPHERE: 'Телепортация'
+FRIEND_SETTING_TPHERE: 'Телепортация вас к другу'
 FRIEND_SETTING_TPHERE_DESCRIPTION:
 - '§7Позволяет другу телепортировать вас к себе'
+- '§7с помощью §f/f tphere'
 FRIEND_SETTING_IGNORE: 'Игнорирование'
 FRIEND_SETTING_IGNORE_DESCRIPTION:
-- '§7Позволяет другу игнорировать то что вы добавили его в игнор(/ignore)'
+- '§7Позволяет другу игнорировать то что вы добавили его в игнор(§f/ignore§7)'
 FRIEND_SETTING_PVP: 'PvP'
 FRIEND_SETTING_PVP_DESCRIPTION:
 - '§7Не дает другу нанести урон по вам'
+- '§7на всех режимах кроме арен мини-игр'
 FRIEND_SETTING_CHATSUFFIX: 'Суффикс друга'
 FRIEND_SETTING_CHATSUFFIX_DESCRIPTION:
 - '§7Скрывает суффикс друга'
 FRIEND_SETTING_CHATPREFIX: 'Префикс друга'
 FRIEND_SETTING_CHATPREFIX_DESCRIPTION:
 - '§7Скрывает префикс друга'
-- '§7который вы ему задавали через /f rename'
+- '§7который вы ему задавали через §f/f rename'
 FRIEND_SETTING_CHATRANKPREFIX: 'Префикс друга'
 FRIEND_SETTING_CHATRANKPREFIX_DESCRIPTION:
 - '§7Скрывает префикс ранга друга'
-- '§7который вы задавали через /f rankrename'
+- '§7который вы задавали через §f/f rankrename'
+FRIEND_SETTING_TELEPORT: 'Телепортация друга к вам'
+FRIEND_SETTING_TELEPORT_DESCRIPTION:
+- '§7Позволяет другу телепортироваться к вам,'
+- '§7даже когда у вас отключены телепортации(§f/tptoggle§7)'
 
 GUI_FRIENDTYPES_NAME: 'Настройки рангов друзей'
 GUI_FRIENDTYPES_RANK_NAME: 'Ранг'
