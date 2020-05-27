@@ -9412,6 +9412,9 @@ HOLO_DONATE:
 - '%pultra§f - §5%dultra §fрублей'
 - '%pclassik§f - §5%dclassik §fрублей'
 - '%animation%§ldelux§f - §b%ddelux §fрублей'
+- '%animation%§limperator§f - §b%dimperator §fрублей'
+- '%animation%§lhelper§f - §b%dhelper §fрублей'
+- '%animation%§lboss§f - §b%dboss §fрублей'
 - '§fПокупать на сайте:'
 - '%animation%www.flycore.ru'
 
