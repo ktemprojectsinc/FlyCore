@@ -8807,11 +8807,14 @@ HOLO_REWARDS:
 
 HOLO_DONATE:
 - '§ePrivileges:'
-- '%pclay§f - §5%dclay §frubbles'
-- '%pbrick§f - §5%dbrick §frubbles'
-- '%pcreeper§f - §5%dcreeper §frubbles'
-- '%plava§f - §5%dlava §frubbles'
-- '%animation%§lENDERMAN§f - §b%denderman §frubbles'
+- '%pvip§f - §5%dvip §frubbles'
+- '%ppremium§f - §5%dpremium §frubbles'
+- '%pultra§f - §5%dultra §frubbles'
+- '%pclassik§f - §5%dclassik §frubbles'
+- '%animation%§ldelux§f - §b%ddelux §frubbles'
+- '%animation%§limperator§f - §b%dimperator §frubbles'
+- '%animation%§lhelper§f - §b%dhelper §frubbles'
+- '%animation%§lboss§f - §b%dboss §frubbles'
 - '§fBuy on our site:'
 - '%animation%www.flycore.ru'
 
