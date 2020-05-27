@@ -8810,11 +8810,14 @@ HOLO_REWARDS:
 
 HOLO_DONATE:
 - '§eПривилегии:'
-- '%pclay§f - §5%dclay §fрублів'
-- '%pbrick§f - §5%dbrick §fрублів'
-- '%pcreeper§f - §5%dcreeper §fрублів'
-- '%plava§f - §5%dlava §fрублів'
-- '%animation%§lENDERMAN§f - §b%denderman §fрублів'
+- '%pvip§f - §5%dvip §fрублей'
+- '%ppremium§f - §5%dpremium §fрублей'
+- '%pultra§f - §5%dultra §fрублей'
+- '%pclassik§f - §5%dclassik §fрублей'
+- '%animation%§ldelux§f - §b%ddelux §fрублей'
+- '%animation%§limperator§f - §b%dimperator §fрублей'
+- '%animation%§lhelper§f - §b%dhelper §fрублей'
+- '%animation%§lboss§f - §b%dboss §fрублей'
 - '§fПокупка на сайті:'
 - '%animation%www.flycore.ru'
 
