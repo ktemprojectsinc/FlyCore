@@ -7813,6 +7813,89 @@ GUI_COSMETIC_WINEFFECT_4_LORE:
 #- '§7все игроки лобби смогут услышать §4страшную мелодию'
 #- ''
 
+GUI_COSMETIC_COLORABLE_1: 'Красный'
+GUI_COSMETIC_COLORABLE_1_LORE:
+- '§7Такой же красный, как кровь твоих врагов'
+GUI_COSMETIC_COLORABLE_2: 'Белый'
+GUI_COSMETIC_COLORABLE_2_LORE:
+- '§7Отлично подходит для маскировки зимой!'
+GUI_COSMETIC_COLORABLE_3: 'Оранжевый'
+GUI_COSMETIC_COLORABLE_3_LORE:
+- '§7Апельсиновый окрас придаст вам'
+- '§7кислинки в PvP'
+GUI_COSMETIC_COLORABLE_4: 'Пурпурный'
+GUI_COSMETIC_COLORABLE_4_LORE:
+- '§7Великолепно сделанный пурпурный щит'
+GUI_COSMETIC_COLORABLE_5: 'Голубой'
+GUI_COSMETIC_COLORABLE_5_LORE:
+- '§7В железной броне вы превращаетесь'
+- '§7в голубой вагон.'
+GUI_COSMETIC_COLORABLE_6: 'Желтый'
+GUI_COSMETIC_COLORABLE_6_LORE:
+- '§7Солнечный щит ослепит своей красотой!'
+GUI_COSMETIC_COLORABLE_7: 'Светло-зеленый'
+GUI_COSMETIC_COLORABLE_7_LORE:
+- '§7Не перепутайте с плодом лайма'
+- '§7Да, было и такое'
+GUI_COSMETIC_COLORABLE_8: 'Розовый'
+GUI_COSMETIC_COLORABLE_8_LORE:
+- '§7Самый гламурный щит'
+GUI_COSMETIC_COLORABLE_9: 'Серый'
+GUI_COSMETIC_COLORABLE_9_LORE:
+- '§7Щит серый, словно мышь'
+- '§7Крадитесь также незаметно!'
+GUI_COSMETIC_COLORABLE_10: 'Серебрянный'
+GUI_COSMETIC_COLORABLE_10_LORE:
+- '§7Этот оттенок получился из пепла'
+- '§7Пироманта на SkyWars.'
+GUI_COSMETIC_COLORABLE_11: 'Бирюзовый'
+GUI_COSMETIC_COLORABLE_11_LORE:
+- '§7Если вы не можете выбрать между'
+- '§7зелёным и синим, то это для вас!'
+GUI_COSMETIC_COLORABLE_12: 'Фиолетовый'
+GUI_COSMETIC_COLORABLE_12_LORE:
+- '§7Роскошный щит для настоящих королей!'
+GUI_COSMETIC_COLORABLE_13: 'Синий'
+GUI_COSMETIC_COLORABLE_13_LORE:
+- '§7Теперь щит — море! Даже стрелы впитывает также'
+GUI_COSMETIC_COLORABLE_14: 'Коричневый'
+GUI_COSMETIC_COLORABLE_14_LORE:
+- '§7Надеюсь это не то, о чем мы подумали.'
+GUI_COSMETIC_COLORABLE_15: 'Зеленый'
+GUI_COSMETIC_COLORABLE_15_LORE:
+- '§7Говорят, зелёный цвет успокаивает'
+- '§7Проверьте на противниках'
+GUI_COSMETIC_COLORABLE_16: 'Черный'
+GUI_COSMETIC_COLORABLE_16_LORE:
+- '§7Измажьте щит своей душой!'
+GUI_COSMETIC_COLORABLE_17: 'Россия'
+GUI_COSMETIC_COLORABLE_17_LORE:
+- '§7Путин, водка, балалайка'
+GUI_COSMETIC_COLORABLE_18: 'Украина'
+GUI_COSMETIC_COLORABLE_18_LORE:
+- '§7Це Европа'
+GUI_COSMETIC_COLORABLE_19: 'Дракончик'
+GUI_COSMETIC_COLORABLE_19_LORE:
+- '§7Опасный и общительный дракончик'
+GUI_COSMETIC_COLORABLE_20: 'Скелет'
+GUI_COSMETIC_COLORABLE_20_LORE:
+- '§7Портрет последнего Лорда!'
+GUI_COSMETIC_COLORABLE_21: 'Деад Пул'
+GUI_COSMETIC_COLORABLE_21_LORE:
+- '§7Но вы не бессмертны, нет'
+GUI_COSMETIC_COLORABLE_22: 'Гитара'
+GUI_COSMETIC_COLORABLE_22_LORE:
+- '§7Для музыкальных ценителей'
+GUI_COSMETIC_COLORABLE_23: 'Сердце'
+GUI_COSMETIC_COLORABLE_23_LORE:
+- '§7Покажите всем, как вы их любите!'
+GUI_COSMETIC_COLORABLE_24: 'Олень'
+GUI_COSMETIC_COLORABLE_24_LORE:
+- '§7Тот самый олень Санты!'
+GUI_COSMETIC_COLORABLE_25: 'Покебол'
+GUI_COSMETIC_COLORABLE_25_LORE:
+- '§7Из него выскочит Пикачу!'
+
 GUI_REPORTS_NAME: 'Список жалоб'
 GUI_REPORTS_EMPTY: '§cВ данный момент нет жалоб'
 GUI_REPORTS_EMPTY_LORE:
