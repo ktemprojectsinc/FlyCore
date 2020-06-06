@@ -2901,7 +2901,7 @@ WHOIS_OFFLINE:
 - ' §f- Серверные данные: §c%s'
 RULES:
 - '§aСервер §8| §fСсылка на правила сервера -'
-RULES_2: '§dhttp://flycore.ru/rules'
+RULES_2: '§d%s'
 RULES_HOVER:
 - '§fнажмите сюда'
 - '§fдля перехода по ссылке'
