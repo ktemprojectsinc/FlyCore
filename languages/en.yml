@@ -88,7 +88,7 @@ BAN_REQUEST_REJECT: '§aRequests §8| %s§c Denied your request for a lock %s'
 BAN_REQUEST_FOR_PERSONAL:
  - "§cYou can't send a lock request to the server staff"
  - '§cFor it exists discussion on group https://vk.com/topic-157663196_39337015'
-  BAN_REQUEST_INFO:
+BAN_REQUEST_INFO:
 - '§aRequests §8| §fВ данный момент рассмотрение наказания ждет §a%s§f %s§7 (рассмотреть сейчас)'
 BAN_REQUEST_INFO2:
 - '§aRequests §8| §fВ данный момент рассмотрения наказаний ждут §a%s§f %s§7 (рассмотреть сейчас)'
