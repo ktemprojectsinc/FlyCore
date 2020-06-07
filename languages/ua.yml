@@ -89,7 +89,7 @@ CORE_HANDSHAKE_WRONG_OF_HOST: 'невірний хост'
 CORE_HANDSHAKE_WRONG_OF_PASSWORD: 'невірний пароль'
 CORE_HANDSHAKE_WRONG_OF_COREID: 'id ядра §e%s§3, не відповідає підключаємому §c%s'
 CORE_HANDSHAKE_CONNECTION_CLOSED: '§cCore §8| §7Підключення §a%s§7 було закирто по причині: §3%s'
-CORE_HANDSHAKE_CONNECTION_CONFIRM: '§cCore §8| §7Підключення §a%s§7 було успішно принято (§e#%s§7)'
+CORE_HANDSHAKE_CONNECTION_CONFIRM: '§cCore §8| §7Підключення §a%s§7 було успішно принято'
 CORE_NO_CONNECTED:
 - '§cНа данний момент немає з’єднання с ядром, зачекайте трохи до його підключення.'
 - ' §cнаписані Вами команді будуть збережені у фоновому режимі.'
