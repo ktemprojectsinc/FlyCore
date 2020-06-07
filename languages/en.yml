@@ -111,7 +111,7 @@ CORE_HANDSHAKE_WRONG_OF_HOST: 'wrong host'
 CORE_HANDSHAKE_WRONG_OF_PASSWORD: 'wrong password'
 CORE_HANDSHAKE_WRONG_OF_COREID: 'core id §e%s§3, does not match the connected §c%s'
 CORE_HANDSHAKE_CONNECTION_CLOSED: '§cCore §8| §7Connection §a%s§7 closed for reason: §3%s'
-CORE_HANDSHAKE_CONNECTION_CONFIRM: '§cCore §8| §7Connection §a%s§7 successful accepted (§e#%s§7)'
+CORE_HANDSHAKE_CONNECTION_CONFIRM: '§cCore §8| §7Connection §a%s§7 successful accepted'
 
 CORE_NO_CONNECTED:
 - '§aRequests §8| §fAt this moment, there is no connection to core, wait a little for its connection.'
