@@ -1266,14 +1266,14 @@ JOIN_RECOMMEND_ADDMAIL:
 - '§bПривязать почту'
 - ''
 - '§e ▸ Нажмите сюда, чтобы привязать почту'
-JOIN_RECOMMEND_CREATEAPI:
-- '§bСоздать api-ключ'
+JOIN_RECOMMEND_CREATETFA:
+- '§bСоздать TFA-ключ'
 - ''
-- '§e ▸ Нажмите сюда, чтобы создать api-ключ'
-JOIN_RECOMMEND_CHANGEAPI:
-- '§bСменить api-ключ'
+- '§e ▸ Нажмите сюда, чтобы создать TFA-ключ'
+JOIN_RECOMMEND_CHANGETFA:
+- '§bСменить TFA-ключ'
 - ''
-- '§e ▸ Нажмите сюда, чтобы сменить api-ключ'
+- '§e ▸ Нажмите сюда, чтобы сменить TFA-ключ'
 
 GUILD_JOIN_CHAT: '§2Гильдии §8| %s§f %s на сервер'
 GUILD_JOIN_HOVER:
