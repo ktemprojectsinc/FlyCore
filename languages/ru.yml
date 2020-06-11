@@ -8414,10 +8414,10 @@ GUI_CASES_INFO2_LORE2:
 GUI_CASES_BUY_TO_MONEY_NAME: '§6Покупка ключей за монеты'
 GUI_CASES_BUY_TO_GOLD_NAME: '§eПокупка ключей за золото'
 GUI_CASES_BUY_TO_CORE_NAME: '§bПокупка ключей за ядра'
-GUI_CASES_BUY_NO_LORE:
+GUI_CASES_SELL_NO_LORE:
 - ''
 - '§cПростите, но вы не сможете'
-- '§cполучить данные ключи этим способом =('
+- '§cпродать данные ключи этим способом =('
 GUI_CASES_DEFAULT_NAME: '§bКосметический ключ'
 GUI_CASES_DEFAULT_LORE:
 - ''
