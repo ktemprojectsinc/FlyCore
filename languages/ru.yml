@@ -3426,6 +3426,10 @@ VKBOT: '§9VK-Бот'
 PLAYER_YOUR_BOT: '§cБот, уходи!'
 
 AUTH_PLAYER_ALREADY: '§cИгрок уже на сервере'
+AUTH_PLAYER_QUIT: '§cВы вышли с сервера'
+AUTH_PLAYER_WHITELIST:
+- '§cНа сервере проводятся технические работы'
+- '§cповторите попытку позже'
 AUTH_COMMAND_HELP:
 - '§7/auth register <ключ> <ник> <пароль> §f- регистрация игрока'
 - '§7/auth changepassword <ключ> <ник> <пароль> §f- изменение пароля игроку'
