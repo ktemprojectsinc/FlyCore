@@ -306,7 +306,7 @@ BEST_PLAYER_INFO:
 - '§care not be outbid, then after %s days'
 - '§cyour "NPC"(Entity) will be removed from all lobbies.'
 - ''
-BEST_PLAYER_BUY_MESSAGE: '§6Honorable player §8| §fYou outbid player %s§f for %s§f %s and became new "honorable player"'
+BEST_PLAYER_BUY_MESSAGE: '§6Honorable player §8| §fYou outbid player %s§f for %s§f and became new "honorable player"'
 BEST_PLAYER_BUY_MESSAGE_ALERT: '§6Honarable player §8| %s§f outbid player %s§f for %s and became new "honorable player"'
 BEST_PLAYER_BUY: '§bRaise on %s'
 BEST_PLAYER_BUY_LORE:
@@ -971,6 +971,7 @@ GAME_TITLE_NOT_WINNER: '§7You has failed!'
 GAME_NO_BREAK_BLOCK_TEAM: '§cВы не можете ломать блоки под своими тиммейтами'
 GAME_REJOIN: '§fYou have rejoined to your previous game'
 GAME_COSMETIC_NO_AVAILABLE: '§cНельзя менять перк во время игры'
+GAME_SPECTATOR_MESSAGE: 'Вы погибли и теперь можете только наблюдать за игровым процессом'
 
 COMPASS_MESSAGE: '§fPlayer: %s      §fDistance: '
 COMPASS_MESSAGE_SPECTATOR: '§fNearest player: %s      §fDistance: §a%s'
@@ -1269,14 +1270,14 @@ JOIN_RECOMMEND_ADDMAIL:
 - '§bBind mail'
 - ''
 - '§e▸ Click here to link your email'
-JOIN_RECOMMEND_CREATEAPI:
-- '§bCreate api-key'
+JOIN_RECOMMEND_CREATETFA:
+- '§bCreate TFA-key'
 - ''
-- '§e▸ Click here to create an api key'
-JOIN_RECOMMEND_CHANGEAPI:
-- '§bTo change the api-key'
+- '§e▸ Click here to create an TFA-key'
+JOIN_RECOMMEND_CHANGETFA:
+- '§bTo change the TFA-key'
 - ''
-- ' §e▸ Click here to change your api key'
+- ' §e▸ Click here to change your TFA-key'
 
 GUILD_JOIN_CHAT: '§2Guilds §8| %s §f%s to server'
 GUILD_JOIN_HOVER:
@@ -1620,28 +1621,28 @@ IGNORE_FORMAT: '/ignore <nickname> <reason>'
 HISTORY_FORMAT: '/history <nickname> <BAN/MUTE/KICK/BANIP/UNBAN/UNMUTE/UNBANIP/GUILDMUTE/GUILDUNMUTE>'
 TEST_FORMAT: '/test <String>'
 
-API_DELAY: '§aApi §8| §fYou may generate new access key after %s'
-API_CREATE:
+TFA_DELAY: '§aTFA §8| §fYou may generate new access key after %s'
+TFA_CREATE:
  - ' '
  - ' §fGenerated below access key will be shown only now'
  - ' §fIn future, You should generate new one'
  - " §cBe careful! §fDon't show key anyone"
  - ' '
-API_HOVER_MSG:
-- '§aApi §8| §fYour access key - §a%s §7(hover)'
-API_HOVER_COPY_MSG:
+TFA_HOVER_MSG:
+- '§aTFA §8| §fYour access key - §a%s §7(hover)'
+TFA_HOVER_COPY_MSG:
 - '§f§oClick, to show the access key in the input field'
 - '§f§oThen copy it (CTRL+A, CTRL+C)'
-API_HELP:
- - '§7/api create §f- generate new access key'
- - '§7/api change <api-key> §f- change access key'
- - '§7/api reset §f- remove access key'
- - '§7/api get §f- see access key'
-API_CHANGE_FORMAT: '/api change <api-key>'
-API_CHANGE_INCORRECT: '§aApi §8| §cIn indicated by You key %s, there is unacceptable symbols. Might be used numbers and latin letters.'
-API_CHANGE_SUCCESS: '§aApi §8| §fAccess key successfully changed to §a%s'
-API_RESET_SUCCESS: '§aApi §8| §fAcces key successfully removed.'
-API_NOT_FOUND: '§aApi §8| §cThere is no access key on your account, create it by /api create'
+TFA_HELP:
+ - '§7/tfa create §f- generate new access key'
+ - '§7/tfa change <tfa-key> §f- change access key'
+ - '§7/tfa reset §f- remove access key'
+ - '§7/tfa get §f- see access key'
+TFA_CHANGE_FORMAT: '/tfa change <tfa-key>'
+TFA_CHANGE_INCORRECT: '§aTFA §8| §cIn indicated by You key %s, there is unacceptable symbols. Might be used numbers and latin letters.'
+TFA_CHANGE_SUCCESS: '§aTFA §8| §fAccess key successfully changed to §a%s'
+TFA_RESET_SUCCESS: '§aTFA §8| §fAcces key successfully removed.'
+TFA_NOT_FOUND: '§aTFA §8| §cThere is no access key on your account, create it by /tfa create'
 
 SPAWN_TELEPORT: 'Teleporting on spawn...'
 SPAWN_TELEPORT_TO: '%s§f moving to spawn'
@@ -3048,7 +3049,7 @@ SERVER_BROADCAST: '§aServer §8| %s §fteleported to your server'
 TIME: '§aServer §8| §fTime spent on the server - §a%s'
 TIME_TO: '§aServer §8| §fPlayer %s§f played - §a%s§f time of server'
 
-MONEY_AND_GOLDS: '§aАккаунт §8| §fYou have §a%s§f %s, §e%s§f %s and §b%s§f %s'
+MONEY_AND_GOLDS: '§aAccount §8| §fYou have §a%s§f %s, §e%s§f %s and §b%s§f %s'
 
 BUY_DONATE_BROADCAST:
 - ''
@@ -3413,6 +3414,10 @@ VKBOT: '§9VK-bot'
 PLAYER_YOUR_BOT: '§cBot, leave!'
 
 AUTH_PLAYER_ALREADY: '§cPlayer already on server'
+AUTH_PLAYER_QUIT: '§cYou quit from server'
+AUTH_PLAYER_WHITELIST:
+- '§cOn server technical work in progress'
+- '§ctry again later'
 AUTH_COMMAND_HELP:
 - '§7/auth register <key> <player name> <password> §f- player register'
 - '§7/auth unregister <key> <player name> §f- delete account'
@@ -3489,6 +3494,7 @@ EMAIL_COMMAND_HELP:
 - '§7/email change <old email> <new email> §f- Change email on your account'
 - '§7/email verify <verify code> §f- Action confirm'
 - '§7/email recovery <your email> §f- Send on the email setting password'
+MAIL_ERROR_COOLDOWN: '§aEMail §8| §cОшибка, отсылать письма на одинаковый адрес можно раз в %s'
 MAIL_CHANGE_FORMAT: '/email change <old mail> <new mail>'
 MAIL_NO: '§aEMail §8| §cError, you have not snap email'
 MAIL_CHANGE_WRONG: '§aEMail §8| §cMail, the one you specified as a previously linked account, not correct'
@@ -3549,10 +3555,10 @@ AUTH_LOGIN_HOLO_VK:
 - ' '
 - '§7From vk.me/flycore'
 AUTH_LOGIN_HOLO_TFA:
-- '§fStage - §c§lAPI Authentication'
+- '§fStage - §c§lTFA Authentication'
 - ''
 - '§fPlease use command'
-- '§a/tfa §f[§aapi-key§f]'
+- '§a/tfa §f[§atfa-key§f]'
 - ' '
 AUTH_LOGIN_HOLO_MAIL:
 - '§fStage - §b§lMail Authentication'
@@ -4128,8 +4134,7 @@ VK_INFO_MSG:
 - '§aVK-bot §8| §fДля привязки аккаунта вам нужно написать,'
 - '§f в сообщения нашего сообщества §dvk.me/flycore'
 - '§f сообщение: §c!привязать %s'
-- '§f после чего вам нужно перезайти, и если'
-- '§f все было сделано правильно, то при написании команды'
+- '§f и если все было сделано правильно, то при написании команды'
 - '§f §e/vk %s§f вы сможете увидеть ссылку на ваш §9VK§f.'
 - '§8 ▪ §7Отключить или включить отображение вашего §9VK'
 - ' §7 вы можете в §c/vkinfo toggle'
@@ -5622,6 +5627,7 @@ GUI_GAMES_CONNECT_1:
 - '§9▶ §eClick to connect'
 - '§9  §eClick to connect'
 GUI_GAMES_RECOMMEND: 'Recomend version to game:'
+GUI_GAMES_STATS_VIEW: '§e▶ Right click, to view stats'
 
 GUI_GAMES_SKYWARS_LORE:
 - '§8Battles on the islands'
@@ -6186,8 +6192,10 @@ GUI_SMILES_ITEM_LORE:
 - '§7Smile §a%s'
 GUI_SMILES_AVAILABLE_LORE:
 - ''
-- '§e▸ ПКМ, чтобы получить смайл в чате'
 - '§e▸ Нажмите, чтобы отправить смайл'
+- '§e▸ Шифт + ПКМ, чтобы получить смайл в чате'
+GUI_SMILES_SELECT: '§e▸ Шифт + ЛКМ, чтобы активировать смайл'
+GUI_SMILES_USE: '§c▸ Шифт + ЛКМ, чтобы отключить смайл'
 SMILE_GET: '§aСмайлы §8| §fНажмите сюда, чтобы получить смайл §a%s'
 SMILE_GET_HOVER: '§f§oНажмите, чтобы получить'
 GUI_SMILES_0: '+_+'
@@ -6422,14 +6430,14 @@ GUI_YOUTUBEMENU_JOIN_LORE:
 GUI_YOUTUBEMENU_JOIN: '§bОповещение о канале'
 
 GUI_REWARDS_NAME: 'Rewards'
-GUI_REWARDS_1: '§eDaily rewards'
+GUI_REWARDS_1: 'Daily rewards'
 GUI_REWARDS_1_LORE:
 - ''
 - '§7Daily reward, that'
 - '§7includes in form of:'
 - '§8 • §fCoins §7(from §6%s §7to §6%s§7)'
 - '§8 • §fExpire §7(from §a%s §7to §a%s§7)'
-GUI_REWARDS_2: '§eWeekly rewards'
+GUI_REWARDS_2: 'Weekly rewards'
 GUI_REWARDS_2_LORE:
 - ''
 - '§7Weekly reward, that'
@@ -6438,7 +6446,7 @@ GUI_REWARDS_2_LORE:
 - '§8 • §fExpire §7(from §a%s §7to §a%s§7)'
 - '§8 • §fCosmetic keys §7(from §d%s§7 to §d%s§7)'
 - '§8 • §fUltra keys §7(from §d%s§7 to §d%s§7)'
-GUI_REWARDS_3: '§eMonthly rewards'
+GUI_REWARDS_3: 'Monthly rewards'
 GUI_REWARDS_3_LORE:
 - ''
 - '§7Monthly reward, that'
@@ -6483,20 +6491,20 @@ GUI_REWARDS_5_LORE:
 - ' §8• §a3 rubbles§7 = 1 key'
 - ''
 - '§7Shop: §eflycore.ru'
-GUI_REWARDS_6: '§6Еженедельные донатерские награды'
+GUI_REWARDS_6: 'Еженедельные донатерские награды'
 GUI_REWARDS_6_NO_PERM:
 - ''
 - ' §c▸ Для %s§c и выше'
 GUI_REWARDS_6_LORE:
 - ''
 - '§7Еженедельная донатерская награда, которая'
-- '§7включает в себя:'
-- '§8 • §fЗолото §7(от §e%s§7 до §e%s§7)'
-- '§8 • §fМонеты §7(от §6%s §7до §6%s§7)'
-- '§8 • §fОпыт §7(от §a%s §7до §a%s§7)'
-- '§8 • §fКосметические ключи §7(от §d%s§7 до §d%s§7)'
-- '§8 • §fУльтра ключи §7(от §d%s§7 до §d%s§7)'
-- '§8 • §fКосметико-игровые ключи §7(от §d%s§7 до §d%s§7)'
+- '§7includes in form of:'
+- '§8 • §fGold §7(from §e%s §7to §e%s§7)'
+- '§8 • §fCoins §7(from §6%s §7to §6%s§7)'
+- '§8 • §fExpire §7(from §a%s §7to §a%s§7)'
+- '§8 • §fCosmetic keys §7(from §d%s§7 to §d%s§7)'
+- '§8 • §fUltra keys §7(from §d%s§7 to §d%s§7)'
+- '§8 • §fCosmetic-game keys §7(from §d%s§7 to §d%s§7)'
 GUI_REWARDS_BOOSTER_ALREADY:
 - ''
 - '§7Available after:'
@@ -6639,6 +6647,8 @@ GUI_SPECTATOR_LORE:
 
 GUI_STATS_NAME: 'Stats'
 GUI_STATS_NAME_OTHER: 'Stats of player - %s'
+GUI_STATS_MONTHLY: 'Stats of month'
+GUI_STATS_ALL: 'Stats of all time'
 GUI_STATS_SKYPVP_LORE:
 - ''
 - '§fОстальная статистика:'
@@ -6720,13 +6730,22 @@ GUI_STATS_BEDWARS_LORE:
 #- ' §8▪ §7Broken beds: §a%s'
 GUI_STATS_SKYWARS_LORE:
 - ''
+- '§7Normal'
 - '§fSolo mode:'
 - ' §8▪ §7Win rate: §a%s'
 - ' §8▪ §7Played games: §a%s'
 - ' §8▪ §7Victories: §a%s'
 - ' §8▪ §7Final kills: §a%s'
 - ' §8▪ §7Kills: §a%s'
-- ' §8▪ §7Open chests: §a%s'
+- ' §8▪ §7Looted chests: §a%s'
+- ''
+- '§fDuo mode:'
+- ' §8▪ §7Win rate: §a%s'
+- ' §8▪ §7Played games: §a%s'
+- ' §8▪ §7Victories: §a%s'
+- ' §8▪ §7Final kills: §a%s'
+- ' §8▪ §7Kills: §a%s'
+- ' §8▪ §7Looted chests: §a%s'
 GUI_STATS_LUCKYWARS_LORE:
 - ''
 - '§fSolo mode:'
@@ -8274,11 +8293,16 @@ GUI_CASES_SELECT_LORE:
 - '§e▸ Open purchases menu'
 GUI_CASES_BUY_LORE:
 - ''
-- '§7Buy %s %s за %s %s'
+- '§7Buy %s for %s'
 - ''
 - '§7Discount on buying §f%s'
 - ''
 - '§e▸ Click, to buy'
+GUI_CASES_SELL_LORE:
+- ''
+- '§7Sell %s for %s'
+- ''
+- '§e▸ Click, to sell'
 GUI_CASES_INFO_NAME: '§bHelp of keys'
 GUI_CASES_INFO_LORE:
 - '§7Use keys for'
@@ -8314,10 +8338,10 @@ GUI_CASES_INFO2_LORE2:
 GUI_CASES_BUY_TO_MONEY_NAME: '§6Purchasing keys for coins'
 GUI_CASES_BUY_TO_GOLD_NAME: '§ePurchasing keys for gold'
 GUI_CASES_BUY_TO_CORE_NAME: '§bPurchasing keys for cores'
-GUI_CASES_BUY_NO_LORE:
+GUI_CASES_SELL_NO_LORE:
 - ''
 - '§cSorry, but you can not'
-- '§cget these keys by this method =('
+- '§csell these keys by this method =('
 GUI_CASES_DEFAULT_NAME: '§bCosmetic key'
 GUI_CASES_DEFAULT_LORE:
 - ''
