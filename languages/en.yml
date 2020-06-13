@@ -3613,14 +3613,14 @@ FORUM_INFO: '§c⚠ Warning! §fYou already register §cin forum§f, do this rig
 FORUM_INFO_HOVER:
 - '§f§oClick here,'
 - '§f§oto registred from forum'
-TFA_INFO: "§c⚠ Warning! §fYou didn't activated §ctwo-factor authentication§f, do it now - §a/api"
+TFA_INFO: "§c⚠ Warning! §fYou didn't activated §ctwo-factor authentication§f, do it now - §a/tfa"
 TFA_INFO_HOVER:
 - '§f§oClick here,'
 - '§f§oto activate two-factor authentication'
 TFA_LOGIN_TITLE: '§a§l§nFlyCore'
 TFA_LOGIN_SUBTITLE: '§7For continuation identification'
-TFA_LOGIN_INFO: '§7Log in - §a/tfa §f[§aapi-key§f]'
-TFA_FORMAT: '/tfa <api-key>'
+TFA_LOGIN_INFO: '§7Log in - §a/tfa §f[§atfa-key§f]'
+TFA_FORMAT: '/tfa <tfa-key>'
 TFA_WRONG: '§cError, invalid key'
 TFA_WRONGS:
 - '§cСлишком много попыток неправильного'
@@ -4128,8 +4128,8 @@ VK_NOT_LINK_YOU: '§aVK-bot §8| §fК вашему аккаунту не при
 VK_SENT_MESSAGE_FORMAT: ' §aPM §8| §aI §8-> %s§7 (VK) §8| §f%s'
 VK_RECIEVED_MESSAGE_FORMAT: ' §aPM §8| %s§7 (VK) §8-> §aI §8| §f%s'
 VK_INFO_ERROR:
-- '§aVK-bot §8| §cОшибка, для привязки аккаунта у вас должен быть создан Api-Ключ.'
-- '§c Создайте его командой §e/api create§c, или-же задайте свой §e/api change <ключ>'
+- '§aVK-bot §8| §cОшибка, для привязки аккаунта у вас должен быть создан TFA-Key.'
+- '§c Создайте его командой §e/tfa create§c, или-же задайте свой §e/tfa change <key>'
 VK_INFO_MSG:
 - '§aVK-bot §8| §fДля привязки аккаунта вам нужно написать,'
 - '§f в сообщения нашего сообщества §dvk.me/flycore'
@@ -5365,14 +5365,14 @@ GUI_INFO_FRIEND_LORE:
 - '§7A regular player have a maximum of §c20§7 friends!'
 GUI_INFO_SECURITY_LORE:
 - '§7After registration, we recommend'
-- '§7создать api-ключ: §e/api create'
+- '§7создать tfa-ключ: §e/tfa create'
 - '§7and link your email to your account:'
 - '§e/email add <email> <email>'
 - ''
-- '§7Для смены или изменения api-key use:'
-- '§e/api change <Новый ключ>'
+- '§7Для смены или изменения tfa-key use:'
+- '§e/tfa change <New key>'
 - '§7Для смены почты используйте:'
-- '§e/email change <Старая почта> <Новая почта>'
+- '§e/email change <Old mail> <New mail>'
 - '§7To change the password, use:'
 - '§e/changepassword <Old password> <New password>'
 - ''
