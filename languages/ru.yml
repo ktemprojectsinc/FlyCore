@@ -7692,6 +7692,9 @@ GUI_COSMETIC_STARTSOUND_3_LORE:
 GUI_COSMETIC_STARTSOUND_4: 'Яйцемёт'
 GUI_COSMETIC_STARTSOUND_4_LORE:
 - '§7Раскидайте своих врагов их же оружием'
+GUI_COSMETIC_STARTSOUND_5: 'Без звука'
+GUI_COSMETIC_STARTSOUND_5_LORE:
+- '§7Тихое начало, громкая игра'
 
 GUI_COSMETIC_KILLEFFECT_1: 'Прощальный фейверк'
 GUI_COSMETIC_KILLEFFECT_2: 'Повелитель молний'
