@@ -4162,7 +4162,6 @@ GENDER_CHANGED: '§aСервер §8| §fВаш пол успешно измен
 
 FORMATNAME_FORMAT: '/formatname <ник>'
 FORMATNAME_START: '§aСервер §8| §fПоиск §a%s'
-FORMATNAME: ' §8▪ %s'
 FORMATNAME_NOT_FOUND: '§aСервер §8| §fПо запросу §a%s§f ничего не найдено'
 FORMATNAME_FINISH: '§aСервер §8| §fПоиск завершен за §6%sms§f найдено: §a%s'
 
