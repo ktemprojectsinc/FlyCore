@@ -2836,7 +2836,7 @@ REPORT_COMMAND_HELP:
 - '§7/report decline <ник> §f- отказ в жалобе'
 - '§7/report idlist §f- список id причин'
 REPORT_INFO_FORMAT: '/report info <ник>'
-REPORT_INFO:
+REPORT_INFO_COMMAND:
 - '§aЖалобы §8| §fИнформация об игроке §e%s§f:'
 - '§f - §fЖаловались: §a%s'
 - '§f - §fСейчас следят: §a%s'
