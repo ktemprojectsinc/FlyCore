@@ -1008,11 +1008,20 @@ BEDWARS_INFO:
 - '§eчем они вас! Пока у команды есть кровать — команда возрождается.'
 - '§eСломайте её у противника и защитите свою!'
 
+#SkyWars
 SKYWARS_INFO:
 - '§eВаша задача скинуть всех игроков'
 - '§eи остаться на острове. Упал? Ну все, ты проиграл!'
-
 SKYWARS_STARTED_SUBTITLE: 'Останьтесь последним выжившим'
+
+#GunGame
+GUNGAME_INFO:
+- '§eВаша задача набрать максимальный уровень. Побеждает'
+- '§eтот, кто получит его первый.'
+- '§eОчками считаются убийства игроков.'
+GUNGAME_STARTED_SUBTITLE: 'Бегай прыгай убивай'
+GUNGAME_LEVEL_UP: '§aУровень повышен до §b%s§a!'
+
 
 PLAYER_TEAM_NO_PLACES: '§cВ данной команде нет мест.'
 PLAYER_TEAM_SELECTED: 'Вы выбрали команду %s'
@@ -1567,6 +1576,8 @@ BOARD_POINTS: 'Очков'
 BOARD_MONEY: 'Монет'
 BOARD_BALANCE: 'Баланс'
 BOARD_LEVEL: 'Уровень'
+BOARD_LEVEL_MAX: 'Макс. Уровень'
+BOARD_LEADER: 'Лидер'
 BOARD_PROGRESS: 'Прогресс'
 BOARD_BLOCK_BREAK: 'Сломано блоков'
 BOARD_BLOCK_PLACE: 'Создано блоков'
