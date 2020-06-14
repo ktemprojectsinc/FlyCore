@@ -3047,6 +3047,7 @@ SERVER_NOT_FOUND: '§aСервер §8| §cОшибка, указанный се
 SERVER_CONNECT: '§aСервер §8| §fВы телепортированы на сервер §a%s'
 STAFF_CONNECTED: '§cМодерация §8| %s§7 %s на сервер %s'
 STAFF_CONNECTED_IP: '[IP: %s]'
+PLAYER_TOO_MANY_ACCOUNTS_CONNECTED: '§cМодерация §8| %s§7 имеет уже §с%s§7 аккаунтов'
 
 SERVER_ALREADY: '§aСервер §8| §cВы уже на одном сервере'
 SERVER_TELEPORTED: '§aСервер §8| §fВы были телепортированы на сервер игрока %s§f - §7(%s)'
