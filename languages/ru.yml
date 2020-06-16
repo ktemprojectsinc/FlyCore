@@ -4179,7 +4179,7 @@ VK_OTHER: '§aVK-bot §8| §fУ пользователя %s§f привязан 
 VK: '§aVK-bot §8| §fК вашему аккаунту привязан профиль: §7%s'
 VK_HELP:
 - '§aVK-bot §8| §fДля просмотра чужого профиля используйте §7/vk <ник>'
-VK_NOT_LINK_YOU: '§aVK-bot §8| §fК вашему аккаунту не привязан профиль §9VK'
+VK_NOT_LINK_YOU: '§aVK-bot §8| §fК вашему аккаунту не привязан профиль §9VK§f Привяжите его - §a/vkinfo'
 VK_SENT_MESSAGE_FORMAT: ' §aЛС §8| §aЯ §8-> %s§7 (VK) §8| §f%s'
 VK_RECIEVED_MESSAGE_FORMAT: ' §aЛС §8| %s§7 (VK) §8-> §aЯ §8| §f%s'
 VK_INFO_ERROR:
