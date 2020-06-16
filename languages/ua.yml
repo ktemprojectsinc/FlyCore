@@ -1280,8 +1280,8 @@ MAIL_JOIN_HOVER:
 - '§f§oчтобы открыть список писем'
 
 #§7Наш Discord: §6discord.gg/
-MSG_TITLE: '§7VK: §bvk.com/flycore'
-MSG_SUBTITLE: '§7Наш Discord: §adis.flycore.ru'
+MSG_TITLE: '§bVK: §avk.com/flycore'
+MSG_SUBTITLE: '§bНаш Discord: §ddis.flycore.ru'
 #§7Группа: §cvk.com/flycore
 
 #Ua items
