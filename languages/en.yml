@@ -3669,7 +3669,7 @@ FORUM_INFO: '§c⚠ Warning! §fYou already register §cin forum§f, do this rig
 FORUM_INFO_HOVER:
 - '§f§oClick here,'
 - '§f§oto registred from forum'
-TFA_INFO: '§c⚠ Warning! §fYou didn't activated §ctwo-factor authentication§f, do it now - §a/tfa'
+TFA_INFO: "§c⚠ Warning! §fYou didn't activated §ctwo-factor authentication§f, do it now - §a/tfa"
 TFA_INFO_HOVER:
 - '§f§oClick here,'
 - '§f§oto activate two-factor authentication'
