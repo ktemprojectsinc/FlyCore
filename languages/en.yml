@@ -163,10 +163,13 @@ RANK_GAMER: 'Gamer'
 
 SERVER_RESTARTING_BROADCAST: '§cBefore a restart remained §e%s§c %s'
 SERVER_RESTARTING_MESSAGE: '§aServer §8| §fServer from you current, restarted..'
-NO_CONNECT_REASON: "§cError#13, Synchronization is not executed. Report, if error to repeated » §a§nvk.com/flycore"
+NO_CONNECT_REASON: '§cError#13, Synchronization is not executed. Report, if error to repeated » §a§nvk.com/flycore'
 CORE_NOT_FOUND_PLAYER_SERVER_MSG:
 - '§aServer §8| §fError, you server not found in main core, you redirected to §a%s'
-CORE_NOT_FOUND_PLAYER_DATA: "§fОшибка, Ваши данные на сервере не были определены или правильно загружены. §7(Ошибка #§c%s§7)\n\n§6Если ошибка повторилась, сообщите » §avk.me/flycore_dev"
+CORE_NOT_FOUND_PLAYER_DATA:
+- '§fОшибка, Ваши данные на сервере не были определены или правильно загружены. §7(Ошибка #§c%s§7)'
+- ''
+- '§6Если ошибка повторилась, сообщите » §avk.me/flycore_dev'
 #CORE_NOT_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If error repeated, report » §a§nvk.com/flycore\n\n§fError code (§c%s§f)"
 PROXY_CORE_LOST_CONNECTION:
 #- '§aServer §8| §fProxy-server disconnected of core. Until the next connection, the transition through the servers will not be available and some commands.'
@@ -574,6 +577,12 @@ MEMBERS:
 - ''
 - 's'
 
+ACCOUNTS:
+- 'account'
+- ''
+- ''
+- 's'
+
 UPDATES:
 - 'update'
 - ''
@@ -685,6 +694,11 @@ HOVER_MESSAGE_CHAT:
 - '§f§oplayer %s§f in pm (personal message)'
 
 PLAYER_NO_USE_LEVEL: '§aAccount §8| §cError, for use this you must have a level not lower %s or rank %s§c!'
+PLAYER_OLD_VERSION:
+- '§cВы используете старую версию %s'
+- '§cУ вас будут появлятся ошибки или баги,'
+- '§cобновите вашу версию до %s чтобы этого не происходило'
+- '§cВнимание! Позже она будет недоступна для входа на сервер'
 
 COINS_ADD: '§6+%s'
 KEY_ADD: '§d+%s'
@@ -805,7 +819,8 @@ PLAYER_BOOST_PLEASE_MADE_SCREENSHOT:
 AVAILABLE_SERVER_NOT_FOUND:
 - '§aServer §8| §fCould not find suitable server'
 
-SERVER_NOT_AVAILABLE_GROUP: '§aServer §8| §cError, entry is available only for %s§c or higher'
+SERVER_NOT_AVAILABLE_GROUP: '§aServer §8| §cError, server is available only for %s§c or higher'
+SERVER_NOT_AVAILABLE_BETA: '§aServer §8| §cError, beta servers is available only for %s§c or higher'
 PLAYER_SERVER_ALREADY: '§aServer §8| §cYou already on current server!'
 
 SLOT_BUSY: '§cSorry, but You was transfered to lobby, Your slot took %s'
@@ -1010,9 +1025,20 @@ BEDWARS_INFO:
 - '§ethan they you! While the team has a bed - the team is reborn.'
 - '§eBreak it at the enemy and defend your!'
 
+#SkyWars
 SKYWARS_INFO:
 - '§eВаша задача скинуть всех игроков'
 - '§eи остаться на острове. Упал? Ну все, ты проиграл!'
+
+SKYWARS_STARTED_SUBTITLE: 'Останьтесь последним выжившим'
+
+#GunGame
+GUNGAME_INFO:
+- '§eВаша задача набрать максимальный уровень. Побеждает'
+- '§eтот, кто получит его первый.'
+- '§eОчками считаются убийства игроков.'
+GUNGAME_STARTED_SUBTITLE: 'Бегай прыгай убивай'
+GUNGAME_LEVEL_UP: '§aУровень повышен до §b%s§a!'
 
 BEDWARS_BOOSTER: 'Factor §b%sx§f activate'
 BEDWARS_MODE_RUSH: 'BedWars Rush, your start balance: §a%s'
@@ -1224,12 +1250,6 @@ ANS_INFO2:
 ANS_INFO_HOVER:
 - '§f§oНажмите,'
 - '§f§oчтобы ответить'
-
-REPORT_REASON_1: '3.10. (Advertising other resources)'
-REPORT_REASON_2: '3.3. (Flood)'
-REPORT_REASON_3: '5.6. (Begging)'
-REPORT_REASON_4: '(Possibly account hacked, report vk.com/flycore)'
-REPORT_REASON_5: '2.1. (Cheats)'
 
 SERVER_STOP: '§aServer §8| §fStopping server §a%s§f...'
 SERVER_START: '§aServer §8| §fStarting server §a%s§f..'
@@ -1539,6 +1559,8 @@ BOARD_POINTS: 'Points'
 BOARD_MONEY: 'Coins'
 BOARD_BALANCE: 'Balance'
 BOARD_LEVEL: 'Level'
+BOARD_LEVEL_MAX: 'Max. Level'
+BOARD_LEADER: 'Leader'
 BOARD_PROGRESS: 'Progress'
 BOARD_BLOCK_BREAK: 'Blocks removed'
 BOARD_BLOCK_PLACE: 'Blocks created'
@@ -1611,6 +1633,7 @@ UNBANIP_FORMAT: '/unbanip <ip>'
 UNMUTE_FORMAT: '/unmute <nickname>'
 KICK_FORMAT: '/kick <nickname> <reason>'
 BANINFO_FORMAT: '/baninfo <nickname/ip>'
+HISTORYINFO_FORMAT: '/historyinfo <id>'
 SKIN_FORMAT: '/skin <premium nickname/clear>'
 SERVER_FORMAT: '/server <server/@channel>'
 STP_FORMAT: '/stp <nickname>'
@@ -1618,6 +1641,7 @@ VERIFY_FORMAT: '/verify <code>'
 PARTYCHAT_FORMAT: '/pchat <message>'
 GUILDCHAT_FORMAT: '/gchat <message>'
 IGNORE_FORMAT: '/ignore <nickname> <reason>'
+HISTORY_FORMAT: '/history <nickname> <%s>'
 HISTORY_FORMAT: '/history <nickname> <BAN/MUTE/KICK/BANIP/UNBAN/UNMUTE/UNBANIP/GUILDMUTE/GUILDUNMUTE>'
 TEST_FORMAT: '/test <String>'
 
@@ -1817,8 +1841,10 @@ ME_INFO:
 - '§8that we keep on server about You.'
 FINDID_FORMAT: '/findid <id>'
 FINDID_NOT_FOUND: '§aServer §8| §cPlayer of id %s, never played on our project'
-FINDID_INVALID_ID: '§aServer §8| §cid %s, is not a number'
 FINDID_CONFIRM: '§aServer §8| §fInformation for id §a%s§f: Player: %s'
+
+CLIENT_FORMAT: '/client <player name>'
+CLIENT: '§aServer §8| %s§f version use: %s'
 
 CORE_COMMAND_HELP:
  - '§7/core memory §f- Information of core memory'
@@ -2555,6 +2581,7 @@ PERSONALUP_KEY_REASON: '§4Error #23 §cWritten no valid key.'
 DISABLE_COMMAND_IN_GAME: '%s§cThis feature is disabled'
 
 BANINFO_NO: '§cPlayer %s not punishment'
+HISTORYINFO_NO: '§cHistory id %s not found'
 BAN_NAME_1: 'Blocked chat'
 BAN_NAME_2: 'Blocked chat'
 BAN_NAME_3: 'Blocked'
@@ -2576,17 +2603,10 @@ BAN_NAME_18: 'Kicked'
 BANINFO_COOLDOWN: '§f- Кончится через: §e%s'
 BANINFO_NEVER: '§f- Never blocked'
 BANINFO_BY: '§f- By request %s'
-BANINFO:
-- '§aPunishment §8| §fInfo:'
+BANINFO_COMMAND:
+- '§aPunishment §8| §fInfo about %s'
 - '§f- Player: %s'
-- '§f- %s %s'
-- '§f- Type: §7%s'
-- '§f- Reason: §e%s'
-- '§f- Date: §6%s'
-BANINFO_IP:
-- '§aPunishment §8| §fInfo:'
-- '§f- IP addres: %s'
-- '§f- %s %s'
+- '§f- %s'
 - '§f- Type: §7%s'
 - '§f- Reason: §e%s'
 - '§f- Date: §6%s'
@@ -2599,8 +2619,7 @@ BAN_UP_RANK: '§aPunishment §8| §cYou are not permitted to punish players, hig
 BAN_YOU_RANK: '§aPunishment §8| §cYou are not permitted to punish players, having the same status'
 BAN_BIG_TIME: '§aPunishment §8| §cОшибка, Вы не можете наказывать на такой срок'
 BAN_DEFAULT_TIME: '§aPunishment §8| §cВы ввели некорректное время'
-BAN_LIMIT_REACHED: '§aPunishment §8| §fВы достигли лимита для этого наказания, подождите еще §e%s'
-BAN_HELP: '§aPunishment §8| §cUse syntax -v, to bypass'
+BAN_LIMIT_REACHED: '§aPunishment §8| §fВы достигли лимита для этого наказания, wait §e%s'
 BAN_ME: '§aPunishment §8| §cYou can not punish yourself'
 UNBAN_NO: '§aPunishment §8| §cPlayer %s, not blocked'
 UNMUTE_NO: '§aPunishment §8| §cPlayer chat %s, not blocked'
@@ -2800,10 +2819,10 @@ REPORT_INFO_ONE: '§cReports §8| §fOn player %s§f recieved §c%s§f %s'
 REPORT_INFO_TWO: '§cReports §8| §fOn player %s§f already recieved §c%s§f %s'
 REPORT_PLAYER_GUILTY: '§aReports §8| §fPlayer %s§f, that You have reported was punished. Thanks for assistance in catching!'
 REPORT_PLAYER_INNOCENT: '§aReports §8| %s§f rejected your report on %s'
-REPORT_BROADCAST_PLAYER_GUILTY: '§cModeration §8| %s§7 thought, that §e%s §f- §cguilty'
-REPORT_BROADCAST_PLAYER_INNOCENT: '§cModeration §8| %s§7 thought, that §e%s §f- §aunguilty'
+REPORT_BROADCAST_PLAYER_GUILTY: '§cModeration §8| %s§7 thought, that §e%s §cguilty§7 for violation %s'
+REPORT_BROADCAST_PLAYER_INNOCENT: '§cModeration §8| %s§7 thought, that §e%s §aunguilty'
 REPORT_PLAYER_STARTED_SPECTATE: '§cModeration §8| %s§7 went to spectate for %s'
-REPORT_NO_PERM_ACTIONS: '§aReports §8| §fMake decisions on reports can only §9moderators§f or higher.'
+REPORT_NO_PERM_ACTIONS: '§cMake decisions on reports can only §9moderators§c or higher.'
 REPORT_NO_REPORT_PLAYER: '§aReports §8| §cOn player %s there is not reports'
 REPORT_COMMAND_HELP:
 - '§7/report list §f- list of reports'
@@ -2811,22 +2830,20 @@ REPORT_COMMAND_HELP:
 - '§7/report accept <player name> <id reason> §f- accept report and ban player'
 - '§7/report decline <player name> §f- decline for report'
 - '§7/report idlist §f- list id reason'
+REPORT_REASON: '(Possibly account hacked, report vk.com/flycore)'
 REPORT_INFO_FORMAT: '/report info <player name>'
-REPORT_INFO:
+REPORT_INFO_COMMAND:
 - '§aReports §8| §fInformation for player §e%s§f:'
 - '§f - §fReported: §a%s'
 - '§f - §fSpectate now: §a%s'
 - '§f - §fLast report: §a%s ago'
 REPORT_ACCEPT_FORMAT: '/report accept <nick> <reason id>'
 REPORT_DECLINE_FORMAT: '/report decline <nick>'
-REPORT_INVALID_ID_REASON: '§cInvalid id reason'
+REPORT_ACCEPT_COMMAND_NOT_FOUND: '§aReports §8| §cАвто наказания за это правило нету, введите его вручную используя N/A'
 REPORT_IDLIST:
 - '§aReports §8| §fAvailable id reason:'
-- '§c №1.4 §f- §e%s'
-- '§c №1.3 §f- §e%s'
-- '§c №1.5 §f- §e%s'
-- '§c №1.12 §f- §e%s'
-- '§c №1.6 §f- §e%s'
+- '§c №N/A §f- §eNot reason, your punishment'
+- '§aReports §8| §fMore rules ID - §a%s'
 REPORT_INFO:
 - '§aReports §8| §fВ данный момент на рассмотрении §a%s§f %s§7 (рассмотреть сейчас)'
 REPORT_INFO_HOVER:
@@ -2872,29 +2889,25 @@ FIND_TESTER: '§aServer §8| §fThis player is anticheat-tester. His cant specta
 FIND_OFFLINE: '§aServer §8| §fPlayer %s§f offline, last time %s was online §7%s§f ago'
 
 WHOIS:
-- '§eInfo about player %s'
+- '§aServer §8| §eInfo about player %s'
 - ' §f- Player ID: §a%s'
 - ' §f- Group: §a%s'
 WHOIS_ONLINE:
 - '§a§lOnline now'
-- ' §f- IP address: §a%s'
-- ' §f- Last IP address: §a%s'
-- ' §f- Proxy: §a%s'
-- ' §f- Server: §a%s'
-- ' §f- Version: §a%s'
-- ' §f- Language: §a%s'
 - ' §f- Connected from: §a%s'
-- ' §f- Server data: §a%s'
 WHOIS_OFFLINE:
 - '§c§lOffline now'
 - ' §f- Lase seen §e%s ago'
-- ' §f- IP address: §c%s'
-- ' §f- Last IP address: §c%s'
-- ' §f- Proxy: §c%s'
-- ' §f- Server: §c%s'
-- ' §f- Version: §c%s'
-- ' §f- Language: §c%s'
-- ' §f- Server data: §c%s'
+WHOIS_INFO:
+- ' §f- IP address: %s'
+- ' §f- Last IP address: %s'
+- ' §f- Proxy: %s'
+- ' §f- Server: %s'
+- ' §f- Version: %s'
+- ' §f- Language: %s'
+- ' §f- Server data: %s'
+WHOIS_PUNISHMENT: 'Punishment'
+RULES_NOT_FOUND: '§aServer §8| §fError, rule %s not found'
 RULES:
 - '§aServer §8| §fFull list of server rules -'
 RULES_2: '§d%s'
@@ -2923,18 +2936,6 @@ MEMORY:
 - '§8 | §fMax memory %s MB'
 - '§8 | §fAvailable memory %s MB'
 - '§8 | §fFree memory %s MB'
-MEMORY_STAT:
-- '§aServer §8| §fGlobal information'
-- ' §8| §fPlayers loaded %s'
-- ' §8| §fPlayers for gadgets loaded %s'
-- ' §8| §f~Sql requests %s'
-- ' §8| §fPlayers inventories %s'
-- ' §8| §fOpening animation inventories %s'
-- ' §8| §fOpening inventories %s'
-- ' §8| §fPlayers from delay to items %s'
-- ' §8| §fPlayers on delay to inventory click %s'
-- ' §8| §fPlayers from delay to click NPC %s'
-- " §8| §fPlayers is offset`s %s"
 
 YT_COMMAND_HELP:
  - '§7/yt addlink <channel link> §f- add link to your channel'
@@ -3041,6 +3042,7 @@ SERVER_NOT_FOUND: '§aServer §8| §cError, specified server not found'
 SERVER_CONNECT: '§aServer §8| §fYou teleported to server §a%s'
 STAFF_CONNECTED: '§cModeration §8| %s§7 %s to server %s'
 STAFF_CONNECTED_IP: '[IP: %s]'
+PLAYER_TOO_MANY_ACCOUNTS_CONNECTED: '§cModeration §8| %s§7 have a %s'
 
 SERVER_ALREADY: '§aServer §8| §cYou already one server'
 SERVER_TELEPORTED: '§aServer §8| §fYou teleported to player server %s'
@@ -3084,9 +3086,17 @@ BUY_THANKS:
 - ''
 - '§fIf You have got remained questions, You can use §n/ask§f;'
 - '§for our group §9§nvk.me/FlyCore'
-BUY_NOT_STORE: "§cOn Your account was not purchased none privilege;\nuse main account, or buy a privilege on website flycore.ru;\nto get an opportunity to create multi-account"
-BUY_MAX_NOT_MULTIACCOUNT: "§cYou have created maximum amount of multi-accounts\nuse them, or buy a privilege on website flycore.ru\nto increase maximum amount of multi-accounts"
-BUY_MAX_MULTIACCOUNT: "§cYou exhausted your limit to create multi-accounts!\nYour available multi-account for join: %s"
+BUY_NOT_STORE:
+- '§cOn Your account was not purchased none privilege;'
+- '§cuse main account, or buy a privilege on website flycore.ru;'
+- '§cto get an opportunity to create multi-account'
+BUY_MAX_NOT_MULTIACCOUNT:
+- '§cYou have created maximum amount of multi-accounts'
+- '§cuse them, or buy a privilege on website flycore.ru'
+- '§cto increase maximum amount of multi-accounts'
+BUY_MAX_MULTIACCOUNT:
+- '§cYou exhausted your limit to create multi-accounts!'
+- '§cYour available multi-account for join:'
 
 BUY_HOVER_BROADCAST:
 - '§f§oClick here'
@@ -3493,7 +3503,7 @@ EMAIL_COMMAND_HELP:
 - '§7/email add <your email> <again> §f- snap email to the your account'
 - '§7/email change <old email> <new email> §f- Change email on your account'
 - '§7/email verify <verify code> §f- Action confirm'
-- '§7/email recovery <your email> §f- Send on the email setting password'
+- '§7/recovery §f- Send on the email your password'
 MAIL_ERROR_COOLDOWN: '§aEMail §8| §cОшибка, отсылать письма на одинаковый адрес можно раз в %s'
 MAIL_CHANGE_FORMAT: '/email change <old mail> <new mail>'
 MAIL_NO: '§aEMail §8| §cError, you have not snap email'
@@ -3502,11 +3512,12 @@ MAIL_CHANGE_INCORRECT: '§aEMail §8| §cSpecified email not valid'
 MAIL_CHANGE_CONFIRM: '§aEMail §8| §fOld email §c%s§f successful changed to §a%s§f!'
 RECOVERY_WRONG: '§aEMail §8| §cError, wrong mail'
 RECOVERY_SENT: '§aEMail §8| §fLetter with password was sent to your email'
-MAIL_RECOVERY_FORMAT: '/email recovery <mail>'
+MAIL_RECOVERY_FORMAT: '/recovery <mail>'
 MAIL_VERIFY_FORMAT: '/email verify <verify code>'
 MAIL_VERIFY_ERROR: '§aEMail §8| §cError, указанный код введен не верно, или вам нечего подтверждать'
 MAIL_VERIFY_SENDED:
 - '§aEMail §8| §fКод подтверждения отправлен на почту §c%s§f для §e%s§f.'
+MAIL_VERIFY_SENDED2:
 - '§aEMail §8| §fДля подтверждения почты используйте команду §7/email verify <код>'
 MAIL_TYPE_ADD: 'Подтверждения привязки новой почты'
 MAIL_TYPE_OLD_CONFIRM: 'Подтверждения старой почты'
@@ -3522,11 +3533,57 @@ MAIL_ADD_ALREADY_USE:
 - '§c §oP.s. Это было сделано чтобы у каждого игрока был свой аккаунт на форуме'
 MAIL_ADD_CONFIRM: '§aEMail §8| §fEmail ownership §a%s§f confirmed!'
 MAIL_MESSAGE_RECOVERY_NAME: 'Восстановление аккаунта <user>'
-MAIL_MESSAGE_RECOVERY: 'Здравствуйте §l<user>§r!\n Ваш пароль на сервере: §l<pass>§r\n Для входа в аккаунт напишите команду §l/login <pass>§r\n\n Внимание!\nЕсли вы получили это письмо по ошибке, значит кто-то решил подшутить над вами\n и выслать вам это письмо, либо кто-то посторонний имеет доступ к вашему аккаунту.\n Мы настоятельно рекомендуем вам сменить пароль на сервере\n командой: /changepass <pass> "новый пароль"\n\n Если остались вопросы, или нужна помощь, пишите нам: §lsupport@flycore.ru§r или §lvk.me/flycore'
+MAIL_MESSAGE_RECOVERY:
+- 'Здравствуйте §l<user>§r!'
+- ''
+- 'Ваш пароль на сервере: §l<pass>§r'
+- 'Для входа в аккаунт напишите команду §l/login <pass>§r'
+- ''
+- 'Внимание!'
+- 'Если вы получили это письмо по ошибке, значит кто-то решил подшутить над вами'
+- 'и выслать вам это письмо, либо кто-то посторонний имеет доступ к вашему аккаунту.'
+- 'Мы настоятельно рекомендуем вам сменить пароль на сервере'
+- 'командой: /changepass <pass> "новый пароль"'
+- ''
+- 'Если остались вопросы, или нужна помощь, пишите нам: §lsupport@flycore.ru§r или §lvk.me/flycore'
 MAIL_MESSAGE_VERIFY_NAME: 'Уведомление <action> для аккаунта <user>'
-MAIL_MESSAGE_VERIFY: 'Здравствуйте §l<user>§r!\n\nДля <action>, введите на сервере команду §l/email verify <code>§r\n\nЕсли вы получили это письмо по ошибке, значит кто-то попытался использовать вашу почту как свою,\nлибо кто-то просто допустил ошибку при вводе своей почты.\n\nЕсли остались вопросы или нужна помощь, можете написать нам: §lsupport@flycore.ru§r или §lvk.me/flycore\n\nP.S. Если вы не понимаете что это за пиьсмо или как оно появилось,\nпросто проигнорируйте его.'
+MAIL_MESSAGE_VERIFY:
+MAIL_MESSAGE_VERIFY:
+- 'Здравствуйте §l<user>§r!'
+- ''
+- 'Для <action>, введите на сервере команду §l/email verify <code>§r'
+- ''
+- 'Если вы получили это письмо по ошибке, значит кто-то попытался использовать вашу почту как свою,'
+- 'либо кто-то просто допустил ошибку при вводе своей почты.'
+- ''
+- 'Если остались вопросы или нужна помощь, можете написать нам: §lsupport@flycore.ru§r или §lvk.me/flycore'
+- ''
+- 'P.S. Если вы не понимаете что это за пиьсмо или как оно появилось,'
+- 'просто проигнорируйте его.'
+MAIL_MESSAGE_VERIFY_JOIN_NAME: 'Уведомление <action> для аккаунта <user>'
+MAIL_MESSAGE_VERIFY_JOIN:
+- 'Здравствуйте §l<user>§r!'
+- ''
+- 'Для <action>, введите на сервере в чат §l<code>§r'
+- ''
+- 'Если вы получили это письмо по ошибке, значит кто-то попытался использовать вашу почту как свою,'
+- 'либо кто-то просто допустил ошибку при вводе своей почты.'
+- ''
+- 'Если остались вопросы или нужна помощь, можете написать нам: §lsupport@flycore.ru§r или §lvk.me/flycore'
+- ''
+- 'P.S. Если вы не понимаете что это за пиьсмо или как оно появилось,'
+- 'просто проигнорируйте его.'
 MAIL_MESSAGE_JOIN_NAME: 'Оповещение о входе на аккаунт <user>'
-MAIL_MESSAGE_JOIN: 'Здравствуйте §l<user>§r!\n\nМы хотим вас уведомить о том,\nчто на ваш аккаунт §l<user>§r был произведен вход с адреса §l<ip>§r\n\n\nЕсли это были не вы, то срочно смените пароль командой /changepass <pass> "новый пароль"\nВ случае неудачи, пожалуйста напишите нам в группу §lvk.me/flycore§r для восстановления.\n\nЕсли остались вопросы, можете написать нам: §lsupport@flycore.ru§r или §lvk.me/flycore'
+MAIL_MESSAGE_JOIN:
+- 'Здравствуйте §l<user>§r!'
+- ''
+- 'Мы хотим вас уведомить о том,'
+- 'что на ваш аккаунт §l<user>§r был произведен вход с адреса §l<ip>§r'
+- ''
+- 'Если это были не вы, то срочно смените пароль командой /changepass <pass> "новый пароль"'
+- 'В случае неудачи, пожалуйста напишите нам в группу §lvk.me/flycore§r для восстановления.'
+- ''
+- 'Если остались вопросы, можете написать нам: §lsupport@flycore.ru§r или §lvk.me/flycore'
 AUTH_TIMEOUT: '§cAuthorization timeout'
 AUTH_REGISTER_INFO: '§7Register - §a/reg §f[§apassword§f] §f[§arepeat password§f]'
 AUTH_LOGIN_INFO: '§7Log in - §a/login §f[§apassword§f]'
@@ -3552,22 +3609,22 @@ AUTH_LOGIN_HOLO_VK:
 - ''
 - '§fPlease sent to chat your'
 - '§fcode in §a§lvk-bot'
-- ' '
+- ''
 - '§7From vk.me/flycore'
 AUTH_LOGIN_HOLO_TFA:
 - '§fStage - §c§lTFA Authentication'
 - ''
 - '§fPlease use command'
 - '§a/tfa §f[§atfa-key§f]'
-- ' '
+- ''
 AUTH_LOGIN_HOLO_MAIL:
 - '§fStage - §b§lMail Authentication'
 - ''
-- '§fPlease use command'
-- '§a/email verify §f[§verify code§f]'
-- ' '
+- '§fPlease sent to chat your'
+- '§fcode in §b§lemail'
+- ''
 AUTH_LOGOUT: '§aAuthorization §8| §cYou signed out of your account'
-AUTH_LOGIN_CONFIRM: '§aAuthorization §8| §fAuthorization is successful!'
+AUTH_LOGIN_CONFIRM: '§aAuthorization §8| §fAuthorization is successful! Have a good game :)'
 AUTH_LOGIN_WRONG: '§aAuthorization §8| §cError, uncorrect password'
 AUTH_LOGIN_WRONGS:
 - '§cA lot of a attempts incorrect'
@@ -3588,7 +3645,6 @@ AUTH_REGISTER_CONFIRM_INFO_HOVER:
 - 'screenshot, to not forget - §6key F2'
 AUTH_REGISTER_CONFIRM_INFO_TITLE: '§fThank you for registering'
 AUTH_REGISTER_CONFIRM_INFO_SUBTITLE: '§bWe hope you stay with us for a long time :)'
-AUTH_LOGIN_SUCCESS: '§aLogin successful'
 AUTH_LOGIN_TITLE: '§a§l§nFlyCore'
 AUTH_LOGIN_SUBTITLE: '§7For continuation register'
 AUTH_REGISTER_TITLE: '§a§l§nFlyCore.ru'
@@ -3613,7 +3669,7 @@ FORUM_INFO: '§c⚠ Warning! §fYou already register §cin forum§f, do this rig
 FORUM_INFO_HOVER:
 - '§f§oClick here,'
 - '§f§oto registred from forum'
-TFA_INFO: "§c⚠ Warning! §fYou didn't activated §ctwo-factor authentication§f, do it now - §a/tfa"
+TFA_INFO: '§c⚠ Warning! §fYou didn't activated §ctwo-factor authentication§f, do it now - §a/tfa'
 TFA_INFO_HOVER:
 - '§f§oClick here,'
 - '§f§oto activate two-factor authentication'
@@ -3626,13 +3682,11 @@ TFA_WRONGS:
 - '§cСлишком много попыток неправильного'
 - '§cввода ключа. Ваш аккаунт'
 - '§cзаблокирован на несколько минут'
-TFA_CONFIRM: '§fAuthentication is successful! Have a good game :)'
-VK_INFO: "§c⚠ Warning! §fYou did not activate §cthree-factors authentication§f, do it now - §fwrite to the group messages §cvk.me/flycore§f word ''§aПривязать§f''"
+VK_INFO: '§c⚠ Warning! §fYou did not activate §cthree-factors authentication§f, do it now - §fwrite to the group messages §cvk.me/flycore§f word "§aПривязать§f"'
 VK_LOGIN_TITLE: '§a§l§nFlyCore'
 VK_LOGIN_SUBTITLE: '§7Verify account for сontinuation'
 VK_LOGIN_INFO: '§aVK §8| §fOn your VK was sent message with code. Write it in chat for сontinuation'
 VK_WRONG: '§cError, wrong code'
-VK_CONFIRM: '§fVerified succesfully! Have a good game :)'
 VK_MSG_CODE: |-
  On your account %s,
  был произведен вход с address: %s
@@ -3641,7 +3695,7 @@ VK_MSG_CODE: |-
 VK_MSG_JOIN: |-
  On your account %s,
  был произведен вход с address: %s
-VKBOT_KICK_REASON: "Аккаунт был кикнут с помощью VK-Bot"
+VKBOT_KICK_REASON: 'Аккаунт был кикнут с помощью VK-Bot'
 VKBOT_BAN_REASON:
 - '§cАккаунт заблокирован с помощью Vk-Bot'
 - '§cНапишите в §9vk.me/flycore§C боту §a!разблокировать %s'
@@ -4031,7 +4085,7 @@ TRADE_NO_READY: '§cДанный игрок не готов к обмену'
 TRADE_READY_NAME: '§aГотов'
 TRADE_NO_READY_NAME: '§cНе готов'
 
-QUESTION_MSG_INFO: "§8Sums §8| §7How much will be %s+%s (answer write in chat)"
+QUESTION_MSG_INFO: '§8Sums §8| §7How much will be %s+%s (answer write in chat)'
 QUESTION_HOVER_MSG_INFO:
 - '§f§oClick here,'
 - '§f§oor write /goto <answer>'
@@ -4079,7 +4133,6 @@ PREFIX_LIMIT: '§aPrefixs §8| §fПрефикс не должен превыш�
 CHECK_FORMAT: '/checkip <ip/name>'
 ADDRESS_INVALID: '§aServer §8| §cError, address %s invalid'
 ADDRESS_INFO: '§aServer §8| §fSearch §a%s'
-ADDRESS_TO: ' §8▪ %s'
 ADDRESS_NOT_FOUND: '§aServer §8| §fFor request §a%s§f nothing found'
 ADDRESS_FINISH: '§aServer §8| §fSearch complete. Request took §6%sms§f found: §a%s'
 ADDRESS_NOT_AVAILABLE: '§aServer §8| §cSearch for address %s unavailable'
@@ -4093,7 +4146,6 @@ GENDER_CHANGED: '§aServer §8| §fYour gender succesfully changed to %s'
 
 FORMATNAME_FORMAT: '/formatname <nick>'
 FORMATNAME_START: '§aServer §8| §fSearch §a%s'
-FORMATNAME: ' §8▪ %s'
 FORMATNAME_NOT_FOUND: '§aServer §8| §fFor request §a%s§f nothing found'
 FORMATNAME_FINISH: '§aServer §8| §fSearch complete. Request took §6%sms§f found: §a%s'
 
@@ -4125,7 +4177,7 @@ VK: '§aVK-bot §8| §fК вашему аккаунту привязан про�
 VK_HELP:
 - '§aVK-bot §8| §fДля просмотра чужого профиля используйте §7/vk <ник>'
 VK_NOT_LINK_YOU: '§aVK-bot §8| §fК вашему аккаунту не привязан профиль §9VK'
-VK_SENT_MESSAGE_FORMAT: ' §aPM §8| §aI §8-> %s§7 (VK) §8| §f%s'
+VK_SENT_MESSAGE_FORMAT: ' §aPM §8| §aI §8-> %s§7 (VK) §8| §f%s§f Link - §a/vkinfo'
 VK_RECIEVED_MESSAGE_FORMAT: ' §aPM §8| %s§7 (VK) §8-> §aI §8| §f%s'
 VK_INFO_ERROR:
 - '§aVK-bot §8| §cОшибка, для привязки аккаунта у вас должен быть создан TFA-Key.'
@@ -4473,7 +4525,7 @@ GUI_DONATE_VIP_ALL_LORE:
 - ' §8▪ §7Доступна активация любой косметики без учета минимального уровня'
 - ' §8▪ §7Доступен перевод монет без минимального уровня - §f/pay'
 - ' §8▪ §7Снижена сумма на смену пола - §f/gender'
-- " §8▪ §7Сниженная комиссия при конвертировании золота §f42%"
+- ' §8▪ §7Сниженная комиссия при конвертировании золота §f42%'
 - ' §8▪ §7Увеличен лимит на получение монет до §f8,000§7 монет'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f10,000§7 монет'
 - ' §8▪ §7Доступен запуск салюта - §f/fw'
@@ -4553,8 +4605,8 @@ GUI_DONATE_PREMIUM_ALL_LORE:
 - ' §8▪ §7Доступна активация любой косметики без учета минимального уровня'
 - ' §8▪ §7Доступен перевод монет без минимального уровня - §f/pay'
 - ' §8▪ §7Снижена сумма на смену пола - §f/gender'
-- " §8▪ §7Сниженная комиссия при переводе денег §f10%"
-- " §8▪ §7Сниженная комиссия при конвертировании монет §f6%§7, золота §f39%"
+- ' §8▪ §7Сниженная комиссия при переводе денег §f10%'
+- ' §8▪ §7Сниженная комиссия при конвертировании монет §f6%§7, золота §f39%'
 - ' §8▪ §7Увеличен лимит на получение монет до §f12,000§7 монет'
 - ' §8▪ §7Увеличен лимит на отправку монет до §f15,000§7 монет'
 - ''
@@ -6198,77 +6250,6 @@ GUI_SMILES_SELECT: '§e▸ Шифт + ЛКМ, чтобы активироват�
 GUI_SMILES_USE: '§c▸ Шифт + ЛКМ, чтобы отключить смайл'
 SMILE_GET: '§aСмайлы §8| §fНажмите сюда, чтобы получить смайл §a%s'
 SMILE_GET_HOVER: '§f§oНажмите, чтобы получить'
-GUI_SMILES_0: '+_+'
-GUI_SMILES_1: ':('
-GUI_SMILES_2: ':)'
-GUI_SMILES_3: ':-O'
-GUI_SMILES_4: ':-P'
-GUI_SMILES_5: ':/'
-GUI_SMILES_6: ':D'
-GUI_SMILES_7: ';('
-GUI_SMILES_8: ';)'
-GUI_SMILES_9: ';]'
-GUI_SMILES_10: '<3'
-GUI_SMILES_11: '>"<'
-GUI_SMILES_12: '>:('
-GUI_SMILES_13: 'O.O'
-GUI_SMILES_14: 'X_X'
-GUI_SMILES_15: '^0^'
-GUI_SMILES_16: '^o^'
-GUI_SMILES_17: '^_^'
-GUI_SMILES_18: '^_~'
-GUI_SMILES_19: '~_~'
-GUI_SMILES_20: ':O)'
-GUI_SMILES_21: ';-)'
-GUI_SMILES_22: ':-)'
-GUI_SMILES_23: ':-D'
-GUI_SMILES_24: ':P'
-GUI_SMILES_25: ':['
-GUI_SMILES_26: '):'
-GUI_SMILES_27: ':-S'
-GUI_SMILES_28: ':-x'
-GUI_SMILES_29: ':-()'
-GUI_SMILES_30: '=/'
-GUI_SMILES_31: ';['
-GUI_SMILES_32: ':O'
-GUI_SMILES_33: '¬_¬'
-GUI_SMILES_34: ':-]'
-GUI_SMILES_35: ':|'
-GUI_SMILES_36: 'U_U'
-GUI_SMILES_37: '8-)'
-GUI_SMILES_38: 'B-)'
-GUI_SMILES_39: 'T_T'
-GUI_SMILES_40: ':S'
-GUI_SMILES_41: '>.<'
-GUI_SMILES_42: ':]'
-GUI_SMILES_43: ';_;'
-GUI_SMILES_44: '^_+'
-GUI_SMILES_45: '^.^'
-GUI_SMILES_46: ':-3'
-GUI_SMILES_47: '-.-'
-GUI_SMILES_48: '*_*'
-GUI_SMILES_49: '^^;'
-GUI_SMILES_50: '=_='
-GUI_SMILES_51: '$_$'
-GUI_SMILES_52: '-_-'
-GUI_SMILES_53: '^^'
-GUI_SMILES_54: '=.='
-GUI_SMILES_55: '=)'
-GUI_SMILES_56: '=D'
-GUI_SMILES_57: '>_<'
-GUI_SMILES_58: '=['
-GUI_SMILES_59: ':-*'
-GUI_SMILES_60: '-0-'
-GUI_SMILES_61: ':-$'
-GUI_SMILES_62: '> <'
-GUI_SMILES_63: '=]'
-GUI_SMILES_64: ';D'
-GUI_SMILES_65: '^_-'
-GUI_SMILES_66: '=P'
-GUI_SMILES_67: ":'("
-GUI_SMILES_68: 'Y.Y'
-GUI_SMILES_69: '=('
-GUI_SMILES_70: 'xD'
 GUI_JOINMESSAGES_NAME: 'Message on join'
 
 GUI_JOINMESSAGES_ITEM_NAME: 'Message %s'
@@ -6784,6 +6765,14 @@ GUI_STATS_ARCADEGAMES_LORE:
 - ' §8▪ §7Побед: §a%s'
 - ' §8▪ §7Вылечено: §a%s'
 - ' §8▪ §7Заражено: §a%s'
+GUI_STATS_GUNGAME_LORE:
+- ''
+- '§fStats:'
+- ' §8▪ §7Win rate: §a%s'
+- ' §8▪ §7Played games: §a%s'
+- ' §8▪ §7Victories: §a%s'
+- ' §8▪ §7Kills: §a%s'
+- ' §8▪ §7Get bonus: §a%s'
 GUI_STATS_PARKOUR_LORE:
 - ''
 - '§fStandart mode:'
@@ -7642,6 +7631,9 @@ GUI_COSMETIC_STARTSOUND_3_LORE:
 GUI_COSMETIC_STARTSOUND_4: 'Яйцемёт'
 GUI_COSMETIC_STARTSOUND_4_LORE:
 - '§7Раскидайте своих врагов их же оружием'
+GUI_COSMETIC_STARTSOUND_5: 'Без звука'
+GUI_COSMETIC_STARTSOUND_5_LORE:
+- '§7Тихое начало, громкая игра'
 
 GUI_COSMETIC_KILLSOUND_1_LORE:
 - '§7Всякий раз, когда Вы умираете'
@@ -7865,16 +7857,10 @@ GUI_REPORTS_REPORT_LORE:
 - '§7Список пожаловавшихся:'
 GUI_REPORTS_SPECTATORS: '§7Список смотрящих:'
 GUI_REPORTS_ACTIONS_LORE:
-- '§e▸ Left click, для наказания за %s'
-- '§e▸ Drop item, для наказания за %s'
-- '§e▸ Shift+Left click, для наказания за %s'
-- '§e▸ Shift+Right click, для наказания за %s'
-- '§e▸ Right click, для отклонения жалобы'
-GUI_REPORTS_ACTIONS_UNAVAILABLE_LORE:
-- '§c▸ Принимать решения по жалобам, могут только модераторы и выше'
-- '§e▸ Right click, to decline report'
+- '§e▸ Left click, to accept report'
 GUI_REPORTS_INFO_LORE:
 - '§e▸ Left click, to snooping for player'
+GUI_REPORTS_ACTIONS_DECLINE_LORE:
 - '§e▸ Right click, to decline report'
 GUI_REPORTS_FORMAT: '§eReport for %s'
 
@@ -8073,10 +8059,9 @@ GUI_HISTORY_ITEM_LORE:
 - '§7Total history:'
 - '§a%s'
 GUI_HISTORY_UNBLOCKING:
-- '§7%s: %s'
-- '§7Date %s: §6%s'
+- '§7%s'
 GUI_HISTORY_BLOCKING:
-- '§7%s: %s'
+- '§7%s'
 - '§7Reason: §a%s'
 GUI_HISTORY_FOR_TIME_BLOCKING: '§7For a period of: %s'
 GUI_HISTORY_FOR_NEEDTIME_BLOCKING: '§7Left: %s'
@@ -8102,8 +8087,9 @@ GUI_BANLIST_PLAYER_OFFLINE:
 - '§e%s ago'
 - ''
 - ' §c✗ Player is offline'
+GUI_BANLIST_PLAYER_VIEW: '§e▸ Click, to view more details'
 
-GUI_PARTYALL_NAME: 'Группы ▸ Список групп'
+GUI_PARTYALL_NAME: 'Group ▸ Group list'
 GUI_PARTYALL_EMPTY: '§cВ данный момент нет публичных групп'
 GUI_PARTYALL_EMPTY_LORE:
 - ''
