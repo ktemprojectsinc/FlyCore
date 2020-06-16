@@ -1631,7 +1631,7 @@ UNBANIP_FORMAT: '/unbanip <ip>'
 UNMUTE_FORMAT: '/unmute <ник>'
 KICK_FORMAT: '/kick <ник> <причина>'
 BANINFO_FORMAT: '/baninfo <ник/ip>'
-HISTORYINFO_FORMAT: '/historyinfo <ник> <%s>'
+HISTORYINFO_FORMAT: '/historyinfo <id>'
 MUTEINFO_FORMAT: '/muteinfo <ник>'
 SKIN_FORMAT: '/skin <reset/ник игрока>'
 SERVER_FORMAT: '/server <сервер/@канал>'
@@ -2581,6 +2581,7 @@ PERSONALUP_KEY_REASON: '§4Ошибка #23 §cВведен не действи�
 DISABLE_COMMAND_IN_GAME: '%s§cДанная функция отключена'
 
 BANINFO_NO: '§cИгрок %s не наказан'
+HISTORYINFO_NO: '§cИстория под ID %s не найдена'
 BAN_NAME_1: 'Заблокировала чат'
 BAN_NAME_2: 'Заблокировал чат'
 BAN_NAME_3: 'Заблокировала'
@@ -2843,6 +2844,7 @@ REPORT_ACCEPT_COMMAND_NOT_FOUND: '§aЖалобы §8| §cАвто наказа�
 REPORT_IDLIST:
 - '§aЖалобы §8| §fДоступные id причин:'
 - '§c N/A §f- §eБез причины, собственное наказание'
+- '§aЖалобы §8| §fБольше ID причин - §a%s'
 REPORT_INFO:
 - '§aЖалобы §8| §fВ данный момент на рассмотрении §a%s§f %s§7 (рассмотреть сейчас)'
 REPORT_INFO_HOVER:
@@ -3641,7 +3643,6 @@ AUTH_REGISTER_CONFIRM_INFO_HOVER:
 - 'скриншот, чтобы не забыть - §6клавиша F2'
 AUTH_REGISTER_CONFIRM_INFO_TITLE: '§fБлагодарим за регистрацию'
 AUTH_REGISTER_CONFIRM_INFO_SUBTITLE: '§bНадеемся Вы останитесь с нами на долго)'
-AUTH_LOGIN_SUCCESS: '§aАвторизация успешна'
 AUTH_LOGIN_TITLE: '§a§l§nFlyCore'
 AUTH_LOGIN_SUBTITLE: '§7Для продолжения зарегистрируйтесь'
 AUTH_REGISTER_TITLE: '§a§l§nFlyCore'
@@ -8145,9 +8146,9 @@ GUI_HISTORY_ITEM_LORE:
 - '§7Всего истории:'
 - '§a%s'
 GUI_HISTORY_UNBLOCKING:
-- '§7%s: %s'
+- '§7%s'
 GUI_HISTORY_BLOCKING:
-- '§7%s: %s'
+- '§7%s'
 - '§7Причина: §a%s'
 GUI_HISTORY_FOR_TIME_BLOCKING: '§7На срок: %s'
 GUI_HISTORY_FOR_NEEDTIME_BLOCKING: '§7Осталось: %s'
