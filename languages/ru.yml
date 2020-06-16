@@ -1631,6 +1631,7 @@ UNBANIP_FORMAT: '/unbanip <ip>'
 UNMUTE_FORMAT: '/unmute <ник>'
 KICK_FORMAT: '/kick <ник> <причина>'
 BANINFO_FORMAT: '/baninfo <ник/ip>'
+HISTORYINFO_FORMAT: '/historyinfo <ник> <%s>'
 MUTEINFO_FORMAT: '/muteinfo <ник>'
 SKIN_FORMAT: '/skin <reset/ник игрока>'
 SERVER_FORMAT: '/server <сервер/@канал>'
@@ -1639,7 +1640,7 @@ VERIFY_FORMAT: '/verify <код>'
 PARTYCHAT_FORMAT: '/pchat <сообщение>'
 GUILDCHAT_FORMAT: '/gchat <сообщение>'
 IGNORE_FORMAT: '/ignore <ник> <причина>'
-HISTORY_FORMAT: '/history <ник> <BAN/MUTE/KICK/BANIP/UNBAN/UNMUTE/UNBANIP/GUILDMUTE/GUILDUNMUTE>'
+HISTORY_FORMAT: '/history <ник> <%s>'
 TEST_FORMAT: '/test <String>'
 PLAY_FORMAT: '/play <игра>'
 
@@ -2579,7 +2580,7 @@ PERSONALUP_KEY_REASON: '§4Ошибка #23 §cВведен не действи�
 
 DISABLE_COMMAND_IN_GAME: '%s§cДанная функция отключена'
 
-BANINFO_NO: '§cИгрок %s не наказан'
+BANINFO_NO: '§cИгрок %s не наказан
 BAN_NAME_1: 'Заблокировала чат'
 BAN_NAME_2: 'Заблокировал чат'
 BAN_NAME_3: 'Заблокировала'
