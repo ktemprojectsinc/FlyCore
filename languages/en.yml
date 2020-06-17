@@ -2421,7 +2421,7 @@ KICK_REASON:
 - '§7Rules: §b§nwww.flycore.ru/rules'
 BAN_NEVER_NEW_REASON:
 - '§a§l§nFlyCore'
-- '§cYou have been
+- '§cYou have been'
 - '§clifetime banned'
 - ''
 - '§fBanning date: §7%s'
