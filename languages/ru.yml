@@ -56,7 +56,7 @@ BANIP_REQUEST_BROADCAST: '§cМодерация §8| %s§7 просит забл
 SERVER_CLOSED_PLAYER_CONNECTION: '§aСервер §8| §fСервер §a%s §fзакрыл Ваше соединение, Вы перенаправлены на §a%s'
 BAN_REQUEST_ACCEPT_BROADCAST: '§cМодерация §8| %s§a одобрил §7просьбу на блокировку §e%s'
 BAN_REQUEST_REJECT_BROADCAST: '§cМодерация §8| %s§c отклонил §7просьбу на блокировку §e%s'
-BANIP_REQUEST_ACCEPT_BROADCAST: '§cМодерация §8| %s§a одобрил §f7росьбу на блокировку адреса §a%s'
+BANIP_REQUEST_ACCEPT_BROADCAST: '§cМодерация §8| %s§a одобрил §fпросьбу на блокировку адреса §a%s'
 BANIP_REQUEST_REJECT_BROADCAST: '§cМодерация §8| %s§c отклонил §7просьбу на блокировку адреса §a%s'
 BAN_ACCEPT_FORMAT: '/%s accept <ник нарушителя>'
 BAN_REJECT_FORMAT: '/%s reject <ник нарушителя>'
