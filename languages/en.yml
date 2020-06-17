@@ -2381,7 +2381,7 @@ BAN_NAME_16: 'Unblocked guild chat'
 BAN_NAME_17: 'Kicked'
 BAN_NAME_18: 'Kicked'
 BANINFO_COOLDOWN: '§f- Кончится через: §e%s'
-BANINFO_NEVER: '§f- Never blocked'
+BANINFO_NEVER: '§f- §cNever§f blocked'
 BANINFO_BY: '§f- By request %s'
 BANINFO_COMMAND:
 - '§aPunishment §8| §fInfo about %s'
@@ -2531,7 +2531,7 @@ BANIP_REASON:
 - '§7Rules: §b§nwww.flycore.ru/rules'
 MUTE_NEVER_NEW_REASON:
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
-- '§f Access to chat have been lifetime banned'
+- '§f Access to chat have been §clifetime§f banned'
 - '§f for §b%s'
 - ''
 - '§7 Banned: %s'
@@ -2543,7 +2543,7 @@ MUTE_NEVER_NEW_REASON:
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
 MUTE_NEVER_REASON:
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
-- '§f Access to chat are banned lifetime'
+- '§f Access to chat are banned §clifetime§f'
 - '§f for §b%s'
 - ''
 - '§7 Banned: %s'
