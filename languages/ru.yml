@@ -3369,6 +3369,8 @@ AUTH_REGISTER_INFO: '§7Зарегистрируйтесь - §a/reg §f[§aпа
 AUTH_LOGIN_INFO: '§7Авторизуйтесь - §a/login §f[§aпароль§f]'
 AUTH_LOGOUT: '§cВы вышли из своего аккаунта'
 AUTH_LOGIN_CONFIRM: '§aАвторизация §8| §fАвторизация успешна! Приятной игры :)'
+AUTH_LOGIN_CONFIRM_INFO_TITLE: '§fАвторизация успешна!'
+AUTH_LOGIN_CONFIRM_INFO_SUBTITLE: '§fПриятной игры :)'
 AUTH_LOGIN_WRONG: '§aАвторизация §8| §cОшибка, неверный пароль'
 AUTH_LOGIN_WRONGS:
 - '§cСлишком много попыток неправильного'
