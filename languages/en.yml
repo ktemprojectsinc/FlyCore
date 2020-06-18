@@ -9242,32 +9242,39 @@ HOLO_TRAINING:
 
 HOLO_TOP_ALL:
 - '%s'
+- '§a§lTop victories'
 - '§fTop of victories players'
 - '§fFor §eALL TIMES'
 HOLO_TOP_MONTHLY:
 - '%s'
+- '§a§lTop victories'
 - '§fTop of victories players'
 - '§fFor §e%s'
 HOLO_TOP_MONTHLY2:
 - '§ffor §e%s'
 TOP_BEDS_HOLO:
 - '%s'
+- '§a§lТоп кроватей'
 - '§fТоп игроков по разрушенным'
 - '§fкроватям за §e%s'
 TOP_FINALKILLS_HOLO:
 - '%s'
+- '§a§lТоп финал. убийств'
 - '§fТоп игроков по финальным'
 - '§fубийствам за §e%s'
 TOP_GAMEKILLS_HOLO:
 - '%s'
+- '§a§lТоп убийств'
 - '§fТоп игроков по'
 - '§fубийствам за §e%s'
 TOP_LUCKYBLOCKS_HOLO:
 - '%s'
+- '§a§lТоп лакиблоков'
 - '§fТоп игроков по разрушенным'
 - '§fлакиблокам за §e%s'
 TOP_CHESTS_HOLO:
 - '%s'
+- '§a§lТоп сундуков'
 - '§fТоп игроков по облутанным'
 - '§fсундукам за §e%s'
 TOP_MONEY_HOLO:
@@ -9343,14 +9350,17 @@ TOP_CASINOLOSINGMONEY_HOLO:
 - '§fТоп игроков по просравшим'
 - '§fмонетам в казино за §e%s'
 TOP_BONUS_HOLO:
+- '%s'
 - '§a§lТоп по бонусам'
 - '§fТоп игроков по количеству'
 - '§fсобранных бонусов за §e%s'
 TOP_INFECTED_HOLO:
-- '§a§lТоп зараженным'
+- '%s'
+- '§a§lТоп заразивших'
 - '§fТоп игроков по количеству'
 - '§fзараженных игроков за §e%s'
 TOP_RECOVERED_HOLO:
+- '%s'
 - '§a§lТоп исцеленных'
 - '§fТоп игроков по количеству'
 - '§fвылеченных игроков за §e%s'
