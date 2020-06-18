@@ -9356,10 +9356,12 @@ HOLO_TRAINING:
 
 HOLO_TOP_ALL:
 - '%s'
+- '§a§lТоп побед'
 - '§fТоп игроков по победам'
 - '§fза §eВСЕ ВРЕМЯ'
 HOLO_TOP_MONTHLY:
 - '%s'
+- '§a§lТоп побед'
 - '§fТоп игроков по победам'
 - '§fза §e%s'
 HOLO_TOP_MONTHLY2:
