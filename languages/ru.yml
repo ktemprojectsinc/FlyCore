@@ -9365,7 +9365,8 @@ HOLO_TOP_MONTHLY:
 HOLO_TOP_MONTHLY2:
 - '§fза §e%s'
 TOP_BEDS_HOLO:
-- '§a§lТоп кроватей %s'
+- '%s'
+- '§a§lТоп кроватей'
 - '§fТоп игроков по разрушенным'
 - '§fкроватям за §e%s'
 TOP_FINALKILLS_HOLO:
