@@ -192,7 +192,7 @@ RULE_NO_AGREEMENT:
 - '§cAgreement §8| §fBy clicking on this message, you completely agree that all your future actions on the server, will not break the rules above. §7(Click, to agree)'
 - '§cAgreement §8| §f§nOtherwise, please leave the server'
 - ''
-RULE_ORIGINAL: '§7§oLink to the original agreement: flycore.ru/elua'
+RULE_ORIGINAL: '§7§oLink to the original agreement: www.flycore.ru/elua'
 RULE_NO_AGREEMENT_HOVER:
 - '§f§oClick here,'
 - '§f§oto accept agreement'
@@ -242,7 +242,7 @@ BUY_UNAVAILABLE_LORE:
 - "§cYou don't have enough %s"
 - ''
 - '§7Buy %s possible on'
-- '§7our website: §dflycore.ru'
+- '§7our website: §dwww.flycore.ru'
 
 GUI_SKINHISTORY_NAME: 'Skin history'
 GUI_SKINHISTORY_RESET: '§bClear skin'
@@ -3470,9 +3470,9 @@ BOSS_BAR_LOBBY:
 - '§f§lСмени §d§lскин§f§l командой §7§l► §b§l/skin <premium ник>'
 - '§f§lСокрушительный §c§lпровал§f§l цен! Все цены были §e§lснижены§f§l на §6§l30%'
 - '§f§lПокупка§e§l доната§f§l на сайте §7§l► §a§lFlyCore.ru'
-- '§f§lСообщи о§c§l баге§f§l или§c§l ошибке §7§l► §d§lFlyCore.ru/bugs'
+- '§f§lСообщи о§c§l баге§f§l или§c§l ошибке §7§l► §d§lwww.FlyCore.ru/bugs'
 - '§f§lЗадайте свой вопрос §2§lперсоналу сервера§f§l командой §7§l► §b§l/ask <вопрос>'
-- '§f§lПредложи свой §e§lперевод§f§l локализации §7§l► §a§lFlyCore.ru/lang'
+- '§f§lПредложи свой §e§lперевод§f§l локализации §7§l► §a§lwww.FlyCore.ru/lang'
 
 MSG_1:
 - ''
@@ -4108,7 +4108,7 @@ PROFILE_LANG_ITEM_LORE2:
 - ''
 - '§cWARNING! If you want to help'
 - '§cwith transation, you can write'
-- '§cerrors on link flycore.ru/lang'
+- '§cerrors on link www.flycore.ru/lang'
 - ''
 - '§e▸ Open the language menu'
 GUI_PROFILE_ITEMS_LORE:
