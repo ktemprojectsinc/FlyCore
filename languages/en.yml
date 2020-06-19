@@ -1873,7 +1873,7 @@ PARTY_SETOWNER_FORMAT: '/party setowner <player name>'
 PARTY_SETOWNER_ALREADY: '§aParty §8| §fYou are already the group owner'
 PARTY_SETOWNER_ALERT: '§aParty §8| %s§f became the new owner of the group'
 PARTY_SETOWNER: '§aParty §8| §fYou have transferred leader rights to player %s'
-PARTY_SETOWNER_OWNER: '§cError, give permissions to manage the group can only the group owner'
+PARTY_SETOWNER_OWNER: '§aParty §8| §fError, give permissions to manage the group can only the §cgroup owner'
 
 PARTY_JOIN_FORMAT: '/party join <player name>'
 PARTY_JOIN_NOT: "§aParty §8| §cError, this player isn't being in the group or group not public"
@@ -5585,7 +5585,6 @@ GUI_STATS_SKYWARS_LORE:
 - ' §8▪ §7Win rate: §a%s'
 - ' §8▪ §7Played games: §a%s'
 - ' §8▪ §7Victories: §a%s'
-- ' §8▪ §7Final kills: §a%s'
 - ' §8▪ §7Kills: §a%s'
 - ' §8▪ §7Looted chests: §a%s'
 - ''
@@ -5593,7 +5592,6 @@ GUI_STATS_SKYWARS_LORE:
 - ' §8▪ §7Win rate: §a%s'
 - ' §8▪ §7Played games: §a%s'
 - ' §8▪ §7Victories: §a%s'
-- ' §8▪ §7Final kills: §a%s'
 - ' §8▪ §7Kills: §a%s'
 - ' §8▪ §7Looted chests: §a%s'
 GUI_STATS_LUCKYWARS_LORE:
