@@ -2105,6 +2105,10 @@ STAFFCHAT_MARKIS_MSG: '§eЧат персонала §8| §f%s §d✎ %s'
 DONATECHAT_MARKIS_MSG: '§cЧат донатеров §8| §f%s §d✎ %s'
 
 PLAYERCHAT_DISABLED: '§cОшибка, на сервере есть онлайн)'
+PLAYGAME:
+- '§aИгра §8| %s§f приглашает вас поиграть на §e%s§7 (Клик, чтобы присоединится)'
+- '§7Хочешь также? Используй > /playgame'
+PLAYGAME_HOVER: '§f§oКлик для перехода'
 
 SERVER_MEMORY_ENDS_BROADCAST: '§cСервер §8| §7У сервера §a%s§7 кончается §cсвободная память §7(%sMB)'
 SERVER_MEMORY_ENDS_DISABLE_BROADCAST: '§cСервер §8| §7Сервер §a%s§7 был отключен, из-за §cнехватки памяти §7(Свободной памяти было: %sMB)'
