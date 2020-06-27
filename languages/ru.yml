@@ -791,15 +791,12 @@ PLAYER_FLY_ACTIONBAR_TIME: '§cДо конца полета осталось: %s
 PLAYER_CREATIVE_ACTIONBAR_TIME: '§cДо конца творческого режима осталось: %s'
 
 PLAYER_BOOST_NEED_XP: '§cВам нехватает %s, для повышения до %s'
-PLAYER_BOOST_BROADCAST: '§aПовышение %s §fповысился до звания %s §aПоздравьте его!'
-PLAYER_BOOST_MAX_BROADCAST: '§aПовышение %s §fповысился до §a§nмаксимального§f звания %s §aПоздравьте его!'
+PLAYER_BOOST_BROADCAST: '§aПовышение §8| %s§f повысился до звания %s §aПоздравьте его!'
+PLAYER_BOOST_MAX_BROADCAST: '§aПовышение §8| %s§f повысился до §a§nмаксимального§f звания %s §aПоздравьте его!'
 PLAYER_BOOST_YOUR_UP_1: '%s§l§kX§f §5Вы повысились до %s%s %s§l§kX§f'
 PLAYER_BOOST_YOUR_UP_2: '§fи получили:'
-PLAYER_BOOST_YOUR_UP_COINS: '§7+§6%s §f%s'
-PLAYER_BOOST_YOUR_UP_EXP: '§7+§3%s §fEXP'
-PLAYER_BOOST_YOUR_UP_KEY: '§7+§d%s §f%s'
 PLAYER_BOOST_PLEASE_MADE_SCREENSHOT:
-- '§aПовышение §cПожалуйста отправьте скриншот этого сообщения в группу §a§nvk.me/flycore§c для получения повышения.'
+- '§aПовышение §8| §cПожалуйста отправьте скриншот этого сообщения в группу §a§nvk.me/flycore§c для получения повышения.'
 - '§cДанная проверка сделана исключительно для вашей безопасности'
 
 AVAILABLE_SERVER_NOT_FOUND:
@@ -3794,6 +3791,7 @@ ECONOMY_MONEY_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начисли
 ECONOMY_GOLDS_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §eЗолото §f(§a+%s§f)'
 ECONOMY_CORES_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §bЯдра §f(§d+%s§f)'
 ECONOMY_EXP_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §aОпыт §f(§e+%s§f)'
+ECONOMY_PEXP_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §3Опыт повышения §f(§b+%s§f)'
 
 LAST_UPDATES_INFO: '§aОбновления §8| §fБыло сделано §a%s§f %s'
 LAST_UPDATES: '§aОбновления §8| §f%s'
@@ -8041,8 +8039,8 @@ GUI_GUILDSHOP_MOTD_LORE:
 GUI_BOOST_NAME: 'Повышение'
 GUI_BOOST_LORE:
 - '§7Статус: %s'
-- '§7Сейчас: §b%s§7/§b%s'
-- '§7До повышения: §a%s§a %s §c%s'
+- '§7Сейчас: %s'
+- '§7До повышения: §c%s'
 GUI_BOOST_NEED_XP_LORE:
 - ''
 - '§7Вам нужно §a%s§a процентов §7для повышения до %s'
@@ -8051,14 +8049,12 @@ GUI_BOOST_UP_TO_LORE:
 - ''
 - '§e▸ Нажмите, чтобы повысится до %s'
 - ''
-GUI_BOOST_ADMIN: 'администратор'
-GUI_BOOST_DEVELOPER: 'разработчик'
 GUI_BOOST_MAX_LORE:
 - ''
 - '§cВы уже %s, Вам некуда повышатся!'
 - ''
 GUI_BOOST: 'Повышение'
-GUI_BOOST_ITEM: '§bИнформация об повышении'
+GUI_BOOST_ITEM: 'Информация об повышении'
 
 GUI_STAFFRULES_NAME: 'Дополнительные правила'
 GUI_STAFFRULES_ITEM: '§aДополнительные правила'
