@@ -7050,24 +7050,22 @@ GUI_GUILDSHOP_MOTD_LORE:
 GUI_BOOST_NAME: 'Boost'
 GUI_BOOST_LORE:
 - '§7Stats: %s'
-- '§7Current: §b%s§7/§b%s'
-- '§7До повышения: §a%s§a %s §c%s'
+- '§7Current: %s'
+- '§7To up: %s'
 GUI_BOOST_NEED_XP_LORE:
 - ''
-- '§7Вам нужно §a%s§a процентов §7для повышения до %s'
+- '§7You need §a%s percent§7 to up %s'
 - ''
 GUI_BOOST_UP_TO_LORE:
 - ''
-- '§e▸ Нажмите, чтобы повысится до %s'
+- '§e▸ Click, to up %s'
 - ''
-GUI_BOOST_ADMIN: 'administrator'
-GUI_BOOST_DEVELOPER: 'developer'
 GUI_BOOST_MAX_LORE:
 - ''
-- '§cВы уже %s, Вам некуда повышатся!'
+- '§cYou already %s, You no up rank!'
 - ''
-GUI_BOOST: 'Повышение'
-GUI_BOOST_ITEM: '§bИнформация об повышении'
+GUI_BOOST: 'Boost'
+GUI_BOOST_ITEM: 'Info of boost'
 
 GUI_STAFFRULES_NAME: 'Дополнительные правила'
 GUI_STAFFRULES_ITEM: '§aДополнительные правила'
