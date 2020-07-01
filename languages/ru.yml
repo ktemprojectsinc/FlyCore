@@ -7942,8 +7942,10 @@ GUI_GUILDALL_PRICE_LORE:
 - '§7Цена: %s'
 GUI_GUILD_TOP_MONEY: '§7На §a%s§7 месте в топе по монетам'
 GUI_GUILD_TOP_MEMBERS: '§7На §a%s§7 месте в топе по участникам'
+GUI_GUILD_TOP_LEVEL: '§7На §a%s§7 месте в топе по уровню'
 GUI_GUILD_NO_TOP_MONEY: '§cНе участвует в топе по монетам'
 GUI_GUILD_NO_TOP_MEMBERS: '§cНе участвует в топе по участникам'
+GUI_GUILD_NO_TOP_LEVEL: '§cНе участвует в топе по уровню'
 GUI_GUILDALL_ONLINE:
 - '§7%s гильдии §aонлайн'
 - '§7на сервере §e%s'
