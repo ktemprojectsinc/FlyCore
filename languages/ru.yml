@@ -2168,6 +2168,7 @@ GUILD_TAKE_EXP_REASON_NOT_ACTIVE: 'в гильдии мало активност
 GUILD_TAKE_EXP_REASON_MANY_MUTES: 'слишком много нарушителей'
 GUILD_TAKE_EXP_REASON_NOT_UPGRADE: 'гильдия не улучшается'
 GUILD_TAKE_EXP_REASON_INTRUDER: 'в гильлии был найден нарушитель'
+GUILD_NO_LEVEL: '§cОшибка, у гильдии должен быть уровень не ниже %s, для использования этого'
 
 GUILD_COMMAND_HELP:
 - '§7/g create <название> §f- создать гильдию (стоимость создания гильдии - §615,000§f монет)'
