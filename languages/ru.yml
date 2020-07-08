@@ -2413,7 +2413,6 @@ GUILD_BANINFO_FORMAT: '/%s baninfo <ник игрока>'
 GUILD_MUTEINFO_FORMAT: '/%s muteinfo <ник игрока>'
 GUILD_BANINFO:
 - '§aГильдия §8| §fИнформация об %s'
-- '§f- ID: %s'
 - '§f- %s'
 - '§f- Причина: §e%s'
 - '§f- Дата: §6%s'
