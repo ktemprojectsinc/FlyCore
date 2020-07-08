@@ -2185,6 +2185,7 @@ GUILD_COMMAND_MODER_HELP:
 - '§7/g mute §f- mute player'
 - '§7/g unmute §f- unmute player'
 - '§7/g donateinfo <nickname> §f- information about payed coins by the player'
+- '§7/g <ban/mute>info <nickname> §f- info of punishment player'
 GUILD_COMMAND_DEPUTY_HELP:
 - '§7/g ban §f- ban player'
 - '§7/g unban §f- unban player'
