@@ -578,6 +578,12 @@ UPDATES:
 - ''
 - 's'
 
+EXP:
+- 'exp'
+- ''
+- ''
+- ''
+
 HOMES:
 - 'home'
 - ''
@@ -749,14 +755,30 @@ PLAYER_GUILD_BUY_TAG:
 - ' §fafter nickname of each member of Your guild'
 - ' §fFor this use command §7/guild tag'
 - ''
+PLAYER_GUILD_BUY_PARTY:
+- '                §8-| §a§lGUILD §8|-'
+- ' §fCongratulations! Вы приобрели улучшение §eгрупповая игра'
+- ' §fТеперь Вы можете создавать §aParty§f из участников вашей гильдии'
+- ' §fДля этого используйте команду §7/guild party'
+- ''
+PLAYER_GUILD_BUY_PRICE:
+- '                §8-| §a§lGUILD §8|-'
+- ' §fCongratulations! Вы приобрели улучшение §eпродажа гильдии'
+- ' §fТеперь Вы можете продать свою §2Гильдию§f в списке гильдий §f/g all'
+- ' §fУстановить стоимость гильдии можно в  §7/guild setprice'
+- ''
 
 PLAYER_GUILD_YOU_KICKED:
 - '§aGuild §8| §fYou got kicked from guild §e%s'
-- '§c • §f%s: §a%s'
+- '§c • §f%s'
 - '§c • §fReason: §a%s'
 - ''
 - '§c • §fDate: §a%s'
 - '§c • §e%s ago'
+
+PLAYER_GUILD_TAKE_EXP:
+- '§8     |     §2GUILD§8     |'
+- '§fС вашей гильдии было снято %s'
 
 #boosters
 PLAYER_BOOSTER_BUY_MULTIPLY:
@@ -2109,6 +2131,7 @@ PARTY_NEW_INVITE: '   %s§f invited you to the group'
 PARTY_NEW_GUILD_INVITE: ' %s§f invited youu to the guild group'
 FRIEND_NEW_INVITE: '   %s§f invites you to be friends'
 GUILD_NEW_INVITE: ' %s§f invites you to the guild §e%s'
+INVITE_HELP_TITLE: '          §7Select button and click'
 INVITE_TITLE: '              §8 -| §a§l%s §8|-'
 FRIEND_TITLE: 'FRIENDS'
 PARTY_TITLE: 'PARTY'
@@ -2128,7 +2151,6 @@ PARTY_GUILD_HOVER_NO: '§f§oClick, to reject invition'
 GUILD_HOVER_YES: '§f§oClick, to accept invition'
 GUILD_HOVER_NO: '§f§oClick, to reject invition'
 
-
 GUILD_NO: "§aGuilds §8| §cYou aren't in the guild"
 
 GUILD_MUTE: '§aGuild §8| §cYou guild chat banned by %s §cfor %s for reason: §e%s'
@@ -2142,13 +2164,17 @@ GUILD_COMMAND_HELP:
 - '§7/g accept <player nickname> §f- accept guild invite'
 - '§7/g reject <player nickname> §f- reject guild invite'
 - '§7/g requests §f- guild invitions list'
+- '§7/g buy <nickname> §f- buy guild'
 - '§7/g all §f- open all guilds list'
 GUILD_COMMAND_MEMBER_HELP:
 - '§7/gchat <message> §f- guild chat'
 - '§7/g list §f- open guild members list'
 - '§7/g top §f- see guilds top'
+- '§7/g buy <nickname> §f- buy guild'
+- '§7/g all §f- open all guilds list'
 - '§7/g leave §f- leave guild'
 - '§7/g stats §f- guild information'
+- '§7/g lvl §f- information of level'
 - '§7/g donaters §f- guild members top'
 - '§7/g donate <amount of coins> §f- invest to the guild balance'
 - '§7/g moders §f- open guild moderators list'
@@ -2160,30 +2186,35 @@ GUILD_COMMAND_MODER_HELP:
 - '§7/g unmute §f- unmute player'
 - '§7/g donateinfo <nickname> §f- information about payed coins by the player'
 GUILD_COMMAND_DEPUTY_HELP:
+- '§7/g ban §f- ban player'
+- '§7/g unban §f- unban player'
 - '§7/g sethome §f- set guild home'
 - '§7/g delhome §f- remove guild home'
 - '§7/g shop §f- open guild shop'
 - '§7/g tag <тег> §f- set guild tag'
 - '§7/g party §f- put together the guild group'
 - '§7/g motd §f- set control for motd of guild'
-- '§7/g rank <nickname> <rank> §f- set player rank'
+- '§7/g rank §f- set player rank'
 - '§7/g deposit <nickname> <amount of coins> §f- withdraw money from guild balance'
 - '§7/g kick <nickname> <reason> §f- kick player from group'
 GUILD_COMMAND_OWNER_HELP:
+- '§7/g setprice <price> §f- установить цену за гильдию'
+- '§7/g public §f- изменить публичность гильдии'
 - '§7/g rename <name> §f- переименовать гильдию'
 - '§7/g delete §f- remove guild (деньги вложенные в гильдию не возвращаются!)'
 - '§7/g leader <nickname> §f- transfer leadering'
 GUILD_COMMAND_TOP_HELP:
+- '§7/g top level §f- top level guilds'
 - '§7/g top coins §f- top coins guilds'
 - '§7/g top members §f- top members guilds'
-GUILD_TOP_COINS_TITLE: '§aGuilds §8| §fTop §a%s§f guilds:'
-GUILD_TOP_MEMBERS_TITLE: '§aGuilds §8| §fTop §a%s§f guilds:'
-GUILD_TOP_DONATERS_TITLE: '§aGuilds §8| §fTop §a%s§f members:'
+GUILD_TOP_GUILDS_TITLE: '§aGuilds §8| §fTop §a%s§f guilds:'
+GUILD_TOP_MEMBERS_TITLE: '§aGuilds §8| §fTop §a%s§f members:'
 GUILD_TOP_COINS_FORMAT: ' §c%s §f- §e%s §fplayer %s§f, balance - §a%s'
 GUILD_TOP_MEMBERS_FORMAT: ' §c#%s §f- §e%s §fplayer %s§f, members - §a%s'
+GUILD_TOP_LEVEL_FORMAT: ' §c%s §f- §e%s §fplayer %s§f, level - §b%s'
 GUILD_TOP_DONATERS_FORMAT: ' §c#%s §f- %s§f, %s to the guild - §a%s§f coins'
-GUILD_TOP_GUILD_YOUR: '§аYour guild is on §e#%s §fplace in the top'
-GUILD_TOP_YOUR: '§аYou are on §e#%s §fplace in the top'
+GUILD_TOP_GUILD_YOUR: '§аYour guild is on §e#%s§f place in the top'
+GUILD_TOP_YOUR: '§аYou are on §e#%s§f place in the top'
 
 GUILD_REQUESTS_NO: "§aGuilds §8| §cYou haven't got guild invitions"
 GUILD_ALREADY: '§aGuild §8| §cYou are already in the guild'
@@ -2196,6 +2227,7 @@ GUILD_NAME_2: 'invested'
 GUILD_LIMIT: "§aGuild §8| §cThis guild can't accept players, because its limit is exceeded"
 GUILD_LEADER: "§aGuild §8| §cError, you aren't guild leader"
 GUILD_MODER: "§aGuild §8| §cError, you aren't guild moderator"
+GUILD_EXEMPT: '§aGuild §8| §cYou can not punishment this player'
 GUILD_NAME_MEMBER: 'Member'
 GUILD_NAME_MODER: 'Moderator'
 GUILD_NAME_DEPUTY: 'Deputy'
@@ -2207,7 +2239,26 @@ GUILD_COLOR_NAME_OWNER: '§cOwner'
 GUILD_CHAT_NAME_MODER: '§7(Moderator)'
 GUILD_CHAT_NAME_DEPUTY: '§7(Deputy)'
 GUILD_CHAT_NAME_OWNER: '§7(Owner)'
+GUILD_ADD_EXP_ALERT: '§2Guilds §8| §7На счет гильдии зачислено %s'
+GUILD_TAKE_EXP_ALERT: '§2Guilds §8| §7Со счета гильдии было снято %s'
+GUILD_LEVEL_UP_ALERT: '§2Guilds §8| §7Уровень гильдии был повышен до %s'
+GUILD_LEVEL_DOWN_ALERT: '§2Guilds §8| §7Уровень гильдии был понижен до %s'
+GUILD_TAKE_EXP_REASON_NOT_ACTIVE: 'в гильдии мало активности'
+GUILD_TAKE_EXP_REASON_MANY_MUTES: 'слишком много нарушителей'
+GUILD_TAKE_EXP_REASON_NOT_UPGRADE: 'гильдия не улучшается'
+GUILD_TAKE_EXP_REASON_INTRUDER: 'в гильлии был найден нарушитель'
+GUILD_NO_LEVEL: '§cОшибка, у гильдии должен быть уровень не ниже %s, для использования этого'
+GUILD_NO_DATE: '§cОшибка, гильдия должна быть основана минимум %s, для использования этого'
+GUILD_BAN_YOU:
+- '§aGuilds §8| §fВы заблокированы в гильдии §e%s'
+- '§c • §fНа: §b%s'
+- '§c • §f%s'
+- '§c • §fПричина: §a%s'
+- ''
+- '§c • §fДата: §a%s'
+- '§c • §e%s назад'
 
+GUILD_PARTY_NO_BUY: '§aGuild §8| §cУ гильдии еще не куплена "Групповая игра", купите её в /guild shop'
 GUILD_PARTY: '§aGuild §8| §fYou invited all online members to the guild party'
 
 GUILD_CREATE_FORMAT: '/guild create <name>'
@@ -2222,12 +2273,18 @@ GUILD_RENAME: '§aГильдия §8| §fВы изменили название 
 
 GUILD_DELETE: '§aGuild §8| §fYou removed guild §a%s§f :('
 GUILD_DELETE_ALERT: '§2Guilds §8| %s §fremoved guild'
+GUILD_DELETE_CONFIRM:
+- '§aGuild §8| §fВы уверены что хотите удалить гильдию? Это действие нельзя будет отменить!'
+- '§aGuild §8| §fВведите §e%s§f снова чтобы подтвердить §cудаление§f или §e%s§f чтобы §aотменить'
+GUILD_DELETE_CANCELLED: '§aGuild §8| §fУдаление гильдии отменено'
+GUILD_DELETE_REASON: 'Guild deleted'
 
 GUILD_INVITE_FORMAT: '/guild invite <player name>'
 GUILD_INVITE: '§aGuild §8| §fTo player %s§f was sent invition to the guild'
 GUILD_INVITE_ME: "§aGuild §8| §cError, You can't invite yourself"
 GUILD_INVITE_FRIEND: '§aGuild §8| §cThe player forbad to send him(her) guild invitions'
 GUILD_INVITE_ALREADY: '§aGuild §8| §cPlayer %s already has invition to the guild'
+GUILD_INVITE_BAN: '§aGuild §8| §cError, %s заблокирован в гильдии, вы не можете его пригласить'
 GUILD_INVITE_LIMIT: '§aGuild §8| §cGuild limit exceeded, limit - %s'
 GUILD_INVITE_EXPIRED: '§2Guilds §8| §fRequest, sended to player %s§f был автоматически отклонен'
 GUILD_INVITE_EXPIRED_TO: '§aGuilds §8| %s§f отправлявший Вам приглашение в гильдию, был автоматически отклонен спустя %s'
@@ -2264,8 +2321,32 @@ GUILD_MOTD_NO_SET: '§aGuild §8| §cУ гильдии еще не устано�
 
 GUILD_LEADER_FORMAT: '/guild leader <player name>'
 GUILD_LEADER_ME: "§aGuild §8| §cYou can't transfer leadering to yourself"
+GUILD_LEADER_NO_GROUP: '§aGuild §8| §cОшибка, у нового владельца гильдии должен быть статус %s§c или выше'
 GUILD_LEADER_ALERT: '§2Guilds §8| %s§7 transfered leadering to player %s'
 GUILD_SETLEADER: '§aGuild §8| §fYou transfered leadering to player %s'
+
+GUILD_SETPRICE_FORMAT: '/%s setprice <price> (установите 0 для снятия с продажи)'
+GUILD_SETPRICE_ERROR: '§aGuild §8| §cОшибка, цена гильдии не может быть меньше %s и больше %s'
+GUILD_PRICE_NO_BUY: '§aGuild §8| §cУ гильдии еще не куплена "Продажа гильдии", купите её в /guild shop'
+GUILD_PRICE_CHANGED_ALERT: '§2Guilds §8| %s§7 обновил стоимость гильдии до §d%s'
+GUILD_PRICE_CHANGED: '§aGuild §8| §fЦена за гильдию изменена на §d%s'
+
+GUILD_BUY_NOT_BUY_LEADER: '§aGuild §8| §cОшибка, Лидер не может покинуть купить гильдию, для удаления гильдии используйте /guild delete, или передайте лидерство /g leader'
+GUILD_BUY_FORMAT: '/%s buy <ник лидера гильдии>'
+GUILD_BUY_NOT: '§aGuilds §8| §cОшибка, гильидя %s не продается'
+GUILD_BUY_NOT_MEMBER: '§aGuilds §8| §cОшибка, вы должны состоять в гильдии для её покупки'
+GUILD_BUY_NOT_GROUP: '§aGuild §8| §cОшибка, у вас должен быть статус %s§c или выше для покупки гильдии'
+GUILD_BUY_ALERT: '§2Guilds §8| %s§7 приобрел гильдию за §d%s§7 и стал новым §c§lВладельцем§7 гильдии'
+GUILD_BUY: '§aGuilds §8| §fВы успешно купили гильдию %s§f за §d%s'
+
+GUILD_JOIN_FORMAT: '/%s join <ник лидера гильдии>'
+GUILD_JOIN_NOT: '§aGuilds §8| §cОшибка, данный игрок не является лидером'
+GUILD_JOIN_NOT_PUBLIC: '§aGuilds §8| §cОшибка, гильдия не публична'
+GUILD_JOIN: '§aGuild §8| §fВы присоединились к гильдии %s'
+GUILD_JOIN_ALERT: '§2Guilds §8| %s§7 присоединился к публичной гильдии'
+
+GUILD_PUBLIC: '§aGuild §8| §fПубличность гильдии изменена на: %s'
+GUILD_PUBLIC_ALERT: '§2Guilds §8| %s§7 изменил публичность гильдии на %s'
 
 GUILD_RANK_FORMAT: '/guild rank <player name> <rank>'
 GUILD_RANK_ME: "§aGuild §8| §cYou can't change rank yourself"
@@ -2296,33 +2377,56 @@ GUILD_DEPOSIT: '§aGuild §8| §7You withdrawed on player balance %s §a%s §f%s
 GUILD_DEPOSIT_NO_MONEY: '§aGuild §8| §cThe amount you want to withdraw, exceeds guild balance'
 
 GUILD_KICK_FORMAT: '/guild kick <player name> <reason>'
-GUILD_KICK_ALERT: '§2Guilds §8| %s§7 kicked the player %s§7 for reason §e%s'
 GUILD_KICK: '§aGuild §8| §fYou kicked the player %s§f for reason: §e%s'
 GUILD_KICK_EXEMPT: "§aGuild §8| §fYou can't kick this player"
+GUILD_KICK_ME: "§aGuild §8| §cYou can't kick yourself"
 
 GUILD_MUTE_FORMAT: '/guild mute <player name> <time> <reason>'
-GUILD_MUTE_ALERT: '§2Guilds §8| %s§7 muted guild chat for the player %s§7 on §a%s§7 for reason: §a%s'
 GUILD_NEWMUTE: '§aGuild §8| §fYou muted guild chat for the player %s§f on §a%s§f for reason: §a%s'
 GUILD_MUTE_ME: "§aGuild §8| §cYou can't mute yourself"
+GUILD_UNMUTE_ME: '§aGuild §8| §cYou no available unblocked to yourself chat'
 GUILD_MUTE_ALREADY: '§aGuild §8| §cPlayer %s has got already muted guild chat'
 GUILD_MUTE_MSG: '§aGuild §8| %s§c muted chat guild for You %s on %s'
 
+GUILD_INFO: '§2Guilds §8| '
+
 GUILD_UNMUTE_FORMAT: '/guild unmute <player name>'
 GUILD_UNMUTE_ALREADY: "§aGuild §8| §cPlayer %s hasn't got guild chat mute"
-GUILD_UNMUTE_ALERT: '§2Guilds §8| %s§f unmuted guild chat for the player %s'
 GUILD_UNMUTE_MSG: '§aGuild §8| §aYour guild chat has been unmuted'
 GUILD_UNMUTE: '§aGuild §8| §fYou unmuted guild chat for the player %s'
 
-GUILD_STATS_MOTD_BUY: '§aBought'
-GUILD_STATS_MOTD_NO_BUY: "§cDidn't buy"
-GUILD_STATS_TAG_BUY: '§aBought'
-GUILD_STATS_TAG_NO_BUY: "§cDidn't buy"
+
+GUILD_BAN_FORMAT: '/%s ban <nickname> <time/0> <reason>'
+GUILD_NEWBAN: '§aGuild §8| §fВы заблокировали участника %s§f на §a%s§f по причине: §a%s'
+GUILD_BAN_ALREADY: '§aGuild §8| §cИгрок %s уже заблокирован в гильдии'
+GUILD_BAN_MSG: '§aGuild §8| %s§c заблокировал Вас в гильдии по причине %s на %s'
+
+GUILD_UNBAN_FORMAT: '/%s unban <nickname>'
+GUILD_UNBAN_ALREADY: '§aGuild §8| §cИгрок %s не заблокирован в гильдии'
+GUILD_UNBAN_MSG: '§aGuild §8| §aВам был разблокирован доступ к гильдии §e%s'
+GUILD_UNBAN: '§aGuild §8| §fВы разблокировали участника %s'
+
+GUILD_BANINFO_FORMAT: '/%s baninfo <nickname>'
+GUILD_MUTEINFO_FORMAT: '/%s muteinfo <nickname>'
+GUILD_BANINFO:
+- '§aGuild §8| §fInfo of %s'
+- '§f- %s'
+- '§f- Reason: §e%s'
+- '§f- Date: §6%s'
+- '§f- Will end in: §e%s'
+
+GUILD_STATS_BUY: '§aBought'
+GUILD_STATS_NO_BUY: "§cDidn't buy"
 GUILD_STATS_LIMITED: ' §c• §fZeroing limit after: §e%s'
 GUILD_STATS:
 - '§aGuild §8| §fGuild stats §a%s §8| §e%s§f:'
+- '§c • §fPublic: %s'
+- '§c • §fGuild price: §d%s'
 - '§c • §fGuild balance: §a%s'
 - '§c • §fEarned in a day: §a%s'
 - '§c • §f12 Hours limit: §c%s'
+- '§c • §fLevel: §b%s'
+- '§c • §fTo next level: §6%s'
 - '§c • §fGuild welcome: %s'
 - '§c • §fGuild tag: %s'
 - '§c • §fFounding date: §a%s'
@@ -2331,6 +2435,10 @@ GUILD_STATS:
 - '§c • §fMembers: §a%s§7/§c%s'
 - '§c • §fModerators: §a%s'
 - '§c • §fDeputies: §a%s'
+
+GUILD_LEVEL:
+- '§aAccount §8| §fGuild have §b%s§f level'
+- '§aAcount §8| §fTo the next level you need §6%s'
 
 GUILD_HOME_NO: "§aGuild §8| §cYou haven't got guild home"
 GUILD_HOME: '§aGuild §8| §fYou were teleported to the guild home'
@@ -2380,7 +2488,13 @@ BAN_NAME_15: 'Unblocked guild chat'
 BAN_NAME_16: 'Unblocked guild chat'
 BAN_NAME_17: 'Kicked'
 BAN_NAME_18: 'Kicked'
-BANINFO_COOLDOWN: '§f- Кончится через: §e%s'
+BAN_NAME_19: 'Kicked from guild'
+BAN_NAME_20: 'Kicked from guild'
+BAN_NAME_21: 'Blocked guild member'
+BAN_NAME_22: 'Blocked guild member'
+BAN_NAME_23: 'Unblocked guild member'
+BAN_NAME_24: 'Unblocked guild member'
+BANINFO_COOLDOWN: '§f- Will end inз: §e%s'
 BANINFO_NEVER: '§f- §cNever§f blocked'
 BANINFO_BY: '§f- By request %s'
 BANINFO_COMMAND:
@@ -2392,8 +2506,8 @@ BANINFO_COMMAND:
 - '§f- Date: §6%s'
 UNBAN_NO_ACCESS: '§aPunishment §8| §cThe player is blocked administration, you do not have permission to him unlocked'
 UNBAN_NO_OTHER: '§aPunishment §8| §cError, вы можете разблокировать только тех кого сами наказывали'
-UNMUTE_NO_YOURSELF: '§aPunishment §8| §aPunishment §8| §cYou no available unblocked to yourself chat'
-BAN_NO_ACCESS: '§aPunishment §8| §cYou can not ban this player'
+UNMUTE_NO_YOURSELF: '§aPunishment §8| §cYou no available unblocked to yourself chat'
+BAN_NO_ACCESS: '§aPunishment §8| §cYou can not punishment this player'
 BAN_NO_ACCESS_SYNTAX: '§aPunishment §8| §cYou are not permitted, to use lifetime syntax'
 BAN_UP_RANK: '§aPunishment §8| §cYou are not permitted to punish players, higher than your status'
 BAN_YOU_RANK: '§aPunishment §8| §cYou are not permitted to punish players, having the same status'
@@ -2579,7 +2693,7 @@ MUTE_REASON:
 - '§b §nvk.com/flycore'
 - '§7 Rules: §b§nwww.flycore.ru/rules'
 - '§8§l▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬'
-BAN_INFO: '§cModeration §8| '
+BAN_INFO: '§cPunishment §8| '
 BAN_INFO_REASON: 'from reason'
 BAN_INFO_TIME: 'on'
 UNMUTE_MSG: '§aServer §8| §fAccess to chat has unlocked'
@@ -3869,6 +3983,7 @@ NICK_USED: '§fYou nick current hide'
 
 VANISH_ENABLE: '§aHiding §8| §fVanish enabled'
 VANISH_DISABLE: '§aHiding §8| §fVanish disabled'
+VANISH_ERROR: '§aHiding §8| §cError, hiding no available in game state'
 VANISH_USED: '§fYou current hide'
 
 SUFFIX_FORMAT: '/suffix <suffix/reset>'
@@ -6882,13 +6997,20 @@ GUI_GUILDALL_EMPTY_LORE:
 - '§7не создано не одной гильдии'
 GUI_GUILDALL_LORE:
 - ''
+- '§7Level: §b%s'
 - '§7Members: §a%s§8/§c%s'
 - '§7Date founder: §e%s'
 - ''
+GUI_GUILDALL_PRICE_LORE:
+- '§cWarning!§7 Guild §nsale§7!'
+- '§7Price: %s'
+- '§7Buy? §7Use §f%s'
 GUI_GUILD_TOP_MONEY: '§7On §a%s§7 place for top money'
 GUI_GUILD_TOP_MEMBERS: '§7On §a%s§7 place for top members'
+GUI_GUILD_TOP_LEVEL: '§7On §a%s§7 place for top level'
 GUI_GUILD_NO_TOP_MONEY: '§cNo involved to top money'
 GUI_GUILD_NO_TOP_MEMBERS: '§cNo involdev to top members'
+GUI_GUILD_NO_TOP_LEVEL: '§cNo involdev to top level'
 GUI_GUILDALL_ONLINE:
 - '§7%s guild §aonline'
 - '§7on server §e%s'
@@ -6898,6 +7020,8 @@ GUI_GUILDALL_ITEM_LORE:
 - ''
 - '§7Total guilds:'
 - '§a%s'
+GUI_GUILDALL_LIMIT: ' §c✗ Guild is full'
+GUI_GUILDALL_JOIN: '§e▸ Click, to join'
 GUI_GUILDALL_FORMAT: '§eGuild %s'
 
 GUI_HISTORY_NAME: 'Список истории (%s)'
@@ -6972,10 +7096,10 @@ GUI_PARTYALL_ONLINE:
 - '§7on server §e%s'
 GUI_PARTYALL_OFFLINE:
 - ' §c✗ %s Группы offline'
-GUI_PARTYALL_LIMIT: ' §c✗ Группа переполнена'
-GUI_PARTYALL_JOIN: '§e▸ Нажмите, чтобы присоединится'
-GUI_PARTYALL_ALREADY: ' §c✗ Вы уже состоите в группе'
-GUI_PARTYALL_ALREADY_OTHER: ' §c✗ Вы уже другой в группе'
+GUI_PARTYALL_LIMIT: ' §c✗ Party is full'
+GUI_PARTYALL_JOIN: '§e▸ Click, to join'
+GUI_PARTYALL_ALREADY: ' §c✗ You already this party'
+GUI_PARTYALL_ALREADY_OTHER: ' §c✗ You another party
 GUI_PARTYALL_FORMAT: '§eParty %s'
 
 GUI_GUILD_NAME: 'Guild members'
@@ -6985,6 +7109,7 @@ GUI_GUILD_LORE:
 GUI_GUILD_GUILD_LORE:
 - ''
 - '§7Guild: §a%s'
+- '§7Level: §b%s'
 - ''
 - '§7Creator: %s'
 - '§7Дата создания:'
@@ -6994,6 +7119,7 @@ GUI_GUILD_GUILD_LORE:
 - '§7Онлайн: §a%s'
 - ''
 - '§7Guild balance: §e%s'
+- '§7More details -> §f/g stats'
 GUI_GUILD_ITEM: '§eInformation about guild'
 GUI_GUILD_PLAYER_ONLINE:
 - ''
@@ -7005,7 +7131,7 @@ GUI_GUILD_PLAYER_OFFLINE:
 - ''
 - ' §c✗ Player is offline'
 
-GUI_GUILDSHOP_NAME: 'Guild balance: %s'
+GUI_GUILDSHOP_NAME: 'Level: %s | Guild balance: %s'
 GUI_GUILDSHOP_NO_MONEY_LORE:
 - ''
 - '§7Стоимость улучшения: §c%s §7%s'
@@ -7024,6 +7150,8 @@ GUI_GUILDSHOP_TYPE_MEMBERS: '§eУлучшение вместительност�
 GUI_GUILDSHOP_TYPE_MONEY: '§eУлучшение bank'
 GUI_GUILDSHOP_TYPE_TAG: '§eGuild tag'
 GUI_GUILDSHOP_TYPE_MOTD: '§eПриветствие гильдии'
+GUI_GUILDSHOP_TYPE_PARTY: '§eГрупповая игра'
+GUI_GUILDSHOP_TYPE_PRICE: '§eПродажа гильдии'
 GUI_GUILDSHOP_MEMBERS_LORE:
 - ' '
 - '§7Увеличит максимальное'
@@ -7046,6 +7174,15 @@ GUI_GUILDSHOP_MOTD_LORE:
 - '§7Позволяет задать своё собственное'
 - '§7приветствие гильдии, которое будет'
 - '§7отображено каждому участнику при входе'
+GUI_GUILDSHOP_PARTY_LORE:
+- ''
+- '§7Позволяет создавать группу (Party)'
+- '§7из всех онлайн участников гильдии'
+- '§7одной командой'
+GUI_GUILDSHOP_PRICE_LORE:
+- ''
+- '§7Позволяет выставлять гильдию'
+- '§7на продажу по своей цене'
 
 GUI_BOOST_NAME: 'Boost'
 GUI_BOOST_LORE:
