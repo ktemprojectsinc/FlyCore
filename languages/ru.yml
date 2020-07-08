@@ -2255,6 +2255,7 @@ GUILD_CHAT_NAME_DEPUTY: '§7(Заместитель)'
 GUILD_CHAT_NAME_OWNER: '§7(Владелец)'
 GUILD_BAN_YOU:
 - '§aГильдии §8| §fВы заблокированы в гильдии §e%s'
+- '§c • §fНа: §b%s'
 - '§c • §f%s'
 - '§c • §fПричина: §a%s'
 - ''
