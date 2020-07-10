@@ -2135,6 +2135,35 @@ GUILD_COMMAND_MEMBER_HELP:
 - '§7/g donate <кол-во монет> §f- пополнить баланс гильдии'
 - '§7/g moders §f- открыть список модераторов гильдии'
 - '§7/g deputys §f- открыть список заместителей гильдии'
+GUILD_COMMAND_HELP_INVITE:
+- '§7/g invite <ник игрока> §f- пригласить игрока в гильдию'
+GUILD_COMMAND_HELP_INFOCOMMAND:
+- '§7/g info <ник игрока> §f- информация об игроке'
+- '§7/g donateinfo <ник игрока> §f- информация о внесенных монетах игроком'
+GUILD_COMMAND_HELP_MUTE:
+- '§7/g mute §f- заблокировать чат игроку'
+GUILD_COMMAND_HELP_UNMUTE:
+- '§7/g unmute §f- разблокировать чат игроку'
+GUILD_COMMAND_HELP_PUNISHMENTINFO:
+- '§7/g <ban/mute>info <ник игрока> §f- информация о наказании игрока'
+GUILD_COMMAND_HELP_BAN:
+- '§7/g ban §f- заблокировать игрока'
+GUILD_COMMAND_HELP_UNBAN:
+- '§7/g unban §f- разблокировать игрока'
+GUILD_COMMAND_HELP_CHANGEHOME:
+- '§7/g sethome §f- установить точку дома гильдии'
+- '§7/g delhome §f- удалить точку дома гильдии'
+GUILD_COMMAND_HELP_SHOP:
+- '§7/g shop §f- открыть магазин гильдии'
+GUILD_COMMAND_HELP_PRICECOMMANDS:
+- '§7/g tag <тег> §f- установить тег гильдии'
+- '§7/g party §f- собрать группу гильдии'
+- '§7/g motd §f- управление приветствием гильдии'
+- '§7/g public §f- изменить публичность гильдии'
+GUILD_COMMAND_HELP_RANK:
+- '§7/g rank §f- установить ранг игроку'
+GUILD_COMMAND_HELP_DEPOSIT:
+- '§7/g deposit <ник игрока> <кол-во монет> §f- вывести деньги с баланса'
 GUILD_COMMAND_MODER_HELP:
 - '§7/g invite <ник игрока> §f- пригласить игрока в гильдию'
 - '§7/g info <ник игрока> §f- информация об игроке'
