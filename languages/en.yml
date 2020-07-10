@@ -96,6 +96,12 @@ BAN_REQUEST_INFO_HOVER:
 - '§f§oНажмите,'
 - '§f§oчтобы рассмотреть'
 
+ANTICHEAT_PLAYER_BANNED_INFO: '§aАнтичит §8| §fИгрок %s§f был заблокирован за использование стороннего ПО'
+ANTICHEAT_PLAYER_KICKED_INFO: '§aАнтичит §8| §fИгрок %s§f был кикнут по подозрению в использовании стороннего ПО'
+ANTICHEAT_PLAYER_KICKED: '§aАнтичит §8| §fВы были кикнуты за использование стороннего ПО'
+ANTICHEAT_KICKED_REASON: '§eПодозрение в использовании стороннего ПО'
+ANTICHEAT_PLAYER_CHECK_NOT_PASSED: '§aАнтичит §8| §fИгрок %s§f нарушил проверку §c%s§f, на сервере - §c%s §8(VL %s§8/§7Пинг §a%sms§8)'
+
 CONVERT_FORMAT: '/%s <golds/coins> <golds sum>'
 CONVERT_ERROR: '§aServer §8| §cError, you must specify only a positive number!'
 CONVERT: '§aServer §8| §fYou have successfully exchanged %s on %s. Comission by paying made up §c%s (§e%s§f)'
