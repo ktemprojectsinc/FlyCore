@@ -2548,6 +2548,7 @@ GUI_GUILDTYPES_RANK_SELECTED_LORE:
 - ''
 - '§c✗ Вы уже редактируете данный ранг'
 GUI_GUILDTYPES_RANK_PRIORITY: 'Приоритет ранга'
+GUI_GUILDTYPES_RANK_PRIORITY_LORE:
 - '§7Вы можете изменить приоритет ранга'
 - '§7Приоритет определяет уровень прав'
 - '§7ранга по отношению к другим. Например,'
