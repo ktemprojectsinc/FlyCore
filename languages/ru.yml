@@ -2537,7 +2537,7 @@ GUILD_SETTING_KICK_DESCRIPTION:
 - '§7игроков из гильдии без Вашего'
 - '§7разрешения (доступ к /g kick)'
 
-GUI_GUILDTYPES_NAME: 'Настройки рангов друзей'
+GUI_GUILDTYPES_NAME: 'Настройки рангов гильдии'
 GUI_GUILDTYPES_RANK_NAME: 'Ранг'
 GUI_GUILDTYPES_RANK_LORE:
 - '§7Приоритет: §e%s'
