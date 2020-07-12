@@ -2573,7 +2573,7 @@ GUI_GUILDTYPES_RANK_NO_ACCESS: '§c▸ У вас нет доступа к дан
 GUI_GUILDTYPES_PLAYER_EDIT: '§e▸ Нажмите, чтобы изменить права игрока'
 PLAYER_GUILD_PRIORITY_CHANGE_NO: '§aГильдия §8| §cОшибка, приоритет который вы пытаетесь установить слишком большой/маленький или является выше вашего'
 
-GUI_GUILD_EDIT_PLAYER_NAME: 'Редактирование игрока'
+GUI_GUILD_EDIT_PLAYER_NAME: 'Редактирование'
 GUI_GUILD_EDIT_PLAYER_LORE:
 - ''
 - '§7Приоритет: §d%s'
@@ -2588,7 +2588,6 @@ GUI_GUILD_EDIT_PLAYER_LORE:
 - '§8 • §7%s из гильдии: %s'
 GUI_GUILD_EDIT_PLAYER_TYPE_PLAYER: 'Игрока'
 GUI_GUILD_EDIT_PLAYER_TYPE_RANK: 'Ранга игрока'
-GUI_GUILD_EDIT_PLAYER: 'Редактирование %s'
 GUI_GUILD_EDIT_LORE:
 - ''
 - '§7Вы можете сменить тип редактирования,'
