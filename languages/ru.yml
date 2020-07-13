@@ -767,7 +767,6 @@ PLAYER_GUILD_BUY_CHANGEHOME:
 - ' §fДля этого используйте команду §7/guild sethome'
 - ' §fДля телепортации домой используйте §7/guild home'
 
-
 PLAYER_GUILD_YOU_KICKED:
 - '§2Гильдии §8| §fВы были удалены из гильдии §e%s'
 - '§c • §f%s'
