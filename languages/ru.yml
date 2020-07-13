@@ -1429,6 +1429,10 @@ ITEM_ITEMS_LORE:
 - '§7Кликните, чтобы выбрать предметы'
 ITEM_SETTING_LORE:
 - '§7Настройте аккаунт под себя'
+ITEM_STATS_LORE:
+- '§7Игровая статистика'
+- '§7со всех режимов'
+HELP_ITEM_USE: '§d[ПКМ]'
 
 TRAINING_PREFIX: '§aОбучение §8| §f'
 TRAINING_PREFIX_HOVER: '   §8 -| §6§lОбучение §8|-'
