@@ -145,17 +145,17 @@ SYSTEM_NOT_FOUND_PLAYER_DATA:
 - ''
 - '§6Если ошибка повторилась, сообщите » §avk.me/flycore_dev'
 PROXY_LOST_CONNECTION:
-- '§aСервер §8| §fПрокси-сервер отключен от системы. Вам будут недоступны некоторые команды до подключения.'
+- '§fПрокси-сервер отключен от системы. Вам будут недоступны некоторые команды до подключения.'
 PROXY_LOST_CONNECTION_TITLE: ''
 PROXY_LOST_CONNECTION_SUBTITLE: ''
 PROXY_RECONNECTED:
-- '§aСервер §8| §fПереподключение к системе... [§a%s§f/§a%s§f]'
-PROXY_RECONNECTED_PLAYER_TITLE: ''
-PROXY_RECONNECTED_PLAYER_SUBTITLE: ''
+- '§fПереподключение к системе... [§a%s§f/§a%s§f]'
+PROXY_RECONNECTED_TITLE: ''
+PROXY_RECONNECTED_SUBTITLE: ''
 PROXY_RECONNECTED_SUCCESSFUL:
-- '§aСервер §8| §fСоединение с прокси-сервером восстановлено.'
-PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
-PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
+- '§fСоединение с прокси-сервером восстановлено.'
+PROXY_RECONNECTED_SUCCESSFUL_TITLE: ''
+PROXY_RECONNECTED_SUCCESSFUL_SUBTITLE: ''
 
 RULE_FORMAT: '/%s <yes/no>'
 RULE_NO_AGREEMENT_TITLE: '§c⚠ У вас не принято соглашение!'
