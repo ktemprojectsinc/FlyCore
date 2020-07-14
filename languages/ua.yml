@@ -140,11 +140,11 @@ PROXY_LOST_CONNECTION:
 PROXY_CORE_LOST_CONNECTION_TITLE: ''
 PROXY_CORE_LOST_CONNECTION_SUBTITLE: ''
 PROXY_RECONNECTED:
-- '§aCore §8| §fПерепідключення к системи... [§a%s§f/§a%s§f]'
+- '§aСервер §8| §fПерепідключення к системи... [§a%s§f/§a%s§f]'
 PROXY_RECONNECTED_PLAYER_TITLE: ''
 PROXY_RECONNECTED_PLAYER_SUBTITLE: ''
 PROXY_RECONNECTED_SUCCESSFUL:
-- "§aCore §8| §fЗ'єднання с проксі-сервером відновлено."
+- "§aСервер §8| §fЗ'єднання с проксі-сервером відновлено."
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
 
