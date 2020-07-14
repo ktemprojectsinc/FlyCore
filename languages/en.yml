@@ -109,7 +109,7 @@ CONVERT_AVAILABLE: '§aServer §8| §cError, available currencies: golds, coins'
 CONVERT_ERROR_NO: '§aServer §8| §cError, you can not exchanged amounts lower than %s and higher than %s at a one time!'
 
 SYSTEM_NO_CONNECTED:
-- '§cAt this moment, there is no connection to core, wait a little for its connection.'
+- '§cAt this moment, there is no connection to system, wait a little for its connection.'
 - '§c Used by you functions will be saved in background mode,'
 - '§c and applied on connected'
 GROUP_TIME_EXPIRE_LEFT: "§aServer §8| §fYour group's time %s§f has expired, and it has been removed"
