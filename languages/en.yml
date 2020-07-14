@@ -723,7 +723,7 @@ PLAYER_NO_KEYS:
 - '§f You can buy them on the site §3flycore.ru'
 PLAYER_NO:
 - '§aAccount §8| §fOn your balance is not enough §a%s'
-- '§f You can buy %s§f on the site §3flycore.ru'
+- '§f You can buy §a%s§f on the site §3flycore.ru'
 PLAYER_LIMIT: '§aServer §8| §cError, character limit should not be more than number %s'
 
 PLAYER_GADGETS_GADGET_NO_GROUP: '§aAccount §8| §cFor buying this item, your need privilege %s§c or higher'
