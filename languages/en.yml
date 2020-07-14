@@ -108,10 +108,10 @@ CONVERT: '§aServer §8| §fYou have successfully exchanged %s on %s. Comission 
 CONVERT_AVAILABLE: '§aServer §8| §cError, available currencies: golds, coins'
 CONVERT_ERROR_NO: '§aServer §8| §cError, you can not exchanged amounts lower than %s and higher than %s at a one time!'
 
-CORE_NO_CONNECTED:
-- '§aRequests §8| §fAt this moment, there is no connection to core, wait a little for its connection.'
-- '§f written by your commands, will be saved in background mode.'
-
+SYSTEM_NO_CONNECTED:
+- '§cAt this moment, there is no connection to core, wait a little for its connection.'
+- '§c Used by you functions will be saved in background mode,'
+- '§c and applied on connected'
 GROUP_TIME_EXPIRE_LEFT: "§aServer §8| §fYour group's time %s§f has expired, and it has been removed"
 PREFIX_TIME_EXPIRE_LEFT: "§aServer §8| §fYour prefix's time %s§f has expired, and it has been removed"
 MODE_KILL_MOB: '§6+%s for kill mob'
@@ -160,35 +160,24 @@ RANK_GAMER: 'Gamer'
 SERVER_RESTARTING_BROADCAST: '§cBefore a restart remained §e%s§c %s'
 SERVER_RESTARTING_MESSAGE: '§aServer §8| §fServer from you current, restarted..'
 NO_CONNECT_REASON: '§cError#13, Synchronization is not executed. Report, if error to repeated » §a§nvk.com/flycore'
-CORE_NOT_FOUND_PLAYER_SERVER_MSG:
-- '§aServer §8| §fError, you server not found in main core, you redirected to §a%s'
-CORE_NOT_FOUND_PLAYER_DATA:
-- '§fОшибка, Ваши данные на сервере не были определены или правильно загружены. §7(Ошибка #§c%s§7)'
+SYSTEM_NOT_FOUND_PLAYER_SERVER_MSG:
+- '§aServer §8| §fError, you server not found in system, you redirected to §a%s'
+SYSTEM_NOT_FOUND_PLAYER_DATA:
+- '§fОшибка, Ваши данные в системе не были определены или правильно загружены. §7(Ошибка #§c%s§7)'
 - ''
 - '§6Если ошибка повторилась, сообщите » §avk.me/flycore_dev'
-#CORE_NOT_FOUND_PLAYER_SERVER: "§fError, you server not found in main core. If error repeated, report » §a§nvk.com/flycore\n\n§fError code (§c%s§f)"
-PROXY_CORE_LOST_CONNECTION:
-#- '§aServer §8| §fProxy-server disconnected of core. Until the next connection, the transition through the servers will not be available and some commands.'
-#- ' Wait reconnecting...'
-- '§aCore §8| §cProxy-server, on which you have been, was disconnected from main core.'
-- '§aCore §8| §fNow some commands and functions will not be available.'
-- '§aCore §8| §fWe ask you to keep a little patience and wait, we will notify you when all will be stabilizied :)'
+PROXY_LOST_CONNECTION:
+- '§aServer §8| §fProxy-server disconnected from system. you now some commands will not be available up to connection.'
 PROXY_CORE_LOST_CONNECTION_TITLE: ''
-#§c✗ Соединение потеряно §c✗
 PROXY_CORE_LOST_CONNECTION_SUBTITLE: ''
-#§fПрокси-сервер был отключен от главного ядра
-PROXY_RECONNECTED_PLAYER:
-- '§aCore §8| §fReconnecting to server... [§a%s§f/§a%s§f]'
+PROXY_RECONNECTED:
+- '§aServer §8| §fReconnecting to system... [§a%s§f/§a%s§f]'
 PROXY_RECONNECTED_PLAYER_TITLE: ''
-#§6⚠ Выполняется переподключение. . 
 PROXY_RECONNECTED_PLAYER_SUBTITLE: ''
-#§fПожалуйста подождите
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL:
-- '§aCore §8| §fConnention proxy-server restored. You again can use all functionality and commands.'
+- '§aServer §8| §fConnention proxy-server restored.'
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_TITLE: ''
-#§a✔ Соединение восстановлено §a✔
 PROXY_RECONNECTED_PLAYER_SUCCESSFUL_SUBTITLE: ''
-#§fКоманды и переход по серверам снова доступен
 
 RULE_FORMAT: '/%s <yes/no>'
 RULE_NO_AGREEMENT_TITLE: '§c⚠ You have not accepted the agreement!'
@@ -719,29 +708,22 @@ FOOD_ADD: '§6+%s foods'
 HP_ADD: '§c+%s hp'
 
 PLAYER_NO_MONEY:
-- ''
-- '§aAccount §8| §fOn your account not enough §amoney§f. You can replenish your balance on the site §cflycore.ru'
-- '§r'
+- '§aAccount §8| §fOn your account not enough §amoney'
+- '§f You can buy them on the site §3flycore.ru'
 PLAYER_NO_GOLDS:
-- ''
-- '§aAccount §8| §fOn your account not enough §egold§f. You can replenish your balance on the site §cflycore.ru'
-- '§r'
+- '§aAccount §8| §fOn your account not enough §egold'
+- '§f You can buy them on the site §3flycore.ru'
 PLAYER_NO_CORE:
-- ''
-- '§aAccount §8| §fOn your account not enough §bcores§f. You can replenish your balance on the site §cflycore.ru'
-- '§r'
+- '§aAccount §8| §fOn your account not enough §bcores'
+- '§f You can buy them on the site §3flycore.ru'
 PLAYER_NO_LEVEL:
-- ''
-- '§aAccount §8| §fOn your account not enough §dlevel§f. You can buy XP on the site §cflycore.ru'
-- '§r'
+- '§aAccount §8| §fOn your account not enough §dlevel'
 PLAYER_NO_KEYS:
-- ''
-- '§aAccount §8| §fOn your account not enough §akeys§f. You can purchase keys on the site §cflycore.ru'
-- '§r'
+- '§aAccount §8| §fOn your account not enough §akeys'
+- '§f You can buy them on the site §3flycore.ru'
 PLAYER_NO:
-- ''
-- '§aAccount §8| §fOn your balance is not enough §a%s§f. You can purchase %s§f on the site §bflycore.ru'
-- '§r'
+- '§aAccount §8| §fOn your balance is not enough §a%s'
+- '§f You can buy %s§f on the site §3flycore.ru'
 PLAYER_LIMIT: '§aServer §8| §cError, character limit should not be more than number %s'
 
 PLAYER_GADGETS_GADGET_NO_GROUP: '§aAccount §8| §cFor buying this item, your need privilege %s§c or higher'
@@ -1770,11 +1752,7 @@ FINDID_CONFIRM: '§aServer §8| §fInformation for id §a%s§f: Player: %s'
 CLIENT_FORMAT: '/%s <player name>'
 CLIENT: '§aServer §8| %s§f version use: %s'
 
-CORE_SERVER_NOT_FOUND: '§aCore §8| §cError, server %s not found to core'
-CORE_CHANNEL_NOT_FOUND: '§aCore §8| §cError, channel %s not found'
-
-CORE_WRONGKEY: '§cError, key is incorrect'
-CORE_REASON_WRONGKEY: '§4Error #14 §cWriten a invalid key.'
+CHANNEL_NOT_FOUND: '§aCore §8| §cError, channel %s not found'
 
 HACK_REASON: '§4Error #3 §cSuspicion of hacking'
 VZLOM_REASON: '§cError #14 Please, contact group » §a§nvk.me/flycore'
@@ -3062,7 +3040,7 @@ SKIN_ERROR: '§aSkins §8| §cВо время установки скина пр
 SKIN_ERROR_MOJANG: '§aSkins §8| §cОшибка скин не установлен, подождите несколько секунд пока mojang разрешит снова получить текстуры'
 
 SERVER_DENIED: '§aServer §8| §fThis server is blocked to teleportation'
-SERVER_NOT_FOUND: '§aServer §8| §cError, specified server not found'
+SERVER_NOT_FOUND: '§aServer §8| §cError, server %s not found'
 SERVER_CONNECT: '§aServer §8| §fYou teleported to server §a%s'
 STAFF_CONNECTED: '§cModeration §8| %s to server %s'
 PLAYER_TOO_MANY_ACCOUNTS_CONNECTED: '§cModeration §8| %s§7 have a %s'
@@ -3162,10 +3140,9 @@ REPLY_EMPTY: '§cNo one wrote to you'
 
 PLAYER_YOU_REDIRECTED_BY: '§aServer §8| %s§f teleported you to server §c%s'
 
-PING_TO: '§aServer §8| §fPing for player %s§f - §a%s §fms'
 PING: '§aServer §8| §fYour ping §a%s §fms'
-
-PING_CORE: '§aServer §8| §fPing for Core §a%s §fms'
+PING_TO: '§aServer §8| §fPing for player %s§f - §a%s§f ms'
+PING_TO_SYSTEM: '§aServer §8| §fPing for System §a%s§f ms'
 
 NEAR: 'Ближайщие игроки: %s'
 NEAR_NOT_FOUND: 'Ближайших игроков нет'
