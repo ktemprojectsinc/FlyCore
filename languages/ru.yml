@@ -2926,7 +2926,7 @@ WHOIS_INFO:
 - ' §f- Язык: %s'
 - ' §f- Серверные данные: %s'
 WHOIS_PUNISHMENT: 'Наказания'
-WHOIS_GROUP_EXPIRE: 'До снятия осталось'
+WHOIS_GROUP_EXPIRE: 'Статус заканчивается через'
 WHOIS_PREFIX_EXPIRE: 'Префикс заканчивается через'
 RULES_NOT_FOUND: '§aПравила §8| §fОшибка, правила %s не существует'
 RULES:
