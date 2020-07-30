@@ -2919,6 +2919,9 @@ WHOIS_PREFIX_EXPIRE: 'Префикс заканчивается через'
 RULES_NOT_FOUND: '§aПравила §8| §fОшибка, правила %s не существует'
 RULES:
 - '§aПравила §8| §fСсылка на правила сервера -'
+RULES2:
+- ' §fПоиск правила по номеру - §d/rules info'
+- ' §fПоиск правила по описанию - §d/rules find'
 RULES_2: '§d%s'
 RULES_HOVER:
 - '§f§oнажмите сюда'
@@ -2927,6 +2930,9 @@ RULES_INFO_FORMAT: '/%s info <номер правила>'
 RULES_INFO:
 - '§aПравила §8| §fПо номеру §a%s§f найдено правило'
 - '§f - §b%s'
+RULES_FIND_FORMAT: '/%s find <описание правила>'
+RULES_FIND_NOT_FOUND: '§aПравила §8| §fК сожалению ни одно правило с описанием "§e%s§f" не найдено'
+RULES_FIND: '§aПравила §8| §fПоиск §a%s§f ..'
 
 FIREWORK_CMD: '§aСалют!'
 
