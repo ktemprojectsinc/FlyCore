@@ -24,6 +24,7 @@ SLOT_PREMIUM_LORE:
 - '§7Приобретите %s§7 или выше,'
 - '§7для разблокировки данного слота'
 CHEST_EMPTY: 'Пустой'
+CHEST_EMPTY_MSG: 'Сундук пуст'
 BANINFO_BY_ANOTHER: '§7(по просьбе %s§7)'
 TOP_POSITION: '§e%s Место'
 ALL: 'ВСЕ ВРЕМЯ'
