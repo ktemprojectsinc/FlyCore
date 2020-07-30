@@ -9050,6 +9050,7 @@ TPTOGGLE_ENABLE: 'Телепортации - §aвключены'
 TPTOGGLE_DISABLE: 'Телепортации - §cотключены'
 
 #items
+WOODEN_AXE: 'Деревянный топор'
 BAT_SPAWN_EGG: 'Яйцо призыва летучей мыши'
 BLAZE_SPAWN_EGG: 'Яйцо призыва восплоха'
 CAVE_SPIDER_SPAWN_EGG: 'Яйцо призыва пещерного паука'
