@@ -793,7 +793,10 @@ PLAYER_MARKETING_END_TIME: '§6Marketing §8| §cСожалеем, время в
 PLAYER_MARKETING_MODULE_CONFIRM: '§6Marketing §8| §f+1 §aмодуль пройден'
 PLAYER_MARKETING_QUIT_GAME: '§6Marketing §8| §fВы закрыли меню, арена покинута'
 
-PLAYER_RESTARTING_ARENA: '§cРестарт арены, вы будете телепортированны в лобби через 5 секунд'
+PLAYER_RESTARTING_ARENA_ACTIONBAR: '§e§lДо рестарта осталось §a§l%s'
+PLAYER_RESTARTING_ARENA: '§cОкончание игры, вы будете телепортированы %s через %s'
+PLAYER_RESTARTING_ARENA_TYPE_NEXT: 'в следующую игру'
+PLAYER_RESTARTING_ARENA_TYPE_LOBBY: 'в лобби'
 PLAYER_ARENA_RESTARTED: '§cАрена перезапускается'
 
 PLAYER_FLY_ACTIONBAR_TIME: '§cДо конца полета осталось: %s'
