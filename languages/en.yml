@@ -1395,7 +1395,7 @@ ITEM_GADGETS_BANNER: '§bBanner'
 ITEM_GAME_EXIT_NAME: '§c§lExit'
 ITEM_GAME_EXIT_LORE:
 - '§7Leave arena'
-- '§0§odon't let it start'
+- "§0§odon't let it start"
 ITEM_TEAMS_NAME: '§6§lSelect team'
 ITEM_TEAMS_LORE:
 - '§7Choose your team'
