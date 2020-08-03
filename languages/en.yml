@@ -1919,7 +1919,7 @@ FRIEND_REMOVE_ALERT: '§aFriends §8| §fPlayer %s§f removed you from friends'
 FRIEND_REMOVE_CONFIRM:
 - '§aFriends §8| §fAre you sure you want to delete your friend? This action cannot be undone!'
 - '§aFriends §8| §fEnter §e%s§f again to confirm §delete§f or §e%s§f to §a cancel'
-FRIEND_REMOVE_CANCELLED: '§aFriends §8| §fFriend's deletion canceled'
+FRIEND_REMOVE_CANCELLED: "§aFriends §8| §fFriend's deletion canceled"
 
 FRIEND_REQUESTS_NOT: "§aFriends §8| §cYou have't got unaccepted friend requests."
 
