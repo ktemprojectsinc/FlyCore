@@ -944,7 +944,7 @@ STAYHOME_RECOVERY_START_TO:
 STAYHOME_COMPASS_START:
 - '§fAll infected players received a compass for finding healthy'
 STAYHOME_COMPASS_START_TO:
-- '§fSit on the shift and don't get up!'
+- "§fSit on the shift and don't get up!"
 
 LUCKYWARS_FLY: '§aLuckyWars §8| §8| §fFly ends in §a5 seconds.'
 LUCKYWARS_FLY_INFO: '§aLuckyWars §8| §8| §fPlayer %s§f got fly from lucky block'
@@ -1733,8 +1733,8 @@ PLAYER_NAME_25: 'Purchased'
 PLAYER_NAME_26: 'Purchased'
 PLAYER_NAME_27: 'won'
 PLAYER_NAME_28: 'won'
-PLAYER_NAME_29: 'temped'
-PLAYER_NAME_30: 'temp'
+PLAYER_NAME_29: 'Temped'
+PLAYER_NAME_30: 'Temp'
 PLAYER_NAME_31: 'joined'
 PLAYER_NAME_32: 'joined'
 PLAYER_NAME_33: 'joined'
