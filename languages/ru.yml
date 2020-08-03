@@ -1296,8 +1296,8 @@ ITEM_EXIT_NAME: '§a§lНазад в главное лобби'
 ITEM_EXIT_LORE:
  - '§7Используйте этот предмет,'
  - '§7чтобы вернуться в главное лобби'
-ITEM_START_NAME: '§b§lБыстрый старт'
-ITEM_START_LORE:
+ITEM_FAST_START_NAME: '§b§lБыстрый старт'
+ITEM_FAST_START_LORE:
  - '§7Удобная навигация по'
  - '§7картам и аренам данного режима'
 ITEM_STAFFCHAT_NAME: '§eЧат персонала'
