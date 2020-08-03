@@ -6338,6 +6338,15 @@ GUI_SETTING_BOX_LORE:
 - '§7Позволяет включить или выключить'
 - '§7оповещение о получении награды,'
 - '§7игроку с куба удачи.'
+GUI_SETTING_EFFECT_ANIMATED: 'Эффекты'
+GUI_SETTING_EFFECT_ANIMATED_LORE:
+- '§7Позволяет включить или выключить'
+- '§7эффекты анимаций,'
+- '§7которые могут понижать ваш FPS.'
+GUI_SETTING_GUILD_TAG: 'Тег гильдии'
+GUI_SETTING_GUILD_TAG_LORE:
+- '§7Позволяет включить или выключить'
+- '§7тег гильдии в чате'
 
 GUI_REWARDS_SKYWARS_LORE:
 - '§7Normal'
