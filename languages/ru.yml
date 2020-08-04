@@ -6348,6 +6348,11 @@ GUI_SETTING_GUILD_TAG: 'Тег гильдии'
 GUI_SETTING_GUILD_TAG_LORE:
 - '§7Позволяет включить или выключить'
 - '§7тег гильдии в чате'
+GUI_SETTING_LAG_EFFECT_ANIMATED: 'Лаг-Эффекты'
+GUI_SETTING_LAG_EFFECT_ANIMATED_LORE:
+- '§7Позволяет включить или выключить'
+- '§7эффекты которые могут больше всего,'
+- '§7забрать вашего FPS.'
 
 GUI_REWARDS_SKYWARS_LORE:
 - '§7Normal'
