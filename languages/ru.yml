@@ -107,6 +107,8 @@ CLEAR_INFO: '§aСервер §8| §fУдалено §a%s§f ненужных с
 TIME_GIVE: '§aСервер §8| §fВы получили §a%s за онлайн %s'
 TYPE_YES: 'Да'
 TYPE_NO: 'Нет'
+RANK_PLAYER: 'Плохой игрок'
+RANK_SENIOR: 'Куратор'
 RANK_DEFAULT: 'Игрок'
 RANK_VIP: 'Вип'
 RANK_PREMIUM: 'Премиум'
