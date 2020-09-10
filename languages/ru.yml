@@ -3458,11 +3458,11 @@ GUI_PROFILE_OTHER_IGNORE_ADD_LORE:
 - ''
 - '§e▶ §7Нажмите, чтобы добавить'
 - '%s§7 в чёрный список'
-GUI_PROFILE_OTHER_IGNORE_REMOVE: 'Удалить игрока из чёрного списока'
+GUI_PROFILE_OTHER_IGNORE_REMOVE: 'Удалить игрока из чёрного списка'
 GUI_PROFILE_OTHER_IGNORE_REMOVE_LORE:
 - ''
 - '§e▶ §7Нажмите, чтобы удалить'
-- '%s§7 из чёрного списока'
+- '%s§7 из чёрного списка'
 GUI_PROFILE_OTHER_GUILD: 'Пригласить в гильдию'
 GUI_PROFILE_OTHER_GUILD_LORE:
 - ''
