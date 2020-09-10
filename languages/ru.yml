@@ -3432,7 +3432,7 @@ GUI_PROFILE_OTHER_LORE:
 GUI_PROFILE_OTHER_STATS_ONLINE:
 - '§7Статус онлайн: %s'
 GUI_PROFILE_OTHER_STATS_OFFLINE:
-- '§7%s: %s'
+- '§7%s: %s назад'
 GUI_PROFILE_OTHER_REPORT: 'Пожаловаться на игрока'
 GUI_PROFILE_OTHER_REPORT_LORE:
 - ''
