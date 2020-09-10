@@ -1720,6 +1720,8 @@ PLAYER_NAME_31: 'вошла'
 PLAYER_NAME_32: 'вошел'
 PLAYER_NAME_33: 'присоединилась'
 PLAYER_NAME_34: 'присоединился'
+PLAYER_NAME_35: 'Заходила'
+PLAYER_NAME_36: 'Заходил'
 
 ME_INFO:
 - ''
@@ -3427,8 +3429,10 @@ GUI_PROFILE_OTHER_LORE:
 - '§7Уровень: §d%s'
 - '§7Гильдия: %s'
 - '§7Пати: %s'
-- ''
+GUI_PROFILE_OTHER_STATS_ONLINE:
 - '§7Статус онлайн: %s'
+GUI_PROFILE_OTHER_STATS_OFFLINE:
+- '§7%s: %s'
 GUI_PROFILE_OTHER_REPORT: 'Пожаловаться на игрока'
 GUI_PROFILE_OTHER_REPORT_LORE:
 - ''
