@@ -107,6 +107,8 @@ CLEAR_INFO: '§aСервер §8| §fУдалено §a%s§f ненужных с
 TIME_GIVE: '§aСервер §8| §fВы получили §a%s за онлайн %s'
 TYPE_YES: 'Да'
 TYPE_NO: 'Нет'
+TYPE_STATS_ONLINE: 'Онлайн'
+TYPE_STATS_OFFLINE: 'Оффлайн'
 RANK_PLAYER: 'Плохой игрок'
 RANK_SENIOR: 'Куратор'
 RANK_DEFAULT: 'Игрок'
@@ -3388,6 +3390,80 @@ YOUTUBE_OTHER: '§aStaff §8| §fУ %s§f YouTube канал: §b%s'
 
 JOIN_TYPE_LOBBY: 'в лобби'
 JOIN_TYPE_OTHER: 'к игре'
+JOIN_HOVER: '§fКупите %s§f на %s!'
+
+CHAT_HOVER_LEVEL:
+- '§6Это уровень игрока,'
+- '§6Вы можете его получить играя в'
+- '§6мини-игры сервера, а также'
+- '§6из §dСокровищницы'
+CHAT_HOVER_GUILD_TAG:
+- '§6Это тег гильдии,'
+- '§6он устанавливается лидерами'
+- '§6гильдии'
+CHAT_HOVER_SUFFIX:
+- '§6Это суффикс, установить'
+- '§6его можно командой'
+- '§f/suffix <текст>'
+CHAT_HOVER_SHOP:
+- '§6Это донат-статус,'
+- '§6он дает много новых'
+- '§6возможностей.'
+- ''
+- '§bКупи его. Ведь он тебе нужен!'
+CHAT_HOVER_NO_DONATE:
+- '§d§oКак ты живешь без него?'
+- ''
+- '§e▶ §7Нажмите, чтобы получить донат'
+CHAT_HOVER_PROFILE:
+- '%s'
+- '§7Гильдия: %s'
+- '§7Пати: %s'
+- ''
+- '§e▸ Нажмите, чтобы посмотреть профиль игрока %s'
+
+GUI_PROFILE_OTHER: 'Просмотр профиля %s'
+GUI_PROFILE_OTHER_LORE:
+- '§7Уровень: §d%s'
+- '§7Гильдия: %s'
+- '§7Пати: %s'
+- ''
+- '§7Статус онлайн: %s'
+GUI_PROFILE_OTHER_REPORT: 'Пожаловаться на игрока'
+GUI_PROFILE_OTHER_REPORT_LORE:
+- ''
+- '§e▶ §7Нажмите, чтобы пожаловаться'
+- '§7на %s'
+GUI_PROFILE_OTHER_PARTY: 'Пригласить в пати'
+GUI_PROFILE_OTHER_PARTY_LORE:
+- ''
+- '§e▶ §7Нажмите, чтобы пригласить'
+- '%s§7 в пати'
+GUI_PROFILE_OTHER_FRIEND_ADD: 'Добавить друга'
+GUI_PROFILE_OTHER_FRIEND_ADD_LORE:
+- ''
+- '§e▶ §7Нажмите, чтобы добавить'
+- '§7в друзья %s'
+GUI_PROFILE_OTHER_FRIEND_REMOVE: 'Удалить друга'
+GUI_PROFILE_OTHER_FRIEND_REMOVE_LORE:
+- ''
+- '§e▶ §7Нажмите, чтобы удалить'
+- '§7из друзей %s'
+GUI_PROFILE_OTHER_IGNORE_ADD: 'Добавить игрока в чёрный список'
+GUI_PROFILE_OTHER_IGNORE_ADD_LORE:
+- ''
+- '§e▶ §7Нажмите, чтобы добавить'
+- '%s§7 в чёрный список'
+GUI_PROFILE_OTHER_IGNORE_REMOVE: 'Удалить игрока из чёрного списока'
+GUI_PROFILE_OTHER_IGNORE_REMOVE_LORE:
+- ''
+- '§e▶ §7Нажмите, чтобы удалить'
+- '%s§7 из чёрного списока'
+GUI_PROFILE_OTHER_GUILD: 'Пригласить в гильдию'
+GUI_PROFILE_OTHER_GUILD_LORE:
+- ''
+- '§e▶ §7Нажмите, чтобы пригласить'
+- '%s§7 в гильдию'
 
 VERIFY_CONFIRM: '§aВерификация §8| §fДанные совпадают, сессия восстановлена'
 VERIFY_CONFIRM_BROADCAST: '§cВерификация §8| §7Сессия %s§7 восстановлена'
