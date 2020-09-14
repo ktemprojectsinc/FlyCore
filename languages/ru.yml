@@ -1051,6 +1051,10 @@ GUNGAME_INFO:
 GUNGAME_STARTED_SUBTITLE: 'Бегай прыгай убивай'
 GUNGAME_LEVEL_UP: '§aУровень повышен до §b%s§a!'
 
+#Duels
+DUELS_INFO:
+- '§eСражайтесь за победу, или умрите'
+DUELS_STARTED_SUBTITLE: 'Убейте его, или он вас'
 
 PLAYER_TEAM_NO_PLACES: '§cВ данной команде нет мест.'
 PLAYER_TEAM_SELECTED: 'Вы выбрали команду %s'
