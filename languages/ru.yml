@@ -1604,6 +1604,8 @@ BOARD_SHOP: 'Магазин'
 BOARD_GROUP: 'Группа проекта'
 BOARD_DEVELOPMENT: 'Разработка'
 BOARD_SECOUNDS: 'сек'
+BOARD_VS: 'Ваш соперник'
+BOARD_MODE: 'Режим'
 
 REPORT_FORMAT: '/%s <ник> <причина>'
 WHOIS_FORMAT: '/%s <ник>'
