@@ -1066,7 +1066,7 @@ DUELS_SETTING_SELECT_INFO: 'Большинство выбрало режим %s'
 
 DUELS_TYPE_CLASSIC:
 - '§7Классическое PvP'
-DUElS_TYPE_BUILD:
+DUELS_TYPE_BUILD:
 - '§7Возможность строить,'
 - '§7и ломать блоки на карте'
 
