@@ -1061,9 +1061,14 @@ ITEM_DUELS_SETTING_LORE:
 - '§7Выберите режим который будет'
 - '§7на арене!'
 GUI_DUELS_SETTING:
-- ''
 - '§7Его выбрали:'
 DUELS_SETTING_SELECT_INFO: 'Большинство выбрало режим %s'
+
+DUELS_TYPE_CLASSIC:
+- '§7Классическое PvP'
+DUElS_TYPE_BUILD:
+- '§7Возможность строить,'
+- '§7и ломать блоки на карте'
 
 PLAYER_TEAM_NO_PLACES: '§cВ данной команде нет мест.'
 PLAYER_TEAM_SELECTED: 'Вы выбрали команду %s'
