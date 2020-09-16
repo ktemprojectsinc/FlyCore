@@ -840,7 +840,10 @@ ONLY_DONATOR: '§cОшибка, на арене только донатеры'
 ARENA_BUSY: '§cАрена заполнена, не хватает слотов? Купите %s§c или выше'
 ARENA_START: '§cИгра начинается...'
 ARENA_RESTART: '§cСервер перезагружается...'
-SERVERS_RESTART: '§cСервера перезагружаются...'
+SERVER_RESTART: '§cСервер перезагружается'
+SERVERS_RESTART: '§cСервера перезагружаются'
+SERVER_DISABLE: '§4Сервер отключен!'
+SERVERS_DISABLE: '§4Сервера отключены!'
 
 GAMER_JOIN_ARENA: '%s§f зашел в игру (§a%s§f/§a%s§f)'
 GAMER_QUIT_ARENA: '%s§f покинул игру (§c%s§f/§a%s§f)'
@@ -5928,10 +5931,6 @@ GUI_GAMES_DEVELOPMENT_1:
 - ' §c▶ В разработке'
 - ' §c▶ В разработке.'
 - ' §c▶ В разработке..'
-GUI_GAMES_OFFLINE_1:
-- ' §cСервер перезагружается.'
-- ' §cСервер перезагружается..'
-- ' §cСервер перезагружается...'
 GUI_GAMES_CONNECT_1:
 - '§1▶ §eНажмите, чтобы подключится'
 - '§a  §eНажмите, чтобы подключится'
@@ -9924,7 +9923,6 @@ HOLO_DONATE:
 HOLO_ONLINE_UPDATER: '§fНа режиме играет §a%s'
 HOLO_SELECTOR_GAME_CHANNEL: '§7Нажмите, чтобы подключиться'
 HOLO_REPLACER_CHANNEL: 'На режиме играет %s'
-HOLO_REPLACER_CHANNEL_ERROR: '§4Сервера не найдены!'
 
 GAME_UPDATE_NAME: '§lОбновлено!'
 GAME_UPDATE_NEW_NAME: '§lНовый!'
