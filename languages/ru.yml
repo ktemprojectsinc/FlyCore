@@ -840,6 +840,7 @@ ONLY_DONATOR: '§cОшибка, на арене только донатеры'
 ARENA_BUSY: '§cАрена заполнена, не хватает слотов? Купите %s§c или выше'
 ARENA_START: '§cИгра начинается...'
 ARENA_RESTART: '§cСервер перезагружается...'
+SERVERS_RESTART: '§cСервера перезагружаются...'
 
 GAMER_JOIN_ARENA: '%s§f зашел в игру (§a%s§f/§a%s§f)'
 GAMER_QUIT_ARENA: '%s§f покинул игру (§c%s§f/§a%s§f)'
