@@ -835,6 +835,9 @@ AVAILABLE_SERVER_NO_GROUP:
 AVAILABLE_SERVER_WAIT:
 - '§aСервер §8| §fСервер недавно был отключен,'
 - '§f  скорее всего он на перезагрузке, ожидайте'
+AVAILABLE_SERVER_OFFLINE:
+- '§aСервер §8| §fСервер был полностью отключен,'
+- '§f  если у вас есть вопросы пишите нам -> §ehttps://vk.me/flycore§f или §dsupport@flycore.ru'
 AVAILABLE_SERVER_NO_NEVER:
 - '§aСервер §8| §fСервер, к которому вы пытаетесь'
 - '§f  подключится, не разу не был подключен к сети'
