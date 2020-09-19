@@ -1091,11 +1091,28 @@ GUI_DUELS_SETTING:
 - '§7Его выбрали:'
 DUELS_SETTING_SELECT_INFO: 'Большинство выбрало режим %s'
 
+DUELS_TYPE_CLASSIC_NAME: 'Классика'
 DUELS_TYPE_CLASSIC:
 - '§7Классическое PvP'
+DUELS_TYPE_BUILD_NAME: 'Строительство'
 DUELS_TYPE_BUILD:
 - '§7Возможность строить,'
 - '§7и ломать блоки на карте'
+DUELS_TYPE_RANDOM_NAME: 'Рандом'
+DUELS_TYPE_RANDOM:
+- '§7Делай что хочешь'
+DUELS_TYPE_OP_NAME: 'Опка'
+DUELS_TYPE_OP:
+- '§7Все что может выдать админ'
+DUELS_TYPE_BOWS_NAME: 'Лучная дуэль'
+DUELS_TYPE_BOWS:
+- '§7Дерись только на луках'
+DUELS_TYPE_UCH_NAME: 'Ultra HardCore'
+DUELS_TYPE_UHC:
+- '§7Ультра хардкор'
+DUELS_TYPE_SABLA_NAME: 'Сабли'
+DUELS_TYPE_SABLA:
+- '§7Классика, но без брони'
 
 PLAYER_TEAM_NO_PLACES: '§cВ данной команде нет мест.'
 PLAYER_TEAM_SELECTED: 'Вы выбрали команду %s'
