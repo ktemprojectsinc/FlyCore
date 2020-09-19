@@ -3764,7 +3764,7 @@ AUTH_BANNED:
 AUTH_LOAD_ERROR: '§cОшибка #2, сообщите vk.me/flycore'
 AUTH_SERVERS_NOT_AVAILABLE:
 - '§cСервера авторизации недоступны'
-- 'Сообщите vk.me/flycore'
+- '§cСообщите vk.me/flycore'
 PROXY_RESERVE_SERVERS_NOT_AVAILABLE:
 - '§cРезервные сервера недоступны'
 AUTH_REGISTER_ERROR: '§cОшибка #4, сообщите vk.me/flycore'
