@@ -3524,7 +3524,7 @@ CHAT_HOVER_EVENT_SUBSCRIBED_NEED:
     - '§e%s'
 EVENT_SUBSCRIBED_LEFT:
   - ''
-  - '§fВремя вашей подписки §e§lEVENT§f истекло!'
+  - '§fВремя вашей §e§lИвент-Подписки§f истекло!'
   - '§fпродлите её на сайте §d%s'
   - '§fчтобы продолжить пользоваться возможностями.'
 GUI_EVENT_SUBSCRIBED_ICONS: 'Выбор значка'
