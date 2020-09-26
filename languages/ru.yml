@@ -1115,6 +1115,9 @@ DUELS_TYPE_UHC:
 DUELS_TYPE_SABLA_NAME: 'Сабли'
 DUELS_TYPE_SABLA:
   - '§7Классика, но без брони'
+DUELS_TYPE_SUMO_NAME: 'Сумо'
+DUELS_TYPE_SUMO:
+  - '§7Скинь противника'
 
 PLAYER_TEAM_NO_PLACES: '§cВ данной команде нет мест.'
 PLAYER_TEAM_SELECTED: 'Вы выбрали команду %s'
