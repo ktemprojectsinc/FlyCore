@@ -1766,7 +1766,7 @@ PREFIX_INVALID: '§cПрефикс может состоять только из
 GROUP_TIME_INFO: '§7(Сроком: %s)'
 
 NO_FOUND_PLAYER: '§aСервер §8| §fИгрок %s§f не найден или он оффлайн'
-NO_FOUND_PLAYER_IN_GAMEMODE: '§aСервер §8| §cИгрок %s§f не найден на данном режиме'
+NO_FOUND_PLAYER_IN_GAMEMODE: '§aСервер §8| §fИгрок %s§f не найден на данном режиме'
 NO_NEVER_PLAYER: '§aСервер §8| §fИгрок %s никогда прежде не играл на нашем проекте'
 NOT_FOUND_PLAYER: '§aСервер §8| §f%s %s§f не %s или %s оффлайн'
 
