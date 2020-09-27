@@ -1149,6 +1149,7 @@ GUI_BW_SHOP_FEED: 'Еда'
 GUI_BW_SHOP_CHEST: 'Сундуки'
 GUI_BW_SHOP_POTION: 'Зелья'
 GUI_BW_SHOP_OTHER: 'Разное'
+GUI_BW_SHOP_MOBS: 'Мобы'
 
 GUI_BW_SHOP_NO_SLOTS: '§cУ вас недостаточно места в инвентаре!'
 GUI_BW_SHOP_GUI_ADD_FAVOURITE: '§aПКМ, чтобы добавить в избранное'
