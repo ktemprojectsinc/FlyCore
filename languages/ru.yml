@@ -8289,6 +8289,18 @@ GUI_COSMETIC_KITS_LORE:
   - ''
   - '§e▸ Нажмите, чтобы открыть меню'
 
+GUI_COSMETIC_BREAKSOUND_LORE:
+  - '§7Покупка и активация звука'
+  - '§7который услышат все игроки'
+  - '§7на арене, при разрушении спавна'
+  - '§7другой команды.'
+  - ''
+  - '§7Открыто: §a%s/%s §3%s'
+  - '§7Активированный звук:'
+  - '%s'
+  - ''
+  - '§e▸ Нажмите, чтобы открыть меню'
+
 GUI_COSMETIC_ARROWEFFECT_1: 'Зелья'
 GUI_COSMETIC_ARROWEFFECT_1_LORE:
   - '§7Волны магических сил всех существ'
@@ -8578,65 +8590,51 @@ GUI_COSMETIC_COLORABLE_25_LORE:
 
 GUI_COSMETIC_BREAKSOUND_1: 'Смерть стража'
 GUI_COSMETIC_BREAKSOUND_1_LORE:
-  - ''
   - '§7Вместе с кроватью пал страж, защищающий её..'
 GUI_COSMETIC_BREAKSOUND_2: 'Надсмешка'
 GUI_COSMETIC_BREAKSOUND_2_LORE:
-  - ''
   - '§7Сломали кровать?'
   - '§7Так можно надсмехаться над ними, хаха!'
 GUI_COSMETIC_BREAKSOUND_3: 'Патруль Иссушителя'
 GUI_COSMETIC_BREAKSOUND_3_LORE:
-  - ''
   - '§7Иссушите волю противника одним лишь звуком!'
 GUI_COSMETIC_BREAKSOUND_4: 'Смерть Иссушителя'
 GUI_COSMETIC_BREAKSOUND_4_LORE:
-  - ''
   - '§7Говорят.. этот звук слышат только "олды"..'
 GUI_COSMETIC_BREAKSOUND_5: 'Треск кровати'
 GUI_COSMETIC_BREAKSOUND_5_LORE:
-  - ''
   - '§7Очень похоже на звук твоих соседей'
 GUI_COSMETIC_BREAKSOUND_6: 'Восстание нечисти'
 GUI_COSMETIC_BREAKSOUND_6_LORE:
-  - ''
   - '§7Апокалипсис? Восстание мертвецов?'
   - '§7Хуже! Сломали кровать..'
 GUI_COSMETIC_BREAKSOUND_7: 'Сломанная кровать'
 GUI_COSMETIC_BREAKSOUND_7_LORE:
-  - ''
   - '§7Удивительно: звуки сломанной'
   - '§7кровати при ломании кровати'
 GUI_COSMETIC_BREAKSOUND_8: 'Удар наковальни'
 GUI_COSMETIC_BREAKSOUND_8_LORE:
-  - ''
   - '§7"Я бью два раз: первый раз по кровати,'
   - '§7второй — по крышке гроба.'
   - '§7Ну и третий раз об наковальню"'
 GUI_COSMETIC_BREAKSOUND_9: 'Открытие портала'
 GUI_COSMETIC_BREAKSOUND_9_LORE:
-  - ''
   - '§7"На портал сел — кровать должен"'
 GUI_COSMETIC_BREAKSOUND_10: 'Пропасть'
 GUI_COSMETIC_BREAKSOUND_10_LORE:
-  - ''
   - '§7Словно демон вышел из кровати, '
   - '§7чтобы отомстить вам..'
 GUI_COSMETIC_BREAKSOUND_11: 'Взрыв фейерверка'
 GUI_COSMETIC_BREAKSOUND_11_LORE:
-  - ''
   - '§7Праздничный салют в честь небольшого достижения'
 GUI_COSMETIC_BREAKSOUND_12: 'Волшебство вызывателя'
 GUI_COSMETIC_BREAKSOUND_12_LORE:
-  - ''
   - '§7Ловкость рук и никакого мошенничества!'
 GUI_COSMETIC_BREAKSOUND_13: 'Колдовство вызывателя'
 GUI_COSMETIC_BREAKSOUND_13_LORE:
-  - ''
   - '§7Женщина, не колдую, женщина, я не колдую'
 GUI_COSMETIC_BREAKSOUND_14: 'Рык дракона'
 GUI_COSMETIC_BREAKSOUND_14_LORE:
-  - ''
   - '§7Грозный рык сразит противников в ужас!'
 
 GUI_REPORTS_NAME: 'Список жалоб'
