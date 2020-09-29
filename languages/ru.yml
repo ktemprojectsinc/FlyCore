@@ -1037,7 +1037,7 @@ GAME_SPECTATOR_MESSAGE: 'Вы погибли и теперь можете тол
 GAME_JOIN_NAME: 'Присоединится к команде'
 GAME_JOIN_LORE:
 - ''
-- '§7Игроков: §e%s'
+- '§7Игроков: §e%s§7/§c%s'
 - ''
 - '§7Цена: %s'
 GAME_JOIN_AVAILABLE:
