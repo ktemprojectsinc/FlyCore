@@ -1016,7 +1016,7 @@ GAME_CHAT_SPECTATORS: '§8[§7Наблюдателям§8]'
 GAME_CHAT_GLOBAL: '§8[%sВсем§8]'
 GAME_CHAT_TEAM: '§8[Команде§8]'
 GAME_TEAM_GAME_OVER: 'Команда %s§f проиграла'
-GAME_PLAYER_GAME_QUIT: '§fИгрок %s§f покинул игру'
+GAME_PLAYER_GAME_QUIT: '%s§f покинул игру'
 GAME_PLAYER_RESOURCES: '§fВы получили +§6%s ресурсов§f за убийство игрока %s'
 GAME_ENDERCHEST_ALREADY_OPEN: '§cЭндер-сундук команды уже открыт игроком %s'
 GAME_WIN_PLAYER_BOARD: 'Победил игрок'
@@ -1028,6 +1028,8 @@ GAME_TITLE_OVER: '§c§lИГРА ОКОНЧЕНА'
 GAME_TITLE_NOT_WINNER: '§7Вы проиграли в этой игре'
 GAME_NO_BREAK_BLOCK_TEAM: '§cВы не можете ломать блоки под своими тиммейтами'
 GAME_REJOIN: '§fВы перезашли в игру'
+GAME_JOIN: '§fВы присоединились к игре'
+GAME_JOIN_INFO: '%s§f присоединился к игре'
 GAME_COSMETIC_NO_AVAILABLE: '§cНельзя менять перк во время игры'
 GAME_SPECTATOR_MESSAGE: 'Вы погибли и теперь можете только наблюдать за игровым процессом'
 
@@ -1320,6 +1322,7 @@ TAB_HEADER:
   - ''
 TAB_FOOTER:
   - ''
+  - '§fСтатус: %stats§f | Ник: %nik§f'
   - '§fВы находитесь на сервере:'
   - '§b%s'
 TAB_GAME:
@@ -1490,6 +1493,13 @@ ITEM_START_LORE:
   - '§7Используйте этот предмет,'
   - '§7чтобы запустить игру на арене'
 HELP_ITEM_USE: '§d[ПКМ]'
+HELP_ITEM_LORE:
+  - ''
+  - '§8▶ Нажмите, для использования'
+ITEM_JOIN_NAME: '§e§lПрисоединится к игре'
+ITEM_JOIN_LORE:
+  - '§7Используйте этот предмет,'
+  - '§7чтобы присоединится к игре на арене'
 
 TRAINING_PREFIX: '§aОбучение §8| §f'
 TRAINING_PREFIX_HOVER: '   §8 -| §6§lОбучение §8|-'
