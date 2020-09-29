@@ -1033,6 +1033,7 @@ GAME_JOIN_INFO: '%s§f присоединился к игре команды %s'
 GAME_JOIN_ERROR: '§cНет доступных команд для входа'
 GAME_COSMETIC_NO_AVAILABLE: '§cНельзя менять перк во время игры'
 GAME_SPECTATOR_MESSAGE: 'Вы погибли и теперь можете только наблюдать за игровым процессом'
+GAME_MOBS_LIMIT: 'Ваша команда привысила лимит мобов §a%s§f/§c%s'
 
 GAME_JOIN_NAME: 'Присоединится к команде'
 GAME_JOIN_LORE:
