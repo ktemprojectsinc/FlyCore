@@ -1039,7 +1039,11 @@ GAME_JOIN_LORE:
 - ''
 - '§7Игроков: §e%s'
 - ''
-- '§e▸ Нажмите, чтобы присоединится'
+- '§7Цена: %s'
+GAME_JOIN_AVAILABLE:
+- '§e▸ Нажмите, чтобы присоединится за %s'
+GAME_JOIN_UNAVAILABLE:
+- '§c✗ У вас не достаточно %s'
 
 COMPASS_MESSAGE: '§fИгрок: %s      §fРасстояние: '
 COMPASS_MESSAGE_SPECTATOR: '§fБлижайший игрок: %s      §fРасстояние: §a%s'
