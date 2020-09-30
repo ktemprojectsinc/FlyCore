@@ -6880,6 +6880,8 @@ GUI_SETTING_STACK_PLAYER_LORE:
   - '§7Позволяет разрешить или запретить'
   - '§7поднимать вас другим игрокам'
 
+PLAYER_NO_STACK: '§cДанный игрок запретил поднимать его'
+
 GUI_REWARDS_SKYWARS_LORE:
   - '§7Normal'
   - '§fОдиночный режим:'
