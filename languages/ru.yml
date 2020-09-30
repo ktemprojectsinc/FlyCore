@@ -6875,6 +6875,10 @@ GUI_SETTING_LAG_EFFECT_ANIMATED_LORE:
   - '§7Позволяет включить или выключить'
   - '§7эффекты которые могут больше всего,'
   - '§7забрать вашего FPS.'
+GUI_SETTING_STACK_PLAYER: 'Поднятие игрока'
+GUI_SETTING_STACK_PLAYER_LORE:
+  - '§7Позволяет разрешить или запретить'
+  - '§7поднимать вас другим игрокам'
 
 GUI_REWARDS_SKYWARS_LORE:
   - '§7Normal'
