@@ -9690,6 +9690,7 @@ TPTOGGLE_ENABLE: 'Телепортации - §aвключены'
 TPTOGGLE_DISABLE: 'Телепортации - §cотключены'
 
 #items
+TRIDENT: 'Трезубец'
 WOODEN_AXE: 'Деревянный топор'
 BAT_SPAWN_EGG: 'Яйцо призыва летучей мыши'
 BLAZE_SPAWN_EGG: 'Яйцо призыва восплоха'
