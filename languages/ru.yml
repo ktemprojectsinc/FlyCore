@@ -19,6 +19,7 @@ NOT_SETS: '§cНе установлено'
 PROMO_ITEM_NAME: '§aСкидки!'
 HIDDEN: '§cСкрыт'
 PLAYER_HIDE: '§cСкрытый игрок'
+EXCLUSIVE: 'Эксклюзив'
 SLOT_EMPTY: '§cПустой слот'
 SLOT_PREMIUM: 'Премиум-слот (Пустой)'
 SLOT_PREMIUM_LORE:
@@ -6549,7 +6550,7 @@ GUI_GAMES_LOBBY_LORE:
   - '§7своих друзей'
 
 GUI_STAFF_AND_DONATE_ITEM: 'Список %s'
-GUI_STAFF_AND_DONATE_NAME: 'Список персонала и донатеров (%s)'
+GUI_STAFF_AND_DONATE_NAME: 'Список персонала (%s)'
 GUI_GROUP_NAME: 'Список игроков с группой - %s'
 GUI_GROUP_NO_FOUND: '§cВ данный момент нет людей состоящих в %s'
 GUI_GROUP_NO_FOUND_LORE:
