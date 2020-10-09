@@ -6349,6 +6349,7 @@ GUI_GAMES_DONATE: '§bПривилегии'
 GUI_GAMES_LOBBY: '§bГлавное лобби'
 GUI_GAMES_RECOMMEND: 'Рекомендуемая версия для игры:'
 GUI_GAMES_STATS_VIEW: '§e▶ ПКМ, чтобы посмотреть статистику'
+GUI_GAMES_SELECT_TYPE: '§e▶ Нажмите, чтобы выбрать тип'
 GUI_GAMES_SKYWARS_LORE:
   - '§8Битвы на островах'
   - ''
