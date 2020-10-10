@@ -10410,7 +10410,7 @@ HOLO_DONATE:
   - '%animation%www.flycore.ru'
 
 HOLO_ONLINE_UPDATER: '§fНа режиме играет §a%s'
-HOLO_SELECTOR_GAME_CHANNEL: '§7Нажмите, чтобы подключиться'
+HOLO_SELECTOR_GAME_CHANNEL: 'ЖМИ, ИГРАЙ'
 HOLO_REPLACER_CHANNEL: 'На режиме играет %s'
 
 GAME_UPDATE_NAME: '§lОбновлено!'
