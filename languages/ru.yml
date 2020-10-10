@@ -7817,6 +7817,10 @@ GUI_GADGETS_EFFECT_23_LORE:
 GUI_GADGETS_EFFECT_24: 'Дождь x2'
 GUI_GADGETS_EFFECT_24_LORE:
   - '§7§lПример дождя был взят с шторма...'
+GUI_GADGETS_EFFECT_25: 'Эффект для избранных'
+GUI_GADGETS_EFFECT_25_LORE:
+  - '§7Если у вас он разблокирован,'
+  - '§7значит вы избранный'
 GUI_GADGETS_HAT_1: 'Обычная шапка'
 GUI_GADGETS_HAT_1_LORE:
   - '§7У Вас будет шапка стива'
