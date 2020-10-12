@@ -6560,8 +6560,8 @@ GUI_GAMES_LOBBY_LORE:
   - '§7Смените лобби, и найдите'
   - '§7своих друзей'
 
-GUI_STAFF_AND_DONATE_ITEM: 'Список %s'
-GUI_STAFF_AND_DONATE_NAME: 'Список персонала (%s)'
+GUI_STAFF_ITEM: 'Список %s'
+GUI_STAFF_NAME: 'Список персонала'
 GUI_GROUP_NAME: 'Список игроков с группой - %s'
 GUI_GROUP_NO_FOUND: '§cВ данный момент нет людей состоящих в %s'
 GUI_GROUP_NO_FOUND_LORE:
