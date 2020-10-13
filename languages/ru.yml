@@ -10393,15 +10393,6 @@ HOLO_REWARDS:
   - '§7Нажмите, чтобы открыть'
 
 HOLO_DONATE:
-  - '§eПривилегии:'
-  - '%pvip§f - §5%dvip §fрублей'
-  - '%ppremium§f - §5%dpremium §fрублей'
-  - '%pultra§f - §5%dultra §fрублей'
-  - '%pclassik§f - §5%dclassik §fрублей'
-  - '%animation%§lDELUX§f - §b%ddelux §fрублей'
-  - '%animation%§lIMPERATOR§f - §b%dimperator §fрублей'
-  - '%animation%§lHELPER§f - §b%dhelper §fрублей'
-  - '%animation%§lBOSS§f - §b%dboss §fрублей'
   - '§fПокупать на сайте:'
   - '%animation%www.flycore.ru'
 
@@ -10418,7 +10409,7 @@ HOLO_VK:
   - '§fЗаходите в нашу группу §7§lVK'
   - '§d§lvk.com/flycore'
 HOLO_SITE:
-  - '§fСайт сервера §7§lОнлайн'
+  - '§fСайт сервера §a§lОнлайн'
   - '§d§lwww.flycore.ru'
 
 HOLO_ANARCHY:
