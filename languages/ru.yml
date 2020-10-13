@@ -7541,6 +7541,7 @@ GUI_STATS_KITWARS_LORE:
   - ' §8▪ §7Убийств: §a%s'
   - ' §8▪ §7Собрано бонусов: §a%s'
 GUI_STATS_ARCADEGAMES_LORE:
+  - ''
   - '§d<Duels Solo>§7:'
   - ' §8▪ §7Винрейт: §a%s'
   - ' §8▪ §7Сыграно игр: §a%s'
