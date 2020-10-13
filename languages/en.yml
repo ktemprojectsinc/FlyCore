@@ -4886,8 +4886,8 @@ GUI_GAMES_LOBBY_LORE:
 - '§7find your friends'
 GUI_GAMES_DONATE: '§bPrivileges'
 GUI_GAMES_LOBBY: '§bMain lobby'
-GUI_STAFF_AND_DONATE_ITEM: 'List %s'
-GUI_STAFF_AND_DONATE_NAME: 'Staff list and donators (%s)'
+GUI_STAFF_ITEM: 'List %s'
+GUI_STAFF_NAME: 'Staff list'
 GUI_GROUP_NAME: 'List of players with thr group - %s'
 GUI_GROUP_NO_FOUND: '§cThere is no players with %s'
 GUI_GROUP_NO_FOUND_LORE:
