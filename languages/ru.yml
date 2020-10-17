@@ -1853,6 +1853,10 @@ PLAYER_NAME_35: 'Заходила'
 PLAYER_NAME_36: 'Заходил'
 PLAYER_NAME_37: 'рассмотрела'
 PLAYER_NAME_38: 'рассмотрел'
+PLAYER_NAME_39: 'одобрила'
+PLAYER_NAME_40: 'одобрил'
+PLAYER_NAME_41: 'отклонила'
+PLAYER_NAME_42: 'отклонил'
 
 ME_INFO:
   - ''
