@@ -22,6 +22,7 @@ PLAYER_HIDE: '§cСкрытый игрок'
 EXCLUSIVE: 'Эксклюзив'
 SLOT_EMPTY: '§cПустой слот'
 SLOT_PREMIUM: 'Премиум-слот (Пустой)'
+COMMENT: 'Комментарий'
 SLOT_PREMIUM_LORE:
   - ''
   - '§7Приобретите %s§7 или выше,'
