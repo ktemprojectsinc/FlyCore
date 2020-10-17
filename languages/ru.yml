@@ -8975,6 +8975,7 @@ GUI_BANLIST_PLAYER_OFFLINE:
   - ''
   - ' §c✗ В данный момент оффлайн'
 GUI_BANLIST_PLAYER_VIEW: '§e▸ Нажмите, чтобы посмотреть подробнее'
+GUI_BANLIST_PLAYER_UNBAN: '§e▸ Колесом мыши, чтобы разблокировать'
 
 GUI_PARTYALL_NAME: 'Группы ▸ Список групп'
 GUI_PARTYALL_EMPTY: '§cВ данный момент нет публичных групп'
