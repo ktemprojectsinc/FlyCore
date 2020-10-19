@@ -3996,6 +3996,7 @@ ANTIMAT: '§cАнтимат'
 VKBOT: '§9VK-Бот'
 
 PLAYER_YOUR_BOT: '§cБот, уходи!'
+PLAYER_KICK_ERROR: '§cОшибка #%s, сообщите vk.me/flycore'
 
 AUTH_PLAYER_ALREADY: '§cИгрок уже на сервере'
 AUTH_PLAYER_QUIT: '§cВы вышли с сервера'
@@ -4184,13 +4185,11 @@ AUTH_NAME_MORE:
 AUTH_BANNED:
   - '§cДанный IP был заблокирован на §e10 §cминут'
   - '§cПодозрение на взлом :/'
-AUTH_LOAD_ERROR: '§cОшибка #2, сообщите vk.me/flycore'
 AUTH_SERVERS_NOT_AVAILABLE:
   - '§cСервера авторизации недоступны'
   - '§cСообщите vk.me/flycore'
 PROXY_RESERVE_SERVERS_NOT_AVAILABLE:
   - '§cРезервные сервера недоступны'
-AUTH_REGISTER_ERROR: '§cОшибка #4, сообщите vk.me/flycore'
 AUTH_ACCOUNT_PROTECTED: '§cДанный аккаунт вам не принадлежит'
 FORUM_INFO: '§c⚠ Внимание! §fВы еще не зарегистрированы §cна форуме§f, сделайте это прямо сейчас - §a/forum'
 FORUM_INFO_HOVER:
