@@ -219,12 +219,12 @@ CONFIRM:
 CONFIRM_CANCEL: '§aActions §8| §fAction §8(§a%s§8)§f canceled'
 
 HOLIDAY_HEAD_FOUND_TITLE: '§6§lCongratulations!'
-HOLIDAY_HEAD_FOUND_SUBTITLE: '§fYou found a present §a%s§f/§c%s'
+HOLIDAY_HEAD_FOUND_SUBTITLE: '§fYou found a pumpkin §a%s§f/§c%s'
 HOLIDAY_HEAD_FOUND_ALL_TITLE: '§a§lHappy New Year!'
-HOLIDAY_HEAD_FOUND_ALL_SUBTITLE: '§6You have found all presents!'
-HOLIDAY_HEAD_FOUND_COUNT: 'Presents found: §a%s§f/§a%s'
-HOLIDAY_HEAD_FOUND_COUNT_BOARD: 'Presents found: §a'
-HOLIDAY_COUNTDOWN: 'New Year in: §a'
+HOLIDAY_HEAD_FOUND_ALL_SUBTITLE: '§6You have found all pumpkins!'
+HOLIDAY_HEAD_FOUND_COUNT: 'Pumpkins found: §a%s§f/§a%s'
+HOLIDAY_HEAD_FOUND_COUNT_BOARD: 'Pumpkins found'
+HOLIDAY_COUNTDOWN: 'Halloween in: §a'
 HOLIDAY_MONEY: 'New Yeat coins'
 ENCHANT_TITLE: 'Enchants'
 
