@@ -153,18 +153,14 @@ SYSTEM_NOT_FOUND_PLAYER_DATA:
   - '§fОшибка, Ваши данные в системе не были определены или правильно загружены. §7(Ошибка #§c%s§7)'
   - ''
   - '§6Если ошибка повторилась, сообщите » §avk.me/flycore_dev'
-PROXY_LOST_CONNECTION:
-  - '§fПрокси-сервер отключен от системы. Вам будут недоступны некоторые команды до подключения.'
-PROXY_LOST_CONNECTION_TITLE: ''
-PROXY_LOST_CONNECTION_SUBTITLE: ''
-PROXY_RECONNECTED:
+SYSTEM_RESTART:
+  - '§fСистема отключена. Вам будут недоступны некоторые функции и команды до подключения.'
+SYSTEM_LOST_CONNECTION:
+  - '§fСоединение с системой потеряно.'
+SYSTEM_RECONNECT:
   - '§fПереподключение к системе... [§a%s§f/§a%s§f]'
-PROXY_RECONNECTED_TITLE: ''
-PROXY_RECONNECTED_SUBTITLE: ''
-PROXY_RECONNECTED_SUCCESSFUL:
-  - '§fСоединение с прокси-сервером восстановлено.'
-PROXY_RECONNECTED_SUCCESSFUL_TITLE: ''
-PROXY_RECONNECTED_SUCCESSFUL_SUBTITLE: ''
+SYSTEM_RECONNECTED_SUCCESSFUL:
+  - '§fСоединение с системой восстановлено.'
 
 RULE_FORMAT: '/%s <yes/no>'
 RULE_NO_AGREEMENT_TITLE: '§c⚠ У вас не принято соглашение!'
