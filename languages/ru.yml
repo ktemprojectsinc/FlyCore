@@ -10257,10 +10257,10 @@ GUI_GAMESTORE_TYPE_LVL_LORE:
   - '§7перед другими'
 
 PLAYER_GAMESTORE_BUY:
-  - '                §8-| §a§lМагазин §8|-'
-  - ' §fСпасибо за покупку! Вы приобрели товар %s'
+  - '§8-| §a§lМагазин §8|-'
+  - '§fСпасибо за покупку! Вы приобрели товар %s'
 PLAYER_GAMESTORE_BUY2:
-  - ' §fНаслаждайтесь вашей покупкой'
+  - '§fНаслаждайтесь вашей покупкой'
 PLAYER_GAMESTORE_BUY_RANK:
   - '§fРанг куплен на %s'
 PLAYER_GAMESTORE_BUY_LVL:
