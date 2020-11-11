@@ -1740,7 +1740,7 @@ PARTYCHAT_FORMAT: '/%s <сообщение>'
 GUILDCHAT_FORMAT: '/%s <сообщение>'
 IGNORE_FORMAT: '/%s <ник> <причина>'
 HISTORY_FORMAT: '/%s <ник> <%s>'
-PLAY_FORMAT: '/%s <игра>'
+PLAY_FORMAT: '/%s <сервер например bws или sws>'
 YTREQUESTS_FORMAT: '/%s <ссылка на канал>'
 
 TFA_DELAY: '§aTFA §8| §fИзменить ключ доступа можно будет через %s'
