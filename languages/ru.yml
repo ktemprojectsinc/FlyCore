@@ -3112,7 +3112,9 @@ TIME: 'Времени проведено на сервере - §a%s §7(За %s
 TIME_TO: '%s§f провел - §a%s§f времени на сервере §7(За %s)'
 
 ACCOUNT_BALANCE: '§aАккаунт §8| §fНа вашем аккаунте'
+ACCOUNT_BALANCE_OTHER: '§fНа аккаунте %s§f:'
 ACCOUNT_BALANCE_NOT_KEYS: '§aАккаунт §8| §fНа вашем аккаунте нет ключей'
+ACCOUNT_BALANCE_OTHER_NOT: '§fНа аккаунте %s§f нет указанной статистики'
 
 BUY_DONATE_BROADCAST:
   - ''
