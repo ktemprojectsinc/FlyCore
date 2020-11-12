@@ -3156,7 +3156,7 @@ ONLINE_ALL:
 - '§aServer §8| §fTotal online §a%s'
 ONLINE:
 - '§aServer §8| §fTotal online of %s'
-- ''
+ONLINE2:
 - ' §a▪ §fCool people: %s'
 - ' §a▪ §fPlayers: %s'
 - ' §a▪ §fDonate: %s'
