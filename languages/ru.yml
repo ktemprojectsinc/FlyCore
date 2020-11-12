@@ -2832,7 +2832,7 @@ REPORT_INFO_ONE: '§cЖалобы §8| §fНа игрока %s§f поступи
 REPORT_INFO_TWO: '§cЖалобы §8| §fНа игрока %s§f поступило уже §c%s'
 REPORT_PLAYER_GUILTY: '§eЖалобы §8| %s§f на которого Вы подавали жалобу был наказан. Спасибо за содействие в поимке!'
 REPORT_PLAYER_INNOCENT: '§eЖалобы §8| %s§f отклонил вашу жалобу на %s'
-REPORT_BROADCAST_PLAYER_GUILTY: '§cМодерация §8| %s§7 посчитал, что %s§7 §cвиновен§7 за нарушение %s'
+REPORT_BROADCAST_PLAYER_GUILTY: '§cМодерация §8| %s§7 посчитал, что %s§7 §cвиновен'
 REPORT_BROADCAST_PLAYER_INNOCENT: '§cМодерация §8| %s§7 посчитал, что %s§7 §aневиновен'
 REPORT_PLAYER_STARTED_SPECTATE: '§cМодерация §8| %s§7 отправился следить за %s'
 REPORT_NO_PERM_ACTIONS: '§cПринимать решения по жалобам могут только §9модераторы§c и выше.'
@@ -2840,7 +2840,7 @@ REPORT_NO_REPORT_PLAYER: '§aЖалобы §8| §cНа игрока %s не по
 REPORT_COMMAND_HELP:
   - '§7/report list §f- список жалоб'
   - '§7/report info <ник> §f- информация о жалобе'
-  - '§7/report accept <ник> <id причины> §f- принятие жалобы и бан игрока'
+  - '§7/report accept <ник> §f- принятие жалобы'
   - '§7/report decline <ник> §f- отказ в жалобе'
   - '§7/report idlist §f- список id причин'
 REPORT_REASON: '(Скорее всего аккаунт взломан, сообщите vk.me/flycore для разблокировки)'
@@ -2850,7 +2850,7 @@ REPORT_INFO_COMMAND:
   - '§f - §fЖаловались: §a%s'
   - '§f - §fСейчас следят: §a%s'
   - '§f - §fПоследняя жалоба: §a%s назад'
-REPORT_ACCEPT_FORMAT: '/%s accept <ник> <id причины>'
+REPORT_ACCEPT_FORMAT: '/%s accept <ник>'
 REPORT_DECLINE_FORMAT: '/%s decline <ник>'
 REPORT_ACCEPT_COMMAND_NOT_FOUND: '§aЖалобы §8| §cАвто наказания за это правило нету, введите его вручную используя N/A'
 REPORT_IDLIST:
