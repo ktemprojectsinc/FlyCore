@@ -2290,8 +2290,8 @@ GUILD_TOP_COINS_FORMAT: ' §c#%s §f- §e%s §fигрока %s§f, баланс 
 GUILD_TOP_MEMBERS_FORMAT: ' §c#%s §f- §e%s §fигрока %s§f, участников - §a%s'
 GUILD_TOP_LEVEL_FORMAT: ' §c#%s §f- §e%s §fигрока %s§f, уровень - §b%s'
 GUILD_TOP_DONATERS_FORMAT: ' §c#%s §f- %s§f, %s в гильдию - §a%s§f монет'
-GUILD_TOP_GUILD_YOUR: '§аВаша гильдия на §e#%s§f месте в топе'
-GUILD_TOP_YOUR: '§аВы на §e#%s§f месте в топе'
+GUILD_TOP_GUILD_YOUR: '§fВаша гильдия на §e#%s§f месте в топе'
+GUILD_TOP_YOUR: '§fВы на §e#%s§f месте в топе'
 
 GUILD_REQUESTS_NO: '§aГильдии §8| §cУ вас нет приглашений в гильдии'
 GUILD_ALREADY: '§aГильдия §8| §cВы уже состоите в гильдии'
