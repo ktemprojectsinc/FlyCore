@@ -4377,9 +4377,11 @@ GUI_DONATE_MONEY_LORE:
 
 GUI_DONATE_ITEM: '§bПривилегия'
 GUI_DONATE_STATS_ITEM: '§bСтатус'
+GUI_DONATE_ITEM_LORE_DOPL:
+  - ' §8▪ §7Доплатить: §a%s§7 Рублей'
+GUI_DONATE_ITEM_LORE_BUY:
+  - ' §8▪ §7Стоимость: §a%s§7 Рублей'
 GUI_DONATE_ITEM_LORE:
-- ''
-- ' §8▪ §7Стоимость: §a%s§7 Рублей'
 - ' §8▪ §7Покупка на сайте: §6%s'
 - ''
 - '§e▸ Нажмите, чтобы открыть меню возможностей'
