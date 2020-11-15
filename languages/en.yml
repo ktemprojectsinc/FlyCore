@@ -4435,10 +4435,12 @@ GUI_DONATE_MONEY_LORE:
 - '§7осуществление наших общих мечт!'
 GUI_DONATE_ITEM: '§bRank'
 GUI_DONATE_STATS_ITEM: '§bStats'
+GUI_DONATE_ITEM_LORE_DOPL:
+  - ' §8▪ §7Price extra: §a%s§7 rub'
+GUI_DONATE_ITEM_LORE_BUY:
+  - ' §8▪ §7Price: §a%s§7 rub'
 GUI_DONATE_ITEM_LORE:
-- ''
-- ' §8▪ §7Cost: §a%s§7 rubbles'
-- ' §8▪ §7Покупка на сайте: §6%s'
+- ' §8▪ §7Buy on site: §6%s'
 - ''
 - '§e▸ Tap to open the options menu'
 GUI_INFO_HELP_LORE:
