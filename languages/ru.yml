@@ -1558,7 +1558,7 @@ TRAINING_STAGE_2_LOAD_2: '§7Загрузка обучения. .'
 TRAINING_STAGE_2_TITLE: '§fНа нашем сервере, наши самописные плагины'
 TRAINING_STAGE_2_SUBTITLE: '§fУбедится в этом, можно нажав на сообщение в чате'
 TRAINING_STAGE_2_CHECKPLUGIN: '§fНажмите, чтобы написать команду §e/pl'
-TRAINING_STAGE_2_HOVER: '§b(Нажмите сюда)'
+TRAINING_STAGE_2_HOVER: '§b(нажмите сюда)'
 
 #Stage 3
 TRAINING_STAGE_3_MSG_1_TITLE: '§fА теперь давайте ознакомимся,'
