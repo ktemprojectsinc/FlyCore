@@ -1862,6 +1862,8 @@ PLAYER_NAME_45: 'перекупила'
 PLAYER_NAME_46: 'перекупил'
 PLAYER_NAME_47: 'стала'
 PLAYER_NAME_48: 'стал'
+PLAYER_NAME_49: 'купила'
+PLAYER_NAME_50: 'купил'
 
 ME_INFO:
   - ''
@@ -10285,7 +10287,7 @@ PLAYER_GAMESTORE_BUY_RANK:
 PLAYER_GAMESTORE_BUY_LVL:
   - '§fУровень уже выдан. Проверьте сами §a/level'
 PLAYER_GAMESTORE_BUY_INFO:
-  - '%s§f купил %s§f в §e/store'
+  - '%s§f в §e%s'
 
 SIT_ENABLE: '§aСервер §8| §fВы успешно сели'
 SIT_DISABLE: '§aСервер §8| §fВы успешно встали'
