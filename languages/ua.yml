@@ -1249,7 +1249,7 @@ GUILD_JOIN_HOVER:
 GUILD_JOIN_ACTIONBAR: '§2Гільдії §8| %s на сервер'
 GUILD_JOIN_ONLINE: '§aГільдії §8| §fВ онлайні: §a%s'
 
-FRIEND_JOIN_CHAT: '§aДрузі §8| %s в ігру §7(натисніть сюди)'
+FRIEND_JOIN_CHAT: '§aДрузі §8| %s в ігру'
 FRIEND_JOIN_HOVER:
 - '§f§oНатиснить сюди,'
 - '§f§oщоб написати %s'
@@ -1404,7 +1404,7 @@ TRAINING_STAGE_2_LOAD_2: '§7Загрузка обучения. .'
 TRAINING_STAGE_2_TITLE: '§fНа нашем сервере, наши самописные плагины'
 TRAINING_STAGE_2_SUBTITLE: '§fУбедится в этом, можно нажав на сообщение в чате'
 TRAINING_STAGE_2_CHECKPLUGIN: '§fНажмите, чтобы написать команду §e/pl'
-TRAINING_STAGE_2_HOVER: '§b(Нажмите сюда)'
+TRAINING_STAGE_2_HOVER: '§b(натисніть сюди)'
 
 #Stage 3
 TRAINING_STAGE_3_MSG_1_TITLE: '§fА теперь давайте ознакомимся,'
