@@ -303,7 +303,7 @@ BEST_PLAYER_INFO:
   - '§cваш "NPC"(Существо) будет удален из всех лобби.'
   - ''
 BEST_PLAYER_BUY_MESSAGE: '§6Почетный игрок §8| §fВы перекупили игрока %s§f за %s§f и стали новым "почетным игроком"'
-BEST_PLAYER_BUY_MESSAGE_ALERT: '§6Почетный игрок §8| %s§f перекупил игрока %s§f за %s и стал новым "почетным игроком"'
+BEST_PLAYER_BUY_MESSAGE_ALERT: '§6Почетный игрок §8| %s§f за %s и стал новым "почетным игроком"'
 BEST_PLAYER_BUY: '§bПовысить на %s'
 BEST_PLAYER_BUY_LORE:
   - '§7'
@@ -1858,6 +1858,10 @@ PLAYER_NAME_41: 'отклонила'
 PLAYER_NAME_42: 'отклонил'
 PLAYER_NAME_43: 'покинула'
 PLAYER_NAME_44: 'покинул'
+PLAYER_NAME_45: 'перекупила'
+PLAYER_NAME_46: 'перекупил'
+PLAYER_NAME_47: 'стала'
+PLAYER_NAME_48: 'стал'
 
 ME_INFO:
   - ''
