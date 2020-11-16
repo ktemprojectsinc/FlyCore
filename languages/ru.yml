@@ -1383,7 +1383,7 @@ GUILD_JOIN_HOVER:
 GUILD_JOIN_ACTIONBAR: '§2Гильдии §8| %s на сервер'
 GUILD_JOIN_ONLINE: '§2Гильдии §8| §fВ онлайне: §a%s'
 
-FRIEND_JOIN_CHAT: '§aДрузья §8| %s в игру §7(нажмите сюда)'
+FRIEND_JOIN_CHAT: '§aДрузья §8| %s в игру'
 FRIEND_JOIN_HOVER:
   - '§f§oНажмите сюда,'
   - '§f§oчтобы написать %s'
