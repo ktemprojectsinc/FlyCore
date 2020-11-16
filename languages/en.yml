@@ -1320,7 +1320,7 @@ GUILD_JOIN_HOVER:
 GUILD_JOIN_ACTIONBAR: '§2Guilds §8| %s to server'
 GUILD_JOIN_ONLINE: '§2Guilds §8| §fOnline: §a%s'
 
-FRIEND_JOIN_CHAT: '§aFriends §8| %s to game §7(click here)'
+FRIEND_JOIN_CHAT: '§aFriends §8| %s to game'
 FRIEND_JOIN_HOVER:
 - '§f§oClick here,'
 - '§f§oto send message %s'
@@ -4063,7 +4063,7 @@ QUESTION_DELETE_MSG_INFO: '§8Sums §8| §7Unfortunately, no one answered the su
 QUESTION_WRONG_COUNT: '§8Sums §8| §fWritten by you answer is not a number'
 QUESTION_SUCCESS_MSG_INFO:
 #- ''
-- '§8Sums §8| %s§7 answered right on sum %s§7(and got: %s)'
+- '§8Sums §8| %s§7 right on sum %s§7 (reward: %s)'
 #- '§aExamples §8| §fAnd also do not forger about top of answers on sums /goto top, in that can get exaclty You!'
 #- ''
 
