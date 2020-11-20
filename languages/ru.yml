@@ -882,6 +882,8 @@ TYPE_SERVERS_RESTART: '§cСервера перезагружаются'
 TYPE_SERVER_DISABLE: '§4Сервер отключен!'
 TYPE_SERVERS_DISABLE: '§4Сервера отключены!'
 
+GAMER_VOTE_ALREADY: '§cВы уже голосовали за старт'
+GAMER_VOTE_ARENA: '%s§f за старт игры (§a%s§f/§a%s§f)'
 GAMER_JOIN_ARENA: '%s§f в игру (§a%s§f/§a%s§f)'
 GAMER_QUIT_ARENA: '%s§f игру (§c%s§f/§a%s§f)'
 ARENA_DO_NOT_PLAYERS: '§cОшибка, не хватает игроков для старта'
@@ -1517,10 +1519,14 @@ ITEM_SETTING_LORE:
 ITEM_STATS_LORE:
   - '§7Игровая статистика'
   - '§7со всех режимов'
-ITEM_START_NAME: '§6§lЗапустить игру'
+ITEM_START_NAME: 'Запустить игру'
 ITEM_START_LORE:
   - '§7Используйте этот предмет,'
   - '§7чтобы запустить игру на арене'
+ITEM_VOTE_NAME: 'Голосовать за старт игры'
+ITEM_VOTE_LORE:
+  - '§7Не жди начала игры,'
+  - '§7голосуй за него!'
 ITEM_TITLE_LORE:
   - '§7Позволяет купить или активировать'
   - '§7уже купленные титулы'
@@ -1866,6 +1872,8 @@ PLAYER_NAME_47: 'стала'
 PLAYER_NAME_48: 'стал'
 PLAYER_NAME_49: 'купила'
 PLAYER_NAME_50: 'купил'
+PLAYER_NAME_51: 'проголосовала'
+PLAYER_NAME_52: 'проголосовал'
 
 ME_INFO:
   - ''
