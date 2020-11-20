@@ -882,6 +882,7 @@ TYPE_SERVERS_RESTART: '§cСервера перезагружаются'
 TYPE_SERVER_DISABLE: '§4Сервер отключен!'
 TYPE_SERVERS_DISABLE: '§4Сервера отключены!'
 
+GAMER_VOTE_START: '§fГолосование за старт собрало достаточно голосов, игра начинается..'
 GAMER_VOTE_ALREADY: '§cВы уже голосовали за старт'
 GAMER_VOTE_ARENA: '%s§f за старт игры (§a%s§f/§a%s§f)'
 GAMER_JOIN_ARENA: '%s§f в игру (§a%s§f/§a%s§f)'
