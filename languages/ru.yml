@@ -704,6 +704,7 @@ PLAYER_OLD_VERSION:
   - '§cУ вас будут появлятся ошибки или баги,'
   - '§cобновите вашу версию до %s чтобы этого не происходило'
   - '§cВнимание! Позже она будет недоступна для входа на сервер'
+PLAYER_REPORT: 'Нажмите, чтобы пожаловаться на игрока %s'
 
 COINS_ADD: '§6+%s'
 KEY_ADD: '§d+%s'
@@ -2402,6 +2403,7 @@ GUILD_TAG_NO_MONEY: '§aГильдия §8| §cГильдии нехватает
 
 GUILD_MOTD_COMMAND_HELP:
   - '§7/guild motd setline <номер> <текст> §f- изменить текст на строке'
+  - '§7/guild motd getline <номер> §f- получить текст со строчки (удобнее менять)'
   - '§7/guild motd addline <текст> §f- добавить строку'
   - '§7/guild motd remline <номер> §f- удалить строку'
   - '§7/guild motd info §f- просмотреть текущее приветствие'
@@ -2409,6 +2411,11 @@ GUILD_MOTD_COMMAND_HELP:
 GUILD_MOTD_SETLINE_FORMAT: '/g motd setline <номер строки> <текст>'
 GUILD_MOTD_INVALID_NUMBER: '§aГильдия §8| §fУкажите существующий номер строки'
 GUILD_MOTD_SETLINE_SUCCESS: '§aГильдия §8| §fТекст на строке §e№%s§f изменён'
+GUILD_MOTD_GETLINE_FORMAT: '/g motd getline <номер строки>'
+GUILD_MOTD_GETLINE: '§aГильдия §8| §fНажмите сюда, чтобы получить текст с §e%s§f строчки'
+GUILD_MOTD_GETLINE_COPY:
+  - '§7Нажмите, чтобы'
+  - '§7получить текст'
 GUILD_MOTD_ADDLINE_FORMAT: '/g motd addline <текст>'
 GUILD_MOTD_ADDLINE_SUCCESS: '§aГильдия §8| §fНовая строка добавлена'
 GUILD_MOTD_REMLINE_FORMAT: '/g motd remline <номер строки>'
