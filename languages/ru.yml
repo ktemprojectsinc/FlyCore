@@ -9422,9 +9422,7 @@ GUI_PAYCASE_PAY_LORE:
   - '§e▸ Нажмите, чтобы передать'
 PAYCASE_SUCCESSFULL: 'Вы успешно подарили %s§f игроку %s'
 PAYCASE_SUCCESSFULL_TO:
-  - ''
   - '%s§f подарил вам %s'
-  - ''
 
 CHAT_PLAYER_NICK: 'Введите в чате ник игрока'
 CHAT_PLAYER_NOT_FOUND: '§cОшибка, игрок должен быть зарегистрированным на сервере'
@@ -9449,10 +9447,8 @@ GUI_GRANT_LIMIT_LORE:
 GRANT_SUCCESSFULL: 'Вы успешно подарили привилегию %s§f игроку %s§f на %s'
 GRANT_SUCCESSFULL_LOST: 'Вы больше не сможете дарить данную привилегию'
 GRANT_SUCCESSFULL_TO:
-  - ''
   - '%s§f подарил вам привилегию %s'
   - 'на %s'
-  - ''
 
 GRANT_NO_AVAILABLE: '§cОшибка, вашего статуса нет подарочных привилегий'
 GRANT_PLAYER_ERROR: '§cОшибка, у данного игрока статус выше чем тот что вы хотите подарить'
