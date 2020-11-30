@@ -7361,7 +7361,10 @@ GUI_BOOST_NAME: 'Boost'
 GUI_BOOST_LORE:
 - '§7Stats: %s'
 - '§7Current: %s'
-- '§7To up: %s'
+GUI_BOOST_AVAILABLE:
+  - '§aUp available'
+GUI_BOOST_NO_AVAILABLE:
+  - '§7Up to: §c%s'
 GUI_BOOST_NEED_XP_LORE:
 - ''
 - '§7You need §a%s percent§7 to up %s'
