@@ -7406,7 +7406,10 @@ GUI_BOOST_NAME: 'Повышение'
 GUI_BOOST_LORE:
 - '§7Статус: %s'
 - '§7Сейчас: %s'
-- '§7До повышения: %s'
+GUI_BOOST_AVAILABLE:
+  - '§aПовышение доступно'
+GUI_BOOST_NO_AVAILABLE:
+  - '§7До повышения: §c%s'
 GUI_BOOST_NEED_XP_LORE:
 - ''
 - '§7Вам нужно §a%s процентов§7 для повышения до %s'
