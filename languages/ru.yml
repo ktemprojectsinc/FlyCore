@@ -9398,6 +9398,9 @@ GUI_CHANGERANK_ALREADY_SELECT_LORE:
 CHANGERANK_UNAVAILABLE_TIME_GROUP:
   - '§cОшибка, у вас временная группа вам недоступна смена ранга'
 CHANGERANK_SELECT: 'Вы успешно выдали себе ранг %s'
+CHANGERANK_WARN:
+  - '§c§lВнимание! Старайтесь не получать привилегии, эта новая возможность'
+  - '§c§lи иногда вы можете остаться §nнавсегда§c§l без своего статуса, об ошибках сообщайте в §bhttps://vk.me/flycore'
 CHANGERANK_RESET: 'Вы успешно вернули свой ранг'
 CHANGERANK_TIME: '§cОшибка, до следующей смены ранга осталось подождать %s'
 
