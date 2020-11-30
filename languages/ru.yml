@@ -9454,7 +9454,9 @@ GRANT_SUCCESSFULL_TO:
   - ''
 
 GRANT_PLAYER_ERROR: '§cОшибка, у данного игрока статус выше чем тот что вы хотите подарить'
-GRANT_INFO: '%s§f подарил привилегию %s§f игроку %s§f на %s'
+GRANT_INFO:
+  - '%s§f подарил привилегию %s§f игроку %s§f на %s'
+  - '§fПокупай %s§f или выше и дари своим §dдрузьям§f привилегии §6§nбесплатно§f - §e/grant§f!'
 
 GUI_LISTS_NAME: 'Меню списков'
 GUI_LISTS_FAST_COMMAND_LORE:
