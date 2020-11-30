@@ -9361,7 +9361,7 @@ GUI_TIMEDONATE_LORE:
   - ''
   - ' §8• §7Время привилегии: %s'
 GUI_TIMEDONATE_AVAILABLE_LORE:
-  - '§e▶ Нажмите, чтобы получить привилегию'
+  - '§e▶ Нажмите, чтобы получить'
 GUI_TIMEDONATE_UNAVAILABLE_LORE:
   - '§7Наиграйте еще %s,'
   - '§7для получения данной привилегии'
