@@ -9208,6 +9208,19 @@ GUI_CASES_FAST_LORE:
   - '§7открытие.'
   - ''
   - '§e ▸ Нажмите чтобы %s быстрое открытие'
+GUI_CASES_MIX_NAME: 'Особое открытие'
+GUI_CASES_MIX_LORE:
+  - '§7Вы можете удивить'
+  - '§7себя и других, с помощью данной'
+  - '§7настройки. Включите её и'
+  - '§7особая анимация порадует вас.'
+  - ''
+  - '§7В данный момент у вас %s§7 особая'
+  - '§7анимация.'
+GUI_CASES_MIX_NO_AVAILABLE_LORE:
+  - '§c✗ Особая анимация доступна для %s и выше'
+GUI_CASES_MIX_AVAILABLE_LORE:
+  - '§e ▸ Нажмите чтобы %s особую анимацию'
 GUI_CASES_INFO_NAME: '§bПомощь с ключами'
 GUI_CASES_INFO_LORE:
   - '§7Используйте ключи чтобы'
@@ -9326,9 +9339,15 @@ GUI_CASES_INFO_TO_LORE:
   - '§7Примерная следующая редкость: %s'
   - '§7Доступных ключей: §a%s'
   - ''
+GUI_CASES_INFO_OPEN_LORE:
   - '§e▸ ЛКМ, чтобы открыть кейс'
+GUI_CASES_INFO_BUY_LORE:
   - '§e▸ ПКМ, чтобы купить ключи'
+GUI_CASES_INFO_FAST_LORE:
   - '§e▸ Шифт + ЛКМ, чтобы быстро открывать кейс'
+GUI_CASES_INFO_NO_OPEN_LORE:
+  - '§c✗ У вас нет ключей для открытия'
+
 
 GUI_PURCHASE_CONFIRM: 'Подтверждение покупки'
 GUI_PURCHASE_CONFIRM_LORE:
