@@ -2995,6 +2995,7 @@ WHOIS_INFO:
 WHOIS_PUNISHMENT: 'Наказания'
 WHOIS_GROUP_EXPIRE: 'Статус заканчивается через'
 WHOIS_GROUP_PREVIOUS: 'после окончания будет'
+WHOIS_GROUP_MAIN: 'Основная группа'
 WHOIS_PREFIX_EXPIRE: 'Префикс заканчивается через'
 RULES_NOT_FOUND: '§aПравила §8| §fОшибка, правила %s не существует'
 RULES:
@@ -3219,14 +3220,6 @@ BUY_HOVER_BROADCAST:
   - '§f§oНажмите сюда для'
   - '§f§oперехода по ссылке'
 PLAYER_IS_BANNED: '§cВы были заблокированы (#5)'
-
-SPY_COMMAND_HELP:
-  - '§7/spy on §f- включить слежку'
-  - '§7/spy off §f- отключить слежку'
-SPY_ON: '§aSpy §8| §fТеперь вы следите за всем'
-SPY_ALREADY_ON: '§aSpy §8| §cУ вас уже включена слежка'
-SPY_OFF: '§aSpy §8| §fВы больше не следите за командами'
-SPY_ALREADY_OFF: '§aSpy §8| §cУ вас уже отключена слежка'
 
 HUBS_ALREADY: '§aСервер §8| §cВы уже в главном лобби'
 
