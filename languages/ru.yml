@@ -1359,8 +1359,8 @@ TAB_HEADER:
 TAB_FOOTER:
   - ''
   - '§fСтатус: %stats§f | Ник: %nik§f'
-  - '§fВы находитесь на сервере:'
-  - '§b%s'
+  - '§fВы находитесь на сервере: §b%s'
+  - '§fВаш пинг: %p'
 TAB_GAME:
   - '§fКарта: §b%s'
 
@@ -3256,9 +3256,10 @@ REPLY_EMPTY: '§cВам никто не писал'
 PLAYER_YOU_REDIRECTED_BY: '§aСервер §8| %s§f телепортировал вас на сервер §c%s'
 
 PING: '§aСервер §8| §fВаш пинг §a%s §fms'
-PING_TO: '§aСервер §8| §fПинг игрока %s§f - §a%s§f ms'
-PING_TO_SYSTEM: '§aСервер §8| §fПинг до системы §a%s§f ms'
+PING_TO: '§aСервер §8| §fПинг игрока %s§f - §a%s'
+PING_TO_SYSTEM: '§aСервер §8| §fПинг до системы §a%s'
 PING_NOT_FOUND: '§cне определен'
+PING_MS: 'мс'
 
 NEAR: 'Ближайщие игроки: %s'
 NEAR_NOT_FOUND: 'Ближайших игроков нет'
