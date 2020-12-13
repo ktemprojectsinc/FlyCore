@@ -3923,7 +3923,8 @@ ANTIMAT: '§cАнтимат'
 VKBOT: '§9VK-Бот'
 
 PLAYER_YOUR_BOT: '§cБот, уходи!'
-PLAYER_KICK_ERROR: '§cОшибка #%s, сообщите vk.me/flycore'
+PLAYER_KICK_ERROR:
+  - '§cОшибка #%s, сообщите vk.me/flycore'
 
 AUTH_PLAYER_ALREADY: '§cИгрок уже на сервере'
 AUTH_PLAYER_QUIT: '§cВы вышли с сервера'
