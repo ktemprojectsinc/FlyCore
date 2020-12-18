@@ -1172,7 +1172,7 @@ ARENA_TYPE_TEAM_NO_TEAM:
 ARENA_TYPE_SOLO_NO_TEAM:
   - '§c§lВнимание! §cКомандная игра запрещена на Solo режиме.'
 ARENA_TYPE_NO_TEAM:
-  - 'Докладывайте о таких игроках в группу §ohttps://vk.com/FlyCore'
+  - '§cДокладывайте о таких игроках в группу §ohttps://vk.com/FlyCore'
 
 GUI_BW_SHOP_NAME: 'Магазин'
 GUI_BW_SHOP_BUY: '§aНажмите, чтобы купить'
