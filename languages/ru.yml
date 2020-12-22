@@ -9412,7 +9412,7 @@ GUI_TIMEDONATE_ALREADY_LORE:
 GUI_TIMEDONATE_ALREADYGET_LORE:
   - ' §c✗ Вы уже получали данную привилегию'
 
-TIMEDONATE_GET: '§aСервер §8| §fВы успешно забрали привилегию %s'
+TIMEDONATE_GET: 'Вы успешно забрали привилегию %s'
 
 GUI_CHANGERANK_NAME: 'Изменение ранга'
 GUI_CHANGERANK_INFO_LORE:
