@@ -2150,7 +2150,7 @@ FRIEND_SETTING_CHATPREFIX: 'Префикс друга'
 FRIEND_SETTING_CHATPREFIX_DESCRIPTION:
   - '§7Скрывает префикс друга'
   - '§7который вы ему задавали через §f/f rename'
-FRIEND_SETTING_CHATRANKPREFIX: 'Префикс друга'
+FRIEND_SETTING_CHATRANKPREFIX: 'Префикс ранга'
 FRIEND_SETTING_CHATRANKPREFIX_DESCRIPTION:
   - '§7Скрывает префикс ранга друга'
   - '§7который вы задавали через §f/f rankrename'
