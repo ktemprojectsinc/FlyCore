@@ -1017,6 +1017,13 @@ SPLEEF_INFO:
   - '§eПобеждает тот, кто останется последним'
 SPLEEF_STARTED_SUBTITLE: '§f§oЛомайте снег под игроками!'
 
+#TnTRun
+TNTRUN_INFO:
+  - '§eВаша задача бегать по пропадающему полу,'
+  - '§eи не провалится под ним'
+  - '§eПобеждает тот, кто останется последним'
+TNTRUN_STARTED_SUBTITLE: '§f§oБеги беги беги!'
+
 DEATH_MSG_TITLE: '§cВы погибли'
 RESPAWN_SUBTITLE: '§7Вы возродитесь через §c%s'
 RESPAWN_TITLE: '§aВы возродились'
