@@ -8124,7 +8124,7 @@ GUI_GADGETS_HAT_94: 'Болгария'
 GUI_GADGETS_HAT_94_LORE:
   - '§7Это Россия или Болгария?'
 GUI_GADGETS_HAT_95: 'Иран'
-GUI_GADGETS_HAT_95-_LORE:
+GUI_GADGETS_HAT_95_LORE:
   - '§7Там большая армия...'
 GUI_GADGETS_HAT_96: 'ОАЭ'
 GUI_GADGETS_HAT_96_LORE:
