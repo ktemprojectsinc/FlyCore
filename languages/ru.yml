@@ -5912,7 +5912,7 @@ GUI_DONATE_MODER_ALL_LORE:
   - ' §8▪ §7Возможность повысится до §5Мл. Админа.§7 - §f/personalup'
   - ' §8▪ §7Возможность отключить §aвключить§7 или отключить ванишь игроку - §f/vanish <ник>'
   - ' §8▪ §7Возможность принимать и отклонять §9репорты§7 - §f/report accept'
-#  - ' §8▪ §7Возможность отвечать на §3сообщения форума§7 - §f/forum'
+# - ' §8▪ §7Возможность отвечать на §3сообщения форума§7 - §f/forum'
   - ' §8▪ §7Нет ограничения на количество друзей'
   - ' §8▪ §7Сниженная комиссия при переводе денег §f7%'
   - ' §8▪ §7Сниженная комиссия при конвертировании монет §f2%§7, золота §f25%'
@@ -8045,6 +8045,156 @@ GUI_GADGETS_HAT_71_LORE:
 GUI_GADGETS_HAT_72: 'Крыса'
 GUI_GADGETS_HAT_72_LORE:
   - '§7§oNo comments..'
+GUI_GADGETS_HAT_73: 'Россия'
+GUI_GADGETS_HAT_73_LORE:
+  - '§7Вау! Это же самая'
+  - '§7большая страна в мире!'
+GUI_GADGETS_HAT_74: 'Украина'
+GUI_GADGETS_HAT_74_LORE:
+  - '§7Выйди отсюда, разбiйник'
+GUI_GADGETS_HAT_75: 'Австралия'
+GUI_GADGETS_HAT_75_LORE:
+  - '§7- Кто там прыгает? Заяц?'
+  - '§7- Нет! Это Кенгуру!'
+GUI_GADGETS_HAT_76: 'Катар'
+GUI_GADGETS_HAT_76_LORE:
+  - '§7- Что это за страна такая?'
+  - '§7- Ты шутишь? Это же самая'
+  - '§7  богатая страна в мире!'
+GUI_GADGETS_HAT_77: 'Германия'
+GUI_GADGETS_HAT_77_LORE:
+  - '§7А там точно делают'
+  - '§7крутые машины ?'
+GUI_GADGETS_HAT_78: 'Люксембург'
+GUI_GADGETS_HAT_78_LORE:
+  - '§7Говорят, что это самая'
+  - '§7богатая страна в европе'
+GUI_GADGETS_HAT_79: 'Сингапур'
+GUI_GADGETS_HAT_79_LORE:
+  - '§7Страна в азии...'
+GUI_GADGETS_HAT_80: 'США'
+GUI_GADGETS_HAT_80_LORE:
+  - '§7Говорят, что в США'
+  - '§7красивые города...'
+GUI_GADGETS_HAT_81: 'Латвия'
+GUI_GADGETS_HAT_81_LORE:
+  - '§7Рига! Какая красота!'
+GUI_GADGETS_HAT_82: 'Эстония'
+GUI_GADGETS_HAT_82_LORE:
+  - '§750% Эстонии покрыто лесом...'
+GUI_GADGETS_HAT_83: 'Литва'
+GUI_GADGETS_HAT_83_LORE:
+  - '§7Страна в балтике...'
+GUI_GADGETS_HAT_84: 'Италия'
+GUI_GADGETS_HAT_84_LORE:
+  - '§7Vuole la pizza, signore?'
+GUI_GADGETS_HAT_85: 'Франция'
+GUI_GADGETS_HAT_85_LORE:
+  - '§7- Что во франции такого особенного?'
+  - '§7- Ты что? Там ведь создают крутые мультфильмы!'
+GUI_GADGETS_HAT_86: 'Великобритания'
+GUI_GADGETS_HAT_86_LORE:
+  - '§7What do you mean?'
+GUI_GADGETS_HAT_87: 'Румыния'
+GUI_GADGETS_HAT_87_LORE:
+  - '§7В Румынии много '
+  - '§7красивых замков'
+GUI_GADGETS_HAT_88: 'Армения'
+GUI_GADGETS_HAT_88_LORE:
+  - '§7Вау.. Горы.. '
+GUI_GADGETS_HAT_89: 'Молдавия'
+GUI_GADGETS_HAT_89_LORE:
+  - '§7Красивое местечко...'
+GUI_GADGETS_HAT_90: 'Колумбия'
+GUI_GADGETS_HAT_90_LORE:
+  - '§7А там точно колумбийцы'
+  - '§7из GTA VC?'
+GUI_GADGETS_HAT_91: 'Бразилия'
+GUI_GADGETS_HAT_91_LORE:
+  - '§7Одна из стран '
+  - '§7Южной Америки...'
+GUI_GADGETS_HAT_92: 'Канада'
+GUI_GADGETS_HAT_92_LORE:
+  - '§7Страна, где зимой'
+  - '§7всегда очень холодно...'
+GUI_GADGETS_HAT_93: 'Турция'
+GUI_GADGETS_HAT_93_LORE:
+  - '§7Страна для туристов!'
+GUI_GADGETS_HAT_94: 'Болгария'
+GUI_GADGETS_HAT_94_LORE:
+  - '§7Это Россия или Болгария?'
+GUI_GADGETS_HAT_95: 'Иран'
+GUI_GADGETS_HAT_95-_LORE:
+  - '§7Там большая армия...'
+GUI_GADGETS_HAT_96: 'ОАЭ'
+GUI_GADGETS_HAT_96_LORE:
+  - '§7Страна, где самые'
+  - '§7высокие здания мира'
+GUI_GADGETS_HAT_97: 'Египет'
+GUI_GADGETS_HAT_97_LORE:
+  - '§7А там точно много песка?'
+GUI_GADGETS_HAT_98: 'Перу'
+GUI_GADGETS_HAT_98_LORE:
+  - '§7Радужные горы?'
+GUI_GADGETS_HAT_99: 'Норвегия'
+GUI_GADGETS_HAT_99_LORE:
+  - '§7Говорят, что там '
+  - '§7лушие тюрьмы'
+GUI_GADGETS_HAT_100: 'Дания'
+GUI_GADGETS_HAT_100_LORE:
+  - '§7Вау, дома рядом с водой?'
+GUI_GADGETS_HAT_101: 'Швеция'
+GUI_GADGETS_HAT_101_LORE:
+  - '§7Одна из стран'
+  - '§7Скандинавии..'
+GUI_GADGETS_HAT_102: 'Швейцария'
+GUI_GADGETS_HAT_102_LORE:
+  - '§7Страна, где самая'
+  - '§7чистая природа'
+GUI_GADGETS_HAT_103: 'Ирландия'
+GUI_GADGETS_HAT_103_LORE:
+  - '§7Почему там так '
+  - '§7популярен символ ☘ ?'
+GUI_GADGETS_HAT_104: 'Индия'
+GUI_GADGETS_HAT_104_LORE:
+  - '§7Индейцы! Юху.. '
+GUI_GADGETS_HAT_105: 'Казахстан'
+GUI_GADGETS_HAT_105_LORE:
+  - '§7Расслабься, это же Казахстан! '
+GUI_GADGETS_HAT_106: 'Австрия'
+GUI_GADGETS_HAT_106_LORE:
+  - '§7Флаг, который всегда'
+  - '§7путают с Латвией'
+GUI_GADGETS_HAT_107: 'Тайланд'
+GUI_GADGETS_HAT_107_LORE:
+  - '§7Будешь красные бананы? '
+GUI_GADGETS_HAT_108: 'Китай'
+GUI_GADGETS_HAT_108_LORE:
+  - '§7Именно там появился всемирно'
+  - '§7известный вирус COVID-19'
+GUI_GADGETS_HAT_110: 'Япония'
+GUI_GADGETS_HAT_110_LORE:
+  - '§7Будешь суши, Сэр?'
+GUI_GADGETS_HAT_111: 'Индонезия'
+GUI_GADGETS_HAT_111_LORE:
+  - '§7Пойдешь купаться на Бали?'
+GUI_GADGETS_HAT_112: 'Гонконг'
+GUI_GADGETS_HAT_112_LORE:
+  - '§7Что это за такой Особый'
+  - '§7административный район Китая?'
+GUI_GADGETS_HAT_113: 'СССР'
+GUI_GADGETS_HAT_113_LORE:
+  - '§7Союз Советских'
+  - '§7Социалистических Республик...'
+GUI_GADGETS_HAT_114: 'Испания'
+GUI_GADGETS_HAT_114_LORE:
+  - '§7¡Hola señor!'
+GUI_GADGETS_HAT_115: 'Нидерланды'
+GUI_GADGETS_HAT_115_LORE:
+  - '§7В Нидерландах вкусная еда..'
+GUI_GADGETS_HAT_116: 'Португалия'
+GUI_GADGETS_HAT_116_LORE:
+  - '§7В Португалии много воды...'
 GUI_GADGETS_BANNER_1: 'Белый баннер'
 GUI_GADGETS_BANNER_1_LORE:
   - '§7У Вас будет белый баннер'
