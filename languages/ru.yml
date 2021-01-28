@@ -8195,6 +8195,10 @@ GUI_GADGETS_HAT_114_LORE:
 GUI_GADGETS_HAT_115: 'Португалия'
 GUI_GADGETS_HAT_115_LORE:
   - '§7В Португалии много воды...'
+GUI_GADGETS_HAT_116: 'Ядро'
+GUI_GADGETS_HAT_116_LORE:
+  - '§7Повысьте свою производительность,'
+  - '§7надев ядро на голову'
 GUI_GADGETS_BANNER_1: 'Белый баннер'
 GUI_GADGETS_BANNER_1_LORE:
   - '§7У Вас будет белый баннер'
