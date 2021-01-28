@@ -8172,28 +8172,28 @@ GUI_GADGETS_HAT_108: 'Китай'
 GUI_GADGETS_HAT_108_LORE:
   - '§7Именно там появился всемирно'
   - '§7известный вирус COVID-19'
-GUI_GADGETS_HAT_110: 'Япония'
-GUI_GADGETS_HAT_110_LORE:
+GUI_GADGETS_HAT_109: 'Япония'
+GUI_GADGETS_HAT_109_LORE:
   - '§7Будешь суши, Сэр?'
-GUI_GADGETS_HAT_111: 'Индонезия'
-GUI_GADGETS_HAT_111_LORE:
+GUI_GADGETS_HAT_110: 'Индонезия'
+GUI_GADGETS_HAT_110_LORE:
   - '§7Пойдешь купаться на Бали?'
-GUI_GADGETS_HAT_112: 'Гонконг'
-GUI_GADGETS_HAT_112_LORE:
+GUI_GADGETS_HAT_111: 'Гонконг'
+GUI_GADGETS_HAT_111_LORE:
   - '§7Что это за такой Особый'
   - '§7административный район Китая?'
-GUI_GADGETS_HAT_113: 'СССР'
-GUI_GADGETS_HAT_113_LORE:
+GUI_GADGETS_HAT_112: 'СССР'
+GUI_GADGETS_HAT_112_LORE:
   - '§7Союз Советских'
   - '§7Социалистических Республик...'
-GUI_GADGETS_HAT_114: 'Испания'
-GUI_GADGETS_HAT_114_LORE:
+GUI_GADGETS_HAT_113: 'Испания'
+GUI_GADGETS_HAT_113_LORE:
   - '§7¡Hola señor!'
-GUI_GADGETS_HAT_115: 'Нидерланды'
-GUI_GADGETS_HAT_115_LORE:
+GUI_GADGETS_HAT_114: 'Нидерланды'
+GUI_GADGETS_HAT_114_LORE:
   - '§7В Нидерландах вкусная еда..'
-GUI_GADGETS_HAT_116: 'Португалия'
-GUI_GADGETS_HAT_116_LORE:
+GUI_GADGETS_HAT_115: 'Португалия'
+GUI_GADGETS_HAT_115_LORE:
   - '§7В Португалии много воды...'
 GUI_GADGETS_BANNER_1: 'Белый баннер'
 GUI_GADGETS_BANNER_1_LORE:
