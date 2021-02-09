@@ -6164,14 +6164,16 @@ GUI_INFO_MESSAGES_LORE:
   - '§7заблокированных вами игроков'
 
 GUI_INFO_LINKS_LORE:
-  - '§7Адрес сервера: §eplay.flycore.ru'
+  - '§7Адрес сервера: §eplay.FlyCore.ru'
   - ''
-  - '§7Группа Вконтакте: §fvk.com/flycore'
+  - '§7Группа Вконтакте: §fvk.com/FlyCore'
+  - '§7Dev Группа Вконтакте: §fvk.com/FlyCore_Dev'
   - ''
-  - '§7Сайт: §bwww.flycore.ru'
-  - '§7Форум: §fforum.flycore.ru'
+  - '§7Сайт: §bwww.FlyCore.ru'
+  - '§7Discord: §ddis.FlyCore.ru'
+#  - '§7Форум: §fforum.flycore.ru'
   - ''
-  - '§7Почта: §dsupport@flycore.ru'
+  - '§7Почта: §dSupport@FlyCore.ru'
 
 GUI_INFO_REWARD_LORE:
   - '§7Играя на режимах сервера,'
