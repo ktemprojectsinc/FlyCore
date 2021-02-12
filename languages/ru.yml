@@ -10647,12 +10647,10 @@ GUI_GAMESTORE_TYPE_RANK: 'Ранг'
 GUI_GAMESTORE_TYPE_RANK_LORE:
   - '§7Купите ранг, чтобы получить'
   - '§7все его возможности на %s'
-GUI_GAMESTORE_TYPE_LVL: 'Уровень'
-GUI_GAMESTORE_TYPE_LVL_LORE:
-  - '§7Покупая уровень Вы повышаете'
-  - '§7свой текущий уровень. И сразу можете забрать'
-  - '§7награды за уровни, и хвастаться'
-  - '§7перед другими'
+GUI_GAMESTORE_TYPE_XP: 'Опыт'
+GUI_GAMESTORE_TYPE_XP_LORE:
+  - '§7Покупая опыт Вы повышаете'
+  - '§7свою шкалу опыта для уровня.'
 GUI_GAMESTORE_TYPE_PERM: 'Возможность'
 GUI_GAMESTORE_TYPE_PERM_LORE:
   - '§7Покупая возможность, вы получаете'
@@ -10664,8 +10662,8 @@ PLAYER_GAMESTORE_BUY2:
   - '§fНаслаждайтесь вашей покупкой'
 PLAYER_GAMESTORE_BUY_RANK:
   - '§fРанг куплен на %s'
-PLAYER_GAMESTORE_BUY_LVL:
-  - '§fУровень уже выдан. Проверьте сами §a/level'
+PLAYER_GAMESTORE_BUY_XP:
+  - '§fОпыт уже выдан. Проверьте сами §a/lvl'
 PLAYER_GAMESTORE_BUY_PERM:
   - '§fВам уже выдана купленная возможность'
 PLAYER_GAMESTORE_BUY_INFO:
