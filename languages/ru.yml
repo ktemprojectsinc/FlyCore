@@ -4561,12 +4561,6 @@ MSG_TYPE_RUN:
   - '§f§oНажмите сюда,'
   - '§f§oчтобы выполнить команду'
 
-ECONOMY_MONEY_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §6Монеты §f(§a+%s§f)'
-ECONOMY_GOLDS_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §eЗолото §f(§a+%s§f)'
-ECONOMY_CORES_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §bЯдра §f(§d+%s§f)'
-ECONOMY_EXP_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §aОпыт §f(§e+%s§f)'
-ECONOMY_PEXP_CHANGE_BROADCAST: '§cЭкономика §8| %s§7 начислил на аккаунт %s§7 - §3Опыт повышения §f(§b+%s§f)'
-
 LAST_UPDATES_INFO: '§aОбновления §8| §fБыло сделано §a%s'
 LAST_UPDATES: '§aОбновления §8| §f%s'
 LAST_STAFF_UPDATES_INFO: '§cОбновления §8| §fБыло сделано §a%s для персонала'
@@ -8896,6 +8890,7 @@ GUI_REPORTS_ITEM_LORE:
 GUI_REPORTS_REPORT_LORE:
   - ''
   - '§7Сервер: %s'
+  - '§7В сети:§e %s назад'
   - ''
   - '§7Последняя жалоба:'
   - '§e%s назад'
@@ -8909,6 +8904,7 @@ GUI_REPORTS_ACTIONS_LORE:
 GUI_REPORTS_INFO_LORE:
   - '§e▸ ЛКМ, для слежки за игроком'
 GUI_REPORTS_ACTIONS_DECLINE_LORE:
+  - '§e▸ Колесом мыши, для информации о жалобе'
   - '§e▸ ПКМ, для отклонения жалобы'
 GUI_REPORTS_FORMAT: '§eЖалоба на %s'
 
