@@ -507,6 +507,11 @@ LOSINGS:
   - 'а'
   - 'ей'
 
+BUY_MONEY: 'монеты'
+BUY_RUB: 'рубли'
+BUY_DIAMOND: 'алмазы'
+BUY_FLYCOIN: 'флайкоины'
+
 MONEYS:
   - 'монет'
   - 'а'
@@ -539,6 +544,39 @@ CORES_2:
   - 'ро'
   - 'ра'
   - 'ер'
+
+RUBS:
+  - 'руб'
+  - 'ль'
+  - 'ля'
+  - 'лей'
+RUBS_2:
+  - 'руб'
+  - 'ль'
+  - 'ля'
+  - 'лей'
+
+DIAMONDS:
+  - 'алмаз'
+  - ''
+  - 'а'
+  - 'ов'
+DIAMONDS_2:
+  - 'алмаз'
+  - ''
+  - 'а'
+  - 'ов'
+
+FLYCOINS:
+  - 'флайкоин'
+  - ''
+  - 'а'
+  - 'ов'
+FLYCOINS_2:
+  - 'флайкоин'
+  - ''
+  - 'а'
+  - 'ов'
 
 REPORTS:
   - 'жалоб'
@@ -753,6 +791,9 @@ PLAYER_NO_GOLDS:
 PLAYER_NO_CORE:
   - '§aАккаунт §8| §fУ Вас недостаточно §bядер'
   - '§f Купить их можно на сайте §3flycore.ru'
+PLAYER_NO_ECONOMY:
+  - '§aАккаунт §8| §fУ Вас недостаточно %s'
+  - '§f Купить %s можно на сайте §bwww.FlyCore.ru'
 PLAYER_NO_LEVEL:
   - '§aАккаунт §8| §fУ Вас недостаточно §dуровня'
 PLAYER_NO_KEYS:
@@ -4654,9 +4695,9 @@ SENDMONEY_YOU: '§aСервер §8| §cНельзя отправлять ден
 COMMISSION_SENDMONEY: '§c • §fВаша комиссия на отправку денег: §a%s'
 COMMISSION_LIMITMONEY: '§c • §fВаш дневной лимит на отправку денег: §a%s'
 COMMISSION_GETMONEY: '§c • §fВаш дневной лимит на получение денег: §a%s'
-COMMISSION_SENDCORE: '§c • §fВаша комиссия на отправку ядер: §a%s'
-COMMISSION_LIMITCORE: '§c • §fВаш дневной лимит на отправку ядер: §a%s'
-COMMISSION_GETCORE: '§c • §fВаш дневной лимит на получение ядер: §a%s'
+COMMISSION_SENDECO: '§c • §fВаша комиссия на отправку %s'
+COMMISSION_LIMITECO: '§c • §fВаш дневной лимит на отправку %s'
+COMMISSION_GETECO: '§c • §fВаш дневной лимит на получение %s'
 SENDMONEY_SEND: '§aСервер §8| §fВы успешно передали §a%s игроку %s§f. Комиссия при переводе составила §c%s (§e%s§f)'
 SENDMONEY_ERROR_SEND: '§aСервер §8| §cОшибка, вы не можете отправить %s, так как ваш дневной лимит на отправку денег не должен превышать %s'
 SENDMONEY_ERROR_SENDED: '§aСервер §8| §cОшибка, вы не можете отправить %s игроку %s§c, так как его дневной лимит на получение денег не должен превышать %s'
@@ -10616,6 +10657,9 @@ GUI_GAMESTORE_TYPE_LVL_LORE:
   - '§7свой текущий уровень. И сразу можете забрать'
   - '§7награды за уровни, и хвастаться'
   - '§7перед другими'
+GUI_GAMESTORE_TYPE_PERM: 'Возможность'
+GUI_GAMESTORE_TYPE_PERM_LORE:
+  - '§7Покупая возможность, вы получаете'
 
 PLAYER_GAMESTORE_BUY:
   - '§8-| §a§lМагазин §8|-'
@@ -10626,6 +10670,8 @@ PLAYER_GAMESTORE_BUY_RANK:
   - '§fРанг куплен на %s'
 PLAYER_GAMESTORE_BUY_LVL:
   - '§fУровень уже выдан. Проверьте сами §a/level'
+PLAYER_GAMESTORE_BUY_PERM:
+  - '§fВам уже выдана купленная возможность'
 PLAYER_GAMESTORE_BUY_INFO:
   - '%s§f в §e%s'
 
