@@ -10639,8 +10639,8 @@ P_COMMAND_HELP:
 SHOP_OTHER: 'Разное'
 
 GUI_GAMESTORE_NAME: 'Внутриигровой магазин'
-GUI_GAMESTORE_ALREADY: '§cУ вас уже есть данный товар'
-GUI_GAMESTORE_UNAVAILABLE: '§cДанный товар Вам недоступен'
+GUI_GAMESTORE_ALREADY: '§c ▸ У вас уже есть данный товар'
+GUI_GAMESTORE_UNAVAILABLE: '§c ▸ Данный товар Вам недоступен'
 GUI_GAMESTORE_TYPE_RANK: 'Ранг'
 GUI_GAMESTORE_TYPE_RANK_LORE:
   - '§7Купите ранг, чтобы получить'
@@ -10652,6 +10652,12 @@ GUI_GAMESTORE_TYPE_XP_LORE:
 GUI_GAMESTORE_TYPE_PERM: 'Возможность'
 GUI_GAMESTORE_TYPE_PERM_LORE:
   - '§7Покупая возможность, вы получаете'
+
+GUI_GAMESTORE_UNAVAILABLE_LORE:
+  - '§7Наиграйте еще %s,'
+  - '§7чтобы получить доступ к данному товару'
+GUI_GAMESTORE_UNAVAILABLE_DATE_LORE:
+  - '§7Станет доступным %s'
 
 PLAYER_GAMESTORE_BUY:
   - '§8-| §a§lМагазин §8|-'
