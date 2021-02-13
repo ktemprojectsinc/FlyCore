@@ -3263,7 +3263,7 @@ SETWARP_ALREADY: '§cВарп %s уже существует'
 SETWARP: 'Варп §a%s§f создан'
 SETWARP_LIMIT: '§cВаш лимит варпов превышен, лимит - %s'
 
-TPA_FORMAT: '/tpa <ник>'
+TPA_FORMAT: '/tpa <nick>'
 TPACCEPT_NO: '§cОшибка, игрок %s не отправлял вам запроса'
 TPACCEPT_ALERT_TP: 'Игрок %s§f принял ваш запрос на телепортацию'
 TPACCEPT: 'Вы приняли запрос на телепортацию от игрока %s'
@@ -3306,12 +3306,12 @@ HAT_ERROR: "§cError, you aren't holding anything"
 LIST:
 - ''
 - '§aServer §8| §fOn mode §a%s'
-#- ' §a▪ §fКрутые ребята: %s'
-#- ' §a▪ §fИгроки: %s'
-#- ' §a▪ §fДонатеры: %s'
-#- ' §a▪ §fАдминистрация: %s'
+#- ' §a▪ §fCool guys: %s'
+#- ' §a▪ §fPlayers: %s'
+#- ' §a▪ §fDonaters: %s'
+#- ' §a▪ §fStaff: %s'
 - ''
-LIST_EMPTY: '§8Никого нет'
+LIST_EMPTY: '§8No one here'
 LIST_CMD: '%s§fOn server §a%s'
 
 ONLY_ANARCHY: '§cThis command is disabled'
@@ -3676,12 +3676,12 @@ FORUM_ACCOUNT_REGISTRED:
 FORUM_ACCOUNT_ALREADY: '§cError, forum account already snap, authorization to forum.flycore.ru'
 
 BOSS_BAR_LOBBY:
-- '§f§lСмени §d§lскин§f§l командой §7§l► §b§l/skin <premium ник>'
-- '§f§lСокрушительный §c§lпровал§f§l цен! Все цены были §e§lснижены§f§l на §6§l30%'
-- '§f§lПокупка§e§l доната§f§l на сайте §7§l► §a§lFlyCore.ru'
-- '§f§lСообщи о§c§l баге§f§l или§c§l ошибке §7§l► §d§lwww.FlyCore.ru/bugs'
-- '§f§lЗадайте свой вопрос §2§lперсоналу сервера§f§l командой §7§l► §b§l/ask <вопрос>'
-- '§f§lПредложи свой §e§lперевод§f§l локализации §7§l► §a§lwww.FlyCore.ru/lang'
+- '§f§lChange the §d§lskin§f§l the command §7§l► §b§l/skin <premium nickname>'
+- 'f§lCrushing §6§lbalance§f§l of the price! All prices were §e§lincreased§f§l by §a§l15%'
+- '§f§lBuying§e§l rank§f§l of the site §7§l► §a§lFlyCore.ru'
+- '§f§lReport a§c§l bug§f§l or§c§l error §7§l► §d§lwww.FlyCore.ru/bugs'
+- '§f§lAsk your question to the §2§lstaff§f§l using the command §7§l► §b§l/ask <question>'
+- '§f§lOffer your §e§llocalization§f§l translation §7§l► §a§lwww.FlyCore.ru/lang'
 
 MSG_1:
 - ''
