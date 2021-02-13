@@ -2640,7 +2640,7 @@ BAN_NAME_21: 'Blocked guild member'
 BAN_NAME_22: 'Blocked guild member'
 BAN_NAME_23: 'Unblocked guild member'
 BAN_NAME_24: 'Unblocked guild member'
-BANINFO_COOLDOWN: '§f- Will end inз: §e%s'
+BANINFO_COOLDOWN: '§f- Will end in: §e%s'
 BANINFO_NEVER: '§f- §cNever§f blocked'
 BANINFO_BY: '§f- By request %s'
 BANINFO_COMMAND:
