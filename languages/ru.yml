@@ -10658,6 +10658,7 @@ GUI_GAMESTORE_UNAVAILABLE_LORE:
   - '§7чтобы получить доступ к данному товару'
 GUI_GAMESTORE_UNAVAILABLE_DATE_LORE:
   - '§7Станет доступным %s'
+  - '§7Через %s'
 
 PLAYER_GAMESTORE_BUY:
   - '§8-| §a§lМагазин §8|-'
