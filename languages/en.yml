@@ -53,12 +53,12 @@ SERVER_REDIRECT_NOT_FOUND: '§aServer §8| §fHappened error on connected to §a
 
 NOOBIK_NOOB4IK:
 - ''
-- 'можешь ещё сказать что мы проверяли'
-- 'там'
-- 'написать'
-- 'пажалуста'
-- 'ато некоторые подумают что я умерал так'
-- 'меня все бопиждали'
+- 'can u also say that we check'
+- 'there'
+- 'write'
+- 'pls'
+- 'some will think that I was dying'
+- 'everyone won me'
 
 BAN_REQUEST_SENT: '§aRequests §8| §eYour request to block this player has been sent to all online moderators'
 BAN_REQUEST_ALREADY_SENT: '§aRequests §8| §cPlease to block this player has already been sent, wait for decision'
@@ -121,7 +121,7 @@ PLAYER_IS_PRIVATE: '§aServer §8| §fCurrent player enabled private mode, infor
 PLAYER_NO_PLOT: '§aServer §8| §fYou have to be a plot member to use your opportunities'
 PLAYER_NO_REGION: '§aServer §8| §fYou have to be a region member to use your opportunities'
 PLAYER_NO_PVP: '§aServer §8| §fDisable §a%s§f to start PvP'
-CLEAR_INFO: '§aСервер §8| §fDeleted §a%s§f unnecessary creatures'
+CLEAR_INFO: '§aServer §8| §fDeleted §a%s§f unnecessary creatures'
 TIME_GIVE: '§aServer §8| §fYou got §a%s for being online %s'
 
 TYPE_YES: 'Yes'
@@ -311,7 +311,7 @@ BEST_PLAYER_LORE:
 - '§fThis player payed: %s'
 - '§7'
 - '§7His status expires in §7%s MSW'
-- '§7(If noone outbid him)'
+- '§7(If none outbid him)'
 BEST_PLAYER_GUI: 'Most honorable player'
 BEST_PLAYER_HOLO: '§fMost honorable server player:'
 BEST_PLAYER_HOLO2: '§fHe invested: %s'
@@ -409,7 +409,7 @@ RECOVERED:
 - 's'
 
 DONATKEYS:
-- 'donat-key'
+- 'donate-key'
 - ''
 - ''
 - 's'
@@ -758,9 +758,9 @@ PLAYER_GADGETS_GADGET_NO_GROUP: '§aAccount §8| §cFor buying this item, your n
 PLAYER_GADGETS_GADGET_NO_GROUP_ONLY: '§aAccount §8| §cError, you must have rank %s to receive this item for free'
 PLAYER_COSMETIC_NO_LEVEL: '§aAccount §8| §cFor activate, your need level §d%s§c or higher'
 
-PLAYER_GUILDSHOP_NO_BUY: '§aГильдия §8| §fThere are not enough %s in the guild to purchase this upgrade'
-PLAYER_GUILDSHOP_BUY_ALREADY: '§aГильдия §8| §fThis improvement has already been purchased'
-PLAYER_GUILD_INFO: '§2Гильдии §8| %s§7 acquired an improvement %s'
+PLAYER_GUILDSHOP_NO_BUY: '§aGuild §8| §fThere are not enough %s in the guild to purchase this upgrade'
+PLAYER_GUILDSHOP_BUY_ALREADY: '§aGuild §8| §fThis improvement has already been purchased'
+PLAYER_GUILD_INFO: '§2Guild §8| %s§7 acquired an improvement %s'
 PLAYER_GUILD_BUY:
 - '                §8-| §a§lGUILD §8|-'
 - ' §fCongratulations! You purchased an upgrade %s'
@@ -774,7 +774,7 @@ PLAYER_GUILD_BUY_PARTY:
 - ' §fNow you can create §aParty§f from your guild members'
 - ' §fTo do this, use the command §7/guild party'
 PLAYER_GUILD_BUY_PRICE:
-- ' §fYou can now sell your §2Гильдию§f on the guild list §f/g all'
+- ' §fYou can now sell your §2Guild§f on the guild list §f/g all'
 - ' §fSet the cost of the guild in §7/guild setprice'
 PLAYER_GUILD_BUY_RANK:
 - ' §fNow you can literally manage the ranks of the guild:'
@@ -909,7 +909,7 @@ KITWARS_KIT_LORE:
 KITWARS_BONUS: 'Bonus'
 KITWARS_BONUS_LORE:
 - '§7Come to pick up'
-KITWARS_BONUS_1_NAME: 'Blidness'
+KITWARS_BONUS_1_NAME: 'Blindness'
 KITWARS_BONUS_2_NAME: 'Speed'
 KITWARS_BONUS_3_NAME: 'Regeneration'
 KITWARS_BONUS_4_NAME: 'Fire Resistance'
@@ -1039,7 +1039,7 @@ BEDWARS_BED_BREAK: "%s §fteam's bed was destroyed by %s"
 BEDWARS_BED_GAME_OVER: '§cYou died, your bed is destroyed'
 BEDWARS_BED_GAME_OVER_TITLE: '§cYou died'
 BEDWARS_BED_GAME_OVER_SUBTITLE: '§cYou bed is destroyed'
-BEDWARS_NO_PLACE_SPAWN: '§cСтавить блоки рядом с местом респавна запрещено'
+BEDWARS_NO_PLACE_SPAWN: '§cIt is forbidden to put blocks near the respawn place'
 
 LUCKYWARS_INFO:
 - '§eYour task is to break lucky block and kill players'
@@ -1056,7 +1056,7 @@ SKYWARS_INFO:
 - '§eYour task is to throw off all players'
 - '§eand stay on the island. Fall? All right, you lost!'
 
-SKYWARS_STARTED_SUBTITLE: 'Останьтесь последним выжившим'
+SKYWARS_STARTED_SUBTITLE: 'Be the last survivor'
 
 #GunGame
 GUNGAME_INFO:
@@ -1126,7 +1126,7 @@ ITEM_REPLAY_LORE:
 - '§7on the same mode'
 
 SPECTATOR_PERK_LORE:
-- '§7Выбранные дополнения:'
+- '§7Selected add-on:'
 
 GUI_TP_NAME: 'Teleportator'
 GUI_TP_LORE:
@@ -1179,12 +1179,12 @@ GUI_SETTINGS_NOVISION_LORE:
 - '§e▸ Click, to enable'
 GUI_SETTINGS_SHOW_LORE:
 - ' '
-- '§7Сейчас Вы не видите других'
-- '§7наблюдателей. После изменения'
-- '§7этой настройки Вы снова сможете'
-- '§7их видеть'
+- '§7Now you do not see others'
+- '§7spectators. After change'
+- '§7this setting you can see'
+- '§7spectators again'
 - ' '
-- '§e▸ Нажмите, чтобы показать'
+- '§e▸ Click, to show'
 GUI_SETTINGS_HIDE_LORE:
 - ' '
 - '§7You see others now'
@@ -1284,7 +1284,7 @@ TAB_HEADER:
 - ''
 TAB_FOOTER:
 - ''
-- 'You are in:'
+- 'You are on:'
 - '§b%s'
 TAB_GAME:
 - '§fMap: §b%s'
@@ -1722,7 +1722,7 @@ SPYCHAT_OFF: '§aSpyChat §8| §fYou are no longer spying for chat'
 SPYCHAT_ALREADY: '§aSpyChat §8| §cSpying is already enabled'
 SPYCHAT_ALREADY_DISABLE: '§aSpyChat §8| §cSpying is already disabled'
 
-GROUP_PREFIX_INVALID: '§cPrefix может состоять только из букв или цифр'
+GROUP_PREFIX_INVALID: '§cPrefix can only be letters or numbers'
 
 NO_FOUND_PLAYER: '§aServer §8| §fPlayer %s§f not found or player is offline'
 NO_FOUND_PLAYER_IN_GAMEMODE: '§aServer §8| §fPlayer %s§f not found on this gamemode'
@@ -1784,7 +1784,7 @@ CHANNEL_NOT_FOUND: '§aCore §8| §cError, channel %s not found'
 
 HACK_REASON: '§4Error #3 §cSuspicion of hacking'
 VZLOM_REASON: '§cError #14 Please, contact group » §a§nvk.me/flycore'
-DOWNLOAD_MAP_REASON: '§cError #19 §cПодозрение в скачивании карты, сообщите vk.me/flycore если это не так'
+DOWNLOAD_MAP_REASON: '§cError #19 §cSuspicion of downloading a map, inform in vk.me/flycore if it is not'
 
 PARTY_ALREADY: '§aParty §8| §fYou are already in the group'
 PARTY_PLAYER_ALREADY: '§aParty §8| §cPlayer %s is already in the group'
@@ -1884,8 +1884,8 @@ PARTY_INVITE_ALREADY: '§aParty §8| §cError, player %s already has invite to t
 PARTY_INVITE_LIMIT: '§aParty §8| §cLimit of the group exceeded, limit - %s'
 PARTY_INVITE: '§aParty §8| §fInvite to the group sent to %s'
 PARTY_INVITE_OWNER: '§aParty §8| §fSend invites to the group can only the group owner'
-PARTY_INVITE_EXPIRED: '§aParty §8| §cЗапрос, отправленный игроку %s§c был автоматически отклонен'
-PARTY_INVITE_EXPIRED_TO: '§aParty §8| %s§f отправлявший Вам приглашение в группу, был автоматически отклонен спустя %s'
+PARTY_INVITE_EXPIRED: '§aParty §8| §cRequest, invited to %s§c has been automatically rejected'
+PARTY_INVITE_EXPIRED_TO: '§aParty §8| %s§f invites You request in party, has been automatically rejected after %s'
 
 PARTY_GUILD: '§aParty §8| §fYou joined to the group of the player %s §fguild'
 PARTY_GUILD_ALERT: '§aParty §8| %s§f joined to the guild group'
@@ -1967,67 +1967,67 @@ FRIEND_SETRANK_INVALID: '§aFriends §8| §fError, rank %s does not exist, avail
 
 FRIEND_ADDRANK_FORMAT: '/%s addrank <rank name>'
 FRIEND_ADDRANK_ALREADY: '§aFriends §8| §cError, rank named %s already exists'
-FRIEND_ADDRANK: '§aFriends §8| §fРанг §a%s§f успешно создан, отредактируйте его в §e/f ranks %s'
-FRIEND_ADDRANK_LIMIT: '§aFriends §8| §cОшибка, вы привысили кол-во доступных к созданию рангов. Ваш лимит - %s'
+FRIEND_ADDRANK: '§aFriends §8| §fRank §a%s§f successfully created, edit it in §e/f ranks %s'
+FRIEND_ADDRANK_LIMIT: '§aFriends §8| §cError, you raised number of ranks available for creation. Your limit is - %s'
 
 FRIEND_DELRANK_FORMAT: '/%s delrank <rank name>'
-FRIEND_DELRANK_ALREADY: '§aFriends §8| §cОшибка, ранга %s не существует'
-FRIEND_DELRANK: '§aFriends §8| §fРанг §a%s§f удален'
-FRIEND_DELRANK_UNAVAILABLE: '§aFriends §8| §cОшибка, нельзя удалять стандартные ранги'
+FRIEND_DELRANK_ALREADY: '§aFriends §8| §cError, rank %s does not exist'
+FRIEND_DELRANK: '§aFriends §8| §fRank §a%s§f deleted'
+FRIEND_DELRANK_UNAVAILABLE: '§aFriends §8| §cError, you cannot delete standard ranks'
 
 FRIEND_RANK_RENAME_FORMAT: '/%s rankrename <rank> <prefix/reset>'
-FRIEND_RANK_RENAME: '§aFriends §8| §fРанг §a%s§f переименован в §e%s'
+FRIEND_RANK_RENAME: '§aFriends §8| §fRank §a%s§f renamed to §e%s'
 
-FRIEND_SUFFIX_NO_PERM: '§aFriends §8| §cОшибка, у вас еще не куплена "Смена суффикса друзей", купите её на сайте %s для использования'
+FRIEND_SUFFIX_NO_PERM: '§aFriends §8| §cError, you have not yet purchased "Change the suffix of friends", buy it on %s for use'
 FRIEND_SUFFIX_FORMAT: '/%s suffix <suffix/reset>'
-FRIEND_SUFFIX_RENAME: '§aFriends §8| §fСуффикс изменен на §a%s'
-FRIEND_SUFFIX_RESET: '§aFriends §8| §fСуффикс очищен'
+FRIEND_SUFFIX_RENAME: '§aFriends §8| §fSuffix changed to §a%s'
+FRIEND_SUFFIX_RESET: '§aFriends §8| §fSuffix cleared'
 
 FRIEND_RENAME_FORMAT: '/%s rename <friend name> <prefix/reset>'
-FRIEND_RENAME: '§aFriends §8| §fПрефикс друга §a%s§f изменен на §e%s'
+FRIEND_RENAME: '§aFriends §8| §fFriend prefix §a%s§f changed to §e%s'
 
-FRIEND_PREFIX_RESET: '§aFriends §8| §fПрефикс для %sа §a%s§f очищен'
+FRIEND_PREFIX_RESET: '§aFriends §8| §fPrefix for %sа §a%s§f cleared'
 
 FRIEND_SETTING_UNAVAILABLE:
-- '§cУ ранга установленного Вам, нет доступа к данной возможности (Настройка %s)'
-- '§c  Попросите вашего друга изменить вам ранг или выдать права через §e/f ranks§c или §e/f setrank'
-FRIEND_SETTING_TPHERE: 'Телепортация вас к другу'
+- '§cThe rank assigned to you does not have access to this feature (Setting %s)'
+- '§c  Ask your friend to change your rank or give you rights through §e/f ranks§c or §e/f setrank'
+FRIEND_SETTING_TPHERE: 'Teleporting you to a friend'
 FRIEND_SETTING_TPHERE_DESCRIPTION:
-- '§7Позволяет другу телепортировать вас к себе'
-- '§7с помощью §f/f tphere'
-FRIEND_SETTING_IGNORE: 'Игнорирование'
+- '§7Allows a friend to teleport you to him'
+- '§7With §f/f tphere'
+FRIEND_SETTING_IGNORE: 'Ignoring'
 FRIEND_SETTING_IGNORE_DESCRIPTION:
-- '§7Позволяет другу игнорировать то что вы добавили его в игнор(§f/ignore§7)'
+- '§7Allows a friend to ignore the fact that you have added him to ignore(§f/ignore§7)'
 FRIEND_SETTING_PVP: 'PvP'
 FRIEND_SETTING_PVP_DESCRIPTION:
-- '§7Не дает другу нанести урон по вам'
-- '§7на всех режимах кроме арен мини-игр'
-FRIEND_SETTING_CHATSUFFIX: 'Суффикс друга'
+- '§7Prevents a friend from damaging you'
+- '§7in all modes except game arenas'
+FRIEND_SETTING_CHATSUFFIX: 'Friend suffix'
 FRIEND_SETTING_CHATSUFFIX_DESCRIPTION:
-- '§7Скрывает суффикс друга'
-FRIEND_SETTING_CHATPREFIX: 'Префикс друга'
+- '§7Hide friend suffix'
+FRIEND_SETTING_CHATPREFIX: 'Friend prefix'
 FRIEND_SETTING_CHATPREFIX_DESCRIPTION:
-- '§7Скрывает префикс друга'
-- '§7который вы ему задавали через §f/f rename'
-FRIEND_SETTING_CHATRANKPREFIX: 'Префикс друга'
+- '§7Hide friend prefix'
+- '§7that you asked him through §f/f rename'
+FRIEND_SETTING_CHATRANKPREFIX: 'Friend prefix'
 FRIEND_SETTING_CHATRANKPREFIX_DESCRIPTION:
-- '§7Скрывает префикс ранга друга'
-- '§7который вы задавали через §f/f rankrename'
-FRIEND_SETTING_TELEPORT: 'Телепортация друга к вам'
+- '§7Hide friend rank prefix'
+- '§7that you asked him through §f/f rankrename'
+FRIEND_SETTING_TELEPORT: 'Teleport a friend to you'
 FRIEND_SETTING_TELEPORT_DESCRIPTION:
-- '§7Позволяет другу телепортироваться к вам,'
-- '§7даже когда у вас отключены телепортации(§f/tptoggle§7)'
+- '§7Allows a friend to teleport to you,'
+- '§7even when you have teleportation disabled(§f/tptoggle§7)'
 
-GUI_FRIENDTYPES_NAME: 'Настройки рангов друзей'
-GUI_FRIENDTYPES_RANK_NAME: 'Ранг'
+GUI_FRIENDTYPES_NAME: 'Friends rank settings'
+GUI_FRIENDTYPES_RANK_NAME: 'Rank'
 GUI_FRIENDTYPES_RANK_SELECT_LORE:
-- '§7Вы можете отредактировать'
-- '§7настройки ранга'
+- '§7You can edit'
+- '§7friend settings'
 - ''
-- '§e▸ Нажмите, чтобы редактировать'
+- '§e▸ Click, to edit'
 GUI_FRIENDTYPES_RANK_SELECTED_LORE:
 - ''
-- '§c✗ Вы уже редактируете данный ранг'
+- '§c✗ You are already editing this rank'
 
 LVL_UP: '§a§l§kX§r §c§lLEVEL UP §a§l§kX'
 NEW_LVL: '§fYou received §d%s§f level!'
@@ -2042,12 +2042,12 @@ LEVEL_COMMAND:
 KEY_BOX: 'You have'
 BOX_NAME: 'Lucky Cube'
 BOX_SUB_NAME: '§7Click to open'
-BOX_IS_CLOSED: '§cSorry, но данный cube временно недоступен'
-BOX_KEY_NOT_BUY: '§cSorry, но в данный момент этот ключ не продается!'
+BOX_IS_CLOSED: '§cSorry, but this cube temporarily unavailable'
+BOX_KEY_NOT_BUY: '§cSorry, but at the moment this key is not for sale!'
 BOX_NO_KEY: '§cYou have not keys'
 BOX_WORK: '§cWait... Cube scrolls!'
-BOX_NO_OPEN: '§cПростите, но Вы не можете открыть этот "кейс" на данном режиме!'
-BOX_NO_ITEMS: '§cПростите, но в данном "кейсе" нету предметов!'
+BOX_NO_OPEN: '§cSorry, but you cannot open this "case" in this mode!'
+BOX_NO_ITEMS: '§cSorry, but there are no items in this "case"!'
 BOX_OPEN_YOU: 'You started open a cube...'
 BOX_WINNER: 'You won %s§f item %s'
 BOX_WINNER_OTHER: '%s item %s'
@@ -2090,7 +2090,7 @@ ANSWER_BROADCAST: '§cQuestions §8| %s player %s§8 (§a%s§8) §f -> §e%s'
 NEW_ASK: '§cQuestions §8| %s§f asked -> §e%s'
 
 PARTY_NEW_INVITE: '   %s§f invited you to the group'
-PARTY_NEW_GUILD_INVITE: ' %s§f invited youu to the guild group'
+PARTY_NEW_GUILD_INVITE: ' %s§f invited you to the guild group'
 FRIEND_NEW_INVITE: '   %s§f invites you to be friends'
 GUILD_NEW_INVITE: ' %s§f invites you to the guild §e%s'
 INVITE_HELP_TITLE: '          §7Select button and click'
@@ -2121,66 +2121,66 @@ GUILD_OFFLINE: '§aGuild §8| §cError, all guild members are offline'
 GUILD_CHAT: '§2Guilds chat §8| %s§8 » §7%s'
 
 GUILD_COMMAND_HELP:
-- '§7/g create <название> §f- создать гильдию (стоимость создания гильдии - %s)'
-- '§7/g top §f- просмотреть топ гильдий'
-- '§7/g accept <ник игрока> §f- принять приглашение в гильдию'
-- '§7/g reject <ник игрока> §f- отклонить приглашение в гильдию'
-- '§7/g requests §f- список приглашений в гильдии'
-- '§7/g buy <ник лидера гильдии> §f- купить гильдию'
-- '§7/g all §f- список всех гильдий'
+- '§7/g create <name> §f- create the guild (guild creation cost - %s)'
+- '§7/g top §f- view top guilds'
+- '§7/g accept <nickname> §f- accept the invitation to the guild'
+- '§7/g reject <nickname> §f- reject the invitation to the guild'
+- '§7/g requests §f- guild invitation list'
+- '§7/g buy <leader nickname> §f- buy a guild'
+- '§7/g all §f- list of all guilds'
 GUILD_COMMAND_MEMBER_HELP:
-- '§7/g <сообщение> §f- чат гильдии'
-- '§7/g list §f- открыть список участников гильдии'
-- '§7/g top §f- просмотреть топ гильдий'
-- '§7/g buy <ник лидера гильдии> §f- купить гильдию'
-- '§7/g all §f- список всех гильдий'
-- '§7/g leave §f- покинуть гильдию'
-- '§7/g stats §f- информация о гильдии'
-- '§7/g lvl §f- информация о уровне гильдии'
-- '§7/g donaters §f- топ участников гильдии'
-- '§7/g donate <кол-во монет> §f- пополнить баланс гильдии'
+- '§7/g <message> §f- guild chat'
+- '§7/g list §f- open the list of guild members'
+- '§7/g top §f- view top guilds'
+- '§7/g buy <leader nickname> §f- buy a guild'
+- '§7/g all §f- list of all guild'
+- '§7/g leave §f- leave the guild'
+- '§7/g stats §f- information of guild'
+- '§7/g lvl §f- information of guild level'
+- '§7/g donaters §f- top of guild members'
+- '§7/g donate <number of coins> §f- top up the guild balance'
 GUILD_COMMAND_HELP_INVITE:
-- '§7/g invite <ник игрока> §f- пригласить игрока в гильдию'
+- '§7/g invite <nickname> §f- invite player to a guild'
 GUILD_COMMAND_HELP_INFOCOMMAND:
-- '§7/g info <ник игрока> §f- информация об игроке'
-- '§7/g donateinfo <ник игрока> §f- информация о внесенных монетах игроком'
-- '§7/g <ban/mute>info <ник игрока> §f- информация о наказании игрока'
+- '§7/g info <nickname> §f- information about player'
+- '§7/g donateinfo <nickname> §f- information about the coins deposited by the player'
+- '§7/g <ban/mute>info <nickname> §f- player penalty information'
 GUILD_COMMAND_HELP_MUTE:
-- '§7/g mute §f- заблокировать чат игроку'
+- '§7/g mute §f- block chat for a player'
 GUILD_COMMAND_HELP_UNMUTE:
-- '§7/g unmute §f- разблокировать чат игроку'
+- '§7/g unmute §f- unblock chat for player'
 GUILD_COMMAND_HELP_BAN:
-- '§7/g ban §f- заблокировать игрока'
+- '§7/g ban §f- block player'
 GUILD_COMMAND_HELP_UNBAN:
-- '§7/g unban §f- разблокировать игрока'
+- '§7/g unban §f- unblock player'
 GUILD_COMMAND_HELP_CHANGEHOME:
-- '§7/g sethome §f- установить точку дома гильдии'
-- '§7/g delhome §f- удалить точку дома гильдии'
+- '§7/g sethome §f- set guild house point'
+- '§7/g delhome §f- delete guild house point'
 GUILD_COMMAND_HELP_SHOP:
-- '§7/g shop §f- открыть магазин гильдии'
+- '§7/g shop §f- open a guild shop'
 GUILD_COMMAND_HELP_PRICECOMMANDS:
-- '§7/g tag <тег> §f- установить тег гильдии'
-- '§7/g party §f- собрать группу гильдии'
-- '§7/g motd §f- управление приветствием гильдии'
-- '§7/g public §f- изменить публичность гильдии'
+- '§7/g tag <tag> §f- set the guild tag'
+- '§7/g party §f- assemble a guild group'
+- '§7/g motd §f- guild greeting management'
+- '§7/g public §f- change guild publicity'
 GUILD_COMMAND_HELP_RANKS:
-- '§7/g rank §f- управление рангами'
+- '§7/g rank §f- rank management'
 GUILD_COMMAND_HELP_DEPOSIT:
-- '§7/g deposit <ник игрока> <кол-во монет> §f- вывести деньги с баланса'
+- '§7/g deposit <nickname> <number of coins> §f- withdraw money from the balance'
 GUILD_COMMAND_LEADER_HELP:
-- '§7/g setprice <цена> §f- установить цену за гильдию'
-- '§7/g rename <название> §f- переименовать гильдию'
-- '§7/g delete §f- распустить гильдию (деньги вложенные в гильдию не возвращаются!)'
-- '§7/g leader <ник игрока> §f- передать лидерство'
+- '§7/g setprice <price> §f- set price for guild'
+- '§7/g rename <name> §f- rename guild'
+- '§7/g delete §f- dissolve the guild (money invested in the guild is not returned!)'
+- '§7/g leader <bickname> §f- transfer leadership'
 GUILD_COMMAND_HELP_COLOR: []
 GUILD_COMMAND_HELP_KICK:
-- '§7/g kick <ник игрока> <причина> §f- удалить игрока из гильдии'
+- '§7/g kick <nickname> <reason> §f- remove a player from the guild'
 GUILD_COMMAND_TOP_HELP:
-- '§7/g top level §f- топ гильдий по уровню'
-- '§7/g top coins §f- топ гильдий по монетам'
-- '§7/g top members §f- топ гильдий по участникам'
-GUILD_TOP_GUILDS_TITLE: '§aГильдии §8| §fТоп §a%s§f гильдий:'
-GUILD_TOP_MEMBERS_TITLE: '§aГильдии §8| §fТоп §a%s§f участников:'
+- '§7/g top level §f- top guilds by level'
+- '§7/g top coins §f- top guilds by coins'
+- '§7/g top members §f- top guilds by member'
+GUILD_TOP_GUILDS_TITLE: '§aGuilds §8| §fТоп §a%s§f гильдий:'
+GUILD_TOP_MEMBERS_TITLE: '§aGuilds §8| §fТоп §a%s§f участников:'
 GUILD_TOP_COINS_FORMAT: ' §c#%s §f- §e%s §fигрока %s§f, баланс - §a%s'
 GUILD_TOP_MEMBERS_FORMAT: ' §c#%s §f- §e%s §fигрока %s§f, участников - §a%s'
 GUILD_TOP_LEVEL_FORMAT: ' §c#%s §f- §e%s §fигрока %s§f, уровень - §b%s'
