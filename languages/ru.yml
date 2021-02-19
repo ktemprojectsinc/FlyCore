@@ -4809,8 +4809,10 @@ GUI_PROFILE_SETTING2_LORE:
   - ''
   - '§e▸ Открыть меню категорий'
 GUI_PROFILE_SETTING3_LORE:
+  - '§7Список настроек:'
+GUI_PROFILE_SETTING4_LORE:
   - ''
-  - '§e▸ Открыть меню %s'
+  - '§e▸ Открыть %s'
 
 GUI_PROFILE_LEVEL_LORE:
   - '§7Играя на сервере, вы получаете'
