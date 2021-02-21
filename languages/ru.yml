@@ -3052,6 +3052,7 @@ WHOIS_PUNISHMENT: 'Наказания'
 WHOIS_GROUP_EXPIRE: 'Статус заканчивается через'
 WHOIS_GROUP_PREVIOUS: 'после окончания будет'
 WHOIS_GROUP_MAIN: 'Основная группа'
+WHOIS_GROUP_LAST: 'Прошлая группа'
 WHOIS_PREFIX_EXPIRE: 'Префикс заканчивается через'
 RULES_NOT_FOUND: '§aПравила §8| §fОшибка, правила %s не существует'
 RULES:
