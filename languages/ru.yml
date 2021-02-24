@@ -920,10 +920,10 @@ ARENA_BUSY: '§cАрена заполнена, не хватает слотов?
 ARENA_START: '§cИгра начинается...'
 ARENA_RESTART: '§cИгра перезагружается...'
 
-TYPE_SERVER_RESTART: '§cСервер перезагружается'
-TYPE_SERVERS_RESTART: '§cСервера перезагружаются'
-TYPE_SERVER_DISABLE: '§4Сервер отключен!'
-TYPE_SERVERS_DISABLE: '§4Сервера отключены!'
+TYPE_SERVER_RESTART: 'Сервер перезагружается'
+TYPE_SERVERS_RESTART: 'Сервера перезагружаются'
+TYPE_SERVER_DISABLE: 'Сервер отключен!'
+TYPE_SERVERS_DISABLE: 'Сервера отключены!'
 
 GAMER_VOTE_START: '§fГолосование за старт собрало достаточно голосов, игра начинается..'
 GAMER_VOTE_ALREADY: '§cВы уже голосовали за старт'
