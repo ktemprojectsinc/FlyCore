@@ -10117,6 +10117,9 @@ ENCHANTMENT_RIPTIDE: 'Тягун'
 ENCHANTMENT_CHANNELING: 'Громовержец'
 
 #items
+RABBIT_FOOT: 'Кроличья лапка'
+OBSERVER: 'Наблюдатель'
+BOOK: 'Книга'
 IRON_ORE: 'Железная руда'
 POISONOUS_POTATO: 'Ядовитый картофель'
 COOKED_RABBIT: 'Жареная крольчатина'
