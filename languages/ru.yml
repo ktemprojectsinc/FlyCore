@@ -3349,6 +3349,11 @@ PTIME_ERROR: '§cОшибка, вы должны вводить число'
 PTIME: 'Время установлено на §a%s'
 PTIME_CLEAR: 'Время сброшено'
 
+TIME_SET_TO: 'Время установлено на %s для всех в вашем мире'
+
+SUN_FORMAT: '/weather <storm/sun/clear>'
+SUN_SET_TO: 'Погода изменена на %s для всех в вашем мире'
+
 REPAIR_ALREADY: '§cПредмет не поврежден'
 REPAIR: 'Предмет отремонтирован'
 REPAIR_ALL: 'Все предметы отремонтированы'
@@ -10032,9 +10037,9 @@ GUI_PTIME_ITEM_WATCH_LORE:
   - '§e▸ Нажмите, чтобы сменить'
 GUI_PLAYER_WARP_NAME: 'Список варпов - %s'
 
-DAY: день
-NIGHT: ночь
-MORNING: утро
+DAY: 'день'
+NIGHT: 'ночь'
+MORNING: 'утро'
 PWEATHER_CHANGED: 'Погода изменена'
 TELEPORT_MOVE_ERROR: '§cОшибка, вы двинулись, телепортация отменена'
 TELEPORTING: 'Телепортируем, не двигайтесь §a%s'
