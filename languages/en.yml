@@ -2027,7 +2027,7 @@ GUI_FRIENDTYPES_RANK_SELECT_LORE:
 - '§e▸ Click to edit'
 GUI_FRIENDTYPES_RANK_SELECTED_LORE:
 - ''
-- '§c✗ You are already editing this rankг'
+- '§c✗ You are already editing this rank'
 
 LVL_UP: '§a§l§kX§r §c§lLEVEL UP §a§l§kX'
 NEW_LVL: '§fYou received §d%s§f level!'
