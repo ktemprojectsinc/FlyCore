@@ -916,7 +916,7 @@ START_TITLE_MSG: 'Start!'
 LUCKYWARS_STARTED_SUBTITLE: '§fSurvive and do not get in trap'
 BEDWARS_STARTED_SUBTITLE: '§fProtect your bed!'
 
-KITWARS_KIEN_TITLE: '§cAttention'
+KITWARS_KITOPEN_TITLE: '§cAttention'
 KITWARS_KITOPEN_SUBTITLE: '§eNew kits are open!'
 KITWARS_KIT_GIVE: 'You have been given a kit §a%s'
 KITWARS_GUI_KITS_NAME: 'Kit selection'
