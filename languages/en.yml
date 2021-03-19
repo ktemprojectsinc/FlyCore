@@ -1774,7 +1774,7 @@ CHANNEL_NOT_FOUND: '§aCore §8| §cError, channel %s not found'
 
 HACK_REASON: '§4Error #3 §cSuspicion of hacking'
 VZLOM_REASON: '§cError #14 Please, contact group » §a§nvk.me/flycore'
-DOWNLOAD_MAP_REASON: '§cError #19 §cSuspicion of downloading the map, inform vk.me/flycore if it's not true'
+DOWNLOAD_MAP_REASON: '§cError #19 §cSuspicion of downloading the map, inform vk.me/flycore if it`s not true'
 
 PARTY_ALREADY: '§aParty §8| §fYou are already in the group'
 PARTY_PLAYER_ALREADY: '§aParty §8| §cPlayer %s is already in the group'
