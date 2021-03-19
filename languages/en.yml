@@ -7476,7 +7476,7 @@ GUI_CASES_INFO_LORE:
   - '§cAs more cases do you open, as higher'
   - '§cyour chance to get something decent from chest!'
   - ''
-  - '§7Approximate (initial) chances for '
+  - '§7Approximate(§7§nstarting§7 chances for '
   - '§7getting items from the chest:'
   - '%s'
   - ''
