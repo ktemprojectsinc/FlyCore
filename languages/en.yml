@@ -496,13 +496,17 @@ LOSINGS:
   - ''
   - 's'
   - 's'
+  
+BUY_MONEY: 'moneys'
+BUY_RUB: 'rubbles'
+BUY_DIAMOND: 'diamonds'
+BUY_FLYCOIN: 'flycoins'
 
 MONEYS:
   - 'coin'
   - ''
   - ''
   - 's'
-
 MONEYS_2:
   - 'coin'
   - ''
@@ -514,7 +518,6 @@ GOLDS:
   - ''
   - ''
   - 's'
-
 GOLDS_2:
   - 'gold'
   - ''
@@ -526,10 +529,41 @@ CORES:
   - ''
   - ''
   - 's'
-
-
 CORES_2:
   - 'core'
+  - ''
+  - ''
+  - 's'
+  
+RUBS:
+  - 'rub'
+  - 'le'
+  - 'les'
+  - 'les'
+RUBS_2:
+  - 'rub'
+  - 'le'
+  - 'les'
+  - 'les'
+
+DIAMONDS:
+  - 'diamond'
+  - ''
+  - ''
+  - 's'
+DIAMONDS_2:
+  - 'diamond'
+  - ''
+  - ''
+  - 's'
+
+FLYCOINS:
+  - 'flycoin'
+  - ''
+  - ''
+  - 's'
+FLYCOINS_2:
+  - 'flycoin'
   - ''
   - ''
   - 's'
@@ -882,7 +916,7 @@ START_TITLE_MSG: 'Start!'
 LUCKYWARS_STARTED_SUBTITLE: '§fSurvive and do not get in trap'
 BEDWARS_STARTED_SUBTITLE: '§fProtect your bed!'
 
-KITWARS_KITOPEN_TITLE: '§cAttention'
+KITWARS_KIEN_TITLE: '§cAttention'
 KITWARS_KITOPEN_SUBTITLE: '§eNew kits are open!'
 KITWARS_KIT_GIVE: 'You have been given a kit §a%s'
 KITWARS_GUI_KITS_NAME: 'Kit selection'
@@ -2047,6 +2081,7 @@ BOX_KEYS: '§dCosmetic keys §f(§6+%s§f)'
 BOX_NEWYEARKEYS: '§bNewYear keys §f(§c+%s§f)'
 BOX_TITLEKEYS: '§fTitle keys §f(§2+%s§f)'
 BOX_STAFFKEYS: '§4Admin keys §f(§a+%s§f)'
+BOX_FREEKEYS: '§6Free keys §f(§a+%s§f)'
 BOX_EXP: '§eExperience §f(§a+%s§f)'
 BOX_MONEY: '§aCoins §f(§6+%s§f)'
 BOX_GOLDS: '§eGolds §f(§a+%s§f)'
@@ -2057,6 +2092,8 @@ BOX_COSMETICKEYS: '§aCosmetic-game keys §f(§d+%s§f)'
 BOX_ULTRAKEYS: '§bUltra keys §f(§d+%s§f)'
 BOX_GAMEKEYS: '§cGame keys §f(§e+%s§f)'
 BOX_NULL: '§c??? §f(§c%s§c +%s§f)'
+BOX_MAGIC: 'Magical'
+BOX_SPECIAL: 'Special'
 BOX_LEGENDARY: 'Legendary'
 BOX_EPIC: 'Epic'
 BOX_RARE: 'Rare'
@@ -7438,14 +7475,11 @@ GUI_CASES_INFO_LORE:
   - ' '
   - '§cAs more cases do you open, as higher'
   - '§cyour chance to get something decent from chest!'
-  - ' '
-  - '§7Approximate(§7§nstarting§7) chances for '
-  - '§7getting items from chest:'
-  - ' §8• §eDefault§f(§e☆§f) §8- §763.5%'
-  - ' §8• §bRare§f(§b☆☆§f) §8- §727%'
-  - ' §8• §5Epic§f(§5☆☆☆§f) §8- §77%'
-  - ' §8• §6Legendary§f(§6☆☆☆☆§f) §8- §72.5%'
-  - ' '
+  - ''
+  - '§7Approximate (initial) chances for '
+  - '§7getting items from the chest:'
+  - '%s'
+  - ''
   - '§cWITH EACH OPENING CHANCES ARE GROWING UP!'
 GUI_CASES_INFO2_NAME: '§bHow to get keys?'
 GUI_CASES_INFO2_LORE:
@@ -7500,9 +7534,9 @@ GUI_CASES_MONEY_LORE:
 GUI_CASES_COSMETIC_NAME: '§aCosmetic-game key'
 GUI_CASES_COSMETIC_LORE:
   - ''
-  - '§7Используется для получения'
-  - '§7эффектов стрел, предсмертных хрипов и других'
-  - '§7визуальных вещей на аренах'
+  - '§7Uses for getting'
+  - '§7arrow effects, death rattles and others'
+  - '§7visual things in arenas'
   - ''
   - '§cWarning! By getting already existing'
   - '§citem you will get from 500 to 2,000 coins!'
@@ -7520,40 +7554,54 @@ GUI_CASES_ULTRA_LORE:
 GUI_CASES_GAME_NAME: '§cGame key'
 GUI_CASES_GAME_LORE:
   - ''
-  - '§7Используется для получения'
-  - '§7различных предметов,'
-  - '§7на режимах выживаний.'
+  - '§7Uses for getting'
+  - '§7various items,'
+  - '§7on survival modes.'
 GUI_CASES_NEWYEAR_NAME: '§bNewYear key'
 GUI_CASES_NEWYEAR_LORE:
   - ''
   - '§7Открой празднично-новогодний'
   - '§7ключ, и получи подарки быстрее чем,'
   - '§7из под ёлки :)'
-GUI_CASES_TITLE_NAME: '§fТитульный ключ'
+GUI_CASES_TITLE_NAME: '§fTitle key'
 GUI_CASES_TITLE_LORE:
   - ''
-  - '§7Используется для получения'
-  - '§7титулов (§fПрофиль §7▸ §fТитулы§7)'
+  - '§7Uses for getting'
+  - '§7titles (§fProfile §7▸ §fTitles§7)'
   - ''
-  - '§cВнимание! При выбивании уже существующего'
-  - '§cтитула вы получите от %s до %s золота!'
-GUI_CASES_STAFF_NAME: '§4Администраторский ключ'
+  - '§cWarning! By getting already existing'
+  - '§ctitle you will get from %s to %s gold!'
+GUI_CASES_STAFF_NAME: '§4Administrator key'
 GUI_CASES_STAFF_LORE:
   - ''
-  - '§7Используется для получения'
-  - '§7бесплатного статуса персонала от %s§7 до %s'
-  - '§7на 1 неделю.'
+  - '§7Uses for getting'
+  - '§7free staff rank from %s§7 to %s'
+  - '§7for a %s.'
   - ''
-  - '§cВнимание! При выбивании уже существующего'
-  - '§cстатуса Вы получите новый статус'
+  - '§cWarning! By getting already existing'
+  - '§crank You will get cores up to 50'
+GUI_CASES_FREE_NAME: '§6Free key'
+GUI_CASES_FREE_LORE:
+  - ''
+  - '§7Uses for getting'
+  - '§7free rank from %s§7 to %s'
+  - '§7or coins/experience'
+  - ''
+  - '§cWarning! By getting already existing'
+  - '§crank You will get coins!'
 GUI_CASES_INFO_TO_LORE:
   - ''
   - '§7Approximate next rarity: %s'
   - '§7Available keys: §a%s'
   - ''
-  - '§e▸ Left click, to open case'
-  - '§e▸ Right click, to buy keys'
-  - '§e▸ Shift + Left click, to open fast case'
+GUI_CASES_INFO_OPEN_LORE:
+  - '§e▸ Left click to open key'
+GUI_CASES_INFO_BUY_LORE:
+  - '§e▸ Right click to buy keys'
+GUI_CASES_INFO_FAST_LORE:
+  - '§e▸ Shift + Left click to open fast key'
+GUI_CASES_INFO_NO_OPEN_LORE:
+  - '§c✗ You don't have the keys to open it'
 
 GUI_PURCHASE_CONFIRM: 'Confirm purchase'
 GUI_PURCHASE_CONFIRM_LORE:
@@ -7575,21 +7623,21 @@ GUI_PURCHASE_CONFIRM_CANCEL_LORE:
 COST_FORMAT: '§7Price: %s'
 DISCOUNTED_COST_FORMAT: '§7Price (with discount): %s'
 
-GUI_TIMEDONATE_NAME: 'Привилегии за время'
-GUI_TIMEDONATE_INFO_NAME: '§eИнформация'
+GUI_TIMEDONATE_NAME: 'Rank of time'
+GUI_TIMEDONATE_INFO_NAME: '§eInformation'
 GUI_TIMEDONATE_INFO_LORE:
   - ''
-  - '§7За время игры на сервере,'
-  - '§7Вы можете получить временную привилегию,'
-  - '§7которая будет снята по окончанию её времени.'
+  - '§7For the time games on the server,'
+  - '§7You can get a temporary rank,'
+  - '§7which will be removed at the end of her time.'
   - ''
-  - '§7Вы наиграли: §a%s'
+  - '§7You played: §a%s'
   - ''
   - '§7Для просмотра наигранного времени,'
   - '§7Вы можете использовать команду §a/time'
 GUI_TIMEDONATE_LORE:
   - ''
-  - ' §8• §7Время привилегии: %s'
+  - ' §8• §7Time of rank: %s'
 GUI_TIMEDONATE_AVAILABLE_LORE:
   - '§e▶ Click to get the rank'
 GUI_TIMEDONATE_UNAVAILABLE_LORE:
@@ -8645,7 +8693,7 @@ HOLO_TOP_MONTHLY:
   - '§fTop of victories players'
   - '§fFor §e%s'
 HOLO_TOP_MONTHLY2:
-  - '§ffor §e%s'
+  - '§fза §e%s'
 TOP_BEDS_HOLO:
   - '%s'
   - '§a§lТоп кроватей'
@@ -8691,6 +8739,14 @@ TOP_COINS_HOLO:
   - '§a§lТоп по монетам'
   - '§fТоп игроков по количеству'
   - '§fзаработанной валюты "монеты"'
+TOP_RUB_HOLO:
+  - '§a§lТоп по деньгам'
+  - '§fТоп игроков по количеству'
+  - '§fзаработанной валюты "рубли"'
+TOP_FLYCOINS_HOLO:
+  - '§a§lТоп по флайкоинам'
+  - '§fТоп игроков по количеству'
+  - '§fзаработанной валюты "флайкоины"'
 TOP_MAINLEVEL_HOLO:
   - '§a§lТоп по уровню'
   - '§fТоп игроков по'
@@ -8712,16 +8768,16 @@ TOP_ONLINE_HOLO:
   - '§fTop players by number'
   - '§fplayed time'
 TOP_BLOCKPLACE_HOLO:
-  - '§a§lTop по созданных блоков'
-  - '§fТоп игроков по кол-ву'
+  - '§a§lТоп по созданных блоков'
+  - '§fТоп игроков по количеству'
   - '§fпоставленных блоков за §e%s'
 TOP_BLOCKBREAK_HOLO:
-  - '§a§lTop по сломанных блоков'
-  - '§fТоп игроков по кол-ву'
+  - '§a§lТоп по сломанных блоков'
+  - '§fТоп игроков по количеству'
   - '§fразрушенных блоков за §e%s'
 TOP_MOB_KILLS_HOLO:
   - '§a§lТоп по убийствам мобов'
-  - '§fТоп игроков по кол-ву'
+  - '§fТоп игроков по количеству'
   - '§fубитых мобов за §e%s'
 TOP_GOTOS_HOLO:
   - '§a§lТоп по примерам'
@@ -8759,9 +8815,12 @@ TOP_RECOVERED_HOLO:
   - '§fТоп игроков по количеству'
   - '§fвылеченных игроков за §e%s'
 HOLO_TOP_MAIN:
-  - '§7Click to view another'
-  - '§7Next [LMС], previous [RMC]'
-HOLO_TOP_UPDATE: '§cBefore update: §c%s'
+  - '§fClick to view anothe'
+  - '§fNext [§a§lLMC§f], previous [§c§lRMC§f]'
+#- '§fНажмите по голограмме§f,'
+#- '§fчтобы перейти на следующую страницу §7[ЛКМ]'
+#- '§fили вернуться на предыдущую §aкарту §7[ПКМ]'
+HOLO_TOP_UPDATE: '§cBefore updated: §c%s'
 HOLO_TOP_UPDATE_NOW: 'Updated!'
 
 GUI_PRISON_SELL_NAME: 'Item selling'
@@ -8845,8 +8904,8 @@ GUI_PVP_ITEM:
 PVP_SELECT_INFO: 'Most chose %s PvP'
 
 HOLO_WELCOME:
-  - '§bHello %s§b, добро пожаловать на §a§aFlyCore'
-  - '§bтут тебя ждут мини-игры, добрые игроки и admin.'
-  - '§bИспользуй компас и выбери режим, который тебе по душе.'
-  - '§bЖелаем удачной игры на нашем сервере дорогой игрок :)'
-  - '§bP.s. поддержи нас денюжкой :3 §dflycore.ru'
+  - '§bHello %s§b, welcome to §a§aFlyCore'
+  - '§bhere you will find mini-games, good players and admin.'
+  - '§bUse the compass and choose the mode, which one do you like.'
+  - '§bWe wish you a successful game on our server dear player :)'
+  - '§bP.s. support us with money :3 §dflycore.ru'
