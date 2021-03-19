@@ -4025,7 +4025,7 @@ TRADE_START_ALREADY: '§aTrade §8| §fYou have already offered an exchange to t
 TRADE_START_YOU: '§aTrade §8| §fYou have successfully offered an exchange to a %s§f player '
 TRADE_START: '§aTrade §8| §fPlayer %s§f offered an exchange. Accept the exchange - §a/trade accept'
 TRADE_FINISH: '§aTrade §8| §fYou exchanged'
-TRADE_END: '§aTrade §8| §fYou haven't exchanged, the exchange is complete'
+TRADE_END: '§aTrade §8| §fYou haven`t exchanged, the exchange is complete'
 TRADE_READY: '§aThis player is not ready for exchange'
 TRADE_NO_READY: '§cThis player is not ready for exchange'
 TRADE_READY_NAME: '§aReady'
@@ -4085,7 +4085,7 @@ ADDRESS_FINISH: '§aServer §8| §fSearch complete. Request took §6%sms§f foun
 ADDRESS_NOT_AVAILABLE: '§aServer §8| §cSearch for address %s unavailable'
 
 GENDER_FORMAT: '/%s <male/female>'
-GENDER_NO_GOLDS: §aServer §8| '§cError, for changing gender you need to have at least %s gold'
+GENDER_NO_GOLDS: '§aServer §8| §cError, for changing gender you need to have at least %s gold'
 GENDER_MALE: '§9Male'
 GENDER_FEMALE: '§dFemale'
 GENDER_ALREADY: '§aServer §8| §cYou have already chosen this gender'
@@ -7873,9 +7873,9 @@ GUI_PTIME_ITEM_WATCH_LORE:
   - '§e▸ Click to change'
 GUI_PLAYER_WARP_NAME: 'Warps list - %s'
 
-DAY: day
-NIGHT: night
-MORNING: morning
+DAY: 'day'
+NIGHT: 'night'
+MORNING: 'morning'
 PWEATHER_CHANGED: 'Погода изменена'
 TELEPORT_MOVE_ERROR: '§cОшибка, вы двинулись, телепортация отменена'
 TELEPORTING: 'Телепортируем, не двигайтесь §a%s'
