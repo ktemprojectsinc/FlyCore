@@ -4017,7 +4017,7 @@ TRADE_FORMAT: '/trade <nickname>'
 TRADE_HELP:
   - '§7/trade <ник> §f- offer an exchange'
   - '§7/trade accept §f- accept the exchange f'
-TRADE_ERROR_YOU: '§aTrade §8| §cYou can't exchange with yourself'
+TRADE_ERROR_YOU: '§aTrade §8| §cYou can`t exchange with yourself'
 TRADE_ERROR: '§aTrade §8| §fNo one has wanted to trade with you'
 TRADE_ERROR2: '§aTrade §8| §fPlayer %s§f, who to exchange with you, left the game'
 TRADE_BROKEN: '§aTrade §8| §fSomething went wrong, the exchange was interrupted'
