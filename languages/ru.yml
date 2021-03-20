@@ -4176,7 +4176,7 @@ AUTH_LOGIN_HOLO_MAIL:
   - '§3§lMail-Auntification'
   - '§eПосетите вашу почту,'
   - '§eи введите код из письма в §bчат'
-#AUTH_REGISTER_INFO: '§fВы еще не §cзарегистрировались§f, сделайте это прямо сейчас - §a/reg §eпароль'
+AUTH_REGISTER_INFO2: '§fВы еще не §cзарегистрировались§f, сделайте это прямо сейчас - §a/reg §eпароль'
 AUTH_REGISTER_INFO: '§7Зарегистрируйтесь - §a/reg §f[§aпароль§f]'
 AUTH_LOGIN_INFO: '§7Авторизуйтесь - §a/login §f[§aпароль§f]'
 AUTH_LOGOUT: '§cВы вышли из своего аккаунта'
