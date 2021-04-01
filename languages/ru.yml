@@ -10537,6 +10537,9 @@ HOLO_VK:
 HOLO_SITE:
   - '§fСайт сервера §a§lОнлайн'
   - '§d§lwww.flycore.ru'
+HOLO_DIS:
+  - '§b§lДискорд§f сервера'
+  - '%s'
 
 HOLO_ANARCHY:
   - '§a§lAnarchy'
