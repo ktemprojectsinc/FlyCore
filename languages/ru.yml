@@ -7681,6 +7681,10 @@ GUI_GADGETS_EFFECT_25: 'Эффект для избранных'
 GUI_GADGETS_EFFECT_25_LORE:
   - '§7Если у вас он разблокирован,'
   - '§7значит вы избранный'
+GUI_GADGETS_EFFECT_26: 'Ёлочка'
+GUI_GADGETS_EFFECT_26_LORE:
+  - '§7Подойдет для тех,'
+  - '§7у кого новый год каждый день'
 GUI_GADGETS_HAT_1: 'Обычная шапка'
 GUI_GADGETS_HAT_1_LORE:
   - '§7У Вас будет шапка Стива'
