@@ -10532,11 +10532,11 @@ GAME_UPDATE_WIPE_NAME: '§lСделали вайп!'
 GAME_UPDATE_BETA_NAME: '§lБета тестирование!'
 
 HOLO_VK:
-  - '§fЗаходите в нашу группу §7§lVK'
-  - '§d§lvk.com/flycore'
+  - '§fЗаходите в нашу группу'
+  - '%s'
 HOLO_SITE:
   - '§fСайт сервера §a§lОнлайн'
-  - '§d§lwww.flycore.ru'
+  - '%s'
 HOLO_DIS:
   - '§b§lДискорд§f сервера'
   - '%s'
