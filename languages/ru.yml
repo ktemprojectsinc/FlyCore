@@ -4372,6 +4372,10 @@ AFK_ENABLED: 'Отошел, и может не отвечать'
 AFK_DISABLED: 'Снова с нами!'
 AFK_WHISPER: 'Я сейчас отошел, и могу не отвечать'
 
+TIME_BLOCKING: '§7На срок: %s'
+NEEDTIME_BLOCKING: '§7Осталось: %s'
+DATE_BLOCKING: 'Дата %s: §e%s'
+
 ITEMS_INFO: '§c⚠ Внимание §fУ вас есть §a%s§7 (нажмите сюда)'
 ITEMS_HOVER_MSG:
   - '§fНажмите сюда,'
