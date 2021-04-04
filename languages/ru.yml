@@ -7429,6 +7429,12 @@ GUI_STATS_ARCADEGAMES_LORE:
   - ' §8▪ §7Винрейт: §a%s'
   - ' §8▪ §7Сыграно игр: §a%s'
   - ' §8▪ §7Побед: §a%s'
+GUI_STATS_TNTRUN_LORE:
+  - ''
+  - '§fClassic§7:'
+  - ' §8▪ §7Винрейт: §a%s'
+  - ' §8▪ §7Сыграно игр: §a%s'
+  - ' §8▪ §7Побед: §a%s'
 GUI_STATS_PARKOUR_LORE:
   - ''
   - '§fСтандартный режим:'
