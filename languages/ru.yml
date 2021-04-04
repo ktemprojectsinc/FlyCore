@@ -4376,6 +4376,16 @@ TIME_BLOCKING: '§7На срок: %s'
 NEEDTIME_BLOCKING: '§7Осталось: %s'
 DATE_BLOCKING: 'Дата %s: §e%s'
 
+BAN_TYPE_UNMUTE: 'разблокировки чата'
+BAN_TYPE_UNBANIP: 'разблокировки IP адреса'
+BAN_TYPE_UNBAN: 'разблокировки'
+BAN_TYPE_KICK: 'кика'
+BAN_TYPE_GUILDMUTE: 'блокировки'
+BAN_TYPE_GUILDUNMUTE: 'разблокировки'
+BAN_TYPE_MUTE: 'блокировки'
+BAN_TYPE_BAN: 'блокировки аккаунта'
+BAN_TYPE_BANIP: 'блокировки'
+
 ITEMS_INFO: '§c⚠ Внимание §fУ вас есть §a%s§7 (нажмите сюда)'
 ITEMS_HOVER_MSG:
   - '§fНажмите сюда,'
