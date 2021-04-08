@@ -10929,9 +10929,6 @@ GUI_BOOSTERS_NO_ACTIVE_LORE:
   - '§7В данный момент,'
   - '§7у вас нет активированного бустера'
 
-GUI_BOOSTERS_TYPE_LORE:
-  - '§7Доступно: %s'
-
 GUI_BOOSTERS_NO_TYPE: '§c ✗ Нет доступных бустеров'
 GUI_BOOSTERS_YES_TYPE: '§e ▸ Нажмите, чтобы открыть список'
 BOOSTERS_OPEN: '§e ▸ Открыть бустеры'
