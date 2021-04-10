@@ -3130,7 +3130,7 @@ PLAYER_YOU_REDIRECTED_BY: '§aСервер §8| %s§f телепортирова
 PING: '§fВаш пинг §a%s'
 PING_TO: '§fПинг игрока %s§f - §a%s'
 PING_TO_SYSTEM: '§fПинг до системы §a%s'
-PING_NOT_FOUND: '§cНе определен'
+PING_NOT_FOUND: '§cвычисляется..'
 PING_BIG: '§cСлишком большой'
 PING_MS: 'мс'
 
