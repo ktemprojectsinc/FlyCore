@@ -1318,8 +1318,8 @@ FRIEND_JOIN_HOVER:
 FRIEND_JOIN_ACTIONBAR: '§aFriends §8| %s to game'
 FRIEND_JOIN_ONLINE: '§aFriends §8| §fOnline §a%s'
 
-FRIEND_JOIN_REQUESTS: '§aFriends §8| §fYou have §e%s§f rejected friend requests'
-PARTY_JOIN_REQUESTS: '§aParty §8| §fYou have §e%s§f rejected applications to the party'
+FRIEND_JOIN_REQUESTS: '§aFriends §8| §fYou have §e%s§f friend requests'
+PARTY_JOIN_REQUESTS: '§aParty §8| §fYou have §e%s§f applications to the party'
 GUILD_JOIN_REQUESTS: '§2Guilds §8| §fYou have §e%s§f missed filings in the Guild'
 MAIL_JOIN_REQUESTS: '§aMail §8| §fYou have §e%s§f unread emails §7(Click here)'
 MAIL_JOIN_HOVER:
