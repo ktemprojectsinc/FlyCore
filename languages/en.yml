@@ -3603,7 +3603,7 @@ AUTH_NAME_MORE:
   - '§eYou changed слишком more names за короткое время'
   - '§eAvailable names: %s'
 AUTH_BANNED:
-  - '§cThis Ip was banned for §e10 §cminutes'
+  - '§cThis Ip was banned for some minutes'
   - '§cSuspicion of hacking :/'
 AUTH_LOAD_ERROR: '§cError #2, contact vk.me/flycore'
 AUTH_SERVERS_NOT_AVAILABLE: '§cAuthorization servers is not availables, Contact vk.me/flycore'
