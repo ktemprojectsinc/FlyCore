@@ -774,7 +774,10 @@ PLAYER_HELP_MSG: 'Сообщите в'
 PROXY_SERVER_CONNECT_NULL: '§cВозникла внутренняя ошибка сервера.'
 PROXY_SERVER_CONNECT_ALREADY: '§cВы уже подключены к данному серверу'
 PROXY_SERVER_CONNECT_WAIT: '§cВы уже подключаетесь к данному серверу, ожидайте'
+PROXY_SERVER_CONNECT_CANCEL: '§cСервер к которому Вы подключались, отклонил ваше соединение'
 PROXY_SERVER_CONNECT_ERROR: '§fОшибка, сервер к которому Вы подключались закрыл ваше соединение. Вы перенаправлены на §a%s'
+PROXY_SERVER_CONNECT_ERROR2: '§fОшибка, сервер к которому Вы подключались не смог обработать ваше соединение (#1)'
+PROXY_SERVER_CONNECT_ERROR3: '§fОшибка, сервер к которому Вы подключались не смог обработать ваше соединение (#2)'
 PROXY_SERVER_CONNECT_DISC_KICK: '§cОшибка при соединении с сервером.'
 PROXY_SERVER_CONNECT_DISC_MSG: '§cОшибка при соединении с сервером.'
 
@@ -3962,10 +3965,8 @@ AUTH_REGISTER_CONFIRM_INFO_HOVER:
   - 'скриншот, чтобы не забыть - §6клавиша F2'
 AUTH_REGISTER_CONFIRM_INFO_TITLE: '§fБлагодарим за регистрацию'
 AUTH_REGISTER_CONFIRM_INFO_SUBTITLE: '§bНадеемся Вы останитесь с нами на долго :)'
-AUTH_LOGIN_TITLE: '§a§l§nFlyCore'
-AUTH_LOGIN_SUBTITLE: '§7Для продолжения зарегистрируйтесь'
-AUTH_REGISTER_TITLE: '§a§l§nFlyCore'
-AUTH_REGISTER_SUBTITLE: '§7Для продолжения авторизируйтесь'
+AUTH_REGISTER_SUBTITLE: '§7Для продолжения зарегистрируйтесь'
+AUTH_LOGIN_SUBTITLE: '§7Для продолжения авторизируйтесь'
 AUTH_NAME_SHORT:
   - '§cДлина ника должна быть не меньше 3 символов и не больше 16'
 AUTH_NAME_LIMIT:
