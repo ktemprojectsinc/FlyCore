@@ -867,15 +867,6 @@ PLAYER_ARENA_RESTARTED: '§cАрена перезапускается'
 PLAYER_FLY_ACTIONBAR_TIME: '§cДо конца полета осталось: %s'
 PLAYER_CREATIVE_ACTIONBAR_TIME: '§cДо конца творческого режима осталось: %s'
 
-PLAYER_BOOST_NEED_XP: '§cВам нехватает %s, для повышения до %s'
-PLAYER_BOOST_BROADCAST: '§aПовышение §8| %s§f повысился до звания %s §aПоздравьте его!'
-PLAYER_BOOST_MAX_BROADCAST: '§aПовышение §8| %s§f повысился до §a§nмаксимального§f звания %s §aПоздравьте его!'
-PLAYER_BOOST_YOUR_UP_1: '%s§l§kX§f §5Вы повысились до %s%s %s§l§kX§f'
-PLAYER_BOOST_YOUR_UP_2: '§fи получили:'
-PLAYER_BOOST_PLEASE_MADE_SCREENSHOT:
-  - '§aПовышение §8| §cПожалуйста отправьте скриншот этого сообщения в группу §a§nvk.me/flycore§c для получения повышения.'
-  - '§cДанная проверка сделана исключительно для вашей безопасности'
-
 AVAILABLE_SERVER_NOT_FOUND:
   - '§aСервер §8| §fНе удалось найти подходящий сервер'
 AVAILABLE_SERVER_NO_GROUP:
